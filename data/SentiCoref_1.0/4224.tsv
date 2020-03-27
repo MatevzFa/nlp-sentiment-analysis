@@ -1,0 +1,259 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ruskega predsednika Vladimirja Putina je danes ameriška revija Time magazine imenovala za » Osebnost leta 2007 « . Naziv so mu podelili , ker mu je s svojim vodenjem uspelo Rusijo vrniti med svetovne velesile . Po navedbah Time magazina naziv Osebnost leta ne pomeni priznanja ali časti , niti ni tekmovanje priljubljenosti . Gre za potrditev svetovnega voditelja , ki je v zadnjem letu najbolj vplival na potek svetovnih dogodkov , v pozitivnem ali negativnem smislu . " Ruski car , ki predstavlja nevarnost " Putin , bivši KGB agent , je po mnenju glavnega urednika revije Richarda Stengla v zadnjem letu naredil najbolj nenavadne in vplivne stvari . Po njegovih besedah je Putin ruski car , ki predstavlja nevarnost , ker se ne zmeni za civilno svobodo ali svobodo govora . V državo pa je vpeljal stabilnost , katero je Rusija potrebovala . Zato ga državljani tudi tako cenijo in obožujejo . Putin je pripravljen zasesti mesto predsednika vlade Putina so imenovali za osebnost leta le dva dni zatem , ko je sporočil , da je pripravljen ostati na oblasti , tudi ko mu mandat poteče . Če bo prihodnje leto na mesto predsednika Rusije izvoljen Dimitrij Medvedjev je Putin pripravljen prevzeti položaj predsednika vlade . Med kandidati tudi avtorica Harryja Potterja Kandidati za naziv Osebnost leta 2007 so bili poleg Vladimirja Putina še bivši ameriški podpredsednik Al Gore , britanska pisateljica J . K . Rowling , kitajski predsednik Hu Jintao in ameriški poveljnik v Iraku general David Petraeus
+1-1	0-7	Ruskega	_	_	*->1-1	*[1]	
+1-2	8-19	predsednika	_	_	*->1-1	*[1]	
+1-3	20-30	Vladimirja	PER[1]	_	*->1-1	*[1]	
+1-4	31-37	Putina	PER[1]	_	*->1-1	*[1]	
+1-5	38-40	je	_	_	_	_	
+1-6	41-46	danes	_	_	_	_	
+1-7	47-55	ameriška	_	_	*->12-1	*[12]	
+1-8	56-62	revija	_	_	*->12-1	*[12]	
+1-9	63-67	Time	ORG[2]	_	*->12-1	*[12]	
+1-10	68-76	magazine	ORG[2]	_	*->12-1	*[12]	
+1-11	77-86	imenovala	_	_	_	_	
+1-12	87-89	za	_	_	_	_	
+1-13	90-91	»	_	_	*->1-2	*[1]	
+1-14	92-100	Osebnost	_	_	*->1-2	*[1]	
+1-15	101-105	leta	_	_	*->1-2	*[1]	
+1-16	106-110	2007	_	_	*->1-2	*[1]	
+1-17	111-112	«	_	_	*->1-2	*[1]	
+1-18	113-114	.	_	_	_	_	
+1-19	115-120	Naziv	_	_	_	_	
+1-20	121-123	so	_	_	_	_	
+1-21	124-126	mu	_	_	*->1-3	*[1]	
+1-22	127-135	podelili	_	_	_	_	
+1-23	136-137	,	_	_	_	_	
+1-24	138-141	ker	_	_	_	_	
+1-25	142-144	mu	_	_	*->1-4	*[1]	
+1-26	145-147	je	_	_	_	_	
+1-27	148-149	s	_	_	_	_	
+1-28	150-156	svojim	_	_	_	_	
+1-29	157-165	vodenjem	_	_	_	_	
+1-30	166-172	uspelo	_	_	_	_	
+1-31	173-179	Rusijo	ORG	_	*->2-1	*[2]	
+1-32	180-186	vrniti	_	_	_	_	
+1-33	187-190	med	_	_	_	_	
+1-34	191-199	svetovne	_	_	_	_	
+1-35	200-208	velesile	_	_	_	_	
+1-36	209-210	.	_	_	_	_	
+1-37	211-213	Po	_	_	_	_	
+1-38	214-222	navedbah	_	_	_	_	
+1-39	223-227	Time	_	3 - Nevtralno[11]	*->12-2	*[12]	
+1-40	228-236	magazina	_	3 - Nevtralno[11]	*->12-2	*[12]	
+1-41	237-242	naziv	_	_	_	_	
+1-42	243-251	Osebnost	_	_	_	_	
+1-43	252-256	leta	_	_	_	_	
+1-44	257-259	ne	_	_	_	_	
+1-45	260-266	pomeni	_	_	_	_	
+1-46	267-276	priznanja	_	_	_	_	
+1-47	277-280	ali	_	_	_	_	
+1-48	281-286	časti	_	_	_	_	
+1-49	287-288	,	_	_	_	_	
+1-50	289-293	niti	_	_	_	_	
+1-51	294-296	ni	_	_	_	_	
+1-52	297-307	tekmovanje	_	_	_	_	
+1-53	308-323	priljubljenosti	_	_	_	_	
+1-54	324-325	.	_	_	_	_	
+1-55	326-329	Gre	_	_	_	_	
+1-56	330-332	za	_	_	_	_	
+1-57	333-342	potrditev	_	_	_	_	
+1-58	343-353	svetovnega	_	_	*->1-5	*[1]	
+1-59	354-363	voditelja	_	_	*->1-5	*[1]	
+1-60	364-365	,	_	_	_	_	
+1-61	366-368	ki	_	_	_	_	
+1-62	369-371	je	_	_	_	_	
+1-63	372-373	v	_	_	_	_	
+1-64	374-381	zadnjem	_	_	_	_	
+1-65	382-386	letu	_	_	_	_	
+1-66	387-394	najbolj	_	_	_	_	
+1-67	395-402	vplival	_	_	*->1-6	*[1]	
+1-68	403-405	na	_	_	_	_	
+1-69	406-411	potek	_	_	_	_	
+1-70	412-421	svetovnih	_	_	_	_	
+1-71	422-430	dogodkov	_	_	_	_	
+1-72	431-432	,	_	_	_	_	
+1-73	433-434	v	_	_	_	_	
+1-74	435-445	pozitivnem	_	_	_	_	
+1-75	446-449	ali	_	_	_	_	
+1-76	450-460	negativnem	_	_	_	_	
+1-77	461-467	smislu	_	_	_	_	
+1-78	468-469	.	_	_	_	_	
+1-79	470-471	"	_	_	_	_	
+1-80	472-477	Ruski	_	_	*->1-7	*[1]	
+1-81	478-481	car	_	_	*->1-7	*[1]	
+1-82	482-483	,	_	_	_	_	
+1-83	484-486	ki	_	_	_	_	
+1-84	487-498	predstavlja	_	_	_	_	
+1-85	499-508	nevarnost	_	_	_	_	
+1-86	509-510	"	_	_	_	_	
+1-87	511-516	Putin	PER	_	*->1-8	*[1]	
+1-88	517-518	,	_	_	_	_	
+1-89	519-524	bivši	_	_	*->1-9	*[1]	
+1-90	525-528	KGB	ORG	3 - Nevtralno	*->1-9|*->3-1	*[1]|*[3]	
+1-91	529-534	agent	_	_	*->1-9	*[1]	
+1-92	535-536	,	_	_	_	_	
+1-93	537-539	je	_	_	_	_	
+1-94	540-542	po	_	_	_	_	
+1-95	543-549	mnenju	_	_	_	_	
+1-96	550-558	glavnega	_	_	*->4-1	*[4]	
+1-97	559-567	urednika	_	_	*->4-1	*[4]	
+1-98	568-574	revije	_	_	*->4-1	*[4]	
+1-99	575-583	Richarda	PER[3]	_	*->4-1	*[4]	
+1-100	584-591	Stengla	PER[3]	_	*->4-1	*[4]	
+1-101	592-593	v	_	_	_	_	
+1-102	594-601	zadnjem	_	_	_	_	
+1-103	602-606	letu	_	_	_	_	
+1-104	607-614	naredil	_	_	*->1-10	*[1]	
+1-105	615-622	najbolj	_	_	_	_	
+1-106	623-632	nenavadne	_	_	_	_	
+1-107	633-635	in	_	_	_	_	
+1-108	636-643	vplivne	_	_	_	_	
+1-109	644-650	stvari	_	_	_	_	
+1-110	651-652	.	_	_	_	_	
+1-111	653-655	Po	_	_	_	_	
+1-112	656-664	njegovih	_	3 - Nevtralno	*->4-2	*[4]	
+1-113	665-672	besedah	_	_	_	_	
+1-114	673-675	je	_	_	_	_	
+1-115	676-681	Putin	PER	_	*->1-11	*[1]	
+1-116	682-687	ruski	_	_	_	_	
+1-117	688-691	car	_	_	_	_	
+1-118	692-693	,	_	_	_	_	
+1-119	694-696	ki	_	_	_	_	
+1-120	697-708	predstavlja	_	_	_	_	
+1-121	709-718	nevarnost	_	_	_	_	
+1-122	719-720	,	_	_	_	_	
+1-123	721-724	ker	_	_	_	_	
+1-124	725-727	se	_	_	_	_	
+1-125	728-730	ne	_	_	_	_	
+1-126	731-736	zmeni	_	_	*->1-12	*[1]	
+1-127	737-739	za	_	_	_	_	
+1-128	740-747	civilno	_	_	_	_	
+1-129	748-755	svobodo	_	_	_	_	
+1-130	756-759	ali	_	_	_	_	
+1-131	760-767	svobodo	_	_	_	_	
+1-132	768-774	govora	_	_	_	_	
+1-133	775-776	.	_	_	_	_	
+1-134	777-778	V	_	_	_	_	
+1-135	779-785	državo	_	_	*->2-2	*[2]	
+1-136	786-788	pa	_	_	_	_	
+1-137	789-791	je	_	_	_	_	
+1-138	792-799	vpeljal	_	_	_	_	
+1-139	800-810	stabilnost	_	_	_	_	
+1-140	811-812	,	_	_	_	_	
+1-141	813-819	katero	_	_	_	_	
+1-142	820-822	je	_	_	_	_	
+1-143	823-829	Rusija	ORG	_	*->2-3	*[2]	
+1-144	830-841	potrebovala	_	_	_	_	
+1-145	842-843	.	_	_	_	_	
+1-146	844-848	Zato	_	_	_	_	
+1-147	849-851	ga	_	_	*->1-13	*[1]	
+1-148	852-862	državljani	_	_	_	_	
+1-149	863-867	tudi	_	_	_	_	
+1-150	868-872	tako	_	_	_	_	
+1-151	873-879	cenijo	_	_	_	_	
+1-152	880-882	in	_	_	_	_	
+1-153	883-892	obožujejo	_	_	_	_	
+1-154	893-894	.	_	_	_	_	
+1-155	895-900	Putin	PER	_	*->1-14	*[1]	
+1-156	901-903	je	_	_	_	_	
+1-157	904-915	pripravljen	_	_	_	_	
+1-158	916-923	zasesti	_	_	_	_	
+1-159	924-929	mesto	_	_	_	_	
+1-160	930-941	predsednika	_	_	_	_	
+1-161	942-947	vlade	_	_	_	_	
+1-162	948-954	Putina	PER	_	*->1-15	*[1]	
+1-163	955-957	so	_	_	_	_	
+1-164	958-967	imenovali	_	_	_	_	
+1-165	968-970	za	_	_	_	_	
+1-166	971-979	osebnost	_	_	_	_	
+1-167	980-984	leta	_	_	_	_	
+1-168	985-987	le	_	_	_	_	
+1-169	988-991	dva	_	_	_	_	
+1-170	992-995	dni	_	_	_	_	
+1-171	996-1001	zatem	_	_	_	_	
+1-172	1002-1003	,	_	_	_	_	
+1-173	1004-1006	ko	_	_	_	_	
+1-174	1007-1009	je	_	_	_	_	
+1-175	1010-1018	sporočil	_	_	*->1-16	*[1]	
+1-176	1019-1020	,	_	_	_	_	
+1-177	1021-1023	da	_	_	_	_	
+1-178	1024-1026	je	_	_	_	_	
+1-179	1027-1038	pripravljen	_	_	*->1-17	*[1]	
+1-180	1039-1045	ostati	_	_	_	_	
+1-181	1046-1048	na	_	_	_	_	
+1-182	1049-1056	oblasti	_	_	_	_	
+1-183	1057-1058	,	_	_	_	_	
+1-184	1059-1063	tudi	_	_	_	_	
+1-185	1064-1066	ko	_	_	_	_	
+1-186	1067-1069	mu	_	_	*->1-18	*[1]	
+1-187	1070-1076	mandat	_	_	_	_	
+1-188	1077-1083	poteče	_	_	_	_	
+1-189	1084-1085	.	_	_	_	_	
+1-190	1086-1088	Če	_	_	_	_	
+1-191	1089-1091	bo	_	_	_	_	
+1-192	1092-1101	prihodnje	_	_	_	_	
+1-193	1102-1106	leto	_	_	_	_	
+1-194	1107-1109	na	_	_	_	_	
+1-195	1110-1115	mesto	_	_	_	_	
+1-196	1116-1127	predsednika	_	_	_	_	
+1-197	1128-1134	Rusije	LOC	3 - Nevtralno	*->2-4	*[2]	
+1-198	1135-1143	izvoljen	_	_	_	_	
+1-199	1144-1152	Dimitrij	PER[4]	3 - Nevtralno[12]	*->5-1	*[5]	
+1-200	1153-1162	Medvedjev	PER[4]	3 - Nevtralno[12]	*->5-1	*[5]	
+1-201	1163-1165	je	_	_	_	_	
+1-202	1166-1171	Putin	PER	_	*->1-19	*[1]	
+1-203	1172-1183	pripravljen	_	_	_	_	
+1-204	1184-1192	prevzeti	_	_	_	_	
+1-205	1193-1200	položaj	_	_	_	_	
+1-206	1201-1212	predsednika	_	_	_	_	
+1-207	1213-1218	vlade	_	_	_	_	
+1-208	1219-1220	.	_	_	_	_	
+1-209	1221-1224	Med	_	_	_	_	
+1-210	1225-1234	kandidati	_	_	_	_	
+1-211	1235-1239	tudi	_	_	_	_	
+1-212	1240-1248	avtorica	_	_	*->6-1	*[6]	
+1-213	1249-1256	Harryja	PER[5]	3 - Nevtralno[13]	*->6-1|*->7-1	*[6]|*[7]	
+1-214	1257-1265	Potterja	PER[5]	3 - Nevtralno[13]	*->6-1|*->7-1	*[6]|*[7]	
+1-215	1266-1275	Kandidati	_	_	_	_	
+1-216	1276-1278	za	_	_	_	_	
+1-217	1279-1284	naziv	_	_	_	_	
+1-218	1285-1293	Osebnost	_	_	_	_	
+1-219	1294-1298	leta	_	_	_	_	
+1-220	1299-1303	2007	_	_	_	_	
+1-221	1304-1306	so	_	_	_	_	
+1-222	1307-1311	bili	_	_	_	_	
+1-223	1312-1317	poleg	_	_	_	_	
+1-224	1318-1328	Vladimirja	PER[6]	4 - Pozitivno[14]	*->1-20	*[1]	
+1-225	1329-1335	Putina	PER[6]	4 - Pozitivno[14]	*->1-20	*[1]	
+1-226	1336-1338	še	_	_	_	_	
+1-227	1339-1344	bivši	_	4 - Pozitivno[15]	*->8-1	*[8]	
+1-228	1345-1353	ameriški	_	4 - Pozitivno[15]	*->8-1	*[8]	
+1-229	1354-1367	podpredsednik	_	4 - Pozitivno[15]	*->8-1	*[8]	
+1-230	1368-1370	Al	PER[7]	4 - Pozitivno[15]	*->8-1	*[8]	
+1-231	1371-1375	Gore	PER[7]	4 - Pozitivno[15]	*->8-1	*[8]	
+1-232	1376-1377	,	_	_	_	_	
+1-233	1378-1387	britanska	_	4 - Pozitivno[16]	*->6-2	*[6]	
+1-234	1388-1399	pisateljica	_	4 - Pozitivno[16]	*->6-2	*[6]	
+1-235	1400-1401	J	PER[8]	4 - Pozitivno[16]	*->6-2	*[6]	
+1-236	1402-1403	.	PER[8]	4 - Pozitivno[16]	*->6-2	*[6]	
+1-237	1404-1405	K	PER[8]	4 - Pozitivno[16]	*->6-2	*[6]	
+1-238	1406-1407	.	PER[8]	4 - Pozitivno[16]	*->6-2	*[6]	
+1-239	1408-1415	Rowling	PER[8]	4 - Pozitivno[16]	*->6-2	*[6]	
+1-240	1416-1417	,	_	_	_	_	
+1-241	1418-1426	kitajski	_	4 - Pozitivno[17]	*->9-1	*[9]	
+1-242	1427-1437	predsednik	_	4 - Pozitivno[17]	*->9-1	*[9]	
+1-243	1438-1440	Hu	PER[9]	4 - Pozitivno[17]	*->9-1	*[9]	
+1-244	1441-1447	Jintao	PER[9]	4 - Pozitivno[17]	*->9-1	*[9]	
+1-245	1448-1450	in	_	_	_	_	
+1-246	1451-1459	ameriški	_	4 - Pozitivno[18]	*->10-1	*[10]	
+1-247	1460-1469	poveljnik	_	4 - Pozitivno[18]	*->10-1	*[10]	
+1-248	1470-1471	v	_	4 - Pozitivno[18]	*->10-1	*[10]	
+1-249	1472-1477	Iraku	LOC	4 - Pozitivno[18]|3 - Nevtralno[19]	*->10-1|*->11-1	*[10]|*[11]	
+1-250	1478-1485	general	_	4 - Pozitivno[18]	*->10-1	*[10]	
+1-251	1486-1491	David	PER[10]	4 - Pozitivno[18]	*->10-1	*[10]	
+1-252	1492-1500	Petraeus	PER[10]	4 - Pozitivno[18]	*->10-1	*[10]	

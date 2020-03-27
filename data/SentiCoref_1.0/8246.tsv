@@ -1,0 +1,402 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Začel se bo 14 . oglaševalski festival Zlati boben , na katerem se bodo za nagrade potegovala 3104 dela iz 39 držav . Sam festival pa bo tudi v znamenju Avstrije . Festival bo potekal vse do 19 . oktobra , ko se bo za nagrade Zlatega bobna in uvrstitev za tekmovanje The Cup potegovalo 2628 del , 230 del za nagrade Piran Portorož Advertising Award in 246 del za nagrado za najboljšo fotografijo . Največ del iz Romunije Tokratni festival bo predvsem v znamenju Avstrije in tam dobro poznane stojnice za prodajo klobasic . Največ del so tako kot lani prijavile oglaševalske agencije iz Romunije . Ti so letos prijavili 343 del , kar je za 23 odstotkov več kot lani . Sledijo Avstrijci ( 229 del ) , Poljaki ( 207 del ) , Čehi ( 206 del ) in Rusi ( 200 del ) . Sledijo jim slovenske agencije , ki so prijavile 180 del . Med prijavitelji iz Slovenije je največ del prijavila Futura DDB ( 32 del ) , sledijo Mayer McCann ( 23 ) , Original ter Publics / Pubilcs Groupe s po 20 deli , Luna TBWA ( 16 del ) in Pristop s 14 prijavljenimi deli . Precejšnje rasti prijavljenih del organizatorji ugotavljajo tudi iz Izraela , od koder so letos prijavili 134 in lani 41 del , s Finskega ( 77 del , 54 del ) , iz Turčije ( 112 , 61 del ) , Švice ( 71 del , dve deli ) in z Nizozemskega ( 18 del , dve deli ) . Predovičeva je omenila tudi visoko rast števila prijavljenih del iz Srbije , Litve , Ukrajine in Bolgarije . Festival v znamenju Avstrije Festival bo potekal pod geslom Onkraj obzorij , tako z idejo kot tudi z oglaševalskimi sredstvi pa bo kreativno najbolj v ospredju nacionalna zabava Avstrije , ki jo bo v sredo pripravila avstrijsko - slovenska agencija Strobl + Strobl Advertising . Linški oglaševalci so v ta namen 70 let stari bivalni prikolici nadeli nov kreativni videz . " Kot glavno vizualno podobo pri vseh oglaševalskih sredstvih – posterjih , letakih in karticah – bomo uporabili v Avstriji dobro poznano stojnico za prodajo klobasic , tako imenovano Würstelstand , ki smo jo uredili v lastnem dizajnu . Stojnico bomo uporabili tudi na zabavi , " pravi direktor omenjene oglaševalske agencije
+1-1	0-5	Začel	_	_	_	_	
+1-2	6-8	se	_	_	_	_	
+1-3	9-11	bo	_	_	_	_	
+1-4	12-14	14	_	_	_	_	
+1-5	15-16	.	_	_	_	_	
+1-6	17-29	oglaševalski	_	_	_	_	
+1-7	30-38	festival	_	_	_	_	
+1-8	39-44	Zlati	_	_	_	_	
+1-9	45-50	boben	_	_	_	_	
+1-10	51-52	,	_	_	_	_	
+1-11	53-55	na	_	_	_	_	
+1-12	56-63	katerem	_	_	_	_	
+1-13	64-66	se	_	_	_	_	
+1-14	67-71	bodo	_	_	_	_	
+1-15	72-74	za	_	_	_	_	
+1-16	75-82	nagrade	_	_	_	_	
+1-17	83-93	potegovala	_	_	_	_	
+1-18	94-98	3104	_	_	_	_	
+1-19	99-103	dela	_	_	_	_	
+1-20	104-106	iz	_	_	_	_	
+1-21	107-109	39	_	_	_	_	
+1-22	110-115	držav	_	_	_	_	
+1-23	116-117	.	_	_	_	_	
+1-24	118-121	Sam	_	_	_	_	
+1-25	122-130	festival	_	_	_	_	
+1-26	131-133	pa	_	_	_	_	
+1-27	134-136	bo	_	_	_	_	
+1-28	137-141	tudi	_	_	_	_	
+1-29	142-143	v	_	_	_	_	
+1-30	144-152	znamenju	_	_	_	_	
+1-31	153-161	Avstrije	LOC	_	*->25-1	*[25]	
+1-32	162-163	.	_	_	_	_	
+1-33	164-172	Festival	_	_	_	_	
+1-34	173-175	bo	_	_	_	_	
+1-35	176-183	potekal	_	_	_	_	
+1-36	184-187	vse	_	_	_	_	
+1-37	188-190	do	_	_	_	_	
+1-38	191-193	19	_	_	_	_	
+1-39	194-195	.	_	_	_	_	
+1-40	196-203	oktobra	_	_	_	_	
+1-41	204-205	,	_	_	_	_	
+1-42	206-208	ko	_	_	_	_	
+1-43	209-211	se	_	_	_	_	
+1-44	212-214	bo	_	_	_	_	
+1-45	215-217	za	_	_	_	_	
+1-46	218-225	nagrade	_	_	_	_	
+1-47	226-233	Zlatega	_	_	_	_	
+1-48	234-239	bobna	_	_	_	_	
+1-49	240-242	in	_	_	_	_	
+1-50	243-252	uvrstitev	_	_	_	_	
+1-51	253-255	za	_	_	_	_	
+1-52	256-266	tekmovanje	_	_	_	_	
+1-53	267-270	The	_	_	_	_	
+1-54	271-274	Cup	_	_	_	_	
+1-55	275-285	potegovalo	_	_	_	_	
+1-56	286-290	2628	_	_	_	_	
+1-57	291-294	del	_	_	_	_	
+1-58	295-296	,	_	_	_	_	
+1-59	297-300	230	_	_	_	_	
+1-60	301-304	del	_	_	_	_	
+1-61	305-307	za	_	_	_	_	
+1-62	308-315	nagrade	_	_	_	_	
+1-63	316-321	Piran	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-64	322-330	Portorož	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-65	331-342	Advertising	_	_	_	_	
+1-66	343-348	Award	_	_	_	_	
+1-67	349-351	in	_	_	_	_	
+1-68	352-355	246	_	_	_	_	
+1-69	356-359	del	_	_	_	_	
+1-70	360-362	za	_	_	_	_	
+1-71	363-370	nagrado	_	_	_	_	
+1-72	371-373	za	_	_	_	_	
+1-73	374-383	najboljšo	_	_	_	_	
+1-74	384-395	fotografijo	_	_	_	_	
+1-75	396-397	.	_	_	_	_	
+1-76	398-404	Največ	_	_	_	_	
+1-77	405-408	del	_	_	_	_	
+1-78	409-411	iz	_	_	_	_	
+1-79	412-420	Romunije	LOC	_	*->3-1	*[3]	
+1-80	421-429	Tokratni	_	_	_	_	
+1-81	430-438	festival	_	_	_	_	
+1-82	439-441	bo	_	_	_	_	
+1-83	442-450	predvsem	_	_	_	_	
+1-84	451-452	v	_	_	_	_	
+1-85	453-461	znamenju	_	_	_	_	
+1-86	462-470	Avstrije	LOC	_	*->25-2	*[25]	
+1-87	471-473	in	_	_	_	_	
+1-88	474-477	tam	_	_	_	_	
+1-89	478-483	dobro	_	_	_	_	
+1-90	484-491	poznane	_	_	_	_	
+1-91	492-500	stojnice	_	_	_	_	
+1-92	501-503	za	_	_	_	_	
+1-93	504-511	prodajo	_	_	_	_	
+1-94	512-520	klobasic	_	_	_	_	
+1-95	521-522	.	_	_	_	_	
+1-96	523-529	Največ	_	_	_	_	
+1-97	530-533	del	_	_	_	_	
+1-98	534-536	so	_	_	_	_	
+1-99	537-541	tako	_	_	_	_	
+1-100	542-545	kot	_	_	_	_	
+1-101	546-550	lani	_	_	_	_	
+1-102	551-560	prijavile	_	_	_	_	
+1-103	561-573	oglaševalske	_	_	_	_	
+1-104	574-582	agencije	_	_	_	_	
+1-105	583-585	iz	_	_	_	_	
+1-106	586-594	Romunije	LOC	3 - Nevtralno	*->3-2	*[3]	
+1-107	595-596	.	_	_	_	_	
+1-108	597-599	Ti	_	_	_	_	
+1-109	600-602	so	_	_	_	_	
+1-110	603-608	letos	_	_	_	_	
+1-111	609-618	prijavili	_	_	_	_	
+1-112	619-622	343	_	_	_	_	
+1-113	623-626	del	_	_	_	_	
+1-114	627-628	,	_	_	_	_	
+1-115	629-632	kar	_	_	_	_	
+1-116	633-635	je	_	_	_	_	
+1-117	636-638	za	_	_	_	_	
+1-118	639-641	23	_	_	_	_	
+1-119	642-651	odstotkov	_	_	_	_	
+1-120	652-655	več	_	_	_	_	
+1-121	656-659	kot	_	_	_	_	
+1-122	660-664	lani	_	_	_	_	
+1-123	665-666	.	_	_	_	_	
+1-124	667-674	Sledijo	_	_	_	_	
+1-125	675-684	Avstrijci	PER	3 - Nevtralno	*->4-1	*[4]	
+1-126	685-686	(	_	_	_	_	
+1-127	687-690	229	_	_	_	_	
+1-128	691-694	del	_	_	_	_	
+1-129	695-696	)	_	_	_	_	
+1-130	697-698	,	_	_	_	_	
+1-131	699-706	Poljaki	PER	3 - Nevtralno	*->5-1	*[5]	
+1-132	707-708	(	_	_	_	_	
+1-133	709-712	207	_	_	_	_	
+1-134	713-716	del	_	_	_	_	
+1-135	717-718	)	_	_	_	_	
+1-136	719-720	,	_	_	_	_	
+1-137	721-725	Čehi	PER	3 - Nevtralno	*->6-1	*[6]	
+1-138	726-727	(	_	_	_	_	
+1-139	728-731	206	_	_	_	_	
+1-140	732-735	del	_	_	_	_	
+1-141	736-737	)	_	_	_	_	
+1-142	738-740	in	_	_	_	_	
+1-143	741-745	Rusi	PER	3 - Nevtralno	*->7-1	*[7]	
+1-144	746-747	(	_	_	_	_	
+1-145	748-751	200	_	_	_	_	
+1-146	752-755	del	_	_	_	_	
+1-147	756-757	)	_	_	_	_	
+1-148	758-759	.	_	_	_	_	
+1-149	760-767	Sledijo	_	_	_	_	
+1-150	768-771	jim	_	_	_	_	
+1-151	772-781	slovenske	_	_	_	_	
+1-152	782-790	agencije	_	_	_	_	
+1-153	791-792	,	_	_	_	_	
+1-154	793-795	ki	_	_	_	_	
+1-155	796-798	so	_	_	_	_	
+1-156	799-808	prijavile	_	_	_	_	
+1-157	809-812	180	_	_	_	_	
+1-158	813-816	del	_	_	_	_	
+1-159	817-818	.	_	_	_	_	
+1-160	819-822	Med	_	_	_	_	
+1-161	823-835	prijavitelji	_	_	_	_	
+1-162	836-838	iz	_	_	_	_	
+1-163	839-848	Slovenije	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-164	849-851	je	_	_	_	_	
+1-165	852-858	največ	_	_	_	_	
+1-166	859-862	del	_	_	_	_	
+1-167	863-872	prijavila	_	_	_	_	
+1-168	873-879	Futura	ORG[1]	3 - Nevtralno[6]	*->9-1	*[9]	
+1-169	880-883	DDB	ORG[1]	3 - Nevtralno[6]	*->9-1	*[9]	
+1-170	884-885	(	_	_	_	_	
+1-171	886-888	32	_	_	_	_	
+1-172	889-892	del	_	_	_	_	
+1-173	893-894	)	_	_	_	_	
+1-174	895-896	,	_	_	_	_	
+1-175	897-904	sledijo	_	_	_	_	
+1-176	905-910	Mayer	ORG[2]	3 - Nevtralno[7]	*->10-1	*[10]	
+1-177	911-917	McCann	ORG[2]	3 - Nevtralno[7]	*->10-1	*[10]	
+1-178	918-919	(	_	_	_	_	
+1-179	920-922	23	_	_	_	_	
+1-180	923-924	)	_	_	_	_	
+1-181	925-926	,	_	_	_	_	
+1-182	927-935	Original	ORG	3 - Nevtralno	*->11-1	*[11]	
+1-183	936-939	ter	_	_	_	_	
+1-184	940-947	Publics	ORG[3]	3 - Nevtralno[8]	*->12-1	*[12]	
+1-185	948-949	/	ORG[3]	3 - Nevtralno[8]	*->12-1	*[12]	
+1-186	950-957	Pubilcs	ORG[3]	3 - Nevtralno[8]	*->12-1	*[12]	
+1-187	958-964	Groupe	ORG[3]	3 - Nevtralno[8]	*->12-1	*[12]	
+1-188	965-966	s	_	_	_	_	
+1-189	967-969	po	_	_	_	_	
+1-190	970-972	20	_	_	_	_	
+1-191	973-977	deli	_	_	_	_	
+1-192	978-979	,	_	_	_	_	
+1-193	980-984	Luna	ORG[4]	3 - Nevtralno[9]	*->13-1	*[13]	
+1-194	985-989	TBWA	ORG[4]	3 - Nevtralno[9]	*->13-1	*[13]	
+1-195	990-991	(	_	_	_	_	
+1-196	992-994	16	_	_	_	_	
+1-197	995-998	del	_	_	_	_	
+1-198	999-1000	)	_	_	_	_	
+1-199	1001-1003	in	_	_	_	_	
+1-200	1004-1011	Pristop	ORG	3 - Nevtralno	*->14-1	*[14]	
+1-201	1012-1013	s	_	_	_	_	
+1-202	1014-1016	14	_	_	_	_	
+1-203	1017-1030	prijavljenimi	_	_	_	_	
+1-204	1031-1035	deli	_	_	_	_	
+1-205	1036-1037	.	_	_	_	_	
+1-206	1038-1048	Precejšnje	_	_	_	_	
+1-207	1049-1054	rasti	_	_	_	_	
+1-208	1055-1067	prijavljenih	_	_	_	_	
+1-209	1068-1071	del	_	_	_	_	
+1-210	1072-1085	organizatorji	_	_	_	_	
+1-211	1086-1097	ugotavljajo	_	_	_	_	
+1-212	1098-1102	tudi	_	_	_	_	
+1-213	1103-1105	iz	_	_	_	_	
+1-214	1106-1113	Izraela	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-215	1114-1115	,	_	_	_	_	
+1-216	1116-1118	od	_	_	_	_	
+1-217	1119-1124	koder	_	_	_	_	
+1-218	1125-1127	so	_	_	_	_	
+1-219	1128-1133	letos	_	_	_	_	
+1-220	1134-1143	prijavili	_	_	_	_	
+1-221	1144-1147	134	_	_	_	_	
+1-222	1148-1150	in	_	_	_	_	
+1-223	1151-1155	lani	_	_	_	_	
+1-224	1156-1158	41	_	_	_	_	
+1-225	1159-1162	del	_	_	_	_	
+1-226	1163-1164	,	_	_	_	_	
+1-227	1165-1166	s	_	_	_	_	
+1-228	1167-1175	Finskega	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-229	1176-1177	(	_	_	_	_	
+1-230	1178-1180	77	_	_	_	_	
+1-231	1181-1184	del	_	_	_	_	
+1-232	1185-1186	,	_	_	_	_	
+1-233	1187-1189	54	_	_	_	_	
+1-234	1190-1193	del	_	_	_	_	
+1-235	1194-1195	)	_	_	_	_	
+1-236	1196-1197	,	_	_	_	_	
+1-237	1198-1200	iz	_	_	_	_	
+1-238	1201-1208	Turčije	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-239	1209-1210	(	_	_	_	_	
+1-240	1211-1214	112	_	_	_	_	
+1-241	1215-1216	,	_	_	_	_	
+1-242	1217-1219	61	_	_	_	_	
+1-243	1220-1223	del	_	_	_	_	
+1-244	1224-1225	)	_	_	_	_	
+1-245	1226-1227	,	_	_	_	_	
+1-246	1228-1233	Švice	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-247	1234-1235	(	_	_	_	_	
+1-248	1236-1238	71	_	_	_	_	
+1-249	1239-1242	del	_	_	_	_	
+1-250	1243-1244	,	_	_	_	_	
+1-251	1245-1248	dve	_	_	_	_	
+1-252	1249-1253	deli	_	_	_	_	
+1-253	1254-1255	)	_	_	_	_	
+1-254	1256-1258	in	_	_	_	_	
+1-255	1259-1260	z	_	_	_	_	
+1-256	1261-1273	Nizozemskega	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-257	1274-1275	(	_	_	_	_	
+1-258	1276-1278	18	_	_	_	_	
+1-259	1279-1282	del	_	_	_	_	
+1-260	1283-1284	,	_	_	_	_	
+1-261	1285-1288	dve	_	_	_	_	
+1-262	1289-1293	deli	_	_	_	_	
+1-263	1294-1295	)	_	_	_	_	
+1-264	1296-1297	.	_	_	_	_	
+1-265	1298-1309	Predovičeva	PER	3 - Nevtralno	*->20-1	*[20]	
+1-266	1310-1312	je	_	_	_	_	
+1-267	1313-1320	omenila	_	_	_	_	
+1-268	1321-1325	tudi	_	_	_	_	
+1-269	1326-1332	visoko	_	_	_	_	
+1-270	1333-1337	rast	_	_	_	_	
+1-271	1338-1345	števila	_	_	_	_	
+1-272	1346-1358	prijavljenih	_	_	_	_	
+1-273	1359-1362	del	_	_	_	_	
+1-274	1363-1365	iz	_	_	_	_	
+1-275	1366-1372	Srbije	LOC	3 - Nevtralno	*->21-1	*[21]	
+1-276	1373-1374	,	_	_	_	_	
+1-277	1375-1380	Litve	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-278	1381-1382	,	_	_	_	_	
+1-279	1383-1391	Ukrajine	LOC	3 - Nevtralno	*->23-1	*[23]	
+1-280	1392-1394	in	_	_	_	_	
+1-281	1395-1404	Bolgarije	LOC	3 - Nevtralno	*->24-1	*[24]	
+1-282	1405-1406	.	_	_	_	_	
+1-283	1407-1415	Festival	_	_	_	_	
+1-284	1416-1417	v	_	_	_	_	
+1-285	1418-1426	znamenju	_	_	_	_	
+1-286	1427-1435	Avstrije	LOC	_	*->25-3	*[25]	
+1-287	1436-1444	Festival	_	_	_	_	
+1-288	1445-1447	bo	_	_	_	_	
+1-289	1448-1455	potekal	_	_	_	_	
+1-290	1456-1459	pod	_	_	_	_	
+1-291	1460-1466	geslom	_	_	_	_	
+1-292	1467-1473	Onkraj	_	_	_	_	
+1-293	1474-1481	obzorij	_	_	_	_	
+1-294	1482-1483	,	_	_	_	_	
+1-295	1484-1488	tako	_	_	_	_	
+1-296	1489-1490	z	_	_	_	_	
+1-297	1491-1496	idejo	_	_	_	_	
+1-298	1497-1500	kot	_	_	_	_	
+1-299	1501-1505	tudi	_	_	_	_	
+1-300	1506-1507	z	_	_	_	_	
+1-301	1508-1522	oglaševalskimi	_	_	_	_	
+1-302	1523-1531	sredstvi	_	_	_	_	
+1-303	1532-1534	pa	_	_	_	_	
+1-304	1535-1537	bo	_	_	_	_	
+1-305	1538-1547	kreativno	_	_	_	_	
+1-306	1548-1555	najbolj	_	_	_	_	
+1-307	1556-1557	v	_	_	_	_	
+1-308	1558-1566	ospredju	_	_	_	_	
+1-309	1567-1577	nacionalna	_	_	_	_	
+1-310	1578-1584	zabava	_	_	_	_	
+1-311	1585-1593	Avstrije	LOC	_	*->25-4	*[25]	
+1-312	1594-1595	,	_	_	_	_	
+1-313	1596-1598	ki	_	_	_	_	
+1-314	1599-1601	jo	_	_	_	_	
+1-315	1602-1604	bo	_	_	_	_	
+1-316	1605-1606	v	_	_	_	_	
+1-317	1607-1612	sredo	_	_	_	_	
+1-318	1613-1623	pripravila	_	_	_	_	
+1-319	1624-1634	avstrijsko	_	_	*->26-1	*[26]	
+1-320	1635-1636	-	_	_	*->26-1	*[26]	
+1-321	1637-1646	slovenska	_	_	*->26-1	*[26]	
+1-322	1647-1655	agencija	_	_	*->26-1	*[26]	
+1-323	1656-1662	Strobl	ORG[5]	_	*->26-1	*[26]	
+1-324	1663-1664	+	ORG[5]	_	*->26-1	*[26]	
+1-325	1665-1671	Strobl	ORG[5]	_	*->26-1	*[26]	
+1-326	1672-1683	Advertising	ORG[5]	_	*->26-1	*[26]	
+1-327	1684-1685	.	_	_	_	_	
+1-328	1686-1692	Linški	_	_	*->26-2	*[26]	
+1-329	1693-1704	oglaševalci	_	_	*->26-2	*[26]	
+1-330	1705-1707	so	_	_	_	_	
+1-331	1708-1709	v	_	_	_	_	
+1-332	1710-1712	ta	_	_	_	_	
+1-333	1713-1718	namen	_	_	_	_	
+1-334	1719-1721	70	_	_	_	_	
+1-335	1722-1725	let	_	_	_	_	
+1-336	1726-1731	stari	_	_	_	_	
+1-337	1732-1739	bivalni	_	_	_	_	
+1-338	1740-1749	prikolici	_	_	_	_	
+1-339	1750-1756	nadeli	_	_	_	_	
+1-340	1757-1760	nov	_	_	_	_	
+1-341	1761-1770	kreativni	_	_	_	_	
+1-342	1771-1776	videz	_	_	_	_	
+1-343	1777-1778	.	_	_	_	_	
+1-344	1779-1780	"	_	_	_	_	
+1-345	1781-1784	Kot	_	_	_	_	
+1-346	1785-1791	glavno	_	_	_	_	
+1-347	1792-1800	vizualno	_	_	_	_	
+1-348	1801-1807	podobo	_	_	_	_	
+1-349	1808-1811	pri	_	_	_	_	
+1-350	1812-1816	vseh	_	_	_	_	
+1-351	1817-1830	oglaševalskih	_	_	_	_	
+1-352	1831-1840	sredstvih	_	_	_	_	
+1-353	1841-1842	–	_	_	_	_	
+1-354	1843-1852	posterjih	_	_	_	_	
+1-355	1853-1854	,	_	_	_	_	
+1-356	1855-1862	letakih	_	_	_	_	
+1-357	1863-1865	in	_	_	_	_	
+1-358	1866-1874	karticah	_	_	_	_	
+1-359	1875-1876	–	_	_	_	_	
+1-360	1877-1881	bomo	_	_	*->26-3	*[26]	
+1-361	1882-1891	uporabili	_	_	*->26-3	*[26]	
+1-362	1892-1893	v	_	_	_	_	
+1-363	1894-1902	Avstriji	LOC	3 - Nevtralno	*->25-5	*[25]	
+1-364	1903-1908	dobro	_	_	_	_	
+1-365	1909-1916	poznano	_	_	_	_	
+1-366	1917-1925	stojnico	_	_	_	_	
+1-367	1926-1928	za	_	_	_	_	
+1-368	1929-1936	prodajo	_	_	_	_	
+1-369	1937-1945	klobasic	_	_	_	_	
+1-370	1946-1947	,	_	_	_	_	
+1-371	1948-1952	tako	_	_	_	_	
+1-372	1953-1962	imenovano	_	_	_	_	
+1-373	1963-1975	Würstelstand	_	_	_	_	
+1-374	1976-1977	,	_	_	_	_	
+1-375	1978-1980	ki	_	_	_	_	
+1-376	1981-1984	smo	_	_	*->26-4	*[26]	
+1-377	1985-1987	jo	_	_	_	_	
+1-378	1988-1995	uredili	_	_	_	_	
+1-379	1996-1997	v	_	_	_	_	
+1-380	1998-2005	lastnem	_	_	_	_	
+1-381	2006-2013	dizajnu	_	_	_	_	
+1-382	2014-2015	.	_	_	_	_	
+1-383	2016-2024	Stojnico	_	_	_	_	
+1-384	2025-2029	bomo	_	_	*->26-5	*[26]	
+1-385	2030-2039	uporabili	_	_	*->26-5	*[26]	
+1-386	2040-2044	tudi	_	_	_	_	
+1-387	2045-2047	na	_	_	_	_	
+1-388	2048-2054	zabavi	_	_	_	_	
+1-389	2055-2056	,	_	_	_	_	
+1-390	2057-2058	"	_	_	_	_	
+1-391	2059-2064	pravi	_	_	_	_	
+1-392	2065-2073	direktor	_	_	_	_	
+1-393	2074-2082	omenjene	_	3 - Nevtralno[10]	*->26-6	*[26]	
+1-394	2083-2095	oglaševalske	_	3 - Nevtralno[10]	*->26-6	*[26]	
+1-395	2096-2104	agencije	_	3 - Nevtralno[10]	*->26-6	*[26]	

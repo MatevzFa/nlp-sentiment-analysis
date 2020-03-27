@@ -1,0 +1,432 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Avto portal Financ je po dveh tednih delovanja postal najbolj bran podportal Financ , obiskalo ga je prek deset tisoč različnih . . . Kaj boste počeli za krompirjeve počitnice Odgovori ( 344 ) Avto portal Financ je po dveh tednih delovanja postal najbolj bran podportal Financ , obiskalo ga je prek deset tisoč različnih obiskovalcev . Urednik avtoportala Miloš Milač vam bo prihajajoči vikend popestril s prerezom dogajanja na avtomobilskem trgu . Podjetniki , ki poslujete z avtomobilsko panogo , in ljubitelji avtomobilizma , boste danes v e - poštni nabiralnik začeli prejemati tedensko pismo ( prijavite se lahko na strani portala zgoraj desno ) . V tem vam bomo predstavili prerez dogajanja v preteklem tednu . Kako poslujejo avtomobilski proizvajalci , kje vlagajo , kaj razvijajo , kako dobri so novi avtomobili , kaj in za kakšno ceno prihaja na trg , s katerimi izzivi se srečujejo - o vsem tem urednik portala Miloš Milač . Minister za infrastrukturo Samo Omerzel danes predstavlja stališče vlade do gradnje drugega železniškega tira med Divačo in Koprom . Nataša Koražija , Rok Pikon in Vesna Tomaževič raziskujejo , ali je naložba smiselna in ekonomsko učinkovita , kdo bo služil in kako bomo tak projekt plačali . Petra Šubic piše o mladem podjetniku , ki je s svojo idejo uspel dobiti kar nekaj zagonskega kapitala na mednarodnem portalu za množično financiranje ( tako imenovani crowd funding ) . Dušan Pšeničnik , ki je pred leti zaslovel z bliskovitim napredovanjem na gospodarskem ministrstvu , danes vodi direktorat za notranji trg pri gospodarskem ministrstvu . Kaj vse počne ta direktorat , koliko nas stane in kako bi preživeli brez njega , se sprašuje Novica Mihajlović . Ekipa novinarjev ( na sliki z odgovorno urednico Financ Simono Toplak ( druga z leve ) in dežurnim urednikom Jurijem Šimcem ( skrajno levo ) ) preverja , kako smiselna je investicija v drugi tir . Andreja Šalamun se udeležuje novinarske konference ob prvi obletnici delovanja Centra energetskih rešitev ( CER ) , kjer bodo navzoči predstavniki Petrola , Juba , Knauf Insulation . Jernej Kosec pa za vas že spremlja poslovni zajtrk ameriške gospodarske zbornice , več v članku Čezatlantski sporazum bi UPS - u prinesel 20 tisoč delovnih mest V prilogi Biznis Plus preberite intervju z direktorjem hrvaškega Jadranskega galenskega laboratorija . Pripravlja Mladen Miković . V ponedeljek vas čaka tudi nova izdaja Nepremičninskega informatorja , ki je ureja Branko Žnidaršič . Novinarka Špela Mikuš in urednik portala Biznis Plus Mladen Miković , v ozadju pa Janez Tomažič in Andreja Šalamun
+1-1	0-4	Avto	_	_	_	_	
+1-2	5-11	portal	_	_	_	_	
+1-3	12-18	Financ	ORG	_	*->3-1	*[3]	
+1-4	19-21	je	_	_	_	_	
+1-5	22-24	po	_	_	_	_	
+1-6	25-29	dveh	_	_	_	_	
+1-7	30-36	tednih	_	_	_	_	
+1-8	37-46	delovanja	_	_	_	_	
+1-9	47-53	postal	_	_	_	_	
+1-10	54-61	najbolj	_	_	_	_	
+1-11	62-66	bran	_	_	_	_	
+1-12	67-76	podportal	_	_	_	_	
+1-13	77-83	Financ	ORG	_	*->3-2	*[3]	
+1-14	84-85	,	_	_	_	_	
+1-15	86-94	obiskalo	_	_	_	_	
+1-16	95-97	ga	_	_	_	_	
+1-17	98-100	je	_	_	_	_	
+1-18	101-105	prek	_	_	_	_	
+1-19	106-111	deset	_	_	_	_	
+1-20	112-117	tisoč	_	_	_	_	
+1-21	118-127	različnih	_	_	_	_	
+1-22	128-129	.	_	_	_	_	
+1-23	130-131	.	_	_	_	_	
+1-24	132-133	.	_	_	_	_	
+1-25	134-137	Kaj	_	_	_	_	
+1-26	138-143	boste	_	_	_	_	
+1-27	144-150	počeli	_	_	_	_	
+1-28	151-153	za	_	_	_	_	
+1-29	154-165	krompirjeve	_	_	_	_	
+1-30	166-175	počitnice	_	_	_	_	
+1-31	176-184	Odgovori	_	_	_	_	
+1-32	185-186	(	_	_	_	_	
+1-33	187-190	344	_	_	_	_	
+1-34	191-192	)	_	_	_	_	
+1-35	193-197	Avto	_	_	_	_	
+1-36	198-204	portal	_	_	_	_	
+1-37	205-211	Financ	ORG	_	*->3-3	*[3]	
+1-38	212-214	je	_	_	_	_	
+1-39	215-217	po	_	_	_	_	
+1-40	218-222	dveh	_	_	_	_	
+1-41	223-229	tednih	_	_	_	_	
+1-42	230-239	delovanja	_	_	_	_	
+1-43	240-246	postal	_	_	_	_	
+1-44	247-254	najbolj	_	_	_	_	
+1-45	255-259	bran	_	_	_	_	
+1-46	260-269	podportal	_	_	_	_	
+1-47	270-276	Financ	ORG	_	*->3-4	*[3]	
+1-48	277-278	,	_	_	_	_	
+1-49	279-287	obiskalo	_	_	_	_	
+1-50	288-290	ga	_	_	_	_	
+1-51	291-293	je	_	_	_	_	
+1-52	294-298	prek	_	_	_	_	
+1-53	299-304	deset	_	_	_	_	
+1-54	305-310	tisoč	_	_	_	_	
+1-55	311-320	različnih	_	_	_	_	
+1-56	321-333	obiskovalcev	_	_	_	_	
+1-57	334-335	.	_	_	_	_	
+1-58	336-343	Urednik	_	_	*->4-1	*[4]	
+1-59	344-355	avtoportala	_	_	*->4-1	*[4]	
+1-60	356-361	Miloš	PER[1]	_	*->4-1	*[4]	
+1-61	362-367	Milač	PER[1]	_	*->4-1	*[4]	
+1-62	368-371	vam	_	_	_	_	
+1-63	372-374	bo	_	_	_	_	
+1-64	375-386	prihajajoči	_	_	_	_	
+1-65	387-393	vikend	_	_	_	_	
+1-66	394-403	popestril	_	_	_	_	
+1-67	404-405	s	_	_	_	_	
+1-68	406-414	prerezom	_	_	_	_	
+1-69	415-424	dogajanja	_	_	_	_	
+1-70	425-427	na	_	_	_	_	
+1-71	428-441	avtomobilskem	_	_	_	_	
+1-72	442-446	trgu	_	_	_	_	
+1-73	447-448	.	_	_	_	_	
+1-74	449-459	Podjetniki	_	_	_	_	
+1-75	460-461	,	_	_	_	_	
+1-76	462-464	ki	_	_	_	_	
+1-77	465-474	poslujete	_	_	_	_	
+1-78	475-476	z	_	_	_	_	
+1-79	477-489	avtomobilsko	_	_	_	_	
+1-80	490-496	panogo	_	_	_	_	
+1-81	497-498	,	_	_	_	_	
+1-82	499-501	in	_	_	_	_	
+1-83	502-512	ljubitelji	_	_	_	_	
+1-84	513-526	avtomobilizma	_	_	_	_	
+1-85	527-528	,	_	_	_	_	
+1-86	529-534	boste	_	_	_	_	
+1-87	535-540	danes	_	_	_	_	
+1-88	541-542	v	_	_	_	_	
+1-89	543-544	e	_	_	_	_	
+1-90	545-546	-	_	_	_	_	
+1-91	547-553	poštni	_	_	_	_	
+1-92	554-564	nabiralnik	_	_	_	_	
+1-93	565-571	začeli	_	_	_	_	
+1-94	572-581	prejemati	_	_	_	_	
+1-95	582-590	tedensko	_	_	_	_	
+1-96	591-596	pismo	_	_	_	_	
+1-97	597-598	(	_	_	_	_	
+1-98	599-608	prijavite	_	_	_	_	
+1-99	609-611	se	_	_	_	_	
+1-100	612-617	lahko	_	_	_	_	
+1-101	618-620	na	_	_	_	_	
+1-102	621-627	strani	_	_	_	_	
+1-103	628-635	portala	_	_	_	_	
+1-104	636-642	zgoraj	_	_	_	_	
+1-105	643-648	desno	_	_	_	_	
+1-106	649-650	)	_	_	_	_	
+1-107	651-652	.	_	_	_	_	
+1-108	653-654	V	_	_	_	_	
+1-109	655-658	tem	_	_	_	_	
+1-110	659-662	vam	_	_	_	_	
+1-111	663-667	bomo	_	_	_	_	
+1-112	668-679	predstavili	_	_	_	_	
+1-113	680-686	prerez	_	_	_	_	
+1-114	687-696	dogajanja	_	_	_	_	
+1-115	697-698	v	_	_	_	_	
+1-116	699-708	preteklem	_	_	_	_	
+1-117	709-714	tednu	_	_	_	_	
+1-118	715-716	.	_	_	_	_	
+1-119	717-721	Kako	_	_	_	_	
+1-120	722-731	poslujejo	_	_	_	_	
+1-121	732-744	avtomobilski	_	_	_	_	
+1-122	745-757	proizvajalci	_	_	_	_	
+1-123	758-759	,	_	_	_	_	
+1-124	760-763	kje	_	_	_	_	
+1-125	764-771	vlagajo	_	_	_	_	
+1-126	772-773	,	_	_	_	_	
+1-127	774-777	kaj	_	_	_	_	
+1-128	778-787	razvijajo	_	_	_	_	
+1-129	788-789	,	_	_	_	_	
+1-130	790-794	kako	_	_	_	_	
+1-131	795-800	dobri	_	_	_	_	
+1-132	801-803	so	_	_	_	_	
+1-133	804-808	novi	_	_	_	_	
+1-134	809-819	avtomobili	_	_	_	_	
+1-135	820-821	,	_	_	_	_	
+1-136	822-825	kaj	_	_	_	_	
+1-137	826-828	in	_	_	_	_	
+1-138	829-831	za	_	_	_	_	
+1-139	832-838	kakšno	_	_	_	_	
+1-140	839-843	ceno	_	_	_	_	
+1-141	844-851	prihaja	_	_	_	_	
+1-142	852-854	na	_	_	_	_	
+1-143	855-858	trg	_	_	_	_	
+1-144	859-860	,	_	_	_	_	
+1-145	861-862	s	_	_	_	_	
+1-146	863-871	katerimi	_	_	_	_	
+1-147	872-878	izzivi	_	_	_	_	
+1-148	879-881	se	_	_	_	_	
+1-149	882-891	srečujejo	_	_	_	_	
+1-150	892-893	-	_	_	_	_	
+1-151	894-895	o	_	_	_	_	
+1-152	896-900	vsem	_	_	_	_	
+1-153	901-904	tem	_	_	_	_	
+1-154	905-912	urednik	_	3 - Nevtralno[23]	*->4-2	*[4]	
+1-155	913-920	portala	_	3 - Nevtralno[23]	*->4-2	*[4]	
+1-156	921-926	Miloš	PER[2]	3 - Nevtralno[23]|3 - Nevtralno[24]	*->4-2	*[4]	
+1-157	927-932	Milač	PER[2]	3 - Nevtralno[23]|3 - Nevtralno[24]	*->4-2	*[4]	
+1-158	933-934	.	_	_	_	_	
+1-159	935-943	Minister	_	3 - Nevtralno[25]	*->5-1	*[5]	
+1-160	944-946	za	_	3 - Nevtralno[25]	*->5-1	*[5]	
+1-161	947-961	infrastrukturo	_	3 - Nevtralno[25]	*->5-1	*[5]	
+1-162	962-966	Samo	PER[3]	3 - Nevtralno[25]	*->5-1	*[5]	
+1-163	967-974	Omerzel	PER[3]	3 - Nevtralno[25]	*->5-1	*[5]	
+1-164	975-980	danes	_	_	_	_	
+1-165	981-992	predstavlja	_	_	_	_	
+1-166	993-1001	stališče	_	_	_	_	
+1-167	1002-1007	vlade	_	_	_	_	
+1-168	1008-1010	do	_	_	_	_	
+1-169	1011-1018	gradnje	_	_	_	_	
+1-170	1019-1026	drugega	_	_	_	_	
+1-171	1027-1039	železniškega	_	_	_	_	
+1-172	1040-1044	tira	_	_	_	_	
+1-173	1045-1048	med	_	_	_	_	
+1-174	1049-1055	Divačo	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-175	1056-1058	in	_	_	_	_	
+1-176	1059-1065	Koprom	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-177	1066-1067	.	_	_	_	_	
+1-178	1068-1074	Nataša	PER[4]	3 - Nevtralno[26]	*->8-1	*[8]	
+1-179	1075-1083	Koražija	PER[4]	3 - Nevtralno[26]	*->8-1	*[8]	
+1-180	1084-1085	,	_	_	_	_	
+1-181	1086-1089	Rok	PER[5]	3 - Nevtralno[27]	*->9-1	*[9]	
+1-182	1090-1095	Pikon	PER[5]	3 - Nevtralno[27]	*->9-1	*[9]	
+1-183	1096-1098	in	_	_	_	_	
+1-184	1099-1104	Vesna	PER[6]	3 - Nevtralno[28]	_	_	
+1-185	1105-1114	Tomaževič	PER[6]	3 - Nevtralno[28]	_	_	
+1-186	1115-1126	raziskujejo	_	_	_	_	
+1-187	1127-1128	,	_	_	_	_	
+1-188	1129-1132	ali	_	_	_	_	
+1-189	1133-1135	je	_	_	_	_	
+1-190	1136-1143	naložba	_	_	_	_	
+1-191	1144-1152	smiselna	_	_	_	_	
+1-192	1153-1155	in	_	_	_	_	
+1-193	1156-1165	ekonomsko	_	_	_	_	
+1-194	1166-1176	učinkovita	_	_	_	_	
+1-195	1177-1178	,	_	_	_	_	
+1-196	1179-1182	kdo	_	_	_	_	
+1-197	1183-1185	bo	_	_	_	_	
+1-198	1186-1192	služil	_	_	_	_	
+1-199	1193-1195	in	_	_	_	_	
+1-200	1196-1200	kako	_	_	_	_	
+1-201	1201-1205	bomo	_	_	_	_	
+1-202	1206-1209	tak	_	_	_	_	
+1-203	1210-1217	projekt	_	_	_	_	
+1-204	1218-1225	plačali	_	_	_	_	
+1-205	1226-1227	.	_	_	_	_	
+1-206	1228-1233	Petra	PER[7]	3 - Nevtralno[29]	*->10-1	*[10]	
+1-207	1234-1239	Šubic	PER[7]	3 - Nevtralno[29]	*->10-1	*[10]	
+1-208	1240-1244	piše	_	_	_	_	
+1-209	1245-1246	o	_	_	_	_	
+1-210	1247-1253	mladem	_	_	_	_	
+1-211	1254-1264	podjetniku	_	_	_	_	
+1-212	1265-1266	,	_	_	_	_	
+1-213	1267-1269	ki	_	_	_	_	
+1-214	1270-1272	je	_	_	_	_	
+1-215	1273-1274	s	_	_	_	_	
+1-216	1275-1280	svojo	_	_	_	_	
+1-217	1281-1286	idejo	_	_	_	_	
+1-218	1287-1292	uspel	_	_	_	_	
+1-219	1293-1299	dobiti	_	_	_	_	
+1-220	1300-1303	kar	_	_	_	_	
+1-221	1304-1309	nekaj	_	_	_	_	
+1-222	1310-1320	zagonskega	_	_	_	_	
+1-223	1321-1329	kapitala	_	_	_	_	
+1-224	1330-1332	na	_	_	_	_	
+1-225	1333-1344	mednarodnem	_	_	_	_	
+1-226	1345-1352	portalu	_	_	_	_	
+1-227	1353-1355	za	_	_	_	_	
+1-228	1356-1364	množično	_	_	_	_	
+1-229	1365-1377	financiranje	_	_	_	_	
+1-230	1378-1379	(	_	_	_	_	
+1-231	1380-1384	tako	_	_	_	_	
+1-232	1385-1394	imenovani	_	_	_	_	
+1-233	1395-1400	crowd	_	_	_	_	
+1-234	1401-1408	funding	_	_	_	_	
+1-235	1409-1410	)	_	_	_	_	
+1-236	1411-1412	.	_	_	_	_	
+1-237	1413-1418	Dušan	PER[8]	_	*->11-1	*[11]	
+1-238	1419-1428	Pšeničnik	PER[8]	_	*->11-1	*[11]	
+1-239	1429-1430	,	_	_	_	_	
+1-240	1431-1433	ki	_	_	_	_	
+1-241	1434-1436	je	_	_	_	_	
+1-242	1437-1441	pred	_	_	_	_	
+1-243	1442-1446	leti	_	_	_	_	
+1-244	1447-1455	zaslovel	_	_	*->11-2	*[11]	
+1-245	1456-1457	z	_	_	_	_	
+1-246	1458-1469	bliskovitim	_	_	_	_	
+1-247	1470-1483	napredovanjem	_	_	_	_	
+1-248	1484-1486	na	_	_	_	_	
+1-249	1487-1499	gospodarskem	_	_	_	_	
+1-250	1500-1511	ministrstvu	_	_	_	_	
+1-251	1512-1513	,	_	_	_	_	
+1-252	1514-1519	danes	_	_	_	_	
+1-253	1520-1524	vodi	_	3 - Nevtralno	*->11-3	*[11]	
+1-254	1525-1535	direktorat	_	_	_	_	
+1-255	1536-1538	za	_	_	_	_	
+1-256	1539-1547	notranji	_	_	_	_	
+1-257	1548-1551	trg	_	_	_	_	
+1-258	1552-1555	pri	_	_	_	_	
+1-259	1556-1568	gospodarskem	_	_	_	_	
+1-260	1569-1580	ministrstvu	_	_	_	_	
+1-261	1581-1582	.	_	_	_	_	
+1-262	1583-1586	Kaj	_	_	_	_	
+1-263	1587-1590	vse	_	_	_	_	
+1-264	1591-1596	počne	_	_	_	_	
+1-265	1597-1599	ta	_	_	_	_	
+1-266	1600-1610	direktorat	_	_	_	_	
+1-267	1611-1612	,	_	_	_	_	
+1-268	1613-1619	koliko	_	_	_	_	
+1-269	1620-1623	nas	_	_	_	_	
+1-270	1624-1629	stane	_	_	_	_	
+1-271	1630-1632	in	_	_	_	_	
+1-272	1633-1637	kako	_	_	_	_	
+1-273	1638-1640	bi	_	_	_	_	
+1-274	1641-1650	preživeli	_	_	_	_	
+1-275	1651-1655	brez	_	_	_	_	
+1-276	1656-1661	njega	_	_	_	_	
+1-277	1662-1663	,	_	_	_	_	
+1-278	1664-1666	se	_	_	_	_	
+1-279	1667-1675	sprašuje	_	_	_	_	
+1-280	1676-1682	Novica	PER[9]	3 - Nevtralno[30]	*->12-1	*[12]	
+1-281	1683-1693	Mihajlović	PER[9]	3 - Nevtralno[30]	*->12-1	*[12]	
+1-282	1694-1695	.	_	_	_	_	
+1-283	1696-1701	Ekipa	_	_	_	_	
+1-284	1702-1712	novinarjev	_	_	_	_	
+1-285	1713-1714	(	_	_	_	_	
+1-286	1715-1717	na	_	_	_	_	
+1-287	1718-1723	sliki	_	_	_	_	
+1-288	1724-1725	z	_	_	_	_	
+1-289	1726-1735	odgovorno	_	3 - Nevtralno[31]	*->13-1	*[13]	
+1-290	1736-1744	urednico	_	3 - Nevtralno[31]	*->13-1	*[13]	
+1-291	1745-1751	Financ	ORG	3 - Nevtralno[31]|3 - Nevtralno[32]	*->13-1|*->3-5	*[13]|*[3]	
+1-292	1752-1758	Simono	PER[10]	3 - Nevtralno[31]	*->13-1	*[13]	
+1-293	1759-1765	Toplak	PER[10]	3 - Nevtralno[31]	*->13-1	*[13]	
+1-294	1766-1767	(	_	_	_	_	
+1-295	1768-1773	druga	_	_	_	_	
+1-296	1774-1775	z	_	_	_	_	
+1-297	1776-1780	leve	_	_	_	_	
+1-298	1781-1782	)	_	_	_	_	
+1-299	1783-1785	in	_	_	_	_	
+1-300	1786-1794	dežurnim	_	3 - Nevtralno[33]	*->14-1	*[14]	
+1-301	1795-1804	urednikom	_	3 - Nevtralno[33]	*->14-1	*[14]	
+1-302	1805-1812	Jurijem	PER[11]	3 - Nevtralno[33]	*->14-1	*[14]	
+1-303	1813-1819	Šimcem	PER[11]	3 - Nevtralno[33]	*->14-1	*[14]	
+1-304	1820-1821	(	_	_	_	_	
+1-305	1822-1829	skrajno	_	_	_	_	
+1-306	1830-1834	levo	_	_	_	_	
+1-307	1835-1836	)	_	_	_	_	
+1-308	1837-1838	)	_	_	_	_	
+1-309	1839-1847	preverja	_	_	_	_	
+1-310	1848-1849	,	_	_	_	_	
+1-311	1850-1854	kako	_	_	_	_	
+1-312	1855-1863	smiselna	_	_	_	_	
+1-313	1864-1866	je	_	_	_	_	
+1-314	1867-1878	investicija	_	_	_	_	
+1-315	1879-1880	v	_	_	_	_	
+1-316	1881-1886	drugi	_	_	_	_	
+1-317	1887-1890	tir	_	_	_	_	
+1-318	1891-1892	.	_	_	_	_	
+1-319	1893-1900	Andreja	PER[12]	_	*->2-1	*[2]	
+1-320	1901-1908	Šalamun	PER[12]	_	*->2-1	*[2]	
+1-321	1909-1911	se	_	_	_	_	
+1-322	1912-1921	udeležuje	_	_	_	_	
+1-323	1922-1932	novinarske	_	_	_	_	
+1-324	1933-1943	konference	_	_	_	_	
+1-325	1944-1946	ob	_	_	_	_	
+1-326	1947-1951	prvi	_	_	_	_	
+1-327	1952-1961	obletnici	_	_	_	_	
+1-328	1962-1971	delovanja	_	_	_	_	
+1-329	1972-1978	Centra	ORG[13]	_	*->15-1	*[15]	
+1-330	1979-1990	energetskih	ORG[13]	_	*->15-1	*[15]	
+1-331	1991-1998	rešitev	ORG[13]	_	*->15-1	*[15]	
+1-332	1999-2000	(	_	_	_	_	
+1-333	2001-2004	CER	ORG	3 - Nevtralno	*->15-2	*[15]	
+1-334	2005-2006	)	_	_	_	_	
+1-335	2007-2008	,	_	_	_	_	
+1-336	2009-2013	kjer	_	_	_	_	
+1-337	2014-2018	bodo	_	_	_	_	
+1-338	2019-2026	navzoči	_	_	_	_	
+1-339	2027-2039	predstavniki	_	_	_	_	
+1-340	2040-2047	Petrola	ORG	3 - Nevtralno	*->16-1	*[16]	
+1-341	2048-2049	,	_	_	_	_	
+1-342	2050-2054	Juba	ORG	3 - Nevtralno	*->17-1	*[17]	
+1-343	2055-2056	,	_	_	_	_	
+1-344	2057-2062	Knauf	ORG[14]	3 - Nevtralno[34]	*->18-1	*[18]	
+1-345	2063-2073	Insulation	ORG[14]	3 - Nevtralno[34]	*->18-1	*[18]	
+1-346	2074-2075	.	_	_	_	_	
+1-347	2076-2082	Jernej	PER[15]	3 - Nevtralno[35]	*->19-1	*[19]	
+1-348	2083-2088	Kosec	PER[15]	3 - Nevtralno[35]	*->19-1	*[19]	
+1-349	2089-2091	pa	_	_	_	_	
+1-350	2092-2094	za	_	_	_	_	
+1-351	2095-2098	vas	_	_	_	_	
+1-352	2099-2101	že	_	_	_	_	
+1-353	2102-2110	spremlja	_	_	_	_	
+1-354	2111-2119	poslovni	_	_	_	_	
+1-355	2120-2126	zajtrk	_	_	_	_	
+1-356	2127-2135	ameriške	_	_	_	_	
+1-357	2136-2147	gospodarske	_	_	_	_	
+1-358	2148-2156	zbornice	_	_	_	_	
+1-359	2157-2158	,	_	_	_	_	
+1-360	2159-2162	več	_	_	_	_	
+1-361	2163-2164	v	_	_	_	_	
+1-362	2165-2171	članku	_	_	_	_	
+1-363	2172-2184	Čezatlantski	_	_	_	_	
+1-364	2185-2193	sporazum	_	_	_	_	
+1-365	2194-2196	bi	_	_	_	_	
+1-366	2197-2200	UPS	_	_	_	_	
+1-367	2201-2202	-	_	_	_	_	
+1-368	2203-2204	u	_	_	_	_	
+1-369	2205-2213	prinesel	_	_	_	_	
+1-370	2214-2216	20	_	_	_	_	
+1-371	2217-2222	tisoč	_	_	_	_	
+1-372	2223-2231	delovnih	_	_	_	_	
+1-373	2232-2236	mest	_	_	_	_	
+1-374	2237-2238	V	_	_	_	_	
+1-375	2239-2246	prilogi	_	_	_	_	
+1-376	2247-2253	Biznis	_	_	_	_	
+1-377	2254-2258	Plus	_	_	_	_	
+1-378	2259-2268	preberite	_	_	_	_	
+1-379	2269-2277	intervju	_	_	_	_	
+1-380	2278-2279	z	_	_	_	_	
+1-381	2280-2291	direktorjem	_	_	_	_	
+1-382	2292-2301	hrvaškega	_	_	_	_	
+1-383	2302-2313	Jadranskega	ORG[16]	3 - Nevtralno[36]	*->20-1	*[20]	
+1-384	2314-2324	galenskega	ORG[16]	3 - Nevtralno[36]	*->20-1	*[20]	
+1-385	2325-2337	laboratorija	ORG[16]	3 - Nevtralno[36]	*->20-1	*[20]	
+1-386	2338-2339	.	_	_	_	_	
+1-387	2340-2350	Pripravlja	_	_	_	_	
+1-388	2351-2357	Mladen	PER[17]	_	*->1-1	*[1]	
+1-389	2358-2365	Miković	PER[17]	_	*->1-1	*[1]	
+1-390	2366-2367	.	_	_	_	_	
+1-391	2368-2369	V	_	_	_	_	
+1-392	2370-2380	ponedeljek	_	_	_	_	
+1-393	2381-2384	vas	_	_	_	_	
+1-394	2385-2389	čaka	_	_	_	_	
+1-395	2390-2394	tudi	_	_	_	_	
+1-396	2395-2399	nova	_	_	_	_	
+1-397	2400-2406	izdaja	_	_	_	_	
+1-398	2407-2423	Nepremičninskega	_	_	_	_	
+1-399	2424-2436	informatorja	_	_	_	_	
+1-400	2437-2438	,	_	_	_	_	
+1-401	2439-2441	ki	_	_	_	_	
+1-402	2442-2444	je	_	_	_	_	
+1-403	2445-2450	ureja	_	_	_	_	
+1-404	2451-2457	Branko	PER[18]	3 - Nevtralno[37]	*->21-1	*[21]	
+1-405	2458-2467	Žnidaršič	PER[18]	3 - Nevtralno[37]	*->21-1	*[21]	
+1-406	2468-2469	.	_	_	_	_	
+1-407	2470-2479	Novinarka	_	3 - Nevtralno[38]	*->22-1	*[22]	
+1-408	2480-2485	Špela	PER[19]	3 - Nevtralno[38]	*->22-1	*[22]	
+1-409	2486-2491	Mikuš	PER[19]	3 - Nevtralno[38]	*->22-1	*[22]	
+1-410	2492-2494	in	_	_	_	_	
+1-411	2495-2502	urednik	_	3 - Nevtralno[39]	*->1-2	*[1]	
+1-412	2503-2510	portala	_	3 - Nevtralno[39]	*->1-2	*[1]	
+1-413	2511-2517	Biznis	_	3 - Nevtralno[39]	*->1-2	*[1]	
+1-414	2518-2522	Plus	_	3 - Nevtralno[39]	*->1-2	*[1]	
+1-415	2523-2529	Mladen	PER[20]	3 - Nevtralno[39]	*->1-2	*[1]	
+1-416	2530-2537	Miković	PER[20]	3 - Nevtralno[39]	*->1-2	*[1]	
+1-417	2538-2539	,	_	_	_	_	
+1-418	2540-2541	v	_	_	_	_	
+1-419	2542-2548	ozadju	_	_	_	_	
+1-420	2549-2551	pa	_	_	_	_	
+1-421	2552-2557	Janez	PER[21]	3 - Nevtralno[40]	*->23-1	*[23]	
+1-422	2558-2565	Tomažič	PER[21]	3 - Nevtralno[40]	*->23-1	*[23]	
+1-423	2566-2568	in	_	_	_	_	
+1-424	2569-2576	Andreja	PER[22]	3 - Nevtralno[41]	*->2-2	*[2]	
+1-425	2577-2584	Šalamun	PER[22]	3 - Nevtralno[41]	*->2-2	*[2]	

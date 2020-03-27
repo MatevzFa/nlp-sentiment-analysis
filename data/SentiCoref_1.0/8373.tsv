@@ -1,0 +1,264 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Penn , Schoenn in Berland Association , podjetje Marka J . Penna , stratega volilne kampanje ameriške predsedniške kandidatke Hillary Clinton , bo pripravljalo predvolilno strategijo tudi za Boruta Pahorja in socialdemokrate . Po naših informacijah je ekipa strokovnjakov že začela pregledovati slovenske javnomnenjske raziskave , nato pa bo za SD pripravila strateški okvir kampanje . Kdo je Mark J . Penn ? " Najmočnejši človek v Washingtonu , za katerega niste slišali , " Pahorjevega novega stratega opisuje Washington Post . Penn je svetoval tudi Tonyju Blairu , bil je glavni svetovalec Billa Gatesa in Microsofta , najbolj znan pa je kot politični svetovalec in analitik javnomnenjskih raziskav predsednika ZDA Billa Clintona . Z družino Clinton je tesno povezan in tako od februarja 2007 svetuje tudi Hillary Clinton . Sodelovanje z najmočnejšo slovensko levo stranko se je začelo šele po preobratu v Teksasu , kjer je Clintonova v tekmi za demokratskega predsedniškega kandidata premagala Obamo . Spopad “ spin doktorjev ” ? Letošnja predvolilna bitka bo torej silno zanimiva . Mednarodno pomoč ima namreč tudi desnica . Bushevi republikanci ( Mednarodni republikanski inštitut ) pripravljajo strokovne seminarje tudi za člane SDS , ki se s SD bojuje za zmago na volitvah . Stranka sicer zanika , da bi v kampanji sodelovala z marketinškim gurujem P . J . Maro , ki je na oblast pomagal nekaj evropskim desnim strankam , tudi hrvaškemu premierju Sanaderju , premierjev kabinet pa vprašanja , ali je P . J . Mara Janšev svetovalec , še vedno " ne komentira "
+1-1	0-4	Penn	ORG[1]	_	*->1-1	*[1]	
+1-2	5-6	,	ORG[1]	_	*->1-1	*[1]	
+1-3	7-14	Schoenn	ORG[1]	_	*->1-1	*[1]	
+1-4	15-17	in	ORG[1]	_	*->1-1	*[1]	
+1-5	18-25	Berland	ORG[1]	_	*->1-1	*[1]	
+1-6	26-37	Association	ORG[1]	_	*->1-1	*[1]	
+1-7	38-39	,	_	_	_	_	
+1-8	40-48	podjetje	_	3 - Nevtralno[14]	*->1-2	*[1]	
+1-9	49-54	Marka	PER[2]	3 - Nevtralno[14]	*->1-2|*->8-1	*[1]|*[8]	
+1-10	55-56	J	PER[2]	3 - Nevtralno[14]	*->1-2|*->8-1	*[1]|*[8]	
+1-11	57-58	.	PER[2]	3 - Nevtralno[14]	*->1-2|*->8-1	*[1]|*[8]	
+1-12	59-64	Penna	PER[2]	3 - Nevtralno[14]	*->1-2|*->8-1	*[1]|*[8]	
+1-13	65-66	,	_	_	_	_	
+1-14	67-75	stratega	_	_	*->8-2	*[8]	
+1-15	76-83	volilne	_	_	*->8-2	*[8]	
+1-16	84-92	kampanje	_	_	*->8-2	*[8]	
+1-17	93-101	ameriške	_	_	*->8-2|*->12-1	*[8]|*[12]	
+1-18	102-114	predsedniške	_	_	*->8-2|*->12-1	*[8]|*[12]	
+1-19	115-125	kandidatke	_	_	*->8-2|*->12-1	*[8]|*[12]	
+1-20	126-133	Hillary	PER[3]	_	*->8-2|*->12-1	*[8]|*[12]	
+1-21	134-141	Clinton	PER[3]	_	*->8-2|*->12-1	*[8]|*[12]	
+1-22	142-143	,	_	_	_	_	
+1-23	144-146	bo	_	_	_	_	
+1-24	147-159	pripravljalo	_	_	_	_	
+1-25	160-171	predvolilno	_	_	_	_	
+1-26	172-182	strategijo	_	_	_	_	
+1-27	183-187	tudi	_	_	_	_	
+1-28	188-190	za	_	_	_	_	
+1-29	191-197	Boruta	PER[4]	_	*->3-1	*[3]	
+1-30	198-205	Pahorja	PER[4]	_	*->3-1	*[3]	
+1-31	206-208	in	_	_	_	_	
+1-32	209-224	socialdemokrate	_	_	*->17-1	*[17]	
+1-33	225-226	.	_	_	_	_	
+1-34	227-229	Po	_	_	_	_	
+1-35	230-235	naših	_	_	_	_	
+1-36	236-248	informacijah	_	_	_	_	
+1-37	249-251	je	_	_	_	_	
+1-38	252-257	ekipa	_	_	_	_	
+1-39	258-271	strokovnjakov	_	_	_	_	
+1-40	272-274	že	_	_	_	_	
+1-41	275-281	začela	_	_	_	_	
+1-42	282-294	pregledovati	_	_	_	_	
+1-43	295-304	slovenske	_	_	_	_	
+1-44	305-318	javnomnenjske	_	_	_	_	
+1-45	319-328	raziskave	_	_	_	_	
+1-46	329-330	,	_	_	_	_	
+1-47	331-335	nato	_	_	_	_	
+1-48	336-338	pa	_	_	_	_	
+1-49	339-341	bo	_	_	_	_	
+1-50	342-344	za	_	_	_	_	
+1-51	345-347	SD	ORG	_	*->17-2	*[17]	
+1-52	348-358	pripravila	_	_	_	_	
+1-53	359-368	strateški	_	_	_	_	
+1-54	369-374	okvir	_	_	_	_	
+1-55	375-383	kampanje	_	_	_	_	
+1-56	384-385	.	_	_	_	_	
+1-57	386-389	Kdo	_	_	_	_	
+1-58	390-392	je	_	_	_	_	
+1-59	393-397	Mark	PER[5]	_	*->8-3	*[8]	
+1-60	398-399	J	PER[5]	_	*->8-3	*[8]	
+1-61	400-401	.	PER[5]	_	*->8-3	*[8]	
+1-62	402-406	Penn	PER[5]	_	*->8-3	*[8]	
+1-63	407-408	?	_	_	_	_	
+1-64	409-410	"	_	_	_	_	
+1-65	411-422	Najmočnejši	_	_	*->8-4	*[8]	
+1-66	423-429	človek	_	_	*->8-4	*[8]	
+1-67	430-431	v	_	_	*->8-4	*[8]	
+1-68	432-443	Washingtonu	LOC	3 - Nevtralno	*->8-4|*->2-1	*[8]|*[2]	
+1-69	444-445	,	_	_	_	_	
+1-70	446-448	za	_	_	_	_	
+1-71	449-457	katerega	_	_	_	_	
+1-72	458-463	niste	_	_	_	_	
+1-73	464-471	slišali	_	_	_	_	
+1-74	472-473	,	_	_	_	_	
+1-75	474-475	"	_	_	_	_	
+1-76	476-487	Pahorjevega	PER	3 - Nevtralno	*->3-2	*[3]	
+1-77	488-494	novega	_	_	_	_	
+1-78	495-503	stratega	_	_	_	_	
+1-79	504-511	opisuje	_	_	_	_	
+1-80	512-522	Washington	ORG[6]	3 - Nevtralno[15]	*->4-1	*[4]	
+1-81	523-527	Post	ORG[6]	3 - Nevtralno[15]	*->4-1	*[4]	
+1-82	528-529	.	_	_	_	_	
+1-83	530-534	Penn	PER	_	*->8-5	*[8]	
+1-84	535-537	je	_	_	_	_	
+1-85	538-546	svetoval	_	_	_	_	
+1-86	547-551	tudi	_	_	_	_	
+1-87	552-558	Tonyju	PER[7]	3 - Nevtralno[16]	*->5-1	*[5]	
+1-88	559-565	Blairu	PER[7]	3 - Nevtralno[16]	*->5-1	*[5]	
+1-89	566-567	,	_	_	_	_	
+1-90	568-571	bil	_	_	_	_	
+1-91	572-574	je	_	_	_	_	
+1-92	575-581	glavni	_	_	*->8-6	*[8]	
+1-93	582-592	svetovalec	_	_	*->8-6	*[8]	
+1-94	593-598	Billa	PER[8]	3 - Nevtralno[17]	*->8-6|*->6-1	*[8]|*[6]	
+1-95	599-605	Gatesa	PER[8]	3 - Nevtralno[17]	*->8-6|*->6-1	*[8]|*[6]	
+1-96	606-608	in	_	_	*->8-6	*[8]	
+1-97	609-619	Microsofta	ORG	3 - Nevtralno	*->8-6|*->7-1	*[8]|*[7]	
+1-98	620-621	,	_	_	_	_	
+1-99	622-629	najbolj	_	_	_	_	
+1-100	630-634	znan	_	_	_	_	
+1-101	635-637	pa	_	_	_	_	
+1-102	638-640	je	_	_	_	_	
+1-103	641-644	kot	_	_	_	_	
+1-104	645-654	politični	_	4 - Pozitivno[18]	*->8-7	*[8]	
+1-105	655-665	svetovalec	_	4 - Pozitivno[18]	*->8-7	*[8]	
+1-106	666-668	in	_	4 - Pozitivno[18]	*->8-7	*[8]	
+1-107	669-677	analitik	_	4 - Pozitivno[18]	*->8-7	*[8]	
+1-108	678-692	javnomnenjskih	_	4 - Pozitivno[18]	*->8-7	*[8]	
+1-109	693-701	raziskav	_	4 - Pozitivno[18]	*->8-7	*[8]	
+1-110	702-713	predsednika	_	4 - Pozitivno[18]|3 - Nevtralno[19]	*->8-7|*->9-1	*[8]|*[9]	
+1-111	714-717	ZDA	ORG	4 - Pozitivno[18]|3 - Nevtralno[19]|3 - Nevtralno[20]	*->8-7|*->9-1|*->10-1	*[8]|*[9]|*[10]	
+1-112	718-723	Billa	PER[9]	4 - Pozitivno[18]|3 - Nevtralno[19]	*->8-7|*->9-1	*[8]|*[9]	
+1-113	724-732	Clintona	PER[9]	4 - Pozitivno[18]|3 - Nevtralno[19]	*->8-7|*->9-1	*[8]|*[9]	
+1-114	733-734	.	_	_	_	_	
+1-115	735-736	Z	_	_	_	_	
+1-116	737-744	družino	_	3 - Nevtralno[21]	*->11-1	*[11]	
+1-117	745-752	Clinton	PER	3 - Nevtralno[21]	*->11-1	*[11]	
+1-118	753-755	je	_	_	_	_	
+1-119	756-761	tesno	_	_	_	_	
+1-120	762-769	povezan	_	_	_	_	
+1-121	770-772	in	_	_	_	_	
+1-122	773-777	tako	_	_	_	_	
+1-123	778-780	od	_	_	_	_	
+1-124	781-790	februarja	_	_	_	_	
+1-125	791-795	2007	_	_	_	_	
+1-126	796-803	svetuje	_	_	_	_	
+1-127	804-808	tudi	_	_	_	_	
+1-128	809-816	Hillary	PER[10]	_	*->12-2	*[12]	
+1-129	817-824	Clinton	PER[10]	_	*->12-2	*[12]	
+1-130	825-826	.	_	_	_	_	
+1-131	827-838	Sodelovanje	_	_	_	_	
+1-132	839-840	z	_	_	_	_	
+1-133	841-852	najmočnejšo	_	_	*->17-3	*[17]	
+1-134	853-862	slovensko	_	_	*->17-3	*[17]	
+1-135	863-867	levo	_	_	*->17-3	*[17]	
+1-136	868-875	stranko	_	_	*->17-3	*[17]	
+1-137	876-878	se	_	_	_	_	
+1-138	879-881	je	_	_	_	_	
+1-139	882-888	začelo	_	_	_	_	
+1-140	889-893	šele	_	_	_	_	
+1-141	894-896	po	_	_	_	_	
+1-142	897-906	preobratu	_	_	_	_	
+1-143	907-908	v	_	_	_	_	
+1-144	909-916	Teksasu	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-145	917-918	,	_	_	_	_	
+1-146	919-923	kjer	_	_	_	_	
+1-147	924-926	je	_	_	_	_	
+1-148	927-937	Clintonova	PER	3 - Nevtralno	*->12-3	*[12]	
+1-149	938-939	v	_	_	_	_	
+1-150	940-945	tekmi	_	_	_	_	
+1-151	946-948	za	_	_	_	_	
+1-152	949-962	demokratskega	_	_	_	_	
+1-153	963-977	predsedniškega	_	_	_	_	
+1-154	978-987	kandidata	_	_	_	_	
+1-155	988-997	premagala	_	_	_	_	
+1-156	998-1003	Obamo	PER	3 - Nevtralno	*->14-1	*[14]	
+1-157	1004-1005	.	_	_	_	_	
+1-158	1006-1012	Spopad	_	_	_	_	
+1-159	1013-1014	“	_	_	_	_	
+1-160	1015-1019	spin	_	_	_	_	
+1-161	1020-1029	doktorjev	_	_	_	_	
+1-162	1030-1031	”	_	_	_	_	
+1-163	1032-1033	?	_	_	_	_	
+1-164	1034-1042	Letošnja	_	_	_	_	
+1-165	1043-1054	predvolilna	_	_	_	_	
+1-166	1055-1060	bitka	_	_	_	_	
+1-167	1061-1063	bo	_	_	_	_	
+1-168	1064-1069	torej	_	_	_	_	
+1-169	1070-1075	silno	_	_	_	_	
+1-170	1076-1084	zanimiva	_	_	_	_	
+1-171	1085-1086	.	_	_	_	_	
+1-172	1087-1097	Mednarodno	_	_	_	_	
+1-173	1098-1103	pomoč	_	_	_	_	
+1-174	1104-1107	ima	_	_	_	_	
+1-175	1108-1114	namreč	_	_	_	_	
+1-176	1115-1119	tudi	_	_	_	_	
+1-177	1120-1127	desnica	_	_	*->18-1	*[18]	
+1-178	1128-1129	.	_	_	_	_	
+1-179	1130-1137	Bushevi	PER	3 - Nevtralno	*->16-1|*->15-1	*[16]|*[15]	
+1-180	1138-1150	republikanci	_	_	*->16-1	*[16]	
+1-181	1151-1152	(	_	_	_	_	
+1-182	1153-1163	Mednarodni	ORG[11]	3 - Nevtralno[22]	*->16-2	*[16]	
+1-183	1164-1177	republikanski	ORG[11]	3 - Nevtralno[22]	*->16-2	*[16]	
+1-184	1178-1186	inštitut	ORG[11]	3 - Nevtralno[22]	*->16-2	*[16]	
+1-185	1187-1188	)	_	_	_	_	
+1-186	1189-1201	pripravljajo	_	_	_	_	
+1-187	1202-1211	strokovne	_	_	_	_	
+1-188	1212-1221	seminarje	_	_	_	_	
+1-189	1222-1226	tudi	_	_	_	_	
+1-190	1227-1229	za	_	_	_	_	
+1-191	1230-1235	člane	_	_	_	_	
+1-192	1236-1239	SDS	ORG	_	*->18-2	*[18]	
+1-193	1240-1241	,	_	_	_	_	
+1-194	1242-1244	ki	_	_	_	_	
+1-195	1245-1247	se	_	_	_	_	
+1-196	1248-1249	s	_	_	_	_	
+1-197	1250-1252	SD	ORG	3 - Nevtralno	*->17-4	*[17]	
+1-198	1253-1259	bojuje	_	_	_	_	
+1-199	1260-1262	za	_	_	_	_	
+1-200	1263-1268	zmago	_	_	_	_	
+1-201	1269-1271	na	_	_	_	_	
+1-202	1272-1280	volitvah	_	_	_	_	
+1-203	1281-1282	.	_	_	_	_	
+1-204	1283-1290	Stranka	_	3 - Nevtralno	*->18-3	*[18]	
+1-205	1291-1296	sicer	_	_	_	_	
+1-206	1297-1303	zanika	_	_	_	_	
+1-207	1304-1305	,	_	_	_	_	
+1-208	1306-1308	da	_	_	_	_	
+1-209	1309-1311	bi	_	_	_	_	
+1-210	1312-1313	v	_	_	_	_	
+1-211	1314-1322	kampanji	_	_	_	_	
+1-212	1323-1333	sodelovala	_	_	_	_	
+1-213	1334-1335	z	_	_	_	_	
+1-214	1336-1348	marketinškim	_	_	*->20-1	*[20]	
+1-215	1349-1356	gurujem	_	_	*->20-1	*[20]	
+1-216	1357-1358	P	PER[12]	_	*->20-1	*[20]	
+1-217	1359-1360	.	PER[12]	_	*->20-1	*[20]	
+1-218	1361-1362	J	PER[12]	_	*->20-1	*[20]	
+1-219	1363-1364	.	PER[12]	_	*->20-1	*[20]	
+1-220	1365-1369	Maro	PER[12]	_	*->20-1	*[20]	
+1-221	1370-1371	,	_	_	_	_	
+1-222	1372-1374	ki	_	_	_	_	
+1-223	1375-1377	je	_	_	_	_	
+1-224	1378-1380	na	_	_	_	_	
+1-225	1381-1387	oblast	_	_	_	_	
+1-226	1388-1395	pomagal	_	_	_	_	
+1-227	1396-1401	nekaj	_	_	_	_	
+1-228	1402-1411	evropskim	_	_	_	_	
+1-229	1412-1418	desnim	_	_	_	_	
+1-230	1419-1427	strankam	_	_	_	_	
+1-231	1428-1429	,	_	_	_	_	
+1-232	1430-1434	tudi	_	_	_	_	
+1-233	1435-1444	hrvaškemu	_	3 - Nevtralno[23]	*->19-1	*[19]	
+1-234	1445-1454	premierju	_	3 - Nevtralno[23]	*->19-1	*[19]	
+1-235	1455-1464	Sanaderju	PER	3 - Nevtralno[23]	*->19-1	*[19]	
+1-236	1465-1466	,	_	_	_	_	
+1-237	1467-1477	premierjev	_	_	_	_	
+1-238	1478-1485	kabinet	_	_	_	_	
+1-239	1486-1488	pa	_	_	_	_	
+1-240	1489-1498	vprašanja	_	_	_	_	
+1-241	1499-1500	,	_	_	_	_	
+1-242	1501-1504	ali	_	_	_	_	
+1-243	1505-1507	je	_	_	_	_	
+1-244	1508-1509	P	PER[13]	4 - Pozitivno[24]	*->20-2	*[20]	
+1-245	1510-1511	.	PER[13]	4 - Pozitivno[24]	*->20-2	*[20]	
+1-246	1512-1513	J	PER[13]	4 - Pozitivno[24]	*->20-2	*[20]	
+1-247	1514-1515	.	PER[13]	4 - Pozitivno[24]	*->20-2	*[20]	
+1-248	1516-1520	Mara	PER[13]	4 - Pozitivno[24]	*->20-2	*[20]	
+1-249	1521-1527	Janšev	PER	3 - Nevtralno	*->21-1	*[21]	
+1-250	1528-1538	svetovalec	_	_	_	_	
+1-251	1539-1540	,	_	_	_	_	
+1-252	1541-1543	še	_	_	_	_	
+1-253	1544-1549	vedno	_	_	_	_	
+1-254	1550-1551	"	_	_	_	_	
+1-255	1552-1554	ne	_	_	_	_	
+1-256	1555-1564	komentira	_	_	_	_	
+1-257	1565-1566	"	_	_	_	_	

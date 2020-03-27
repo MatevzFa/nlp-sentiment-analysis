@@ -1,0 +1,373 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Vlaki . V Ljubljani in okolici je predvidenih pet novih železniških postajališč . Načrti . Septembra 2014 se bo predvidoma začela gradnja novega železniškega postajališča Vnanje Gorice , končala pa junija 2015 , so napovedali na ministrstvu za infrastrukturo in prostor . To bo prva širitev mreže postajališč v ljubljanski regiji , pozneje so predvidene še postaje Dolgi most , Moste , Rudnik in Preska . Zdaj 13 postajališč Železnica . V MOL je 13 železniških postajališč : Ljubljana , Zalog , Polje , BTC , Rakovnik , Vodmat , Tivoli , Vižmarje , Stegne , Litostroj , Črnuče , Ježica in Brinje . Investicijska vrednost postajališča Vnanje Gorice je ocenjena na 1,7 milijona evrov , so povedali na ministrstvu . V to ceno so všteti nova dva perona , nadkritje peronov , parkirišče za osebna vozila , podhod za pešce in kolesarje , dostopne poti , prilagojene ljudem z omejeno mobilnostjo , ter obnova zgornjega ustroja proge in elektronaprav javne železniške infrastrukture . Ob tem bodo prenovili Podpeško cesto in avtobusni postajališči na območju nivojskega prehoda . Večino denarja bodo zagotovili iz državnih proračunov za leti 2014 in 2015 , del bo prispevala še Občina Brezovica . Edina ovira je denar Prav od denarja je po mnenju Slovenskih železnic ( SŽ ) odvisna nadaljnja širitev postajališč , zato si želijo , da bi ga država in lokalne skupnosti čim prej zagotovile . Mestna občina Ljubljana ( MOL ) in druge obljubljanske občine morajo po njihovem mnenju sodelovati zato , ker “ gre za razvojni projekt , ki bi vplival na vso ljubljansko urbano regijo , ne le na železniški promet ” . Lokacije novih postajališč so sicer določili v študiji , ki jo je pripravil Prometni institut Ljubljana , ta je med drugim preveril migracijske tokove , tehnične pogoje za ureditev železniških postajališč , primerne točke za P + R ( parkiraj in se pelji ) in vpliv novih postajališč na propustno zmogljivost prog . Na SŽ pa so izdelali “ grobe gradbene zasnove in ocene stroškov za nova postajališča ” , kolikšni ti so , niso razkrili . Prepričani pa so , da bi nova postajališča “ celovito izboljšala stanje javnega potniškega prometa ”
+1-1	0-5	Vlaki	_	_	_	_	
+1-2	6-7	.	_	_	_	_	
+1-3	8-9	V	_	_	_	_	
+1-4	10-19	Ljubljani	LOC	_	*->21-1	*[21]	
+1-5	20-22	in	_	_	_	_	
+1-6	23-30	okolici	_	_	_	_	
+1-7	31-33	je	_	_	_	_	
+1-8	34-45	predvidenih	_	_	_	_	
+1-9	46-49	pet	_	_	_	_	
+1-10	50-55	novih	_	_	_	_	
+1-11	56-67	železniških	_	_	_	_	
+1-12	68-79	postajališč	_	_	_	_	
+1-13	80-81	.	_	_	_	_	
+1-14	82-88	Načrti	_	_	_	_	
+1-15	89-90	.	_	_	_	_	
+1-16	91-100	Septembra	_	_	_	_	
+1-17	101-105	2014	_	_	_	_	
+1-18	106-108	se	_	_	_	_	
+1-19	109-111	bo	_	_	_	_	
+1-20	112-122	predvidoma	_	_	_	_	
+1-21	123-129	začela	_	_	_	_	
+1-22	130-137	gradnja	_	_	_	_	
+1-23	138-144	novega	_	_	_	_	
+1-24	145-157	železniškega	_	_	_	_	
+1-25	158-170	postajališča	_	_	_	_	
+1-26	171-177	Vnanje	LOC[1]	_	*->17-1	*[17]	
+1-27	178-184	Gorice	LOC[1]	_	*->17-1	*[17]	
+1-28	185-186	,	_	_	_	_	
+1-29	187-194	končala	_	_	_	_	
+1-30	195-197	pa	_	_	_	_	
+1-31	198-204	junija	_	_	_	_	
+1-32	205-209	2015	_	_	_	_	
+1-33	210-211	,	_	_	_	_	
+1-34	212-214	so	_	_	_	_	
+1-35	215-225	napovedali	_	_	_	_	
+1-36	226-228	na	_	_	_	_	
+1-37	229-240	ministrstvu	ORG[2]	_	*->22-1	*[22]	
+1-38	241-243	za	ORG[2]	_	*->22-1	*[22]	
+1-39	244-258	infrastrukturo	ORG[2]	_	*->22-1	*[22]	
+1-40	259-261	in	ORG[2]	_	*->22-1	*[22]	
+1-41	262-269	prostor	ORG[2]	_	*->22-1	*[22]	
+1-42	270-271	.	_	_	_	_	
+1-43	272-274	To	_	_	_	_	
+1-44	275-277	bo	_	_	_	_	
+1-45	278-282	prva	_	_	_	_	
+1-46	283-290	širitev	_	_	_	_	
+1-47	291-296	mreže	_	_	_	_	
+1-48	297-308	postajališč	_	_	_	_	
+1-49	309-310	v	_	_	_	_	
+1-50	311-322	ljubljanski	_	_	_	_	
+1-51	323-329	regiji	_	_	_	_	
+1-52	330-331	,	_	_	_	_	
+1-53	332-339	pozneje	_	_	_	_	
+1-54	340-342	so	_	_	_	_	
+1-55	343-353	predvidene	_	_	_	_	
+1-56	354-356	še	_	_	_	_	
+1-57	357-364	postaje	_	_	_	_	
+1-58	365-370	Dolgi	LOC[3]	3 - Nevtralno[11]	*->1-1	*[1]	
+1-59	371-375	most	LOC[3]	3 - Nevtralno[11]	*->1-1	*[1]	
+1-60	376-377	,	_	_	_	_	
+1-61	378-383	Moste	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-62	384-385	,	_	_	_	_	
+1-63	386-392	Rudnik	LOC	3 - Nevtralno	*->3-1	*[3]	
+1-64	393-395	in	_	_	_	_	
+1-65	396-402	Preska	LOC	3 - Nevtralno	*->4-1	*[4]	
+1-66	403-404	.	_	_	_	_	
+1-67	405-409	Zdaj	_	_	_	_	
+1-68	410-412	13	_	_	_	_	
+1-69	413-424	postajališč	_	_	_	_	
+1-70	425-434	Železnica	_	_	_	_	
+1-71	435-436	.	_	_	_	_	
+1-72	437-438	V	_	_	_	_	
+1-73	439-442	MOL	LOC	_	*->21-2	*[21]	
+1-74	443-445	je	_	_	_	_	
+1-75	446-448	13	_	_	_	_	
+1-76	449-460	železniških	_	_	_	_	
+1-77	461-472	postajališč	_	_	_	_	
+1-78	473-474	:	_	_	_	_	
+1-79	475-484	Ljubljana	LOC	_	*->21-3	*[21]	
+1-80	485-486	,	_	_	_	_	
+1-81	487-492	Zalog	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-82	493-494	,	_	_	_	_	
+1-83	495-500	Polje	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-84	501-502	,	_	_	_	_	
+1-85	503-506	BTC	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-86	507-508	,	_	_	_	_	
+1-87	509-517	Rakovnik	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-88	518-519	,	_	_	_	_	
+1-89	520-526	Vodmat	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-90	527-528	,	_	_	_	_	
+1-91	529-535	Tivoli	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-92	536-537	,	_	_	_	_	
+1-93	538-546	Vižmarje	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-94	547-548	,	_	_	_	_	
+1-95	549-555	Stegne	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-96	556-557	,	_	_	_	_	
+1-97	558-567	Litostroj	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-98	568-569	,	_	_	_	_	
+1-99	570-576	Črnuče	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-100	577-578	,	_	_	_	_	
+1-101	579-585	Ježica	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-102	586-588	in	_	_	_	_	
+1-103	589-595	Brinje	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-104	596-597	.	_	_	_	_	
+1-105	598-611	Investicijska	_	_	_	_	
+1-106	612-620	vrednost	_	_	_	_	
+1-107	621-633	postajališča	_	_	_	_	
+1-108	634-640	Vnanje	LOC[4]	3 - Nevtralno[12]	*->17-2	*[17]	
+1-109	641-647	Gorice	LOC[4]	3 - Nevtralno[12]	*->17-2	*[17]	
+1-110	648-650	je	_	_	_	_	
+1-111	651-659	ocenjena	_	_	_	_	
+1-112	660-662	na	_	_	_	_	
+1-113	663-666	1,7	_	_	_	_	
+1-114	667-675	milijona	_	_	_	_	
+1-115	676-681	evrov	_	_	_	_	
+1-116	682-683	,	_	_	_	_	
+1-117	684-686	so	_	_	_	_	
+1-118	687-695	povedali	_	_	_	_	
+1-119	696-698	na	_	_	_	_	
+1-120	699-710	ministrstvu	_	_	*->22-2	*[22]	
+1-121	711-712	.	_	_	_	_	
+1-122	713-714	V	_	_	_	_	
+1-123	715-717	to	_	_	_	_	
+1-124	718-722	ceno	_	_	_	_	
+1-125	723-725	so	_	_	_	_	
+1-126	726-732	všteti	_	_	_	_	
+1-127	733-737	nova	_	_	_	_	
+1-128	738-741	dva	_	_	_	_	
+1-129	742-748	perona	_	_	_	_	
+1-130	749-750	,	_	_	_	_	
+1-131	751-760	nadkritje	_	_	_	_	
+1-132	761-768	peronov	_	_	_	_	
+1-133	769-770	,	_	_	_	_	
+1-134	771-781	parkirišče	_	_	_	_	
+1-135	782-784	za	_	_	_	_	
+1-136	785-791	osebna	_	_	_	_	
+1-137	792-798	vozila	_	_	_	_	
+1-138	799-800	,	_	_	_	_	
+1-139	801-807	podhod	_	_	_	_	
+1-140	808-810	za	_	_	_	_	
+1-141	811-816	pešce	_	_	_	_	
+1-142	817-819	in	_	_	_	_	
+1-143	820-829	kolesarje	_	_	_	_	
+1-144	830-831	,	_	_	_	_	
+1-145	832-840	dostopne	_	_	_	_	
+1-146	841-845	poti	_	_	_	_	
+1-147	846-847	,	_	_	_	_	
+1-148	848-859	prilagojene	_	_	_	_	
+1-149	860-866	ljudem	_	_	_	_	
+1-150	867-868	z	_	_	_	_	
+1-151	869-876	omejeno	_	_	_	_	
+1-152	877-888	mobilnostjo	_	_	_	_	
+1-153	889-890	,	_	_	_	_	
+1-154	891-894	ter	_	_	_	_	
+1-155	895-901	obnova	_	_	_	_	
+1-156	902-911	zgornjega	_	_	_	_	
+1-157	912-919	ustroja	_	_	_	_	
+1-158	920-925	proge	_	_	_	_	
+1-159	926-928	in	_	_	_	_	
+1-160	929-942	elektronaprav	_	_	_	_	
+1-161	943-948	javne	_	_	_	_	
+1-162	949-959	železniške	_	_	_	_	
+1-163	960-974	infrastrukture	_	_	_	_	
+1-164	975-976	.	_	_	_	_	
+1-165	977-979	Ob	_	_	_	_	
+1-166	980-983	tem	_	_	_	_	
+1-167	984-988	bodo	_	_	_	_	
+1-168	989-998	prenovili	_	_	_	_	
+1-169	999-1007	Podpeško	LOC[5]	3 - Nevtralno[13]	*->18-1	*[18]	
+1-170	1008-1013	cesto	LOC[5]	3 - Nevtralno[13]	*->18-1	*[18]	
+1-171	1014-1016	in	_	_	_	_	
+1-172	1017-1026	avtobusni	_	_	_	_	
+1-173	1027-1039	postajališči	_	_	_	_	
+1-174	1040-1042	na	_	_	_	_	
+1-175	1043-1050	območju	_	_	_	_	
+1-176	1051-1061	nivojskega	_	_	_	_	
+1-177	1062-1069	prehoda	_	_	_	_	
+1-178	1070-1071	.	_	_	_	_	
+1-179	1072-1078	Večino	_	_	_	_	
+1-180	1079-1086	denarja	_	_	_	_	
+1-181	1087-1091	bodo	_	3 - Nevtralno[14]	*->22-3	*[22]	
+1-182	1092-1102	zagotovili	_	3 - Nevtralno[14]	*->22-3	*[22]	
+1-183	1103-1105	iz	_	_	_	_	
+1-184	1106-1114	državnih	_	_	_	_	
+1-185	1115-1125	proračunov	_	_	_	_	
+1-186	1126-1128	za	_	_	_	_	
+1-187	1129-1133	leti	_	_	_	_	
+1-188	1134-1138	2014	_	_	_	_	
+1-189	1139-1141	in	_	_	_	_	
+1-190	1142-1146	2015	_	_	_	_	
+1-191	1147-1148	,	_	_	_	_	
+1-192	1149-1152	del	_	_	_	_	
+1-193	1153-1155	bo	_	_	_	_	
+1-194	1156-1166	prispevala	_	_	_	_	
+1-195	1167-1169	še	_	_	_	_	
+1-196	1170-1176	Občina	LOC[6]	3 - Nevtralno[15]	*->19-1	*[19]	
+1-197	1177-1186	Brezovica	LOC[6]	3 - Nevtralno[15]	*->19-1	*[19]	
+1-198	1187-1188	.	_	_	_	_	
+1-199	1189-1194	Edina	_	_	_	_	
+1-200	1195-1200	ovira	_	_	_	_	
+1-201	1201-1203	je	_	_	_	_	
+1-202	1204-1209	denar	_	_	_	_	
+1-203	1210-1214	Prav	_	_	_	_	
+1-204	1215-1217	od	_	_	_	_	
+1-205	1218-1225	denarja	_	_	_	_	
+1-206	1226-1228	je	_	_	_	_	
+1-207	1229-1231	po	_	_	_	_	
+1-208	1232-1238	mnenju	_	_	_	_	
+1-209	1239-1249	Slovenskih	ORG[7]	_	*->23-1	*[23]	
+1-210	1250-1258	železnic	ORG[7]	_	*->23-1	*[23]	
+1-211	1259-1260	(	_	_	_	_	
+1-212	1261-1263	SŽ	ORG	_	*->23-2	*[23]	
+1-213	1264-1265	)	_	_	_	_	
+1-214	1266-1273	odvisna	_	_	_	_	
+1-215	1274-1283	nadaljnja	_	_	_	_	
+1-216	1284-1291	širitev	_	_	_	_	
+1-217	1292-1303	postajališč	_	_	_	_	
+1-218	1304-1305	,	_	_	_	_	
+1-219	1306-1310	zato	_	_	_	_	
+1-220	1311-1313	si	_	_	*->23-3	*[23]	
+1-221	1314-1320	želijo	_	_	*->23-3	*[23]	
+1-222	1321-1322	,	_	_	_	_	
+1-223	1323-1325	da	_	_	_	_	
+1-224	1326-1328	bi	_	_	_	_	
+1-225	1329-1331	ga	_	_	_	_	
+1-226	1332-1338	država	_	_	_	_	
+1-227	1339-1341	in	_	_	_	_	
+1-228	1342-1349	lokalne	_	_	_	_	
+1-229	1350-1359	skupnosti	_	_	_	_	
+1-230	1360-1363	čim	_	_	_	_	
+1-231	1364-1368	prej	_	_	_	_	
+1-232	1369-1379	zagotovile	_	_	_	_	
+1-233	1380-1381	.	_	_	_	_	
+1-234	1382-1388	Mestna	LOC[8]	_	*->21-4	*[21]	
+1-235	1389-1395	občina	LOC[8]	_	*->21-4	*[21]	
+1-236	1396-1405	Ljubljana	LOC[8]	_	*->21-4	*[21]	
+1-237	1406-1407	(	_	_	_	_	
+1-238	1408-1411	MOL	LOC	_	*->21-5	*[21]	
+1-239	1412-1413	)	_	_	_	_	
+1-240	1414-1416	in	_	_	_	_	
+1-241	1417-1422	druge	_	_	_	_	
+1-242	1423-1436	obljubljanske	_	_	_	_	
+1-243	1437-1443	občine	_	_	_	_	
+1-244	1444-1450	morajo	_	_	_	_	
+1-245	1451-1453	po	_	_	_	_	
+1-246	1454-1462	njihovem	_	_	_	_	
+1-247	1463-1469	mnenju	_	_	_	_	
+1-248	1470-1480	sodelovati	_	_	_	_	
+1-249	1481-1485	zato	_	_	_	_	
+1-250	1486-1487	,	_	_	_	_	
+1-251	1488-1491	ker	_	_	_	_	
+1-252	1492-1493	“	_	_	_	_	
+1-253	1494-1497	gre	_	_	_	_	
+1-254	1498-1500	za	_	_	_	_	
+1-255	1501-1509	razvojni	_	_	_	_	
+1-256	1510-1517	projekt	_	_	_	_	
+1-257	1518-1519	,	_	_	_	_	
+1-258	1520-1522	ki	_	_	_	_	
+1-259	1523-1525	bi	_	_	_	_	
+1-260	1526-1533	vplival	_	_	_	_	
+1-261	1534-1536	na	_	_	_	_	
+1-262	1537-1540	vso	_	_	_	_	
+1-263	1541-1552	ljubljansko	_	_	_	_	
+1-264	1553-1559	urbano	_	_	_	_	
+1-265	1560-1566	regijo	_	_	_	_	
+1-266	1567-1568	,	_	_	_	_	
+1-267	1569-1571	ne	_	_	_	_	
+1-268	1572-1574	le	_	_	_	_	
+1-269	1575-1577	na	_	_	_	_	
+1-270	1578-1588	železniški	_	_	_	_	
+1-271	1589-1595	promet	_	_	_	_	
+1-272	1596-1597	”	_	_	_	_	
+1-273	1598-1599	.	_	_	_	_	
+1-274	1600-1608	Lokacije	_	_	_	_	
+1-275	1609-1614	novih	_	_	_	_	
+1-276	1615-1626	postajališč	_	_	_	_	
+1-277	1627-1629	so	_	_	_	_	
+1-278	1630-1635	sicer	_	_	_	_	
+1-279	1636-1644	določili	_	_	_	_	
+1-280	1645-1646	v	_	_	_	_	
+1-281	1647-1654	študiji	_	_	_	_	
+1-282	1655-1656	,	_	_	_	_	
+1-283	1657-1659	ki	_	_	_	_	
+1-284	1660-1662	jo	_	_	_	_	
+1-285	1663-1665	je	_	_	_	_	
+1-286	1666-1675	pripravil	_	_	_	_	
+1-287	1676-1684	Prometni	ORG[9]	3 - Nevtralno[16]	*->20-1	*[20]	
+1-288	1685-1693	institut	ORG[9]	3 - Nevtralno[16]	*->20-1	*[20]	
+1-289	1694-1703	Ljubljana	ORG[9]|LOC[10]	3 - Nevtralno[16]|3 - Nevtralno[17]	*->20-1|*->21-6	*[20]|*[21]	
+1-290	1704-1705	,	_	_	_	_	
+1-291	1706-1708	ta	_	_	_	_	
+1-292	1709-1711	je	_	_	_	_	
+1-293	1712-1715	med	_	_	_	_	
+1-294	1716-1722	drugim	_	_	_	_	
+1-295	1723-1731	preveril	_	_	_	_	
+1-296	1732-1743	migracijske	_	_	_	_	
+1-297	1744-1750	tokove	_	_	_	_	
+1-298	1751-1752	,	_	_	_	_	
+1-299	1753-1761	tehnične	_	_	_	_	
+1-300	1762-1768	pogoje	_	_	_	_	
+1-301	1769-1771	za	_	_	_	_	
+1-302	1772-1780	ureditev	_	_	_	_	
+1-303	1781-1792	železniških	_	_	_	_	
+1-304	1793-1804	postajališč	_	_	_	_	
+1-305	1805-1806	,	_	_	_	_	
+1-306	1807-1815	primerne	_	_	_	_	
+1-307	1816-1821	točke	_	_	_	_	
+1-308	1822-1824	za	_	_	_	_	
+1-309	1825-1826	P	_	_	_	_	
+1-310	1827-1828	+	_	_	_	_	
+1-311	1829-1830	R	_	_	_	_	
+1-312	1831-1832	(	_	_	_	_	
+1-313	1833-1841	parkiraj	_	_	_	_	
+1-314	1842-1844	in	_	_	_	_	
+1-315	1845-1847	se	_	_	_	_	
+1-316	1848-1853	pelji	_	_	_	_	
+1-317	1854-1855	)	_	_	_	_	
+1-318	1856-1858	in	_	_	_	_	
+1-319	1859-1864	vpliv	_	_	_	_	
+1-320	1865-1870	novih	_	_	_	_	
+1-321	1871-1882	postajališč	_	_	_	_	
+1-322	1883-1885	na	_	_	_	_	
+1-323	1886-1895	propustno	_	_	_	_	
+1-324	1896-1907	zmogljivost	_	_	_	_	
+1-325	1908-1912	prog	_	_	_	_	
+1-326	1913-1914	.	_	_	_	_	
+1-327	1915-1917	Na	_	_	_	_	
+1-328	1918-1920	SŽ	ORG	_	*->23-4	*[23]	
+1-329	1921-1923	pa	_	_	_	_	
+1-330	1924-1926	so	_	_	_	_	
+1-331	1927-1935	izdelali	_	_	_	_	
+1-332	1936-1937	“	_	_	_	_	
+1-333	1938-1943	grobe	_	_	_	_	
+1-334	1944-1952	gradbene	_	_	_	_	
+1-335	1953-1960	zasnove	_	_	_	_	
+1-336	1961-1963	in	_	_	_	_	
+1-337	1964-1969	ocene	_	_	_	_	
+1-338	1970-1978	stroškov	_	_	_	_	
+1-339	1979-1981	za	_	_	_	_	
+1-340	1982-1986	nova	_	_	_	_	
+1-341	1987-1999	postajališča	_	_	_	_	
+1-342	2000-2001	”	_	_	_	_	
+1-343	2002-2003	,	_	_	_	_	
+1-344	2004-2012	kolikšni	_	_	_	_	
+1-345	2013-2015	ti	_	_	_	_	
+1-346	2016-2018	so	_	_	_	_	
+1-347	2019-2020	,	_	_	_	_	
+1-348	2021-2025	niso	_	_	*->23-5	*[23]	
+1-349	2026-2034	razkrili	_	_	*->23-5	*[23]	
+1-350	2035-2036	.	_	_	_	_	
+1-351	2037-2047	Prepričani	_	3 - Nevtralno	*->23-6	*[23]	
+1-352	2048-2050	pa	_	_	_	_	
+1-353	2051-2053	so	_	_	_	_	
+1-354	2054-2055	,	_	_	_	_	
+1-355	2056-2058	da	_	_	_	_	
+1-356	2059-2061	bi	_	_	_	_	
+1-357	2062-2066	nova	_	_	_	_	
+1-358	2067-2079	postajališča	_	_	_	_	
+1-359	2080-2081	“	_	_	_	_	
+1-360	2082-2090	celovito	_	_	_	_	
+1-361	2091-2101	izboljšala	_	_	_	_	
+1-362	2102-2108	stanje	_	_	_	_	
+1-363	2109-2116	javnega	_	_	_	_	
+1-364	2117-2127	potniškega	_	_	_	_	
+1-365	2128-2135	prometa	_	_	_	_	
+1-366	2136-2137	”	_	_	_	_	

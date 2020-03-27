@@ -1,0 +1,269 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Nadzorni svet Abanke Vipe je na današnji seji za novega predsednika uprave imenoval Jožeta Leniča . Ta bo vodilno mesto v upravi prevzel po pridobitvi dovoljena Banke Slovenije , vendar ne pred 1 . januarjem 2011 . Člana uprave ostajata Radovan Jereb in Gregor Hudobivnik . Nadzorniki so tako zaključili postopek za dopolnitev uprave banke , so prek spletnih strani Ljubljanske borze sporočili iz tretje največje banke v Sloveniji . Ta postopek so nadzorniki sprožili , potem ko Matej Narat iz NLB , njihov kandidat za prvega moža banke , ni dobil dovoljenja Banke Slovenije za opravljanje te funkcije . Abanko od konca aprila vodi dvočlanska uprava pod Jerebovim vodstvom , saj je takrat dotedanji prvi mož Abanke Aleš Žajdela tragično preminil v prometni nesreči . Jože Lenič , magister mednarodne ekonomije , univerzitetni diplomirani geograf in profesor geologije , je poslovno pot začel v zasebnem podjetju Oikos in jo nadaljeval kot predsednik izvršnega sveta Občine Domžale . Od decembra 1992 do januarja 2000 je bil poslanec DZ . Deloval je kot svetovalec uprave SKB banke in več let kot predsednik uprave vodil Kapitalsko družbo . Od decembra 2003 do junija 2005 je bil predsednik uprave Zavarovalnice Triglav , nato pa se je zaposlil kot svetovalec uprave pozavarovalnice Triglav Reinsurance . Trenutno je zaposlen v družbi Aksum . Sedaj je predsednik nadzornega sveta novomeške Krke , bil pa je tudi član nadzornih svetov Leka , Save , NLB , Intereurope , Dela in Slovenskega zavarovalnega združenja ter nekaterih odvisnih družb Zavarovalnice Triglav , je razvidno iz spletnih strani družbe Krka
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-20	Nadzorni	_	_	_	_	
+1-4	21-25	svet	_	_	_	_	
+1-5	26-32	Abanke	ORG[1]	_	*->2-1	*[2]	
+1-6	33-37	Vipe	ORG[1]	_	*->2-1	*[2]	
+1-7	38-40	je	_	_	_	_	
+1-8	41-43	na	_	_	_	_	
+1-9	44-52	današnji	_	_	_	_	
+1-10	53-57	seji	_	_	_	_	
+1-11	58-60	za	_	_	_	_	
+1-12	61-67	novega	_	_	_	_	
+1-13	68-79	predsednika	_	_	_	_	
+1-14	80-86	uprave	_	_	_	_	
+1-15	87-95	imenoval	_	_	_	_	
+1-16	96-102	Jožeta	PER[2]	_	*->3-1	*[3]	
+1-17	103-109	Leniča	PER[2]	_	*->3-1	*[3]	
+1-18	110-111	.	_	_	_	_	
+1-19	112-114	Ta	_	_	*->3-2	*[3]	
+1-20	115-117	bo	_	_	_	_	
+1-21	118-125	vodilno	_	_	_	_	
+1-22	126-131	mesto	_	_	_	_	
+1-23	132-133	v	_	_	_	_	
+1-24	134-140	upravi	_	_	_	_	
+1-25	141-148	prevzel	_	_	_	_	
+1-26	149-151	po	_	_	_	_	
+1-27	152-162	pridobitvi	_	_	_	_	
+1-28	163-172	dovoljena	_	_	_	_	
+1-29	173-178	Banke	ORG[3]	_	*->4-1	*[4]	
+1-30	179-188	Slovenije	ORG[3]|LOC[4]	_	*->4-1|*->5-1	*[4]|*[5]	
+1-31	189-190	,	_	_	_	_	
+1-32	191-197	vendar	_	_	_	_	
+1-33	198-200	ne	_	_	_	_	
+1-34	201-205	pred	_	_	_	_	
+1-35	206-207	1	_	_	_	_	
+1-36	208-209	.	_	_	_	_	
+1-37	210-219	januarjem	_	_	_	_	
+1-38	220-224	2011	_	_	_	_	
+1-39	225-226	.	_	_	_	_	
+1-40	227-232	Člana	_	_	_	_	
+1-41	233-239	uprave	_	_	_	_	
+1-42	240-248	ostajata	_	_	_	_	
+1-43	249-256	Radovan	PER[5]	_	*->6-1	*[6]	
+1-44	257-262	Jereb	PER[5]	_	*->6-1	*[6]	
+1-45	263-265	in	_	_	_	_	
+1-46	266-272	Gregor	PER[6]	3 - Nevtralno[23]	*->7-1	*[7]	
+1-47	273-283	Hudobivnik	PER[6]	3 - Nevtralno[23]	*->7-1	*[7]	
+1-48	284-285	.	_	_	_	_	
+1-49	286-296	Nadzorniki	_	_	_	_	
+1-50	297-299	so	_	_	_	_	
+1-51	300-304	tako	_	_	_	_	
+1-52	305-315	zaključili	_	_	_	_	
+1-53	316-324	postopek	_	_	_	_	
+1-54	325-327	za	_	_	_	_	
+1-55	328-338	dopolnitev	_	_	_	_	
+1-56	339-345	uprave	_	_	_	_	
+1-57	346-351	banke	_	_	*->2-2	*[2]	
+1-58	352-353	,	_	_	_	_	
+1-59	354-356	so	_	_	_	_	
+1-60	357-361	prek	_	_	_	_	
+1-61	362-370	spletnih	_	_	_	_	
+1-62	371-377	strani	_	_	_	_	
+1-63	378-389	Ljubljanske	ORG[7]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-64	390-395	borze	ORG[7]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-65	396-405	sporočili	_	_	_	_	
+1-66	406-408	iz	_	_	_	_	
+1-67	409-415	tretje	_	_	*->2-3	*[2]	
+1-68	416-424	največje	_	_	*->2-3	*[2]	
+1-69	425-430	banke	_	_	*->2-3	*[2]	
+1-70	431-432	v	_	_	_	_	
+1-71	433-442	Sloveniji	LOC	_	*->5-2	*[5]	
+1-72	443-444	.	_	_	_	_	
+1-73	445-447	Ta	_	_	_	_	
+1-74	448-456	postopek	_	_	_	_	
+1-75	457-459	so	_	_	_	_	
+1-76	460-470	nadzorniki	_	_	_	_	
+1-77	471-479	sprožili	_	_	_	_	
+1-78	480-481	,	_	_	_	_	
+1-79	482-487	potem	_	_	_	_	
+1-80	488-490	ko	_	_	_	_	
+1-81	491-496	Matej	PER[8]	_	*->9-1	*[9]	
+1-82	497-502	Narat	PER[8]	_	*->9-1	*[9]	
+1-83	503-505	iz	_	_	_	_	
+1-84	506-509	NLB	ORG	_	*->10-1	*[10]	
+1-85	510-511	,	_	_	_	_	
+1-86	512-518	njihov	_	_	*->2-4	*[2]	
+1-87	519-527	kandidat	_	_	*->9-2	*[9]	
+1-88	528-530	za	_	_	*->9-2	*[9]	
+1-89	531-537	prvega	_	_	*->9-2	*[9]	
+1-90	538-542	moža	_	_	*->9-2	*[9]	
+1-91	543-548	banke	_	_	*->9-2	*[9]	
+1-92	549-550	,	_	_	_	_	
+1-93	551-553	ni	_	_	_	_	
+1-94	554-559	dobil	_	2 - Negativno	*->9-3	*[9]	
+1-95	560-570	dovoljenja	_	_	_	_	
+1-96	571-576	Banke	ORG[9]	3 - Nevtralno[25]	*->4-2	*[4]	
+1-97	577-586	Slovenije	ORG[9]|LOC[10]	3 - Nevtralno[25]|3 - Nevtralno[26]	*->4-2|*->5-3	*[4]|*[5]	
+1-98	587-589	za	_	_	_	_	
+1-99	590-601	opravljanje	_	_	_	_	
+1-100	602-604	te	_	_	_	_	
+1-101	605-613	funkcije	_	_	_	_	
+1-102	614-615	.	_	_	_	_	
+1-103	616-622	Abanko	ORG	_	*->2-5	*[2]	
+1-104	623-625	od	_	_	_	_	
+1-105	626-631	konca	_	_	_	_	
+1-106	632-638	aprila	_	_	_	_	
+1-107	639-643	vodi	_	_	_	_	
+1-108	644-654	dvočlanska	_	_	_	_	
+1-109	655-661	uprava	_	_	_	_	
+1-110	662-665	pod	_	_	_	_	
+1-111	666-675	Jerebovim	PER	3 - Nevtralno	*->6-2	*[6]	
+1-112	676-684	vodstvom	_	_	_	_	
+1-113	685-686	,	_	_	_	_	
+1-114	687-690	saj	_	_	_	_	
+1-115	691-693	je	_	_	_	_	
+1-116	694-700	takrat	_	_	_	_	
+1-117	701-710	dotedanji	_	_	_	_	
+1-118	711-715	prvi	_	2 - Negativno[27]	*->11-1	*[11]	
+1-119	716-719	mož	_	2 - Negativno[27]	*->11-1	*[11]	
+1-120	720-726	Abanke	ORG	2 - Negativno[27]|3 - Nevtralno[28]	*->11-1|*->2-6	*[11]|*[2]	
+1-121	727-731	Aleš	PER[11]	2 - Negativno[27]	*->11-1	*[11]	
+1-122	732-739	Žajdela	PER[11]	2 - Negativno[27]	*->11-1	*[11]	
+1-123	740-748	tragično	_	_	_	_	
+1-124	749-757	preminil	_	_	_	_	
+1-125	758-759	v	_	_	_	_	
+1-126	760-768	prometni	_	_	_	_	
+1-127	769-776	nesreči	_	_	_	_	
+1-128	777-778	.	_	_	_	_	
+1-129	779-783	Jože	PER[12]	_	*->3-3	*[3]	
+1-130	784-789	Lenič	PER[12]	_	*->3-3	*[3]	
+1-131	790-791	,	_	_	_	_	
+1-132	792-800	magister	_	_	*->3-4	*[3]	
+1-133	801-811	mednarodne	_	_	*->3-4	*[3]	
+1-134	812-821	ekonomije	_	_	*->3-4	*[3]	
+1-135	822-823	,	_	_	_	_	
+1-136	824-837	univerzitetni	_	_	*->3-5	*[3]	
+1-137	838-849	diplomirani	_	_	*->3-5	*[3]	
+1-138	850-857	geograf	_	_	*->3-5	*[3]	
+1-139	858-860	in	_	_	*->3-5	*[3]	
+1-140	861-869	profesor	_	_	*->3-5	*[3]	
+1-141	870-879	geologije	_	_	*->3-5	*[3]	
+1-142	880-881	,	_	_	_	_	
+1-143	882-884	je	_	_	_	_	
+1-144	885-893	poslovno	_	_	_	_	
+1-145	894-897	pot	_	_	_	_	
+1-146	898-903	začel	_	_	_	_	
+1-147	904-905	v	_	_	_	_	
+1-148	906-914	zasebnem	_	3 - Nevtralno[29]	*->12-1	*[12]	
+1-149	915-923	podjetju	_	3 - Nevtralno[29]	*->12-1	*[12]	
+1-150	924-929	Oikos	ORG	3 - Nevtralno[29]	*->12-1	*[12]	
+1-151	930-932	in	_	_	_	_	
+1-152	933-935	jo	_	_	_	_	
+1-153	936-946	nadaljeval	_	_	_	_	
+1-154	947-950	kot	_	_	_	_	
+1-155	951-961	predsednik	_	_	*->3-6	*[3]	
+1-156	962-971	izvršnega	_	_	*->3-6	*[3]	
+1-157	972-977	sveta	_	_	*->3-6	*[3]	
+1-158	978-984	Občine	ORG[13]	3 - Nevtralno[30]	*->3-6|*->13-1	*[3]|*[13]	
+1-159	985-992	Domžale	ORG[13]|LOC[14]	3 - Nevtralno[30]|3 - Nevtralno[31]	*->3-6|*->13-1|*->14-1	*[3]|*[13]|*[14]	
+1-160	993-994	.	_	_	_	_	
+1-161	995-997	Od	_	_	_	_	
+1-162	998-1006	decembra	_	_	_	_	
+1-163	1007-1011	1992	_	_	_	_	
+1-164	1012-1014	do	_	_	_	_	
+1-165	1015-1023	januarja	_	_	_	_	
+1-166	1024-1028	2000	_	_	_	_	
+1-167	1029-1031	je	_	_	_	_	
+1-168	1032-1035	bil	_	_	_	_	
+1-169	1036-1044	poslanec	_	_	*->3-7	*[3]	
+1-170	1045-1047	DZ	ORG	3 - Nevtralno	*->3-7|*->15-1	*[3]|*[15]	
+1-171	1048-1049	.	_	_	_	_	
+1-172	1050-1057	Deloval	_	_	_	_	
+1-173	1058-1060	je	_	_	_	_	
+1-174	1061-1064	kot	_	_	_	_	
+1-175	1065-1075	svetovalec	_	_	*->3-8	*[3]	
+1-176	1076-1082	uprave	_	_	*->3-8	*[3]	
+1-177	1083-1086	SKB	ORG	3 - Nevtralno	*->3-8|*->27-1	*[3]|*[27]	
+1-178	1087-1092	banke	_	_	*->3-8	*[3]	
+1-179	1093-1095	in	_	_	_	_	
+1-180	1096-1099	več	_	_	_	_	
+1-181	1100-1103	let	_	_	_	_	
+1-182	1104-1107	kot	_	_	_	_	
+1-183	1108-1118	predsednik	_	_	_	_	
+1-184	1119-1125	uprave	_	_	_	_	
+1-185	1126-1131	vodil	_	_	_	_	
+1-186	1132-1142	Kapitalsko	ORG[15]	3 - Nevtralno[32]	*->16-1	*[16]	
+1-187	1143-1149	družbo	ORG[15]	3 - Nevtralno[32]	*->16-1	*[16]	
+1-188	1150-1151	.	_	_	_	_	
+1-189	1152-1154	Od	_	_	_	_	
+1-190	1155-1163	decembra	_	_	_	_	
+1-191	1164-1168	2003	_	_	_	_	
+1-192	1169-1171	do	_	_	_	_	
+1-193	1172-1178	junija	_	_	_	_	
+1-194	1179-1183	2005	_	_	_	_	
+1-195	1184-1186	je	_	_	_	_	
+1-196	1187-1190	bil	_	_	_	_	
+1-197	1191-1201	predsednik	_	_	*->3-9	*[3]	
+1-198	1202-1208	uprave	_	_	*->3-9	*[3]	
+1-199	1209-1222	Zavarovalnice	ORG[16]	_	*->3-9|*->17-1	*[3]|*[17]	
+1-200	1223-1230	Triglav	ORG[16]|LOC[17]	_	*->3-9|*->17-1|*->18-1	*[3]|*[17]|*[18]	
+1-201	1231-1232	,	_	_	_	_	
+1-202	1233-1237	nato	_	_	_	_	
+1-203	1238-1240	pa	_	_	_	_	
+1-204	1241-1243	se	_	_	_	_	
+1-205	1244-1246	je	_	_	_	_	
+1-206	1247-1255	zaposlil	_	_	_	_	
+1-207	1256-1259	kot	_	_	_	_	
+1-208	1260-1270	svetovalec	_	_	*->3-10	*[3]	
+1-209	1271-1277	uprave	_	_	*->3-10	*[3]	
+1-210	1278-1293	pozavarovalnice	_	3 - Nevtralno[33]	*->3-10|*->19-1	*[3]|*[19]	
+1-211	1294-1301	Triglav	ORG[18]|LOC[19]	3 - Nevtralno[33]	*->3-10|*->19-1|*->18-2	*[3]|*[19]|*[18]	
+1-212	1302-1313	Reinsurance	ORG[18]	3 - Nevtralno[33]	*->3-10|*->19-1	*[3]|*[19]	
+1-213	1314-1315	.	_	_	_	_	
+1-214	1316-1324	Trenutno	_	_	_	_	
+1-215	1325-1327	je	_	_	_	_	
+1-216	1328-1336	zaposlen	_	_	*->3-11	*[3]	
+1-217	1337-1338	v	_	_	_	_	
+1-218	1339-1345	družbi	_	3 - Nevtralno[34]	*->20-1	*[20]	
+1-219	1346-1351	Aksum	ORG	3 - Nevtralno[34]	*->20-1	*[20]	
+1-220	1352-1353	.	_	_	_	_	
+1-221	1354-1359	Sedaj	_	_	_	_	
+1-222	1360-1362	je	_	_	_	_	
+1-223	1363-1373	predsednik	_	_	*->3-12	*[3]	
+1-224	1374-1384	nadzornega	_	_	*->3-12	*[3]	
+1-225	1385-1390	sveta	_	_	*->3-12	*[3]	
+1-226	1391-1400	novomeške	_	_	*->3-12	*[3]	
+1-227	1401-1405	Krke	ORG	_	*->3-12|*->21-1	*[3]|*[21]	
+1-228	1406-1407	,	_	_	_	_	
+1-229	1408-1411	bil	_	_	_	_	
+1-230	1412-1414	pa	_	_	_	_	
+1-231	1415-1417	je	_	_	_	_	
+1-232	1418-1422	tudi	_	_	_	_	
+1-233	1423-1427	član	_	4 - Pozitivno[35]	*->3-13	*[3]	
+1-234	1428-1437	nadzornih	_	4 - Pozitivno[35]	*->3-13	*[3]	
+1-235	1438-1444	svetov	_	4 - Pozitivno[35]	*->3-13	*[3]	
+1-236	1445-1449	Leka	ORG	3 - Nevtralno	*->22-1	*[22]	
+1-237	1450-1451	,	_	_	_	_	
+1-238	1452-1456	Save	ORG	3 - Nevtralno	*->23-1	*[23]	
+1-239	1457-1458	,	_	_	_	_	
+1-240	1459-1462	NLB	ORG	3 - Nevtralno	*->10-2	*[10]	
+1-241	1463-1464	,	_	_	_	_	
+1-242	1465-1476	Intereurope	ORG	3 - Nevtralno	*->24-1	*[24]	
+1-243	1477-1478	,	_	_	_	_	
+1-244	1479-1483	Dela	ORG	3 - Nevtralno	*->25-1	*[25]	
+1-245	1484-1486	in	_	_	_	_	
+1-246	1487-1498	Slovenskega	ORG[20]	3 - Nevtralno[36]	*->26-1	*[26]	
+1-247	1499-1512	zavarovalnega	ORG[20]	3 - Nevtralno[36]	*->26-1	*[26]	
+1-248	1513-1522	združenja	ORG[20]	3 - Nevtralno[36]	*->26-1	*[26]	
+1-249	1523-1526	ter	_	_	_	_	
+1-250	1527-1536	nekaterih	_	_	_	_	
+1-251	1537-1545	odvisnih	_	_	_	_	
+1-252	1546-1551	družb	_	_	_	_	
+1-253	1552-1565	Zavarovalnice	ORG[21]	3 - Nevtralno[37]	*->17-2	*[17]	
+1-254	1566-1573	Triglav	ORG[21]|LOC[22]	3 - Nevtralno[37]|3 - Nevtralno[38]	*->17-2|*->18-3	*[17]|*[18]	
+1-255	1574-1575	,	_	_	_	_	
+1-256	1576-1578	je	_	_	_	_	
+1-257	1579-1587	razvidno	_	_	_	_	
+1-258	1588-1590	iz	_	_	_	_	
+1-259	1591-1599	spletnih	_	_	_	_	
+1-260	1600-1606	strani	_	_	_	_	
+1-261	1607-1613	družbe	_	3 - Nevtralno[39]	*->21-2	*[21]	
+1-262	1614-1618	Krka	ORG	3 - Nevtralno[39]	*->21-2	*[21]	

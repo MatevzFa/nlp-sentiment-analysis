@@ -1,0 +1,381 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Do konca leta v Ljubljani še več enosmernih ulic . Izboljšave bodo namenjene predvsem stanovalcem Za uredbo enosmernih cest na obrobju središč smo se odločili zaradi pritiska mirujočega prometa , je na današnji novinarski konferenci povedal ljubljanski župan Zoran Janković . Foto : Andrej Križ Letna dovolilnica za stanovalce bo 100 evrov V Prulah in Spodnji Šiški so že uredili sistem enosmernih ulic . S tem so pridobili 1.200 novih parkirnih mest , ki so opremljena z parkomati , za vse , razen za stanovalce . Glede stanovalcev bo odločal še mestni svet . » Upam , da bo na seji mestnega sveta potrjeno , da bodo stanovalci dobili letno dovolilnico za 100 evrov , « je povedal Janković . " Dnevni migranti raje iskali prostor bližje centru " Kot je še dejal župan bodo s tako ureditvijo po njegovem mnenju pridobili predvsem stanovalci , saj bodo dnevni migranti raje iskali prostor bližje centru . » Menim , da bodo tako stanovalci končno dobili priložnost , da imajo vsak dan zagotovljeno parkirno mestom , « je dodal . Dovolj parkirnih mest za vse Župan je na očitke , da nekateri stanovalci niso zadovoljni z ureditvijo enosmernih ulic , odgovoril , da so ti isti stanovalci pred tem pisali na občino pisma in dopise , da bi se zgradila nova parkirna mesta , saj so jim vse ulice zapakirali dnevni migranti . » Prepričan sem , da bodo imeli vsi dovolj parkirnih mest , ko ureditev popolnoma zaživi . Pričakujem , da se bo stvar uredila v nekaj mesecih , « je še povedal ljubljanski župan . Kje bodo urejene enosmerne ulice Do konca letošnjega leta nameravajo urediti enosmerne ulice na južnem delu Bežigrada ( med Parmovo ulico , ulico Bežigrad , Dunajsko cesto in železniško progo Ljubljana - Jesenice ) , na severnem delu Kodeljevega ( med Ljubljanico , ulico Na peči , Povšetovo ulico in železniško progo Ljubljana - Metlika ) , na Prulah ( med Ljubljanico , Karlovško cesto in Gruberjevim prekopom ) in Mirju ( med Tržaško cesto , Groharjevo cesto , Gradaščico in Jadransko ulico ter med ulico Mirje , Barjansko cesto , Gradaščico in Groharjevo cesto ) . S klikom na sliko si lahko ogledate novo ureditev enosmernega prometa
+1-1	0-2	Do	_	_	_	_	
+1-2	3-8	konca	_	_	_	_	
+1-3	9-13	leta	_	_	_	_	
+1-4	14-15	v	_	_	_	_	
+1-5	16-25	Ljubljani	LOC	_	*->1-1	*[1]	
+1-6	26-28	še	_	_	_	_	
+1-7	29-32	več	_	_	_	_	
+1-8	33-43	enosmernih	_	_	_	_	
+1-9	44-48	ulic	_	_	_	_	
+1-10	49-50	.	_	_	_	_	
+1-11	51-61	Izboljšave	_	_	_	_	
+1-12	62-66	bodo	_	_	_	_	
+1-13	67-76	namenjene	_	_	_	_	
+1-14	77-85	predvsem	_	_	_	_	
+1-15	86-97	stanovalcem	_	_	_	_	
+1-16	98-100	Za	_	_	_	_	
+1-17	101-107	uredbo	_	_	_	_	
+1-18	108-118	enosmernih	_	_	_	_	
+1-19	119-123	cest	_	_	_	_	
+1-20	124-126	na	_	_	_	_	
+1-21	127-134	obrobju	_	_	_	_	
+1-22	135-142	središč	_	_	_	_	
+1-23	143-146	smo	_	_	_	_	
+1-24	147-149	se	_	_	_	_	
+1-25	150-158	odločili	_	_	_	_	
+1-26	159-165	zaradi	_	_	_	_	
+1-27	166-174	pritiska	_	_	_	_	
+1-28	175-185	mirujočega	_	_	_	_	
+1-29	186-193	prometa	_	_	_	_	
+1-30	194-195	,	_	_	_	_	
+1-31	196-198	je	_	_	_	_	
+1-32	199-201	na	_	_	_	_	
+1-33	202-210	današnji	_	_	_	_	
+1-34	211-221	novinarski	_	_	_	_	
+1-35	222-232	konferenci	_	_	_	_	
+1-36	233-240	povedal	_	_	_	_	
+1-37	241-252	ljubljanski	_	_	*->2-1	*[2]	
+1-38	253-258	župan	_	_	*->2-1	*[2]	
+1-39	259-264	Zoran	PER[1]	_	*->2-1	*[2]	
+1-40	265-273	Janković	PER[1]	_	*->2-1	*[2]	
+1-41	274-275	.	_	_	_	_	
+1-42	276-280	Foto	_	_	_	_	
+1-43	281-282	:	_	_	_	_	
+1-44	283-289	Andrej	PER[2]	3 - Nevtralno[14]	*->19-1	*[19]	
+1-45	290-294	Križ	PER[2]	3 - Nevtralno[14]	*->19-1	*[19]	
+1-46	295-300	Letna	_	_	_	_	
+1-47	301-312	dovolilnica	_	_	_	_	
+1-48	313-315	za	_	_	_	_	
+1-49	316-326	stanovalce	_	_	_	_	
+1-50	327-329	bo	_	_	_	_	
+1-51	330-333	100	_	_	_	_	
+1-52	334-339	evrov	_	_	_	_	
+1-53	340-341	V	_	_	_	_	
+1-54	342-348	Prulah	LOC	_	*->3-1	*[3]	
+1-55	349-351	in	_	_	_	_	
+1-56	352-359	Spodnji	LOC[3]	3 - Nevtralno[15]	*->4-1	*[4]	
+1-57	360-365	Šiški	LOC[3]	3 - Nevtralno[15]	*->4-1	*[4]	
+1-58	366-368	so	_	_	_	_	
+1-59	369-371	že	_	_	_	_	
+1-60	372-379	uredili	_	_	_	_	
+1-61	380-386	sistem	_	_	_	_	
+1-62	387-397	enosmernih	_	_	_	_	
+1-63	398-402	ulic	_	_	_	_	
+1-64	403-404	.	_	_	_	_	
+1-65	405-406	S	_	_	_	_	
+1-66	407-410	tem	_	_	_	_	
+1-67	411-413	so	_	_	_	_	
+1-68	414-423	pridobili	_	_	_	_	
+1-69	424-429	1.200	_	_	_	_	
+1-70	430-435	novih	_	_	_	_	
+1-71	436-445	parkirnih	_	_	_	_	
+1-72	446-450	mest	_	_	_	_	
+1-73	451-452	,	_	_	_	_	
+1-74	453-455	ki	_	_	_	_	
+1-75	456-458	so	_	_	_	_	
+1-76	459-469	opremljena	_	_	_	_	
+1-77	470-471	z	_	_	_	_	
+1-78	472-481	parkomati	_	_	_	_	
+1-79	482-483	,	_	_	_	_	
+1-80	484-486	za	_	_	_	_	
+1-81	487-490	vse	_	_	_	_	
+1-82	491-492	,	_	_	_	_	
+1-83	493-498	razen	_	_	_	_	
+1-84	499-501	za	_	_	_	_	
+1-85	502-512	stanovalce	_	_	_	_	
+1-86	513-514	.	_	_	_	_	
+1-87	515-520	Glede	_	_	_	_	
+1-88	521-532	stanovalcev	_	_	_	_	
+1-89	533-535	bo	_	_	_	_	
+1-90	536-543	odločal	_	_	_	_	
+1-91	544-546	še	_	_	_	_	
+1-92	547-553	mestni	_	_	_	_	
+1-93	554-558	svet	_	_	_	_	
+1-94	559-560	.	_	_	_	_	
+1-95	561-562	»	_	_	_	_	
+1-96	563-567	Upam	_	_	_	_	
+1-97	568-569	,	_	_	_	_	
+1-98	570-572	da	_	_	_	_	
+1-99	573-575	bo	_	_	_	_	
+1-100	576-578	na	_	_	_	_	
+1-101	579-583	seji	_	_	_	_	
+1-102	584-592	mestnega	_	_	_	_	
+1-103	593-598	sveta	_	_	_	_	
+1-104	599-607	potrjeno	_	_	_	_	
+1-105	608-609	,	_	_	_	_	
+1-106	610-612	da	_	_	_	_	
+1-107	613-617	bodo	_	_	_	_	
+1-108	618-628	stanovalci	_	_	_	_	
+1-109	629-635	dobili	_	_	_	_	
+1-110	636-641	letno	_	_	_	_	
+1-111	642-653	dovolilnico	_	_	_	_	
+1-112	654-656	za	_	_	_	_	
+1-113	657-660	100	_	_	_	_	
+1-114	661-666	evrov	_	_	_	_	
+1-115	667-668	,	_	_	_	_	
+1-116	669-670	«	_	_	_	_	
+1-117	671-673	je	_	_	_	_	
+1-118	674-681	povedal	_	_	_	_	
+1-119	682-690	Janković	PER	_	*->2-2	*[2]	
+1-120	691-692	.	_	_	_	_	
+1-121	693-694	"	_	_	_	_	
+1-122	695-701	Dnevni	_	_	_	_	
+1-123	702-710	migranti	_	_	_	_	
+1-124	711-715	raje	_	_	_	_	
+1-125	716-722	iskali	_	_	_	_	
+1-126	723-730	prostor	_	_	_	_	
+1-127	731-737	bližje	_	_	_	_	
+1-128	738-744	centru	_	_	_	_	
+1-129	745-746	"	_	_	_	_	
+1-130	747-750	Kot	_	_	_	_	
+1-131	751-753	je	_	_	_	_	
+1-132	754-756	še	_	_	_	_	
+1-133	757-762	dejal	_	_	_	_	
+1-134	763-768	župan	_	_	*->2-3	*[2]	
+1-135	769-773	bodo	_	_	_	_	
+1-136	774-775	s	_	_	_	_	
+1-137	776-780	tako	_	_	_	_	
+1-138	781-791	ureditvijo	_	_	_	_	
+1-139	792-794	po	_	_	_	_	
+1-140	795-803	njegovem	_	_	_	_	
+1-141	804-810	mnenju	_	_	_	_	
+1-142	811-820	pridobili	_	_	_	_	
+1-143	821-829	predvsem	_	_	_	_	
+1-144	830-840	stanovalci	_	_	_	_	
+1-145	841-842	,	_	_	_	_	
+1-146	843-846	saj	_	_	_	_	
+1-147	847-851	bodo	_	_	_	_	
+1-148	852-858	dnevni	_	_	_	_	
+1-149	859-867	migranti	_	_	_	_	
+1-150	868-872	raje	_	_	_	_	
+1-151	873-879	iskali	_	_	_	_	
+1-152	880-887	prostor	_	_	_	_	
+1-153	888-894	bližje	_	_	_	_	
+1-154	895-901	centru	_	_	_	_	
+1-155	902-903	.	_	_	_	_	
+1-156	904-905	»	_	_	_	_	
+1-157	906-911	Menim	_	_	*->2-4	*[2]	
+1-158	912-913	,	_	_	_	_	
+1-159	914-916	da	_	_	_	_	
+1-160	917-921	bodo	_	_	_	_	
+1-161	922-926	tako	_	_	_	_	
+1-162	927-937	stanovalci	_	_	_	_	
+1-163	938-944	končno	_	_	_	_	
+1-164	945-951	dobili	_	_	_	_	
+1-165	952-962	priložnost	_	_	_	_	
+1-166	963-964	,	_	_	_	_	
+1-167	965-967	da	_	_	_	_	
+1-168	968-973	imajo	_	_	_	_	
+1-169	974-978	vsak	_	_	_	_	
+1-170	979-982	dan	_	_	_	_	
+1-171	983-995	zagotovljeno	_	_	_	_	
+1-172	996-1004	parkirno	_	_	_	_	
+1-173	1005-1011	mestom	_	_	_	_	
+1-174	1012-1013	,	_	_	_	_	
+1-175	1014-1015	«	_	_	_	_	
+1-176	1016-1018	je	_	_	*->2-5	*[2]	
+1-177	1019-1024	dodal	_	_	*->2-5	*[2]	
+1-178	1025-1026	.	_	_	_	_	
+1-179	1027-1033	Dovolj	_	_	_	_	
+1-180	1034-1043	parkirnih	_	_	_	_	
+1-181	1044-1048	mest	_	_	_	_	
+1-182	1049-1051	za	_	_	_	_	
+1-183	1052-1055	vse	_	_	_	_	
+1-184	1056-1061	Župan	_	_	*->2-6	*[2]	
+1-185	1062-1064	je	_	_	_	_	
+1-186	1065-1067	na	_	_	_	_	
+1-187	1068-1074	očitke	_	_	_	_	
+1-188	1075-1076	,	_	_	_	_	
+1-189	1077-1079	da	_	_	_	_	
+1-190	1080-1088	nekateri	_	_	_	_	
+1-191	1089-1099	stanovalci	_	_	_	_	
+1-192	1100-1104	niso	_	_	_	_	
+1-193	1105-1115	zadovoljni	_	_	_	_	
+1-194	1116-1117	z	_	_	_	_	
+1-195	1118-1128	ureditvijo	_	_	_	_	
+1-196	1129-1139	enosmernih	_	_	_	_	
+1-197	1140-1144	ulic	_	_	_	_	
+1-198	1145-1146	,	_	_	_	_	
+1-199	1147-1156	odgovoril	_	_	*->2-7	*[2]	
+1-200	1157-1158	,	_	_	_	_	
+1-201	1159-1161	da	_	_	_	_	
+1-202	1162-1164	so	_	_	_	_	
+1-203	1165-1167	ti	_	_	_	_	
+1-204	1168-1172	isti	_	_	_	_	
+1-205	1173-1183	stanovalci	_	_	_	_	
+1-206	1184-1188	pred	_	_	_	_	
+1-207	1189-1192	tem	_	_	_	_	
+1-208	1193-1199	pisali	_	_	_	_	
+1-209	1200-1202	na	_	_	_	_	
+1-210	1203-1209	občino	_	_	_	_	
+1-211	1210-1215	pisma	_	_	_	_	
+1-212	1216-1218	in	_	_	_	_	
+1-213	1219-1225	dopise	_	_	_	_	
+1-214	1226-1227	,	_	_	_	_	
+1-215	1228-1230	da	_	_	_	_	
+1-216	1231-1233	bi	_	_	_	_	
+1-217	1234-1236	se	_	_	_	_	
+1-218	1237-1245	zgradila	_	_	_	_	
+1-219	1246-1250	nova	_	_	_	_	
+1-220	1251-1259	parkirna	_	_	_	_	
+1-221	1260-1265	mesta	_	_	_	_	
+1-222	1266-1267	,	_	_	_	_	
+1-223	1268-1271	saj	_	_	_	_	
+1-224	1272-1274	so	_	_	_	_	
+1-225	1275-1278	jim	_	_	_	_	
+1-226	1279-1282	vse	_	_	_	_	
+1-227	1283-1288	ulice	_	_	_	_	
+1-228	1289-1299	zapakirali	_	_	_	_	
+1-229	1300-1306	dnevni	_	_	_	_	
+1-230	1307-1315	migranti	_	_	_	_	
+1-231	1316-1317	.	_	_	_	_	
+1-232	1318-1319	»	_	_	_	_	
+1-233	1320-1329	Prepričan	_	_	_	_	
+1-234	1330-1333	sem	_	_	*->2-8	*[2]	
+1-235	1334-1335	,	_	_	_	_	
+1-236	1336-1338	da	_	_	_	_	
+1-237	1339-1343	bodo	_	_	_	_	
+1-238	1344-1349	imeli	_	_	_	_	
+1-239	1350-1353	vsi	_	_	_	_	
+1-240	1354-1360	dovolj	_	_	_	_	
+1-241	1361-1370	parkirnih	_	_	_	_	
+1-242	1371-1375	mest	_	_	_	_	
+1-243	1376-1377	,	_	_	_	_	
+1-244	1378-1380	ko	_	_	_	_	
+1-245	1381-1389	ureditev	_	_	_	_	
+1-246	1390-1399	popolnoma	_	_	_	_	
+1-247	1400-1406	zaživi	_	_	_	_	
+1-248	1407-1408	.	_	_	_	_	
+1-249	1409-1419	Pričakujem	_	_	*->2-9	*[2]	
+1-250	1420-1421	,	_	_	_	_	
+1-251	1422-1424	da	_	_	_	_	
+1-252	1425-1427	se	_	_	_	_	
+1-253	1428-1430	bo	_	_	_	_	
+1-254	1431-1436	stvar	_	_	_	_	
+1-255	1437-1444	uredila	_	_	_	_	
+1-256	1445-1446	v	_	_	_	_	
+1-257	1447-1452	nekaj	_	_	_	_	
+1-258	1453-1460	mesecih	_	_	_	_	
+1-259	1461-1462	,	_	_	_	_	
+1-260	1463-1464	«	_	_	_	_	
+1-261	1465-1467	je	_	_	_	_	
+1-262	1468-1470	še	_	_	_	_	
+1-263	1471-1478	povedal	_	_	_	_	
+1-264	1479-1490	ljubljanski	_	4 - Pozitivno[16]	*->2-10	*[2]	
+1-265	1491-1496	župan	_	4 - Pozitivno[16]	*->2-10	*[2]	
+1-266	1497-1498	.	_	_	_	_	
+1-267	1499-1502	Kje	_	_	_	_	
+1-268	1503-1507	bodo	_	_	_	_	
+1-269	1508-1515	urejene	_	_	_	_	
+1-270	1516-1525	enosmerne	_	_	_	_	
+1-271	1526-1531	ulice	_	_	_	_	
+1-272	1532-1534	Do	_	_	_	_	
+1-273	1535-1540	konca	_	_	_	_	
+1-274	1541-1551	letošnjega	_	_	_	_	
+1-275	1552-1556	leta	_	_	_	_	
+1-276	1557-1567	nameravajo	_	_	_	_	
+1-277	1568-1575	urediti	_	_	_	_	
+1-278	1576-1585	enosmerne	_	_	_	_	
+1-279	1586-1591	ulice	_	_	_	_	
+1-280	1592-1594	na	_	_	_	_	
+1-281	1595-1601	južnem	_	_	_	_	
+1-282	1602-1606	delu	_	_	_	_	
+1-283	1607-1616	Bežigrada	LOC	_	*->5-1	*[5]	
+1-284	1617-1618	(	_	_	_	_	
+1-285	1619-1622	med	_	_	_	_	
+1-286	1623-1630	Parmovo	LOC[4]	3 - Nevtralno[17]	*->6-1	*[6]	
+1-287	1631-1636	ulico	LOC[4]	3 - Nevtralno[17]	*->6-1	*[6]	
+1-288	1637-1638	,	_	_	_	_	
+1-289	1639-1644	ulico	_	_	_	_	
+1-290	1645-1653	Bežigrad	LOC	3 - Nevtralno	*->5-2	*[5]	
+1-291	1654-1655	,	_	_	_	_	
+1-292	1656-1664	Dunajsko	LOC[5]	3 - Nevtralno[18]	*->7-1	*[7]	
+1-293	1665-1670	cesto	LOC[5]	3 - Nevtralno[18]	*->7-1	*[7]	
+1-294	1671-1673	in	_	_	_	_	
+1-295	1674-1684	železniško	_	_	_	_	
+1-296	1685-1690	progo	_	_	_	_	
+1-297	1691-1700	Ljubljana	LOC	_	*->1-2	*[1]	
+1-298	1701-1702	-	_	_	_	_	
+1-299	1703-1711	Jesenice	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-300	1712-1713	)	_	_	_	_	
+1-301	1714-1715	,	_	_	_	_	
+1-302	1716-1718	na	_	_	_	_	
+1-303	1719-1727	severnem	_	_	_	_	
+1-304	1728-1732	delu	_	_	_	_	
+1-305	1733-1744	Kodeljevega	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-306	1745-1746	(	_	_	_	_	
+1-307	1747-1750	med	_	_	_	_	
+1-308	1751-1762	Ljubljanico	_	_	_	_	
+1-309	1763-1764	,	_	_	_	_	
+1-310	1765-1770	ulico	_	_	_	_	
+1-311	1771-1773	Na	LOC[6]	3 - Nevtralno[19]	*->10-1	*[10]	
+1-312	1774-1778	peči	LOC[6]	3 - Nevtralno[19]	*->10-1	*[10]	
+1-313	1779-1780	,	_	_	_	_	
+1-314	1781-1790	Povšetovo	LOC[7]	3 - Nevtralno[20]	*->11-1	*[11]	
+1-315	1791-1796	ulico	LOC[7]	3 - Nevtralno[20]	*->11-1	*[11]	
+1-316	1797-1799	in	_	_	_	_	
+1-317	1800-1810	železniško	_	_	_	_	
+1-318	1811-1816	progo	_	_	_	_	
+1-319	1817-1826	Ljubljana	LOC	3 - Nevtralno	*->1-3	*[1]	
+1-320	1827-1828	-	_	_	_	_	
+1-321	1829-1836	Metlika	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-322	1837-1838	)	_	_	_	_	
+1-323	1839-1840	,	_	_	_	_	
+1-324	1841-1843	na	_	_	_	_	
+1-325	1844-1850	Prulah	LOC	3 - Nevtralno	*->3-2	*[3]	
+1-326	1851-1852	(	_	_	_	_	
+1-327	1853-1856	med	_	_	_	_	
+1-328	1857-1868	Ljubljanico	_	_	_	_	
+1-329	1869-1870	,	_	_	_	_	
+1-330	1871-1880	Karlovško	LOC[8]	3 - Nevtralno[21]	*->13-1	*[13]	
+1-331	1881-1886	cesto	LOC[8]	3 - Nevtralno[21]	*->13-1	*[13]	
+1-332	1887-1889	in	_	_	_	_	
+1-333	1890-1901	Gruberjevim	_	_	_	_	
+1-334	1902-1910	prekopom	_	_	_	_	
+1-335	1911-1912	)	_	_	_	_	
+1-336	1913-1915	in	_	_	_	_	
+1-337	1916-1921	Mirju	LOC	_	*->14-1	*[14]	
+1-338	1922-1923	(	_	_	_	_	
+1-339	1924-1927	med	_	_	_	_	
+1-340	1928-1935	Tržaško	LOC[9]	3 - Nevtralno[22]	*->15-1	*[15]	
+1-341	1936-1941	cesto	LOC[9]	3 - Nevtralno[22]	*->15-1	*[15]	
+1-342	1942-1943	,	_	_	_	_	
+1-343	1944-1954	Groharjevo	LOC[10]	_	*->16-1	*[16]	
+1-344	1955-1960	cesto	LOC[10]	_	*->16-1	*[16]	
+1-345	1961-1962	,	_	_	_	_	
+1-346	1963-1973	Gradaščico	_	_	_	_	
+1-347	1974-1976	in	_	_	_	_	
+1-348	1977-1986	Jadransko	LOC[11]	3 - Nevtralno[23]	*->17-1	*[17]	
+1-349	1987-1992	ulico	LOC[11]	3 - Nevtralno[23]	*->17-1	*[17]	
+1-350	1993-1996	ter	_	_	_	_	
+1-351	1997-2000	med	_	_	_	_	
+1-352	2001-2006	ulico	_	_	_	_	
+1-353	2007-2012	Mirje	LOC	3 - Nevtralno	*->14-2	*[14]	
+1-354	2013-2014	,	_	_	_	_	
+1-355	2015-2024	Barjansko	LOC[12]	3 - Nevtralno[24]	*->18-1	*[18]	
+1-356	2025-2030	cesto	LOC[12]	3 - Nevtralno[24]	*->18-1	*[18]	
+1-357	2031-2032	,	_	_	_	_	
+1-358	2033-2043	Gradaščico	_	_	_	_	
+1-359	2044-2046	in	_	_	_	_	
+1-360	2047-2057	Groharjevo	LOC[13]	3 - Nevtralno[25]	*->16-2	*[16]	
+1-361	2058-2063	cesto	LOC[13]	3 - Nevtralno[25]	*->16-2	*[16]	
+1-362	2064-2065	)	_	_	_	_	
+1-363	2066-2067	.	_	_	_	_	
+1-364	2068-2069	S	_	_	_	_	
+1-365	2070-2076	klikom	_	_	_	_	
+1-366	2077-2079	na	_	_	_	_	
+1-367	2080-2085	sliko	_	_	_	_	
+1-368	2086-2088	si	_	_	_	_	
+1-369	2089-2094	lahko	_	_	_	_	
+1-370	2095-2103	ogledate	_	_	_	_	
+1-371	2104-2108	novo	_	_	_	_	
+1-372	2109-2117	ureditev	_	_	_	_	
+1-373	2118-2129	enosmernega	_	_	_	_	
+1-374	2130-2137	prometa	_	_	_	_	

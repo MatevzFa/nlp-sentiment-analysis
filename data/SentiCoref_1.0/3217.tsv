@@ -1,0 +1,364 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Med naslednicami bivše Jugoslavije obstaja meddržavni sporazum , v okviru katerega se rešuje tudi vprašanje neizplačanih starih deviznih vlog varčevalcev nekdanje Ljubljanske banke ( LB ) , je dejal guverner slovenske centralne banke Marko Kranjec . " Ne komentiram izjav kolegov guvernerjev iz drugih centralnih bank , " je dodal . S temi besedami se je guverner Banke Slovenije ob robu današnje novinarske konference ob zaključku redne letne misije Mednarodnega denarnega sklada ( IMF ) v Ljubljani odzval na besede guvernerja Hrvaške centralne banke Željka Rohatinskega , ki je v četrtek v Zagrebu dejal , da bodo hrvaški vladi predlagali nadaljevanje pogajanj o starih deviznih vlogah nekdanje Ljubljanske banke pod okriljem baselske Banke za mednarodne poravnave ( BIS ) . Tudi minister za finance Franc Križanič je ob robu današnje novinarske konference , na kateri je skupaj s sodelavci predstavil rebalans letošnjega državnega proračuna , spomnil na podpisan sporazum o nasledstvu , ki je bil tako s strani Slovenije kot Hrvaške ratificiran leta 2004 . " Skladno s tem sporazumom mislimo , da lahko varčevalci dobijo sredstva pri matični državi , kjer je imela banka sedež takrat , ko je delovala , " je dejal . Kot je še poudaril Križanič , je jasno , da mora biti hrvaški bančni trg liberaliziran in da morajo gospodarski subjekti obeh držav normalno čezmejno sodelovati , saj to prinaša ugodne gospodarske učinke za obe strani . Uradni govorec slovenskega zunanjega ministrstva Milan Balažic je za četrtkove Finance dejal , da s potrditvijo arbitražnega sporazuma ostali problemi s Hrvaško še niso rešeni , ter da je " vprašanje terjatev LB do hrvaških podjetij in zahtevkov hrvaških varčevalcev do LB treba rešiti do konca pristopnih pogajanj " . Premier Borut Pahor je nato v četrtek po seji vlade izjavil , da Slovenija in Hrvaška vprašanje nasledstva še vedno vidita različno , vendar pa je prepričan , da bo konca hrvaških pogajanj z EU vprašanje LB in hrvaških varčevalcev rešeno tako , da bosta obe državi zadovoljni . Slovenija si sicer v skladu z nasledstvenim sporazumom že ves čas zavzema za rešitev tega vprašanja pod okriljem BIS , je še dejal
+1-1	0-9	Ljubljana	LOC	_	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-15	Med	_	_	_	_	
+1-4	16-28	naslednicami	_	_	_	_	
+1-5	29-34	bivše	_	_	_	_	
+1-6	35-46	Jugoslavije	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-7	47-54	obstaja	_	_	_	_	
+1-8	55-65	meddržavni	_	_	_	_	
+1-9	66-74	sporazum	_	_	_	_	
+1-10	75-76	,	_	_	_	_	
+1-11	77-78	v	_	_	_	_	
+1-12	79-85	okviru	_	_	_	_	
+1-13	86-94	katerega	_	_	_	_	
+1-14	95-97	se	_	_	_	_	
+1-15	98-104	rešuje	_	_	_	_	
+1-16	105-109	tudi	_	_	_	_	
+1-17	110-119	vprašanje	_	_	_	_	
+1-18	120-132	neizplačanih	_	_	_	_	
+1-19	133-139	starih	_	_	_	_	
+1-20	140-148	deviznih	_	_	_	_	
+1-21	149-153	vlog	_	_	_	_	
+1-22	154-165	varčevalcev	_	_	_	_	
+1-23	166-174	nekdanje	_	_	_	_	
+1-24	175-186	Ljubljanske	ORG[1]	_	*->16-1	*[16]	
+1-25	187-192	banke	ORG[1]	_	*->16-1	*[16]	
+1-26	193-194	(	_	_	_	_	
+1-27	195-197	LB	ORG	_	*->16-2	*[16]	
+1-28	198-199	)	_	_	_	_	
+1-29	200-201	,	_	_	_	_	
+1-30	202-204	je	_	_	_	_	
+1-31	205-210	dejal	_	_	_	_	
+1-32	211-219	guverner	_	_	*->3-1	*[3]	
+1-33	220-229	slovenske	_	_	*->3-1	*[3]	
+1-34	230-239	centralne	_	_	*->3-1	*[3]	
+1-35	240-245	banke	_	_	*->3-1	*[3]	
+1-36	246-251	Marko	PER[2]	_	*->3-1	*[3]	
+1-37	252-259	Kranjec	PER[2]	_	*->3-1	*[3]	
+1-38	260-261	.	_	_	_	_	
+1-39	262-263	"	_	_	_	_	
+1-40	264-266	Ne	_	_	_	_	
+1-41	267-277	komentiram	_	_	*->3-2	*[3]	
+1-42	278-283	izjav	_	_	_	_	
+1-43	284-291	kolegov	_	_	_	_	
+1-44	292-303	guvernerjev	_	_	_	_	
+1-45	304-306	iz	_	_	_	_	
+1-46	307-313	drugih	_	_	_	_	
+1-47	314-324	centralnih	_	_	_	_	
+1-48	325-329	bank	_	_	_	_	
+1-49	330-331	,	_	_	_	_	
+1-50	332-333	"	_	_	_	_	
+1-51	334-336	je	_	_	*->3-3	*[3]	
+1-52	337-342	dodal	_	_	*->3-3	*[3]	
+1-53	343-344	.	_	_	_	_	
+1-54	345-346	S	_	_	_	_	
+1-55	347-351	temi	_	_	_	_	
+1-56	352-360	besedami	_	_	_	_	
+1-57	361-363	se	_	_	_	_	
+1-58	364-366	je	_	_	_	_	
+1-59	367-375	guverner	_	3 - Nevtralno[13]	*->3-4	*[3]	
+1-60	376-381	Banke	ORG[3]	3 - Nevtralno[13]|3 - Nevtralno[14]	*->3-4|*->4-1	*[3]|*[4]	
+1-61	382-391	Slovenije	ORG[3]|LOC[4]	3 - Nevtralno[13]|3 - Nevtralno[14]	*->3-4|*->4-1|*->5-1	*[3]|*[4]|*[5]	
+1-62	392-394	ob	_	_	_	_	
+1-63	395-399	robu	_	_	_	_	
+1-64	400-408	današnje	_	_	_	_	
+1-65	409-419	novinarske	_	_	_	_	
+1-66	420-430	konference	_	_	_	_	
+1-67	431-433	ob	_	_	_	_	
+1-68	434-443	zaključku	_	_	_	_	
+1-69	444-449	redne	_	_	_	_	
+1-70	450-455	letne	_	_	_	_	
+1-71	456-462	misije	_	_	_	_	
+1-72	463-475	Mednarodnega	ORG[5]	_	*->6-1	*[6]	
+1-73	476-485	denarnega	ORG[5]	_	*->6-1	*[6]	
+1-74	486-492	sklada	ORG[5]	_	*->6-1	*[6]	
+1-75	493-494	(	_	_	_	_	
+1-76	495-498	IMF	ORG	3 - Nevtralno	*->6-2	*[6]	
+1-77	499-500	)	_	_	_	_	
+1-78	501-502	v	_	_	_	_	
+1-79	503-512	Ljubljani	LOC	3 - Nevtralno	*->1-2	*[1]	
+1-80	513-519	odzval	_	_	_	_	
+1-81	520-522	na	_	_	_	_	
+1-82	523-529	besede	_	_	_	_	
+1-83	530-540	guvernerja	_	3 - Nevtralno[15]	*->8-1	*[8]	
+1-84	541-548	Hrvaške	ORG[6]	3 - Nevtralno[15]|3 - Nevtralno[16]	*->8-1|*->7-1	*[8]|*[7]	
+1-85	549-558	centralne	ORG[6]	3 - Nevtralno[15]|3 - Nevtralno[16]	*->8-1|*->7-1	*[8]|*[7]	
+1-86	559-564	banke	ORG[6]	3 - Nevtralno[15]|3 - Nevtralno[16]	*->8-1|*->7-1	*[8]|*[7]	
+1-87	565-571	Željka	PER[7]	3 - Nevtralno[15]	*->8-1	*[8]	
+1-88	572-584	Rohatinskega	PER[7]	3 - Nevtralno[15]	*->8-1	*[8]	
+1-89	585-586	,	_	_	_	_	
+1-90	587-589	ki	_	_	_	_	
+1-91	590-592	je	_	_	_	_	
+1-92	593-594	v	_	_	_	_	
+1-93	595-602	četrtek	_	_	_	_	
+1-94	603-604	v	_	_	_	_	
+1-95	605-612	Zagrebu	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-96	613-618	dejal	_	_	_	_	
+1-97	619-620	,	_	_	_	_	
+1-98	621-623	da	_	_	_	_	
+1-99	624-628	bodo	_	_	_	_	
+1-100	629-636	hrvaški	_	_	_	_	
+1-101	637-642	vladi	_	_	_	_	
+1-102	643-653	predlagali	_	_	_	_	
+1-103	654-666	nadaljevanje	_	_	_	_	
+1-104	667-675	pogajanj	_	_	_	_	
+1-105	676-677	o	_	_	_	_	
+1-106	678-684	starih	_	_	_	_	
+1-107	685-693	deviznih	_	_	_	_	
+1-108	694-700	vlogah	_	_	_	_	
+1-109	701-709	nekdanje	_	_	_	_	
+1-110	710-721	Ljubljanske	ORG[8]	_	*->16-3	*[16]	
+1-111	722-727	banke	ORG[8]	_	*->16-3	*[16]	
+1-112	728-731	pod	_	_	_	_	
+1-113	732-740	okriljem	_	_	_	_	
+1-114	741-749	baselske	_	_	_	_	
+1-115	750-755	Banke	ORG[9]	_	*->10-1	*[10]	
+1-116	756-758	za	ORG[9]	_	*->10-1	*[10]	
+1-117	759-769	mednarodne	ORG[9]	_	*->10-1	*[10]	
+1-118	770-779	poravnave	ORG[9]	_	*->10-1	*[10]	
+1-119	780-781	(	_	_	_	_	
+1-120	782-785	BIS	ORG	_	*->10-2	*[10]	
+1-121	786-787	)	_	_	_	_	
+1-122	788-789	.	_	_	_	_	
+1-123	790-794	Tudi	_	_	_	_	
+1-124	795-803	minister	_	_	*->11-1	*[11]	
+1-125	804-806	za	_	_	*->11-1	*[11]	
+1-126	807-814	finance	_	_	*->11-1	*[11]	
+1-127	815-820	Franc	PER[10]	_	*->11-1	*[11]	
+1-128	821-829	Križanič	PER[10]	_	*->11-1	*[11]	
+1-129	830-832	je	_	_	_	_	
+1-130	833-835	ob	_	_	_	_	
+1-131	836-840	robu	_	_	_	_	
+1-132	841-849	današnje	_	_	_	_	
+1-133	850-860	novinarske	_	_	_	_	
+1-134	861-871	konference	_	_	_	_	
+1-135	872-873	,	_	_	_	_	
+1-136	874-876	na	_	_	_	_	
+1-137	877-883	kateri	_	_	_	_	
+1-138	884-886	je	_	_	_	_	
+1-139	887-893	skupaj	_	_	_	_	
+1-140	894-895	s	_	_	_	_	
+1-141	896-905	sodelavci	_	_	_	_	
+1-142	906-916	predstavil	_	_	*->11-2	*[11]	
+1-143	917-925	rebalans	_	_	_	_	
+1-144	926-936	letošnjega	_	_	_	_	
+1-145	937-946	državnega	_	_	_	_	
+1-146	947-956	proračuna	_	_	_	_	
+1-147	957-958	,	_	_	_	_	
+1-148	959-966	spomnil	_	_	_	_	
+1-149	967-969	na	_	_	_	_	
+1-150	970-978	podpisan	_	_	_	_	
+1-151	979-987	sporazum	_	_	_	_	
+1-152	988-989	o	_	_	_	_	
+1-153	990-1000	nasledstvu	_	_	_	_	
+1-154	1001-1002	,	_	_	_	_	
+1-155	1003-1005	ki	_	_	_	_	
+1-156	1006-1008	je	_	_	_	_	
+1-157	1009-1012	bil	_	_	_	_	
+1-158	1013-1017	tako	_	_	_	_	
+1-159	1018-1019	s	_	_	_	_	
+1-160	1020-1026	strani	_	_	_	_	
+1-161	1027-1036	Slovenije	ORG	_	*->5-2	*[5]	
+1-162	1037-1040	kot	_	_	_	_	
+1-163	1041-1048	Hrvaške	ORG	_	*->12-1	*[12]	
+1-164	1049-1060	ratificiran	_	_	_	_	
+1-165	1061-1065	leta	_	_	_	_	
+1-166	1066-1070	2004	_	_	_	_	
+1-167	1071-1072	.	_	_	_	_	
+1-168	1073-1074	"	_	_	_	_	
+1-169	1075-1082	Skladno	_	_	_	_	
+1-170	1083-1084	s	_	_	_	_	
+1-171	1085-1088	tem	_	_	_	_	
+1-172	1089-1099	sporazumom	_	_	_	_	
+1-173	1100-1107	mislimo	_	_	_	_	
+1-174	1108-1109	,	_	_	_	_	
+1-175	1110-1112	da	_	_	_	_	
+1-176	1113-1118	lahko	_	_	_	_	
+1-177	1119-1129	varčevalci	_	_	_	_	
+1-178	1130-1136	dobijo	_	_	_	_	
+1-179	1137-1145	sredstva	_	_	_	_	
+1-180	1146-1149	pri	_	_	_	_	
+1-181	1150-1157	matični	_	_	_	_	
+1-182	1158-1164	državi	_	_	*->5-3	*[5]	
+1-183	1165-1166	,	_	_	_	_	
+1-184	1167-1171	kjer	_	_	_	_	
+1-185	1172-1174	je	_	_	_	_	
+1-186	1175-1180	imela	_	_	_	_	
+1-187	1181-1186	banka	_	_	*->16-4	*[16]	
+1-188	1187-1192	sedež	_	_	_	_	
+1-189	1193-1199	takrat	_	_	_	_	
+1-190	1200-1201	,	_	_	_	_	
+1-191	1202-1204	ko	_	_	_	_	
+1-192	1205-1207	je	_	_	_	_	
+1-193	1208-1216	delovala	_	_	*->16-5	*[16]	
+1-194	1217-1218	,	_	_	_	_	
+1-195	1219-1220	"	_	_	_	_	
+1-196	1221-1223	je	_	_	*->11-3	*[11]	
+1-197	1224-1229	dejal	_	_	*->11-3	*[11]	
+1-198	1230-1231	.	_	_	_	_	
+1-199	1232-1235	Kot	_	_	_	_	
+1-200	1236-1238	je	_	_	_	_	
+1-201	1239-1241	še	_	_	_	_	
+1-202	1242-1250	poudaril	_	_	_	_	
+1-203	1251-1259	Križanič	PER	3 - Nevtralno	*->11-4	*[11]	
+1-204	1260-1261	,	_	_	_	_	
+1-205	1262-1264	je	_	_	_	_	
+1-206	1265-1270	jasno	_	_	_	_	
+1-207	1271-1272	,	_	_	_	_	
+1-208	1273-1275	da	_	_	_	_	
+1-209	1276-1280	mora	_	_	_	_	
+1-210	1281-1285	biti	_	_	_	_	
+1-211	1286-1293	hrvaški	_	_	_	_	
+1-212	1294-1300	bančni	_	_	_	_	
+1-213	1301-1304	trg	_	_	_	_	
+1-214	1305-1318	liberaliziran	_	_	_	_	
+1-215	1319-1321	in	_	_	_	_	
+1-216	1322-1324	da	_	_	_	_	
+1-217	1325-1331	morajo	_	_	_	_	
+1-218	1332-1343	gospodarski	_	_	_	_	
+1-219	1344-1352	subjekti	_	_	_	_	
+1-220	1353-1357	obeh	_	_	_	_	
+1-221	1358-1363	držav	_	_	_	_	
+1-222	1364-1372	normalno	_	_	_	_	
+1-223	1373-1381	čezmejno	_	_	_	_	
+1-224	1382-1392	sodelovati	_	_	_	_	
+1-225	1393-1394	,	_	_	_	_	
+1-226	1395-1398	saj	_	_	_	_	
+1-227	1399-1401	to	_	_	_	_	
+1-228	1402-1409	prinaša	_	_	_	_	
+1-229	1410-1416	ugodne	_	_	_	_	
+1-230	1417-1428	gospodarske	_	_	_	_	
+1-231	1429-1435	učinke	_	_	_	_	
+1-232	1436-1438	za	_	_	_	_	
+1-233	1439-1442	obe	_	_	_	_	
+1-234	1443-1449	strani	_	_	_	_	
+1-235	1450-1451	.	_	_	_	_	
+1-236	1452-1458	Uradni	_	3 - Nevtralno[17]	*->13-1	*[13]	
+1-237	1459-1466	govorec	_	3 - Nevtralno[17]	*->13-1	*[13]	
+1-238	1467-1478	slovenskega	_	3 - Nevtralno[17]	*->13-1	*[13]	
+1-239	1479-1488	zunanjega	_	3 - Nevtralno[17]	*->13-1	*[13]	
+1-240	1489-1500	ministrstva	_	3 - Nevtralno[17]	*->13-1	*[13]	
+1-241	1501-1506	Milan	PER[11]	3 - Nevtralno[17]	*->13-1	*[13]	
+1-242	1507-1514	Balažic	PER[11]	3 - Nevtralno[17]	*->13-1	*[13]	
+1-243	1515-1517	je	_	_	_	_	
+1-244	1518-1520	za	_	_	_	_	
+1-245	1521-1530	četrtkove	_	_	_	_	
+1-246	1531-1538	Finance	ORG	3 - Nevtralno	*->17-1	*[17]	
+1-247	1539-1544	dejal	_	_	_	_	
+1-248	1545-1546	,	_	_	_	_	
+1-249	1547-1549	da	_	_	_	_	
+1-250	1550-1551	s	_	_	_	_	
+1-251	1552-1563	potrditvijo	_	_	_	_	
+1-252	1564-1576	arbitražnega	_	_	_	_	
+1-253	1577-1586	sporazuma	_	_	_	_	
+1-254	1587-1593	ostali	_	_	_	_	
+1-255	1594-1602	problemi	_	_	_	_	
+1-256	1603-1604	s	_	_	_	_	
+1-257	1605-1612	Hrvaško	ORG	_	*->12-2	*[12]	
+1-258	1613-1615	še	_	_	_	_	
+1-259	1616-1620	niso	_	_	_	_	
+1-260	1621-1627	rešeni	_	_	_	_	
+1-261	1628-1629	,	_	_	_	_	
+1-262	1630-1633	ter	_	_	_	_	
+1-263	1634-1636	da	_	_	_	_	
+1-264	1637-1639	je	_	_	_	_	
+1-265	1640-1641	"	_	_	_	_	
+1-266	1642-1651	vprašanje	_	_	_	_	
+1-267	1652-1660	terjatev	_	_	_	_	
+1-268	1661-1663	LB	ORG	_	*->16-6	*[16]	
+1-269	1664-1666	do	_	_	_	_	
+1-270	1667-1675	hrvaških	_	_	_	_	
+1-271	1676-1684	podjetij	_	_	_	_	
+1-272	1685-1687	in	_	_	_	_	
+1-273	1688-1697	zahtevkov	_	_	_	_	
+1-274	1698-1706	hrvaških	_	_	_	_	
+1-275	1707-1718	varčevalcev	_	_	_	_	
+1-276	1719-1721	do	_	_	_	_	
+1-277	1722-1724	LB	ORG	_	*->16-7	*[16]	
+1-278	1725-1730	treba	_	_	_	_	
+1-279	1731-1737	rešiti	_	_	_	_	
+1-280	1738-1740	do	_	_	_	_	
+1-281	1741-1746	konca	_	_	_	_	
+1-282	1747-1757	pristopnih	_	_	_	_	
+1-283	1758-1766	pogajanj	_	_	_	_	
+1-284	1767-1768	"	_	_	_	_	
+1-285	1769-1770	.	_	_	_	_	
+1-286	1771-1778	Premier	_	_	*->14-1	*[14]	
+1-287	1779-1784	Borut	PER[12]	_	*->14-1	*[14]	
+1-288	1785-1790	Pahor	PER[12]	_	*->14-1	*[14]	
+1-289	1791-1793	je	_	_	_	_	
+1-290	1794-1798	nato	_	_	_	_	
+1-291	1799-1800	v	_	_	_	_	
+1-292	1801-1808	četrtek	_	_	_	_	
+1-293	1809-1811	po	_	_	_	_	
+1-294	1812-1816	seji	_	_	_	_	
+1-295	1817-1822	vlade	_	_	_	_	
+1-296	1823-1830	izjavil	_	_	_	_	
+1-297	1831-1832	,	_	_	_	_	
+1-298	1833-1835	da	_	_	_	_	
+1-299	1836-1845	Slovenija	ORG	_	*->5-4	*[5]	
+1-300	1846-1848	in	_	_	_	_	
+1-301	1849-1856	Hrvaška	ORG	2 - Negativno	*->12-3	*[12]	
+1-302	1857-1866	vprašanje	_	_	_	_	
+1-303	1867-1877	nasledstva	_	_	_	_	
+1-304	1878-1880	še	_	_	_	_	
+1-305	1881-1886	vedno	_	_	_	_	
+1-306	1887-1893	vidita	_	_	_	_	
+1-307	1894-1902	različno	_	_	_	_	
+1-308	1903-1904	,	_	_	_	_	
+1-309	1905-1911	vendar	_	_	_	_	
+1-310	1912-1914	pa	_	_	_	_	
+1-311	1915-1917	je	_	_	_	_	
+1-312	1918-1927	prepričan	_	_	*->14-2	*[14]	
+1-313	1928-1929	,	_	_	_	_	
+1-314	1930-1932	da	_	_	_	_	
+1-315	1933-1935	bo	_	_	_	_	
+1-316	1936-1941	konca	_	_	_	_	
+1-317	1942-1950	hrvaških	_	_	_	_	
+1-318	1951-1959	pogajanj	_	_	_	_	
+1-319	1960-1961	z	_	_	_	_	
+1-320	1962-1964	EU	ORG	3 - Nevtralno	*->15-1	*[15]	
+1-321	1965-1974	vprašanje	_	_	_	_	
+1-322	1975-1977	LB	ORG	3 - Nevtralno	*->16-8	*[16]	
+1-323	1978-1980	in	_	_	_	_	
+1-324	1981-1989	hrvaških	_	_	_	_	
+1-325	1990-2001	varčevalcev	_	_	_	_	
+1-326	2002-2008	rešeno	_	_	_	_	
+1-327	2009-2013	tako	_	_	_	_	
+1-328	2014-2015	,	_	_	_	_	
+1-329	2016-2018	da	_	_	_	_	
+1-330	2019-2024	bosta	_	_	_	_	
+1-331	2025-2028	obe	_	_	_	_	
+1-332	2029-2035	državi	_	_	_	_	
+1-333	2036-2046	zadovoljni	_	_	_	_	
+1-334	2047-2048	.	_	_	_	_	
+1-335	2049-2058	Slovenija	LOC	4 - Pozitivno	*->5-5	*[5]	
+1-336	2059-2061	si	_	_	_	_	
+1-337	2062-2067	sicer	_	_	_	_	
+1-338	2068-2069	v	_	_	_	_	
+1-339	2070-2076	skladu	_	_	_	_	
+1-340	2077-2078	z	_	_	_	_	
+1-341	2079-2092	nasledstvenim	_	_	_	_	
+1-342	2093-2103	sporazumom	_	_	_	_	
+1-343	2104-2106	že	_	_	_	_	
+1-344	2107-2110	ves	_	_	_	_	
+1-345	2111-2114	čas	_	_	_	_	
+1-346	2115-2122	zavzema	_	_	_	_	
+1-347	2123-2125	za	_	_	_	_	
+1-348	2126-2133	rešitev	_	_	_	_	
+1-349	2134-2138	tega	_	_	_	_	
+1-350	2139-2148	vprašanja	_	_	_	_	
+1-351	2149-2152	pod	_	_	_	_	
+1-352	2153-2161	okriljem	_	_	_	_	
+1-353	2162-2165	BIS	ORG	3 - Nevtralno	*->10-3	*[10]	
+1-354	2166-2167	,	_	_	_	_	
+1-355	2168-2170	je	_	_	_	_	
+1-356	2171-2173	še	_	_	_	_	
+1-357	2174-2179	dejal	_	3 - Nevtralno	*->14-3	*[14]	

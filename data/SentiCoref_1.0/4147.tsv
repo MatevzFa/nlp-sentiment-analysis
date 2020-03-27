@@ -1,0 +1,445 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana Lah bi izbrisal Peklarjev Socius Sodišče je že tretjič v manj kot dveh letih začelo postopek izbrisa podjetja Socius Leonarda Peklarja iz sodnega registra . To je v središču odmevne afere Bados Consulting , v kateri Peklarju zaradi oškodovanja Telekoma Slovenije grozi večletna zaporna kazen . Tokrat je predlog za izbris podalo podjetje Ceeref Naložbe Igorja Laha , ki je lastnik poslovne stavbe NLB na Trgu Republike v Ljubljani . Sodišču je navedlo , da Peklarju nikoli ni dalo dovoljenja za poslovanje na tem naslovu . Postopku je ugovarjala NLB , češ da ima neporavnane obveznosti do Sociusa , a jo je sodišče zavrnilo . Matoz za 265.000 evrov zvišal kapital Franci Matoz je okrepil osnovni kapital svojega nepremičninskega podjetja Neprus , ki upravlja več kot milijon evrov vredno premoženje . Med drugim gre za dve stanovanji na Viški cesti v Ljubljani . Povečal ga je za okoli 265.000 evrov , pri čemer so sredstva prišla iz kapitalskih rezerv podjetja . Omenimo , da je bil Neprus do julija letos v lasti podjetja s Cipra , dokler ga ni odkupil Matoz . Vodušek izgublja še Novi Info TV Potem ko je v stečaju končala družba Info TV , bi lahko televizijec Vladimir Vodušek v kratkem izgubil tudi podjetje Novi Info TV , na katero je prenašal posle Info TV . Izvršitelj je namreč sodišče obvestil , da podjetja na njegovem uradnem naslovu ni našel , zato je to sprožilo postopek izbrisa . Novi Info TV ima sicer visoke neporavnane obveznosti , tudi do države , in nima več računa . Po novem Vodušek deluje prek podjetja TOP TV Media , ki je v lasti njegovega sina . Telemach si je pripojil Kabel TV . . . Telemach si je manj kot pol leta po tistem , ko je uspešno kupil podjetje Kabel TV , tudi pripojil enega manjših kabelskih operaterjev na trgu . Kabel TV je imel lani 3,7 milijona evrov prihodkov in 600.000 evrov čistega dobička . . . . Total TV pa izplačal 1,35 milijona evrov Podjetje Total TV , ki je tako kot Telemach del regionalne skupine United Group , bo družbeniku vrnilo 1,35 milijona evrov sredstev . Gre za srbsko družbo SBB . NKBM poslala hčer v likvidacijo V NKBM pod vodstvom Aleša Hauca so se odločili , da pošljejo v likvidacijo odvisno družbo KBM - Fineko . Ta se je ukvarjala z nakupom in prodajo nepremičnin ter upravljanjem z nepremičninami , ki so v lasti NKBM . Od leta 2006 do predlani jo je vodil Igor Šujica , konec lanskega leta pa je imela za 30 milijonov evrov premoženja . Pripravil Tomaž
+1-1	0-9	Ljubljana	LOC	_	*->1-1	*[1]	
+1-2	10-13	Lah	PER	_	*->2-1	*[2]	
+1-3	14-16	bi	_	_	_	_	
+1-4	17-25	izbrisal	_	_	_	_	
+1-5	26-35	Peklarjev	PER	_	*->3-1	*[3]	
+1-6	36-42	Socius	ORG	_	*->4-1	*[4]	
+1-7	43-50	Sodišče	_	_	_	_	
+1-8	51-53	je	_	_	_	_	
+1-9	54-56	že	_	_	_	_	
+1-10	57-64	tretjič	_	_	_	_	
+1-11	65-66	v	_	_	_	_	
+1-12	67-71	manj	_	_	_	_	
+1-13	72-75	kot	_	_	_	_	
+1-14	76-80	dveh	_	_	_	_	
+1-15	81-86	letih	_	_	_	_	
+1-16	87-93	začelo	_	_	_	_	
+1-17	94-102	postopek	_	_	_	_	
+1-18	103-110	izbrisa	_	_	_	_	
+1-19	111-119	podjetja	_	_	*->4-2	*[4]	
+1-20	120-126	Socius	ORG	_	*->4-2	*[4]	
+1-21	127-135	Leonarda	PER[1]	_	*->4-2|*->3-2	*[4]|*[3]	
+1-22	136-144	Peklarja	PER[1]	_	*->4-2|*->3-2	*[4]|*[3]	
+1-23	145-147	iz	_	_	_	_	
+1-24	148-155	sodnega	_	_	_	_	
+1-25	156-164	registra	_	_	_	_	
+1-26	165-166	.	_	_	_	_	
+1-27	167-169	To	_	_	_	_	
+1-28	170-172	je	_	_	_	_	
+1-29	173-174	v	_	_	_	_	
+1-30	175-183	središču	_	_	_	_	
+1-31	184-191	odmevne	_	_	_	_	
+1-32	192-197	afere	_	_	_	_	
+1-33	198-203	Bados	ORG[2]	3 - Nevtralno[26]	*->5-1	*[5]	
+1-34	204-214	Consulting	ORG[2]	3 - Nevtralno[26]	*->5-1	*[5]	
+1-35	215-216	,	_	_	_	_	
+1-36	217-218	v	_	_	_	_	
+1-37	219-225	kateri	_	_	_	_	
+1-38	226-234	Peklarju	PER	_	*->3-3	*[3]	
+1-39	235-241	zaradi	_	_	_	_	
+1-40	242-253	oškodovanja	_	_	_	_	
+1-41	254-262	Telekoma	ORG[3]	_	*->16-1	*[16]	
+1-42	263-272	Slovenije	ORG[3]|LOC[4]	_	*->16-1|*->6-1	*[16]|*[6]	
+1-43	273-278	grozi	_	_	_	_	
+1-44	279-287	večletna	_	_	_	_	
+1-45	288-295	zaporna	_	_	_	_	
+1-46	296-301	kazen	_	_	_	_	
+1-47	302-303	.	_	_	_	_	
+1-48	304-310	Tokrat	_	_	_	_	
+1-49	311-313	je	_	_	_	_	
+1-50	314-321	predlog	_	_	_	_	
+1-51	322-324	za	_	_	_	_	
+1-52	325-331	izbris	_	_	_	_	
+1-53	332-338	podalo	_	_	_	_	
+1-54	339-347	podjetje	_	3 - Nevtralno[27]	*->26-1	*[26]	
+1-55	348-354	Ceeref	ORG[5]	3 - Nevtralno[27]	*->26-1	*[26]	
+1-56	355-362	Naložbe	ORG[5]	3 - Nevtralno[27]	*->26-1	*[26]	
+1-57	363-369	Igorja	PER[6]	3 - Nevtralno[27]	*->26-1|*->2-2	*[26]|*[2]	
+1-58	370-374	Laha	PER[6]	3 - Nevtralno[27]	*->26-1|*->2-2	*[26]|*[2]	
+1-59	375-376	,	_	_	_	_	
+1-60	377-379	ki	_	_	_	_	
+1-61	380-382	je	_	_	_	_	
+1-62	383-390	lastnik	_	3 - Nevtralno[28]	*->2-3	*[2]	
+1-63	391-399	poslovne	_	3 - Nevtralno[28]	*->2-3	*[2]	
+1-64	400-406	stavbe	_	3 - Nevtralno[28]	*->2-3	*[2]	
+1-65	407-410	NLB	ORG	3 - Nevtralno[28]	*->2-3|*->7-1	*[2]|*[7]	
+1-66	411-413	na	_	_	_	_	
+1-67	414-418	Trgu	LOC[7]	3 - Nevtralno[29]	*->8-1	*[8]	
+1-68	419-428	Republike	LOC[7]	3 - Nevtralno[29]	*->8-1	*[8]	
+1-69	429-430	v	_	_	_	_	
+1-70	431-440	Ljubljani	LOC	_	*->1-2	*[1]	
+1-71	441-442	.	_	_	_	_	
+1-72	443-450	Sodišču	_	_	_	_	
+1-73	451-453	je	_	_	_	_	
+1-74	454-461	navedlo	_	_	_	_	
+1-75	462-463	,	_	_	_	_	
+1-76	464-466	da	_	_	_	_	
+1-77	467-475	Peklarju	PER	2 - Negativno	*->3-4	*[3]	
+1-78	476-482	nikoli	_	_	_	_	
+1-79	483-485	ni	_	_	_	_	
+1-80	486-490	dalo	_	_	_	_	
+1-81	491-501	dovoljenja	_	_	_	_	
+1-82	502-504	za	_	_	_	_	
+1-83	505-515	poslovanje	_	_	_	_	
+1-84	516-518	na	_	_	_	_	
+1-85	519-522	tem	_	_	_	_	
+1-86	523-530	naslovu	_	_	_	_	
+1-87	531-532	.	_	_	_	_	
+1-88	533-541	Postopku	_	_	_	_	
+1-89	542-544	je	_	_	_	_	
+1-90	545-555	ugovarjala	_	_	_	_	
+1-91	556-559	NLB	ORG	_	*->7-2	*[7]	
+1-92	560-561	,	_	_	_	_	
+1-93	562-565	češ	_	_	_	_	
+1-94	566-568	da	_	_	_	_	
+1-95	569-572	ima	_	_	*->27-1	*[27]	
+1-96	573-584	neporavnane	_	_	_	_	
+1-97	585-595	obveznosti	_	_	_	_	
+1-98	596-598	do	_	_	_	_	
+1-99	599-606	Sociusa	ORG	2 - Negativno	*->4-3	*[4]	
+1-100	607-608	,	_	_	_	_	
+1-101	609-610	a	_	_	_	_	
+1-102	611-613	jo	_	2 - Negativno	*->7-3	*[7]	
+1-103	614-616	je	_	_	_	_	
+1-104	617-624	sodišče	_	_	_	_	
+1-105	625-633	zavrnilo	_	_	_	_	
+1-106	634-635	.	_	_	_	_	
+1-107	636-641	Matoz	PER	_	*->9-1	*[9]	
+1-108	642-644	za	_	_	_	_	
+1-109	645-652	265.000	_	_	_	_	
+1-110	653-658	evrov	_	_	_	_	
+1-111	659-665	zvišal	_	_	_	_	
+1-112	666-673	kapital	_	_	_	_	
+1-113	674-680	Franci	PER[8]	_	*->9-2	*[9]	
+1-114	681-686	Matoz	PER[8]	_	*->9-2	*[9]	
+1-115	687-689	je	_	_	_	_	
+1-116	690-697	okrepil	_	_	_	_	
+1-117	698-705	osnovni	_	_	_	_	
+1-118	706-713	kapital	_	_	_	_	
+1-119	714-721	svojega	_	_	_	_	
+1-120	722-738	nepremičninskega	_	_	_	_	
+1-121	739-747	podjetja	_	_	*->10-1	*[10]	
+1-122	748-754	Neprus	ORG	_	*->10-1	*[10]	
+1-123	755-756	,	_	_	_	_	
+1-124	757-759	ki	_	_	_	_	
+1-125	760-768	upravlja	_	_	*->10-2	*[10]	
+1-126	769-772	več	_	_	_	_	
+1-127	773-776	kot	_	_	_	_	
+1-128	777-784	milijon	_	_	_	_	
+1-129	785-790	evrov	_	_	_	_	
+1-130	791-797	vredno	_	_	_	_	
+1-131	798-808	premoženje	_	_	_	_	
+1-132	809-810	.	_	_	_	_	
+1-133	811-814	Med	_	_	_	_	
+1-134	815-821	drugim	_	_	_	_	
+1-135	822-825	gre	_	_	_	_	
+1-136	826-828	za	_	_	_	_	
+1-137	829-832	dve	_	_	_	_	
+1-138	833-843	stanovanji	_	_	_	_	
+1-139	844-846	na	_	_	_	_	
+1-140	847-852	Viški	LOC[9]	3 - Nevtralno[30]	*->11-1	*[11]	
+1-141	853-858	cesti	LOC[9]	3 - Nevtralno[30]	*->11-1	*[11]	
+1-142	859-860	v	_	_	_	_	
+1-143	861-870	Ljubljani	LOC	3 - Nevtralno	*->1-3	*[1]	
+1-144	871-872	.	_	_	_	_	
+1-145	873-880	Povečal	_	_	*->9-3	*[9]	
+1-146	881-883	ga	_	_	_	_	
+1-147	884-886	je	_	_	_	_	
+1-148	887-889	za	_	_	_	_	
+1-149	890-895	okoli	_	_	_	_	
+1-150	896-903	265.000	_	_	_	_	
+1-151	904-909	evrov	_	_	_	_	
+1-152	910-911	,	_	_	_	_	
+1-153	912-915	pri	_	_	_	_	
+1-154	916-921	čemer	_	_	_	_	
+1-155	922-924	so	_	_	_	_	
+1-156	925-933	sredstva	_	_	_	_	
+1-157	934-940	prišla	_	_	_	_	
+1-158	941-943	iz	_	_	_	_	
+1-159	944-955	kapitalskih	_	_	_	_	
+1-160	956-962	rezerv	_	_	_	_	
+1-161	963-971	podjetja	_	_	*->10-3	*[10]	
+1-162	972-973	.	_	_	_	_	
+1-163	974-981	Omenimo	_	_	_	_	
+1-164	982-983	,	_	_	_	_	
+1-165	984-986	da	_	_	_	_	
+1-166	987-989	je	_	_	_	_	
+1-167	990-993	bil	_	_	_	_	
+1-168	994-1000	Neprus	ORG	_	*->10-4	*[10]	
+1-169	1001-1003	do	_	_	_	_	
+1-170	1004-1010	julija	_	_	_	_	
+1-171	1011-1016	letos	_	_	_	_	
+1-172	1017-1018	v	_	_	_	_	
+1-173	1019-1024	lasti	_	_	_	_	
+1-174	1025-1033	podjetja	_	_	_	_	
+1-175	1034-1035	s	_	_	_	_	
+1-176	1036-1041	Cipra	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-177	1042-1043	,	_	_	_	_	
+1-178	1044-1050	dokler	_	_	_	_	
+1-179	1051-1053	ga	_	4 - Pozitivno	*->10-5	*[10]	
+1-180	1054-1056	ni	_	_	_	_	
+1-181	1057-1064	odkupil	_	_	_	_	
+1-182	1065-1070	Matoz	PER	4 - Pozitivno	*->9-4	*[9]	
+1-183	1071-1072	.	_	_	_	_	
+1-184	1073-1080	Vodušek	PER	_	*->13-1	*[13]	
+1-185	1081-1089	izgublja	_	_	_	_	
+1-186	1090-1092	še	_	_	_	_	
+1-187	1093-1097	Novi	ORG[10]	_	*->14-1	*[14]	
+1-188	1098-1102	Info	ORG[10]	_	*->14-1	*[14]	
+1-189	1103-1105	TV	ORG[10]	_	*->14-1	*[14]	
+1-190	1106-1111	Potem	_	_	_	_	
+1-191	1112-1114	ko	_	_	_	_	
+1-192	1115-1117	je	_	_	_	_	
+1-193	1118-1119	v	_	_	_	_	
+1-194	1120-1127	stečaju	_	_	_	_	
+1-195	1128-1135	končala	_	_	_	_	
+1-196	1136-1142	družba	_	_	*->28-1	*[28]	
+1-197	1143-1147	Info	ORG[11]	_	*->28-1	*[28]	
+1-198	1148-1150	TV	ORG[11]	_	*->28-1	*[28]	
+1-199	1151-1152	,	_	_	_	_	
+1-200	1153-1155	bi	_	_	_	_	
+1-201	1156-1161	lahko	_	_	_	_	
+1-202	1162-1173	televizijec	_	_	*->13-2	*[13]	
+1-203	1174-1182	Vladimir	PER[12]	_	*->13-2	*[13]	
+1-204	1183-1190	Vodušek	PER[12]	_	*->13-2	*[13]	
+1-205	1191-1192	v	_	_	_	_	
+1-206	1193-1200	kratkem	_	_	_	_	
+1-207	1201-1208	izgubil	_	_	_	_	
+1-208	1209-1213	tudi	_	_	_	_	
+1-209	1214-1222	podjetje	_	_	_	_	
+1-210	1223-1227	Novi	ORG[13]	_	*->14-2	*[14]	
+1-211	1228-1232	Info	ORG[13]	_	*->14-2	*[14]	
+1-212	1233-1235	TV	ORG[13]	_	*->14-2	*[14]	
+1-213	1236-1237	,	_	_	_	_	
+1-214	1238-1240	na	_	_	_	_	
+1-215	1241-1247	katero	_	_	_	_	
+1-216	1248-1250	je	_	_	_	_	
+1-217	1251-1259	prenašal	_	_	*->13-3	*[13]	
+1-218	1260-1265	posle	_	_	_	_	
+1-219	1266-1270	Info	ORG[14]	2 - Negativno[31]	*->28-2	*[28]	
+1-220	1271-1273	TV	ORG[14]	2 - Negativno[31]	*->28-2	*[28]	
+1-221	1274-1275	.	_	_	_	_	
+1-222	1276-1286	Izvršitelj	_	_	_	_	
+1-223	1287-1289	je	_	_	_	_	
+1-224	1290-1296	namreč	_	_	_	_	
+1-225	1297-1304	sodišče	_	_	_	_	
+1-226	1305-1313	obvestil	_	_	_	_	
+1-227	1314-1315	,	_	_	_	_	
+1-228	1316-1318	da	_	_	_	_	
+1-229	1319-1327	podjetja	_	_	*->14-3	*[14]	
+1-230	1328-1330	na	_	_	_	_	
+1-231	1331-1339	njegovem	_	_	*->14-4	*[14]	
+1-232	1340-1347	uradnem	_	_	_	_	
+1-233	1348-1355	naslovu	_	_	_	_	
+1-234	1356-1358	ni	_	_	_	_	
+1-235	1359-1364	našel	_	_	_	_	
+1-236	1365-1366	,	_	_	_	_	
+1-237	1367-1371	zato	_	_	_	_	
+1-238	1372-1374	je	_	_	_	_	
+1-239	1375-1377	to	_	_	_	_	
+1-240	1378-1386	sprožilo	_	_	_	_	
+1-241	1387-1395	postopek	_	_	_	_	
+1-242	1396-1403	izbrisa	_	_	_	_	
+1-243	1404-1405	.	_	_	_	_	
+1-244	1406-1410	Novi	ORG[15]	_	*->14-5	*[14]	
+1-245	1411-1415	Info	ORG[15]	_	*->14-5	*[14]	
+1-246	1416-1418	TV	ORG[15]	_	*->14-5	*[14]	
+1-247	1419-1422	ima	_	_	_	_	
+1-248	1423-1428	sicer	_	_	_	_	
+1-249	1429-1435	visoke	_	_	_	_	
+1-250	1436-1447	neporavnane	_	_	_	_	
+1-251	1448-1458	obveznosti	_	_	_	_	
+1-252	1459-1460	,	_	_	_	_	
+1-253	1461-1465	tudi	_	_	_	_	
+1-254	1466-1468	do	_	_	_	_	
+1-255	1469-1475	države	_	3 - Nevtralno	*->6-2	*[6]	
+1-256	1476-1477	,	_	_	_	_	
+1-257	1478-1480	in	_	_	_	_	
+1-258	1481-1485	nima	_	2 - Negativno	*->14-6	*[14]	
+1-259	1486-1489	več	_	_	_	_	
+1-260	1490-1496	računa	_	_	_	_	
+1-261	1497-1498	.	_	_	_	_	
+1-262	1499-1501	Po	_	_	_	_	
+1-263	1502-1507	novem	_	_	_	_	
+1-264	1508-1515	Vodušek	PER	_	*->13-4	*[13]	
+1-265	1516-1522	deluje	_	_	_	_	
+1-266	1523-1527	prek	_	_	_	_	
+1-267	1528-1536	podjetja	_	3 - Nevtralno[32]	*->15-1	*[15]	
+1-268	1537-1540	TOP	ORG[16]	3 - Nevtralno[32]	*->15-1	*[15]	
+1-269	1541-1543	TV	ORG[16]	3 - Nevtralno[32]	*->15-1	*[15]	
+1-270	1544-1549	Media	ORG[16]	3 - Nevtralno[32]	*->15-1	*[15]	
+1-271	1550-1551	,	_	_	_	_	
+1-272	1552-1554	ki	_	_	_	_	
+1-273	1555-1557	je	_	_	_	_	
+1-274	1558-1559	v	_	_	_	_	
+1-275	1560-1565	lasti	_	_	_	_	
+1-276	1566-1575	njegovega	_	2 - Negativno	*->13-5	*[13]	
+1-277	1576-1580	sina	_	_	_	_	
+1-278	1581-1582	.	_	_	_	_	
+1-279	1583-1591	Telemach	ORG	_	*->16-2	*[16]	
+1-280	1592-1594	si	_	_	_	_	
+1-281	1595-1597	je	_	_	_	_	
+1-282	1598-1606	pripojil	_	_	_	_	
+1-283	1607-1612	Kabel	ORG[17]	_	*->17-1	*[17]	
+1-284	1613-1615	TV	ORG[17]	_	*->17-1	*[17]	
+1-285	1616-1617	.	_	_	_	_	
+1-286	1618-1619	.	_	_	_	_	
+1-287	1620-1621	.	_	_	_	_	
+1-288	1622-1630	Telemach	ORG	_	*->16-3	*[16]	
+1-289	1631-1633	si	_	_	_	_	
+1-290	1634-1636	je	_	_	_	_	
+1-291	1637-1641	manj	_	_	_	_	
+1-292	1642-1645	kot	_	_	_	_	
+1-293	1646-1649	pol	_	_	_	_	
+1-294	1650-1654	leta	_	_	_	_	
+1-295	1655-1657	po	_	_	_	_	
+1-296	1658-1664	tistem	_	_	_	_	
+1-297	1665-1666	,	_	_	_	_	
+1-298	1667-1669	ko	_	_	_	_	
+1-299	1670-1672	je	_	_	_	_	
+1-300	1673-1680	uspešno	_	_	_	_	
+1-301	1681-1686	kupil	_	_	*->16-4	*[16]	
+1-302	1687-1695	podjetje	_	_	*->17-2	*[17]	
+1-303	1696-1701	Kabel	ORG[18]	_	*->17-2	*[17]	
+1-304	1702-1704	TV	ORG[18]	_	*->17-2	*[17]	
+1-305	1705-1706	,	_	_	_	_	
+1-306	1707-1711	tudi	_	_	_	_	
+1-307	1712-1720	pripojil	_	_	_	_	
+1-308	1721-1726	enega	_	_	_	_	
+1-309	1727-1734	manjših	_	_	_	_	
+1-310	1735-1744	kabelskih	_	_	_	_	
+1-311	1745-1756	operaterjev	_	_	_	_	
+1-312	1757-1759	na	_	_	_	_	
+1-313	1760-1764	trgu	_	_	_	_	
+1-314	1765-1766	.	_	_	_	_	
+1-315	1767-1772	Kabel	ORG[19]	3 - Nevtralno[33]	*->17-3	*[17]	
+1-316	1773-1775	TV	ORG[19]	3 - Nevtralno[33]	*->17-3	*[17]	
+1-317	1776-1778	je	_	_	_	_	
+1-318	1779-1783	imel	_	_	_	_	
+1-319	1784-1788	lani	_	_	_	_	
+1-320	1789-1792	3,7	_	_	_	_	
+1-321	1793-1801	milijona	_	_	_	_	
+1-322	1802-1807	evrov	_	_	_	_	
+1-323	1808-1817	prihodkov	_	_	_	_	
+1-324	1818-1820	in	_	_	_	_	
+1-325	1821-1828	600.000	_	_	_	_	
+1-326	1829-1834	evrov	_	_	_	_	
+1-327	1835-1842	čistega	_	_	_	_	
+1-328	1843-1850	dobička	_	_	_	_	
+1-329	1851-1852	.	_	_	_	_	
+1-330	1853-1854	.	_	_	_	_	
+1-331	1855-1856	.	_	_	_	_	
+1-332	1857-1858	.	_	_	_	_	
+1-333	1859-1864	Total	ORG[20]	_	*->18-1	*[18]	
+1-334	1865-1867	TV	ORG[20]	_	*->18-1	*[18]	
+1-335	1868-1870	pa	_	_	_	_	
+1-336	1871-1879	izplačal	_	_	_	_	
+1-337	1880-1884	1,35	_	_	_	_	
+1-338	1885-1893	milijona	_	_	_	_	
+1-339	1894-1899	evrov	_	_	_	_	
+1-340	1900-1908	Podjetje	_	_	*->18-2	*[18]	
+1-341	1909-1914	Total	ORG[21]	_	*->18-2	*[18]	
+1-342	1915-1917	TV	ORG[21]	_	*->18-2	*[18]	
+1-343	1918-1919	,	_	_	_	_	
+1-344	1920-1922	ki	_	_	_	_	
+1-345	1923-1925	je	_	_	*->18-3	*[18]	
+1-346	1926-1930	tako	_	_	_	_	
+1-347	1931-1934	kot	_	_	_	_	
+1-348	1935-1943	Telemach	ORG	3 - Nevtralno	*->16-5	*[16]	
+1-349	1944-1947	del	_	_	_	_	
+1-350	1948-1958	regionalne	_	3 - Nevtralno[34]	*->19-1	*[19]	
+1-351	1959-1966	skupine	_	3 - Nevtralno[34]	*->19-1	*[19]	
+1-352	1967-1973	United	ORG[22]	3 - Nevtralno[34]	*->19-1	*[19]	
+1-353	1974-1979	Group	ORG[22]	3 - Nevtralno[34]	*->19-1	*[19]	
+1-354	1980-1981	,	_	_	_	_	
+1-355	1982-1984	bo	_	_	_	_	
+1-356	1985-1995	družbeniku	_	_	_	_	
+1-357	1996-2002	vrnilo	_	3 - Nevtralno	*->18-4	*[18]	
+1-358	2003-2007	1,35	_	_	_	_	
+1-359	2008-2016	milijona	_	_	_	_	
+1-360	2017-2022	evrov	_	_	_	_	
+1-361	2023-2031	sredstev	_	_	_	_	
+1-362	2032-2033	.	_	_	_	_	
+1-363	2034-2037	Gre	_	_	_	_	
+1-364	2038-2040	za	_	_	_	_	
+1-365	2041-2047	srbsko	_	3 - Nevtralno[35]	*->20-1	*[20]	
+1-366	2048-2054	družbo	_	3 - Nevtralno[35]	*->20-1	*[20]	
+1-367	2055-2058	SBB	ORG	3 - Nevtralno[35]	*->20-1	*[20]	
+1-368	2059-2060	.	_	_	_	_	
+1-369	2061-2065	NKBM	ORG	_	*->21-1	*[21]	
+1-370	2066-2073	poslala	_	_	_	_	
+1-371	2074-2078	hčer	_	_	*->23-1	*[23]	
+1-372	2079-2080	v	_	_	_	_	
+1-373	2081-2092	likvidacijo	_	_	_	_	
+1-374	2093-2094	V	_	_	_	_	
+1-375	2095-2099	NKBM	ORG	_	*->21-2	*[21]	
+1-376	2100-2103	pod	_	_	_	_	
+1-377	2104-2112	vodstvom	_	_	_	_	
+1-378	2113-2118	Aleša	PER[23]	3 - Nevtralno[36]	*->22-1	*[22]	
+1-379	2119-2124	Hauca	PER[23]	3 - Nevtralno[36]	*->22-1	*[22]	
+1-380	2125-2127	so	_	_	_	_	
+1-381	2128-2130	se	_	_	_	_	
+1-382	2131-2139	odločili	_	_	_	_	
+1-383	2140-2141	,	_	_	_	_	
+1-384	2142-2144	da	_	_	_	_	
+1-385	2145-2153	pošljejo	_	_	*->21-3	*[21]	
+1-386	2154-2155	v	_	_	_	_	
+1-387	2156-2167	likvidacijo	_	_	_	_	
+1-388	2168-2175	odvisno	_	_	*->23-2	*[23]	
+1-389	2176-2182	družbo	_	_	*->23-2	*[23]	
+1-390	2183-2186	KBM	ORG[24]	_	*->23-2	*[23]	
+1-391	2187-2188	-	ORG[24]	_	*->23-2	*[23]	
+1-392	2189-2195	Fineko	ORG[24]	_	*->23-2	*[23]	
+1-393	2196-2197	.	_	_	_	_	
+1-394	2198-2200	Ta	_	_	*->23-3	*[23]	
+1-395	2201-2203	se	_	_	_	_	
+1-396	2204-2206	je	_	_	_	_	
+1-397	2207-2216	ukvarjala	_	_	_	_	
+1-398	2217-2218	z	_	_	_	_	
+1-399	2219-2226	nakupom	_	_	_	_	
+1-400	2227-2229	in	_	_	_	_	
+1-401	2230-2237	prodajo	_	_	_	_	
+1-402	2238-2249	nepremičnin	_	_	_	_	
+1-403	2250-2253	ter	_	_	_	_	
+1-404	2254-2266	upravljanjem	_	_	_	_	
+1-405	2267-2268	z	_	_	_	_	
+1-406	2269-2283	nepremičninami	_	_	_	_	
+1-407	2284-2285	,	_	_	_	_	
+1-408	2286-2288	ki	_	_	_	_	
+1-409	2289-2291	so	_	_	_	_	
+1-410	2292-2293	v	_	_	_	_	
+1-411	2294-2299	lasti	_	_	_	_	
+1-412	2300-2304	NKBM	ORG	3 - Nevtralno	*->21-4	*[21]	
+1-413	2305-2306	.	_	_	_	_	
+1-414	2307-2309	Od	_	_	_	_	
+1-415	2310-2314	leta	_	_	_	_	
+1-416	2315-2319	2006	_	_	_	_	
+1-417	2320-2322	do	_	_	_	_	
+1-418	2323-2331	predlani	_	_	_	_	
+1-419	2332-2334	jo	_	_	*->23-4	*[23]	
+1-420	2335-2337	je	_	_	_	_	
+1-421	2338-2343	vodil	_	_	_	_	
+1-422	2344-2348	Igor	PER[25]	3 - Nevtralno[37]	*->24-1	*[24]	
+1-423	2349-2355	Šujica	PER[25]	3 - Nevtralno[37]	*->24-1	*[24]	
+1-424	2356-2357	,	_	_	_	_	
+1-425	2358-2363	konec	_	_	_	_	
+1-426	2364-2372	lanskega	_	_	_	_	
+1-427	2373-2377	leta	_	_	_	_	
+1-428	2378-2380	pa	_	_	_	_	
+1-429	2381-2383	je	_	_	_	_	
+1-430	2384-2389	imela	_	2 - Negativno	*->23-5	*[23]	
+1-431	2390-2392	za	_	_	_	_	
+1-432	2393-2395	30	_	_	_	_	
+1-433	2396-2405	milijonov	_	_	_	_	
+1-434	2406-2411	evrov	_	_	_	_	
+1-435	2412-2422	premoženja	_	_	_	_	
+1-436	2423-2424	.	_	_	_	_	
+1-437	2425-2434	Pripravil	_	_	_	_	
+1-438	2435-2440	Tomaž	PER	3 - Nevtralno	*->25-1	*[25]	

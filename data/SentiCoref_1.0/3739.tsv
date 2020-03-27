@@ -1,0 +1,448 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Škofijsko podjetje Betnava , ki je vodilo sporno naložbo v revitalizacijo istoimenskega mariborskega dvorca , vse bliže pa je tudi stečajnemu postopku , ima novega direktorja . Na ta položaj se je prejšnji ponedeljek zavihtel Simon Zdolšek , ki sicer ostaja predsednik uprave družbe Zvon Ena Holding . Zanjo bo v nekaj dneh znano , ali bo končala v stečaju , tudi Betnavi pa ne kaže nič bolje , saj ima več kot mesec dni blokirane račune , sooča pa se tudi z milijonsko tožbo družbe Prvi faktor . " Soglasje k imenovanju za direktorja Betnave sem podal na prošnjo družbenikov , saj je dosedanja direktorica Dragica Marinič odstopila , " nam je včeraj pojasnil Zdolšek . " V najkrajšem možnem času bom poskušal ugotoviti stanje in v skladu s ( pozitivno ) zakonodajo tudi ukrepati , " je dodal . Več Zdolšek ni hotel povedati , po neuradnih informacijah pa je preživetje Betnave v rokah upnikov , ki bi se morali strinjati s konverzijo svojih terjatev v kapital . Trenutno so lastniki podjetja duhovniki mariborske nadškofije - Janez Lesnika , Bernard Geršak , Alojz Krašovec , Anton Majc in Jožef Goličnik . Ti so deleže Betnave kupili šele januarja lani , ko so lastništva " odrešili " Andreja Mesarca , Iztoka Čegovnika , Zmaga Potočnika , Danico Ozvaldič , Franca Ješovnika in Antona Ekarta . Slednji so ustanovitelji Betnave in so leta 2008 vanjo vložili vsak po 380.000 evrov , do denarja pa so prišli prav z blagoslovom nadškofije oziroma je poroštvene pogodbe za posojila podpisal takratni mariborski nadškof Franc Kramberger . " Zasebno " podjetje je zatem prišlo do 1,7 milijona evrov evropskih sredstev , vendar se je pozneje izkazalo , da je ministrstvu izstavilo račune za dela , ki niso bila nikoli opravljena . Omenjena sredstva pa so , kot smo razkrili , takoj po prejemu jeseni 2009 poniknila na računih Vegrada , ki je izvajal gradbena dela na dvorcu in tudi vodil računovodstvo Betnave . Ta evropskega denarja zaradi poznejšega stečaja Vegrada ni nikoli več videla , isti znesek pa skuša od nje iztožiti tudi faktoring družba , ki ji je Vegrad odstopil terjatev . Iz internih listin Nadškofije Maribor , ki smo jih pridobili , je razvidno , da je njeno vodstvo konec leta 2009 Vegrad prosilo , da bi ta odkupil deleže vsaj Potočnika ( predsednik nadzornega sveta Zvona Dva Holdinga ) in Ekarta ( vodja službe za investicije in vzdrževanja v nadškofiji ) . Vseeno se je dogovor izjalovil , nadškofija , ki je morala v imenu Betnave vrniti evropska sredstva , pa je " našla " druge kupce . tomaz.modic @
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-21	Škofijsko	_	_	*->2-1	*[2]	
+1-4	22-30	podjetje	_	_	*->2-1	*[2]	
+1-5	31-38	Betnava	ORG	_	*->2-1	*[2]	
+1-6	39-40	,	_	_	_	_	
+1-7	41-43	ki	_	_	_	_	
+1-8	44-46	je	_	_	_	_	
+1-9	47-53	vodilo	_	_	*->2-2	*[2]	
+1-10	54-60	sporno	_	_	_	_	
+1-11	61-68	naložbo	_	_	_	_	
+1-12	69-70	v	_	_	_	_	
+1-13	71-85	revitalizacijo	_	_	_	_	
+1-14	86-99	istoimenskega	_	_	_	_	
+1-15	100-112	mariborskega	_	_	_	_	
+1-16	113-119	dvorca	_	_	_	_	
+1-17	120-121	,	_	_	_	_	
+1-18	122-125	vse	_	_	_	_	
+1-19	126-131	bliže	_	_	_	_	
+1-20	132-134	pa	_	_	_	_	
+1-21	135-137	je	_	_	_	_	
+1-22	138-142	tudi	_	_	_	_	
+1-23	143-153	stečajnemu	_	_	_	_	
+1-24	154-162	postopku	_	_	_	_	
+1-25	163-164	,	_	_	_	_	
+1-26	165-168	ima	_	_	_	_	
+1-27	169-175	novega	_	_	*->22-1	*[22]	
+1-28	176-186	direktorja	_	_	*->22-1	*[22]	
+1-29	187-188	.	_	_	_	_	
+1-30	189-191	Na	_	_	_	_	
+1-31	192-194	ta	_	_	_	_	
+1-32	195-202	položaj	_	_	_	_	
+1-33	203-205	se	_	_	_	_	
+1-34	206-208	je	_	_	_	_	
+1-35	209-217	prejšnji	_	_	_	_	
+1-36	218-228	ponedeljek	_	_	_	_	
+1-37	229-237	zavihtel	_	_	_	_	
+1-38	238-243	Simon	PER[1]	_	*->22-2	*[22]	
+1-39	244-251	Zdolšek	PER[1]	_	*->22-2	*[22]	
+1-40	252-253	,	_	_	_	_	
+1-41	254-256	ki	_	_	_	_	
+1-42	257-262	sicer	_	_	_	_	
+1-43	263-269	ostaja	_	_	_	_	
+1-44	270-280	predsednik	_	_	*->22-3	*[22]	
+1-45	281-287	uprave	_	_	*->22-3	*[22]	
+1-46	288-294	družbe	_	_	*->22-3|*->5-1	*[22]|*[5]	
+1-47	295-299	Zvon	ORG[2]	_	*->22-3|*->5-1	*[22]|*[5]	
+1-48	300-303	Ena	ORG[2]	_	*->22-3|*->5-1	*[22]|*[5]	
+1-49	304-311	Holding	ORG[2]	_	*->22-3|*->5-1	*[22]|*[5]	
+1-50	312-313	.	_	_	_	_	
+1-51	314-319	Zanjo	_	_	*->5-2	*[5]	
+1-52	320-322	bo	_	_	_	_	
+1-53	323-324	v	_	_	_	_	
+1-54	325-330	nekaj	_	_	_	_	
+1-55	331-335	dneh	_	_	_	_	
+1-56	336-341	znano	_	_	_	_	
+1-57	342-343	,	_	_	_	_	
+1-58	344-347	ali	_	_	_	_	
+1-59	348-350	bo	_	_	_	_	
+1-60	351-358	končala	_	2 - Negativno	*->5-3	*[5]	
+1-61	359-360	v	_	_	_	_	
+1-62	361-368	stečaju	_	_	_	_	
+1-63	369-370	,	_	_	_	_	
+1-64	371-375	tudi	_	_	_	_	
+1-65	376-383	Betnavi	ORG	_	*->2-3	*[2]	
+1-66	384-386	pa	_	_	_	_	
+1-67	387-389	ne	_	_	_	_	
+1-68	390-394	kaže	_	_	_	_	
+1-69	395-398	nič	_	_	_	_	
+1-70	399-404	bolje	_	_	_	_	
+1-71	405-406	,	_	_	_	_	
+1-72	407-410	saj	_	_	_	_	
+1-73	411-414	ima	_	_	_	_	
+1-74	415-418	več	_	_	_	_	
+1-75	419-422	kot	_	_	_	_	
+1-76	423-428	mesec	_	_	_	_	
+1-77	429-432	dni	_	_	_	_	
+1-78	433-442	blokirane	_	_	_	_	
+1-79	443-449	račune	_	_	_	_	
+1-80	450-451	,	_	_	_	_	
+1-81	452-457	sooča	_	_	*->2-4	*[2]	
+1-82	458-460	pa	_	_	_	_	
+1-83	461-463	se	_	_	_	_	
+1-84	464-468	tudi	_	_	_	_	
+1-85	469-470	z	_	_	_	_	
+1-86	471-481	milijonsko	_	_	_	_	
+1-87	482-487	tožbo	_	_	_	_	
+1-88	488-494	družbe	_	3 - Nevtralno[20]	*->3-1	*[3]	
+1-89	495-499	Prvi	ORG[3]	3 - Nevtralno[20]	*->3-1	*[3]	
+1-90	500-506	faktor	ORG[3]	3 - Nevtralno[20]	*->3-1	*[3]	
+1-91	507-508	.	_	_	_	_	
+1-92	509-510	"	_	_	_	_	
+1-93	511-519	Soglasje	_	_	_	_	
+1-94	520-521	k	_	_	_	_	
+1-95	522-532	imenovanju	_	_	_	_	
+1-96	533-535	za	_	_	_	_	
+1-97	536-546	direktorja	_	_	_	_	
+1-98	547-554	Betnave	ORG	_	*->2-5	*[2]	
+1-99	555-558	sem	_	_	_	_	
+1-100	559-564	podal	_	_	*->22-4	*[22]	
+1-101	565-567	na	_	_	_	_	
+1-102	568-575	prošnjo	_	_	_	_	
+1-103	576-587	družbenikov	_	_	_	_	
+1-104	588-589	,	_	_	_	_	
+1-105	590-593	saj	_	_	_	_	
+1-106	594-596	je	_	_	_	_	
+1-107	597-606	dosedanja	_	2 - Negativno[21]	*->4-1	*[4]	
+1-108	607-618	direktorica	_	2 - Negativno[21]	*->4-1	*[4]	
+1-109	619-626	Dragica	PER[4]	2 - Negativno[21]	*->4-1	*[4]	
+1-110	627-634	Marinič	PER[4]	2 - Negativno[21]	*->4-1	*[4]	
+1-111	635-644	odstopila	_	_	_	_	
+1-112	645-646	,	_	_	_	_	
+1-113	647-648	"	_	_	_	_	
+1-114	649-652	nam	_	_	_	_	
+1-115	653-655	je	_	_	_	_	
+1-116	656-662	včeraj	_	_	_	_	
+1-117	663-671	pojasnil	_	_	_	_	
+1-118	672-679	Zdolšek	PER	_	*->22-5	*[22]	
+1-119	680-681	.	_	_	_	_	
+1-120	682-683	"	_	_	_	_	
+1-121	684-685	V	_	_	_	_	
+1-122	686-696	najkrajšem	_	_	_	_	
+1-123	697-703	možnem	_	_	_	_	
+1-124	704-708	času	_	_	_	_	
+1-125	709-712	bom	_	_	_	_	
+1-126	713-721	poskušal	_	_	*->22-6	*[22]	
+1-127	722-731	ugotoviti	_	_	_	_	
+1-128	732-738	stanje	_	_	_	_	
+1-129	739-741	in	_	_	_	_	
+1-130	742-743	v	_	_	_	_	
+1-131	744-750	skladu	_	_	_	_	
+1-132	751-752	s	_	_	_	_	
+1-133	753-754	(	_	_	_	_	
+1-134	755-764	pozitivno	_	_	_	_	
+1-135	765-766	)	_	_	_	_	
+1-136	767-777	zakonodajo	_	_	_	_	
+1-137	778-782	tudi	_	_	_	_	
+1-138	783-791	ukrepati	_	_	_	_	
+1-139	792-793	,	_	_	_	_	
+1-140	794-795	"	_	_	_	_	
+1-141	796-798	je	_	_	_	_	
+1-142	799-804	dodal	_	_	*->22-7	*[22]	
+1-143	805-806	.	_	_	_	_	
+1-144	807-810	Več	_	_	_	_	
+1-145	811-818	Zdolšek	PER	3 - Nevtralno	*->22-8	*[22]	
+1-146	819-821	ni	_	_	_	_	
+1-147	822-827	hotel	_	_	_	_	
+1-148	828-836	povedati	_	_	_	_	
+1-149	837-838	,	_	_	_	_	
+1-150	839-841	po	_	_	_	_	
+1-151	842-851	neuradnih	_	_	_	_	
+1-152	852-864	informacijah	_	_	_	_	
+1-153	865-867	pa	_	_	_	_	
+1-154	868-870	je	_	_	_	_	
+1-155	871-881	preživetje	_	_	_	_	
+1-156	882-889	Betnave	ORG	_	*->2-6	*[2]	
+1-157	890-891	v	_	_	_	_	
+1-158	892-897	rokah	_	_	_	_	
+1-159	898-905	upnikov	_	_	_	_	
+1-160	906-907	,	_	_	_	_	
+1-161	908-910	ki	_	_	_	_	
+1-162	911-913	bi	_	_	_	_	
+1-163	914-916	se	_	_	_	_	
+1-164	917-923	morali	_	_	_	_	
+1-165	924-933	strinjati	_	_	_	_	
+1-166	934-935	s	_	_	_	_	
+1-167	936-946	konverzijo	_	_	_	_	
+1-168	947-953	svojih	_	_	_	_	
+1-169	954-962	terjatev	_	_	_	_	
+1-170	963-964	v	_	_	_	_	
+1-171	965-972	kapital	_	_	_	_	
+1-172	973-974	.	_	_	_	_	
+1-173	975-983	Trenutno	_	_	_	_	
+1-174	984-986	so	_	_	_	_	
+1-175	987-995	lastniki	_	_	_	_	
+1-176	996-1004	podjetja	_	_	_	_	
+1-177	1005-1014	duhovniki	_	_	_	_	
+1-178	1015-1025	mariborske	_	_	*->21-1	*[21]	
+1-179	1026-1036	nadškofije	_	_	*->21-1	*[21]	
+1-180	1037-1038	-	_	_	_	_	
+1-181	1039-1044	Janez	PER[5]	3 - Nevtralno[22]	*->6-1	*[6]	
+1-182	1045-1052	Lesnika	PER[5]	3 - Nevtralno[22]	*->6-1	*[6]	
+1-183	1053-1054	,	_	_	_	_	
+1-184	1055-1062	Bernard	PER[6]	3 - Nevtralno[23]	*->7-1	*[7]	
+1-185	1063-1069	Geršak	PER[6]	3 - Nevtralno[23]	*->7-1	*[7]	
+1-186	1070-1071	,	_	_	_	_	
+1-187	1072-1077	Alojz	PER[7]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-188	1078-1086	Krašovec	PER[7]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-189	1087-1088	,	_	_	_	_	
+1-190	1089-1094	Anton	PER[8]	3 - Nevtralno[25]	*->9-1	*[9]	
+1-191	1095-1099	Majc	PER[8]	3 - Nevtralno[25]	*->9-1	*[9]	
+1-192	1100-1102	in	_	_	_	_	
+1-193	1103-1108	Jožef	PER[9]	3 - Nevtralno[26]	*->10-1	*[10]	
+1-194	1109-1117	Goličnik	PER[9]	3 - Nevtralno[26]	*->10-1	*[10]	
+1-195	1118-1119	.	_	_	_	_	
+1-196	1120-1122	Ti	_	_	_	_	
+1-197	1123-1125	so	_	_	_	_	
+1-198	1126-1132	deleže	_	_	_	_	
+1-199	1133-1140	Betnave	ORG	_	*->2-7	*[2]	
+1-200	1141-1147	kupili	_	_	_	_	
+1-201	1148-1152	šele	_	_	_	_	
+1-202	1153-1161	januarja	_	_	_	_	
+1-203	1162-1166	lani	_	_	_	_	
+1-204	1167-1168	,	_	_	_	_	
+1-205	1169-1171	ko	_	_	_	_	
+1-206	1172-1174	so	_	_	_	_	
+1-207	1175-1185	lastništva	_	_	_	_	
+1-208	1186-1187	"	_	_	_	_	
+1-209	1188-1196	odrešili	_	_	_	_	
+1-210	1197-1198	"	_	_	_	_	
+1-211	1199-1206	Andreja	PER[10]	3 - Nevtralno[27]	*->11-1	*[11]	
+1-212	1207-1214	Mesarca	PER[10]	3 - Nevtralno[27]	*->11-1	*[11]	
+1-213	1215-1216	,	_	_	_	_	
+1-214	1217-1223	Iztoka	PER[11]	3 - Nevtralno[28]	*->12-1	*[12]	
+1-215	1224-1233	Čegovnika	PER[11]	3 - Nevtralno[28]	*->12-1	*[12]	
+1-216	1234-1235	,	_	_	_	_	
+1-217	1236-1241	Zmaga	PER[12]	_	*->13-1	*[13]	
+1-218	1242-1251	Potočnika	PER[12]	_	*->13-1	*[13]	
+1-219	1252-1253	,	_	_	_	_	
+1-220	1254-1260	Danico	PER[13]	3 - Nevtralno[29]	*->14-1	*[14]	
+1-221	1261-1269	Ozvaldič	PER[13]	3 - Nevtralno[29]	*->14-1	*[14]	
+1-222	1270-1271	,	_	_	_	_	
+1-223	1272-1278	Franca	PER[14]	3 - Nevtralno[30]	*->15-1	*[15]	
+1-224	1279-1288	Ješovnika	PER[14]	3 - Nevtralno[30]	*->15-1	*[15]	
+1-225	1289-1291	in	_	_	_	_	
+1-226	1292-1298	Antona	PER[15]	_	*->16-1	*[16]	
+1-227	1299-1305	Ekarta	PER[15]	_	*->16-1	*[16]	
+1-228	1306-1307	.	_	_	_	_	
+1-229	1308-1315	Slednji	_	_	_	_	
+1-230	1316-1318	so	_	_	_	_	
+1-231	1319-1332	ustanovitelji	_	_	_	_	
+1-232	1333-1340	Betnave	ORG	_	*->2-8	*[2]	
+1-233	1341-1343	in	_	_	_	_	
+1-234	1344-1346	so	_	_	_	_	
+1-235	1347-1351	leta	_	_	_	_	
+1-236	1352-1356	2008	_	_	_	_	
+1-237	1357-1362	vanjo	_	_	_	_	
+1-238	1363-1370	vložili	_	_	_	_	
+1-239	1371-1375	vsak	_	_	_	_	
+1-240	1376-1378	po	_	_	_	_	
+1-241	1379-1386	380.000	_	_	_	_	
+1-242	1387-1392	evrov	_	_	_	_	
+1-243	1393-1394	,	_	_	_	_	
+1-244	1395-1397	do	_	_	_	_	
+1-245	1398-1405	denarja	_	_	_	_	
+1-246	1406-1408	pa	_	_	_	_	
+1-247	1409-1411	so	_	_	_	_	
+1-248	1412-1418	prišli	_	_	_	_	
+1-249	1419-1423	prav	_	_	_	_	
+1-250	1424-1425	z	_	_	_	_	
+1-251	1426-1437	blagoslovom	_	_	_	_	
+1-252	1438-1448	nadškofije	_	_	*->21-2	*[21]	
+1-253	1449-1456	oziroma	_	_	_	_	
+1-254	1457-1459	je	_	_	_	_	
+1-255	1460-1470	poroštvene	_	_	_	_	
+1-256	1471-1478	pogodbe	_	_	_	_	
+1-257	1479-1481	za	_	_	_	_	
+1-258	1482-1490	posojila	_	_	_	_	
+1-259	1491-1499	podpisal	_	_	_	_	
+1-260	1500-1508	takratni	_	3 - Nevtralno[31]	*->17-1	*[17]	
+1-261	1509-1519	mariborski	_	3 - Nevtralno[31]	*->17-1	*[17]	
+1-262	1520-1527	nadškof	_	3 - Nevtralno[31]	*->17-1	*[17]	
+1-263	1528-1533	Franc	PER[16]	3 - Nevtralno[31]	*->17-1	*[17]	
+1-264	1534-1544	Kramberger	PER[16]	3 - Nevtralno[31]	*->17-1	*[17]	
+1-265	1545-1546	.	_	_	_	_	
+1-266	1547-1548	"	_	_	_	_	
+1-267	1549-1556	Zasebno	_	_	*->2-9	*[2]	
+1-268	1557-1558	"	_	_	*->2-9	*[2]	
+1-269	1559-1567	podjetje	_	_	*->2-9	*[2]	
+1-270	1568-1570	je	_	_	_	_	
+1-271	1571-1576	zatem	_	_	_	_	
+1-272	1577-1583	prišlo	_	_	_	_	
+1-273	1584-1586	do	_	_	_	_	
+1-274	1587-1590	1,7	_	_	_	_	
+1-275	1591-1599	milijona	_	_	_	_	
+1-276	1600-1605	evrov	_	_	_	_	
+1-277	1606-1615	evropskih	_	_	_	_	
+1-278	1616-1624	sredstev	_	_	_	_	
+1-279	1625-1626	,	_	_	_	_	
+1-280	1627-1633	vendar	_	_	_	_	
+1-281	1634-1636	se	_	_	_	_	
+1-282	1637-1639	je	_	_	_	_	
+1-283	1640-1647	pozneje	_	_	_	_	
+1-284	1648-1656	izkazalo	_	_	_	_	
+1-285	1657-1658	,	_	_	_	_	
+1-286	1659-1661	da	_	_	_	_	
+1-287	1662-1664	je	_	_	_	_	
+1-288	1665-1676	ministrstvu	_	_	_	_	
+1-289	1677-1686	izstavilo	_	_	*->2-10	*[2]	
+1-290	1687-1693	račune	_	_	_	_	
+1-291	1694-1696	za	_	_	_	_	
+1-292	1697-1701	dela	_	_	_	_	
+1-293	1702-1703	,	_	_	_	_	
+1-294	1704-1706	ki	_	_	_	_	
+1-295	1707-1711	niso	_	_	_	_	
+1-296	1712-1716	bila	_	_	_	_	
+1-297	1717-1723	nikoli	_	_	_	_	
+1-298	1724-1734	opravljena	_	_	_	_	
+1-299	1735-1736	.	_	_	_	_	
+1-300	1737-1745	Omenjena	_	_	_	_	
+1-301	1746-1754	sredstva	_	_	_	_	
+1-302	1755-1757	pa	_	_	_	_	
+1-303	1758-1760	so	_	_	_	_	
+1-304	1761-1762	,	_	_	_	_	
+1-305	1763-1766	kot	_	_	_	_	
+1-306	1767-1770	smo	_	_	_	_	
+1-307	1771-1779	razkrili	_	_	_	_	
+1-308	1780-1781	,	_	_	_	_	
+1-309	1782-1787	takoj	_	_	_	_	
+1-310	1788-1790	po	_	_	_	_	
+1-311	1791-1798	prejemu	_	_	_	_	
+1-312	1799-1805	jeseni	_	_	_	_	
+1-313	1806-1810	2009	_	_	_	_	
+1-314	1811-1820	poniknila	_	_	_	_	
+1-315	1821-1823	na	_	_	_	_	
+1-316	1824-1831	računih	_	_	_	_	
+1-317	1832-1839	Vegrada	ORG	_	*->18-1	*[18]	
+1-318	1840-1841	,	_	_	_	_	
+1-319	1842-1844	ki	_	_	_	_	
+1-320	1845-1847	je	_	_	_	_	
+1-321	1848-1855	izvajal	_	_	*->18-2	*[18]	
+1-322	1856-1864	gradbena	_	_	_	_	
+1-323	1865-1869	dela	_	_	_	_	
+1-324	1870-1872	na	_	_	_	_	
+1-325	1873-1879	dvorcu	_	_	_	_	
+1-326	1880-1882	in	_	_	_	_	
+1-327	1883-1887	tudi	_	_	_	_	
+1-328	1888-1893	vodil	_	_	*->18-3	*[18]	
+1-329	1894-1907	računovodstvo	_	_	_	_	
+1-330	1908-1915	Betnave	ORG	_	*->2-11	*[2]	
+1-331	1916-1917	.	_	_	_	_	
+1-332	1918-1920	Ta	_	_	*->2-12	*[2]	
+1-333	1921-1931	evropskega	_	_	_	_	
+1-334	1932-1939	denarja	_	_	_	_	
+1-335	1940-1946	zaradi	_	_	_	_	
+1-336	1947-1957	poznejšega	_	_	_	_	
+1-337	1958-1965	stečaja	_	_	_	_	
+1-338	1966-1973	Vegrada	ORG	_	*->18-4	*[18]	
+1-339	1974-1976	ni	_	_	_	_	
+1-340	1977-1983	nikoli	_	_	_	_	
+1-341	1984-1987	več	_	_	_	_	
+1-342	1988-1994	videla	_	_	*->2-13	*[2]	
+1-343	1995-1996	,	_	_	_	_	
+1-344	1997-2001	isti	_	_	_	_	
+1-345	2002-2008	znesek	_	_	_	_	
+1-346	2009-2011	pa	_	_	_	_	
+1-347	2012-2017	skuša	_	_	_	_	
+1-348	2018-2020	od	_	_	_	_	
+1-349	2021-2024	nje	_	_	*->2-14	*[2]	
+1-350	2025-2033	iztožiti	_	_	_	_	
+1-351	2034-2038	tudi	_	_	_	_	
+1-352	2039-2048	faktoring	_	_	_	_	
+1-353	2049-2055	družba	_	_	_	_	
+1-354	2056-2057	,	_	_	_	_	
+1-355	2058-2060	ki	_	_	_	_	
+1-356	2061-2063	ji	_	_	_	_	
+1-357	2064-2066	je	_	_	_	_	
+1-358	2067-2073	Vegrad	ORG	_	*->18-5	*[18]	
+1-359	2074-2082	odstopil	_	_	_	_	
+1-360	2083-2091	terjatev	_	_	_	_	
+1-361	2092-2093	.	_	_	_	_	
+1-362	2094-2096	Iz	_	_	_	_	
+1-363	2097-2105	internih	_	_	_	_	
+1-364	2106-2112	listin	_	_	_	_	
+1-365	2113-2123	Nadškofije	ORG[17]	_	*->21-3	*[21]	
+1-366	2124-2131	Maribor	ORG[17]|LOC[18]	3 - Nevtralno	*->21-3|*->19-1	*[21]|*[19]	
+1-367	2132-2133	,	_	_	_	_	
+1-368	2134-2136	ki	_	_	_	_	
+1-369	2137-2140	smo	_	_	_	_	
+1-370	2141-2144	jih	_	_	_	_	
+1-371	2145-2154	pridobili	_	_	_	_	
+1-372	2155-2156	,	_	_	_	_	
+1-373	2157-2159	je	_	_	_	_	
+1-374	2160-2168	razvidno	_	_	_	_	
+1-375	2169-2170	,	_	_	_	_	
+1-376	2171-2173	da	_	_	_	_	
+1-377	2174-2176	je	_	_	_	_	
+1-378	2177-2182	njeno	_	_	*->21-4	*[21]	
+1-379	2183-2190	vodstvo	_	_	_	_	
+1-380	2191-2196	konec	_	_	_	_	
+1-381	2197-2201	leta	_	_	_	_	
+1-382	2202-2206	2009	_	_	_	_	
+1-383	2207-2213	Vegrad	ORG	_	*->18-6	*[18]	
+1-384	2214-2221	prosilo	_	_	_	_	
+1-385	2222-2223	,	_	_	_	_	
+1-386	2224-2226	da	_	_	_	_	
+1-387	2227-2229	bi	_	_	_	_	
+1-388	2230-2232	ta	_	2 - Negativno	*->18-7	*[18]	
+1-389	2233-2240	odkupil	_	_	_	_	
+1-390	2241-2247	deleže	_	_	_	_	
+1-391	2248-2252	vsaj	_	_	_	_	
+1-392	2253-2262	Potočnika	PER	_	*->13-2	*[13]	
+1-393	2263-2264	(	_	_	_	_	
+1-394	2265-2275	predsednik	_	3 - Nevtralno[32]	*->13-3	*[13]	
+1-395	2276-2286	nadzornega	_	3 - Nevtralno[32]	*->13-3	*[13]	
+1-396	2287-2292	sveta	_	3 - Nevtralno[32]	*->13-3	*[13]	
+1-397	2293-2298	Zvona	ORG[19]	3 - Nevtralno[32]|3 - Nevtralno[33]	*->13-3|*->20-1	*[13]|*[20]	
+1-398	2299-2302	Dva	ORG[19]	3 - Nevtralno[32]|3 - Nevtralno[33]	*->13-3|*->20-1	*[13]|*[20]	
+1-399	2303-2311	Holdinga	ORG[19]	3 - Nevtralno[32]|3 - Nevtralno[33]	*->13-3|*->20-1	*[13]|*[20]	
+1-400	2312-2313	)	_	_	_	_	
+1-401	2314-2316	in	_	_	_	_	
+1-402	2317-2323	Ekarta	PER	_	*->16-2	*[16]	
+1-403	2324-2325	(	_	_	_	_	
+1-404	2326-2331	vodja	_	3 - Nevtralno[34]	*->16-3	*[16]	
+1-405	2332-2338	službe	_	3 - Nevtralno[34]	*->16-3	*[16]	
+1-406	2339-2341	za	_	3 - Nevtralno[34]	*->16-3	*[16]	
+1-407	2342-2353	investicije	_	3 - Nevtralno[34]	*->16-3	*[16]	
+1-408	2354-2356	in	_	3 - Nevtralno[34]	*->16-3	*[16]	
+1-409	2357-2368	vzdrževanja	_	3 - Nevtralno[34]	*->16-3	*[16]	
+1-410	2369-2370	v	_	3 - Nevtralno[34]	*->16-3	*[16]	
+1-411	2371-2381	nadškofiji	_	3 - Nevtralno[34]	*->16-3	*[16]	
+1-412	2382-2383	)	_	_	_	_	
+1-413	2384-2385	.	_	_	_	_	
+1-414	2386-2392	Vseeno	_	_	_	_	
+1-415	2393-2395	se	_	_	_	_	
+1-416	2396-2398	je	_	_	_	_	
+1-417	2399-2406	dogovor	_	_	_	_	
+1-418	2407-2416	izjalovil	_	_	_	_	
+1-419	2417-2418	,	_	_	_	_	
+1-420	2419-2429	nadškofija	_	_	*->21-5	*[21]	
+1-421	2430-2431	,	_	_	_	_	
+1-422	2432-2434	ki	_	_	_	_	
+1-423	2435-2437	je	_	_	_	_	
+1-424	2438-2444	morala	_	_	*->21-6	*[21]	
+1-425	2445-2446	v	_	_	_	_	
+1-426	2447-2452	imenu	_	_	_	_	
+1-427	2453-2460	Betnave	ORG	2 - Negativno	*->2-15	*[2]	
+1-428	2461-2467	vrniti	_	_	_	_	
+1-429	2468-2476	evropska	_	_	_	_	
+1-430	2477-2485	sredstva	_	_	_	_	
+1-431	2486-2487	,	_	_	_	_	
+1-432	2488-2490	pa	_	_	_	_	
+1-433	2491-2493	je	_	_	_	_	
+1-434	2494-2495	"	_	_	_	_	
+1-435	2496-2501	našla	_	2 - Negativno	*->21-7	*[21]	
+1-436	2502-2503	"	_	_	_	_	
+1-437	2504-2509	druge	_	_	_	_	
+1-438	2510-2515	kupce	_	_	_	_	
+1-439	2516-2517	.	_	_	_	_	
+1-440	2518-2529	tomaz.modic	_	_	_	_	
+1-441	2530-2531	@	_	_	_	_	

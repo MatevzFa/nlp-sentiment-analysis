@@ -1,0 +1,404 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=V Kompasu pravijo , da je prodaja prvomajskih počitnic na Hrvaško za desetino večja kot lani , v Relaxu trdijo , da upada ni Kot smo poročali včeraj , zaradi napetih političnih odnosov s sosedi in poročanju Večernjega lista , da bo politika z njihove obale odgnali pet odstotkov Slovencev , smo preverili kako kaže prodaja prvomajskih aranžmajev na Hrvaško in drugam . V Kompasu , ki je v večinski lasti hrvaške Adriatice.net , trdijo , da imajo precejšnjo rast prijave tako za potovanja ( medcelinska potovanja in potovanja po Evropi ) , kot tudi kar desetodstotno rast pri prvomajskih počitnicah na Hrvaškem . Za mediteranske destinacije pa je približno enako zanimanje . Na Hrvaškem so najbolj priljubljene kraji Novigrad , Poreč , Umag , Rabac , kvarnerski otoki ( Mali Lošinj , Krk ) in srednja Dalmacija , kar ugotavljajo tudi v Relaxu . Cene prvomajskih aranžmajev na nivoju lanskih Cene aranžmajev so na nivoju lanskih in v Relaxu sklepajo , da ne bodo padle . » Povpraševanje je približno enako kot lani , rezervacij pa imamo za šest odstotkov manj kot lani v tem času . Upada rezervacij za Hrvaško nimamo , « nam je povedal Jože Režonja iz agencije Relax . Najbolj priljubljeni kraji pri njih za prvomajske počitnice so poleg hrvaške obale še domača zdravilišča ter naša in obala . V Sončku so nam povedali , da se njihove cene na sosednjem Hrvaškem v primerjavi z lani niso podražile . V Relaxu ugotavljajo rast prodaje mediteranskih destinacij ( Egipt , Tunizija , Turčija ) . Letalske karte na druge celine cenejše , aranžmaji ne Marko Smrekar iz Odklopa pravi , da so cene letalskih kart za potovanja v ZDA ( na primer Las Vegas ) , Brazilijo , Kubo in Tajsko ta hip bistveno cenejše kot lani in sicer so bile lani cene za povratne polete nad 600 evrov , letos se jih že dobi za 450 evrov . Cene aranžmajev v omenjene kraje pa so približno enake kot lani . Upad prodaje potovanj pri njih je bil sicer januarja in februarja približno za 15 odstotkov slabši kot lani v tem času , kako bo naprej pa težko ocenjuje . Agencija prodaja predvsem počitnice , ki vključujejo letalske polete . Za prvomajske počitnice pa so najbolj priljubljene destinacije Hrvaška , Egipt in Tunizija ter bolj oddaljene Maldivi , Tajska , Mehika in Kuba
+1-1	0-1	V	_	_	_	_	
+1-2	2-9	Kompasu	ORG	_	*->1-1	*[1]	
+1-3	10-17	pravijo	_	_	_	_	
+1-4	18-19	,	_	_	_	_	
+1-5	20-22	da	_	_	_	_	
+1-6	23-25	je	_	_	_	_	
+1-7	26-33	prodaja	_	_	_	_	
+1-8	34-45	prvomajskih	_	_	_	_	
+1-9	46-54	počitnic	_	_	_	_	
+1-10	55-57	na	_	_	_	_	
+1-11	58-65	Hrvaško	LOC	_	*->2-1	*[2]	
+1-12	66-68	za	_	_	_	_	
+1-13	69-77	desetino	_	_	_	_	
+1-14	78-83	večja	_	_	_	_	
+1-15	84-87	kot	_	_	_	_	
+1-16	88-92	lani	_	_	_	_	
+1-17	93-94	,	_	_	_	_	
+1-18	95-96	v	_	_	_	_	
+1-19	97-103	Relaxu	ORG	_	*->3-1	*[3]	
+1-20	104-110	trdijo	_	_	_	_	
+1-21	111-112	,	_	_	_	_	
+1-22	113-115	da	_	_	_	_	
+1-23	116-121	upada	_	_	_	_	
+1-24	122-124	ni	_	_	_	_	
+1-25	125-128	Kot	_	_	_	_	
+1-26	129-132	smo	_	_	_	_	
+1-27	133-141	poročali	_	_	_	_	
+1-28	142-148	včeraj	_	_	_	_	
+1-29	149-150	,	_	_	_	_	
+1-30	151-157	zaradi	_	_	_	_	
+1-31	158-165	napetih	_	_	_	_	
+1-32	166-176	političnih	_	_	_	_	
+1-33	177-184	odnosov	_	_	_	_	
+1-34	185-186	s	_	_	_	_	
+1-35	187-193	sosedi	_	_	*->2-2	*[2]	
+1-36	194-196	in	_	_	_	_	
+1-37	197-206	poročanju	_	_	_	_	
+1-38	207-217	Večernjega	ORG[1]	3 - Nevtralno[6]	*->26-1	*[26]	
+1-39	218-223	lista	ORG[1]	3 - Nevtralno[6]	*->26-1	*[26]	
+1-40	224-225	,	_	_	_	_	
+1-41	226-228	da	_	_	_	_	
+1-42	229-231	bo	_	_	_	_	
+1-43	232-240	politika	_	_	_	_	
+1-44	241-242	z	_	_	_	_	
+1-45	243-250	njihove	_	_	*->2-3	*[2]	
+1-46	251-256	obale	_	_	_	_	
+1-47	257-264	odgnali	_	_	_	_	
+1-48	265-268	pet	_	_	_	_	
+1-49	269-278	odstotkov	_	_	_	_	
+1-50	279-288	Slovencev	_	_	_	_	
+1-51	289-290	,	_	_	_	_	
+1-52	291-294	smo	_	_	_	_	
+1-53	295-304	preverili	_	_	_	_	
+1-54	305-309	kako	_	_	_	_	
+1-55	310-314	kaže	_	_	_	_	
+1-56	315-322	prodaja	_	_	_	_	
+1-57	323-334	prvomajskih	_	_	_	_	
+1-58	335-345	aranžmajev	_	_	_	_	
+1-59	346-348	na	_	_	_	_	
+1-60	349-356	Hrvaško	LOC	_	*->2-4	*[2]	
+1-61	357-359	in	_	_	_	_	
+1-62	360-366	drugam	_	_	_	_	
+1-63	367-368	.	_	_	_	_	
+1-64	369-370	V	_	_	_	_	
+1-65	371-378	Kompasu	ORG	_	*->1-2	*[1]	
+1-66	379-380	,	_	_	_	_	
+1-67	381-383	ki	_	_	_	_	
+1-68	384-386	je	_	_	_	_	
+1-69	387-388	v	_	_	_	_	
+1-70	389-397	večinski	_	3 - Nevtralno[7]	*->1-3	*[1]	
+1-71	398-403	lasti	_	3 - Nevtralno[7]	*->1-3	*[1]	
+1-72	404-411	hrvaške	_	3 - Nevtralno[7]	*->1-3	*[1]	
+1-73	412-425	Adriatice.net	ORG	3 - Nevtralno[7]|3 - Nevtralno[8]	*->1-3|*->4-1	*[1]|*[4]	
+1-74	426-427	,	_	_	_	_	
+1-75	428-434	trdijo	_	_	_	_	
+1-76	435-436	,	_	_	_	_	
+1-77	437-439	da	_	_	_	_	
+1-78	440-445	imajo	_	_	_	_	
+1-79	446-456	precejšnjo	_	_	_	_	
+1-80	457-461	rast	_	_	_	_	
+1-81	462-469	prijave	_	_	_	_	
+1-82	470-474	tako	_	_	_	_	
+1-83	475-477	za	_	_	_	_	
+1-84	478-487	potovanja	_	_	_	_	
+1-85	488-489	(	_	_	_	_	
+1-86	490-501	medcelinska	_	_	_	_	
+1-87	502-511	potovanja	_	_	_	_	
+1-88	512-514	in	_	_	_	_	
+1-89	515-524	potovanja	_	_	_	_	
+1-90	525-527	po	_	_	_	_	
+1-91	528-534	Evropi	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-92	535-536	)	_	_	_	_	
+1-93	537-538	,	_	_	_	_	
+1-94	539-542	kot	_	_	_	_	
+1-95	543-547	tudi	_	_	_	_	
+1-96	548-551	kar	_	_	_	_	
+1-97	552-565	desetodstotno	_	_	_	_	
+1-98	566-570	rast	_	_	_	_	
+1-99	571-574	pri	_	_	_	_	
+1-100	575-586	prvomajskih	_	_	_	_	
+1-101	587-597	počitnicah	_	_	_	_	
+1-102	598-600	na	_	_	_	_	
+1-103	601-609	Hrvaškem	LOC	_	*->2-5	*[2]	
+1-104	610-611	.	_	_	_	_	
+1-105	612-614	Za	_	_	_	_	
+1-106	615-627	mediteranske	_	_	_	_	
+1-107	628-639	destinacije	_	_	_	_	
+1-108	640-642	pa	_	_	_	_	
+1-109	643-645	je	_	_	_	_	
+1-110	646-655	približno	_	_	_	_	
+1-111	656-661	enako	_	_	_	_	
+1-112	662-671	zanimanje	_	_	_	_	
+1-113	672-673	.	_	_	_	_	
+1-114	674-676	Na	_	_	_	_	
+1-115	677-685	Hrvaškem	LOC	_	*->2-6	*[2]	
+1-116	686-688	so	_	_	_	_	
+1-117	689-696	najbolj	_	_	_	_	
+1-118	697-709	priljubljene	_	_	_	_	
+1-119	710-715	kraji	_	_	_	_	
+1-120	716-724	Novigrad	LOC	4 - Pozitivno	*->6-1	*[6]	
+1-121	725-726	,	_	_	_	_	
+1-122	727-732	Poreč	LOC	4 - Pozitivno	*->7-1	*[7]	
+1-123	733-734	,	_	_	_	_	
+1-124	735-739	Umag	LOC	4 - Pozitivno	*->8-1	*[8]	
+1-125	740-741	,	_	_	_	_	
+1-126	742-747	Rabac	LOC	4 - Pozitivno	*->9-1	*[9]	
+1-127	748-749	,	_	_	_	_	
+1-128	750-760	kvarnerski	_	_	_	_	
+1-129	761-766	otoki	_	_	_	_	
+1-130	767-768	(	_	_	_	_	
+1-131	769-773	Mali	LOC[2]	4 - Pozitivno[9]	*->10-1	*[10]	
+1-132	774-780	Lošinj	LOC[2]	4 - Pozitivno[9]	*->10-1	*[10]	
+1-133	781-782	,	_	_	_	_	
+1-134	783-786	Krk	LOC	4 - Pozitivno	*->11-1	*[11]	
+1-135	787-788	)	_	_	_	_	
+1-136	789-791	in	_	_	_	_	
+1-137	792-799	srednja	_	4 - Pozitivno[10]	*->27-1	*[27]	
+1-138	800-809	Dalmacija	LOC	4 - Pozitivno[10]	*->27-1	*[27]	
+1-139	810-811	,	_	_	_	_	
+1-140	812-815	kar	_	_	_	_	
+1-141	816-827	ugotavljajo	_	_	_	_	
+1-142	828-832	tudi	_	_	_	_	
+1-143	833-834	v	_	_	_	_	
+1-144	835-841	Relaxu	ORG	_	*->3-2	*[3]	
+1-145	842-843	.	_	_	_	_	
+1-146	844-848	Cene	_	_	_	_	
+1-147	849-860	prvomajskih	_	_	_	_	
+1-148	861-871	aranžmajev	_	_	_	_	
+1-149	872-874	na	_	_	_	_	
+1-150	875-881	nivoju	_	_	_	_	
+1-151	882-889	lanskih	_	_	_	_	
+1-152	890-894	Cene	_	_	_	_	
+1-153	895-905	aranžmajev	_	_	_	_	
+1-154	906-908	so	_	_	_	_	
+1-155	909-911	na	_	_	_	_	
+1-156	912-918	nivoju	_	_	_	_	
+1-157	919-926	lanskih	_	_	_	_	
+1-158	927-929	in	_	_	_	_	
+1-159	930-931	v	_	_	_	_	
+1-160	932-938	Relaxu	ORG	_	*->3-3	*[3]	
+1-161	939-947	sklepajo	_	_	_	_	
+1-162	948-949	,	_	_	_	_	
+1-163	950-952	da	_	_	_	_	
+1-164	953-955	ne	_	_	_	_	
+1-165	956-960	bodo	_	_	_	_	
+1-166	961-966	padle	_	_	_	_	
+1-167	967-968	.	_	_	_	_	
+1-168	969-970	»	_	_	_	_	
+1-169	971-984	Povpraševanje	_	_	_	_	
+1-170	985-987	je	_	_	_	_	
+1-171	988-997	približno	_	_	_	_	
+1-172	998-1003	enako	_	_	_	_	
+1-173	1004-1007	kot	_	_	_	_	
+1-174	1008-1012	lani	_	_	_	_	
+1-175	1013-1014	,	_	_	_	_	
+1-176	1015-1025	rezervacij	_	_	_	_	
+1-177	1026-1028	pa	_	_	_	_	
+1-178	1029-1034	imamo	_	_	*->3-4	*[3]	
+1-179	1035-1037	za	_	_	_	_	
+1-180	1038-1042	šest	_	_	_	_	
+1-181	1043-1052	odstotkov	_	_	_	_	
+1-182	1053-1057	manj	_	_	_	_	
+1-183	1058-1061	kot	_	_	_	_	
+1-184	1062-1066	lani	_	_	_	_	
+1-185	1067-1068	v	_	_	_	_	
+1-186	1069-1072	tem	_	_	_	_	
+1-187	1073-1077	času	_	_	_	_	
+1-188	1078-1079	.	_	_	_	_	
+1-189	1080-1085	Upada	_	_	_	_	
+1-190	1086-1096	rezervacij	_	_	_	_	
+1-191	1097-1099	za	_	_	_	_	
+1-192	1100-1107	Hrvaško	LOC	_	*->2-7	*[2]	
+1-193	1108-1114	nimamo	_	_	_	_	
+1-194	1115-1116	,	_	_	_	_	
+1-195	1117-1118	«	_	_	_	_	
+1-196	1119-1122	nam	_	_	_	_	
+1-197	1123-1125	je	_	_	_	_	
+1-198	1126-1133	povedal	_	_	_	_	
+1-199	1134-1138	Jože	PER[3]	3 - Nevtralno[11]	*->12-1	*[12]	
+1-200	1139-1146	Režonja	PER[3]	3 - Nevtralno[11]	*->12-1	*[12]	
+1-201	1147-1149	iz	_	_	_	_	
+1-202	1150-1158	agencije	_	_	*->3-5	*[3]	
+1-203	1159-1164	Relax	ORG	_	*->3-5	*[3]	
+1-204	1165-1166	.	_	_	_	_	
+1-205	1167-1174	Najbolj	_	_	_	_	
+1-206	1175-1187	priljubljeni	_	_	_	_	
+1-207	1188-1193	kraji	_	_	_	_	
+1-208	1194-1197	pri	_	_	_	_	
+1-209	1198-1202	njih	_	_	*->3-6	*[3]	
+1-210	1203-1205	za	_	_	_	_	
+1-211	1206-1216	prvomajske	_	_	_	_	
+1-212	1217-1226	počitnice	_	_	_	_	
+1-213	1227-1229	so	_	_	_	_	
+1-214	1230-1235	poleg	_	_	_	_	
+1-215	1236-1243	hrvaške	_	_	_	_	
+1-216	1244-1249	obale	_	_	_	_	
+1-217	1250-1252	še	_	_	_	_	
+1-218	1253-1259	domača	_	_	_	_	
+1-219	1260-1271	zdravilišča	_	_	_	_	
+1-220	1272-1275	ter	_	_	_	_	
+1-221	1276-1280	naša	_	_	_	_	
+1-222	1281-1283	in	_	_	_	_	
+1-223	1284-1289	obala	_	_	_	_	
+1-224	1290-1291	.	_	_	_	_	
+1-225	1292-1293	V	_	_	_	_	
+1-226	1294-1300	Sončku	ORG	_	*->13-1	*[13]	
+1-227	1301-1303	so	_	_	_	_	
+1-228	1304-1307	nam	_	_	_	_	
+1-229	1308-1316	povedali	_	_	_	_	
+1-230	1317-1318	,	_	_	_	_	
+1-231	1319-1321	da	_	_	_	_	
+1-232	1322-1324	se	_	_	_	_	
+1-233	1325-1332	njihove	_	3 - Nevtralno	*->13-2	*[13]	
+1-234	1333-1337	cene	_	_	_	_	
+1-235	1338-1340	na	_	_	_	_	
+1-236	1341-1350	sosednjem	_	_	_	_	
+1-237	1351-1359	Hrvaškem	LOC	_	*->2-8	*[2]	
+1-238	1360-1361	v	_	_	_	_	
+1-239	1362-1372	primerjavi	_	_	_	_	
+1-240	1373-1374	z	_	_	_	_	
+1-241	1375-1379	lani	_	_	_	_	
+1-242	1380-1384	niso	_	_	_	_	
+1-243	1385-1394	podražile	_	_	_	_	
+1-244	1395-1396	.	_	_	_	_	
+1-245	1397-1398	V	_	_	_	_	
+1-246	1399-1405	Relaxu	ORG	3 - Nevtralno	*->3-7	*[3]	
+1-247	1406-1417	ugotavljajo	_	_	_	_	
+1-248	1418-1422	rast	_	_	_	_	
+1-249	1423-1430	prodaje	_	_	_	_	
+1-250	1431-1444	mediteranskih	_	_	_	_	
+1-251	1445-1455	destinacij	_	_	_	_	
+1-252	1456-1457	(	_	_	_	_	
+1-253	1458-1463	Egipt	LOC	_	*->14-1	*[14]	
+1-254	1464-1465	,	_	_	_	_	
+1-255	1466-1474	Tunizija	LOC	_	*->15-1	*[15]	
+1-256	1475-1476	,	_	_	_	_	
+1-257	1477-1484	Turčija	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-258	1485-1486	)	_	_	_	_	
+1-259	1487-1488	.	_	_	_	_	
+1-260	1489-1497	Letalske	_	_	_	_	
+1-261	1498-1503	karte	_	_	_	_	
+1-262	1504-1506	na	_	_	_	_	
+1-263	1507-1512	druge	_	_	_	_	
+1-264	1513-1519	celine	_	_	_	_	
+1-265	1520-1527	cenejše	_	_	_	_	
+1-266	1528-1529	,	_	_	_	_	
+1-267	1530-1539	aranžmaji	_	_	_	_	
+1-268	1540-1542	ne	_	_	_	_	
+1-269	1543-1548	Marko	PER[4]	3 - Nevtralno[12]	*->17-1	*[17]	
+1-270	1549-1556	Smrekar	PER[4]	3 - Nevtralno[12]	*->17-1	*[17]	
+1-271	1557-1559	iz	_	_	_	_	
+1-272	1560-1567	Odklopa	ORG	_	*->18-1	*[18]	
+1-273	1568-1573	pravi	_	_	_	_	
+1-274	1574-1575	,	_	_	_	_	
+1-275	1576-1578	da	_	_	_	_	
+1-276	1579-1581	so	_	_	_	_	
+1-277	1582-1586	cene	_	_	_	_	
+1-278	1587-1596	letalskih	_	_	_	_	
+1-279	1597-1601	kart	_	_	_	_	
+1-280	1602-1604	za	_	_	_	_	
+1-281	1605-1614	potovanja	_	_	_	_	
+1-282	1615-1616	v	_	_	_	_	
+1-283	1617-1620	ZDA	LOC	4 - Pozitivno	*->19-1	*[19]	
+1-284	1621-1622	(	_	_	_	_	
+1-285	1623-1625	na	_	_	_	_	
+1-286	1626-1632	primer	_	_	_	_	
+1-287	1633-1636	Las	LOC[5]	4 - Pozitivno[13]	*->20-1	*[20]	
+1-288	1637-1642	Vegas	LOC[5]	4 - Pozitivno[13]	*->20-1	*[20]	
+1-289	1643-1644	)	_	_	_	_	
+1-290	1645-1646	,	_	_	_	_	
+1-291	1647-1656	Brazilijo	LOC	4 - Pozitivno	*->21-1	*[21]	
+1-292	1657-1658	,	_	_	_	_	
+1-293	1659-1663	Kubo	LOC	_	*->22-1	*[22]	
+1-294	1664-1666	in	_	_	_	_	
+1-295	1667-1673	Tajsko	LOC	_	*->23-1	*[23]	
+1-296	1674-1676	ta	_	_	_	_	
+1-297	1677-1680	hip	_	_	_	_	
+1-298	1681-1689	bistveno	_	_	_	_	
+1-299	1690-1697	cenejše	_	_	_	_	
+1-300	1698-1701	kot	_	_	_	_	
+1-301	1702-1706	lani	_	_	_	_	
+1-302	1707-1709	in	_	_	_	_	
+1-303	1710-1715	sicer	_	_	_	_	
+1-304	1716-1718	so	_	_	_	_	
+1-305	1719-1723	bile	_	_	_	_	
+1-306	1724-1728	lani	_	_	_	_	
+1-307	1729-1733	cene	_	_	_	_	
+1-308	1734-1736	za	_	_	_	_	
+1-309	1737-1745	povratne	_	_	_	_	
+1-310	1746-1752	polete	_	_	_	_	
+1-311	1753-1756	nad	_	_	_	_	
+1-312	1757-1760	600	_	_	_	_	
+1-313	1761-1766	evrov	_	_	_	_	
+1-314	1767-1768	,	_	_	_	_	
+1-315	1769-1774	letos	_	_	_	_	
+1-316	1775-1777	se	_	_	_	_	
+1-317	1778-1781	jih	_	_	_	_	
+1-318	1782-1784	že	_	_	_	_	
+1-319	1785-1789	dobi	_	_	_	_	
+1-320	1790-1792	za	_	_	_	_	
+1-321	1793-1796	450	_	_	_	_	
+1-322	1797-1802	evrov	_	_	_	_	
+1-323	1803-1804	.	_	_	_	_	
+1-324	1805-1809	Cene	_	_	_	_	
+1-325	1810-1820	aranžmajev	_	_	_	_	
+1-326	1821-1822	v	_	_	_	_	
+1-327	1823-1831	omenjene	_	_	_	_	
+1-328	1832-1837	kraje	_	_	_	_	
+1-329	1838-1840	pa	_	_	_	_	
+1-330	1841-1843	so	_	_	_	_	
+1-331	1844-1853	približno	_	_	_	_	
+1-332	1854-1859	enake	_	_	_	_	
+1-333	1860-1863	kot	_	_	_	_	
+1-334	1864-1868	lani	_	_	_	_	
+1-335	1869-1870	.	_	_	_	_	
+1-336	1871-1875	Upad	_	_	_	_	
+1-337	1876-1883	prodaje	_	_	_	_	
+1-338	1884-1892	potovanj	_	_	_	_	
+1-339	1893-1896	pri	_	_	_	_	
+1-340	1897-1901	njih	_	_	*->18-2	*[18]	
+1-341	1902-1904	je	_	_	_	_	
+1-342	1905-1908	bil	_	_	_	_	
+1-343	1909-1914	sicer	_	_	_	_	
+1-344	1915-1923	januarja	_	_	_	_	
+1-345	1924-1926	in	_	_	_	_	
+1-346	1927-1936	februarja	_	_	_	_	
+1-347	1937-1946	približno	_	_	_	_	
+1-348	1947-1949	za	_	_	_	_	
+1-349	1950-1952	15	_	_	_	_	
+1-350	1953-1962	odstotkov	_	_	_	_	
+1-351	1963-1969	slabši	_	_	_	_	
+1-352	1970-1973	kot	_	_	_	_	
+1-353	1974-1978	lani	_	_	_	_	
+1-354	1979-1980	v	_	_	_	_	
+1-355	1981-1984	tem	_	_	_	_	
+1-356	1985-1989	času	_	_	_	_	
+1-357	1990-1991	,	_	_	_	_	
+1-358	1992-1996	kako	_	_	_	_	
+1-359	1997-1999	bo	_	_	_	_	
+1-360	2000-2006	naprej	_	_	_	_	
+1-361	2007-2009	pa	_	_	_	_	
+1-362	2010-2015	težko	_	_	_	_	
+1-363	2016-2024	ocenjuje	_	_	_	_	
+1-364	2025-2026	.	_	_	_	_	
+1-365	2027-2035	Agencija	_	3 - Nevtralno	*->18-3	*[18]	
+1-366	2036-2043	prodaja	_	_	_	_	
+1-367	2044-2052	predvsem	_	_	_	_	
+1-368	2053-2062	počitnice	_	_	_	_	
+1-369	2063-2064	,	_	_	_	_	
+1-370	2065-2067	ki	_	_	_	_	
+1-371	2068-2079	vključujejo	_	_	_	_	
+1-372	2080-2088	letalske	_	_	_	_	
+1-373	2089-2095	polete	_	_	_	_	
+1-374	2096-2097	.	_	_	_	_	
+1-375	2098-2100	Za	_	_	_	_	
+1-376	2101-2111	prvomajske	_	_	_	_	
+1-377	2112-2121	počitnice	_	_	_	_	
+1-378	2122-2124	pa	_	_	_	_	
+1-379	2125-2127	so	_	_	_	_	
+1-380	2128-2135	najbolj	_	_	_	_	
+1-381	2136-2148	priljubljene	_	_	_	_	
+1-382	2149-2160	destinacije	_	_	_	_	
+1-383	2161-2168	Hrvaška	LOC	4 - Pozitivno	*->2-9	*[2]	
+1-384	2169-2170	,	_	_	_	_	
+1-385	2171-2176	Egipt	LOC	4 - Pozitivno	*->14-2	*[14]	
+1-386	2177-2179	in	_	_	_	_	
+1-387	2180-2188	Tunizija	LOC	4 - Pozitivno	*->15-2	*[15]	
+1-388	2189-2192	ter	_	_	_	_	
+1-389	2193-2197	bolj	_	_	_	_	
+1-390	2198-2207	oddaljene	_	_	_	_	
+1-391	2208-2215	Maldivi	LOC	4 - Pozitivno	*->24-1	*[24]	
+1-392	2216-2217	,	_	_	_	_	
+1-393	2218-2224	Tajska	LOC	4 - Pozitivno	*->23-2	*[23]	
+1-394	2225-2226	,	_	_	_	_	
+1-395	2227-2233	Mehika	LOC	4 - Pozitivno	*->25-1	*[25]	
+1-396	2234-2236	in	_	_	_	_	
+1-397	2237-2241	Kuba	LOC	4 - Pozitivno	*->22-2	*[22]	

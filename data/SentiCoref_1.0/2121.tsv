@@ -1,0 +1,574 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Za nakup 49 - odstotnega deleža v Telekomu Slovenije se za zdaj zanima 15 družb , med katerimi so tako telekomunikacijska podjetja kot skladi tveganega kapital in holdinške družbe . " Veseli smo velikega odziva , vendar za zdaj še ne vemo , ali bodo ti ponudniki tudi oddali kakovostne ponudbe , " je za Dnevnik povedal minister za gospodarstvo Andrej Vizjak . " Verjetno se bodo na razpis prijavili še kakšni ponudniki , vlada in privatizacijska komisija sta dali jasno vedeti , da od kupca Telekoma Slovenije pričakujeta , da bo sistem razvijal tudi v prihodnje . " Dodal je , da bo imela pri izbiri kupca ključno vlogo tako cena kot izpolnjevanje vseh zahtev , vendar status ponudnika ne bo omogočal nobene prednosti . Komisija za vodenje in nadzor postopka prodaje kapitalske naložbe države v Telekom Slovenije je status registriranega ponudnika za nakup državnega deleža v nacionalnem telefonskem operaterju dodelila : ruskemu podjetju Sistema , hrvaškemu Telekomu , madžarskemu Magyar Telekom , egiptovskemu Telecom Egypt , britanskemu skladu Providence Equity , avstralski Macquarie Bank , islandski Skipti , družbi Oger Telecom iz Združenih arabskih emiratov , luksemburško - ameriški družbi CEP III / ( Carlyle ) , britanskemu ponudniku Babcock $ amp , Brown , luksemburškemu Skywheelerju ( Permira ) , britanski družbi Apax , britansko - nemškemu konzorciju Bain Capital $ amp , Axos Capital , ameriški družbi SAC PCG LLP in Engrotušu kot edinemu slovenskemu ponudniku . Iz tabele je razvidno , da se za Telekom večinoma zanimajo večje družbe , saj so imeli ponudniki konec minulega leta v povprečju 13 milijard evrov sredstev , dve milijardi evrov prihodkov in 344 milijonov evrov dobička . Največji med ponudniki , za katere smo uspeli zbrati podatke , je avstralska banka Macquarie Bank , ki je samo lani ustvarila malenkost pod milijardo evrov čistega dobička . Po drugi strani je imel konec minulega leta po razpoložljivih podatkih najmanj sredstev Engrotuš Mirka Tuša , ki je imel tudi najmanjši čisti dobiček , in sicer zgolj devet milijonov evrov . Telekom Slovenije je bil včeraj na borzi vreden dobre tri milijarde evrov , delež , ki ga prodaja država , pa 1,49 milijarde evrov . Za primerjavo : lani je Telekom ustvaril vsega 100 milijonov evrov čistega dobička , sodeč po prvem polletju , bodo letošnji rezultati opazneje slabši kot so bili lanski . Prva faza odprodaje 49,1 - odstotnega deleža bo predvidoma končana 15 . oktobra , ko bodo morali ponudniki oddati tudi nezavezujoče ponudbe . Morebitni kupec bo moral po nakupu državnega deleža objaviti tudi prevzemno ponudbo , vendar je kljub precejšnjemu številu ponudnikov vprašanje , ali bo prodaja zaradi visoke cene delnice Telekoma na borzi tudi dokončno izpeljana . Poznavalci razmer pojasnjujejo , da veliko zanimanje za Telekom Slovenije niti ni presenetljivo , saj ima večina telekomunikacijskih družb v Evropi že večinskega lastnika oziroma je njihovo lastništvo že konsolidirano . Za primerjavo : za nakup malteškega telekoma pred približno dvema letoma je bilo ponudnikov čez 40 . V drugi fazi privatizacije Telekoma Slovenije bodo izbrane ponudnike povabili , da oddajo še zavezujoče ponudbe , komisija , ki je poziv objavila skupaj z ministrstvom za gospodarstvo , si pridržuje pravico , da se odloči za izvedbo tretje faze postopka , torej za licitacijo . Vizjak napoveduje , da bi bila lahko prodaja državnega deleža Telekoma po najboljšem scenariju končana že do konca leta
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-14	Za	_	_	_	_	
+1-4	15-20	nakup	_	_	_	_	
+1-5	21-23	49	_	_	_	_	
+1-6	24-25	-	_	_	_	_	
+1-7	26-36	odstotnega	_	_	_	_	
+1-8	37-43	deleža	_	_	_	_	
+1-9	44-45	v	_	_	_	_	
+1-10	46-54	Telekomu	ORG[1]	_	*->16-1	*[16]	
+1-11	55-64	Slovenije	ORG[1]|ORG[2]	_	*->16-1|*->23-1	*[16]|*[23]	
+1-12	65-67	se	_	_	_	_	
+1-13	68-70	za	_	_	_	_	
+1-14	71-75	zdaj	_	_	_	_	
+1-15	76-82	zanima	_	_	_	_	
+1-16	83-85	15	_	_	_	_	
+1-17	86-91	družb	_	_	_	_	
+1-18	92-93	,	_	_	_	_	
+1-19	94-97	med	_	_	_	_	
+1-20	98-106	katerimi	_	_	_	_	
+1-21	107-109	so	_	_	_	_	
+1-22	110-114	tako	_	_	_	_	
+1-23	115-133	telekomunikacijska	_	_	_	_	
+1-24	134-142	podjetja	_	_	_	_	
+1-25	143-146	kot	_	_	_	_	
+1-26	147-153	skladi	_	_	_	_	
+1-27	154-163	tveganega	_	_	_	_	
+1-28	164-171	kapital	_	_	_	_	
+1-29	172-174	in	_	_	_	_	
+1-30	175-184	holdinške	_	_	_	_	
+1-31	185-191	družbe	_	_	_	_	
+1-32	192-193	.	_	_	_	_	
+1-33	194-195	"	_	_	_	_	
+1-34	196-202	Veseli	_	_	_	_	
+1-35	203-206	smo	_	_	_	_	
+1-36	207-215	velikega	_	_	_	_	
+1-37	216-222	odziva	_	_	_	_	
+1-38	223-224	,	_	_	_	_	
+1-39	225-231	vendar	_	_	_	_	
+1-40	232-234	za	_	_	_	_	
+1-41	235-239	zdaj	_	_	_	_	
+1-42	240-242	še	_	_	_	_	
+1-43	243-245	ne	_	_	_	_	
+1-44	246-250	vemo	_	_	_	_	
+1-45	251-252	,	_	_	_	_	
+1-46	253-256	ali	_	_	_	_	
+1-47	257-261	bodo	_	_	_	_	
+1-48	262-264	ti	_	_	_	_	
+1-49	265-274	ponudniki	_	_	_	_	
+1-50	275-279	tudi	_	_	_	_	
+1-51	280-286	oddali	_	_	_	_	
+1-52	287-297	kakovostne	_	_	_	_	
+1-53	298-305	ponudbe	_	_	_	_	
+1-54	306-307	,	_	_	_	_	
+1-55	308-309	"	_	_	_	_	
+1-56	310-312	je	_	_	_	_	
+1-57	313-315	za	_	_	_	_	
+1-58	316-323	Dnevnik	ORG	3 - Nevtralno	*->12-1	*[12]	
+1-59	324-331	povedal	_	_	_	_	
+1-60	332-340	minister	_	_	*->10-1	*[10]	
+1-61	341-343	za	_	_	*->10-1	*[10]	
+1-62	344-356	gospodarstvo	_	_	*->10-1	*[10]	
+1-63	357-363	Andrej	PER[3]	_	*->10-1	*[10]	
+1-64	364-370	Vizjak	PER[3]	_	*->10-1	*[10]	
+1-65	371-372	.	_	_	_	_	
+1-66	373-374	"	_	_	_	_	
+1-67	375-383	Verjetno	_	_	_	_	
+1-68	384-386	se	_	_	_	_	
+1-69	387-391	bodo	_	_	_	_	
+1-70	392-394	na	_	_	_	_	
+1-71	395-401	razpis	_	_	_	_	
+1-72	402-411	prijavili	_	_	_	_	
+1-73	412-414	še	_	_	_	_	
+1-74	415-421	kakšni	_	_	_	_	
+1-75	422-431	ponudniki	_	_	_	_	
+1-76	432-433	,	_	_	_	_	
+1-77	434-439	vlada	_	_	_	_	
+1-78	440-442	in	_	_	_	_	
+1-79	443-458	privatizacijska	_	_	_	_	
+1-80	459-467	komisija	_	_	_	_	
+1-81	468-471	sta	_	_	_	_	
+1-82	472-476	dali	_	_	_	_	
+1-83	477-482	jasno	_	_	_	_	
+1-84	483-489	vedeti	_	_	_	_	
+1-85	490-491	,	_	_	_	_	
+1-86	492-494	da	_	_	_	_	
+1-87	495-497	od	_	_	_	_	
+1-88	498-503	kupca	_	_	_	_	
+1-89	504-512	Telekoma	ORG[4]	_	*->16-2	*[16]	
+1-90	513-522	Slovenije	ORG[4]|ORG[5]	_	*->16-2|*->23-2	*[16]|*[23]	
+1-91	523-534	pričakujeta	_	_	_	_	
+1-92	535-536	,	_	_	_	_	
+1-93	537-539	da	_	_	_	_	
+1-94	540-542	bo	_	_	_	_	
+1-95	543-549	sistem	_	_	_	_	
+1-96	550-558	razvijal	_	_	*->16-3	*[16]	
+1-97	559-563	tudi	_	_	_	_	
+1-98	564-565	v	_	_	_	_	
+1-99	566-575	prihodnje	_	_	_	_	
+1-100	576-577	.	_	_	_	_	
+1-101	578-579	"	_	_	_	_	
+1-102	580-585	Dodal	_	_	*->10-2	*[10]	
+1-103	586-588	je	_	_	*->10-2	*[10]	
+1-104	589-590	,	_	_	_	_	
+1-105	591-593	da	_	_	_	_	
+1-106	594-596	bo	_	_	_	_	
+1-107	597-602	imela	_	_	_	_	
+1-108	603-606	pri	_	_	_	_	
+1-109	607-613	izbiri	_	_	_	_	
+1-110	614-619	kupca	_	_	_	_	
+1-111	620-627	ključno	_	_	_	_	
+1-112	628-633	vlogo	_	_	_	_	
+1-113	634-638	tako	_	_	_	_	
+1-114	639-643	cena	_	_	_	_	
+1-115	644-647	kot	_	_	_	_	
+1-116	648-661	izpolnjevanje	_	_	_	_	
+1-117	662-666	vseh	_	_	_	_	
+1-118	667-673	zahtev	_	_	_	_	
+1-119	674-675	,	_	_	_	_	
+1-120	676-682	vendar	_	_	_	_	
+1-121	683-689	status	_	_	_	_	
+1-122	690-699	ponudnika	_	_	_	_	
+1-123	700-702	ne	_	_	_	_	
+1-124	703-705	bo	_	_	_	_	
+1-125	706-714	omogočal	_	_	_	_	
+1-126	715-721	nobene	_	_	_	_	
+1-127	722-731	prednosti	_	_	_	_	
+1-128	732-733	.	_	_	_	_	
+1-129	734-742	Komisija	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-130	743-745	za	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-131	746-753	vodenje	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-132	754-756	in	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-133	757-763	nadzor	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-134	764-772	postopka	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-135	773-780	prodaje	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-136	781-791	kapitalske	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-137	792-799	naložbe	ORG[6]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-138	800-806	države	ORG[6]	3 - Nevtralno[28]	*->1-1|*->23-3	*[1]|*[23]	
+1-139	807-808	v	_	_	_	_	
+1-140	809-816	Telekom	ORG[7]	_	*->16-4	*[16]	
+1-141	817-826	Slovenije	ORG[7]|ORG[8]	_	*->16-4|*->23-4	*[16]|*[23]	
+1-142	827-829	je	_	_	_	_	
+1-143	830-836	status	_	_	_	_	
+1-144	837-851	registriranega	_	_	_	_	
+1-145	852-861	ponudnika	_	_	_	_	
+1-146	862-864	za	_	_	_	_	
+1-147	865-870	nakup	_	_	_	_	
+1-148	871-880	državnega	_	_	_	_	
+1-149	881-887	deleža	_	_	_	_	
+1-150	888-889	v	_	_	_	_	
+1-151	890-901	nacionalnem	_	_	*->16-5	*[16]	
+1-152	902-913	telefonskem	_	_	*->16-5	*[16]	
+1-153	914-924	operaterju	_	_	*->16-5	*[16]	
+1-154	925-933	dodelila	_	_	_	_	
+1-155	934-935	:	_	_	_	_	
+1-156	936-943	ruskemu	_	4 - Pozitivno[29]	*->17-1	*[17]	
+1-157	944-952	podjetju	_	4 - Pozitivno[29]	*->17-1	*[17]	
+1-158	953-960	Sistema	ORG	4 - Pozitivno[29]	*->17-1	*[17]	
+1-159	961-962	,	_	_	_	_	
+1-160	963-972	hrvaškemu	_	4 - Pozitivno[30]	*->22-1	*[22]	
+1-161	973-981	Telekomu	ORG	4 - Pozitivno[30]|3 - Nevtralno[31]	*->22-1	*[22]	
+1-162	982-983	,	_	_	_	_	
+1-163	984-995	madžarskemu	_	4 - Pozitivno[32]	*->4-1	*[4]	
+1-164	996-1002	Magyar	ORG[9]	4 - Pozitivno[32]|3 - Nevtralno[33]	*->4-1	*[4]	
+1-165	1003-1010	Telekom	ORG[9]	4 - Pozitivno[32]|3 - Nevtralno[33]	*->4-1	*[4]	
+1-166	1011-1012	,	_	_	_	_	
+1-167	1013-1025	egiptovskemu	_	4 - Pozitivno[34]	*->13-1	*[13]	
+1-168	1026-1033	Telecom	ORG[10]	4 - Pozitivno[34]|3 - Nevtralno[35]	*->13-1	*[13]	
+1-169	1034-1039	Egypt	ORG[10]	4 - Pozitivno[34]|3 - Nevtralno[35]	*->13-1	*[13]	
+1-170	1040-1041	,	_	_	_	_	
+1-171	1042-1053	britanskemu	_	4 - Pozitivno[36]	*->5-1	*[5]	
+1-172	1054-1060	skladu	_	4 - Pozitivno[36]	*->5-1	*[5]	
+1-173	1061-1071	Providence	ORG[11]	4 - Pozitivno[36]	*->5-1	*[5]	
+1-174	1072-1078	Equity	ORG[11]	4 - Pozitivno[36]	*->5-1	*[5]	
+1-175	1079-1080	,	_	_	_	_	
+1-176	1081-1091	avstralski	_	_	*->19-1	*[19]	
+1-177	1092-1101	Macquarie	ORG[12]	_	*->19-1	*[19]	
+1-178	1102-1106	Bank	ORG[12]	_	*->19-1	*[19]	
+1-179	1107-1108	,	_	_	_	_	
+1-180	1109-1118	islandski	_	4 - Pozitivno[37]	*->24-1	*[24]	
+1-181	1119-1125	Skipti	ORG	4 - Pozitivno[37]	*->24-1	*[24]	
+1-182	1126-1127	,	_	_	_	_	
+1-183	1128-1134	družbi	_	4 - Pozitivno[38]	*->8-1	*[8]	
+1-184	1135-1139	Oger	ORG[13]	4 - Pozitivno[38]	*->8-1	*[8]	
+1-185	1140-1147	Telecom	ORG[13]	4 - Pozitivno[38]	*->8-1	*[8]	
+1-186	1148-1150	iz	_	_	_	_	
+1-187	1151-1160	Združenih	LOC[14]	3 - Nevtralno[39]	*->9-1	*[9]	
+1-188	1161-1169	arabskih	LOC[14]	3 - Nevtralno[39]	*->9-1	*[9]	
+1-189	1170-1178	emiratov	LOC[14]	3 - Nevtralno[39]	*->9-1	*[9]	
+1-190	1179-1180	,	_	_	_	_	
+1-191	1181-1193	luksemburško	_	3 - Nevtralno[40]	*->14-1	*[14]	
+1-192	1194-1195	-	_	3 - Nevtralno[40]	*->14-1	*[14]	
+1-193	1196-1204	ameriški	_	3 - Nevtralno[40]	*->14-1	*[14]	
+1-194	1205-1211	družbi	_	3 - Nevtralno[40]	*->14-1	*[14]	
+1-195	1212-1215	CEP	ORG[15]	3 - Nevtralno[40]	*->14-1	*[14]	
+1-196	1216-1219	III	ORG[15]	3 - Nevtralno[40]	*->14-1	*[14]	
+1-197	1220-1221	/	ORG[15]	3 - Nevtralno[40]	*->14-1	*[14]	
+1-198	1222-1223	(	ORG[15]	3 - Nevtralno[40]	*->14-1	*[14]	
+1-199	1224-1231	Carlyle	ORG[15]	3 - Nevtralno[40]	*->14-1	*[14]	
+1-200	1232-1233	)	ORG[15]	3 - Nevtralno[40]	*->14-1	*[14]	
+1-201	1234-1235	,	_	_	_	_	
+1-202	1236-1247	britanskemu	_	3 - Nevtralno[41]	*->15-1	*[15]	
+1-203	1248-1257	ponudniku	_	3 - Nevtralno[41]	*->15-1	*[15]	
+1-204	1258-1265	Babcock	ORG[16]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-205	1266-1267	$	ORG[16]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-206	1268-1271	amp	ORG[16]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-207	1272-1273	,	ORG[16]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-208	1274-1279	Brown	ORG[16]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-209	1280-1281	,	_	_	_	_	
+1-210	1282-1296	luksemburškemu	_	4 - Pozitivno[42]	*->7-1	*[7]	
+1-211	1297-1309	Skywheelerju	ORG[17]	4 - Pozitivno[42]	*->7-1	*[7]	
+1-212	1310-1311	(	ORG[17]	4 - Pozitivno[42]	*->7-1	*[7]	
+1-213	1312-1319	Permira	ORG[17]	4 - Pozitivno[42]	*->7-1	*[7]	
+1-214	1320-1321	)	ORG[17]	4 - Pozitivno[42]	*->7-1	*[7]	
+1-215	1322-1323	,	_	_	_	_	
+1-216	1324-1333	britanski	_	4 - Pozitivno[43]	*->21-1	*[21]	
+1-217	1334-1340	družbi	_	4 - Pozitivno[43]	*->21-1	*[21]	
+1-218	1341-1345	Apax	ORG	4 - Pozitivno[43]	*->21-1	*[21]	
+1-219	1346-1347	,	_	_	_	_	
+1-220	1348-1357	britansko	_	4 - Pozitivno[44]	*->6-1	*[6]	
+1-221	1358-1359	-	_	4 - Pozitivno[44]	*->6-1	*[6]	
+1-222	1360-1368	nemškemu	_	4 - Pozitivno[44]	*->6-1	*[6]	
+1-223	1369-1379	konzorciju	_	4 - Pozitivno[44]	*->6-1	*[6]	
+1-224	1380-1384	Bain	ORG[18]	4 - Pozitivno[44]	*->6-1	*[6]	
+1-225	1385-1392	Capital	ORG[18]	4 - Pozitivno[44]	*->6-1	*[6]	
+1-226	1393-1394	$	ORG[18]	4 - Pozitivno[44]	*->6-1	*[6]	
+1-227	1395-1398	amp	ORG[18]	4 - Pozitivno[44]	*->6-1	*[6]	
+1-228	1399-1400	,	ORG[18]	4 - Pozitivno[44]	*->6-1	*[6]	
+1-229	1401-1405	Axos	ORG[18]	4 - Pozitivno[44]	*->6-1	*[6]	
+1-230	1406-1413	Capital	ORG[18]	4 - Pozitivno[44]	*->6-1	*[6]	
+1-231	1414-1415	,	_	_	_	_	
+1-232	1416-1424	ameriški	_	4 - Pozitivno[45]	*->18-1	*[18]	
+1-233	1425-1431	družbi	_	4 - Pozitivno[45]	*->18-1	*[18]	
+1-234	1432-1435	SAC	ORG[19]	4 - Pozitivno[45]	*->18-1	*[18]	
+1-235	1436-1439	PCG	ORG[19]	4 - Pozitivno[45]	*->18-1	*[18]	
+1-236	1440-1443	LLP	ORG[19]	4 - Pozitivno[45]	*->18-1	*[18]	
+1-237	1444-1446	in	_	_	_	_	
+1-238	1447-1456	Engrotušu	ORG	_	*->25-1	*[25]	
+1-239	1457-1460	kot	_	_	_	_	
+1-240	1461-1468	edinemu	_	_	*->25-2	*[25]	
+1-241	1469-1480	slovenskemu	_	_	*->25-2	*[25]	
+1-242	1481-1490	ponudniku	_	_	*->25-2	*[25]	
+1-243	1491-1492	.	_	_	_	_	
+1-244	1493-1495	Iz	_	_	_	_	
+1-245	1496-1502	tabele	_	_	_	_	
+1-246	1503-1505	je	_	_	_	_	
+1-247	1506-1514	razvidno	_	_	_	_	
+1-248	1515-1516	,	_	_	_	_	
+1-249	1517-1519	da	_	_	_	_	
+1-250	1520-1522	se	_	_	_	_	
+1-251	1523-1525	za	_	_	_	_	
+1-252	1526-1533	Telekom	ORG	_	*->16-6	*[16]	
+1-253	1534-1542	večinoma	_	_	_	_	
+1-254	1543-1551	zanimajo	_	_	_	_	
+1-255	1552-1557	večje	_	_	_	_	
+1-256	1558-1564	družbe	_	_	_	_	
+1-257	1565-1566	,	_	_	_	_	
+1-258	1567-1570	saj	_	_	_	_	
+1-259	1571-1573	so	_	_	_	_	
+1-260	1574-1579	imeli	_	_	_	_	
+1-261	1580-1589	ponudniki	_	_	_	_	
+1-262	1590-1595	konec	_	_	_	_	
+1-263	1596-1604	minulega	_	_	_	_	
+1-264	1605-1609	leta	_	_	_	_	
+1-265	1610-1611	v	_	_	_	_	
+1-266	1612-1621	povprečju	_	_	_	_	
+1-267	1622-1624	13	_	_	_	_	
+1-268	1625-1633	milijard	_	_	_	_	
+1-269	1634-1639	evrov	_	_	_	_	
+1-270	1640-1648	sredstev	_	_	_	_	
+1-271	1649-1650	,	_	_	_	_	
+1-272	1651-1654	dve	_	_	_	_	
+1-273	1655-1664	milijardi	_	_	_	_	
+1-274	1665-1670	evrov	_	_	_	_	
+1-275	1671-1680	prihodkov	_	_	_	_	
+1-276	1681-1683	in	_	_	_	_	
+1-277	1684-1687	344	_	_	_	_	
+1-278	1688-1697	milijonov	_	_	_	_	
+1-279	1698-1703	evrov	_	_	_	_	
+1-280	1704-1711	dobička	_	_	_	_	
+1-281	1712-1713	.	_	_	_	_	
+1-282	1714-1722	Največji	_	_	_	_	
+1-283	1723-1726	med	_	_	_	_	
+1-284	1727-1736	ponudniki	_	_	_	_	
+1-285	1737-1738	,	_	_	_	_	
+1-286	1739-1741	za	_	_	_	_	
+1-287	1742-1748	katere	_	_	_	_	
+1-288	1749-1752	smo	_	_	_	_	
+1-289	1753-1759	uspeli	_	_	_	_	
+1-290	1760-1766	zbrati	_	_	_	_	
+1-291	1767-1774	podatke	_	_	_	_	
+1-292	1775-1776	,	_	_	_	_	
+1-293	1777-1779	je	_	_	_	_	
+1-294	1780-1790	avstralska	_	_	*->19-2	*[19]	
+1-295	1791-1796	banka	_	_	*->19-2	*[19]	
+1-296	1797-1806	Macquarie	ORG[20]	_	*->19-2	*[19]	
+1-297	1807-1811	Bank	ORG[20]	_	*->19-2	*[19]	
+1-298	1812-1813	,	_	_	_	_	
+1-299	1814-1816	ki	_	_	_	_	
+1-300	1817-1819	je	_	_	_	_	
+1-301	1820-1824	samo	_	_	_	_	
+1-302	1825-1829	lani	_	_	_	_	
+1-303	1830-1839	ustvarila	_	4 - Pozitivno	*->19-3	*[19]	
+1-304	1840-1849	malenkost	_	_	_	_	
+1-305	1850-1853	pod	_	_	_	_	
+1-306	1854-1863	milijardo	_	_	_	_	
+1-307	1864-1869	evrov	_	_	_	_	
+1-308	1870-1877	čistega	_	_	_	_	
+1-309	1878-1885	dobička	_	_	_	_	
+1-310	1886-1887	.	_	_	_	_	
+1-311	1888-1890	Po	_	_	_	_	
+1-312	1891-1896	drugi	_	_	_	_	
+1-313	1897-1903	strani	_	_	_	_	
+1-314	1904-1906	je	_	_	_	_	
+1-315	1907-1911	imel	_	_	_	_	
+1-316	1912-1917	konec	_	_	_	_	
+1-317	1918-1926	minulega	_	_	_	_	
+1-318	1927-1931	leta	_	_	_	_	
+1-319	1932-1934	po	_	_	_	_	
+1-320	1935-1949	razpoložljivih	_	_	_	_	
+1-321	1950-1958	podatkih	_	_	_	_	
+1-322	1959-1966	najmanj	_	_	_	_	
+1-323	1967-1975	sredstev	_	_	_	_	
+1-324	1976-1984	Engrotuš	ORG	_	*->25-3	*[25]	
+1-325	1985-1990	Mirka	PER[21]	3 - Nevtralno[46]	*->2-1	*[2]	
+1-326	1991-1995	Tuša	PER[21]	3 - Nevtralno[46]	*->2-1	*[2]	
+1-327	1996-1997	,	_	_	_	_	
+1-328	1998-2000	ki	_	_	_	_	
+1-329	2001-2003	je	_	_	_	_	
+1-330	2004-2008	imel	_	2 - Negativno	*->3-1	*[3]	
+1-331	2009-2013	tudi	_	_	_	_	
+1-332	2014-2023	najmanjši	_	_	_	_	
+1-333	2024-2029	čisti	_	_	_	_	
+1-334	2030-2037	dobiček	_	_	_	_	
+1-335	2038-2039	,	_	_	_	_	
+1-336	2040-2042	in	_	_	_	_	
+1-337	2043-2048	sicer	_	_	_	_	
+1-338	2049-2054	zgolj	_	_	_	_	
+1-339	2055-2060	devet	_	_	_	_	
+1-340	2061-2070	milijonov	_	_	_	_	
+1-341	2071-2076	evrov	_	_	_	_	
+1-342	2077-2078	.	_	_	_	_	
+1-343	2079-2086	Telekom	ORG[22]	_	*->16-7	*[16]	
+1-344	2087-2096	Slovenije	ORG[22]|ORG[23]	_	*->16-7|*->23-5	*[16]|*[23]	
+1-345	2097-2099	je	_	_	_	_	
+1-346	2100-2103	bil	_	_	_	_	
+1-347	2104-2110	včeraj	_	_	_	_	
+1-348	2111-2113	na	_	_	_	_	
+1-349	2114-2119	borzi	_	_	_	_	
+1-350	2120-2126	vreden	_	_	_	_	
+1-351	2127-2132	dobre	_	_	_	_	
+1-352	2133-2136	tri	_	_	_	_	
+1-353	2137-2146	milijarde	_	_	_	_	
+1-354	2147-2152	evrov	_	_	_	_	
+1-355	2153-2154	,	_	_	_	_	
+1-356	2155-2160	delež	_	_	_	_	
+1-357	2161-2162	,	_	_	_	_	
+1-358	2163-2165	ki	_	_	_	_	
+1-359	2166-2168	ga	_	_	_	_	
+1-360	2169-2176	prodaja	_	_	_	_	
+1-361	2177-2183	država	_	_	*->23-6	*[23]	
+1-362	2184-2185	,	_	_	_	_	
+1-363	2186-2188	pa	_	_	_	_	
+1-364	2189-2193	1,49	_	_	_	_	
+1-365	2194-2203	milijarde	_	_	_	_	
+1-366	2204-2209	evrov	_	_	_	_	
+1-367	2210-2211	.	_	_	_	_	
+1-368	2212-2214	Za	_	_	_	_	
+1-369	2215-2225	primerjavo	_	_	_	_	
+1-370	2226-2227	:	_	_	_	_	
+1-371	2228-2232	lani	_	_	_	_	
+1-372	2233-2235	je	_	_	_	_	
+1-373	2236-2243	Telekom	ORG	_	*->16-8	*[16]	
+1-374	2244-2252	ustvaril	_	_	_	_	
+1-375	2253-2258	vsega	_	_	_	_	
+1-376	2259-2262	100	_	_	_	_	
+1-377	2263-2272	milijonov	_	_	_	_	
+1-378	2273-2278	evrov	_	_	_	_	
+1-379	2279-2286	čistega	_	_	_	_	
+1-380	2287-2294	dobička	_	_	_	_	
+1-381	2295-2296	,	_	_	_	_	
+1-382	2297-2302	sodeč	_	_	_	_	
+1-383	2303-2305	po	_	_	_	_	
+1-384	2306-2311	prvem	_	_	_	_	
+1-385	2312-2320	polletju	_	_	_	_	
+1-386	2321-2322	,	_	_	_	_	
+1-387	2323-2327	bodo	_	_	_	_	
+1-388	2328-2336	letošnji	_	_	_	_	
+1-389	2337-2346	rezultati	_	_	_	_	
+1-390	2347-2355	opazneje	_	_	_	_	
+1-391	2356-2362	slabši	_	_	_	_	
+1-392	2363-2366	kot	_	_	_	_	
+1-393	2367-2369	so	_	_	_	_	
+1-394	2370-2374	bili	_	_	_	_	
+1-395	2375-2381	lanski	_	_	_	_	
+1-396	2382-2383	.	_	_	_	_	
+1-397	2384-2388	Prva	_	_	_	_	
+1-398	2389-2393	faza	_	_	_	_	
+1-399	2394-2403	odprodaje	_	_	_	_	
+1-400	2404-2408	49,1	_	_	_	_	
+1-401	2409-2410	-	_	_	_	_	
+1-402	2411-2421	odstotnega	_	_	_	_	
+1-403	2422-2428	deleža	_	_	_	_	
+1-404	2429-2431	bo	_	_	_	_	
+1-405	2432-2442	predvidoma	_	_	_	_	
+1-406	2443-2450	končana	_	_	_	_	
+1-407	2451-2453	15	_	_	_	_	
+1-408	2454-2455	.	_	_	_	_	
+1-409	2456-2463	oktobra	_	_	_	_	
+1-410	2464-2465	,	_	_	_	_	
+1-411	2466-2468	ko	_	_	_	_	
+1-412	2469-2473	bodo	_	_	_	_	
+1-413	2474-2480	morali	_	_	_	_	
+1-414	2481-2490	ponudniki	_	_	_	_	
+1-415	2491-2497	oddati	_	_	_	_	
+1-416	2498-2502	tudi	_	_	_	_	
+1-417	2503-2515	nezavezujoče	_	_	_	_	
+1-418	2516-2523	ponudbe	_	_	_	_	
+1-419	2524-2525	.	_	_	_	_	
+1-420	2526-2535	Morebitni	_	_	_	_	
+1-421	2536-2541	kupec	_	_	_	_	
+1-422	2542-2544	bo	_	_	_	_	
+1-423	2545-2550	moral	_	_	_	_	
+1-424	2551-2553	po	_	_	_	_	
+1-425	2554-2560	nakupu	_	_	_	_	
+1-426	2561-2570	državnega	_	_	_	_	
+1-427	2571-2577	deleža	_	_	_	_	
+1-428	2578-2586	objaviti	_	_	_	_	
+1-429	2587-2591	tudi	_	_	_	_	
+1-430	2592-2601	prevzemno	_	_	_	_	
+1-431	2602-2609	ponudbo	_	_	_	_	
+1-432	2610-2611	,	_	_	_	_	
+1-433	2612-2618	vendar	_	_	_	_	
+1-434	2619-2621	je	_	_	_	_	
+1-435	2622-2627	kljub	_	_	_	_	
+1-436	2628-2640	precejšnjemu	_	_	_	_	
+1-437	2641-2648	številu	_	_	_	_	
+1-438	2649-2659	ponudnikov	_	_	_	_	
+1-439	2660-2669	vprašanje	_	_	_	_	
+1-440	2670-2671	,	_	_	_	_	
+1-441	2672-2675	ali	_	_	_	_	
+1-442	2676-2678	bo	_	_	_	_	
+1-443	2679-2686	prodaja	_	_	_	_	
+1-444	2687-2693	zaradi	_	_	_	_	
+1-445	2694-2700	visoke	_	_	_	_	
+1-446	2701-2705	cene	_	_	_	_	
+1-447	2706-2713	delnice	_	_	_	_	
+1-448	2714-2722	Telekoma	ORG	_	*->16-9	*[16]	
+1-449	2723-2725	na	_	_	_	_	
+1-450	2726-2731	borzi	_	_	_	_	
+1-451	2732-2736	tudi	_	_	_	_	
+1-452	2737-2745	dokončno	_	_	_	_	
+1-453	2746-2755	izpeljana	_	_	_	_	
+1-454	2756-2757	.	_	_	_	_	
+1-455	2758-2768	Poznavalci	_	_	_	_	
+1-456	2769-2775	razmer	_	_	_	_	
+1-457	2776-2788	pojasnjujejo	_	_	_	_	
+1-458	2789-2790	,	_	_	_	_	
+1-459	2791-2793	da	_	_	_	_	
+1-460	2794-2800	veliko	_	_	_	_	
+1-461	2801-2810	zanimanje	_	_	_	_	
+1-462	2811-2813	za	_	_	_	_	
+1-463	2814-2821	Telekom	ORG[24]	_	*->16-10	*[16]	
+1-464	2822-2831	Slovenije	ORG[24]|ORG[25]	_	*->16-10|*->23-7	*[16]|*[23]	
+1-465	2832-2836	niti	_	_	_	_	
+1-466	2837-2839	ni	_	_	_	_	
+1-467	2840-2853	presenetljivo	_	_	_	_	
+1-468	2854-2855	,	_	_	_	_	
+1-469	2856-2859	saj	_	_	_	_	
+1-470	2860-2863	ima	_	_	_	_	
+1-471	2864-2870	večina	_	_	_	_	
+1-472	2871-2890	telekomunikacijskih	_	_	_	_	
+1-473	2891-2896	družb	_	_	_	_	
+1-474	2897-2898	v	_	_	_	_	
+1-475	2899-2905	Evropi	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-476	2906-2908	že	_	_	_	_	
+1-477	2909-2919	večinskega	_	_	_	_	
+1-478	2920-2928	lastnika	_	_	_	_	
+1-479	2929-2936	oziroma	_	_	_	_	
+1-480	2937-2939	je	_	_	_	_	
+1-481	2940-2947	njihovo	_	_	_	_	
+1-482	2948-2958	lastništvo	_	_	_	_	
+1-483	2959-2961	že	_	_	_	_	
+1-484	2962-2975	konsolidirano	_	_	_	_	
+1-485	2976-2977	.	_	_	_	_	
+1-486	2978-2980	Za	_	_	_	_	
+1-487	2981-2991	primerjavo	_	_	_	_	
+1-488	2992-2993	:	_	_	_	_	
+1-489	2994-2996	za	_	_	_	_	
+1-490	2997-3002	nakup	_	_	_	_	
+1-491	3003-3013	malteškega	_	_	_	_	
+1-492	3014-3022	telekoma	_	_	_	_	
+1-493	3023-3027	pred	_	_	_	_	
+1-494	3028-3037	približno	_	_	_	_	
+1-495	3038-3043	dvema	_	_	_	_	
+1-496	3044-3050	letoma	_	_	_	_	
+1-497	3051-3053	je	_	_	_	_	
+1-498	3054-3058	bilo	_	_	_	_	
+1-499	3059-3069	ponudnikov	_	_	_	_	
+1-500	3070-3073	čez	_	_	_	_	
+1-501	3074-3076	40	_	_	_	_	
+1-502	3077-3078	.	_	_	_	_	
+1-503	3079-3080	V	_	_	_	_	
+1-504	3081-3086	drugi	_	_	_	_	
+1-505	3087-3091	fazi	_	_	_	_	
+1-506	3092-3105	privatizacije	_	_	_	_	
+1-507	3106-3114	Telekoma	ORG[26]	_	*->16-11	*[16]	
+1-508	3115-3124	Slovenije	ORG[26]|ORG[27]	3 - Nevtralno	*->16-11|*->23-8	*[16]|*[23]	
+1-509	3125-3129	bodo	_	_	_	_	
+1-510	3130-3137	izbrane	_	_	_	_	
+1-511	3138-3147	ponudnike	_	_	_	_	
+1-512	3148-3156	povabili	_	_	_	_	
+1-513	3157-3158	,	_	_	_	_	
+1-514	3159-3161	da	_	_	_	_	
+1-515	3162-3168	oddajo	_	_	_	_	
+1-516	3169-3171	še	_	_	_	_	
+1-517	3172-3182	zavezujoče	_	_	_	_	
+1-518	3183-3190	ponudbe	_	_	_	_	
+1-519	3191-3192	,	_	_	_	_	
+1-520	3193-3201	komisija	_	_	_	_	
+1-521	3202-3203	,	_	_	_	_	
+1-522	3204-3206	ki	_	_	_	_	
+1-523	3207-3209	je	_	_	_	_	
+1-524	3210-3215	poziv	_	_	_	_	
+1-525	3216-3224	objavila	_	_	_	_	
+1-526	3225-3231	skupaj	_	_	_	_	
+1-527	3232-3233	z	_	_	_	_	
+1-528	3234-3246	ministrstvom	_	_	_	_	
+1-529	3247-3249	za	_	_	_	_	
+1-530	3250-3262	gospodarstvo	_	_	_	_	
+1-531	3263-3264	,	_	_	_	_	
+1-532	3265-3267	si	_	_	_	_	
+1-533	3268-3277	pridržuje	_	_	_	_	
+1-534	3278-3285	pravico	_	_	_	_	
+1-535	3286-3287	,	_	_	_	_	
+1-536	3288-3290	da	_	_	_	_	
+1-537	3291-3293	se	_	_	_	_	
+1-538	3294-3300	odloči	_	_	_	_	
+1-539	3301-3303	za	_	_	_	_	
+1-540	3304-3311	izvedbo	_	_	_	_	
+1-541	3312-3318	tretje	_	_	_	_	
+1-542	3319-3323	faze	_	_	_	_	
+1-543	3324-3332	postopka	_	_	_	_	
+1-544	3333-3334	,	_	_	_	_	
+1-545	3335-3340	torej	_	_	_	_	
+1-546	3341-3343	za	_	_	_	_	
+1-547	3344-3354	licitacijo	_	_	_	_	
+1-548	3355-3356	.	_	_	_	_	
+1-549	3357-3363	Vizjak	PER	3 - Nevtralno	*->10-3	*[10]	
+1-550	3364-3374	napoveduje	_	_	_	_	
+1-551	3375-3376	,	_	_	_	_	
+1-552	3377-3379	da	_	_	_	_	
+1-553	3380-3382	bi	_	_	_	_	
+1-554	3383-3387	bila	_	_	_	_	
+1-555	3388-3393	lahko	_	_	_	_	
+1-556	3394-3401	prodaja	_	_	_	_	
+1-557	3402-3411	državnega	_	_	_	_	
+1-558	3412-3418	deleža	_	_	_	_	
+1-559	3419-3427	Telekoma	ORG	4 - Pozitivno	*->16-12	*[16]	
+1-560	3428-3430	po	_	_	_	_	
+1-561	3431-3441	najboljšem	_	_	_	_	
+1-562	3442-3451	scenariju	_	_	_	_	
+1-563	3452-3459	končana	_	_	_	_	
+1-564	3460-3462	že	_	_	_	_	
+1-565	3463-3465	do	_	_	_	_	
+1-566	3466-3471	konca	_	_	_	_	
+1-567	3472-3476	leta	_	_	_	_	

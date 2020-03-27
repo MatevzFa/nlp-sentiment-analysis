@@ -1,0 +1,325 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Prejel le 659.000 evrov bruto Na vrhu stotih najbolj plačanih menedžerjev lanskega leta , ki so že razkrili prejemke , se je uvrstil prvi mož Krke Jože Colarič . 100 . mesto pa zaseda predsednik uprave NLB - ja Božo Jašovič . Lestvico najbolje plačanih slovenskih menedžerjev so objavili v časopisu Dnevnik , se bo pa v jesenskih mesecih verjetno spremenila , saj vse gospodarske družbe še vedno niso objavile prejemkov članov uprav in nazornih svetov , nekatere pa kljub zakonskim obveznostim tega ne naredijo pregledno . Na vrhu lestvice je Jože Colarič , ki je za vodenje Krke prejel 659.000 evrov bruto , sledita mu član uprave Krke Aleš Rotar 521.000 evrov bruto in generalni direktor družbe Scania Slovenija Harald Woitke 494.711 evrov bruto . Ti menedžerji so se po ugotovitvah Dnevnikovega novinarja Matjaža Polaniča na vrh zavihteli predvsem zaradi propada gradbenih baronov Ivana Zidarja in Dušana Črnigoja , ki sta v preteklih letih služila največ . Skupno so prejeli 21 milijonov evrov v enem letu Deseterico najbolje plačanih slovenskih menedžerjev dopolnjujejo še člana uprave Krke Zvezdana Bajc 474.000 evrov bruto in Vinko Zupančič 379.000 evrov , nekdanji predsednik uprave Save Janez Bohorič 313.000 evrov , predsednica uprave Probanke Romana Pajenk 310.800 evrov , nekdanja člana Savine uprave Vinko Perčič 292.000 evrov in Emil Vizovišek 291.000 evrov ter glavni izvršni direktor SKB Andre - Marc Prudent 278.100 evrov . Teh sto menedžerjev je lani skupno prejelo 21,1 milijona evrov bruto , vsak med njimi pa je dobil povprečno 17.600 evrov bruto na mesec . Zanimivo je tudi to , da za uvrstitev na lestvico ni treba , da družba , ki jo vodiš , posluje dobro . Tako so se nanjo uvrstili tudi nekdanji predsednik uprave Nove KMB Matjaž Kovačič , predsednik uprave NLB v odhajanju Božo Jašovič , Janez Bohorič , Vinko Perčič in Emil Vizovišek , kljub temu da njihove družbe poslujejo z ogromnimi izgubami
+1-1	0-6	Prejel	_	_	_	_	
+1-2	7-9	le	_	_	_	_	
+1-3	10-17	659.000	_	_	_	_	
+1-4	18-23	evrov	_	_	_	_	
+1-5	24-29	bruto	_	_	_	_	
+1-6	30-32	Na	_	_	_	_	
+1-7	33-37	vrhu	_	_	_	_	
+1-8	38-44	stotih	_	_	_	_	
+1-9	45-52	najbolj	_	_	_	_	
+1-10	53-61	plačanih	_	_	_	_	
+1-11	62-73	menedžerjev	_	_	_	_	
+1-12	74-82	lanskega	_	_	_	_	
+1-13	83-87	leta	_	_	_	_	
+1-14	88-89	,	_	_	_	_	
+1-15	90-92	ki	_	_	_	_	
+1-16	93-95	so	_	_	_	_	
+1-17	96-98	že	_	_	_	_	
+1-18	99-107	razkrili	_	_	_	_	
+1-19	108-116	prejemke	_	_	_	_	
+1-20	117-118	,	_	_	_	_	
+1-21	119-121	se	_	_	_	_	
+1-22	122-124	je	_	_	_	_	
+1-23	125-132	uvrstil	_	_	_	_	
+1-24	133-137	prvi	_	_	*->7-1	*[7]	
+1-25	138-141	mož	_	_	*->7-1	*[7]	
+1-26	142-146	Krke	ORG	_	*->7-1|*->1-1	*[7]|*[1]	
+1-27	147-151	Jože	PER[1]	_	*->7-1	*[7]	
+1-28	152-159	Colarič	PER[1]	_	*->7-1	*[7]	
+1-29	160-161	.	_	_	_	_	
+1-30	162-165	100	_	_	_	_	
+1-31	166-167	.	_	_	_	_	
+1-32	168-173	mesto	_	_	_	_	
+1-33	174-176	pa	_	_	_	_	
+1-34	177-183	zaseda	_	_	_	_	
+1-35	184-194	predsednik	_	_	*->8-1	*[8]	
+1-36	195-201	uprave	_	_	*->8-1	*[8]	
+1-37	202-205	NLB	ORG	_	*->8-1|*->3-1	*[8]|*[3]	
+1-38	206-207	-	_	_	*->8-1	*[8]	
+1-39	208-210	ja	_	_	*->8-1	*[8]	
+1-40	211-215	Božo	PER[2]	_	*->8-1	*[8]	
+1-41	216-223	Jašovič	PER[2]	_	*->8-1	*[8]	
+1-42	224-225	.	_	_	_	_	
+1-43	226-234	Lestvico	_	_	_	_	
+1-44	235-243	najbolje	_	_	_	_	
+1-45	244-252	plačanih	_	_	_	_	
+1-46	253-263	slovenskih	_	_	_	_	
+1-47	264-275	menedžerjev	_	_	_	_	
+1-48	276-278	so	_	_	_	_	
+1-49	279-287	objavili	_	_	_	_	
+1-50	288-289	v	_	_	_	_	
+1-51	290-298	časopisu	_	_	*->9-1	*[9]	
+1-52	299-306	Dnevnik	ORG	_	*->9-1	*[9]	
+1-53	307-308	,	_	_	_	_	
+1-54	309-311	se	_	_	_	_	
+1-55	312-314	bo	_	_	_	_	
+1-56	315-317	pa	_	_	_	_	
+1-57	318-319	v	_	_	_	_	
+1-58	320-329	jesenskih	_	_	_	_	
+1-59	330-337	mesecih	_	_	_	_	
+1-60	338-346	verjetno	_	_	_	_	
+1-61	347-357	spremenila	_	_	_	_	
+1-62	358-359	,	_	_	_	_	
+1-63	360-363	saj	_	_	_	_	
+1-64	364-367	vse	_	_	_	_	
+1-65	368-379	gospodarske	_	_	_	_	
+1-66	380-386	družbe	_	_	_	_	
+1-67	387-389	še	_	_	_	_	
+1-68	390-395	vedno	_	_	_	_	
+1-69	396-400	niso	_	_	_	_	
+1-70	401-409	objavile	_	_	_	_	
+1-71	410-419	prejemkov	_	_	_	_	
+1-72	420-426	članov	_	_	_	_	
+1-73	427-432	uprav	_	_	_	_	
+1-74	433-435	in	_	_	_	_	
+1-75	436-444	nazornih	_	_	_	_	
+1-76	445-451	svetov	_	_	_	_	
+1-77	452-453	,	_	_	_	_	
+1-78	454-462	nekatere	_	_	_	_	
+1-79	463-465	pa	_	_	_	_	
+1-80	466-471	kljub	_	_	_	_	
+1-81	472-481	zakonskim	_	_	_	_	
+1-82	482-493	obveznostim	_	_	_	_	
+1-83	494-498	tega	_	_	_	_	
+1-84	499-501	ne	_	_	_	_	
+1-85	502-510	naredijo	_	_	_	_	
+1-86	511-520	pregledno	_	_	_	_	
+1-87	521-522	.	_	_	_	_	
+1-88	523-525	Na	_	_	_	_	
+1-89	526-530	vrhu	_	_	_	_	
+1-90	531-539	lestvice	_	_	_	_	
+1-91	540-542	je	_	_	_	_	
+1-92	543-547	Jože	PER[3]	_	*->7-2	*[7]	
+1-93	548-555	Colarič	PER[3]	_	*->7-2	*[7]	
+1-94	556-557	,	_	_	_	_	
+1-95	558-560	ki	_	_	_	_	
+1-96	561-563	je	_	_	_	_	
+1-97	564-566	za	_	_	_	_	
+1-98	567-574	vodenje	_	_	_	_	
+1-99	575-579	Krke	ORG	_	*->1-2	*[1]	
+1-100	580-586	prejel	_	_	*->7-3	*[7]	
+1-101	587-594	659.000	_	_	_	_	
+1-102	595-600	evrov	_	_	_	_	
+1-103	601-606	bruto	_	_	_	_	
+1-104	607-608	,	_	_	_	_	
+1-105	609-616	sledita	_	_	_	_	
+1-106	617-619	mu	_	4 - Pozitivno	*->7-4	*[7]	
+1-107	620-624	član	_	4 - Pozitivno[24]	*->10-1	*[10]	
+1-108	625-631	uprave	_	4 - Pozitivno[24]	*->10-1	*[10]	
+1-109	632-636	Krke	ORG	4 - Pozitivno[24]	*->10-1|*->1-3	*[10]|*[1]	
+1-110	637-641	Aleš	PER[4]	4 - Pozitivno[24]	*->10-1	*[10]	
+1-111	642-647	Rotar	PER[4]	4 - Pozitivno[24]	*->10-1	*[10]	
+1-112	648-655	521.000	_	_	_	_	
+1-113	656-661	evrov	_	_	_	_	
+1-114	662-667	bruto	_	_	_	_	
+1-115	668-670	in	_	_	_	_	
+1-116	671-680	generalni	_	4 - Pozitivno[25]	*->11-1	*[11]	
+1-117	681-689	direktor	_	4 - Pozitivno[25]	*->11-1	*[11]	
+1-118	690-696	družbe	_	4 - Pozitivno[25]	*->11-1	*[11]	
+1-119	697-703	Scania	ORG[5]	4 - Pozitivno[25]|3 - Nevtralno[26]	*->11-1|*->13-1	*[11]|*[13]	
+1-120	704-713	Slovenija	ORG[5]|LOC[6]	4 - Pozitivno[25]|3 - Nevtralno[26]|3 - Nevtralno[27]	*->11-1|*->13-1|*->12-1	*[11]|*[13]|*[12]	
+1-121	714-720	Harald	PER[7]	4 - Pozitivno[25]	*->11-1	*[11]	
+1-122	721-727	Woitke	PER[7]	4 - Pozitivno[25]	*->11-1	*[11]	
+1-123	728-735	494.711	_	_	_	_	
+1-124	736-741	evrov	_	_	_	_	
+1-125	742-747	bruto	_	_	_	_	
+1-126	748-749	.	_	_	_	_	
+1-127	750-752	Ti	_	_	_	_	
+1-128	753-763	menedžerji	_	_	_	_	
+1-129	764-766	so	_	_	_	_	
+1-130	767-769	se	_	_	_	_	
+1-131	770-772	po	_	_	_	_	
+1-132	773-784	ugotovitvah	_	_	_	_	
+1-133	785-797	Dnevnikovega	ORG	3 - Nevtralno[28]|3 - Nevtralno[29]	*->14-1|*->9-2	*[14]|*[9]	
+1-134	798-807	novinarja	_	3 - Nevtralno[28]	*->14-1	*[14]	
+1-135	808-815	Matjaža	PER[8]	3 - Nevtralno[28]	*->14-1	*[14]	
+1-136	816-824	Polaniča	PER[8]	3 - Nevtralno[28]	*->14-1	*[14]	
+1-137	825-827	na	_	_	_	_	
+1-138	828-831	vrh	_	_	_	_	
+1-139	832-841	zavihteli	_	_	_	_	
+1-140	842-850	predvsem	_	_	_	_	
+1-141	851-857	zaradi	_	_	_	_	
+1-142	858-865	propada	_	_	_	_	
+1-143	866-875	gradbenih	_	_	_	_	
+1-144	876-883	baronov	_	_	_	_	
+1-145	884-889	Ivana	PER[9]	2 - Negativno[30]	*->15-1	*[15]	
+1-146	890-897	Zidarja	PER[9]	2 - Negativno[30]	*->15-1	*[15]	
+1-147	898-900	in	_	_	_	_	
+1-148	901-907	Dušana	PER[10]	2 - Negativno[31]	*->16-1	*[16]	
+1-149	908-916	Črnigoja	PER[10]	2 - Negativno[31]	*->16-1	*[16]	
+1-150	917-918	,	_	_	_	_	
+1-151	919-921	ki	_	_	_	_	
+1-152	922-925	sta	_	_	_	_	
+1-153	926-927	v	_	_	_	_	
+1-154	928-937	preteklih	_	_	_	_	
+1-155	938-943	letih	_	_	_	_	
+1-156	944-951	služila	_	_	_	_	
+1-157	952-958	največ	_	_	_	_	
+1-158	959-960	.	_	_	_	_	
+1-159	961-967	Skupno	_	_	_	_	
+1-160	968-970	so	_	_	_	_	
+1-161	971-978	prejeli	_	_	_	_	
+1-162	979-981	21	_	_	_	_	
+1-163	982-991	milijonov	_	_	_	_	
+1-164	992-997	evrov	_	_	_	_	
+1-165	998-999	v	_	_	_	_	
+1-166	1000-1004	enem	_	_	_	_	
+1-167	1005-1009	letu	_	_	_	_	
+1-168	1010-1020	Deseterico	_	_	_	_	
+1-169	1021-1029	najbolje	_	_	_	_	
+1-170	1030-1038	plačanih	_	_	_	_	
+1-171	1039-1049	slovenskih	_	_	_	_	
+1-172	1050-1061	menedžerjev	_	_	_	_	
+1-173	1062-1074	dopolnjujejo	_	_	_	_	
+1-174	1075-1077	še	_	_	_	_	
+1-175	1078-1083	člana	_	_	_	_	
+1-176	1084-1090	uprave	_	_	_	_	
+1-177	1091-1095	Krke	ORG	3 - Nevtralno	*->1-4	*[1]	
+1-178	1096-1104	Zvezdana	PER[11]	4 - Pozitivno[32]	*->17-1	*[17]	
+1-179	1105-1109	Bajc	PER[11]	4 - Pozitivno[32]	*->17-1	*[17]	
+1-180	1110-1117	474.000	_	_	_	_	
+1-181	1118-1123	evrov	_	_	_	_	
+1-182	1124-1129	bruto	_	_	_	_	
+1-183	1130-1132	in	_	_	_	_	
+1-184	1133-1138	Vinko	PER[12]	4 - Pozitivno[33]	*->18-1	*[18]	
+1-185	1139-1147	Zupančič	PER[12]	4 - Pozitivno[33]	*->18-1	*[18]	
+1-186	1148-1155	379.000	_	_	_	_	
+1-187	1156-1161	evrov	_	_	_	_	
+1-188	1162-1163	,	_	_	_	_	
+1-189	1164-1172	nekdanji	_	_	*->19-1	*[19]	
+1-190	1173-1183	predsednik	_	_	*->19-1	*[19]	
+1-191	1184-1190	uprave	_	_	*->19-1	*[19]	
+1-192	1191-1195	Save	ORG	_	*->19-1|*->2-1	*[19]|*[2]	
+1-193	1196-1201	Janez	PER[13]	_	*->19-1	*[19]	
+1-194	1202-1209	Bohorič	PER[13]	_	*->19-1	*[19]	
+1-195	1210-1217	313.000	_	_	_	_	
+1-196	1218-1223	evrov	_	_	_	_	
+1-197	1224-1225	,	_	_	_	_	
+1-198	1226-1237	predsednica	_	4 - Pozitivno[34]	*->20-1	*[20]	
+1-199	1238-1244	uprave	_	4 - Pozitivno[34]	*->20-1	*[20]	
+1-200	1245-1253	Probanke	ORG	4 - Pozitivno[34]|3 - Nevtralno[35]	*->20-1|*->21-1	*[20]|*[21]	
+1-201	1254-1260	Romana	PER[14]	4 - Pozitivno[34]	*->20-1	*[20]	
+1-202	1261-1267	Pajenk	PER[14]	4 - Pozitivno[34]	*->20-1	*[20]	
+1-203	1268-1275	310.800	_	_	_	_	
+1-204	1276-1281	evrov	_	_	_	_	
+1-205	1282-1283	,	_	_	_	_	
+1-206	1284-1292	nekdanja	_	_	_	_	
+1-207	1293-1298	člana	_	_	_	_	
+1-208	1299-1305	Savine	ORG	3 - Nevtralno	*->2-2	*[2]	
+1-209	1306-1312	uprave	_	_	_	_	
+1-210	1313-1318	Vinko	PER[15]	_	*->5-1	*[5]	
+1-211	1319-1325	Perčič	PER[15]	_	*->5-1	*[5]	
+1-212	1326-1333	292.000	_	_	_	_	
+1-213	1334-1339	evrov	_	_	_	_	
+1-214	1340-1342	in	_	_	_	_	
+1-215	1343-1347	Emil	PER[16]	_	*->6-1	*[6]	
+1-216	1348-1357	Vizovišek	PER[16]	_	*->6-1	*[6]	
+1-217	1358-1365	291.000	_	_	_	_	
+1-218	1366-1371	evrov	_	_	_	_	
+1-219	1372-1375	ter	_	_	_	_	
+1-220	1376-1382	glavni	_	4 - Pozitivno[36]	*->22-1	*[22]	
+1-221	1383-1390	izvršni	_	4 - Pozitivno[36]	*->22-1	*[22]	
+1-222	1391-1399	direktor	_	4 - Pozitivno[36]	*->22-1	*[22]	
+1-223	1400-1403	SKB	ORG	4 - Pozitivno[36]|3 - Nevtralno[37]	*->22-1|*->23-1	*[22]|*[23]	
+1-224	1404-1409	Andre	PER[17]	4 - Pozitivno[36]	*->22-1	*[22]	
+1-225	1410-1411	-	PER[17]	4 - Pozitivno[36]	*->22-1	*[22]	
+1-226	1412-1416	Marc	PER[17]	4 - Pozitivno[36]	*->22-1	*[22]	
+1-227	1417-1424	Prudent	PER[17]	4 - Pozitivno[36]	*->22-1	*[22]	
+1-228	1425-1432	278.100	_	_	_	_	
+1-229	1433-1438	evrov	_	_	_	_	
+1-230	1439-1440	.	_	_	_	_	
+1-231	1441-1444	Teh	_	_	_	_	
+1-232	1445-1448	sto	_	_	_	_	
+1-233	1449-1460	menedžerjev	_	_	_	_	
+1-234	1461-1463	je	_	_	_	_	
+1-235	1464-1468	lani	_	_	_	_	
+1-236	1469-1475	skupno	_	_	_	_	
+1-237	1476-1483	prejelo	_	_	_	_	
+1-238	1484-1488	21,1	_	_	_	_	
+1-239	1489-1497	milijona	_	_	_	_	
+1-240	1498-1503	evrov	_	_	_	_	
+1-241	1504-1509	bruto	_	_	_	_	
+1-242	1510-1511	,	_	_	_	_	
+1-243	1512-1516	vsak	_	_	_	_	
+1-244	1517-1520	med	_	_	_	_	
+1-245	1521-1526	njimi	_	_	_	_	
+1-246	1527-1529	pa	_	_	_	_	
+1-247	1530-1532	je	_	_	_	_	
+1-248	1533-1538	dobil	_	_	_	_	
+1-249	1539-1548	povprečno	_	_	_	_	
+1-250	1549-1555	17.600	_	_	_	_	
+1-251	1556-1561	evrov	_	_	_	_	
+1-252	1562-1567	bruto	_	_	_	_	
+1-253	1568-1570	na	_	_	_	_	
+1-254	1571-1576	mesec	_	_	_	_	
+1-255	1577-1578	.	_	_	_	_	
+1-256	1579-1587	Zanimivo	_	_	_	_	
+1-257	1588-1590	je	_	_	_	_	
+1-258	1591-1595	tudi	_	_	_	_	
+1-259	1596-1598	to	_	_	_	_	
+1-260	1599-1600	,	_	_	_	_	
+1-261	1601-1603	da	_	_	_	_	
+1-262	1604-1606	za	_	_	_	_	
+1-263	1607-1616	uvrstitev	_	_	_	_	
+1-264	1617-1619	na	_	_	_	_	
+1-265	1620-1628	lestvico	_	_	_	_	
+1-266	1629-1631	ni	_	_	_	_	
+1-267	1632-1637	treba	_	_	_	_	
+1-268	1638-1639	,	_	_	_	_	
+1-269	1640-1642	da	_	_	_	_	
+1-270	1643-1649	družba	_	_	_	_	
+1-271	1650-1651	,	_	_	_	_	
+1-272	1652-1654	ki	_	_	_	_	
+1-273	1655-1657	jo	_	_	_	_	
+1-274	1658-1663	vodiš	_	_	_	_	
+1-275	1664-1665	,	_	_	_	_	
+1-276	1666-1673	posluje	_	_	_	_	
+1-277	1674-1679	dobro	_	_	_	_	
+1-278	1680-1681	.	_	_	_	_	
+1-279	1682-1686	Tako	_	_	_	_	
+1-280	1687-1689	so	_	_	_	_	
+1-281	1690-1692	se	_	_	_	_	
+1-282	1693-1698	nanjo	_	_	_	_	
+1-283	1699-1707	uvrstili	_	_	_	_	
+1-284	1708-1712	tudi	_	_	_	_	
+1-285	1713-1721	nekdanji	_	2 - Negativno[38]	*->24-1	*[24]	
+1-286	1722-1732	predsednik	_	2 - Negativno[38]	*->24-1	*[24]	
+1-287	1733-1739	uprave	_	2 - Negativno[38]	*->24-1	*[24]	
+1-288	1740-1744	Nove	ORG[18]	2 - Negativno[38]|3 - Nevtralno[39]	*->24-1|*->25-1	*[24]|*[25]	
+1-289	1745-1748	KMB	ORG[18]	2 - Negativno[38]|3 - Nevtralno[39]	*->24-1|*->25-1	*[24]|*[25]	
+1-290	1749-1755	Matjaž	PER[19]	2 - Negativno[38]	*->24-1	*[24]	
+1-291	1756-1763	Kovačič	PER[19]	2 - Negativno[38]	*->24-1	*[24]	
+1-292	1764-1765	,	_	_	_	_	
+1-293	1766-1776	predsednik	_	2 - Negativno[40]	*->8-2	*[8]	
+1-294	1777-1783	uprave	_	2 - Negativno[40]	*->8-2	*[8]	
+1-295	1784-1787	NLB	ORG	2 - Negativno[40]|3 - Nevtralno[41]	*->8-2|*->3-2	*[8]|*[3]	
+1-296	1788-1789	v	_	2 - Negativno[40]	*->8-2	*[8]	
+1-297	1790-1799	odhajanju	_	2 - Negativno[40]	*->8-2	*[8]	
+1-298	1800-1804	Božo	PER[20]	2 - Negativno[40]	*->8-2	*[8]	
+1-299	1805-1812	Jašovič	PER[20]	2 - Negativno[40]	*->8-2	*[8]	
+1-300	1813-1814	,	_	_	_	_	
+1-301	1815-1820	Janez	PER[21]	2 - Negativno[42]	*->4-1	*[4]	
+1-302	1821-1828	Bohorič	PER[21]	2 - Negativno[42]	*->4-1	*[4]	
+1-303	1829-1830	,	_	_	_	_	
+1-304	1831-1836	Vinko	PER[22]	2 - Negativno[43]	*->5-2	*[5]	
+1-305	1837-1843	Perčič	PER[22]	2 - Negativno[43]	*->5-2	*[5]	
+1-306	1844-1846	in	_	_	_	_	
+1-307	1847-1851	Emil	PER[23]	2 - Negativno[44]	*->6-2	*[6]	
+1-308	1852-1861	Vizovišek	PER[23]	2 - Negativno[44]	*->6-2	*[6]	
+1-309	1862-1863	,	_	_	_	_	
+1-310	1864-1869	kljub	_	_	_	_	
+1-311	1870-1874	temu	_	_	_	_	
+1-312	1875-1877	da	_	_	_	_	
+1-313	1878-1885	njihove	_	_	_	_	
+1-314	1886-1892	družbe	_	_	_	_	
+1-315	1893-1902	poslujejo	_	_	_	_	
+1-316	1903-1904	z	_	_	_	_	
+1-317	1905-1914	ogromnimi	_	_	_	_	
+1-318	1915-1923	izgubami	_	_	_	_	

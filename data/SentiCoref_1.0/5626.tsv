@@ -1,0 +1,456 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Izredni kongres stranke Desus po vsej verjetnosti ne bo sklican , saj bi se zanj morali opredeliti vsaj štirje odbori od desetih Pobudo novomeškega pokrajinskega odbora DeSUS za sklic izrednega kongresa stranke , na katerem bi zamenjali predsednika stranke Karla Erjavca , so doslej podprli le v gorenjskem odboru . V odboru Desus Severne Primorske pa so danes zahtevali , da za čas , ko je Erjavec zunanji minister , imenujejo njegovega namestnika . Predsednik pokrajinskega odbora ( PO ) Severne Primorske Bojan Bratina je povedal , da od izvršnega odbora stranke zahtevajo , da morebitni Erjavčev namestnik stranko vodi z vsemi pooblastili , hkrati pa so predlagali , da redni kongres stranke skličejo takoj v začetku prihodnjega leta , je še dejal . Pobudi za sklic izrednega kongresa stranke pa se niso pridružili . Šef ljubljanskega odbora s stanjem v Sloveniji ni seznanjen V PO Južne Primorske se do predloga dolenjskega odbora verjetno ne bodo opredeljevali oz . ne bodo prispevali glasu za sklic izrednega kongresa stranke . Ostrejši so na Ptuju , kjer po besedah predsednika Gorazda Žmavca ocenjujejo , da je omenjena pobuda neprimerna in da za sklic izrednega kongresa ni potrebe . Tudi v Celju menijo , da dolenjska pobuda v tem času ne bi imela pozitivnih učinkov . Sklicu izrednega kongresa tako nasprotujejo in pravijo , da bi zadeve morali urediti znotraj stranke , je poudaril predsednik celjskega PO Peter Habjan . Predsednik ljubljanskega PO Pavel Brglez je danes povedal , da s stanjem v Sloveniji ni seznanjen , saj se trenutno mudi v tujini . Je pa predsednica ljubljanskega mestnega odbora Desus Meta Vesel Valentinčič potrdila , da do sestanka na omenjeno temo še ni prišlo , v ljubljanskem mestnem odboru pa menijo , da je izredni kongres namenjen izrednim razmeram , do takrat pa je treba stvari urejati znotraj uradnih organov stranke . Erjavec ima podporo med poslanci V pomurskem PO se bodo glede novomeške pobude opredelili v prihodnjih dneh , ko bodo obravnavali varčevalne vladne ukrepe , ki bodo vplivali tudi na življenje upokojencev , meni predsednik PO pomurska Franc Pižmoht . Kako so se ali se bodo odločili v PO Koroške in Podravja , pa nam ni uspelo izvedeti , saj njihovih predstavnikov danes nismo uspeli priklicati . Ima pa predsednik stranke podporo poslancev . Vodja poslanske skupine Franc Jurša je potrdil , da " posamezniki pozivajo " predsednika stranke k odstopu in da pozivajo k izrednemu kongresu . " Jaz pa le mislim , da je Erjavec precej prispeval k stabilnosti te stranke in da mu poslanska skupina še stoodstotno zaupa , " je dejal Jurša , ki je spomnil , da je imela stranka redni kongres oktobra lani
+1-1	0-7	Izredni	_	_	_	_	
+1-2	8-15	kongres	_	_	_	_	
+1-3	16-23	stranke	_	_	*->6-1	*[6]	
+1-4	24-29	Desus	ORG	_	*->6-1	*[6]	
+1-5	30-32	po	_	_	_	_	
+1-6	33-37	vsej	_	_	_	_	
+1-7	38-49	verjetnosti	_	_	_	_	
+1-8	50-52	ne	_	_	_	_	
+1-9	53-55	bo	_	_	_	_	
+1-10	56-63	sklican	_	_	_	_	
+1-11	64-65	,	_	_	_	_	
+1-12	66-69	saj	_	_	_	_	
+1-13	70-72	bi	_	_	_	_	
+1-14	73-75	se	_	_	_	_	
+1-15	76-80	zanj	_	_	_	_	
+1-16	81-87	morali	_	_	_	_	
+1-17	88-98	opredeliti	_	_	_	_	
+1-18	99-103	vsaj	_	_	_	_	
+1-19	104-110	štirje	_	_	_	_	
+1-20	111-117	odbori	_	_	_	_	
+1-21	118-120	od	_	_	_	_	
+1-22	121-128	desetih	_	_	_	_	
+1-23	129-135	Pobudo	_	_	_	_	
+1-24	136-147	novomeškega	_	_	_	_	
+1-25	148-161	pokrajinskega	_	_	_	_	
+1-26	162-168	odbora	_	_	_	_	
+1-27	169-174	DeSUS	ORG	_	*->6-2	*[6]	
+1-28	175-177	za	_	_	_	_	
+1-29	178-183	sklic	_	_	_	_	
+1-30	184-193	izrednega	_	_	_	_	
+1-31	194-202	kongresa	_	_	_	_	
+1-32	203-210	stranke	_	_	*->6-3	*[6]	
+1-33	211-212	,	_	_	_	_	
+1-34	213-215	na	_	_	_	_	
+1-35	216-223	katerem	_	_	_	_	
+1-36	224-226	bi	_	_	_	_	
+1-37	227-236	zamenjali	_	_	_	_	
+1-38	237-248	predsednika	_	_	*->3-1	*[3]	
+1-39	249-256	stranke	_	_	*->3-1|*->6-4	*[3]|*[6]	
+1-40	257-262	Karla	PER[1]	_	*->3-1	*[3]	
+1-41	263-270	Erjavca	PER[1]	_	*->3-1	*[3]	
+1-42	271-272	,	_	_	_	_	
+1-43	273-275	so	_	_	_	_	
+1-44	276-282	doslej	_	_	_	_	
+1-45	283-290	podprli	_	_	_	_	
+1-46	291-293	le	_	_	_	_	
+1-47	294-295	v	_	_	_	_	
+1-48	296-306	gorenjskem	_	_	_	_	
+1-49	307-313	odboru	_	_	_	_	
+1-50	314-315	.	_	_	_	_	
+1-51	316-317	V	_	_	_	_	
+1-52	318-324	odboru	_	_	_	_	
+1-53	325-330	Desus	ORG	_	*->6-5	*[6]	
+1-54	331-338	Severne	LOC[2]	_	*->1-1	*[1]	
+1-55	339-348	Primorske	LOC[2]	_	*->1-1	*[1]	
+1-56	349-351	pa	_	_	_	_	
+1-57	352-354	so	_	_	_	_	
+1-58	355-360	danes	_	_	_	_	
+1-59	361-370	zahtevali	_	_	_	_	
+1-60	371-372	,	_	_	_	_	
+1-61	373-375	da	_	_	_	_	
+1-62	376-378	za	_	_	_	_	
+1-63	379-382	čas	_	_	_	_	
+1-64	383-384	,	_	_	_	_	
+1-65	385-387	ko	_	_	_	_	
+1-66	388-390	je	_	_	_	_	
+1-67	391-398	Erjavec	PER	_	*->3-2	*[3]	
+1-68	399-406	zunanji	_	_	*->3-3	*[3]	
+1-69	407-415	minister	_	_	*->3-3	*[3]	
+1-70	416-417	,	_	_	_	_	
+1-71	418-427	imenujejo	_	_	_	_	
+1-72	428-437	njegovega	_	_	*->3-4	*[3]	
+1-73	438-448	namestnika	_	_	_	_	
+1-74	449-450	.	_	_	_	_	
+1-75	451-461	Predsednik	_	_	*->4-1	*[4]	
+1-76	462-475	pokrajinskega	ORG[3]	_	*->4-1|*->5-1	*[4]|*[5]	
+1-77	476-482	odbora	ORG[3]	_	*->4-1|*->5-1	*[4]|*[5]	
+1-78	483-484	(	ORG[3]	_	*->4-1|*->5-1	*[4]|*[5]	
+1-79	485-487	PO	ORG[3]	_	*->4-1|*->5-1	*[4]|*[5]	
+1-80	488-489	)	ORG[3]	_	*->4-1|*->5-1	*[4]|*[5]	
+1-81	490-497	Severne	ORG[3]|LOC[4]	3 - Nevtralno[17]	*->4-1|*->5-1|*->1-2	*[4]|*[5]|*[1]	
+1-82	498-507	Primorske	ORG[3]|LOC[4]	3 - Nevtralno[17]	*->4-1|*->5-1|*->1-2	*[4]|*[5]|*[1]	
+1-83	508-513	Bojan	PER[5]	_	*->4-1	*[4]	
+1-84	514-521	Bratina	PER[5]	_	*->4-1	*[4]	
+1-85	522-524	je	_	_	_	_	
+1-86	525-532	povedal	_	_	_	_	
+1-87	533-534	,	_	_	_	_	
+1-88	535-537	da	_	_	_	_	
+1-89	538-540	od	_	_	_	_	
+1-90	541-550	izvršnega	_	_	_	_	
+1-91	551-557	odbora	_	_	_	_	
+1-92	558-565	stranke	_	_	*->6-6	*[6]	
+1-93	566-575	zahtevajo	_	_	_	_	
+1-94	576-577	,	_	_	_	_	
+1-95	578-580	da	_	_	_	_	
+1-96	581-590	morebitni	_	_	_	_	
+1-97	591-599	Erjavčev	PER	_	*->3-5	*[3]	
+1-98	600-609	namestnik	_	_	_	_	
+1-99	610-617	stranko	_	_	*->6-7	*[6]	
+1-100	618-622	vodi	_	_	_	_	
+1-101	623-624	z	_	_	_	_	
+1-102	625-630	vsemi	_	_	_	_	
+1-103	631-642	pooblastili	_	_	_	_	
+1-104	643-644	,	_	_	_	_	
+1-105	645-651	hkrati	_	_	_	_	
+1-106	652-654	pa	_	_	_	_	
+1-107	655-657	so	_	_	_	_	
+1-108	658-668	predlagali	_	_	*->5-2	*[5]	
+1-109	669-670	,	_	_	_	_	
+1-110	671-673	da	_	_	_	_	
+1-111	674-679	redni	_	_	_	_	
+1-112	680-687	kongres	_	_	_	_	
+1-113	688-695	stranke	_	_	*->6-8	*[6]	
+1-114	696-704	skličejo	_	_	_	_	
+1-115	705-710	takoj	_	_	_	_	
+1-116	711-712	v	_	_	_	_	
+1-117	713-720	začetku	_	_	_	_	
+1-118	721-732	prihodnjega	_	_	_	_	
+1-119	733-737	leta	_	_	_	_	
+1-120	738-739	,	_	_	_	_	
+1-121	740-742	je	_	_	_	_	
+1-122	743-745	še	_	_	_	_	
+1-123	746-751	dejal	_	3 - Nevtralno	*->4-2	*[4]	
+1-124	752-753	.	_	_	_	_	
+1-125	754-760	Pobudi	_	_	_	_	
+1-126	761-763	za	_	_	_	_	
+1-127	764-769	sklic	_	_	_	_	
+1-128	770-779	izrednega	_	_	_	_	
+1-129	780-788	kongresa	_	_	_	_	
+1-130	789-796	stranke	_	_	*->6-9	*[6]	
+1-131	797-799	pa	_	_	_	_	
+1-132	800-802	se	_	_	_	_	
+1-133	803-807	niso	_	_	_	_	
+1-134	808-818	pridružili	_	2 - Negativno	*->5-3	*[5]	
+1-135	819-820	.	_	_	_	_	
+1-136	821-824	Šef	_	_	_	_	
+1-137	825-838	ljubljanskega	_	_	_	_	
+1-138	839-845	odbora	_	_	_	_	
+1-139	846-847	s	_	_	_	_	
+1-140	848-855	stanjem	_	_	_	_	
+1-141	856-857	v	_	_	_	_	
+1-142	858-867	Sloveniji	LOC	_	*->2-1	*[2]	
+1-143	868-870	ni	_	_	_	_	
+1-144	871-880	seznanjen	_	_	_	_	
+1-145	881-882	V	_	_	_	_	
+1-146	883-885	PO	ORG[6]	3 - Nevtralno[18]	*->7-1	*[7]	
+1-147	886-891	Južne	ORG[6]|LOC[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->7-1|*->8-1	*[7]|*[8]	
+1-148	892-901	Primorske	ORG[6]|LOC[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->7-1|*->8-1	*[7]|*[8]	
+1-149	902-904	se	_	_	_	_	
+1-150	905-907	do	_	_	_	_	
+1-151	908-916	predloga	_	_	_	_	
+1-152	917-928	dolenjskega	_	_	_	_	
+1-153	929-935	odbora	_	_	_	_	
+1-154	936-944	verjetno	_	_	_	_	
+1-155	945-947	ne	_	_	_	_	
+1-156	948-952	bodo	_	_	_	_	
+1-157	953-966	opredeljevali	_	_	_	_	
+1-158	967-969	oz	_	_	_	_	
+1-159	970-971	.	_	_	_	_	
+1-160	972-974	ne	_	_	_	_	
+1-161	975-979	bodo	_	_	_	_	
+1-162	980-990	prispevali	_	_	_	_	
+1-163	991-996	glasu	_	_	_	_	
+1-164	997-999	za	_	_	_	_	
+1-165	1000-1005	sklic	_	_	_	_	
+1-166	1006-1015	izrednega	_	_	_	_	
+1-167	1016-1024	kongresa	_	_	_	_	
+1-168	1025-1032	stranke	_	_	_	_	
+1-169	1033-1034	.	_	_	_	_	
+1-170	1035-1043	Ostrejši	_	_	_	_	
+1-171	1044-1046	so	_	_	_	_	
+1-172	1047-1049	na	_	_	_	_	
+1-173	1050-1055	Ptuju	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-174	1056-1057	,	_	_	_	_	
+1-175	1058-1062	kjer	_	_	_	_	
+1-176	1063-1065	po	_	_	_	_	
+1-177	1066-1073	besedah	_	_	_	_	
+1-178	1074-1085	predsednika	_	3 - Nevtralno[20]	*->10-1	*[10]	
+1-179	1086-1093	Gorazda	PER[8]	3 - Nevtralno[20]	*->10-1	*[10]	
+1-180	1094-1100	Žmavca	PER[8]	3 - Nevtralno[20]	*->10-1	*[10]	
+1-181	1101-1111	ocenjujejo	_	_	_	_	
+1-182	1112-1113	,	_	_	_	_	
+1-183	1114-1116	da	_	_	_	_	
+1-184	1117-1119	je	_	_	_	_	
+1-185	1120-1128	omenjena	_	_	_	_	
+1-186	1129-1135	pobuda	_	_	_	_	
+1-187	1136-1146	neprimerna	_	_	_	_	
+1-188	1147-1149	in	_	_	_	_	
+1-189	1150-1152	da	_	_	_	_	
+1-190	1153-1155	za	_	_	_	_	
+1-191	1156-1161	sklic	_	_	_	_	
+1-192	1162-1171	izrednega	_	_	_	_	
+1-193	1172-1180	kongresa	_	_	_	_	
+1-194	1181-1183	ni	_	_	_	_	
+1-195	1184-1191	potrebe	_	_	_	_	
+1-196	1192-1193	.	_	_	_	_	
+1-197	1194-1198	Tudi	_	_	_	_	
+1-198	1199-1200	v	_	_	_	_	
+1-199	1201-1206	Celju	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-200	1207-1213	menijo	_	_	_	_	
+1-201	1214-1215	,	_	_	_	_	
+1-202	1216-1218	da	_	_	_	_	
+1-203	1219-1228	dolenjska	_	_	_	_	
+1-204	1229-1235	pobuda	_	_	_	_	
+1-205	1236-1237	v	_	_	_	_	
+1-206	1238-1241	tem	_	_	_	_	
+1-207	1242-1246	času	_	_	_	_	
+1-208	1247-1249	ne	_	_	_	_	
+1-209	1250-1252	bi	_	_	_	_	
+1-210	1253-1258	imela	_	_	_	_	
+1-211	1259-1269	pozitivnih	_	_	_	_	
+1-212	1270-1277	učinkov	_	_	_	_	
+1-213	1278-1279	.	_	_	_	_	
+1-214	1280-1286	Sklicu	_	_	_	_	
+1-215	1287-1296	izrednega	_	_	_	_	
+1-216	1297-1305	kongresa	_	_	_	_	
+1-217	1306-1310	tako	_	_	_	_	
+1-218	1311-1323	nasprotujejo	_	_	_	_	
+1-219	1324-1326	in	_	_	_	_	
+1-220	1327-1334	pravijo	_	_	_	_	
+1-221	1335-1336	,	_	_	_	_	
+1-222	1337-1339	da	_	_	_	_	
+1-223	1340-1342	bi	_	_	_	_	
+1-224	1343-1349	zadeve	_	_	_	_	
+1-225	1350-1356	morali	_	_	_	_	
+1-226	1357-1364	urediti	_	_	_	_	
+1-227	1365-1372	znotraj	_	_	_	_	
+1-228	1373-1380	stranke	_	_	*->6-10	*[6]	
+1-229	1381-1382	,	_	_	_	_	
+1-230	1383-1385	je	_	_	_	_	
+1-231	1386-1394	poudaril	_	_	_	_	
+1-232	1395-1405	predsednik	_	3 - Nevtralno[21]	*->12-1	*[12]	
+1-233	1406-1415	celjskega	ORG[9]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->12-1|*->21-1	*[12]|*[21]	
+1-234	1416-1418	PO	ORG[9]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->12-1|*->21-1	*[12]|*[21]	
+1-235	1419-1424	Peter	PER[10]	3 - Nevtralno[21]	*->12-1	*[12]	
+1-236	1425-1431	Habjan	PER[10]	3 - Nevtralno[21]	*->12-1	*[12]	
+1-237	1432-1433	.	_	_	_	_	
+1-238	1434-1444	Predsednik	_	_	*->13-1	*[13]	
+1-239	1445-1458	ljubljanskega	ORG[11]	3 - Nevtralno[23]	*->13-1|*->20-1	*[13]|*[20]	
+1-240	1459-1461	PO	ORG[11]	3 - Nevtralno[23]	*->13-1|*->20-1	*[13]|*[20]	
+1-241	1462-1467	Pavel	PER[12]	_	*->13-1	*[13]	
+1-242	1468-1474	Brglez	PER[12]	_	*->13-1	*[13]	
+1-243	1475-1477	je	_	_	_	_	
+1-244	1478-1483	danes	_	_	_	_	
+1-245	1484-1491	povedal	_	_	_	_	
+1-246	1492-1493	,	_	_	_	_	
+1-247	1494-1496	da	_	_	_	_	
+1-248	1497-1498	s	_	_	_	_	
+1-249	1499-1506	stanjem	_	_	_	_	
+1-250	1507-1508	v	_	_	_	_	
+1-251	1509-1518	Sloveniji	LOC	3 - Nevtralno	*->2-2	*[2]	
+1-252	1519-1521	ni	_	_	_	_	
+1-253	1522-1531	seznanjen	_	_	*->13-2	*[13]	
+1-254	1532-1533	,	_	_	_	_	
+1-255	1534-1537	saj	_	_	_	_	
+1-256	1538-1540	se	_	_	_	_	
+1-257	1541-1549	trenutno	_	_	_	_	
+1-258	1550-1554	mudi	_	2 - Negativno	*->13-3	*[13]	
+1-259	1555-1556	v	_	_	_	_	
+1-260	1557-1563	tujini	_	_	_	_	
+1-261	1564-1565	.	_	_	_	_	
+1-262	1566-1568	Je	_	_	_	_	
+1-263	1569-1571	pa	_	_	_	_	
+1-264	1572-1583	predsednica	_	3 - Nevtralno[24]	*->14-1	*[14]	
+1-265	1584-1597	ljubljanskega	_	3 - Nevtralno[24]	*->14-1	*[14]	
+1-266	1598-1606	mestnega	_	3 - Nevtralno[24]	*->14-1	*[14]	
+1-267	1607-1613	odbora	_	3 - Nevtralno[24]	*->14-1	*[14]	
+1-268	1614-1619	Desus	ORG	3 - Nevtralno[24]	*->14-1|*->6-11	*[14]|*[6]	
+1-269	1620-1624	Meta	PER[13]	3 - Nevtralno[24]	*->14-1	*[14]	
+1-270	1625-1630	Vesel	PER[13]	3 - Nevtralno[24]	*->14-1	*[14]	
+1-271	1631-1642	Valentinčič	PER[13]	3 - Nevtralno[24]	*->14-1	*[14]	
+1-272	1643-1651	potrdila	_	_	_	_	
+1-273	1652-1653	,	_	_	_	_	
+1-274	1654-1656	da	_	_	_	_	
+1-275	1657-1659	do	_	_	_	_	
+1-276	1660-1668	sestanka	_	_	_	_	
+1-277	1669-1671	na	_	_	_	_	
+1-278	1672-1680	omenjeno	_	_	_	_	
+1-279	1681-1685	temo	_	_	_	_	
+1-280	1686-1688	še	_	_	_	_	
+1-281	1689-1691	ni	_	_	_	_	
+1-282	1692-1698	prišlo	_	_	_	_	
+1-283	1699-1700	,	_	_	_	_	
+1-284	1701-1702	v	_	_	_	_	
+1-285	1703-1715	ljubljanskem	_	_	_	_	
+1-286	1716-1723	mestnem	_	_	_	_	
+1-287	1724-1730	odboru	_	_	_	_	
+1-288	1731-1733	pa	_	_	_	_	
+1-289	1734-1740	menijo	_	_	_	_	
+1-290	1741-1742	,	_	_	_	_	
+1-291	1743-1745	da	_	_	_	_	
+1-292	1746-1748	je	_	_	_	_	
+1-293	1749-1756	izredni	_	_	_	_	
+1-294	1757-1764	kongres	_	_	_	_	
+1-295	1765-1773	namenjen	_	_	_	_	
+1-296	1774-1782	izrednim	_	_	_	_	
+1-297	1783-1791	razmeram	_	_	_	_	
+1-298	1792-1793	,	_	_	_	_	
+1-299	1794-1796	do	_	_	_	_	
+1-300	1797-1803	takrat	_	_	_	_	
+1-301	1804-1806	pa	_	_	_	_	
+1-302	1807-1809	je	_	_	_	_	
+1-303	1810-1815	treba	_	_	_	_	
+1-304	1816-1822	stvari	_	_	_	_	
+1-305	1823-1830	urejati	_	_	_	_	
+1-306	1831-1838	znotraj	_	_	_	_	
+1-307	1839-1846	uradnih	_	_	_	_	
+1-308	1847-1854	organov	_	_	_	_	
+1-309	1855-1862	stranke	_	_	*->6-12	*[6]	
+1-310	1863-1864	.	_	_	_	_	
+1-311	1865-1872	Erjavec	PER	_	*->3-6	*[3]	
+1-312	1873-1876	ima	_	_	_	_	
+1-313	1877-1884	podporo	_	_	_	_	
+1-314	1885-1888	med	_	_	_	_	
+1-315	1889-1897	poslanci	_	_	_	_	
+1-316	1898-1899	V	_	_	_	_	
+1-317	1900-1909	pomurskem	_	_	*->19-1	*[19]	
+1-318	1910-1912	PO	_	_	*->19-1	*[19]	
+1-319	1913-1915	se	_	_	_	_	
+1-320	1916-1920	bodo	_	_	_	_	
+1-321	1921-1926	glede	_	_	_	_	
+1-322	1927-1936	novomeške	_	_	_	_	
+1-323	1937-1943	pobude	_	_	_	_	
+1-324	1944-1954	opredelili	_	_	_	_	
+1-325	1955-1956	v	_	_	_	_	
+1-326	1957-1967	prihodnjih	_	_	_	_	
+1-327	1968-1972	dneh	_	_	_	_	
+1-328	1973-1974	,	_	_	_	_	
+1-329	1975-1977	ko	_	_	_	_	
+1-330	1978-1982	bodo	_	_	_	_	
+1-331	1983-1994	obravnavali	_	_	_	_	
+1-332	1995-2005	varčevalne	_	_	_	_	
+1-333	2006-2012	vladne	_	_	_	_	
+1-334	2013-2019	ukrepe	_	_	_	_	
+1-335	2020-2021	,	_	_	_	_	
+1-336	2022-2024	ki	_	_	_	_	
+1-337	2025-2029	bodo	_	_	_	_	
+1-338	2030-2038	vplivali	_	_	_	_	
+1-339	2039-2043	tudi	_	_	_	_	
+1-340	2044-2046	na	_	_	_	_	
+1-341	2047-2056	življenje	_	_	_	_	
+1-342	2057-2068	upokojencev	_	_	_	_	
+1-343	2069-2070	,	_	_	_	_	
+1-344	2071-2075	meni	_	_	_	_	
+1-345	2076-2086	predsednik	_	3 - Nevtralno[25]	*->15-1	*[15]	
+1-346	2087-2089	PO	ORG[14]	3 - Nevtralno[25]|3 - Nevtralno[26]	*->15-1|*->19-2	*[15]|*[19]	
+1-347	2090-2098	pomurska	ORG[14]	3 - Nevtralno[25]|3 - Nevtralno[26]	*->15-1|*->19-2	*[15]|*[19]	
+1-348	2099-2104	Franc	PER[15]	3 - Nevtralno[25]	*->15-1	*[15]	
+1-349	2105-2112	Pižmoht	PER[15]	3 - Nevtralno[25]	*->15-1	*[15]	
+1-350	2113-2114	.	_	_	_	_	
+1-351	2115-2119	Kako	_	_	_	_	
+1-352	2120-2122	so	_	_	_	_	
+1-353	2123-2125	se	_	_	_	_	
+1-354	2126-2129	ali	_	_	_	_	
+1-355	2130-2132	se	_	_	_	_	
+1-356	2133-2137	bodo	_	_	_	_	
+1-357	2138-2146	odločili	_	_	_	_	
+1-358	2147-2148	v	_	_	_	_	
+1-359	2149-2151	PO	_	_	_	_	
+1-360	2152-2159	Koroške	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-361	2160-2162	in	_	_	_	_	
+1-362	2163-2171	Podravja	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-363	2172-2173	,	_	_	_	_	
+1-364	2174-2176	pa	_	_	_	_	
+1-365	2177-2180	nam	_	_	_	_	
+1-366	2181-2183	ni	_	_	_	_	
+1-367	2184-2190	uspelo	_	_	_	_	
+1-368	2191-2199	izvedeti	_	_	_	_	
+1-369	2200-2201	,	_	_	_	_	
+1-370	2202-2205	saj	_	_	_	_	
+1-371	2206-2214	njihovih	_	_	_	_	
+1-372	2215-2228	predstavnikov	_	_	_	_	
+1-373	2229-2234	danes	_	_	_	_	
+1-374	2235-2240	nismo	_	_	_	_	
+1-375	2241-2247	uspeli	_	_	_	_	
+1-376	2248-2258	priklicati	_	_	_	_	
+1-377	2259-2260	.	_	_	_	_	
+1-378	2261-2264	Ima	_	_	_	_	
+1-379	2265-2267	pa	_	_	_	_	
+1-380	2268-2278	predsednik	_	_	*->3-7	*[3]	
+1-381	2279-2286	stranke	_	_	*->3-7	*[3]	
+1-382	2287-2294	podporo	_	_	_	_	
+1-383	2295-2304	poslancev	_	_	_	_	
+1-384	2305-2306	.	_	_	_	_	
+1-385	2307-2312	Vodja	_	_	_	_	
+1-386	2313-2322	poslanske	_	_	_	_	
+1-387	2323-2330	skupine	_	_	_	_	
+1-388	2331-2336	Franc	PER[16]	_	*->18-1	*[18]	
+1-389	2337-2342	Jurša	PER[16]	_	*->18-1	*[18]	
+1-390	2343-2345	je	_	_	_	_	
+1-391	2346-2353	potrdil	_	_	_	_	
+1-392	2354-2355	,	_	_	_	_	
+1-393	2356-2358	da	_	_	_	_	
+1-394	2359-2360	"	_	_	_	_	
+1-395	2361-2372	posamezniki	_	_	_	_	
+1-396	2373-2381	pozivajo	_	_	_	_	
+1-397	2382-2383	"	_	_	_	_	
+1-398	2384-2395	predsednika	_	_	*->3-8	*[3]	
+1-399	2396-2403	stranke	_	_	*->3-8|*->6-13	*[3]|*[6]	
+1-400	2404-2405	k	_	_	_	_	
+1-401	2406-2413	odstopu	_	_	_	_	
+1-402	2414-2416	in	_	_	_	_	
+1-403	2417-2419	da	_	_	_	_	
+1-404	2420-2428	pozivajo	_	_	_	_	
+1-405	2429-2430	k	_	_	_	_	
+1-406	2431-2440	izrednemu	_	_	_	_	
+1-407	2441-2449	kongresu	_	_	_	_	
+1-408	2450-2451	.	_	_	_	_	
+1-409	2452-2453	"	_	_	_	_	
+1-410	2454-2457	Jaz	_	_	*->18-2	*[18]	
+1-411	2458-2460	pa	_	_	_	_	
+1-412	2461-2463	le	_	_	_	_	
+1-413	2464-2470	mislim	_	_	_	_	
+1-414	2471-2472	,	_	_	_	_	
+1-415	2473-2475	da	_	_	_	_	
+1-416	2476-2478	je	_	_	_	_	
+1-417	2479-2486	Erjavec	PER	_	*->3-9	*[3]	
+1-418	2487-2493	precej	_	_	_	_	
+1-419	2494-2503	prispeval	_	_	_	_	
+1-420	2504-2505	k	_	_	_	_	
+1-421	2506-2517	stabilnosti	_	_	_	_	
+1-422	2518-2520	te	_	_	_	_	
+1-423	2521-2528	stranke	_	_	_	_	
+1-424	2529-2531	in	_	_	_	_	
+1-425	2532-2534	da	_	_	_	_	
+1-426	2535-2537	mu	_	3 - Nevtralno	*->3-10	*[3]	
+1-427	2538-2547	poslanska	_	_	_	_	
+1-428	2548-2555	skupina	_	_	_	_	
+1-429	2556-2558	še	_	_	_	_	
+1-430	2559-2570	stoodstotno	_	_	_	_	
+1-431	2571-2576	zaupa	_	_	_	_	
+1-432	2577-2578	,	_	_	_	_	
+1-433	2579-2580	"	_	_	_	_	
+1-434	2581-2583	je	_	_	_	_	
+1-435	2584-2589	dejal	_	_	_	_	
+1-436	2590-2595	Jurša	PER	_	*->18-3	*[18]	
+1-437	2596-2597	,	_	_	_	_	
+1-438	2598-2600	ki	_	_	_	_	
+1-439	2601-2603	je	_	_	_	_	
+1-440	2604-2611	spomnil	_	3 - Nevtralno	*->18-4	*[18]	
+1-441	2612-2613	,	_	_	_	_	
+1-442	2614-2616	da	_	_	_	_	
+1-443	2617-2619	je	_	_	_	_	
+1-444	2620-2625	imela	_	_	_	_	
+1-445	2626-2633	stranka	_	2 - Negativno	*->6-14	*[6]	
+1-446	2634-2639	redni	_	_	_	_	
+1-447	2640-2647	kongres	_	_	_	_	
+1-448	2648-2655	oktobra	_	_	_	_	
+1-449	2656-2660	lani	_	_	_	_	

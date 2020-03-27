@@ -1,0 +1,306 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Izbor poteka že petnajsto leto zapored Primorske medijske hiše , med njimi tudi primorski del RTV Slovenija , že 15 . leto zapored podeljujejo nagrado gospodarstvenik Primorske . Izberejo ga novinarji gospodarskih uredništev . Namen akcije je poudariti presežke in pozitivne razvojne smeri v primorskem gospodarstvu . Gospodarstvenik Primorske je izbor najuspešnejših gospodarskih družb , zasebnikov in vodilnih osebnosti primorskega gospodarstva , ki se lahko pohvalijo z najboljšimi poslovnimi rezultati . Poleg te nagrade podeljujemo tudi nagrado za posebne dosežke na področju gospodarstva , nagrado za življenjsko delo ter v sodelovanju z Univerzo na Primorskem in Univerzo v Novi Gorici nagrado primorski um , s katerima nagrajujemo znanstvenike za uvajanje vrhunskega znanja v prakso , so o akciji povedali organizatorji , ki že vrsto let kot vodilni primorski mediji , združijo moči pri izbiri izjemnih Primorcev . Nabor nagrajencev samostojno in avtonomno izberejo novinarji uredništev za gospodarstvo , ki so zagotovo najboljši poznavalci razmer in smernic v regijskem gospodarstvu . Organizator prireditve so tri osrednje primorske medijske hiše Radio Koper , Televizija Koper – Capodistria in Primorske novic . Neposrednemu prenosu podelitve priznanj lahko prisluhnete v torek , 13 . marca , ob 18 . uri na valovih Radia Koper . Posnetek prireditve pa si lahko ogledate na TV Koper – Capodistria v oddaji Izostritev , in sicer v četrtek , 15 . marca , ob 18 . uri . Dobitniki nagrad gospodarstvenik Primorske 2010 Zadnji nagrajenci , dobitniki nagrade gospodarstvenik Primorske za leto 2010 , so Janez Rebec Pivka perutninarstvo in Delamaris , Miro Črv Smarteh , Tolmin , Ana Sedej SEC , Ilirska Bistrica , Evgen Kete Tekstilna tovarna Okroglica , Aljoša Žerjal Harpha Sea , Koper , dobitnika nagrade primorski um pa Darko Darovec Univerza na Primorskem in dr . Iztok Arčon Univerza v Novi Gorici
+1-1	0-5	Izbor	_	_	_	_	
+1-2	6-12	poteka	_	_	_	_	
+1-3	13-15	že	_	_	_	_	
+1-4	16-25	petnajsto	_	_	_	_	
+1-5	26-30	leto	_	_	_	_	
+1-6	31-38	zapored	_	_	_	_	
+1-7	39-48	Primorske	_	_	_	_	
+1-8	49-57	medijske	_	_	_	_	
+1-9	58-62	hiše	_	_	_	_	
+1-10	63-64	,	_	_	_	_	
+1-11	65-68	med	_	_	_	_	
+1-12	69-74	njimi	_	_	_	_	
+1-13	75-79	tudi	_	_	_	_	
+1-14	80-89	primorski	_	_	_	_	
+1-15	90-93	del	_	_	_	_	
+1-16	94-97	RTV	ORG[1]	3 - Nevtralno[34]	*->8-1	*[8]	
+1-17	98-107	Slovenija	ORG[1]|LOC[2]	3 - Nevtralno[34]|3 - Nevtralno[35]	*->8-1|*->9-1	*[8]|*[9]	
+1-18	108-109	,	_	_	_	_	
+1-19	110-112	že	_	_	_	_	
+1-20	113-115	15	_	_	_	_	
+1-21	116-117	.	_	_	_	_	
+1-22	118-122	leto	_	_	_	_	
+1-23	123-130	zapored	_	_	_	_	
+1-24	131-142	podeljujejo	_	_	_	_	
+1-25	143-150	nagrado	_	_	_	_	
+1-26	151-166	gospodarstvenik	_	_	_	_	
+1-27	167-176	Primorske	LOC	_	*->1-1	*[1]	
+1-28	177-178	.	_	_	_	_	
+1-29	179-187	Izberejo	_	_	_	_	
+1-30	188-190	ga	_	_	_	_	
+1-31	191-200	novinarji	_	_	_	_	
+1-32	201-213	gospodarskih	_	_	_	_	
+1-33	214-224	uredništev	_	_	_	_	
+1-34	225-226	.	_	_	_	_	
+1-35	227-232	Namen	_	_	_	_	
+1-36	233-239	akcije	_	_	_	_	
+1-37	240-242	je	_	_	_	_	
+1-38	243-252	poudariti	_	_	_	_	
+1-39	253-261	presežke	_	_	_	_	
+1-40	262-264	in	_	_	_	_	
+1-41	265-274	pozitivne	_	_	_	_	
+1-42	275-283	razvojne	_	_	_	_	
+1-43	284-289	smeri	_	_	_	_	
+1-44	290-291	v	_	_	_	_	
+1-45	292-302	primorskem	_	_	_	_	
+1-46	303-315	gospodarstvu	_	_	_	_	
+1-47	316-317	.	_	_	_	_	
+1-48	318-333	Gospodarstvenik	_	_	_	_	
+1-49	334-343	Primorske	LOC	_	*->1-2	*[1]	
+1-50	344-346	je	_	_	_	_	
+1-51	347-352	izbor	_	_	_	_	
+1-52	353-367	najuspešnejših	_	_	_	_	
+1-53	368-380	gospodarskih	_	_	_	_	
+1-54	381-386	družb	_	_	_	_	
+1-55	387-388	,	_	_	_	_	
+1-56	389-399	zasebnikov	_	_	_	_	
+1-57	400-402	in	_	_	_	_	
+1-58	403-411	vodilnih	_	_	_	_	
+1-59	412-421	osebnosti	_	_	_	_	
+1-60	422-433	primorskega	_	_	_	_	
+1-61	434-446	gospodarstva	_	_	_	_	
+1-62	447-448	,	_	_	_	_	
+1-63	449-451	ki	_	_	_	_	
+1-64	452-454	se	_	_	_	_	
+1-65	455-460	lahko	_	_	_	_	
+1-66	461-470	pohvalijo	_	_	_	_	
+1-67	471-472	z	_	_	_	_	
+1-68	473-484	najboljšimi	_	_	_	_	
+1-69	485-495	poslovnimi	_	_	_	_	
+1-70	496-505	rezultati	_	_	_	_	
+1-71	506-507	.	_	_	_	_	
+1-72	508-513	Poleg	_	_	_	_	
+1-73	514-516	te	_	_	_	_	
+1-74	517-524	nagrade	_	_	_	_	
+1-75	525-536	podeljujemo	_	_	_	_	
+1-76	537-541	tudi	_	_	_	_	
+1-77	542-549	nagrado	_	_	_	_	
+1-78	550-552	za	_	_	_	_	
+1-79	553-560	posebne	_	_	_	_	
+1-80	561-568	dosežke	_	_	_	_	
+1-81	569-571	na	_	_	_	_	
+1-82	572-580	področju	_	_	_	_	
+1-83	581-593	gospodarstva	_	_	_	_	
+1-84	594-595	,	_	_	_	_	
+1-85	596-603	nagrado	_	_	_	_	
+1-86	604-606	za	_	_	_	_	
+1-87	607-618	življenjsko	_	_	_	_	
+1-88	619-623	delo	_	_	_	_	
+1-89	624-627	ter	_	_	_	_	
+1-90	628-629	v	_	_	_	_	
+1-91	630-641	sodelovanju	_	_	_	_	
+1-92	642-643	z	_	_	_	_	
+1-93	644-652	Univerzo	ORG[3]	_	*->5-1	*[5]	
+1-94	653-655	na	ORG[3]	_	*->5-1	*[5]	
+1-95	656-666	Primorskem	ORG[3]|LOC[4]	_	*->5-1|*->1-3	*[5]|*[1]	
+1-96	667-669	in	_	_	_	_	
+1-97	670-678	Univerzo	ORG[5]	_	*->6-1	*[6]	
+1-98	679-680	v	ORG[5]	_	*->6-1	*[6]	
+1-99	681-685	Novi	ORG[5]|LOC[6]	_	*->6-1|*->7-1	*[6]|*[7]	
+1-100	686-692	Gorici	ORG[5]|LOC[6]	_	*->6-1|*->7-1	*[6]|*[7]	
+1-101	693-700	nagrado	_	_	_	_	
+1-102	701-710	primorski	_	_	_	_	
+1-103	711-713	um	_	_	_	_	
+1-104	714-715	,	_	_	_	_	
+1-105	716-717	s	_	_	_	_	
+1-106	718-726	katerima	_	_	_	_	
+1-107	727-738	nagrajujemo	_	_	_	_	
+1-108	739-751	znanstvenike	_	_	_	_	
+1-109	752-754	za	_	_	_	_	
+1-110	755-763	uvajanje	_	_	_	_	
+1-111	764-774	vrhunskega	_	_	_	_	
+1-112	775-781	znanja	_	_	_	_	
+1-113	782-783	v	_	_	_	_	
+1-114	784-790	prakso	_	_	_	_	
+1-115	791-792	,	_	_	_	_	
+1-116	793-795	so	_	_	_	_	
+1-117	796-797	o	_	_	_	_	
+1-118	798-804	akciji	_	_	_	_	
+1-119	805-813	povedali	_	_	_	_	
+1-120	814-827	organizatorji	_	_	_	_	
+1-121	828-829	,	_	_	_	_	
+1-122	830-832	ki	_	_	_	_	
+1-123	833-835	že	_	_	_	_	
+1-124	836-841	vrsto	_	_	_	_	
+1-125	842-845	let	_	_	_	_	
+1-126	846-849	kot	_	_	_	_	
+1-127	850-857	vodilni	_	_	_	_	
+1-128	858-867	primorski	_	_	_	_	
+1-129	868-874	mediji	_	_	_	_	
+1-130	875-876	,	_	_	_	_	
+1-131	877-885	združijo	_	_	_	_	
+1-132	886-890	moči	_	_	_	_	
+1-133	891-894	pri	_	_	_	_	
+1-134	895-901	izbiri	_	_	_	_	
+1-135	902-910	izjemnih	_	_	_	_	
+1-136	911-920	Primorcev	_	_	_	_	
+1-137	921-922	.	_	_	_	_	
+1-138	923-928	Nabor	_	_	_	_	
+1-139	929-940	nagrajencev	_	_	_	_	
+1-140	941-951	samostojno	_	_	_	_	
+1-141	952-954	in	_	_	_	_	
+1-142	955-964	avtonomno	_	_	_	_	
+1-143	965-973	izberejo	_	_	_	_	
+1-144	974-983	novinarji	_	_	_	_	
+1-145	984-994	uredništev	_	_	_	_	
+1-146	995-997	za	_	_	_	_	
+1-147	998-1010	gospodarstvo	_	_	_	_	
+1-148	1011-1012	,	_	_	_	_	
+1-149	1013-1015	ki	_	_	_	_	
+1-150	1016-1018	so	_	_	_	_	
+1-151	1019-1027	zagotovo	_	_	_	_	
+1-152	1028-1037	najboljši	_	_	_	_	
+1-153	1038-1048	poznavalci	_	_	_	_	
+1-154	1049-1055	razmer	_	_	_	_	
+1-155	1056-1058	in	_	_	_	_	
+1-156	1059-1066	smernic	_	_	_	_	
+1-157	1067-1068	v	_	_	_	_	
+1-158	1069-1078	regijskem	_	_	_	_	
+1-159	1079-1091	gospodarstvu	_	_	_	_	
+1-160	1092-1093	.	_	_	_	_	
+1-161	1094-1105	Organizator	_	_	_	_	
+1-162	1106-1116	prireditve	_	_	_	_	
+1-163	1117-1119	so	_	_	_	_	
+1-164	1120-1123	tri	_	_	_	_	
+1-165	1124-1132	osrednje	_	_	_	_	
+1-166	1133-1142	primorske	_	_	_	_	
+1-167	1143-1151	medijske	_	_	_	_	
+1-168	1152-1156	hiše	_	_	_	_	
+1-169	1157-1162	Radio	ORG[7]	_	*->3-1	*[3]	
+1-170	1163-1168	Koper	ORG[7]|LOC[8]	_	*->3-1|*->2-1	*[3]|*[2]	
+1-171	1169-1170	,	_	_	_	_	
+1-172	1171-1181	Televizija	ORG[9]	_	*->4-1	*[4]	
+1-173	1182-1187	Koper	ORG[9]|LOC[10]	_	*->4-1|*->2-2	*[4]|*[2]	
+1-174	1188-1189	–	ORG[9]	_	*->4-1	*[4]	
+1-175	1190-1201	Capodistria	ORG[9]|LOC[11]	_	*->4-1|*->2-3	*[4]|*[2]	
+1-176	1202-1204	in	_	_	_	_	
+1-177	1205-1214	Primorske	ORG[12]	3 - Nevtralno[36]	*->10-1	*[10]	
+1-178	1215-1220	novic	ORG[12]	3 - Nevtralno[36]	*->10-1	*[10]	
+1-179	1221-1222	.	_	_	_	_	
+1-180	1223-1235	Neposrednemu	_	_	_	_	
+1-181	1236-1243	prenosu	_	_	_	_	
+1-182	1244-1253	podelitve	_	_	_	_	
+1-183	1254-1262	priznanj	_	_	_	_	
+1-184	1263-1268	lahko	_	_	_	_	
+1-185	1269-1280	prisluhnete	_	_	_	_	
+1-186	1281-1282	v	_	_	_	_	
+1-187	1283-1288	torek	_	_	_	_	
+1-188	1289-1290	,	_	_	_	_	
+1-189	1291-1293	13	_	_	_	_	
+1-190	1294-1295	.	_	_	_	_	
+1-191	1296-1301	marca	_	_	_	_	
+1-192	1302-1303	,	_	_	_	_	
+1-193	1304-1306	ob	_	_	_	_	
+1-194	1307-1309	18	_	_	_	_	
+1-195	1310-1311	.	_	_	_	_	
+1-196	1312-1315	uri	_	_	_	_	
+1-197	1316-1318	na	_	_	_	_	
+1-198	1319-1326	valovih	_	_	_	_	
+1-199	1327-1332	Radia	ORG[13]	3 - Nevtralno[37]	*->3-2	*[3]	
+1-200	1333-1338	Koper	ORG[13]|LOC[14]	3 - Nevtralno[37]	*->3-2|*->2-4	*[3]|*[2]	
+1-201	1339-1340	.	_	_	_	_	
+1-202	1341-1349	Posnetek	_	_	_	_	
+1-203	1350-1360	prireditve	_	_	_	_	
+1-204	1361-1363	pa	_	_	_	_	
+1-205	1364-1366	si	_	_	_	_	
+1-206	1367-1372	lahko	_	_	_	_	
+1-207	1373-1381	ogledate	_	_	_	_	
+1-208	1382-1384	na	_	_	_	_	
+1-209	1385-1387	TV	ORG[15]	3 - Nevtralno[38]	*->4-2	*[4]	
+1-210	1388-1393	Koper	ORG[15]|LOC[16]	3 - Nevtralno[38]	*->4-2|*->2-5	*[4]|*[2]	
+1-211	1394-1395	–	ORG[15]	3 - Nevtralno[38]	*->4-2	*[4]	
+1-212	1396-1407	Capodistria	ORG[15]|LOC[17]	3 - Nevtralno[38]	*->4-2|*->2-6	*[4]|*[2]	
+1-213	1408-1409	v	_	_	_	_	
+1-214	1410-1416	oddaji	_	_	_	_	
+1-215	1417-1427	Izostritev	_	_	_	_	
+1-216	1428-1429	,	_	_	_	_	
+1-217	1430-1432	in	_	_	_	_	
+1-218	1433-1438	sicer	_	_	_	_	
+1-219	1439-1440	v	_	_	_	_	
+1-220	1441-1448	četrtek	_	_	_	_	
+1-221	1449-1450	,	_	_	_	_	
+1-222	1451-1453	15	_	_	_	_	
+1-223	1454-1455	.	_	_	_	_	
+1-224	1456-1461	marca	_	_	_	_	
+1-225	1462-1463	,	_	_	_	_	
+1-226	1464-1466	ob	_	_	_	_	
+1-227	1467-1469	18	_	_	_	_	
+1-228	1470-1471	.	_	_	_	_	
+1-229	1472-1475	uri	_	_	_	_	
+1-230	1476-1477	.	_	_	_	_	
+1-231	1478-1487	Dobitniki	_	_	_	_	
+1-232	1488-1494	nagrad	_	_	_	_	
+1-233	1495-1510	gospodarstvenik	_	_	_	_	
+1-234	1511-1520	Primorske	LOC	_	*->1-4	*[1]	
+1-235	1521-1525	2010	_	_	_	_	
+1-236	1526-1532	Zadnji	_	_	_	_	
+1-237	1533-1543	nagrajenci	_	_	_	_	
+1-238	1544-1545	,	_	_	_	_	
+1-239	1546-1555	dobitniki	_	_	_	_	
+1-240	1556-1563	nagrade	_	_	_	_	
+1-241	1564-1579	gospodarstvenik	_	_	_	_	
+1-242	1580-1589	Primorske	LOC	_	*->1-5	l[1]	
+1-243	1590-1592	za	_	_	_	_	
+1-244	1593-1597	leto	_	_	_	_	
+1-245	1598-1602	2010	_	_	_	_	
+1-246	1603-1604	,	_	_	_	_	
+1-247	1605-1607	so	_	_	_	_	
+1-248	1608-1613	Janez	PER[18]	4 - Pozitivno[39]	*->11-1	*[11]	
+1-249	1614-1619	Rebec	PER[18]	4 - Pozitivno[39]	*->11-1	*[11]	
+1-250	1620-1625	Pivka	ORG[19]	3 - Nevtralno[40]	*->12-1	*[12]	
+1-251	1626-1640	perutninarstvo	ORG[19]	3 - Nevtralno[40]	*->12-1	*[12]	
+1-252	1641-1643	in	_	_	_	_	
+1-253	1644-1653	Delamaris	ORG	3 - Nevtralno	*->13-1	*[13]	
+1-254	1654-1655	,	_	_	_	_	
+1-255	1656-1660	Miro	PER[20]	4 - Pozitivno[41]	*->14-1	*[14]	
+1-256	1661-1664	Črv	PER[20]	4 - Pozitivno[41]	*->14-1	*[14]	
+1-257	1665-1672	Smarteh	ORG	3 - Nevtralno	*->15-1	*[15]	
+1-258	1673-1674	,	_	_	_	_	
+1-259	1675-1681	Tolmin	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-260	1682-1683	,	_	_	_	_	
+1-261	1684-1687	Ana	PER[21]	4 - Pozitivno[42]	*->17-1	*[17]	
+1-262	1688-1693	Sedej	PER[21]	4 - Pozitivno[42]	*->17-1	*[17]	
+1-263	1694-1697	SEC	ORG	3 - Nevtralno	*->18-1	*[18]	
+1-264	1698-1699	,	_	_	_	_	
+1-265	1700-1707	Ilirska	LOC[22]	3 - Nevtralno[43]	*->19-1	*[19]	
+1-266	1708-1716	Bistrica	LOC[22]	3 - Nevtralno[43]	*->19-1	*[19]	
+1-267	1717-1718	,	_	_	_	_	
+1-268	1719-1724	Evgen	PER[23]	4 - Pozitivno[44]	*->20-1	*[20]	
+1-269	1725-1729	Kete	PER[23]	4 - Pozitivno[44]	*->20-1	*[20]	
+1-270	1730-1739	Tekstilna	ORG[24]	3 - Nevtralno[45]	*->21-1	*[21]	
+1-271	1740-1747	tovarna	ORG[24]	3 - Nevtralno[45]	*->21-1	*[21]	
+1-272	1748-1757	Okroglica	ORG[24]|LOC[25]	3 - Nevtralno[45]|3 - Nevtralno[46]	*->21-1|*->24-1	*[21]|*[24]	
+1-273	1758-1759	,	_	_	_	_	
+1-274	1760-1766	Aljoša	PER[26]	4 - Pozitivno[47]	*->22-1	*[22]	
+1-275	1767-1773	Žerjal	PER[26]	4 - Pozitivno[47]	*->22-1	*[22]	
+1-276	1774-1780	Harpha	ORG[27]	3 - Nevtralno[48]	*->23-1	*[23]	
+1-277	1781-1784	Sea	ORG[27]	3 - Nevtralno[48]	*->23-1	*[23]	
+1-278	1785-1786	,	_	_	_	_	
+1-279	1787-1792	Koper	LOC	3 - Nevtralno	*->2-7	*[2]	
+1-280	1793-1794	,	_	_	_	_	
+1-281	1795-1804	dobitnika	_	_	_	_	
+1-282	1805-1812	nagrade	_	_	_	_	
+1-283	1813-1822	primorski	_	_	_	_	
+1-284	1823-1825	um	_	_	_	_	
+1-285	1826-1828	pa	_	_	_	_	
+1-286	1829-1834	Darko	PER[28]	4 - Pozitivno[49]	*->25-1	*[25]	
+1-287	1835-1842	Darovec	PER[28]	4 - Pozitivno[49]	*->25-1	*[25]	
+1-288	1843-1851	Univerza	ORG[29]	3 - Nevtralno[50]	*->5-2	*[5]	
+1-289	1852-1854	na	ORG[29]	3 - Nevtralno[50]	*->5-2	*[5]	
+1-290	1855-1865	Primorskem	ORG[29]|LOC[30]	3 - Nevtralno[50]|4 - Pozitivno[51]	*->5-2|*->1-6	*[5]|*[1]	
+1-291	1866-1868	in	_	_	_	_	
+1-292	1869-1871	dr	_	_	_	_	
+1-293	1872-1873	.	_	_	_	_	
+1-294	1874-1879	Iztok	PER[31]	4 - Pozitivno[52]	*->26-1	*[26]	
+1-295	1880-1885	Arčon	PER[31]	4 - Pozitivno[52]	*->26-1	*[26]	
+1-296	1886-1894	Univerza	ORG[32]	3 - Nevtralno[53]	*->6-2	*[6]	
+1-297	1895-1896	v	ORG[32]	3 - Nevtralno[53]	*->6-2	*[6]	
+1-298	1897-1901	Novi	ORG[32]|LOC[33]	3 - Nevtralno[53]|3 - Nevtralno[54]	*->6-2|*->7-2	*[6]|*[7]	
+1-299	1902-1908	Gorici	ORG[32]|LOC[33]	3 - Nevtralno[53]|3 - Nevtralno[54]	*->6-2|*->7-2	*[6]|*[7]	

@@ -1,0 +1,220 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Sin ljubljanskega župana Zorana Jankovića je prepričan , da ima Gašpar Gašpar Mišič velik potencial v Luki Koper " Trenutno se razdolžujemo . Če bomo prišli do sredstev , pa bom konkretno razmislil o naložbi v Luki Koper , " je na naše vprašanje , ali je po imenovanju Gašparja Gašparja Mišiča pripravljen investirati v Luko Koper , odgovoril Damijan Janković . Dodal je še : " Luka Koper je ena redkih slovenskih družb s potencialom . Gašpar Gašpar Mišič ima potencial . Absolutno bi kupil delnice Luke Koper . " Devetčlanski nadzorni svet Luke Koper pod vodstvom Dina Klobasa je s petimi glasovi potrdil prejšnji teden razrešenega državnega sekretarja Gašparja Gašparja Mišiča za novega predsednika uprave . To je razjarilo tri koalicijske stranke . Šef SD Igor Lukšič je denimo že napovedal , da pričakuje ukrepanje Slovenske odškodninske družbe ( Sod ) in vlade . V nasprotnem primeru , pa bo SD koalicijo najverjetneje zapustila . Ljubljanski župan Zoran Janković je domnevno vpletanje v kadrovanje večkrat zanikal . Podjetja njegovega sina Damijana Jankovića pa so sicer precej zadolžena . Electa Naložbe , Electa d.o.o . , Composita , Oxina in Sar imajo po podatkih Ajpesa blokirane račune . Damijan Janković pravi , da ima Gašpar Gašpar Mišič v Luki Koper velik potencial
+1-1	0-3	Sin	_	_	*->4-1	*[4]	
+1-2	4-17	ljubljanskega	_	_	*->4-1	*[4]	
+1-3	18-24	župana	_	_	*->4-1	*[4]	
+1-4	25-31	Zorana	PER[1]	_	*->4-1|*->1-1	*[4]|*[1]	
+1-5	32-41	Jankovića	PER[1]	_	*->4-1|*->1-1	*[4]|*[1]	
+1-6	42-44	je	_	_	_	_	
+1-7	45-54	prepričan	_	_	_	_	
+1-8	55-56	,	_	_	_	_	
+1-9	57-59	da	_	_	_	_	
+1-10	60-63	ima	_	_	_	_	
+1-11	64-70	Gašpar	PER[2]	_	*->2-1	*[2]	
+1-12	71-77	Gašpar	PER[2]	_	*->2-1	*[2]	
+1-13	78-83	Mišič	PER[2]	_	*->2-1	*[2]	
+1-14	84-89	velik	_	_	_	_	
+1-15	90-99	potencial	_	_	_	_	
+1-16	100-101	v	_	_	_	_	
+1-17	102-106	Luki	ORG[3]	_	*->3-1	*[3]	
+1-18	107-112	Koper	ORG[3]|LOC[4]	_	*->3-1|*->5-1	*[3]|*[5]	
+1-19	113-114	"	_	_	_	_	
+1-20	115-123	Trenutno	_	_	_	_	
+1-21	124-126	se	_	_	_	_	
+1-22	127-139	razdolžujemo	_	_	_	_	
+1-23	140-141	.	_	_	_	_	
+1-24	142-144	Če	_	_	_	_	
+1-25	145-149	bomo	_	_	_	_	
+1-26	150-156	prišli	_	_	_	_	
+1-27	157-159	do	_	_	_	_	
+1-28	160-168	sredstev	_	_	_	_	
+1-29	169-170	,	_	_	_	_	
+1-30	171-173	pa	_	_	_	_	
+1-31	174-177	bom	_	_	_	_	
+1-32	178-187	konkretno	_	_	_	_	
+1-33	188-197	razmislil	_	_	_	_	
+1-34	198-199	o	_	_	_	_	
+1-35	200-207	naložbi	_	_	_	_	
+1-36	208-209	v	_	_	_	_	
+1-37	210-214	Luki	ORG[5]	_	*->3-2	*[3]	
+1-38	215-220	Koper	ORG[5]|LOC[6]	_	*->3-2|*->5-2	*[3]|*[5]	
+1-39	221-222	,	_	_	_	_	
+1-40	223-224	"	_	_	_	_	
+1-41	225-227	je	_	_	_	_	
+1-42	228-230	na	_	_	_	_	
+1-43	231-235	naše	_	_	_	_	
+1-44	236-245	vprašanje	_	_	_	_	
+1-45	246-247	,	_	_	_	_	
+1-46	248-251	ali	_	_	_	_	
+1-47	252-254	je	_	_	_	_	
+1-48	255-257	po	_	_	_	_	
+1-49	258-268	imenovanju	_	_	_	_	
+1-50	269-277	Gašparja	PER[7]	_	*->2-2	*[2]	
+1-51	278-286	Gašparja	PER[7]	_	*->2-2	*[2]	
+1-52	287-293	Mišiča	PER[7]	_	*->2-2	*[2]	
+1-53	294-305	pripravljen	_	_	*->4-2	*[4]	
+1-54	306-317	investirati	_	_	_	_	
+1-55	318-319	v	_	_	_	_	
+1-56	320-324	Luko	ORG[8]	_	*->3-3	*[3]	
+1-57	325-330	Koper	ORG[8]|LOC[9]	_	*->3-3|*->5-3	*[3]|*[5]	
+1-58	331-332	,	_	_	_	_	
+1-59	333-342	odgovoril	_	_	_	_	
+1-60	343-350	Damijan	PER[10]	_	*->4-3	*[4]	
+1-61	351-359	Janković	PER[10]	_	*->4-3	*[4]	
+1-62	360-361	.	_	_	_	_	
+1-63	362-367	Dodal	_	_	*->4-4	*[4]	
+1-64	368-370	je	_	_	_	_	
+1-65	371-373	še	_	_	_	_	
+1-66	374-375	:	_	_	_	_	
+1-67	376-377	"	_	_	_	_	
+1-68	378-382	Luka	ORG[11]	_	*->3-4	*[3]	
+1-69	383-388	Koper	ORG[11]|LOC[12]	_	*->3-4|*->5-4	*[3]|*[5]	
+1-70	389-391	je	_	_	_	_	
+1-71	392-395	ena	_	_	_	_	
+1-72	396-402	redkih	_	_	*->3-5	*[3]	
+1-73	403-413	slovenskih	_	_	*->3-5	*[3]	
+1-74	414-419	družb	_	_	*->3-5	*[3]	
+1-75	420-421	s	_	_	*->3-5	*[3]	
+1-76	422-433	potencialom	_	_	*->3-5	*[3]	
+1-77	434-435	.	_	_	_	_	
+1-78	436-442	Gašpar	PER[13]	_	*->2-3	*[2]	
+1-79	443-449	Gašpar	PER[13]	_	*->2-3	*[2]	
+1-80	450-455	Mišič	PER[13]	_	*->2-3	*[2]	
+1-81	456-459	ima	_	_	_	_	
+1-82	460-469	potencial	_	_	_	_	
+1-83	470-471	.	_	_	_	_	
+1-84	472-481	Absolutno	_	_	_	_	
+1-85	482-484	bi	_	_	_	_	
+1-86	485-490	kupil	_	_	*->4-5	*[4]	
+1-87	491-498	delnice	_	_	_	_	
+1-88	499-503	Luke	ORG[14]	_	*->3-6	*[3]	
+1-89	504-509	Koper	ORG[14]|LOC[15]	_	*->3-6|*->5-5	*[3]|*[5]	
+1-90	510-511	.	_	_	_	_	
+1-91	512-513	"	_	_	_	_	
+1-92	514-526	Devetčlanski	_	_	_	_	
+1-93	527-535	nadzorni	_	_	_	_	
+1-94	536-540	svet	_	_	_	_	
+1-95	541-545	Luke	ORG[16]	_	*->3-7	*[3]	
+1-96	546-551	Koper	ORG[16]|LOC[17]	_	*->3-7|*->5-6	*[3]|*[5]	
+1-97	552-555	pod	_	_	_	_	
+1-98	556-564	vodstvom	_	_	_	_	
+1-99	565-569	Dina	PER[18]	3 - Nevtralno[30]	*->6-1	*[6]	
+1-100	570-577	Klobasa	PER[18]	3 - Nevtralno[30]	*->6-1	*[6]	
+1-101	578-580	je	_	_	_	_	
+1-102	581-582	s	_	_	_	_	
+1-103	583-589	petimi	_	_	_	_	
+1-104	590-597	glasovi	_	_	_	_	
+1-105	598-605	potrdil	_	_	_	_	
+1-106	606-614	prejšnji	_	_	*->2-4	*[2]	
+1-107	615-620	teden	_	_	*->2-4	*[2]	
+1-108	621-632	razrešenega	_	_	*->2-4	*[2]	
+1-109	633-642	državnega	_	_	*->2-4	*[2]	
+1-110	643-653	sekretarja	_	_	*->2-4	*[2]	
+1-111	654-662	Gašparja	PER[19]	_	*->2-4	*[2]	
+1-112	663-671	Gašparja	PER[19]	_	*->2-4	*[2]	
+1-113	672-678	Mišiča	PER[19]	_	*->2-4	*[2]	
+1-114	679-681	za	_	_	_	_	
+1-115	682-688	novega	_	_	*->2-5	*[2]	
+1-116	689-700	predsednika	_	_	*->2-5	*[2]	
+1-117	701-707	uprave	_	_	*->2-5	*[2]	
+1-118	708-709	.	_	_	_	_	
+1-119	710-712	To	_	_	_	_	
+1-120	713-715	je	_	_	_	_	
+1-121	716-725	razjarilo	_	_	_	_	
+1-122	726-729	tri	_	_	_	_	
+1-123	730-741	koalicijske	_	_	_	_	
+1-124	742-749	stranke	_	_	_	_	
+1-125	750-751	.	_	_	_	_	
+1-126	752-755	Šef	_	_	*->7-1	*[7]	
+1-127	756-758	SD	ORG	_	*->7-1|*->9-1	*[7]|*[9]	
+1-128	759-763	Igor	PER[20]	_	*->7-1	*[7]	
+1-129	764-770	Lukšič	PER[20]	_	*->7-1	*[7]	
+1-130	771-773	je	_	_	_	_	
+1-131	774-780	denimo	_	_	_	_	
+1-132	781-783	že	_	_	_	_	
+1-133	784-793	napovedal	_	_	*->7-2	*[7]	
+1-134	794-795	,	_	_	_	_	
+1-135	796-798	da	_	_	_	_	
+1-136	799-808	pričakuje	_	_	_	_	
+1-137	809-818	ukrepanje	_	_	_	_	
+1-138	819-828	Slovenske	ORG[21]	3 - Nevtralno[31]	*->8-1	*[8]	
+1-139	829-841	odškodninske	ORG[21]	3 - Nevtralno[31]	*->8-1	*[8]	
+1-140	842-848	družbe	ORG[21]	3 - Nevtralno[31]	*->8-1	*[8]	
+1-141	849-850	(	_	_	_	_	
+1-142	851-854	Sod	ORG	3 - Nevtralno	*->8-2	*[8]	
+1-143	855-856	)	_	_	_	_	
+1-144	857-859	in	_	_	_	_	
+1-145	860-865	vlade	_	_	_	_	
+1-146	866-867	.	_	_	_	_	
+1-147	868-869	V	_	_	_	_	
+1-148	870-880	nasprotnem	_	_	_	_	
+1-149	881-888	primeru	_	_	_	_	
+1-150	889-890	,	_	_	_	_	
+1-151	891-893	pa	_	_	_	_	
+1-152	894-896	bo	_	_	_	_	
+1-153	897-899	SD	ORG	3 - Nevtralno	*->9-2	*[9]	
+1-154	900-909	koalicijo	_	_	_	_	
+1-155	910-923	najverjetneje	_	_	_	_	
+1-156	924-933	zapustila	_	_	_	_	
+1-157	934-935	.	_	_	_	_	
+1-158	936-947	Ljubljanski	_	_	_	_	
+1-159	948-953	župan	_	_	_	_	
+1-160	954-959	Zoran	PER[22]	_	*->1-2	*[1]	
+1-161	960-968	Janković	PER[22]	_	*->1-2	*[1]	
+1-162	969-971	je	_	_	_	_	
+1-163	972-980	domnevno	_	_	_	_	
+1-164	981-990	vpletanje	_	_	_	_	
+1-165	991-992	v	_	_	_	_	
+1-166	993-1003	kadrovanje	_	_	_	_	
+1-167	1004-1011	večkrat	_	_	_	_	
+1-168	1012-1019	zanikal	_	_	_	_	
+1-169	1020-1021	.	_	_	_	_	
+1-170	1022-1030	Podjetja	_	_	_	_	
+1-171	1031-1040	njegovega	_	3 - Nevtralno	*->4-6|*->1-3	*[4]|*[1]	
+1-172	1041-1045	sina	_	_	*->4-6	*[4]	
+1-173	1046-1054	Damijana	PER[23]	_	*->4-6	*[4]	
+1-174	1055-1064	Jankovića	PER[23]	_	*->4-6	*[4]	
+1-175	1065-1067	pa	_	_	_	_	
+1-176	1068-1070	so	_	_	_	_	
+1-177	1071-1076	sicer	_	_	_	_	
+1-178	1077-1083	precej	_	_	_	_	
+1-179	1084-1093	zadolžena	_	_	_	_	
+1-180	1094-1095	.	_	_	_	_	
+1-181	1096-1102	Electa	ORG[24]	2 - Negativno[32]	*->10-1	*[10]	
+1-182	1103-1110	Naložbe	ORG[24]	2 - Negativno[32]	*->10-1	*[10]	
+1-183	1111-1112	,	_	_	_	_	
+1-184	1113-1119	Electa	ORG[25]	2 - Negativno[33]	*->11-1	*[11]	
+1-185	1120-1125	d.o.o	ORG[25]	2 - Negativno[33]	*->11-1	*[11]	
+1-186	1126-1127	.	_	_	_	_	
+1-187	1128-1129	,	_	_	_	_	
+1-188	1130-1139	Composita	ORG	2 - Negativno	*->12-1	*[12]	
+1-189	1140-1141	,	_	_	_	_	
+1-190	1142-1147	Oxina	ORG	2 - Negativno	*->13-1	*[13]	
+1-191	1148-1150	in	_	_	_	_	
+1-192	1151-1154	Sar	ORG	2 - Negativno	*->14-1	*[14]	
+1-193	1155-1160	imajo	_	_	_	_	
+1-194	1161-1163	po	_	_	_	_	
+1-195	1164-1172	podatkih	_	_	_	_	
+1-196	1173-1179	Ajpesa	ORG	3 - Nevtralno	*->15-1	*[15]	
+1-197	1180-1189	blokirane	_	_	_	_	
+1-198	1190-1196	račune	_	_	_	_	
+1-199	1197-1198	.	_	_	_	_	
+1-200	1199-1206	Damijan	PER[26]	2 - Negativno[34]	*->4-7	*[4]	
+1-201	1207-1215	Janković	PER[26]	2 - Negativno[34]	*->4-7	*[4]	
+1-202	1216-1221	pravi	_	_	_	_	
+1-203	1222-1223	,	_	_	_	_	
+1-204	1224-1226	da	_	_	_	_	
+1-205	1227-1230	ima	_	_	_	_	
+1-206	1231-1237	Gašpar	PER[27]	2 - Negativno[35]	*->2-6	*[2]	
+1-207	1238-1244	Gašpar	PER[27]	2 - Negativno[35]	*->2-6	*[2]	
+1-208	1245-1250	Mišič	PER[27]	2 - Negativno[35]	*->2-6	*[2]	
+1-209	1251-1252	v	_	_	_	_	
+1-210	1253-1257	Luki	ORG[28]	3 - Nevtralno[36]	*->3-8	*[3]	
+1-211	1258-1263	Koper	ORG[28]|LOC[29]	3 - Nevtralno[36]|3 - Nevtralno[37]	*->3-8|*->5-7	*[3]|*[5]	
+1-212	1264-1269	velik	_	_	_	_	
+1-213	1270-1279	potencial	_	_	_	_	

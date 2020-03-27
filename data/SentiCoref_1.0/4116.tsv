@@ -1,0 +1,479 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Preiskovalci Nacionalnega preiskovalnega urada ( NPU ) so na specializirano državno tožilstvo podali kazensko ovadbo zoper podjetnika Franca Riemerja . NPU ovadil Riemerja Dvanajst kandidatov za vodenje prodaje Telekoma Slovenska odškodninska družba ( Sod ) , ki vodi med drugim celotni prodajni postopek 72,75 odstotka delnic Telekoma Slovenije , je prejela 12 ponudb za finančnega svetovalca pri prodaji Telekoma Slovenije . Povabilo za izbor finančnega svetovalca je Sod poslal 15 pomembnejšim mednarodnim finančnim institucijam . Za dokončanje del v Markovcu dva ponudnika Na odpiranju ponudb za izvedbo elektro - strojnih del v predoru Markovec so na Darsu ugotovili , da sta prispeli dve ponudbi . Obe sta nižji od ponudb na prejšnjem razpisu , ki se je iztekel septembra lani . Družbe Iskra Sistemi , Riko , IMP , Javna razsvetljava in Traffic Design so v skupni ponudbi dela pripravljene opraviti za 12 milijonov evrov , medtem ko sta Tenzor in GVO oddala ponudbo v višini 10,4 milijona evrov . Ni več zanimanja za notranji odkup Večera ? Zanimanje zaposlenih v časopisni hiši Večer , ki so pred časom začeli razmišljati o možnosti notranjega odkupa , je očitno nekoliko uplahnilo . Pobudnikom je namreč uspelo zbrati » le « 65 pooblastil za nadaljnja pogajanja , z lastniki pa se bodo znova srečali v petek . Po pol leta znova normalno do plače V Aha Muri so po šestih mesecih včeraj spet dobili plačo na običajni plačilni dan , in to v celoti . Pol leta so jo namreč dobivali po delih , tudi po četrtinah . Casino Bled z novo nadzornico Alenka Žorž je nova nadzornica v Casinoju Bled , za še en mandat v nadzornem svetu pa sta bila imenovana Slavko Ažman in Boštjan Stopar , sicer direktor sežanskega Gold Cluba . Občina proti odpoklicu nadzornice Luke Koper Mestna občina Koper je za skupščino Luke Koper , ki bo potekala 7 . oktobra , vložila nasprotni predlog , s katerim želi v nadzornem svetu obdržati svojo predstavnico Sabino Mozetič . Drsimo po lestvici ekonomske svobode Slovenija je na lestvici ekonomske svobode , ki jo objavlja društvo Svetilnik v sodelovanju z Mrežo ekonomske svobode , letos med 152 državami zasedla šele 97 . mesto . To je pet mest slabše kot lani . Najbolje so se odrezali Hongkong , Singapur in Nova Zelandija , med državami EU pa Finska , Velika Britanija in Danska . Draga izdaja napoveduje portugalske težave Portugalska je včeraj z izdajo državnih dolžniških vrednostnih papirjev preizkusila razpoloženje na obvezniškem trgu . Zbrati ji je uspelo 1,3 milijarde evrov , a je bila zaradi strahu trgov , da bo potrebovala nov paket pomoči , prisiljena privoliti v višje obresti . Zahtevana donosnost na njene 18 - mesečne obveznice se je glede na zadnjo primerljivo dražbo zvišala za 0,7 odstotne točke , na 2,3 odstotka . Pripravila Jan Bratanič in
+1-1	0-12	Preiskovalci	_	_	_	_	
+1-2	13-25	Nacionalnega	ORG[1]	_	*->1-1	*[1]	
+1-3	26-40	preiskovalnega	ORG[1]	_	*->1-1	*[1]	
+1-4	41-46	urada	ORG[1]	_	*->1-1	*[1]	
+1-5	47-48	(	_	_	_	_	
+1-6	49-52	NPU	ORG	_	*->1-2	*[1]	
+1-7	53-54	)	_	_	_	_	
+1-8	55-57	so	_	_	_	_	
+1-9	58-60	na	_	_	_	_	
+1-10	61-75	specializirano	_	_	_	_	
+1-11	76-83	državno	_	_	*->35-1	*[35]	
+1-12	84-93	tožilstvo	_	_	_	_	
+1-13	94-100	podali	_	_	_	_	
+1-14	101-109	kazensko	_	_	_	_	
+1-15	110-116	ovadbo	_	_	_	_	
+1-16	117-122	zoper	_	_	_	_	
+1-17	123-133	podjetnika	_	_	*->2-1	*[2]	
+1-18	134-140	Franca	PER[2]	_	*->2-1	*[2]	
+1-19	141-149	Riemerja	PER[2]	_	*->2-1	*[2]	
+1-20	150-151	.	_	_	_	_	
+1-21	152-155	NPU	ORG	3 - Nevtralno	*->1-3	*[1]	
+1-22	156-162	ovadil	_	_	_	_	
+1-23	163-171	Riemerja	PER	2 - Negativno	*->2-2	*[2]	
+1-24	172-180	Dvanajst	_	_	_	_	
+1-25	181-191	kandidatov	_	_	_	_	
+1-26	192-194	za	_	_	_	_	
+1-27	195-202	vodenje	_	_	_	_	
+1-28	203-210	prodaje	_	_	_	_	
+1-29	211-219	Telekoma	ORG	_	*->3-1	*[3]	
+1-30	220-229	Slovenska	ORG[3]	_	*->4-1	*[4]	
+1-31	230-242	odškodninska	ORG[3]	_	*->4-1	*[4]	
+1-32	243-249	družba	ORG[3]	_	*->4-1	*[4]	
+1-33	250-251	(	_	_	_	_	
+1-34	252-255	Sod	ORG	_	*->4-2	*[4]	
+1-35	256-257	)	_	_	_	_	
+1-36	258-259	,	_	_	_	_	
+1-37	260-262	ki	_	_	_	_	
+1-38	263-267	vodi	_	_	_	_	
+1-39	268-271	med	_	_	_	_	
+1-40	272-278	drugim	_	_	_	_	
+1-41	279-286	celotni	_	_	_	_	
+1-42	287-295	prodajni	_	_	_	_	
+1-43	296-304	postopek	_	_	_	_	
+1-44	305-310	72,75	_	_	_	_	
+1-45	311-319	odstotka	_	_	_	_	
+1-46	320-326	delnic	_	_	_	_	
+1-47	327-335	Telekoma	ORG[4]	_	*->3-2	*[3]	
+1-48	336-345	Slovenije	ORG[4]|LOC[5]	_	*->3-2|*->35-2	*[3]|*[35]	
+1-49	346-347	,	_	_	_	_	
+1-50	348-350	je	_	_	_	_	
+1-51	351-358	prejela	_	_	_	_	
+1-52	359-361	12	_	_	_	_	
+1-53	362-368	ponudb	_	_	_	_	
+1-54	369-371	za	_	_	_	_	
+1-55	372-382	finančnega	_	_	_	_	
+1-56	383-393	svetovalca	_	_	_	_	
+1-57	394-397	pri	_	_	_	_	
+1-58	398-405	prodaji	_	_	_	_	
+1-59	406-414	Telekoma	ORG[6]	3 - Nevtralno[31]	*->3-3	*[3]	
+1-60	415-424	Slovenije	ORG[6]|LOC[7]	3 - Nevtralno[31]	*->3-3|*->35-3	*[3]|*[35]	
+1-61	425-426	.	_	_	_	_	
+1-62	427-435	Povabilo	_	_	_	_	
+1-63	436-438	za	_	_	_	_	
+1-64	439-444	izbor	_	_	_	_	
+1-65	445-455	finančnega	_	_	_	_	
+1-66	456-466	svetovalca	_	_	_	_	
+1-67	467-469	je	_	_	_	_	
+1-68	470-473	Sod	ORG	3 - Nevtralno	*->4-3	*[4]	
+1-69	474-480	poslal	_	_	_	_	
+1-70	481-483	15	_	_	_	_	
+1-71	484-496	pomembnejšim	_	_	_	_	
+1-72	497-508	mednarodnim	_	_	_	_	
+1-73	509-518	finančnim	_	_	_	_	
+1-74	519-531	institucijam	_	_	_	_	
+1-75	532-533	.	_	_	_	_	
+1-76	534-536	Za	_	_	_	_	
+1-77	537-547	dokončanje	_	_	_	_	
+1-78	548-551	del	_	_	_	_	
+1-79	552-553	v	_	_	_	_	
+1-80	554-562	Markovcu	_	_	_	_	
+1-81	563-566	dva	_	_	_	_	
+1-82	567-576	ponudnika	_	_	_	_	
+1-83	577-579	Na	_	_	_	_	
+1-84	580-589	odpiranju	_	_	_	_	
+1-85	590-596	ponudb	_	_	_	_	
+1-86	597-599	za	_	_	_	_	
+1-87	600-607	izvedbo	_	_	_	_	
+1-88	608-615	elektro	_	_	_	_	
+1-89	616-617	-	_	_	_	_	
+1-90	618-626	strojnih	_	_	_	_	
+1-91	627-630	del	_	_	_	_	
+1-92	631-632	v	_	_	_	_	
+1-93	633-640	predoru	_	_	_	_	
+1-94	641-649	Markovec	_	_	_	_	
+1-95	650-652	so	_	_	_	_	
+1-96	653-655	na	_	_	_	_	
+1-97	656-661	Darsu	ORG	3 - Nevtralno	*->5-1	*[5]	
+1-98	662-671	ugotovili	_	_	_	_	
+1-99	672-673	,	_	_	_	_	
+1-100	674-676	da	_	_	_	_	
+1-101	677-680	sta	_	_	_	_	
+1-102	681-689	prispeli	_	_	_	_	
+1-103	690-693	dve	_	_	_	_	
+1-104	694-701	ponudbi	_	_	_	_	
+1-105	702-703	.	_	_	_	_	
+1-106	704-707	Obe	_	_	_	_	
+1-107	708-711	sta	_	_	_	_	
+1-108	712-717	nižji	_	_	_	_	
+1-109	718-720	od	_	_	_	_	
+1-110	721-727	ponudb	_	_	_	_	
+1-111	728-730	na	_	_	_	_	
+1-112	731-740	prejšnjem	_	_	_	_	
+1-113	741-748	razpisu	_	_	_	_	
+1-114	749-750	,	_	_	_	_	
+1-115	751-753	ki	_	_	_	_	
+1-116	754-756	se	_	_	_	_	
+1-117	757-759	je	_	_	_	_	
+1-118	760-767	iztekel	_	_	_	_	
+1-119	768-777	septembra	_	_	_	_	
+1-120	778-782	lani	_	_	_	_	
+1-121	783-784	.	_	_	_	_	
+1-122	785-791	Družbe	_	_	_	_	
+1-123	792-797	Iskra	ORG[8]	3 - Nevtralno[32]	*->6-1	*[6]	
+1-124	798-805	Sistemi	ORG[8]	3 - Nevtralno[32]	*->6-1	*[6]	
+1-125	806-807	,	_	_	_	_	
+1-126	808-812	Riko	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-127	813-814	,	_	_	_	_	
+1-128	815-818	IMP	ORG	3 - Nevtralno	*->8-1	*[8]	
+1-129	819-820	,	_	_	_	_	
+1-130	821-826	Javna	ORG[9]	3 - Nevtralno[33]	*->9-1	*[9]	
+1-131	827-839	razsvetljava	ORG[9]	3 - Nevtralno[33]	*->9-1	*[9]	
+1-132	840-842	in	_	_	_	_	
+1-133	843-850	Traffic	ORG[10]	3 - Nevtralno[34]	*->10-1	*[10]	
+1-134	851-857	Design	ORG[10]	3 - Nevtralno[34]	*->10-1	*[10]	
+1-135	858-860	so	_	_	_	_	
+1-136	861-862	v	_	_	_	_	
+1-137	863-869	skupni	_	_	_	_	
+1-138	870-877	ponudbi	_	_	_	_	
+1-139	878-882	dela	_	_	_	_	
+1-140	883-895	pripravljene	_	_	_	_	
+1-141	896-904	opraviti	_	_	_	_	
+1-142	905-907	za	_	_	_	_	
+1-143	908-910	12	_	_	_	_	
+1-144	911-920	milijonov	_	_	_	_	
+1-145	921-926	evrov	_	_	_	_	
+1-146	927-928	,	_	_	_	_	
+1-147	929-935	medtem	_	_	_	_	
+1-148	936-938	ko	_	_	_	_	
+1-149	939-942	sta	_	_	_	_	
+1-150	943-949	Tenzor	ORG	3 - Nevtralno	*->11-1	*[11]	
+1-151	950-952	in	_	_	_	_	
+1-152	953-956	GVO	ORG	3 - Nevtralno	*->12-1	*[12]	
+1-153	957-963	oddala	_	_	_	_	
+1-154	964-971	ponudbo	_	_	_	_	
+1-155	972-973	v	_	_	_	_	
+1-156	974-980	višini	_	_	_	_	
+1-157	981-985	10,4	_	_	_	_	
+1-158	986-994	milijona	_	_	_	_	
+1-159	995-1000	evrov	_	_	_	_	
+1-160	1001-1002	.	_	_	_	_	
+1-161	1003-1005	Ni	_	_	_	_	
+1-162	1006-1009	več	_	_	_	_	
+1-163	1010-1019	zanimanja	_	_	_	_	
+1-164	1020-1022	za	_	_	_	_	
+1-165	1023-1031	notranji	_	_	_	_	
+1-166	1032-1037	odkup	_	_	_	_	
+1-167	1038-1044	Večera	ORG	_	*->13-1	*[13]	
+1-168	1045-1046	?	_	_	_	_	
+1-169	1047-1056	Zanimanje	_	_	_	_	
+1-170	1057-1067	zaposlenih	_	_	_	_	
+1-171	1068-1069	v	_	_	_	_	
+1-172	1070-1079	časopisni	_	3 - Nevtralno[35]	*->13-2	*[13]	
+1-173	1080-1084	hiši	_	3 - Nevtralno[35]	*->13-2	*[13]	
+1-174	1085-1090	Večer	ORG	3 - Nevtralno[35]	*->13-2	*[13]	
+1-175	1091-1092	,	_	_	_	_	
+1-176	1093-1095	ki	_	_	_	_	
+1-177	1096-1098	so	_	_	_	_	
+1-178	1099-1103	pred	_	_	_	_	
+1-179	1104-1109	časom	_	_	_	_	
+1-180	1110-1116	začeli	_	_	_	_	
+1-181	1117-1128	razmišljati	_	_	_	_	
+1-182	1129-1130	o	_	_	_	_	
+1-183	1131-1139	možnosti	_	_	_	_	
+1-184	1140-1150	notranjega	_	_	_	_	
+1-185	1151-1157	odkupa	_	_	_	_	
+1-186	1158-1159	,	_	_	_	_	
+1-187	1160-1162	je	_	_	_	_	
+1-188	1163-1169	očitno	_	_	_	_	
+1-189	1170-1178	nekoliko	_	_	_	_	
+1-190	1179-1188	uplahnilo	_	_	_	_	
+1-191	1189-1190	.	_	_	_	_	
+1-192	1191-1201	Pobudnikom	_	_	_	_	
+1-193	1202-1204	je	_	_	_	_	
+1-194	1205-1211	namreč	_	_	_	_	
+1-195	1212-1218	uspelo	_	_	_	_	
+1-196	1219-1225	zbrati	_	_	_	_	
+1-197	1226-1227	»	_	_	_	_	
+1-198	1228-1230	le	_	_	_	_	
+1-199	1231-1232	«	_	_	_	_	
+1-200	1233-1235	65	_	_	_	_	
+1-201	1236-1246	pooblastil	_	_	_	_	
+1-202	1247-1249	za	_	_	_	_	
+1-203	1250-1259	nadaljnja	_	_	_	_	
+1-204	1260-1269	pogajanja	_	_	_	_	
+1-205	1270-1271	,	_	_	_	_	
+1-206	1272-1273	z	_	_	_	_	
+1-207	1274-1282	lastniki	_	_	_	_	
+1-208	1283-1285	pa	_	_	_	_	
+1-209	1286-1288	se	_	_	_	_	
+1-210	1289-1293	bodo	_	_	_	_	
+1-211	1294-1299	znova	_	_	_	_	
+1-212	1300-1307	srečali	_	_	_	_	
+1-213	1308-1309	v	_	_	_	_	
+1-214	1310-1315	petek	_	_	_	_	
+1-215	1316-1317	.	_	_	_	_	
+1-216	1318-1320	Po	_	_	_	_	
+1-217	1321-1324	pol	_	_	_	_	
+1-218	1325-1329	leta	_	_	_	_	
+1-219	1330-1335	znova	_	_	_	_	
+1-220	1336-1344	normalno	_	_	_	_	
+1-221	1345-1347	do	_	_	_	_	
+1-222	1348-1353	plače	_	_	_	_	
+1-223	1354-1355	V	_	_	_	_	
+1-224	1356-1359	Aha	ORG[11]	2 - Negativno[36]	*->14-1	*[14]	
+1-225	1360-1364	Muri	ORG[11]	2 - Negativno[36]	*->14-1	*[14]	
+1-226	1365-1367	so	_	_	_	_	
+1-227	1368-1370	po	_	_	_	_	
+1-228	1371-1377	šestih	_	_	_	_	
+1-229	1378-1385	mesecih	_	_	_	_	
+1-230	1386-1392	včeraj	_	_	_	_	
+1-231	1393-1397	spet	_	_	_	_	
+1-232	1398-1404	dobili	_	_	_	_	
+1-233	1405-1410	plačo	_	_	_	_	
+1-234	1411-1413	na	_	_	_	_	
+1-235	1414-1422	običajni	_	_	_	_	
+1-236	1423-1431	plačilni	_	_	_	_	
+1-237	1432-1435	dan	_	_	_	_	
+1-238	1436-1437	,	_	_	_	_	
+1-239	1438-1440	in	_	_	_	_	
+1-240	1441-1443	to	_	_	_	_	
+1-241	1444-1445	v	_	_	_	_	
+1-242	1446-1452	celoti	_	_	_	_	
+1-243	1453-1454	.	_	_	_	_	
+1-244	1455-1458	Pol	_	_	_	_	
+1-245	1459-1463	leta	_	_	_	_	
+1-246	1464-1466	so	_	_	_	_	
+1-247	1467-1469	jo	_	_	_	_	
+1-248	1470-1476	namreč	_	_	_	_	
+1-249	1477-1485	dobivali	_	_	_	_	
+1-250	1486-1488	po	_	_	_	_	
+1-251	1489-1494	delih	_	_	_	_	
+1-252	1495-1496	,	_	_	_	_	
+1-253	1497-1501	tudi	_	_	_	_	
+1-254	1502-1504	po	_	_	_	_	
+1-255	1505-1514	četrtinah	_	_	_	_	
+1-256	1515-1516	.	_	_	_	_	
+1-257	1517-1523	Casino	ORG[12]	_	*->15-1	*[15]	
+1-258	1524-1528	Bled	ORG[12]|LOC[13]	_	*->15-1|*->16-1	*[15]|*[16]	
+1-259	1529-1530	z	_	_	_	_	
+1-260	1531-1535	novo	_	_	_	_	
+1-261	1536-1546	nadzornico	_	_	_	_	
+1-262	1547-1553	Alenka	PER[14]	4 - Pozitivno[37]	*->17-1	*[17]	
+1-263	1554-1558	Žorž	PER[14]	4 - Pozitivno[37]	*->17-1	*[17]	
+1-264	1559-1561	je	_	_	_	_	
+1-265	1562-1566	nova	_	_	_	_	
+1-266	1567-1577	nadzornica	_	_	_	_	
+1-267	1578-1579	v	_	_	_	_	
+1-268	1580-1588	Casinoju	ORG[15]	3 - Nevtralno[38]	*->15-2	*[15]	
+1-269	1589-1593	Bled	ORG[15]|LOC[16]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->15-2|*->16-2	*[15]|*[16]	
+1-270	1594-1595	,	_	_	_	_	
+1-271	1596-1598	za	_	_	_	_	
+1-272	1599-1601	še	_	_	_	_	
+1-273	1602-1604	en	_	_	_	_	
+1-274	1605-1611	mandat	_	_	_	_	
+1-275	1612-1613	v	_	_	_	_	
+1-276	1614-1623	nadzornem	_	_	_	_	
+1-277	1624-1629	svetu	_	_	_	_	
+1-278	1630-1632	pa	_	_	_	_	
+1-279	1633-1636	sta	_	_	_	_	
+1-280	1637-1641	bila	_	_	_	_	
+1-281	1642-1651	imenovana	_	_	_	_	
+1-282	1652-1658	Slavko	PER[17]	4 - Pozitivno[40]	*->18-1	*[18]	
+1-283	1659-1664	Ažman	PER[17]	4 - Pozitivno[40]	*->18-1	*[18]	
+1-284	1665-1667	in	_	_	_	_	
+1-285	1668-1675	Boštjan	PER[18]	_	*->19-1	*[19]	
+1-286	1676-1682	Stopar	PER[18]	_	*->19-1	*[19]	
+1-287	1683-1684	,	_	_	_	_	
+1-288	1685-1690	sicer	_	_	_	_	
+1-289	1691-1699	direktor	_	4 - Pozitivno[41]	*->19-2	*[19]	
+1-290	1700-1710	sežanskega	_	4 - Pozitivno[41]	*->19-2	*[19]	
+1-291	1711-1715	Gold	ORG[19]	4 - Pozitivno[41]|3 - Nevtralno[42]	*->19-2|*->20-1	*[19]|*[20]	
+1-292	1716-1721	Cluba	ORG[19]	4 - Pozitivno[41]|3 - Nevtralno[42]	*->19-2|*->20-1	*[19]|*[20]	
+1-293	1722-1723	.	_	_	_	_	
+1-294	1724-1730	Občina	_	_	*->21-1	*[21]	
+1-295	1731-1736	proti	_	_	_	_	
+1-296	1737-1746	odpoklicu	_	_	_	_	
+1-297	1747-1757	nadzornice	_	_	*->22-1	*[22]	
+1-298	1758-1762	Luke	ORG[20]	_	*->22-1|*->23-1	*[22]|*[23]	
+1-299	1763-1768	Koper	ORG[20]|LOC[21]	_	*->22-1|*->23-1|*->24-1	*[22]|*[23]|*[24]	
+1-300	1769-1775	Mestna	ORG[22]	3 - Nevtralno[43]	*->21-2	*[21]	
+1-301	1776-1782	občina	ORG[22]	3 - Nevtralno[43]	*->21-2	*[21]	
+1-302	1783-1788	Koper	ORG[22]|LOC[23]	3 - Nevtralno[43]	*->21-2|*->24-2	*[21]|*[24]	
+1-303	1789-1791	je	_	_	_	_	
+1-304	1792-1794	za	_	_	_	_	
+1-305	1795-1804	skupščino	_	_	_	_	
+1-306	1805-1809	Luke	ORG[24]	3 - Nevtralno[44]	*->23-2	*[23]	
+1-307	1810-1815	Koper	ORG[24]|LOC[25]	3 - Nevtralno[44]|3 - Nevtralno[45]	*->23-2|*->24-3	*[23]|*[24]	
+1-308	1816-1817	,	_	_	_	_	
+1-309	1818-1820	ki	_	_	_	_	
+1-310	1821-1823	bo	_	_	_	_	
+1-311	1824-1832	potekala	_	_	_	_	
+1-312	1833-1834	7	_	_	_	_	
+1-313	1835-1836	.	_	_	_	_	
+1-314	1837-1844	oktobra	_	_	_	_	
+1-315	1845-1846	,	_	_	_	_	
+1-316	1847-1854	vložila	_	_	_	_	
+1-317	1855-1864	nasprotni	_	_	_	_	
+1-318	1865-1872	predlog	_	_	_	_	
+1-319	1873-1874	,	_	_	_	_	
+1-320	1875-1876	s	_	_	_	_	
+1-321	1877-1884	katerim	_	_	_	_	
+1-322	1885-1889	želi	_	_	_	_	
+1-323	1890-1891	v	_	_	_	_	
+1-324	1892-1901	nadzornem	_	_	_	_	
+1-325	1902-1907	svetu	_	_	_	_	
+1-326	1908-1916	obdržati	_	_	_	_	
+1-327	1917-1922	svojo	_	_	_	_	
+1-328	1923-1935	predstavnico	_	3 - Nevtralno[46]	*->22-2	*[22]	
+1-329	1936-1942	Sabino	PER[26]	3 - Nevtralno[46]	*->22-2	*[22]	
+1-330	1943-1950	Mozetič	PER[26]	3 - Nevtralno[46]	*->22-2	*[22]	
+1-331	1951-1952	.	_	_	_	_	
+1-332	1953-1959	Drsimo	_	_	_	_	
+1-333	1960-1962	po	_	_	_	_	
+1-334	1963-1971	lestvici	_	_	_	_	
+1-335	1972-1981	ekonomske	_	_	_	_	
+1-336	1982-1989	svobode	_	_	_	_	
+1-337	1990-1999	Slovenija	ORG	_	*->35-4	*[35]	
+1-338	2000-2002	je	_	_	_	_	
+1-339	2003-2005	na	_	_	_	_	
+1-340	2006-2014	lestvici	_	_	_	_	
+1-341	2015-2024	ekonomske	_	_	_	_	
+1-342	2025-2032	svobode	_	_	_	_	
+1-343	2033-2034	,	_	_	_	_	
+1-344	2035-2037	ki	_	_	_	_	
+1-345	2038-2040	jo	_	_	_	_	
+1-346	2041-2049	objavlja	_	_	_	_	
+1-347	2050-2057	društvo	_	_	_	_	
+1-348	2058-2067	Svetilnik	ORG	3 - Nevtralno	*->25-1	*[25]	
+1-349	2068-2069	v	_	_	_	_	
+1-350	2070-2081	sodelovanju	_	_	_	_	
+1-351	2082-2083	z	_	_	_	_	
+1-352	2084-2089	Mrežo	ORG[27]	3 - Nevtralno[47]	*->26-1	*[26]	
+1-353	2090-2099	ekonomske	ORG[27]	3 - Nevtralno[47]	*->26-1	*[26]	
+1-354	2100-2107	svobode	ORG[27]	3 - Nevtralno[47]	*->26-1	*[26]	
+1-355	2108-2109	,	_	_	_	_	
+1-356	2110-2115	letos	_	_	_	_	
+1-357	2116-2119	med	_	_	_	_	
+1-358	2120-2123	152	_	_	_	_	
+1-359	2124-2132	državami	_	_	_	_	
+1-360	2133-2140	zasedla	_	2 - Negativno	*->35-5	*[35]	
+1-361	2141-2145	šele	_	_	_	_	
+1-362	2146-2148	97	_	_	_	_	
+1-363	2149-2150	.	_	_	_	_	
+1-364	2151-2156	mesto	_	_	_	_	
+1-365	2157-2158	.	_	_	_	_	
+1-366	2159-2161	To	_	_	_	_	
+1-367	2162-2164	je	_	_	_	_	
+1-368	2165-2168	pet	_	_	_	_	
+1-369	2169-2173	mest	_	_	_	_	
+1-370	2174-2180	slabše	_	_	_	_	
+1-371	2181-2184	kot	_	_	_	_	
+1-372	2185-2189	lani	_	_	_	_	
+1-373	2190-2191	.	_	_	_	_	
+1-374	2192-2200	Najbolje	_	_	_	_	
+1-375	2201-2203	so	_	_	_	_	
+1-376	2204-2206	se	_	_	_	_	
+1-377	2207-2215	odrezali	_	_	_	_	
+1-378	2216-2224	Hongkong	ORG	4 - Pozitivno	*->27-1	*[27]	
+1-379	2225-2226	,	_	_	_	_	
+1-380	2227-2235	Singapur	ORG	4 - Pozitivno	*->28-1	*[28]	
+1-381	2236-2238	in	_	_	_	_	
+1-382	2239-2243	Nova	ORG[28]	4 - Pozitivno[48]	*->29-1	*[29]	
+1-383	2244-2253	Zelandija	ORG[28]	4 - Pozitivno[48]	*->29-1	*[29]	
+1-384	2254-2255	,	_	_	_	_	
+1-385	2256-2259	med	_	_	_	_	
+1-386	2260-2268	državami	_	_	_	_	
+1-387	2269-2271	EU	ORG	3 - Nevtralno	*->30-1	*[30]	
+1-388	2272-2274	pa	_	_	_	_	
+1-389	2275-2281	Finska	ORG	4 - Pozitivno	*->31-1	*[31]	
+1-390	2282-2283	,	_	_	_	_	
+1-391	2284-2290	Velika	ORG[29]	4 - Pozitivno[49]	*->32-1	*[32]	
+1-392	2291-2300	Britanija	ORG[29]	4 - Pozitivno[49]	*->32-1	*[32]	
+1-393	2301-2303	in	_	_	_	_	
+1-394	2304-2310	Danska	ORG	4 - Pozitivno	*->33-1	*[33]	
+1-395	2311-2312	.	_	_	_	_	
+1-396	2313-2318	Draga	_	_	_	_	
+1-397	2319-2325	izdaja	_	_	_	_	
+1-398	2326-2336	napoveduje	_	_	_	_	
+1-399	2337-2348	portugalske	_	_	_	_	
+1-400	2349-2355	težave	_	_	_	_	
+1-401	2356-2367	Portugalska	ORG	_	*->36-1	*[36]	
+1-402	2368-2370	je	_	_	_	_	
+1-403	2371-2377	včeraj	_	_	_	_	
+1-404	2378-2379	z	_	_	_	_	
+1-405	2380-2386	izdajo	_	_	_	_	
+1-406	2387-2395	državnih	_	_	_	_	
+1-407	2396-2406	dolžniških	_	_	_	_	
+1-408	2407-2418	vrednostnih	_	_	_	_	
+1-409	2419-2427	papirjev	_	_	_	_	
+1-410	2428-2439	preizkusila	_	_	_	_	
+1-411	2440-2452	razpoloženje	_	_	_	_	
+1-412	2453-2455	na	_	_	_	_	
+1-413	2456-2467	obvezniškem	_	_	_	_	
+1-414	2468-2472	trgu	_	_	_	_	
+1-415	2473-2474	.	_	_	_	_	
+1-416	2475-2481	Zbrati	_	_	_	_	
+1-417	2482-2484	ji	_	_	*->36-2	*[36]	
+1-418	2485-2487	je	_	_	_	_	
+1-419	2488-2494	uspelo	_	_	_	_	
+1-420	2495-2498	1,3	_	_	_	_	
+1-421	2499-2508	milijarde	_	_	_	_	
+1-422	2509-2514	evrov	_	_	_	_	
+1-423	2515-2516	,	_	_	_	_	
+1-424	2517-2518	a	_	_	_	_	
+1-425	2519-2521	je	_	_	_	_	
+1-426	2522-2526	bila	_	_	*->36-3	*[36]	
+1-427	2527-2533	zaradi	_	_	_	_	
+1-428	2534-2540	strahu	_	_	_	_	
+1-429	2541-2546	trgov	_	_	_	_	
+1-430	2547-2548	,	_	_	_	_	
+1-431	2549-2551	da	_	_	_	_	
+1-432	2552-2554	bo	_	_	_	_	
+1-433	2555-2566	potrebovala	_	_	*->36-4	*[36]	
+1-434	2567-2570	nov	_	_	_	_	
+1-435	2571-2576	paket	_	_	_	_	
+1-436	2577-2583	pomoči	_	_	_	_	
+1-437	2584-2585	,	_	_	_	_	
+1-438	2586-2596	prisiljena	_	_	*->36-5	*[36]	
+1-439	2597-2606	privoliti	_	_	_	_	
+1-440	2607-2608	v	_	_	_	_	
+1-441	2609-2614	višje	_	_	_	_	
+1-442	2615-2622	obresti	_	_	_	_	
+1-443	2623-2624	.	_	_	_	_	
+1-444	2625-2634	Zahtevana	_	_	_	_	
+1-445	2635-2644	donosnost	_	_	_	_	
+1-446	2645-2647	na	_	_	_	_	
+1-447	2648-2653	njene	_	3 - Nevtralno	*->36-6	*[36]	
+1-448	2654-2656	18	_	_	_	_	
+1-449	2657-2658	-	_	_	_	_	
+1-450	2659-2666	mesečne	_	_	_	_	
+1-451	2667-2676	obveznice	_	_	_	_	
+1-452	2677-2679	se	_	_	_	_	
+1-453	2680-2682	je	_	_	_	_	
+1-454	2683-2688	glede	_	_	_	_	
+1-455	2689-2691	na	_	_	_	_	
+1-456	2692-2698	zadnjo	_	_	_	_	
+1-457	2699-2710	primerljivo	_	_	_	_	
+1-458	2711-2717	dražbo	_	_	_	_	
+1-459	2718-2725	zvišala	_	_	_	_	
+1-460	2726-2728	za	_	_	_	_	
+1-461	2729-2732	0,7	_	_	_	_	
+1-462	2733-2741	odstotne	_	_	_	_	
+1-463	2742-2747	točke	_	_	_	_	
+1-464	2748-2749	,	_	_	_	_	
+1-465	2750-2752	na	_	_	_	_	
+1-466	2753-2756	2,3	_	_	_	_	
+1-467	2757-2765	odstotka	_	_	_	_	
+1-468	2766-2767	.	_	_	_	_	
+1-469	2768-2778	Pripravila	_	_	_	_	
+1-470	2779-2782	Jan	PER[30]	3 - Nevtralno[50]	*->34-1	*[34]	
+1-471	2783-2791	Bratanič	PER[30]	3 - Nevtralno[50]	*->34-1	*[34]	
+1-472	2792-2794	in	_	_	_	_	

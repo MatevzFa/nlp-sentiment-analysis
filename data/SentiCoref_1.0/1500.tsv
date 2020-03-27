@@ -1,0 +1,419 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Čeprav je Pivovarna Laško podpisala sporazum o skupni prodaji več kot polovičnega deleža Mercatorja , pa z bankami še vedno ni podpisala dogovora o reprogramiranju posojil . Pogajanja namreč še potekajo . Pivovarna Laško je v sredo podpisala sporazum o skupni prodaji več kot polovičnega deleža Mercatorja , so danes potrdili v pivovarni . Sporazum naj bi podpisala tudi Nova Ljubljanska banka , v prihodnjih dneh naj bi to storile še Nova Kreditna banka Maribor , Gorenjska banka , Abanka Vipa , Banka Celje in Banka Koper . Splitska banka Societe Generale ima danes v Mercatorju že skoraj petodstotni lastniški delež , kaže delniška knjiga . Delnice naj bi Splitčani kupili za hrvaški pokojninski sklad AZ , ki je posredno v lasti Zagrebačke banke , ta pa v lasti italijanske Unicredit banke . Skupina Unicredit ima tako neposredno oz . posredno že skoraj 15 odstotkov Mercatorja . Unicredit banka je eden največjih upnikov Agrokorja , zato naj bi bilo , tako poznavalci , banki v interesu , da se Agrokor in Mercator združita , s čimer bi postala največje trgovsko podjetje na Balkanu , s tem pa bi postala tudi tarča interesa velikih trgovskih multinacionalk . Kljub podpisu sporazuma o skupni prodaji Mercatorja pa Pivovarna Laško z bankami še vedno ni podpisala dogovora o reprogramu posojil , saj pogajanja še potekajo , so pojasnili v pivovarni . Glede reprograma posojil Pivovarni Laško je prvi mož družbe po majski seji nadzornega sveta Dušan Zorko pojasnil , da noben reprogram ni optimalen , ker je treba plačati obresti . Pivovarni Union in Laško tako vsak mesec za plačilo obresti namenita od 1,8 do dva milijona evrov , zapadlost posojil pa je vsakodnevna . Po njegovem mnenju je skupino Pivovarno Laško možno stabilizirati kljub visokim obrestim za reprogram tudi z reprogramom že najetih posojil in dokapitalizacijo . Skupina Pivovarna Laško ima 420 milijonov evrov posojil , od tega jih je 30 odstotkov dolgoročnih . Junija pa bodo zapadla v poplačilo posojila , ki so bila najeta za nakup Mercatorja , je dejal Zorko . Po njegovi oceni bi za saniranje skupine potrebovali 109 milijonov evrov svežega kapitala , kljub temu pa so skupščini delničarjev , ki bo 24 . junija , predlagali dokapitalizacijo v višini za največ 36,5 milijona evrov . Sicer bodo nadzorniki Pivovarne Laško na ponedeljkovi seji razpravljali o razmerah na trgu pijač , seznanili se bodo tudi s profitabilnostjo posameznih programov Pivovarne Laško in z dezinvestiranjem , zlasti z napovedano prodajo Fructala
+1-1	0-6	Čeprav	_	_	_	_	
+1-2	7-9	je	_	_	_	_	
+1-3	10-19	Pivovarna	ORG[1]	_	*->21-1	*[21]	
+1-4	20-25	Laško	ORG[1]|LOC[2]	_	*->21-1|*->19-1	*[21]|*[19]	
+1-5	26-35	podpisala	_	_	_	_	
+1-6	36-44	sporazum	_	_	_	_	
+1-7	45-46	o	_	_	_	_	
+1-8	47-53	skupni	_	_	_	_	
+1-9	54-61	prodaji	_	_	_	_	
+1-10	62-65	več	_	_	_	_	
+1-11	66-69	kot	_	_	_	_	
+1-12	70-81	polovičnega	_	_	_	_	
+1-13	82-88	deleža	_	_	_	_	
+1-14	89-99	Mercatorja	ORG	_	*->1-1	*[1]	
+1-15	100-101	,	_	_	_	_	
+1-16	102-104	pa	_	_	_	_	
+1-17	105-106	z	_	_	_	_	
+1-18	107-114	bankami	_	_	_	_	
+1-19	115-117	še	_	_	_	_	
+1-20	118-123	vedno	_	_	_	_	
+1-21	124-126	ni	_	_	_	_	
+1-22	127-136	podpisala	_	_	*->21-2	*[21]	
+1-23	137-145	dogovora	_	_	_	_	
+1-24	146-147	o	_	_	_	_	
+1-25	148-163	reprogramiranju	_	_	_	_	
+1-26	164-171	posojil	_	_	_	_	
+1-27	172-173	.	_	_	_	_	
+1-28	174-183	Pogajanja	_	_	_	_	
+1-29	184-190	namreč	_	_	_	_	
+1-30	191-193	še	_	_	_	_	
+1-31	194-202	potekajo	_	_	_	_	
+1-32	203-204	.	_	_	_	_	
+1-33	205-214	Pivovarna	ORG[3]	_	*->21-3	*[21]	
+1-34	215-220	Laško	ORG[3]|LOC[4]	_	*->21-3|*->19-2	*[21]|*[19]	
+1-35	221-223	je	_	_	_	_	
+1-36	224-225	v	_	_	_	_	
+1-37	226-231	sredo	_	_	_	_	
+1-38	232-241	podpisala	_	_	_	_	
+1-39	242-250	sporazum	_	_	_	_	
+1-40	251-252	o	_	_	_	_	
+1-41	253-259	skupni	_	_	_	_	
+1-42	260-267	prodaji	_	_	_	_	
+1-43	268-271	več	_	_	_	_	
+1-44	272-275	kot	_	_	_	_	
+1-45	276-287	polovičnega	_	_	_	_	
+1-46	288-294	deleža	_	_	_	_	
+1-47	295-305	Mercatorja	ORG	_	*->1-2	*[1]	
+1-48	306-307	,	_	_	_	_	
+1-49	308-310	so	_	_	_	_	
+1-50	311-316	danes	_	_	_	_	
+1-51	317-325	potrdili	_	_	_	_	
+1-52	326-327	v	_	_	_	_	
+1-53	328-337	pivovarni	_	_	*->21-4	*[21]	
+1-54	338-339	.	_	_	_	_	
+1-55	340-348	Sporazum	_	_	_	_	
+1-56	349-352	naj	_	_	_	_	
+1-57	353-355	bi	_	_	_	_	
+1-58	356-365	podpisala	_	_	_	_	
+1-59	366-370	tudi	_	_	_	_	
+1-60	371-375	Nova	ORG[5]	3 - Nevtralno[33]	*->2-1	*[2]	
+1-61	376-387	Ljubljanska	ORG[5]	3 - Nevtralno[33]	*->2-1	*[2]	
+1-62	388-393	banka	ORG[5]	3 - Nevtralno[33]	*->2-1	*[2]	
+1-63	394-395	,	_	_	_	_	
+1-64	396-397	v	_	_	_	_	
+1-65	398-408	prihodnjih	_	_	_	_	
+1-66	409-413	dneh	_	_	_	_	
+1-67	414-417	naj	_	_	_	_	
+1-68	418-420	bi	_	_	_	_	
+1-69	421-423	to	_	_	_	_	
+1-70	424-431	storile	_	_	_	_	
+1-71	432-434	še	_	_	_	_	
+1-72	435-439	Nova	ORG[6]	3 - Nevtralno[34]	*->3-1	*[3]	
+1-73	440-448	Kreditna	ORG[6]	3 - Nevtralno[34]	*->3-1	*[3]	
+1-74	449-454	banka	ORG[6]	3 - Nevtralno[34]	*->3-1	*[3]	
+1-75	455-462	Maribor	ORG[6]|LOC[7]	3 - Nevtralno[34]|3 - Nevtralno[35]	*->3-1|*->4-1	*[3]|*[4]	
+1-76	463-464	,	_	_	_	_	
+1-77	465-474	Gorenjska	ORG[8]	3 - Nevtralno[36]	*->5-1	*[5]	
+1-78	475-480	banka	ORG[8]	3 - Nevtralno[36]	*->5-1	*[5]	
+1-79	481-482	,	_	_	_	_	
+1-80	483-489	Abanka	ORG[9]	3 - Nevtralno[37]	*->6-1	*[6]	
+1-81	490-494	Vipa	ORG[9]	3 - Nevtralno[37]	*->6-1	*[6]	
+1-82	495-496	,	_	_	_	_	
+1-83	497-502	Banka	ORG[10]	3 - Nevtralno[38]	*->7-1	*[7]	
+1-84	503-508	Celje	ORG[10]|LOC[11]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->7-1|*->8-1	*[7]|*[8]	
+1-85	509-511	in	_	_	_	_	
+1-86	512-517	Banka	ORG[12]	3 - Nevtralno[40]	*->9-1	*[9]	
+1-87	518-523	Koper	ORG[12]|LOC[13]	3 - Nevtralno[40]|3 - Nevtralno[41]	*->9-1|*->10-1	*[9]|*[10]	
+1-88	524-525	.	_	_	_	_	
+1-89	526-534	Splitska	_	_	*->11-1	*[11]	
+1-90	535-540	banka	_	_	*->11-1	*[11]	
+1-91	541-548	Societe	ORG[14]	_	*->11-1	*[11]	
+1-92	549-557	Generale	ORG[14]	_	*->11-1	*[11]	
+1-93	558-561	ima	_	_	_	_	
+1-94	562-567	danes	_	_	_	_	
+1-95	568-569	v	_	_	_	_	
+1-96	570-580	Mercatorju	ORG	_	*->1-3	*[1]	
+1-97	581-583	že	_	_	_	_	
+1-98	584-590	skoraj	_	_	_	_	
+1-99	591-602	petodstotni	_	_	_	_	
+1-100	603-612	lastniški	_	_	_	_	
+1-101	613-618	delež	_	_	_	_	
+1-102	619-620	,	_	_	_	_	
+1-103	621-625	kaže	_	_	_	_	
+1-104	626-634	delniška	_	_	_	_	
+1-105	635-641	knjiga	_	_	_	_	
+1-106	642-643	.	_	_	_	_	
+1-107	644-651	Delnice	_	_	_	_	
+1-108	652-655	naj	_	_	_	_	
+1-109	656-658	bi	_	_	_	_	
+1-110	659-668	Splitčani	_	3 - Nevtralno	*->11-2	*[11]	
+1-111	669-675	kupili	_	_	_	_	
+1-112	676-678	za	_	_	_	_	
+1-113	679-686	hrvaški	_	3 - Nevtralno[42]	*->12-1	*[12]	
+1-114	687-698	pokojninski	_	3 - Nevtralno[42]	*->12-1	*[12]	
+1-115	699-704	sklad	_	3 - Nevtralno[42]	*->12-1	*[12]	
+1-116	705-707	AZ	ORG	3 - Nevtralno[42]	*->12-1	*[12]	
+1-117	708-709	,	_	_	_	_	
+1-118	710-712	ki	_	_	_	_	
+1-119	713-715	je	_	_	_	_	
+1-120	716-724	posredno	_	_	_	_	
+1-121	725-726	v	_	_	_	_	
+1-122	727-732	lasti	_	_	_	_	
+1-123	733-743	Zagrebačke	ORG[15]	_	*->13-1	*[13]	
+1-124	744-749	banke	ORG[15]	_	*->13-1	*[13]	
+1-125	750-751	,	_	_	_	_	
+1-126	752-754	ta	_	3 - Nevtralno	*->13-2	*[13]	
+1-127	755-757	pa	_	_	_	_	
+1-128	758-759	v	_	_	_	_	
+1-129	760-765	lasti	_	_	_	_	
+1-130	766-777	italijanske	_	_	_	_	
+1-131	778-787	Unicredit	ORG[16]	_	*->14-1	*[14]	
+1-132	788-793	banke	ORG[16]	_	*->14-1	*[14]	
+1-133	794-795	.	_	_	_	_	
+1-134	796-803	Skupina	ORG[17]	_	*->14-2	*[14]	
+1-135	804-813	Unicredit	ORG[17]	_	*->14-2	*[14]	
+1-136	814-817	ima	_	_	_	_	
+1-137	818-822	tako	_	_	_	_	
+1-138	823-833	neposredno	_	_	_	_	
+1-139	834-836	oz	_	_	_	_	
+1-140	837-838	.	_	_	_	_	
+1-141	839-847	posredno	_	_	_	_	
+1-142	848-850	že	_	_	_	_	
+1-143	851-857	skoraj	_	_	_	_	
+1-144	858-860	15	_	_	_	_	
+1-145	861-870	odstotkov	_	_	_	_	
+1-146	871-881	Mercatorja	ORG	_	*->1-4	*[1]	
+1-147	882-883	.	_	_	_	_	
+1-148	884-893	Unicredit	ORG[18]	_	*->14-3	*[14]	
+1-149	894-899	banka	ORG[18]	_	*->14-3	*[14]	
+1-150	900-902	je	_	_	_	_	
+1-151	903-907	eden	_	_	_	_	
+1-152	908-917	največjih	_	_	_	_	
+1-153	918-925	upnikov	_	_	_	_	
+1-154	926-935	Agrokorja	ORG	_	*->15-1	*[15]	
+1-155	936-937	,	_	_	_	_	
+1-156	938-942	zato	_	_	_	_	
+1-157	943-946	naj	_	_	_	_	
+1-158	947-949	bi	_	_	_	_	
+1-159	950-954	bilo	_	_	_	_	
+1-160	955-956	,	_	_	_	_	
+1-161	957-961	tako	_	_	_	_	
+1-162	962-972	poznavalci	_	_	_	_	
+1-163	973-974	,	_	_	_	_	
+1-164	975-980	banki	_	3 - Nevtralno	*->14-4	*[14]	
+1-165	981-982	v	_	_	_	_	
+1-166	983-991	interesu	_	_	_	_	
+1-167	992-993	,	_	_	_	_	
+1-168	994-996	da	_	_	_	_	
+1-169	997-999	se	_	_	_	_	
+1-170	1000-1007	Agrokor	ORG	3 - Nevtralno	*->15-2	*[15]	
+1-171	1008-1010	in	_	_	_	_	
+1-172	1011-1019	Mercator	ORG	_	*->1-5	*[1]	
+1-173	1020-1028	združita	_	_	_	_	
+1-174	1029-1030	,	_	_	_	_	
+1-175	1031-1032	s	_	_	_	_	
+1-176	1033-1038	čimer	_	_	_	_	
+1-177	1039-1041	bi	_	_	_	_	
+1-178	1042-1049	postala	_	_	_	_	
+1-179	1050-1058	največje	_	_	_	_	
+1-180	1059-1067	trgovsko	_	_	_	_	
+1-181	1068-1076	podjetje	_	_	_	_	
+1-182	1077-1079	na	_	_	_	_	
+1-183	1080-1087	Balkanu	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-184	1088-1089	,	_	_	_	_	
+1-185	1090-1091	s	_	_	_	_	
+1-186	1092-1095	tem	_	_	_	_	
+1-187	1096-1098	pa	_	_	_	_	
+1-188	1099-1101	bi	_	_	_	_	
+1-189	1102-1109	postala	_	_	_	_	
+1-190	1110-1114	tudi	_	_	_	_	
+1-191	1115-1120	tarča	_	_	_	_	
+1-192	1121-1129	interesa	_	_	_	_	
+1-193	1130-1137	velikih	_	_	_	_	
+1-194	1138-1147	trgovskih	_	_	_	_	
+1-195	1148-1162	multinacionalk	_	_	_	_	
+1-196	1163-1164	.	_	_	_	_	
+1-197	1165-1170	Kljub	_	_	_	_	
+1-198	1171-1178	podpisu	_	_	_	_	
+1-199	1179-1188	sporazuma	_	_	_	_	
+1-200	1189-1190	o	_	_	_	_	
+1-201	1191-1197	skupni	_	_	_	_	
+1-202	1198-1205	prodaji	_	_	_	_	
+1-203	1206-1216	Mercatorja	ORG	_	*->1-6	*[1]	
+1-204	1217-1219	pa	_	_	_	_	
+1-205	1220-1229	Pivovarna	ORG[19]	_	*->21-5	*[21]	
+1-206	1230-1235	Laško	ORG[19]|LOC[20]	_	*->21-5|*->19-3	*[21]|*[19]	
+1-207	1236-1237	z	_	_	_	_	
+1-208	1238-1245	bankami	_	_	_	_	
+1-209	1246-1248	še	_	_	_	_	
+1-210	1249-1254	vedno	_	_	_	_	
+1-211	1255-1257	ni	_	_	_	_	
+1-212	1258-1267	podpisala	_	_	_	_	
+1-213	1268-1276	dogovora	_	_	_	_	
+1-214	1277-1278	o	_	_	_	_	
+1-215	1279-1289	reprogramu	_	_	_	_	
+1-216	1290-1297	posojil	_	_	_	_	
+1-217	1298-1299	,	_	_	_	_	
+1-218	1300-1303	saj	_	_	_	_	
+1-219	1304-1313	pogajanja	_	_	_	_	
+1-220	1314-1316	še	_	_	_	_	
+1-221	1317-1325	potekajo	_	_	_	_	
+1-222	1326-1327	,	_	_	_	_	
+1-223	1328-1330	so	_	_	_	_	
+1-224	1331-1340	pojasnili	_	_	_	_	
+1-225	1341-1342	v	_	_	_	_	
+1-226	1343-1352	pivovarni	_	_	*->21-6	*[21]	
+1-227	1353-1354	.	_	_	_	_	
+1-228	1355-1360	Glede	_	_	_	_	
+1-229	1361-1371	reprograma	_	_	_	_	
+1-230	1372-1379	posojil	_	_	_	_	
+1-231	1380-1389	Pivovarni	ORG[21]	_	*->21-7	*[21]	
+1-232	1390-1395	Laško	ORG[21]|LOC[22]	_	*->21-7|*->19-4	*[21]|*[19]	
+1-233	1396-1398	je	_	_	_	_	
+1-234	1399-1403	prvi	_	3 - Nevtralno[43]	*->17-1	*[17]	
+1-235	1404-1407	mož	_	3 - Nevtralno[43]	*->17-1	*[17]	
+1-236	1408-1414	družbe	_	3 - Nevtralno[43]	*->17-1|*->21-8	*[17]|*[21]	
+1-237	1415-1417	po	_	3 - Nevtralno[43]	*->17-1	*[17]	
+1-238	1418-1424	majski	_	3 - Nevtralno[43]	*->17-1	*[17]	
+1-239	1425-1429	seji	_	3 - Nevtralno[43]	*->17-1	*[17]	
+1-240	1430-1440	nadzornega	_	3 - Nevtralno[43]	*->17-1	*[17]	
+1-241	1441-1446	sveta	_	3 - Nevtralno[43]	*->17-1	*[17]	
+1-242	1447-1452	Dušan	PER[23]	3 - Nevtralno[43]	*->17-1	*[17]	
+1-243	1453-1458	Zorko	PER[23]	3 - Nevtralno[43]	*->17-1	*[17]	
+1-244	1459-1467	pojasnil	_	_	_	_	
+1-245	1468-1469	,	_	_	_	_	
+1-246	1470-1472	da	_	_	_	_	
+1-247	1473-1478	noben	_	_	_	_	
+1-248	1479-1488	reprogram	_	_	_	_	
+1-249	1489-1491	ni	_	_	_	_	
+1-250	1492-1501	optimalen	_	_	_	_	
+1-251	1502-1503	,	_	_	_	_	
+1-252	1504-1507	ker	_	_	_	_	
+1-253	1508-1510	je	_	_	_	_	
+1-254	1511-1516	treba	_	_	_	_	
+1-255	1517-1524	plačati	_	_	_	_	
+1-256	1525-1532	obresti	_	_	_	_	
+1-257	1533-1534	.	_	_	_	_	
+1-258	1535-1544	Pivovarni	ORG[24]	3 - Nevtralno[44]	*->18-1	*[18]	
+1-259	1545-1550	Union	ORG[24]	3 - Nevtralno[44]	*->18-1	*[18]	
+1-260	1551-1553	in	_	_	_	_	
+1-261	1554-1559	Laško	ORG	_	*->21-9	*[21]	
+1-262	1560-1564	tako	_	_	_	_	
+1-263	1565-1569	vsak	_	_	_	_	
+1-264	1570-1575	mesec	_	_	_	_	
+1-265	1576-1578	za	_	_	_	_	
+1-266	1579-1586	plačilo	_	_	_	_	
+1-267	1587-1594	obresti	_	_	_	_	
+1-268	1595-1603	namenita	_	_	_	_	
+1-269	1604-1606	od	_	_	_	_	
+1-270	1607-1610	1,8	_	_	_	_	
+1-271	1611-1613	do	_	_	_	_	
+1-272	1614-1617	dva	_	_	_	_	
+1-273	1618-1626	milijona	_	_	_	_	
+1-274	1627-1632	evrov	_	_	_	_	
+1-275	1633-1634	,	_	_	_	_	
+1-276	1635-1644	zapadlost	_	_	_	_	
+1-277	1645-1652	posojil	_	_	_	_	
+1-278	1653-1655	pa	_	_	_	_	
+1-279	1656-1658	je	_	_	_	_	
+1-280	1659-1670	vsakodnevna	_	_	_	_	
+1-281	1671-1672	.	_	_	_	_	
+1-282	1673-1675	Po	_	_	_	_	
+1-283	1676-1684	njegovem	_	_	*->17-2	*[17]	
+1-284	1685-1691	mnenju	_	_	_	_	
+1-285	1692-1694	je	_	_	_	_	
+1-286	1695-1702	skupino	_	_	*->21-10	*[21]	
+1-287	1703-1712	Pivovarno	ORG[25]	_	*->21-10	*[21]	
+1-288	1713-1718	Laško	ORG[25]|LOC[26]	_	*->21-10|*->19-5	*[21]|*[19]	
+1-289	1719-1724	možno	_	_	_	_	
+1-290	1725-1738	stabilizirati	_	_	_	_	
+1-291	1739-1744	kljub	_	_	_	_	
+1-292	1745-1752	visokim	_	_	_	_	
+1-293	1753-1761	obrestim	_	_	_	_	
+1-294	1762-1764	za	_	_	_	_	
+1-295	1765-1774	reprogram	_	_	_	_	
+1-296	1775-1779	tudi	_	_	_	_	
+1-297	1780-1781	z	_	_	_	_	
+1-298	1782-1793	reprogramom	_	_	_	_	
+1-299	1794-1796	že	_	_	_	_	
+1-300	1797-1804	najetih	_	_	_	_	
+1-301	1805-1812	posojil	_	_	_	_	
+1-302	1813-1815	in	_	_	_	_	
+1-303	1816-1832	dokapitalizacijo	_	_	_	_	
+1-304	1833-1834	.	_	_	_	_	
+1-305	1835-1842	Skupina	_	_	*->21-11	*[21]	
+1-306	1843-1852	Pivovarna	LOC[27]	_	*->21-11	*[21]	
+1-307	1853-1858	Laško	LOC[27]|LOC[28]	_	*->21-11|*->19-6	*[21]|*[19]	
+1-308	1859-1862	ima	_	_	_	_	
+1-309	1863-1866	420	_	_	_	_	
+1-310	1867-1876	milijonov	_	_	_	_	
+1-311	1877-1882	evrov	_	_	_	_	
+1-312	1883-1890	posojil	_	_	_	_	
+1-313	1891-1892	,	_	_	_	_	
+1-314	1893-1895	od	_	_	_	_	
+1-315	1896-1900	tega	_	_	_	_	
+1-316	1901-1904	jih	_	_	_	_	
+1-317	1905-1907	je	_	_	_	_	
+1-318	1908-1910	30	_	_	_	_	
+1-319	1911-1920	odstotkov	_	_	_	_	
+1-320	1921-1932	dolgoročnih	_	_	_	_	
+1-321	1933-1934	.	_	_	_	_	
+1-322	1935-1941	Junija	_	_	_	_	
+1-323	1942-1944	pa	_	_	_	_	
+1-324	1945-1949	bodo	_	_	_	_	
+1-325	1950-1957	zapadla	_	_	_	_	
+1-326	1958-1959	v	_	_	_	_	
+1-327	1960-1969	poplačilo	_	_	_	_	
+1-328	1970-1978	posojila	_	_	_	_	
+1-329	1979-1980	,	_	_	_	_	
+1-330	1981-1983	ki	_	_	_	_	
+1-331	1984-1986	so	_	_	_	_	
+1-332	1987-1991	bila	_	_	_	_	
+1-333	1992-1998	najeta	_	_	_	_	
+1-334	1999-2001	za	_	_	_	_	
+1-335	2002-2007	nakup	_	_	_	_	
+1-336	2008-2018	Mercatorja	ORG	3 - Nevtralno	*->1-7	*[1]	
+1-337	2019-2020	,	_	_	_	_	
+1-338	2021-2023	je	_	_	_	_	
+1-339	2024-2029	dejal	_	_	_	_	
+1-340	2030-2035	Zorko	PER	_	*->17-3	*[17]	
+1-341	2036-2037	.	_	_	_	_	
+1-342	2038-2040	Po	_	_	_	_	
+1-343	2041-2048	njegovi	_	3 - Nevtralno	*->17-4	*[17]	
+1-344	2049-2054	oceni	_	_	_	_	
+1-345	2055-2057	bi	_	_	_	_	
+1-346	2058-2060	za	_	_	_	_	
+1-347	2061-2070	saniranje	_	_	_	_	
+1-348	2071-2078	skupine	_	_	*->21-12	*[21]	
+1-349	2079-2090	potrebovali	_	_	_	_	
+1-350	2091-2094	109	_	_	_	_	
+1-351	2095-2104	milijonov	_	_	_	_	
+1-352	2105-2110	evrov	_	_	_	_	
+1-353	2111-2118	svežega	_	_	_	_	
+1-354	2119-2127	kapitala	_	_	_	_	
+1-355	2128-2129	,	_	_	_	_	
+1-356	2130-2135	kljub	_	_	_	_	
+1-357	2136-2140	temu	_	_	_	_	
+1-358	2141-2143	pa	_	_	_	_	
+1-359	2144-2146	so	_	_	_	_	
+1-360	2147-2156	skupščini	_	_	_	_	
+1-361	2157-2168	delničarjev	_	_	_	_	
+1-362	2169-2170	,	_	_	_	_	
+1-363	2171-2173	ki	_	_	_	_	
+1-364	2174-2176	bo	_	_	_	_	
+1-365	2177-2179	24	_	_	_	_	
+1-366	2180-2181	.	_	_	_	_	
+1-367	2182-2188	junija	_	_	_	_	
+1-368	2189-2190	,	_	_	_	_	
+1-369	2191-2201	predlagali	_	_	_	_	
+1-370	2202-2218	dokapitalizacijo	_	_	_	_	
+1-371	2219-2220	v	_	_	_	_	
+1-372	2221-2227	višini	_	_	_	_	
+1-373	2228-2230	za	_	_	_	_	
+1-374	2231-2237	največ	_	_	_	_	
+1-375	2238-2242	36,5	_	_	_	_	
+1-376	2243-2251	milijona	_	_	_	_	
+1-377	2252-2257	evrov	_	_	_	_	
+1-378	2258-2259	.	_	_	_	_	
+1-379	2260-2265	Sicer	_	_	_	_	
+1-380	2266-2270	bodo	_	_	_	_	
+1-381	2271-2281	nadzorniki	_	_	_	_	
+1-382	2282-2291	Pivovarne	ORG[29]	_	*->21-13	*[21]	
+1-383	2292-2297	Laško	ORG[29]|LOC[30]	_	*->21-13|*->19-7	*[21]|*[19]	
+1-384	2298-2300	na	_	_	_	_	
+1-385	2301-2313	ponedeljkovi	_	_	_	_	
+1-386	2314-2318	seji	_	_	_	_	
+1-387	2319-2331	razpravljali	_	_	_	_	
+1-388	2332-2333	o	_	_	_	_	
+1-389	2334-2342	razmerah	_	_	_	_	
+1-390	2343-2345	na	_	_	_	_	
+1-391	2346-2350	trgu	_	_	_	_	
+1-392	2351-2356	pijač	_	_	_	_	
+1-393	2357-2358	,	_	_	_	_	
+1-394	2359-2368	seznanili	_	_	_	_	
+1-395	2369-2371	se	_	_	_	_	
+1-396	2372-2376	bodo	_	_	_	_	
+1-397	2377-2381	tudi	_	_	_	_	
+1-398	2382-2383	s	_	_	_	_	
+1-399	2384-2400	profitabilnostjo	_	_	_	_	
+1-400	2401-2411	posameznih	_	_	_	_	
+1-401	2412-2421	programov	_	_	_	_	
+1-402	2422-2431	Pivovarne	ORG[31]	3 - Nevtralno[45]	*->21-14	*[21]	
+1-403	2432-2437	Laško	ORG[31]|LOC[32]	3 - Nevtralno[45]|3 - Nevtralno[46]	*->21-14|*->19-8	*[21]|*[19]	
+1-404	2438-2440	in	_	_	_	_	
+1-405	2441-2442	z	_	_	_	_	
+1-406	2443-2459	dezinvestiranjem	_	_	_	_	
+1-407	2460-2461	,	_	_	_	_	
+1-408	2462-2468	zlasti	_	_	_	_	
+1-409	2469-2470	z	_	_	_	_	
+1-410	2471-2481	napovedano	_	_	_	_	
+1-411	2482-2489	prodajo	_	_	_	_	
+1-412	2490-2498	Fructala	ORG	3 - Nevtralno	*->20-1	*[20]	

@@ -1,0 +1,176 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Novi nadzorniki velenjskega Gorenja so nastopili štiriletni mandat . Vodi jih Uroš Slavinec , njegova namestnika sta Maja Makovec Brenčič in Krešimir Martinjak . Na ustanovni seji novega nadzornega sveta Gorenja so za predsednika sveta izvolili Uroša Slavinca , namestnika pa sta postala Maja Makovec Brenčič in Krešimir Martinjak . Nadzorniki so danes tudi nastopili svoj štiriletni mandat , je družba Gorenja sporočila prek spletnih strani Ljubljanske borze . Nadzorni svet poleg naštetih sestavljajo še Drago Krenker , Peter Kobal , Jure Slemenik , Peter Kraljič , Keith Miles , Marcel van Asse in Bernard C . Pasquier . Skupščina velenjskega podjetja je maja letos potrdila spremembo statuta , tako da ima družba po novem v nadzornem svetu šest predstavnikov kapitala in štiri predstavnike delavcev . Kdo je Slavinec ? Slavinec je od leta 1990 predsednik uprave družbe Helios Domžale , je tudi predsednik skupščine Gospodarske zbornice Slovenije GZS , leta 1997 je prejel nagrado GZS za izjemne dosežke v gospodarstvu in leta 2006 priznanje za managersko osebnost leta
+1-1	0-4	Novi	_	_	_	_	
+1-2	5-15	nadzorniki	_	_	_	_	
+1-3	16-27	velenjskega	_	_	_	_	
+1-4	28-35	Gorenja	ORG	_	*->5-1	*[5]	
+1-5	36-38	so	_	_	_	_	
+1-6	39-48	nastopili	_	_	_	_	
+1-7	49-59	štiriletni	_	_	_	_	
+1-8	60-66	mandat	_	_	_	_	
+1-9	67-68	.	_	_	_	_	
+1-10	69-73	Vodi	_	_	_	_	
+1-11	74-77	jih	_	_	_	_	
+1-12	78-82	Uroš	PER[1]	_	*->1-1	*[1]	
+1-13	83-91	Slavinec	PER[1]	_	*->1-1	*[1]	
+1-14	92-93	,	_	_	_	_	
+1-15	94-101	njegova	_	_	*->1-2	*[1]	
+1-16	102-112	namestnika	_	_	_	_	
+1-17	113-116	sta	_	_	_	_	
+1-18	117-121	Maja	PER[2]	_	*->15-1	*[15]	
+1-19	122-129	Makovec	PER[2]	_	*->15-1	*[15]	
+1-20	130-137	Brenčič	PER[2]	_	*->15-1	*[15]	
+1-21	138-140	in	_	_	_	_	
+1-22	141-149	Krešimir	PER[3]	_	*->6-1	*[6]	
+1-23	150-159	Martinjak	PER[3]	_	*->6-1	*[6]	
+1-24	160-161	.	_	_	_	_	
+1-25	162-164	Na	_	_	_	_	
+1-26	165-174	ustanovni	_	_	_	_	
+1-27	175-179	seji	_	_	_	_	
+1-28	180-186	novega	_	_	_	_	
+1-29	187-197	nadzornega	_	_	_	_	
+1-30	198-203	sveta	_	_	_	_	
+1-31	204-211	Gorenja	ORG	_	*->5-2	*[5]	
+1-32	212-214	so	_	_	_	_	
+1-33	215-217	za	_	_	_	_	
+1-34	218-229	predsednika	_	_	*->1-3	*[1]	
+1-35	230-235	sveta	_	_	*->1-3	*[1]	
+1-36	236-244	izvolili	_	_	*->5-3	*[5]	
+1-37	245-250	Uroša	PER[4]	_	*->1-4	*[1]	
+1-38	251-259	Slavinca	PER[4]	_	*->1-4	*[1]	
+1-39	260-261	,	_	_	_	_	
+1-40	262-272	namestnika	_	_	_	_	
+1-41	273-275	pa	_	_	_	_	
+1-42	276-279	sta	_	_	_	_	
+1-43	280-287	postala	_	_	_	_	
+1-44	288-292	Maja	PER[5]	3 - Nevtralno[19]	*->15-2	*[15]	
+1-45	293-300	Makovec	PER[5]	3 - Nevtralno[19]	*->15-2	*[15]	
+1-46	301-308	Brenčič	PER[5]	3 - Nevtralno[19]	*->15-2	*[15]	
+1-47	309-311	in	_	_	_	_	
+1-48	312-320	Krešimir	PER[6]	3 - Nevtralno[20]	*->6-2	*[6]	
+1-49	321-330	Martinjak	PER[6]	3 - Nevtralno[20]	*->6-2	*[6]	
+1-50	331-332	.	_	_	_	_	
+1-51	333-343	Nadzorniki	_	_	_	_	
+1-52	344-346	so	_	_	_	_	
+1-53	347-352	danes	_	_	_	_	
+1-54	353-357	tudi	_	_	_	_	
+1-55	358-367	nastopili	_	_	_	_	
+1-56	368-372	svoj	_	_	_	_	
+1-57	373-383	štiriletni	_	_	_	_	
+1-58	384-390	mandat	_	_	_	_	
+1-59	391-392	,	_	_	_	_	
+1-60	393-395	je	_	_	_	_	
+1-61	396-402	družba	_	_	*->5-4	*[5]	
+1-62	403-410	Gorenja	ORG	_	*->5-4	*[5]	
+1-63	411-420	sporočila	_	_	_	_	
+1-64	421-425	prek	_	_	_	_	
+1-65	426-434	spletnih	_	_	_	_	
+1-66	435-441	strani	_	_	_	_	
+1-67	442-453	Ljubljanske	ORG[7]	3 - Nevtralno[21]	*->7-1	*[7]	
+1-68	454-459	borze	ORG[7]	3 - Nevtralno[21]	*->7-1	*[7]	
+1-69	460-461	.	_	_	_	_	
+1-70	462-470	Nadzorni	_	_	_	_	
+1-71	471-475	svet	_	_	_	_	
+1-72	476-481	poleg	_	_	_	_	
+1-73	482-490	naštetih	_	_	_	_	
+1-74	491-502	sestavljajo	_	_	_	_	
+1-75	503-505	še	_	_	_	_	
+1-76	506-511	Drago	PER[8]	3 - Nevtralno[22]	*->8-1	*[8]	
+1-77	512-519	Krenker	PER[8]	3 - Nevtralno[22]	*->8-1	*[8]	
+1-78	520-521	,	_	_	_	_	
+1-79	522-527	Peter	PER[9]	3 - Nevtralno[23]	*->9-1	*[9]	
+1-80	528-533	Kobal	PER[9]	3 - Nevtralno[23]	*->9-1	*[9]	
+1-81	534-535	,	_	_	_	_	
+1-82	536-540	Jure	PER[10]	3 - Nevtralno[24]	*->10-1	*[10]	
+1-83	541-549	Slemenik	PER[10]	3 - Nevtralno[24]	*->10-1	*[10]	
+1-84	550-551	,	_	_	_	_	
+1-85	552-557	Peter	PER[11]	3 - Nevtralno[25]	*->12-1	*[12]	
+1-86	558-565	Kraljič	PER[11]	3 - Nevtralno[25]	*->12-1	*[12]	
+1-87	566-567	,	_	_	_	_	
+1-88	568-573	Keith	PER[12]	3 - Nevtralno[26]	*->11-1	*[11]	
+1-89	574-579	Miles	PER[12]	3 - Nevtralno[26]	*->11-1	*[11]	
+1-90	580-581	,	_	_	_	_	
+1-91	582-588	Marcel	PER[13]	3 - Nevtralno[27]	*->13-1	*[13]	
+1-92	589-592	van	PER[13]	3 - Nevtralno[27]	*->13-1	*[13]	
+1-93	593-597	Asse	PER[13]	3 - Nevtralno[27]	*->13-1	*[13]	
+1-94	598-600	in	_	_	_	_	
+1-95	601-608	Bernard	PER[14]	3 - Nevtralno[28]	*->2-1	*[2]	
+1-96	609-610	C	PER[14]	3 - Nevtralno[28]	*->2-1	*[2]	
+1-97	611-612	.	PER[14]	3 - Nevtralno[28]	*->2-1	*[2]	
+1-98	613-621	Pasquier	PER[14]	3 - Nevtralno[28]	*->2-1	*[2]	
+1-99	622-623	.	_	_	_	_	
+1-100	624-633	Skupščina	_	_	_	_	
+1-101	634-645	velenjskega	_	_	*->5-5	*[5]	
+1-102	646-654	podjetja	_	_	*->5-5	*[5]	
+1-103	655-657	je	_	_	_	_	
+1-104	658-662	maja	_	_	_	_	
+1-105	663-668	letos	_	_	_	_	
+1-106	669-677	potrdila	_	_	_	_	
+1-107	678-687	spremembo	_	_	_	_	
+1-108	688-695	statuta	_	_	_	_	
+1-109	696-697	,	_	_	_	_	
+1-110	698-702	tako	_	_	_	_	
+1-111	703-705	da	_	_	_	_	
+1-112	706-709	ima	_	_	_	_	
+1-113	710-716	družba	_	3 - Nevtralno	*->5-6	*[5]	
+1-114	717-719	po	_	_	_	_	
+1-115	720-725	novem	_	_	_	_	
+1-116	726-727	v	_	_	_	_	
+1-117	728-737	nadzornem	_	_	_	_	
+1-118	738-743	svetu	_	_	_	_	
+1-119	744-748	šest	_	_	_	_	
+1-120	749-762	predstavnikov	_	_	_	_	
+1-121	763-771	kapitala	_	_	_	_	
+1-122	772-774	in	_	_	_	_	
+1-123	775-780	štiri	_	_	_	_	
+1-124	781-793	predstavnike	_	_	_	_	
+1-125	794-802	delavcev	_	_	_	_	
+1-126	803-804	.	_	_	_	_	
+1-127	805-808	Kdo	_	_	_	_	
+1-128	809-811	je	_	_	_	_	
+1-129	812-820	Slavinec	PER	_	*->1-5	*[1]	
+1-130	821-822	?	_	_	_	_	
+1-131	823-831	Slavinec	PER	_	*->1-6	*[1]	
+1-132	832-834	je	_	_	_	_	
+1-133	835-837	od	_	_	_	_	
+1-134	838-842	leta	_	_	_	_	
+1-135	843-847	1990	_	_	_	_	
+1-136	848-858	predsednik	_	_	*->1-7	*[1]	
+1-137	859-865	uprave	_	_	*->1-7	*[1]	
+1-138	866-872	družbe	_	3 - Nevtralno[29]	*->1-7|*->3-1	*[1]|*[3]	
+1-139	873-879	Helios	ORG[15]	3 - Nevtralno[29]	*->1-7|*->3-1	*[1]|*[3]	
+1-140	880-887	Domžale	ORG[15]|LOC[16]	3 - Nevtralno[29]|3 - Nevtralno[30]	*->1-7|*->3-1|*->4-1	*[1]|*[3]|*[4]	
+1-141	888-889	,	_	_	_	_	
+1-142	890-892	je	_	_	_	_	
+1-143	893-897	tudi	_	_	_	_	
+1-144	898-908	predsednik	_	_	*->1-8	*[1]	
+1-145	909-918	skupščine	_	_	*->1-8	*[1]	
+1-146	919-930	Gospodarske	ORG[17]	_	*->1-8|*->14-1	*[1]|*[14]	
+1-147	931-939	zbornice	ORG[17]	_	*->1-8|*->14-1	*[1]|*[14]	
+1-148	940-949	Slovenije	ORG[17]|LOC[18]	3 - Nevtralno	*->1-8|*->14-1	*[1]|*[14]	
+1-149	950-953	GZS	ORG[17]	_	*->1-8|*->14-1	*[1]|*[14]	
+1-150	954-955	,	_	_	_	_	
+1-151	956-960	leta	_	_	_	_	
+1-152	961-965	1997	_	_	_	_	
+1-153	966-968	je	_	_	_	_	
+1-154	969-975	prejel	_	4 - Pozitivno	*->1-9	*[1]	
+1-155	976-983	nagrado	_	_	_	_	
+1-156	984-987	GZS	ORG	3 - Nevtralno	*->14-2	*[14]	
+1-157	988-990	za	_	_	_	_	
+1-158	991-998	izjemne	_	_	_	_	
+1-159	999-1006	dosežke	_	_	_	_	
+1-160	1007-1008	v	_	_	_	_	
+1-161	1009-1021	gospodarstvu	_	_	_	_	
+1-162	1022-1024	in	_	_	_	_	
+1-163	1025-1029	leta	_	_	_	_	
+1-164	1030-1034	2006	_	_	_	_	
+1-165	1035-1044	priznanje	_	_	_	_	
+1-166	1045-1047	za	_	_	_	_	
+1-167	1048-1058	managersko	_	_	_	_	
+1-168	1059-1067	osebnost	_	_	_	_	
+1-169	1068-1072	leta	_	_	_	_	

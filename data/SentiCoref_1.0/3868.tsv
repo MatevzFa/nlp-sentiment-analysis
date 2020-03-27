@@ -1,0 +1,485 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Nadzorni svet Pivovarne Laško je upravo pod vodstvom Dušana Zorka zadolžil , da se pisno opredeli do vseh pripomb v posebni reviziji in odpravi vse slabosti , ki jih je odkrila revizija Pricewaterhouse Coopers . Nadzorniki so se na torkovi seji seznanili tudi o aktivnostih pri oblikovanju konzorcija za prodajo Mercatorja ter poslovanju v prvih petih mesecih letošnjega leta . Število zamudnikov narašča V Sloveniji je bilo junija 6228 pravnih oseb z dospelimi neporavnanimi obveznostmi , kar je največ od začetka letošnjega leta . Najvišjo raven je znova dosegel tudi povprečni dnevni znesek dospelih neporavnanih obveznosti pravnih oseb , ki je junija dosegel 692,7 milijona evrov . ILO svari pred rastjo brezposelnosti Število brezposelnih v območju evra bi lahko v prihodnjih štirih letih doseglo 22 milijonov . Če države ne bodo oblikovale politik , ki bodo šle v smer oblikovanja novih delovnih mest , se bo število brezposelnih s sedanjih 17,4 milijona povečalo za 4,5 milijona , svari Mednarodna organizacija dela ( ILO ) . Preprodaja Primskovega je bila navidezni posel Preprodajo trgovskega centra Primskovo , zaradi katere nekdanjemu predsedniku uprave Merkurja Binetu Kordežu grozi do osem let zapora , je davčni inšpektor Alojz Vrbnjak na včerajšnji obravnavi označil kot navidezni posel . Merkur je imel namreč pravico do nakupa trgovskega centra za deset milijonov evrov , vendar je nato prek verižnih poslov zanj odštel še enkrat višji znesek , razlika pa je ostala na Merfinu . Nadaljevanje razprave o poroštvu za TEŠ Predsednik parlamentarnega odbora za finance in monetarno politiko Andrej Šircelj je za jutri sklical sejo odbora , na kateri bodo znova obravnavali predlog zakona o državnem poroštvu za šesti blok Termoelektrarne Šoštanj ( TEŠ 6 ) . Odbor je razpravo konec junija že drugič prekinil . Factor banka končala prevzem KD Banke Factor banka je včeraj tudi uradno končala prevzem KD Banke . Po pridobitvi dovoljenja Banke Slovenije je tako Factor banka tudi uradno postala lastnica butične banke , ki bo za zdaj poslovala še kot samostojna pravna oseba . Dover nov nadzornik Uniorja Delničarji Uniorja so na včerajšnji skupščini za novega člana nadzornega sveta imenovali direktorja Komunalnega podjetja Ptuj Franca Doverja , ki je v nadzornem svetu zamenjal Karla Kuzmana . Že dan pred skupščino pa je uprava Uniorja nadzornike seznanila tudi s postopkom izbora svetovalca za prestrukturiranje in reorganizacijo družbe , ki je v prvem letošnjem polletju ustvarila za 72 milijonov evrov prihodkov . Marmor ima novega direktorja Sežansko podjetje Marmor , ki pridobiva in oblikuje kamen , ima novega prvega moža . To je postal Igor Čehovin , ki je nasledil Cirila Sigulina . Medica novi direktor Johnson & Johnson Boris Medica , nekdanji prokurist v slovenski družbi Johnson & Johnson , se je v upravi družbe pridružil Martinu Minaroviču . Na mestu vodilnega je zamenjal Tina Ivankovića , ki ostaja direktor ljubljanske podružnice Johnson & Johnson . Pripravila Matjaž Polanič in
+1-1	0-8	Nadzorni	_	_	_	_	
+1-2	9-13	svet	_	_	_	_	
+1-3	14-23	Pivovarne	ORG[1]	3 - Nevtralno[32]	*->1-1	*[1]	
+1-4	24-29	Laško	ORG[1]|LOC[2]	3 - Nevtralno[32]|3 - Nevtralno[33]	*->1-1|*->2-1	*[1]|*[2]	
+1-5	30-32	je	_	_	_	_	
+1-6	33-39	upravo	_	_	_	_	
+1-7	40-43	pod	_	_	_	_	
+1-8	44-52	vodstvom	_	_	_	_	
+1-9	53-59	Dušana	PER[3]	3 - Nevtralno[34]	*->3-1	*[3]	
+1-10	60-65	Zorka	PER[3]	3 - Nevtralno[34]	*->3-1	*[3]	
+1-11	66-74	zadolžil	_	_	_	_	
+1-12	75-76	,	_	_	_	_	
+1-13	77-79	da	_	_	_	_	
+1-14	80-82	se	_	_	_	_	
+1-15	83-88	pisno	_	_	_	_	
+1-16	89-97	opredeli	_	_	_	_	
+1-17	98-100	do	_	_	_	_	
+1-18	101-105	vseh	_	_	_	_	
+1-19	106-113	pripomb	_	_	_	_	
+1-20	114-115	v	_	_	_	_	
+1-21	116-123	posebni	_	_	_	_	
+1-22	124-132	reviziji	_	_	_	_	
+1-23	133-135	in	_	_	_	_	
+1-24	136-143	odpravi	_	_	_	_	
+1-25	144-147	vse	_	_	_	_	
+1-26	148-156	slabosti	_	_	_	_	
+1-27	157-158	,	_	_	_	_	
+1-28	159-161	ki	_	_	_	_	
+1-29	162-165	jih	_	_	_	_	
+1-30	166-168	je	_	_	_	_	
+1-31	169-176	odkrila	_	_	_	_	
+1-32	177-185	revizija	_	_	_	_	
+1-33	186-201	Pricewaterhouse	ORG[4]	3 - Nevtralno[35]	*->4-1	*[4]	
+1-34	202-209	Coopers	ORG[4]	3 - Nevtralno[35]	*->4-1	*[4]	
+1-35	210-211	.	_	_	_	_	
+1-36	212-222	Nadzorniki	_	_	_	_	
+1-37	223-225	so	_	_	_	_	
+1-38	226-228	se	_	_	_	_	
+1-39	229-231	na	_	_	_	_	
+1-40	232-239	torkovi	_	_	_	_	
+1-41	240-244	seji	_	_	_	_	
+1-42	245-254	seznanili	_	_	_	_	
+1-43	255-259	tudi	_	_	_	_	
+1-44	260-261	o	_	_	_	_	
+1-45	262-273	aktivnostih	_	_	_	_	
+1-46	274-277	pri	_	_	_	_	
+1-47	278-289	oblikovanju	_	_	_	_	
+1-48	290-300	konzorcija	_	_	_	_	
+1-49	301-303	za	_	_	_	_	
+1-50	304-311	prodajo	_	_	_	_	
+1-51	312-322	Mercatorja	ORG	3 - Nevtralno	*->5-1	*[5]	
+1-52	323-326	ter	_	_	_	_	
+1-53	327-337	poslovanju	_	_	_	_	
+1-54	338-339	v	_	_	_	_	
+1-55	340-345	prvih	_	_	_	_	
+1-56	346-351	petih	_	_	_	_	
+1-57	352-359	mesecih	_	_	_	_	
+1-58	360-370	letošnjega	_	_	_	_	
+1-59	371-375	leta	_	_	_	_	
+1-60	376-377	.	_	_	_	_	
+1-61	378-385	Število	_	_	_	_	
+1-62	386-396	zamudnikov	_	_	_	_	
+1-63	397-404	narašča	_	_	_	_	
+1-64	405-406	V	_	_	_	_	
+1-65	407-416	Sloveniji	LOC	_	*->6-1	*[6]	
+1-66	417-419	je	_	_	_	_	
+1-67	420-424	bilo	_	_	_	_	
+1-68	425-431	junija	_	_	_	_	
+1-69	432-436	6228	_	_	_	_	
+1-70	437-444	pravnih	_	_	_	_	
+1-71	445-449	oseb	_	_	_	_	
+1-72	450-451	z	_	_	_	_	
+1-73	452-461	dospelimi	_	_	_	_	
+1-74	462-475	neporavnanimi	_	_	_	_	
+1-75	476-487	obveznostmi	_	_	_	_	
+1-76	488-489	,	_	_	_	_	
+1-77	490-493	kar	_	_	_	_	
+1-78	494-496	je	_	_	_	_	
+1-79	497-503	največ	_	_	_	_	
+1-80	504-506	od	_	_	_	_	
+1-81	507-514	začetka	_	_	_	_	
+1-82	515-525	letošnjega	_	_	_	_	
+1-83	526-530	leta	_	_	_	_	
+1-84	531-532	.	_	_	_	_	
+1-85	533-541	Najvišjo	_	_	_	_	
+1-86	542-547	raven	_	_	_	_	
+1-87	548-550	je	_	_	_	_	
+1-88	551-556	znova	_	_	_	_	
+1-89	557-564	dosegel	_	_	_	_	
+1-90	565-569	tudi	_	_	_	_	
+1-91	570-579	povprečni	_	_	_	_	
+1-92	580-586	dnevni	_	_	_	_	
+1-93	587-593	znesek	_	_	_	_	
+1-94	594-602	dospelih	_	_	_	_	
+1-95	603-615	neporavnanih	_	_	_	_	
+1-96	616-626	obveznosti	_	_	_	_	
+1-97	627-634	pravnih	_	_	_	_	
+1-98	635-639	oseb	_	_	_	_	
+1-99	640-641	,	_	_	_	_	
+1-100	642-644	ki	_	_	_	_	
+1-101	645-647	je	_	_	_	_	
+1-102	648-654	junija	_	_	_	_	
+1-103	655-662	dosegel	_	_	_	_	
+1-104	663-668	692,7	_	_	_	_	
+1-105	669-677	milijona	_	_	_	_	
+1-106	678-683	evrov	_	_	_	_	
+1-107	684-685	.	_	_	_	_	
+1-108	686-689	ILO	ORG	_	*->7-1	*[7]	
+1-109	690-695	svari	_	_	_	_	
+1-110	696-700	pred	_	_	_	_	
+1-111	701-707	rastjo	_	_	_	_	
+1-112	708-722	brezposelnosti	_	_	_	_	
+1-113	723-730	Število	_	_	_	_	
+1-114	731-743	brezposelnih	_	_	_	_	
+1-115	744-745	v	_	_	_	_	
+1-116	746-753	območju	_	_	_	_	
+1-117	754-758	evra	_	_	_	_	
+1-118	759-761	bi	_	_	_	_	
+1-119	762-767	lahko	_	_	_	_	
+1-120	768-769	v	_	_	_	_	
+1-121	770-780	prihodnjih	_	_	_	_	
+1-122	781-787	štirih	_	_	_	_	
+1-123	788-793	letih	_	_	_	_	
+1-124	794-801	doseglo	_	_	_	_	
+1-125	802-804	22	_	_	_	_	
+1-126	805-814	milijonov	_	_	_	_	
+1-127	815-816	.	_	_	_	_	
+1-128	817-819	Če	_	_	_	_	
+1-129	820-826	države	_	_	_	_	
+1-130	827-829	ne	_	_	_	_	
+1-131	830-834	bodo	_	_	_	_	
+1-132	835-845	oblikovale	_	_	_	_	
+1-133	846-853	politik	_	_	_	_	
+1-134	854-855	,	_	_	_	_	
+1-135	856-858	ki	_	_	_	_	
+1-136	859-863	bodo	_	_	_	_	
+1-137	864-867	šle	_	_	_	_	
+1-138	868-869	v	_	_	_	_	
+1-139	870-874	smer	_	_	_	_	
+1-140	875-886	oblikovanja	_	_	_	_	
+1-141	887-892	novih	_	_	_	_	
+1-142	893-901	delovnih	_	_	_	_	
+1-143	902-906	mest	_	_	_	_	
+1-144	907-908	,	_	_	_	_	
+1-145	909-911	se	_	_	_	_	
+1-146	912-914	bo	_	_	_	_	
+1-147	915-922	število	_	_	_	_	
+1-148	923-935	brezposelnih	_	_	_	_	
+1-149	936-937	s	_	_	_	_	
+1-150	938-946	sedanjih	_	_	_	_	
+1-151	947-951	17,4	_	_	_	_	
+1-152	952-960	milijona	_	_	_	_	
+1-153	961-969	povečalo	_	_	_	_	
+1-154	970-972	za	_	_	_	_	
+1-155	973-976	4,5	_	_	_	_	
+1-156	977-985	milijona	_	_	_	_	
+1-157	986-987	,	_	_	_	_	
+1-158	988-993	svari	_	_	_	_	
+1-159	994-1004	Mednarodna	ORG[5]	_	*->7-2	*[7]	
+1-160	1005-1017	organizacija	ORG[5]	_	*->7-2	*[7]	
+1-161	1018-1022	dela	ORG[5]	_	*->7-2	*[7]	
+1-162	1023-1024	(	_	_	_	_	
+1-163	1025-1028	ILO	ORG	3 - Nevtralno	*->7-3	*[7]	
+1-164	1029-1030	)	_	_	_	_	
+1-165	1031-1032	.	_	_	_	_	
+1-166	1033-1043	Preprodaja	_	_	_	_	
+1-167	1044-1055	Primskovega	ORG	_	*->8-1	*[8]	
+1-168	1056-1058	je	_	_	_	_	
+1-169	1059-1063	bila	_	_	_	_	
+1-170	1064-1073	navidezni	_	_	_	_	
+1-171	1074-1079	posel	_	_	_	_	
+1-172	1080-1090	Preprodajo	_	_	_	_	
+1-173	1091-1101	trgovskega	_	_	*->8-2	*[8]	
+1-174	1102-1108	centra	_	_	*->8-2	*[8]	
+1-175	1109-1118	Primskovo	ORG	_	*->8-2	*[8]	
+1-176	1119-1120	,	_	_	_	_	
+1-177	1121-1127	zaradi	_	_	_	_	
+1-178	1128-1134	katere	_	_	_	_	
+1-179	1135-1145	nekdanjemu	_	2 - Negativno[36]	*->9-1	*[9]	
+1-180	1146-1157	predsedniku	_	2 - Negativno[36]	*->9-1	*[9]	
+1-181	1158-1164	uprave	_	2 - Negativno[36]	*->9-1	*[9]	
+1-182	1165-1173	Merkurja	ORG	2 - Negativno[36]	*->9-1|*->10-1	*[9]|*[10]	
+1-183	1174-1180	Binetu	PER[6]	2 - Negativno[36]	*->9-1	*[9]	
+1-184	1181-1188	Kordežu	PER[6]	2 - Negativno[36]	*->9-1	*[9]	
+1-185	1189-1194	grozi	_	_	_	_	
+1-186	1195-1197	do	_	_	_	_	
+1-187	1198-1202	osem	_	_	_	_	
+1-188	1203-1206	let	_	_	_	_	
+1-189	1207-1213	zapora	_	_	_	_	
+1-190	1214-1215	,	_	_	_	_	
+1-191	1216-1218	je	_	_	_	_	
+1-192	1219-1225	davčni	_	3 - Nevtralno[37]	*->11-1	*[11]	
+1-193	1226-1235	inšpektor	_	3 - Nevtralno[37]	*->11-1	*[11]	
+1-194	1236-1241	Alojz	PER[7]	3 - Nevtralno[37]	*->11-1	*[11]	
+1-195	1242-1249	Vrbnjak	PER[7]	3 - Nevtralno[37]	*->11-1	*[11]	
+1-196	1250-1252	na	_	_	_	_	
+1-197	1253-1263	včerajšnji	_	_	_	_	
+1-198	1264-1273	obravnavi	_	_	_	_	
+1-199	1274-1281	označil	_	_	_	_	
+1-200	1282-1285	kot	_	_	_	_	
+1-201	1286-1295	navidezni	_	_	_	_	
+1-202	1296-1301	posel	_	_	_	_	
+1-203	1302-1303	.	_	_	_	_	
+1-204	1304-1310	Merkur	ORG	_	*->10-2	*[10]	
+1-205	1311-1313	je	_	_	_	_	
+1-206	1314-1318	imel	_	_	_	_	
+1-207	1319-1325	namreč	_	_	_	_	
+1-208	1326-1333	pravico	_	_	_	_	
+1-209	1334-1336	do	_	_	_	_	
+1-210	1337-1343	nakupa	_	_	_	_	
+1-211	1344-1354	trgovskega	_	_	*->8-3	*[8]	
+1-212	1355-1361	centra	_	_	*->8-3	*[8]	
+1-213	1362-1364	za	_	_	_	_	
+1-214	1365-1370	deset	_	_	_	_	
+1-215	1371-1380	milijonov	_	_	_	_	
+1-216	1381-1386	evrov	_	_	_	_	
+1-217	1387-1388	,	_	_	_	_	
+1-218	1389-1395	vendar	_	_	_	_	
+1-219	1396-1398	je	_	_	_	_	
+1-220	1399-1403	nato	_	_	_	_	
+1-221	1404-1408	prek	_	_	_	_	
+1-222	1409-1417	verižnih	_	_	_	_	
+1-223	1418-1424	poslov	_	_	_	_	
+1-224	1425-1429	zanj	_	2 - Negativno	*->31-1	*[31]	
+1-225	1430-1436	odštel	_	2 - Negativno	*->10-3	*[10]	
+1-226	1437-1439	še	_	_	_	_	
+1-227	1440-1446	enkrat	_	_	_	_	
+1-228	1447-1452	višji	_	_	_	_	
+1-229	1453-1459	znesek	_	_	_	_	
+1-230	1460-1461	,	_	_	_	_	
+1-231	1462-1469	razlika	_	_	_	_	
+1-232	1470-1472	pa	_	_	_	_	
+1-233	1473-1475	je	_	_	_	_	
+1-234	1476-1482	ostala	_	_	_	_	
+1-235	1483-1485	na	_	_	_	_	
+1-236	1486-1493	Merfinu	ORG	2 - Negativno	*->12-1	*[12]	
+1-237	1494-1495	.	_	_	_	_	
+1-238	1496-1508	Nadaljevanje	_	_	_	_	
+1-239	1509-1517	razprave	_	_	_	_	
+1-240	1518-1519	o	_	_	_	_	
+1-241	1520-1528	poroštvu	_	_	_	_	
+1-242	1529-1531	za	_	_	_	_	
+1-243	1532-1535	TEŠ	ORG	_	*->13-1	*[13]	
+1-244	1536-1546	Predsednik	_	3 - Nevtralno[38]	*->14-1	*[14]	
+1-245	1547-1562	parlamentarnega	_	3 - Nevtralno[38]	*->14-1	*[14]	
+1-246	1563-1569	odbora	_	3 - Nevtralno[38]	*->14-1	*[14]	
+1-247	1570-1572	za	_	3 - Nevtralno[38]	*->14-1	*[14]	
+1-248	1573-1580	finance	_	3 - Nevtralno[38]	*->14-1	*[14]	
+1-249	1581-1583	in	_	3 - Nevtralno[38]	*->14-1	*[14]	
+1-250	1584-1593	monetarno	_	3 - Nevtralno[38]	*->14-1	*[14]	
+1-251	1594-1602	politiko	_	3 - Nevtralno[38]	*->14-1	*[14]	
+1-252	1603-1609	Andrej	PER[8]	3 - Nevtralno[38]	*->14-1	*[14]	
+1-253	1610-1617	Šircelj	PER[8]	3 - Nevtralno[38]	*->14-1	*[14]	
+1-254	1618-1620	je	_	_	_	_	
+1-255	1621-1623	za	_	_	_	_	
+1-256	1624-1629	jutri	_	_	_	_	
+1-257	1630-1637	sklical	_	_	_	_	
+1-258	1638-1642	sejo	_	_	_	_	
+1-259	1643-1649	odbora	_	_	_	_	
+1-260	1650-1651	,	_	_	_	_	
+1-261	1652-1654	na	_	_	_	_	
+1-262	1655-1661	kateri	_	_	_	_	
+1-263	1662-1666	bodo	_	_	_	_	
+1-264	1667-1672	znova	_	_	_	_	
+1-265	1673-1684	obravnavali	_	_	_	_	
+1-266	1685-1692	predlog	_	_	_	_	
+1-267	1693-1699	zakona	_	_	_	_	
+1-268	1700-1701	o	_	_	_	_	
+1-269	1702-1710	državnem	_	_	_	_	
+1-270	1711-1719	poroštvu	_	_	_	_	
+1-271	1720-1722	za	_	_	_	_	
+1-272	1723-1728	šesti	_	_	*->32-1	*[32]	
+1-273	1729-1733	blok	_	_	*->32-1	*[32]	
+1-274	1734-1749	Termoelektrarne	ORG[9]	3 - Nevtralno[39]	*->32-1|*->13-2	*[32]|*[13]	
+1-275	1750-1757	Šoštanj	ORG[9]|LOC[10]	3 - Nevtralno[39]|3 - Nevtralno[40]	*->32-1|*->13-2|*->15-1	*[32]|*[13]|*[15]	
+1-276	1758-1759	(	_	_	_	_	
+1-277	1760-1763	TEŠ	ORG[11]	3 - Nevtralno[41]	*->32-2	*[32]	
+1-278	1764-1765	6	ORG[11]	3 - Nevtralno[41]	*->32-2	*[32]	
+1-279	1766-1767	)	_	_	_	_	
+1-280	1768-1769	.	_	_	_	_	
+1-281	1770-1775	Odbor	_	_	_	_	
+1-282	1776-1778	je	_	_	_	_	
+1-283	1779-1787	razpravo	_	_	_	_	
+1-284	1788-1793	konec	_	_	_	_	
+1-285	1794-1800	junija	_	_	_	_	
+1-286	1801-1803	že	_	_	_	_	
+1-287	1804-1810	drugič	_	_	_	_	
+1-288	1811-1819	prekinil	_	_	_	_	
+1-289	1820-1821	.	_	_	_	_	
+1-290	1822-1828	Factor	ORG[12]	_	*->16-1	*[16]	
+1-291	1829-1834	banka	ORG[12]	_	*->16-1	*[16]	
+1-292	1835-1842	končala	_	_	_	_	
+1-293	1843-1850	prevzem	_	_	_	_	
+1-294	1851-1853	KD	ORG[13]	_	*->17-1	*[17]	
+1-295	1854-1859	Banke	ORG[13]	_	*->17-1	*[17]	
+1-296	1860-1866	Factor	ORG[14]	_	*->16-2	*[16]	
+1-297	1867-1872	banka	ORG[14]	_	*->16-2	*[16]	
+1-298	1873-1875	je	_	_	_	_	
+1-299	1876-1882	včeraj	_	_	_	_	
+1-300	1883-1887	tudi	_	_	_	_	
+1-301	1888-1894	uradno	_	_	_	_	
+1-302	1895-1902	končala	_	_	_	_	
+1-303	1903-1910	prevzem	_	_	_	_	
+1-304	1911-1913	KD	ORG[15]	_	*->17-2	*[17]	
+1-305	1914-1919	Banke	ORG[15]	_	*->17-2	*[17]	
+1-306	1920-1921	.	_	_	_	_	
+1-307	1922-1924	Po	_	_	_	_	
+1-308	1925-1935	pridobitvi	_	_	_	_	
+1-309	1936-1946	dovoljenja	_	_	_	_	
+1-310	1947-1952	Banke	ORG[16]	3 - Nevtralno[42]	*->18-1	*[18]	
+1-311	1953-1962	Slovenije	ORG[16]|LOC[17]	3 - Nevtralno[42]|3 - Nevtralno[43]	*->18-1|*->6-2	*[18]|*[6]	
+1-312	1963-1965	je	_	_	_	_	
+1-313	1966-1970	tako	_	_	_	_	
+1-314	1971-1977	Factor	ORG[18]	_	*->16-3	*[16]	
+1-315	1978-1983	banka	ORG[18]	_	*->16-3	*[16]	
+1-316	1984-1988	tudi	_	_	_	_	
+1-317	1989-1995	uradno	_	_	_	_	
+1-318	1996-2003	postala	_	_	_	_	
+1-319	2004-2012	lastnica	_	4 - Pozitivno[44]	*->16-4	*[16]	
+1-320	2013-2020	butične	_	4 - Pozitivno[44]	*->16-4	*[16]	
+1-321	2021-2026	banke	_	4 - Pozitivno[44]	*->16-4	*[16]	
+1-322	2027-2028	,	_	_	_	_	
+1-323	2029-2031	ki	_	_	_	_	
+1-324	2032-2034	bo	_	_	_	_	
+1-325	2035-2037	za	_	_	_	_	
+1-326	2038-2042	zdaj	_	_	_	_	
+1-327	2043-2052	poslovala	_	_	*->17-3	*[17]	
+1-328	2053-2055	še	_	_	_	_	
+1-329	2056-2059	kot	_	_	_	_	
+1-330	2060-2070	samostojna	_	3 - Nevtralno[45]	*->17-4	*[17]	
+1-331	2071-2077	pravna	_	3 - Nevtralno[45]	*->17-4	*[17]	
+1-332	2078-2083	oseba	_	3 - Nevtralno[45]	*->17-4	*[17]	
+1-333	2084-2085	.	_	_	_	_	
+1-334	2086-2091	Dover	PER	_	*->19-1	*[19]	
+1-335	2092-2095	nov	_	_	_	_	
+1-336	2096-2105	nadzornik	_	_	_	_	
+1-337	2106-2113	Uniorja	ORG	_	*->20-1	*[20]	
+1-338	2114-2124	Delničarji	_	_	_	_	
+1-339	2125-2132	Uniorja	ORG	_	*->20-2	*[20]	
+1-340	2133-2135	so	_	_	_	_	
+1-341	2136-2138	na	_	_	_	_	
+1-342	2139-2149	včerajšnji	_	_	_	_	
+1-343	2150-2159	skupščini	_	_	_	_	
+1-344	2160-2162	za	_	_	_	_	
+1-345	2163-2169	novega	_	_	_	_	
+1-346	2170-2175	člana	_	_	_	_	
+1-347	2176-2186	nadzornega	_	_	_	_	
+1-348	2187-2192	sveta	_	_	_	_	
+1-349	2193-2202	imenovali	_	_	_	_	
+1-350	2203-2213	direktorja	_	_	*->19-2	*[19]	
+1-351	2214-2225	Komunalnega	ORG[19]	3 - Nevtralno[46]	*->19-2|*->21-1	*[19]|*[21]	
+1-352	2226-2234	podjetja	ORG[19]	3 - Nevtralno[46]	*->19-2|*->21-1	*[19]|*[21]	
+1-353	2235-2239	Ptuj	ORG[19]|LOC[20]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->19-2|*->21-1|*->22-1	*[19]|*[21]|*[22]	
+1-354	2240-2246	Franca	PER[21]	_	*->19-2	*[19]	
+1-355	2247-2254	Doverja	PER[21]	_	*->19-2	*[19]	
+1-356	2255-2256	,	_	_	_	_	
+1-357	2257-2259	ki	_	_	_	_	
+1-358	2260-2262	je	_	_	_	_	
+1-359	2263-2264	v	_	_	_	_	
+1-360	2265-2274	nadzornem	_	_	_	_	
+1-361	2275-2280	svetu	_	_	_	_	
+1-362	2281-2289	zamenjal	_	4 - Pozitivno	*->19-3	*[19]	
+1-363	2290-2295	Karla	PER[22]	3 - Nevtralno[48]	*->23-1	*[23]	
+1-364	2296-2303	Kuzmana	PER[22]	3 - Nevtralno[48]	*->23-1	*[23]	
+1-365	2304-2305	.	_	_	_	_	
+1-366	2306-2308	Že	_	_	_	_	
+1-367	2309-2312	dan	_	_	_	_	
+1-368	2313-2317	pred	_	_	_	_	
+1-369	2318-2327	skupščino	_	_	_	_	
+1-370	2328-2330	pa	_	_	_	_	
+1-371	2331-2333	je	_	_	_	_	
+1-372	2334-2340	uprava	_	_	_	_	
+1-373	2341-2348	Uniorja	ORG	_	*->20-3	*[20]	
+1-374	2349-2359	nadzornike	_	_	_	_	
+1-375	2360-2369	seznanila	_	_	_	_	
+1-376	2370-2374	tudi	_	_	_	_	
+1-377	2375-2376	s	_	_	_	_	
+1-378	2377-2386	postopkom	_	_	_	_	
+1-379	2387-2393	izbora	_	_	_	_	
+1-380	2394-2404	svetovalca	_	_	_	_	
+1-381	2405-2407	za	_	_	_	_	
+1-382	2408-2425	prestrukturiranje	_	_	_	_	
+1-383	2426-2428	in	_	_	_	_	
+1-384	2429-2443	reorganizacijo	_	_	_	_	
+1-385	2444-2450	družbe	_	_	*->20-4	*[20]	
+1-386	2451-2452	,	_	_	_	_	
+1-387	2453-2455	ki	_	_	_	_	
+1-388	2456-2458	je	_	_	_	_	
+1-389	2459-2460	v	_	_	_	_	
+1-390	2461-2466	prvem	_	_	_	_	
+1-391	2467-2476	letošnjem	_	_	_	_	
+1-392	2477-2485	polletju	_	_	_	_	
+1-393	2486-2495	ustvarila	_	4 - Pozitivno	*->20-5	*[20]	
+1-394	2496-2498	za	_	_	_	_	
+1-395	2499-2501	72	_	_	_	_	
+1-396	2502-2511	milijonov	_	_	_	_	
+1-397	2512-2517	evrov	_	_	_	_	
+1-398	2518-2527	prihodkov	_	_	_	_	
+1-399	2528-2529	.	_	_	_	_	
+1-400	2530-2536	Marmor	ORG	_	*->24-1	*[24]	
+1-401	2537-2540	ima	_	_	_	_	
+1-402	2541-2547	novega	_	_	_	_	
+1-403	2548-2558	direktorja	_	_	*->25-1	*[25]	
+1-404	2559-2567	Sežansko	_	_	*->24-2	*[24]	
+1-405	2568-2576	podjetje	_	_	*->24-2	*[24]	
+1-406	2577-2583	Marmor	ORG	_	*->24-2	*[24]	
+1-407	2584-2585	,	_	_	_	_	
+1-408	2586-2588	ki	_	_	_	_	
+1-409	2589-2598	pridobiva	_	_	*->24-3	*[24]	
+1-410	2599-2601	in	_	_	_	_	
+1-411	2602-2610	oblikuje	_	4 - Pozitivno	*->24-4	*[24]	
+1-412	2611-2616	kamen	_	_	_	_	
+1-413	2617-2618	,	_	_	_	_	
+1-414	2619-2622	ima	_	_	_	_	
+1-415	2623-2629	novega	_	_	_	_	
+1-416	2630-2636	prvega	_	_	*->25-2	*[25]	
+1-417	2637-2641	moža	_	_	*->25-2	*[25]	
+1-418	2642-2643	.	_	_	_	_	
+1-419	2644-2646	To	_	_	_	_	
+1-420	2647-2649	je	_	_	_	_	
+1-421	2650-2656	postal	_	_	_	_	
+1-422	2657-2661	Igor	PER[23]	_	*->25-3	*[25]	
+1-423	2662-2669	Čehovin	PER[23]	_	*->25-3	*[25]	
+1-424	2670-2671	,	_	_	_	_	
+1-425	2672-2674	ki	_	_	_	_	
+1-426	2675-2677	je	_	_	_	_	
+1-427	2678-2686	nasledil	_	4 - Pozitivno	*->25-4	*[25]	
+1-428	2687-2693	Cirila	PER[24]	3 - Nevtralno[49]	*->26-1	*[26]	
+1-429	2694-2702	Sigulina	PER[24]	3 - Nevtralno[49]	*->26-1	*[26]	
+1-430	2703-2704	.	_	_	_	_	
+1-431	2705-2711	Medica	PER	_	*->33-1	*[33]	
+1-432	2712-2716	novi	_	_	_	_	
+1-433	2717-2725	direktor	_	_	_	_	
+1-434	2726-2733	Johnson	ORG[25]	_	*->27-1	*[27]	
+1-435	2734-2735	&	ORG[25]	_	*->27-1	*[27]	
+1-436	2736-2743	Johnson	ORG[25]	_	*->27-1	*[27]	
+1-437	2744-2749	Boris	PER[26]	_	*->33-2	*[33]	
+1-438	2750-2756	Medica	PER[26]	_	*->33-2	*[33]	
+1-439	2757-2758	,	_	_	_	_	
+1-440	2759-2767	nekdanji	_	_	_	_	
+1-441	2768-2777	prokurist	_	_	_	_	
+1-442	2778-2779	v	_	_	_	_	
+1-443	2780-2789	slovenski	_	_	*->27-2	*[27]	
+1-444	2790-2796	družbi	_	_	*->27-2	*[27]	
+1-445	2797-2804	Johnson	PER[27]	_	*->27-2	*[27]	
+1-446	2805-2806	&	PER[27]	_	*->27-2	*[27]	
+1-447	2807-2814	Johnson	PER[27]	_	*->27-2	*[27]	
+1-448	2815-2816	,	_	_	_	_	
+1-449	2817-2819	se	_	_	_	_	
+1-450	2820-2822	je	_	_	_	_	
+1-451	2823-2824	v	_	_	_	_	
+1-452	2825-2831	upravi	_	_	_	_	
+1-453	2832-2838	družbe	_	_	_	_	
+1-454	2839-2848	pridružil	_	_	*->33-3	*[33]	
+1-455	2849-2856	Martinu	PER[28]	3 - Nevtralno[50]	*->28-1	*[28]	
+1-456	2857-2867	Minaroviču	PER[28]	3 - Nevtralno[50]	*->28-1	*[28]	
+1-457	2868-2869	.	_	_	_	_	
+1-458	2870-2872	Na	_	_	_	_	
+1-459	2873-2878	mestu	_	_	_	_	
+1-460	2879-2888	vodilnega	_	_	_	_	
+1-461	2889-2891	je	_	_	_	_	
+1-462	2892-2900	zamenjal	_	4 - Pozitivno	*->33-4	*[33]	
+1-463	2901-2905	Tina	PER[29]	_	*->29-1	*[29]	
+1-464	2906-2916	Ivankovića	PER[29]	_	*->29-1	*[29]	
+1-465	2917-2918	,	_	_	_	_	
+1-466	2919-2921	ki	_	_	_	_	
+1-467	2922-2928	ostaja	_	_	*->29-2	*[29]	
+1-468	2929-2937	direktor	_	4 - Pozitivno[51]	*->29-3	*[29]	
+1-469	2938-2949	ljubljanske	_	4 - Pozitivno[51]	*->29-3	*[29]	
+1-470	2950-2960	podružnice	_	4 - Pozitivno[51]	*->29-3	*[29]	
+1-471	2961-2968	Johnson	ORG[30]	4 - Pozitivno[51]|3 - Nevtralno[52]	*->29-3|*->27-3	*[29]|*[27]	
+1-472	2969-2970	&	ORG[30]	4 - Pozitivno[51]|3 - Nevtralno[52]	*->29-3|*->27-3	*[29]|*[27]	
+1-473	2971-2978	Johnson	ORG[30]	4 - Pozitivno[51]|3 - Nevtralno[52]	*->29-3|*->27-3	*[29]|*[27]	
+1-474	2979-2980	.	_	_	_	_	
+1-475	2981-2991	Pripravila	_	_	_	_	
+1-476	2992-2998	Matjaž	PER[31]	3 - Nevtralno[53]	*->30-1	*[30]	
+1-477	2999-3006	Polanič	PER[31]	3 - Nevtralno[53]	*->30-1	*[30]	
+1-478	3007-3009	in	_	_	_	_	

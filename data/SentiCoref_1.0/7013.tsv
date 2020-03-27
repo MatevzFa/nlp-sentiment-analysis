@@ -1,0 +1,195 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Nadzorniki so danes začeli svoj štiriletni mandat Kot so prek spletne strani Ljubljanske borze sporočili iz Gorenja , so na današnji ustanovni seji novega nadzornega sveta za predsednika sveta izvolili Uroša Slavinca . Slavinec je od leta 1990 predsednik uprave družbe Helios Domžale . Opravlja tudi funkcijo predsednika skupščine Gospodarske zbornice Slovenije . Leta 1997 je prejel nagrado GZS - ja za izjemne dosežke v gospodarstvu , leta 2006 pa priznanje za menedžersko osebnost leta . Makovec Brenčičevi in Martinjaku namestniški funkciji Skupščina velenjskega podjetja je maja letos potrdila spremembo statuta , tako da ima družba po novem v nadzornem svetu šest predstavnikov kapitala in štiri predstavnike delavcev . Vlogo namestnikov predsednika nadzornega sveta bosta opravljala Maja Makovec Brenčič in Krešimir Martinjak , drugi člani sveta pa so še Drago Krenker , Peter Kobal , Jure Slemenik , Peter Kraljič , Keith Miles , Marcel van Asse in Bernard C . Pasquier . Nadzorni odbor ima štiriletni mandat . Gorenje je sicer prejšnji teden od Probanke kupilo 21,44 - odstotni delež mariborske družbe za predelavo odpadkov Gorenje Surovina , s čimer je postalo njen 72,44 - odstotni lastnik
+1-1	0-10	Nadzorniki	_	_	_	_	
+1-2	11-13	so	_	_	_	_	
+1-3	14-19	danes	_	_	_	_	
+1-4	20-26	začeli	_	_	_	_	
+1-5	27-31	svoj	_	_	_	_	
+1-6	32-42	štiriletni	_	_	_	_	
+1-7	43-49	mandat	_	_	_	_	
+1-8	50-53	Kot	_	_	_	_	
+1-9	54-56	so	_	_	_	_	
+1-10	57-61	prek	_	_	_	_	
+1-11	62-69	spletne	_	_	_	_	
+1-12	70-76	strani	_	_	_	_	
+1-13	77-88	Ljubljanske	ORG[1]	3 - Nevtralno[18]	*->6-1	*[6]	
+1-14	89-94	borze	ORG[1]	3 - Nevtralno[18]	*->6-1	*[6]	
+1-15	95-104	sporočili	_	_	_	_	
+1-16	105-107	iz	_	_	_	_	
+1-17	108-115	Gorenja	ORG	_	*->1-1	*[1]	
+1-18	116-117	,	_	_	_	_	
+1-19	118-120	so	_	_	_	_	
+1-20	121-123	na	_	_	_	_	
+1-21	124-132	današnji	_	_	_	_	
+1-22	133-142	ustanovni	_	_	_	_	
+1-23	143-147	seji	_	_	_	_	
+1-24	148-154	novega	_	_	_	_	
+1-25	155-165	nadzornega	_	_	_	_	
+1-26	166-171	sveta	_	_	_	_	
+1-27	172-174	za	_	_	_	_	
+1-28	175-186	predsednika	_	_	*->2-1	*[2]	
+1-29	187-192	sveta	_	_	*->2-1	*[2]	
+1-30	193-201	izvolili	_	_	_	_	
+1-31	202-207	Uroša	PER[2]	_	*->2-2	*[2]	
+1-32	208-216	Slavinca	PER[2]	_	*->2-2	*[2]	
+1-33	217-218	.	_	_	_	_	
+1-34	219-227	Slavinec	PER	_	*->2-3	*[2]	
+1-35	228-230	je	_	_	_	_	
+1-36	231-233	od	_	_	_	_	
+1-37	234-238	leta	_	_	_	_	
+1-38	239-243	1990	_	_	_	_	
+1-39	244-254	predsednik	_	_	*->2-4	*[2]	
+1-40	255-261	uprave	_	_	*->2-4	*[2]	
+1-41	262-268	družbe	_	_	*->2-4	*[2]	
+1-42	269-275	Helios	ORG[3]	3 - Nevtralno[19]	*->2-4|*->7-1	*[2]|*[7]	
+1-43	276-283	Domžale	ORG[3]|LOC[4]	3 - Nevtralno[19]|3 - Nevtralno[20]	*->2-4|*->7-1|*->8-1	*[2]|*[7]|*[8]	
+1-44	284-285	.	_	_	_	_	
+1-45	286-294	Opravlja	_	_	_	_	
+1-46	295-299	tudi	_	_	_	_	
+1-47	300-308	funkcijo	_	_	_	_	
+1-48	309-320	predsednika	_	_	*->2-5	*[2]	
+1-49	321-330	skupščine	_	_	*->2-5	*[2]	
+1-50	331-342	Gospodarske	ORG[5]	_	*->2-5|*->3-1	*[2]|*[3]	
+1-51	343-351	zbornice	ORG[5]	_	*->2-5|*->3-1	*[2]|*[3]	
+1-52	352-361	Slovenije	ORG[5]|LOC[6]	3 - Nevtralno	*->2-5|*->3-1|*->9-1	*[2]|*[3]|*[9]	
+1-53	362-363	.	_	_	_	_	
+1-54	364-368	Leta	_	_	_	_	
+1-55	369-373	1997	_	_	_	_	
+1-56	374-376	je	_	_	_	_	
+1-57	377-383	prejel	_	_	*->2-6	*[2]	
+1-58	384-391	nagrado	_	_	_	_	
+1-59	392-395	GZS	ORG	3 - Nevtralno	*->3-2	*[3]	
+1-60	396-397	-	_	_	_	_	
+1-61	398-400	ja	_	_	_	_	
+1-62	401-403	za	_	_	_	_	
+1-63	404-411	izjemne	_	_	_	_	
+1-64	412-419	dosežke	_	_	_	_	
+1-65	420-421	v	_	_	_	_	
+1-66	422-434	gospodarstvu	_	_	_	_	
+1-67	435-436	,	_	_	_	_	
+1-68	437-441	leta	_	_	_	_	
+1-69	442-446	2006	_	_	_	_	
+1-70	447-449	pa	_	_	_	_	
+1-71	450-459	priznanje	_	_	_	_	
+1-72	460-462	za	_	_	_	_	
+1-73	463-474	menedžersko	_	_	_	_	
+1-74	475-483	osebnost	_	4 - Pozitivno[21]	*->2-7	*[2]	
+1-75	484-488	leta	_	4 - Pozitivno[21]	*->2-7	*[2]	
+1-76	489-490	.	_	_	_	_	
+1-77	491-498	Makovec	PER[7]	_	*->4-1	*[4]	
+1-78	499-509	Brenčičevi	PER[7]	_	*->4-1	*[4]	
+1-79	510-512	in	_	_	_	_	
+1-80	513-523	Martinjaku	PER	_	*->5-1	*[5]	
+1-81	524-535	namestniški	_	_	_	_	
+1-82	536-544	funkciji	_	_	_	_	
+1-83	545-554	Skupščina	_	_	_	_	
+1-84	555-566	velenjskega	_	_	*->1-2	*[1]	
+1-85	567-575	podjetja	_	_	*->1-2	*[1]	
+1-86	576-578	je	_	_	_	_	
+1-87	579-583	maja	_	_	_	_	
+1-88	584-589	letos	_	_	_	_	
+1-89	590-598	potrdila	_	_	_	_	
+1-90	599-608	spremembo	_	_	_	_	
+1-91	609-616	statuta	_	_	_	_	
+1-92	617-618	,	_	_	_	_	
+1-93	619-623	tako	_	_	_	_	
+1-94	624-626	da	_	_	_	_	
+1-95	627-630	ima	_	_	_	_	
+1-96	631-637	družba	_	_	*->1-3	*[1]	
+1-97	638-640	po	_	_	_	_	
+1-98	641-646	novem	_	_	_	_	
+1-99	647-648	v	_	_	_	_	
+1-100	649-658	nadzornem	_	_	_	_	
+1-101	659-664	svetu	_	_	_	_	
+1-102	665-669	šest	_	_	_	_	
+1-103	670-683	predstavnikov	_	_	_	_	
+1-104	684-692	kapitala	_	_	_	_	
+1-105	693-695	in	_	_	_	_	
+1-106	696-701	štiri	_	_	_	_	
+1-107	702-714	predstavnike	_	_	_	_	
+1-108	715-723	delavcev	_	_	_	_	
+1-109	724-725	.	_	_	_	_	
+1-110	726-731	Vlogo	_	_	_	_	
+1-111	732-743	namestnikov	_	_	_	_	
+1-112	744-755	predsednika	_	_	_	_	
+1-113	756-766	nadzornega	_	_	_	_	
+1-114	767-772	sveta	_	_	_	_	
+1-115	773-778	bosta	_	_	_	_	
+1-116	779-789	opravljala	_	_	_	_	
+1-117	790-794	Maja	PER[8]	4 - Pozitivno[22]	*->4-2	*[4]	
+1-118	795-802	Makovec	PER[8]	4 - Pozitivno[22]	*->4-2	*[4]	
+1-119	803-810	Brenčič	PER[8]	4 - Pozitivno[22]	*->4-2	*[4]	
+1-120	811-813	in	_	_	_	_	
+1-121	814-822	Krešimir	PER[9]	4 - Pozitivno[23]	*->5-2	*[5]	
+1-122	823-832	Martinjak	PER[9]	4 - Pozitivno[23]	*->5-2	*[5]	
+1-123	833-834	,	_	_	_	_	
+1-124	835-840	drugi	_	_	_	_	
+1-125	841-846	člani	_	_	_	_	
+1-126	847-852	sveta	_	_	_	_	
+1-127	853-855	pa	_	_	_	_	
+1-128	856-858	so	_	_	_	_	
+1-129	859-861	še	_	_	_	_	
+1-130	862-867	Drago	PER[10]	3 - Nevtralno[24]	*->10-1	*[10]	
+1-131	868-875	Krenker	PER[10]	3 - Nevtralno[24]	*->10-1	*[10]	
+1-132	876-877	,	_	_	_	_	
+1-133	878-883	Peter	PER[11]	3 - Nevtralno[25]	*->11-1	*[11]	
+1-134	884-889	Kobal	PER[11]	3 - Nevtralno[25]	*->11-1	*[11]	
+1-135	890-891	,	_	_	_	_	
+1-136	892-896	Jure	PER[12]	3 - Nevtralno[26]	*->12-1	*[12]	
+1-137	897-905	Slemenik	PER[12]	3 - Nevtralno[26]	*->12-1	*[12]	
+1-138	906-907	,	_	_	_	_	
+1-139	908-913	Peter	PER[13]	3 - Nevtralno[27]	*->13-1	*[13]	
+1-140	914-921	Kraljič	PER[13]	3 - Nevtralno[27]	*->13-1	*[13]	
+1-141	922-923	,	_	_	_	_	
+1-142	924-929	Keith	PER[14]	3 - Nevtralno[28]	*->14-1	*[14]	
+1-143	930-935	Miles	PER[14]	3 - Nevtralno[28]	*->14-1	*[14]	
+1-144	936-937	,	_	_	_	_	
+1-145	938-944	Marcel	PER[15]	3 - Nevtralno[29]	*->15-1	*[15]	
+1-146	945-948	van	PER[15]	3 - Nevtralno[29]	*->15-1	*[15]	
+1-147	949-953	Asse	PER[15]	3 - Nevtralno[29]	*->15-1	*[15]	
+1-148	954-956	in	_	_	_	_	
+1-149	957-964	Bernard	PER[16]	3 - Nevtralno[30]	*->16-1	*[16]	
+1-150	965-966	C	PER[16]	3 - Nevtralno[30]	*->16-1	*[16]	
+1-151	967-968	.	PER[16]	3 - Nevtralno[30]	*->16-1	*[16]	
+1-152	969-977	Pasquier	PER[16]	3 - Nevtralno[30]	*->16-1	*[16]	
+1-153	978-979	.	_	_	_	_	
+1-154	980-988	Nadzorni	_	_	_	_	
+1-155	989-994	odbor	_	_	_	_	
+1-156	995-998	ima	_	_	_	_	
+1-157	999-1009	štiriletni	_	_	_	_	
+1-158	1010-1016	mandat	_	_	_	_	
+1-159	1017-1018	.	_	_	_	_	
+1-160	1019-1026	Gorenje	ORG	_	*->1-4	*[1]	
+1-161	1027-1029	je	_	_	_	_	
+1-162	1030-1035	sicer	_	_	_	_	
+1-163	1036-1044	prejšnji	_	_	_	_	
+1-164	1045-1050	teden	_	_	_	_	
+1-165	1051-1053	od	_	_	_	_	
+1-166	1054-1062	Probanke	ORG	3 - Nevtralno	*->17-1	*[17]	
+1-167	1063-1069	kupilo	_	_	_	_	
+1-168	1070-1075	21,44	_	_	_	_	
+1-169	1076-1077	-	_	_	_	_	
+1-170	1078-1086	odstotni	_	_	_	_	
+1-171	1087-1092	delež	_	_	_	_	
+1-172	1093-1103	mariborske	_	_	*->18-1	*[18]	
+1-173	1104-1110	družbe	_	_	*->18-1	*[18]	
+1-174	1111-1113	za	_	_	*->18-1	*[18]	
+1-175	1114-1123	predelavo	_	_	*->18-1	*[18]	
+1-176	1124-1132	odpadkov	_	_	*->18-1	*[18]	
+1-177	1133-1140	Gorenje	ORG[17]	3 - Nevtralno[31]	*->18-1|*->19-1	*[18]|*[19]	
+1-178	1141-1149	Surovina	ORG[17]	3 - Nevtralno[31]	*->18-1|*->19-1	*[18]|*[19]	
+1-179	1150-1151	,	_	_	_	_	
+1-180	1152-1153	s	_	_	_	_	
+1-181	1154-1159	čimer	_	_	_	_	
+1-182	1160-1162	je	_	_	_	_	
+1-183	1163-1170	postalo	_	_	_	_	
+1-184	1171-1175	njen	_	3 - Nevtralno	*->18-2	*[18]	
+1-185	1176-1181	72,44	_	4 - Pozitivno[32]	*->1-5	*[1]	
+1-186	1182-1183	-	_	4 - Pozitivno[32]	*->1-5	*[1]	
+1-187	1184-1192	odstotni	_	4 - Pozitivno[32]	*->1-5	*[1]	
+1-188	1193-1200	lastnik	_	4 - Pozitivno[32]	*->1-5	*[1]	

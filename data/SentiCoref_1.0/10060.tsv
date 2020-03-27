@@ -1,0 +1,218 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=RTV Slovenija je nocoj v okviru dobrodelne akcije Stopimo skupaj , pomagajmo žrtvam poplav zbrala 582.000 evrov . Zbrana sredstva bo nacionalna televizija namenila za pomoč žrtvam novembrskih poplav . Osrednji dogodek akcije je bila nocojšnja posebna oddaja , ki bo potekala v živo iz studia Televizije Slovenija , začela pa se je ob 20 . uri in sedem minut . Oddaja je bila sestavljena iz prispevkov novinarjev in dopisnikov RTVS z najbolj prizadetih območij in pogovora z različnimi gosti , ki so vključeni v saniranje škode in reševanje ljudi ter premoženja ob poplavah . V oddaji je sodeloval tudi Simfonični orkester RTVS s Tinkaro Kovač , Nušo Derenda , Darjo Švajger , Eroiko , Janom Plestenjakom , ansamblom Franca Miheliča , otroškim pevskim zborom RTV SLO in drugimi imeni slovenske glasbe , so sporočili iz RTVS . Voditelji osrednje oddaje so bili Slavko Bobovnik , Jasmina Jamnik in Jelena Aščić . Za žrtve poplav Novembrske poplave so najbolj prizadele Štajersko , Koroško , Posavje in Posočje . Voda je zalila številne stavbe – poškodovanih naj bi bilo nekaj tisoč stanovanjskih in poslovnih objektov – in ceste ter sprožila vrsto plazov . Za pomoč prizadetim so se po poplavah med drugim odločili Slovenska karitas , Rdeči križ Slovenije in poslanske skupine
+1-1	0-3	RTV	ORG[1]	_	*->8-1	*[8]	
+1-2	4-13	Slovenija	ORG[1]|LOC[2]	_	*->8-1|*->20-1	*[8]|*[20]	
+1-3	14-16	je	_	_	_	_	
+1-4	17-22	nocoj	_	_	_	_	
+1-5	23-24	v	_	_	_	_	
+1-6	25-31	okviru	_	_	_	_	
+1-7	32-42	dobrodelne	_	_	_	_	
+1-8	43-49	akcije	_	_	_	_	
+1-9	50-57	Stopimo	_	_	_	_	
+1-10	58-64	skupaj	_	_	_	_	
+1-11	65-66	,	_	_	_	_	
+1-12	67-76	pomagajmo	_	_	_	_	
+1-13	77-83	žrtvam	_	_	_	_	
+1-14	84-90	poplav	_	_	_	_	
+1-15	91-97	zbrala	_	_	_	_	
+1-16	98-105	582.000	_	_	_	_	
+1-17	106-111	evrov	_	_	_	_	
+1-18	112-113	.	_	_	_	_	
+1-19	114-120	Zbrana	_	_	_	_	
+1-20	121-129	sredstva	_	_	_	_	
+1-21	130-132	bo	_	_	_	_	
+1-22	133-143	nacionalna	_	_	*->8-2	*[8]	
+1-23	144-154	televizija	_	_	*->8-2	*[8]	
+1-24	155-163	namenila	_	_	_	_	
+1-25	164-166	za	_	_	_	_	
+1-26	167-172	pomoč	_	_	_	_	
+1-27	173-179	žrtvam	_	_	_	_	
+1-28	180-191	novembrskih	_	_	_	_	
+1-29	192-198	poplav	_	_	_	_	
+1-30	199-200	.	_	_	_	_	
+1-31	201-209	Osrednji	_	_	_	_	
+1-32	210-217	dogodek	_	_	_	_	
+1-33	218-224	akcije	_	_	_	_	
+1-34	225-227	je	_	_	_	_	
+1-35	228-232	bila	_	_	_	_	
+1-36	233-242	nocojšnja	_	_	_	_	
+1-37	243-250	posebna	_	_	_	_	
+1-38	251-257	oddaja	_	_	_	_	
+1-39	258-259	,	_	_	_	_	
+1-40	260-262	ki	_	_	_	_	
+1-41	263-265	bo	_	_	_	_	
+1-42	266-274	potekala	_	_	_	_	
+1-43	275-276	v	_	_	_	_	
+1-44	277-281	živo	_	_	_	_	
+1-45	282-284	iz	_	_	_	_	
+1-46	285-291	studia	_	_	_	_	
+1-47	292-302	Televizije	ORG[3]	_	*->8-3	*[8]	
+1-48	303-312	Slovenija	ORG[3]|LOC[4]	_	*->8-3|*->20-2	*[8]|*[20]	
+1-49	313-314	,	_	_	_	_	
+1-50	315-321	začela	_	_	_	_	
+1-51	322-324	pa	_	_	_	_	
+1-52	325-327	se	_	_	_	_	
+1-53	328-330	je	_	_	_	_	
+1-54	331-333	ob	_	_	_	_	
+1-55	334-336	20	_	_	_	_	
+1-56	337-338	.	_	_	_	_	
+1-57	339-342	uri	_	_	_	_	
+1-58	343-345	in	_	_	_	_	
+1-59	346-351	sedem	_	_	_	_	
+1-60	352-357	minut	_	_	_	_	
+1-61	358-359	.	_	_	_	_	
+1-62	360-366	Oddaja	_	_	_	_	
+1-63	367-369	je	_	_	_	_	
+1-64	370-374	bila	_	_	_	_	
+1-65	375-386	sestavljena	_	_	_	_	
+1-66	387-389	iz	_	_	_	_	
+1-67	390-400	prispevkov	_	_	_	_	
+1-68	401-411	novinarjev	_	_	_	_	
+1-69	412-414	in	_	_	_	_	
+1-70	415-425	dopisnikov	_	_	_	_	
+1-71	426-430	RTVS	ORG	_	*->8-4	*[8]	
+1-72	431-432	z	_	_	_	_	
+1-73	433-440	najbolj	_	_	_	_	
+1-74	441-451	prizadetih	_	_	_	_	
+1-75	452-459	območij	_	_	_	_	
+1-76	460-462	in	_	_	_	_	
+1-77	463-471	pogovora	_	_	_	_	
+1-78	472-473	z	_	_	_	_	
+1-79	474-484	različnimi	_	_	_	_	
+1-80	485-490	gosti	_	_	_	_	
+1-81	491-492	,	_	_	_	_	
+1-82	493-495	ki	_	_	_	_	
+1-83	496-498	so	_	_	_	_	
+1-84	499-508	vključeni	_	_	_	_	
+1-85	509-510	v	_	_	_	_	
+1-86	511-520	saniranje	_	_	_	_	
+1-87	521-526	škode	_	_	_	_	
+1-88	527-529	in	_	_	_	_	
+1-89	530-539	reševanje	_	_	_	_	
+1-90	540-545	ljudi	_	_	_	_	
+1-91	546-549	ter	_	_	_	_	
+1-92	550-560	premoženja	_	_	_	_	
+1-93	561-563	ob	_	_	_	_	
+1-94	564-572	poplavah	_	_	_	_	
+1-95	573-574	.	_	_	_	_	
+1-96	575-576	V	_	_	_	_	
+1-97	577-583	oddaji	_	_	_	_	
+1-98	584-586	je	_	_	_	_	
+1-99	587-596	sodeloval	_	_	_	_	
+1-100	597-601	tudi	_	_	_	_	
+1-101	602-612	Simfonični	ORG[5]	3 - Nevtralno[22]	*->17-1	*[17]	
+1-102	613-621	orkester	ORG[5]	3 - Nevtralno[22]	*->17-1	*[17]	
+1-103	622-626	RTVS	ORG[5]|ORG[6]	3 - Nevtralno[22]	*->17-1|*->8-5	*[17]|*[8]	
+1-104	627-628	s	_	_	_	_	
+1-105	629-636	Tinkaro	PER[7]	3 - Nevtralno[23]	*->1-1	*[1]	
+1-106	637-642	Kovač	PER[7]	3 - Nevtralno[23]	*->1-1	*[1]	
+1-107	643-644	,	_	_	_	_	
+1-108	645-649	Nušo	PER[8]	3 - Nevtralno[24]	*->2-1	*[2]	
+1-109	650-657	Derenda	PER[8]	3 - Nevtralno[24]	*->2-1	*[2]	
+1-110	658-659	,	_	_	_	_	
+1-111	660-665	Darjo	PER[9]	3 - Nevtralno[25]	*->3-1	*[3]	
+1-112	666-673	Švajger	PER[9]	3 - Nevtralno[25]	*->3-1	*[3]	
+1-113	674-675	,	_	_	_	_	
+1-114	676-682	Eroiko	ORG	3 - Nevtralno	*->4-1	*[4]	
+1-115	683-684	,	_	_	_	_	
+1-116	685-690	Janom	PER[10]	3 - Nevtralno[26]	*->5-1	*[5]	
+1-117	691-703	Plestenjakom	PER[10]	3 - Nevtralno[26]	*->5-1	*[5]	
+1-118	704-705	,	_	_	_	_	
+1-119	706-715	ansamblom	ORG[11]	3 - Nevtralno[27]	*->6-1	*[6]	
+1-120	716-722	Franca	ORG[11]|PER[12]	3 - Nevtralno[27]|3 - Nevtralno[28]	*->6-1|*->7-1	*[6]|*[7]	
+1-121	723-731	Miheliča	ORG[11]|PER[12]	3 - Nevtralno[27]|3 - Nevtralno[28]	*->6-1|*->7-1	*[6]|*[7]	
+1-122	732-733	,	_	_	_	_	
+1-123	734-742	otroškim	ORG[13]	3 - Nevtralno[29]	*->18-1	*[18]	
+1-124	743-750	pevskim	ORG[13]	3 - Nevtralno[29]	*->18-1	*[18]	
+1-125	751-757	zborom	ORG[13]	3 - Nevtralno[29]	*->18-1	*[18]	
+1-126	758-761	RTV	ORG[13]|ORG[14]	3 - Nevtralno[29]	*->18-1|*->8-6	*[18]|*[8]	
+1-127	762-765	SLO	ORG[13]|ORG[14]	3 - Nevtralno[29]	*->18-1|*->8-6	*[18]|*[8]	
+1-128	766-768	in	_	_	_	_	
+1-129	769-776	drugimi	_	_	_	_	
+1-130	777-782	imeni	_	_	_	_	
+1-131	783-792	slovenske	_	_	_	_	
+1-132	793-799	glasbe	_	_	_	_	
+1-133	800-801	,	_	_	_	_	
+1-134	802-804	so	_	_	_	_	
+1-135	805-814	sporočili	_	_	_	_	
+1-136	815-817	iz	_	_	_	_	
+1-137	818-822	RTVS	ORG	3 - Nevtralno	*->8-7	*[8]	
+1-138	823-824	.	_	_	_	_	
+1-139	825-834	Voditelji	_	_	_	_	
+1-140	835-843	osrednje	_	_	_	_	
+1-141	844-850	oddaje	_	_	_	_	
+1-142	851-853	so	_	_	_	_	
+1-143	854-858	bili	_	_	_	_	
+1-144	859-865	Slavko	PER[15]	3 - Nevtralno[30]	*->9-1	*[9]	
+1-145	866-874	Bobovnik	PER[15]	3 - Nevtralno[30]	*->9-1	*[9]	
+1-146	875-876	,	_	_	_	_	
+1-147	877-884	Jasmina	PER[16]	3 - Nevtralno[31]	*->10-1	*[10]	
+1-148	885-891	Jamnik	PER[16]	3 - Nevtralno[31]	*->10-1	*[10]	
+1-149	892-894	in	_	_	_	_	
+1-150	895-901	Jelena	PER[17]	3 - Nevtralno[32]	*->11-1	*[11]	
+1-151	902-907	Aščić	PER[17]	3 - Nevtralno[32]	*->11-1	*[11]	
+1-152	908-909	.	_	_	_	_	
+1-153	910-912	Za	_	_	_	_	
+1-154	913-918	žrtve	_	_	_	_	
+1-155	919-925	poplav	_	_	_	_	
+1-156	926-936	Novembrske	_	_	_	_	
+1-157	937-944	poplave	_	_	_	_	
+1-158	945-947	so	_	_	_	_	
+1-159	948-955	najbolj	_	_	_	_	
+1-160	956-965	prizadele	_	_	_	_	
+1-161	966-975	Štajersko	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-162	976-977	,	_	_	_	_	
+1-163	978-985	Koroško	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-164	986-987	,	_	_	_	_	
+1-165	988-995	Posavje	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-166	996-998	in	_	_	_	_	
+1-167	999-1006	Posočje	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-168	1007-1008	.	_	_	_	_	
+1-169	1009-1013	Voda	_	_	_	_	
+1-170	1014-1016	je	_	_	_	_	
+1-171	1017-1023	zalila	_	_	_	_	
+1-172	1024-1032	številne	_	_	_	_	
+1-173	1033-1039	stavbe	_	_	_	_	
+1-174	1040-1041	–	_	_	_	_	
+1-175	1042-1054	poškodovanih	_	_	_	_	
+1-176	1055-1058	naj	_	_	_	_	
+1-177	1059-1061	bi	_	_	_	_	
+1-178	1062-1066	bilo	_	_	_	_	
+1-179	1067-1072	nekaj	_	_	_	_	
+1-180	1073-1078	tisoč	_	_	_	_	
+1-181	1079-1092	stanovanjskih	_	_	_	_	
+1-182	1093-1095	in	_	_	_	_	
+1-183	1096-1105	poslovnih	_	_	_	_	
+1-184	1106-1114	objektov	_	_	_	_	
+1-185	1115-1116	–	_	_	_	_	
+1-186	1117-1119	in	_	_	_	_	
+1-187	1120-1125	ceste	_	_	_	_	
+1-188	1126-1129	ter	_	_	_	_	
+1-189	1130-1138	sprožila	_	_	_	_	
+1-190	1139-1144	vrsto	_	_	_	_	
+1-191	1145-1151	plazov	_	_	_	_	
+1-192	1152-1153	.	_	_	_	_	
+1-193	1154-1156	Za	_	_	_	_	
+1-194	1157-1162	pomoč	_	_	_	_	
+1-195	1163-1173	prizadetim	_	_	_	_	
+1-196	1174-1176	so	_	_	_	_	
+1-197	1177-1179	se	_	_	_	_	
+1-198	1180-1182	po	_	_	_	_	
+1-199	1183-1191	poplavah	_	_	_	_	
+1-200	1192-1195	med	_	_	_	_	
+1-201	1196-1202	drugim	_	_	_	_	
+1-202	1203-1211	odločili	_	_	_	_	
+1-203	1212-1221	Slovenska	ORG[18]|LOC[19]	4 - Pozitivno[33]	*->19-1|*->20-3	*[19]|*[20]	
+1-204	1222-1229	karitas	ORG[18]	4 - Pozitivno[33]	*->19-1	*[19]	
+1-205	1230-1231	,	_	_	_	_	
+1-206	1232-1237	Rdeči	ORG[20]	4 - Pozitivno[34]	*->16-1	*[16]	
+1-207	1238-1242	križ	ORG[20]	4 - Pozitivno[34]	*->16-1	*[16]	
+1-208	1243-1252	Slovenije	ORG[20]|LOC[21]	4 - Pozitivno[34]|3 - Nevtralno[35]	*->16-1|*->20-4	*[16]|*[20]	
+1-209	1253-1255	in	_	_	_	_	
+1-210	1256-1265	poslanske	_	_	_	_	
+1-211	1266-1273	skupine	_	_	_	_	

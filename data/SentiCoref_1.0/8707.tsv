@@ -1,0 +1,357 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Na tradicionalni 49 . mednarodni povorki , ki so jo pripravili na Ptuju , je bilo skupno več kot 2500 nastopajočih pustnih likov in mask , od tega kar 678 kurentov . Letošnje že 49 . ptujsko kurentovanje je doživelo vrhunec z mednarodno karnevalsko povorko . Povorki po Ptuju , ki si jo je letos po besedah vodje povorke Milana Gabrovca ogledalo okoli 55.000 obiskovalcev , je sledila zabava v karnevalski dvorani in na Mestnem trgu . Letošnja prireditev je potekala v izrazito mednarodnem duhu , saj se bo ptujski festival mask in maskiranja leta 2012 predstavil kot partner tudi v podobi Slovenije kot evropske prestolnice kulture . Povorko so organizatorji označili za povorko presežkov . Tako je na njej nastopilo 67 pustnih likov in mask , tako domačih kot tujih . Med njimi so Most ljubezni iz Srbije , Carneval d'Arlon in Komitee princev iz Arlona ter Mamutzones - Samugheo iz Sardinije . Coprnica Uršula , Ščuka velikanka in Butalci V Cerknici so pustovanje sicer začeli že v četrtek , v soboto pa so priredili otroško maškarado . Veliki pustni karneval je v Cerknici potekal danes , ko je cerkniško glavno ulico zavzel sprevod domačih in drugih mask , med katerimi je bilo videti tradicionalno coprnico Uršulo , Ščuko velikanko in Butalce . Med drugim so maškare zavzele tudi Bovec , Vrsno in Bilje . Še posebej pestro je bilo od 14 . ure dalje v Cerknem , kjer je sprevodu laufarjev in predstavitvi 25 - članske laufarske družine , enih od najbolj znanih šem na Slovenskem , sledila obsodba Pusta . Največje dolenjsko pustovanje prirejajo v Kostanjevici na Krki , kjer se vse od leta 1854 po dolenjskih Benetkah podijo maske s Šelmo na čelu . V Mokronogu so na pustno nedeljo priredili veliki pustni karneval , ki so ga letos naslovili Svetovni kongres v Mokronogu , Suhi pustni karneval pa je bil danes tudi v Žužemberku . V Novem mestu je novomeško Društvo prijateljev mladine Mojca priredilo tradicionalni otroški pustni karneval , 10 . pustovanje z Gomelo gotensko in pustno povorko pa je bilo v Gotni vasi
+1-1	0-2	Na	_	_	_	_	
+1-2	3-16	tradicionalni	_	_	_	_	
+1-3	17-19	49	_	_	_	_	
+1-4	20-21	.	_	_	_	_	
+1-5	22-32	mednarodni	_	_	_	_	
+1-6	33-40	povorki	_	_	_	_	
+1-7	41-42	,	_	_	_	_	
+1-8	43-45	ki	_	_	_	_	
+1-9	46-48	so	_	_	_	_	
+1-10	49-51	jo	_	_	_	_	
+1-11	52-62	pripravili	_	_	_	_	
+1-12	63-65	na	_	_	_	_	
+1-13	66-71	Ptuju	LOC	_	*->1-1	*[1]	
+1-14	72-73	,	_	_	_	_	
+1-15	74-76	je	_	_	_	_	
+1-16	77-81	bilo	_	_	_	_	
+1-17	82-88	skupno	_	_	_	_	
+1-18	89-92	več	_	_	_	_	
+1-19	93-96	kot	_	_	_	_	
+1-20	97-101	2500	_	_	_	_	
+1-21	102-114	nastopajočih	_	_	_	_	
+1-22	115-122	pustnih	_	_	_	_	
+1-23	123-128	likov	_	_	_	_	
+1-24	129-131	in	_	_	_	_	
+1-25	132-136	mask	_	_	_	_	
+1-26	137-138	,	_	_	_	_	
+1-27	139-141	od	_	_	_	_	
+1-28	142-146	tega	_	_	_	_	
+1-29	147-150	kar	_	_	_	_	
+1-30	151-154	678	_	_	_	_	
+1-31	155-163	kurentov	_	_	_	_	
+1-32	164-165	.	_	_	_	_	
+1-33	166-174	Letošnje	_	_	_	_	
+1-34	175-177	že	_	_	_	_	
+1-35	178-180	49	_	_	_	_	
+1-36	181-182	.	_	_	_	_	
+1-37	183-190	ptujsko	_	_	_	_	
+1-38	191-203	kurentovanje	_	_	_	_	
+1-39	204-206	je	_	_	_	_	
+1-40	207-215	doživelo	_	_	_	_	
+1-41	216-223	vrhunec	_	_	_	_	
+1-42	224-225	z	_	_	_	_	
+1-43	226-236	mednarodno	_	_	_	_	
+1-44	237-248	karnevalsko	_	_	_	_	
+1-45	249-256	povorko	_	_	_	_	
+1-46	257-258	.	_	_	_	_	
+1-47	259-266	Povorki	_	_	_	_	
+1-48	267-269	po	_	_	_	_	
+1-49	270-275	Ptuju	LOC	3 - Nevtralno	*->1-2	*[1]	
+1-50	276-277	,	_	_	_	_	
+1-51	278-280	ki	_	_	_	_	
+1-52	281-283	si	_	_	_	_	
+1-53	284-286	jo	_	_	_	_	
+1-54	287-289	je	_	_	_	_	
+1-55	290-295	letos	_	_	_	_	
+1-56	296-298	po	_	_	_	_	
+1-57	299-306	besedah	_	_	_	_	
+1-58	307-312	vodje	_	3 - Nevtralno[8]	*->2-1	*[2]	
+1-59	313-320	povorke	_	3 - Nevtralno[8]	*->2-1	*[2]	
+1-60	321-327	Milana	PER[1]	3 - Nevtralno[8]	*->2-1	*[2]	
+1-61	328-336	Gabrovca	PER[1]	3 - Nevtralno[8]	*->2-1	*[2]	
+1-62	337-345	ogledalo	_	_	_	_	
+1-63	346-351	okoli	_	_	_	_	
+1-64	352-358	55.000	_	_	_	_	
+1-65	359-371	obiskovalcev	_	_	_	_	
+1-66	372-373	,	_	_	_	_	
+1-67	374-376	je	_	_	_	_	
+1-68	377-384	sledila	_	_	_	_	
+1-69	385-391	zabava	_	_	_	_	
+1-70	392-393	v	_	_	_	_	
+1-71	394-405	karnevalski	_	_	_	_	
+1-72	406-413	dvorani	_	_	_	_	
+1-73	414-416	in	_	_	_	_	
+1-74	417-419	na	_	_	_	_	
+1-75	420-427	Mestnem	LOC[2]	3 - Nevtralno[9]	*->3-1	*[3]	
+1-76	428-432	trgu	LOC[2]	3 - Nevtralno[9]	*->3-1	*[3]	
+1-77	433-434	.	_	_	_	_	
+1-78	435-443	Letošnja	_	_	_	_	
+1-79	444-454	prireditev	_	_	_	_	
+1-80	455-457	je	_	_	_	_	
+1-81	458-466	potekala	_	_	_	_	
+1-82	467-468	v	_	_	_	_	
+1-83	469-477	izrazito	_	_	_	_	
+1-84	478-489	mednarodnem	_	_	_	_	
+1-85	490-494	duhu	_	_	_	_	
+1-86	495-496	,	_	_	_	_	
+1-87	497-500	saj	_	_	_	_	
+1-88	501-503	se	_	_	_	_	
+1-89	504-506	bo	_	_	_	_	
+1-90	507-514	ptujski	_	_	_	_	
+1-91	515-523	festival	_	_	_	_	
+1-92	524-528	mask	_	_	_	_	
+1-93	529-531	in	_	_	_	_	
+1-94	532-542	maskiranja	_	_	_	_	
+1-95	543-547	leta	_	_	_	_	
+1-96	548-552	2012	_	_	_	_	
+1-97	553-563	predstavil	_	_	_	_	
+1-98	564-567	kot	_	_	_	_	
+1-99	568-575	partner	_	_	_	_	
+1-100	576-580	tudi	_	_	_	_	
+1-101	581-582	v	_	_	_	_	
+1-102	583-589	podobi	_	_	_	_	
+1-103	590-599	Slovenije	LOC	_	*->4-1	*[4]	
+1-104	600-603	kot	_	_	_	_	
+1-105	604-612	evropske	_	_	*->4-2	*[4]	
+1-106	613-624	prestolnice	_	_	*->4-2	*[4]	
+1-107	625-632	kulture	_	_	*->4-2	*[4]	
+1-108	633-634	.	_	_	_	_	
+1-109	635-642	Povorko	_	_	_	_	
+1-110	643-645	so	_	_	_	_	
+1-111	646-659	organizatorji	_	_	_	_	
+1-112	660-668	označili	_	_	_	_	
+1-113	669-671	za	_	_	_	_	
+1-114	672-679	povorko	_	_	_	_	
+1-115	680-689	presežkov	_	_	_	_	
+1-116	690-691	.	_	_	_	_	
+1-117	692-696	Tako	_	_	_	_	
+1-118	697-699	je	_	_	_	_	
+1-119	700-702	na	_	_	_	_	
+1-120	703-707	njej	_	_	_	_	
+1-121	708-717	nastopilo	_	_	_	_	
+1-122	718-720	67	_	_	_	_	
+1-123	721-728	pustnih	_	_	_	_	
+1-124	729-734	likov	_	_	_	_	
+1-125	735-737	in	_	_	_	_	
+1-126	738-742	mask	_	_	_	_	
+1-127	743-744	,	_	_	_	_	
+1-128	745-749	tako	_	_	_	_	
+1-129	750-757	domačih	_	_	_	_	
+1-130	758-761	kot	_	_	_	_	
+1-131	762-767	tujih	_	_	_	_	
+1-132	768-769	.	_	_	_	_	
+1-133	770-773	Med	_	_	_	_	
+1-134	774-779	njimi	_	_	_	_	
+1-135	780-782	so	_	_	_	_	
+1-136	783-787	Most	_	_	_	_	
+1-137	788-796	ljubezni	_	_	_	_	
+1-138	797-799	iz	_	_	_	_	
+1-139	800-806	Srbije	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-140	807-808	,	_	_	_	_	
+1-141	809-817	Carneval	_	_	_	_	
+1-142	818-825	d'Arlon	_	_	_	_	
+1-143	826-828	in	_	_	_	_	
+1-144	829-836	Komitee	_	_	_	_	
+1-145	837-844	princev	_	_	_	_	
+1-146	845-847	iz	_	_	_	_	
+1-147	848-854	Arlona	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-148	855-858	ter	_	_	_	_	
+1-149	859-869	Mamutzones	_	_	_	_	
+1-150	870-871	-	_	_	_	_	
+1-151	872-880	Samugheo	_	_	_	_	
+1-152	881-883	iz	_	_	_	_	
+1-153	884-893	Sardinije	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-154	894-895	.	_	_	_	_	
+1-155	896-904	Coprnica	_	_	_	_	
+1-156	905-911	Uršula	_	_	_	_	
+1-157	912-913	,	_	_	_	_	
+1-158	914-919	Ščuka	_	_	_	_	
+1-159	920-929	velikanka	_	_	_	_	
+1-160	930-932	in	_	_	_	_	
+1-161	933-940	Butalci	_	_	_	_	
+1-162	941-942	V	_	_	_	_	
+1-163	943-951	Cerknici	LOC	_	*->8-1	*[8]	
+1-164	952-954	so	_	_	_	_	
+1-165	955-965	pustovanje	_	_	_	_	
+1-166	966-971	sicer	_	_	_	_	
+1-167	972-978	začeli	_	_	_	_	
+1-168	979-981	že	_	_	_	_	
+1-169	982-983	v	_	_	_	_	
+1-170	984-991	četrtek	_	_	_	_	
+1-171	992-993	,	_	_	_	_	
+1-172	994-995	v	_	_	_	_	
+1-173	996-1002	soboto	_	_	_	_	
+1-174	1003-1005	pa	_	_	_	_	
+1-175	1006-1008	so	_	_	_	_	
+1-176	1009-1018	priredili	_	_	_	_	
+1-177	1019-1026	otroško	_	_	_	_	
+1-178	1027-1036	maškarado	_	_	_	_	
+1-179	1037-1038	.	_	_	_	_	
+1-180	1039-1045	Veliki	_	_	_	_	
+1-181	1046-1052	pustni	_	_	_	_	
+1-182	1053-1061	karneval	_	_	_	_	
+1-183	1062-1064	je	_	_	_	_	
+1-184	1065-1066	v	_	_	_	_	
+1-185	1067-1075	Cerknici	LOC	3 - Nevtralno	*->8-2	*[8]	
+1-186	1076-1083	potekal	_	_	_	_	
+1-187	1084-1089	danes	_	_	_	_	
+1-188	1090-1091	,	_	_	_	_	
+1-189	1092-1094	ko	_	_	_	_	
+1-190	1095-1097	je	_	_	_	_	
+1-191	1098-1107	cerkniško	_	_	_	_	
+1-192	1108-1114	glavno	_	_	_	_	
+1-193	1115-1120	ulico	_	_	_	_	
+1-194	1121-1127	zavzel	_	_	_	_	
+1-195	1128-1135	sprevod	_	_	_	_	
+1-196	1136-1143	domačih	_	_	_	_	
+1-197	1144-1146	in	_	_	_	_	
+1-198	1147-1153	drugih	_	_	_	_	
+1-199	1154-1158	mask	_	_	_	_	
+1-200	1159-1160	,	_	_	_	_	
+1-201	1161-1164	med	_	_	_	_	
+1-202	1165-1173	katerimi	_	_	_	_	
+1-203	1174-1176	je	_	_	_	_	
+1-204	1177-1181	bilo	_	_	_	_	
+1-205	1182-1188	videti	_	_	_	_	
+1-206	1189-1202	tradicionalno	_	_	_	_	
+1-207	1203-1211	coprnico	_	_	_	_	
+1-208	1212-1218	Uršulo	_	_	_	_	
+1-209	1219-1220	,	_	_	_	_	
+1-210	1221-1226	Ščuko	_	_	_	_	
+1-211	1227-1236	velikanko	_	_	_	_	
+1-212	1237-1239	in	_	_	_	_	
+1-213	1240-1247	Butalce	_	_	_	_	
+1-214	1248-1249	.	_	_	_	_	
+1-215	1250-1253	Med	_	_	_	_	
+1-216	1254-1260	drugim	_	_	_	_	
+1-217	1261-1263	so	_	_	_	_	
+1-218	1264-1271	maškare	_	_	_	_	
+1-219	1272-1279	zavzele	_	_	_	_	
+1-220	1280-1284	tudi	_	_	_	_	
+1-221	1285-1290	Bovec	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-222	1291-1292	,	_	_	_	_	
+1-223	1293-1298	Vrsno	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-224	1299-1301	in	_	_	_	_	
+1-225	1302-1307	Bilje	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-226	1308-1309	.	_	_	_	_	
+1-227	1310-1312	Še	_	_	_	_	
+1-228	1313-1320	posebej	_	_	_	_	
+1-229	1321-1327	pestro	_	_	_	_	
+1-230	1328-1330	je	_	_	_	_	
+1-231	1331-1335	bilo	_	_	_	_	
+1-232	1336-1338	od	_	_	_	_	
+1-233	1339-1341	14	_	_	_	_	
+1-234	1342-1343	.	_	_	_	_	
+1-235	1344-1347	ure	_	_	_	_	
+1-236	1348-1353	dalje	_	_	_	_	
+1-237	1354-1355	v	_	_	_	_	
+1-238	1356-1363	Cerknem	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-239	1364-1365	,	_	_	_	_	
+1-240	1366-1370	kjer	_	_	_	_	
+1-241	1371-1373	je	_	_	_	_	
+1-242	1374-1382	sprevodu	_	_	_	_	
+1-243	1383-1392	laufarjev	_	_	_	_	
+1-244	1393-1395	in	_	_	_	_	
+1-245	1396-1408	predstavitvi	_	_	_	_	
+1-246	1409-1411	25	_	_	_	_	
+1-247	1412-1413	-	_	_	_	_	
+1-248	1414-1421	članske	_	_	_	_	
+1-249	1422-1431	laufarske	_	_	_	_	
+1-250	1432-1439	družine	_	_	_	_	
+1-251	1440-1441	,	_	_	_	_	
+1-252	1442-1446	enih	_	_	_	_	
+1-253	1447-1449	od	_	_	_	_	
+1-254	1450-1457	najbolj	_	_	_	_	
+1-255	1458-1464	znanih	_	_	_	_	
+1-256	1465-1468	šem	_	_	_	_	
+1-257	1469-1471	na	_	_	_	_	
+1-258	1472-1482	Slovenskem	LOC	3 - Nevtralno	*->4-3	*[4]	
+1-259	1483-1484	,	_	_	_	_	
+1-260	1485-1492	sledila	_	_	_	_	
+1-261	1493-1500	obsodba	_	_	_	_	
+1-262	1501-1506	Pusta	_	_	_	_	
+1-263	1507-1508	.	_	_	_	_	
+1-264	1509-1517	Največje	_	_	_	_	
+1-265	1518-1527	dolenjsko	_	_	_	_	
+1-266	1528-1538	pustovanje	_	_	_	_	
+1-267	1539-1548	prirejajo	_	_	_	_	
+1-268	1549-1550	v	_	_	_	_	
+1-269	1551-1563	Kostanjevici	LOC[3]	_	*->13-1	*[13]	
+1-270	1564-1566	na	LOC[3]	_	*->13-1	*[13]	
+1-271	1567-1571	Krki	LOC[3]|LOC[4]	3 - Nevtralno	*->13-1|*->14-1	*[13]|*[14]	
+1-272	1572-1573	,	_	_	_	_	
+1-273	1574-1578	kjer	_	_	_	_	
+1-274	1579-1581	se	_	_	_	_	
+1-275	1582-1585	vse	_	_	_	_	
+1-276	1586-1588	od	_	_	_	_	
+1-277	1589-1593	leta	_	_	_	_	
+1-278	1594-1598	1854	_	_	_	_	
+1-279	1599-1601	po	_	_	_	_	
+1-280	1602-1612	dolenjskih	_	3 - Nevtralno[10]	*->13-2	*[13]	
+1-281	1613-1621	Benetkah	LOC	3 - Nevtralno[10]|3 - Nevtralno[11]	*->13-2|*->15-1	*[13]|*[15]	
+1-282	1622-1628	podijo	_	_	_	_	
+1-283	1629-1634	maske	_	_	_	_	
+1-284	1635-1636	s	_	_	_	_	
+1-285	1637-1642	Šelmo	_	_	_	_	
+1-286	1643-1645	na	_	_	_	_	
+1-287	1646-1650	čelu	_	_	_	_	
+1-288	1651-1652	.	_	_	_	_	
+1-289	1653-1654	V	_	_	_	_	
+1-290	1655-1664	Mokronogu	LOC	_	*->16-1	*[16]	
+1-291	1665-1667	so	_	_	_	_	
+1-292	1668-1670	na	_	_	_	_	
+1-293	1671-1677	pustno	_	_	_	_	
+1-294	1678-1685	nedeljo	_	_	_	_	
+1-295	1686-1695	priredili	_	_	_	_	
+1-296	1696-1702	veliki	_	_	_	_	
+1-297	1703-1709	pustni	_	_	_	_	
+1-298	1710-1718	karneval	_	_	_	_	
+1-299	1719-1720	,	_	_	_	_	
+1-300	1721-1723	ki	_	_	_	_	
+1-301	1724-1726	so	_	_	_	_	
+1-302	1727-1729	ga	_	_	_	_	
+1-303	1730-1735	letos	_	_	_	_	
+1-304	1736-1745	naslovili	_	_	_	_	
+1-305	1746-1754	Svetovni	_	_	_	_	
+1-306	1755-1762	kongres	_	_	_	_	
+1-307	1763-1764	v	_	_	_	_	
+1-308	1765-1774	Mokronogu	LOC	3 - Nevtralno	*->16-2	*[16]	
+1-309	1775-1776	,	_	_	_	_	
+1-310	1777-1781	Suhi	_	_	_	_	
+1-311	1782-1788	pustni	_	_	_	_	
+1-312	1789-1797	karneval	_	_	_	_	
+1-313	1798-1800	pa	_	_	_	_	
+1-314	1801-1803	je	_	_	_	_	
+1-315	1804-1807	bil	_	_	_	_	
+1-316	1808-1813	danes	_	_	_	_	
+1-317	1814-1818	tudi	_	_	_	_	
+1-318	1819-1820	v	_	_	_	_	
+1-319	1821-1831	Žužemberku	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-320	1832-1833	.	_	_	_	_	
+1-321	1834-1835	V	_	_	_	_	
+1-322	1836-1841	Novem	LOC[5]	3 - Nevtralno[12]	*->18-1	*[18]	
+1-323	1842-1847	mestu	LOC[5]	3 - Nevtralno[12]	*->18-1	*[18]	
+1-324	1848-1850	je	_	_	_	_	
+1-325	1851-1860	novomeško	_	_	_	_	
+1-326	1861-1868	Društvo	ORG[6]	3 - Nevtralno[13]	*->19-1	*[19]	
+1-327	1869-1880	prijateljev	ORG[6]	3 - Nevtralno[13]	*->19-1	*[19]	
+1-328	1881-1888	mladine	ORG[6]	3 - Nevtralno[13]	*->19-1	*[19]	
+1-329	1889-1894	Mojca	ORG[6]	3 - Nevtralno[13]	*->19-1	*[19]	
+1-330	1895-1904	priredilo	_	_	_	_	
+1-331	1905-1918	tradicionalni	_	_	_	_	
+1-332	1919-1926	otroški	_	_	_	_	
+1-333	1927-1933	pustni	_	_	_	_	
+1-334	1934-1942	karneval	_	_	_	_	
+1-335	1943-1944	,	_	_	_	_	
+1-336	1945-1947	10	_	_	_	_	
+1-337	1948-1949	.	_	_	_	_	
+1-338	1950-1960	pustovanje	_	_	_	_	
+1-339	1961-1962	z	_	_	_	_	
+1-340	1963-1969	Gomelo	_	_	_	_	
+1-341	1970-1978	gotensko	_	_	_	_	
+1-342	1979-1981	in	_	_	_	_	
+1-343	1982-1988	pustno	_	_	_	_	
+1-344	1989-1996	povorko	_	_	_	_	
+1-345	1997-1999	pa	_	_	_	_	
+1-346	2000-2002	je	_	_	_	_	
+1-347	2003-2007	bilo	_	_	_	_	
+1-348	2008-2009	v	_	_	_	_	
+1-349	2010-2015	Gotni	ORG[7]	3 - Nevtralno[14]	*->20-1	*[20]	
+1-350	2016-2020	vasi	ORG[7]	3 - Nevtralno[14]	*->20-1	*[20]	

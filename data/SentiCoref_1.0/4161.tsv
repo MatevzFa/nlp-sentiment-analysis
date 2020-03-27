@@ -1,0 +1,253 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Raziskava je pokazala , da sta slovenski gradbišči pri Vrhniki in Senožečah med najslabše zavarovanimi v Evropi Več o raziskavi 50 gradbišč v 11 evropskih državah , po katerih je Slovenija na zadnjem mestu , si lahko preberete v članku raziskovalca ( v angleščini ) Vir : EuroTest Mobility Slovenski gradbišči na avtocesti Ljubljana - Koper pri Vrhniki in pri Senožečah sta drugo oziroma tretje najslabše zavarovano gradbišče v Evropi , je pokazala raziskava 50 gradbišč v 11 evropskih državah . Raziskavo je julija opravilo 16 avtomobilskih klubov v Evropi , sodelovala je tudi Avto moto zveza Slovenije ( AMZS ) . Slovenija se je odrezala najslabše , Anglija najboljše Raziskava je zajemala gradbišča v Avstriji , Švici , Nemčiji , na Danskem , Španiji , Franciji , Veliki Britaniji , na Hrvaškem , Italiji , Sloveniji in na Nizozemskem . Slovenija se je z dvema gradbiščema na začetku lestvice med državami odrezala najslabše . Najboljša so bila po raziskavi gradbišča v Angliji . Največje pomanjkljivosti so pri varnostni opremi in napravah V Sloveniji so največje pomanjkljivosti pri varnostni opremi in napravah , je danes ob predstavitvi raziskave povedal odgovorni urednik Motorevije France Kmetič . Marsikje ni odstavnih niš ali vsaj zasilnih prostorov , kjer se lahko vozniki ustavijo ob okvarah vozil , voznikom tudi ni na voljo telefonov za klic v sili , je nadaljeval Kmetič . Poleg tega so opozorila o meritvah hitrosti postavljena zelo na redko ali pa sploh ne , še dodaja
+1-1	0-9	Raziskava	_	_	_	_	
+1-2	10-12	je	_	_	_	_	
+1-3	13-21	pokazala	_	_	_	_	
+1-4	22-23	,	_	_	_	_	
+1-5	24-26	da	_	_	_	_	
+1-6	27-30	sta	_	_	_	_	
+1-7	31-40	slovenski	_	_	_	_	
+1-8	41-50	gradbišči	_	_	_	_	
+1-9	51-54	pri	_	_	_	_	
+1-10	55-62	Vrhniki	LOC	_	*->1-1	*[1]	
+1-11	63-65	in	_	_	_	_	
+1-12	66-75	Senožečah	LOC	_	*->2-1	*[2]	
+1-13	76-79	med	_	_	_	_	
+1-14	80-89	najslabše	_	_	_	_	
+1-15	90-102	zavarovanimi	_	_	_	_	
+1-16	103-104	v	_	_	_	_	
+1-17	105-111	Evropi	LOC	_	*->3-1	*[3]	
+1-18	112-115	Več	_	_	_	_	
+1-19	116-117	o	_	_	_	_	
+1-20	118-127	raziskavi	_	_	_	_	
+1-21	128-130	50	_	_	_	_	
+1-22	131-139	gradbišč	_	_	_	_	
+1-23	140-141	v	_	_	_	_	
+1-24	142-144	11	_	_	_	_	
+1-25	145-154	evropskih	_	_	_	_	
+1-26	155-162	državah	_	_	_	_	
+1-27	163-164	,	_	_	_	_	
+1-28	165-167	po	_	_	_	_	
+1-29	168-175	katerih	_	_	_	_	
+1-30	176-178	je	_	_	_	_	
+1-31	179-188	Slovenija	ORG	_	*->4-1	*[4]	
+1-32	189-191	na	_	_	_	_	
+1-33	192-199	zadnjem	_	_	_	_	
+1-34	200-205	mestu	_	_	_	_	
+1-35	206-207	,	_	_	_	_	
+1-36	208-210	si	_	_	_	_	
+1-37	211-216	lahko	_	_	_	_	
+1-38	217-226	preberete	_	_	_	_	
+1-39	227-228	v	_	_	_	_	
+1-40	229-235	članku	_	_	_	_	
+1-41	236-248	raziskovalca	_	_	_	_	
+1-42	249-250	(	_	_	_	_	
+1-43	251-252	v	_	_	_	_	
+1-44	253-263	angleščini	_	_	_	_	
+1-45	264-265	)	_	_	_	_	
+1-46	266-269	Vir	_	_	_	_	
+1-47	270-271	:	_	_	_	_	
+1-48	272-280	EuroTest	_	_	_	_	
+1-49	281-289	Mobility	_	_	_	_	
+1-50	290-299	Slovenski	_	_	_	_	
+1-51	300-309	gradbišči	_	_	_	_	
+1-52	310-312	na	_	_	_	_	
+1-53	313-322	avtocesti	_	_	_	_	
+1-54	323-332	Ljubljana	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-55	333-334	-	_	_	_	_	
+1-56	335-340	Koper	LOC[1]	3 - Nevtralno[6]	*->1-2	*[1]	
+1-57	341-344	pri	LOC[1]	3 - Nevtralno[6]	*->1-2	*[1]	
+1-58	345-352	Vrhniki	LOC[1]	3 - Nevtralno[6]	*->1-2	*[1]	
+1-59	353-355	in	_	_	_	_	
+1-60	356-359	pri	_	_	_	_	
+1-61	360-369	Senožečah	LOC	3 - Nevtralno	*->2-2	*[2]	
+1-62	370-373	sta	_	_	_	_	
+1-63	374-379	drugo	_	_	_	_	
+1-64	380-387	oziroma	_	_	_	_	
+1-65	388-394	tretje	_	_	_	_	
+1-66	395-404	najslabše	_	_	_	_	
+1-67	405-415	zavarovano	_	_	_	_	
+1-68	416-425	gradbišče	_	_	_	_	
+1-69	426-427	v	_	_	_	_	
+1-70	428-434	Evropi	LOC	_	*->3-2	*[3]	
+1-71	435-436	,	_	_	_	_	
+1-72	437-439	je	_	_	_	_	
+1-73	440-448	pokazala	_	_	_	_	
+1-74	449-458	raziskava	_	_	_	_	
+1-75	459-461	50	_	_	_	_	
+1-76	462-470	gradbišč	_	_	_	_	
+1-77	471-472	v	_	_	_	_	
+1-78	473-475	11	_	_	_	_	
+1-79	476-485	evropskih	_	_	_	_	
+1-80	486-493	državah	_	_	_	_	
+1-81	494-495	.	_	_	_	_	
+1-82	496-505	Raziskavo	_	_	_	_	
+1-83	506-508	je	_	_	_	_	
+1-84	509-515	julija	_	_	_	_	
+1-85	516-524	opravilo	_	_	_	_	
+1-86	525-527	16	_	_	_	_	
+1-87	528-541	avtomobilskih	_	_	_	_	
+1-88	542-548	klubov	_	_	_	_	
+1-89	549-550	v	_	_	_	_	
+1-90	551-557	Evropi	LOC	3 - Nevtralno	*->3-3	*[3]	
+1-91	558-559	,	_	_	_	_	
+1-92	560-570	sodelovala	_	_	_	_	
+1-93	571-573	je	_	_	_	_	
+1-94	574-578	tudi	_	_	_	_	
+1-95	579-583	Avto	ORG[2]	_	*->6-1	*[6]	
+1-96	584-588	moto	ORG[2]	_	*->6-1	*[6]	
+1-97	589-594	zveza	ORG[2]	_	*->6-1	*[6]	
+1-98	595-604	Slovenije	ORG[2]|LOC[3]	_	*->6-1|*->4-2	*[6]|*[4]	
+1-99	605-606	(	_	_	_	_	
+1-100	607-611	AMZS	ORG	3 - Nevtralno	*->6-2	*[6]	
+1-101	612-613	)	_	_	_	_	
+1-102	614-615	.	_	_	_	_	
+1-103	616-625	Slovenija	ORG	_	*->4-3	*[4]	
+1-104	626-628	se	_	_	_	_	
+1-105	629-631	je	_	_	_	_	
+1-106	632-640	odrezala	_	_	_	_	
+1-107	641-650	najslabše	_	_	_	_	
+1-108	651-652	,	_	_	_	_	
+1-109	653-660	Anglija	LOC	_	*->7-1	*[7]	
+1-110	661-670	najboljše	_	_	_	_	
+1-111	671-680	Raziskava	_	_	_	_	
+1-112	681-683	je	_	_	_	_	
+1-113	684-692	zajemala	_	_	_	_	
+1-114	693-702	gradbišča	_	_	_	_	
+1-115	703-704	v	_	_	_	_	
+1-116	705-713	Avstriji	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-117	714-715	,	_	_	_	_	
+1-118	716-721	Švici	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-119	722-723	,	_	_	_	_	
+1-120	724-731	Nemčiji	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-121	732-733	,	_	_	_	_	
+1-122	734-736	na	_	_	_	_	
+1-123	737-744	Danskem	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-124	745-746	,	_	_	_	_	
+1-125	747-754	Španiji	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-126	755-756	,	_	_	_	_	
+1-127	757-765	Franciji	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-128	766-767	,	_	_	_	_	
+1-129	768-774	Veliki	LOC[4]	3 - Nevtralno[7]	*->14-1	*[14]	
+1-130	775-784	Britaniji	LOC[4]	3 - Nevtralno[7]	*->14-1	*[14]	
+1-131	785-786	,	_	_	_	_	
+1-132	787-789	na	_	_	_	_	
+1-133	790-798	Hrvaškem	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-134	799-800	,	_	_	_	_	
+1-135	801-808	Italiji	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-136	809-810	,	_	_	_	_	
+1-137	811-820	Sloveniji	LOC	_	*->4-4	*[4]	
+1-138	821-823	in	_	_	_	_	
+1-139	824-826	na	_	_	_	_	
+1-140	827-838	Nizozemskem	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-141	839-840	.	_	_	_	_	
+1-142	841-850	Slovenija	ORG	_	*->4-5	*[4]	
+1-143	851-853	se	_	_	_	_	
+1-144	854-856	je	_	_	_	_	
+1-145	857-858	z	_	_	_	_	
+1-146	859-864	dvema	_	_	_	_	
+1-147	865-876	gradbiščema	_	_	_	_	
+1-148	877-879	na	_	_	_	_	
+1-149	880-887	začetku	_	_	_	_	
+1-150	888-896	lestvice	_	_	_	_	
+1-151	897-900	med	_	_	_	_	
+1-152	901-909	državami	_	_	_	_	
+1-153	910-918	odrezala	_	_	_	_	
+1-154	919-928	najslabše	_	_	_	_	
+1-155	929-930	.	_	_	_	_	
+1-156	931-940	Najboljša	_	_	_	_	
+1-157	941-943	so	_	_	_	_	
+1-158	944-948	bila	_	_	_	_	
+1-159	949-951	po	_	_	_	_	
+1-160	952-961	raziskavi	_	_	_	_	
+1-161	962-971	gradbišča	_	_	_	_	
+1-162	972-973	v	_	_	_	_	
+1-163	974-981	Angliji	LOC	4 - Pozitivno	*->7-2	*[7]	
+1-164	982-983	.	_	_	_	_	
+1-165	984-992	Največje	_	_	_	_	
+1-166	993-1008	pomanjkljivosti	_	_	_	_	
+1-167	1009-1011	so	_	_	_	_	
+1-168	1012-1015	pri	_	_	_	_	
+1-169	1016-1025	varnostni	_	_	_	_	
+1-170	1026-1032	opremi	_	_	_	_	
+1-171	1033-1035	in	_	_	_	_	
+1-172	1036-1044	napravah	_	_	_	_	
+1-173	1045-1046	V	_	_	_	_	
+1-174	1047-1056	Sloveniji	LOC	2 - Negativno	*->4-6	*[4]	
+1-175	1057-1059	so	_	_	_	_	
+1-176	1060-1068	največje	_	_	_	_	
+1-177	1069-1084	pomanjkljivosti	_	_	_	_	
+1-178	1085-1088	pri	_	_	_	_	
+1-179	1089-1098	varnostni	_	_	_	_	
+1-180	1099-1105	opremi	_	_	_	_	
+1-181	1106-1108	in	_	_	_	_	
+1-182	1109-1117	napravah	_	_	_	_	
+1-183	1118-1119	,	_	_	_	_	
+1-184	1120-1122	je	_	_	_	_	
+1-185	1123-1128	danes	_	_	_	_	
+1-186	1129-1131	ob	_	_	_	_	
+1-187	1132-1144	predstavitvi	_	_	_	_	
+1-188	1145-1154	raziskave	_	_	_	_	
+1-189	1155-1162	povedal	_	_	_	_	
+1-190	1163-1172	odgovorni	_	_	_	_	
+1-191	1173-1180	urednik	_	_	_	_	
+1-192	1181-1191	Motorevije	_	_	_	_	
+1-193	1192-1198	France	PER[5]	_	*->18-1	*[18]	
+1-194	1199-1205	Kmetič	PER[5]	_	*->18-1	*[18]	
+1-195	1206-1207	.	_	_	_	_	
+1-196	1208-1216	Marsikje	_	_	_	_	
+1-197	1217-1219	ni	_	_	_	_	
+1-198	1220-1229	odstavnih	_	_	_	_	
+1-199	1230-1233	niš	_	_	_	_	
+1-200	1234-1237	ali	_	_	_	_	
+1-201	1238-1242	vsaj	_	_	_	_	
+1-202	1243-1251	zasilnih	_	_	_	_	
+1-203	1252-1261	prostorov	_	_	_	_	
+1-204	1262-1263	,	_	_	_	_	
+1-205	1264-1268	kjer	_	_	_	_	
+1-206	1269-1271	se	_	_	_	_	
+1-207	1272-1277	lahko	_	_	_	_	
+1-208	1278-1285	vozniki	_	_	_	_	
+1-209	1286-1294	ustavijo	_	_	_	_	
+1-210	1295-1297	ob	_	_	_	_	
+1-211	1298-1305	okvarah	_	_	_	_	
+1-212	1306-1311	vozil	_	_	_	_	
+1-213	1312-1313	,	_	_	_	_	
+1-214	1314-1322	voznikom	_	_	_	_	
+1-215	1323-1327	tudi	_	_	_	_	
+1-216	1328-1330	ni	_	_	_	_	
+1-217	1331-1333	na	_	_	_	_	
+1-218	1334-1339	voljo	_	_	_	_	
+1-219	1340-1349	telefonov	_	_	_	_	
+1-220	1350-1352	za	_	_	_	_	
+1-221	1353-1357	klic	_	_	_	_	
+1-222	1358-1359	v	_	_	_	_	
+1-223	1360-1364	sili	_	_	_	_	
+1-224	1365-1366	,	_	_	_	_	
+1-225	1367-1369	je	_	_	_	_	
+1-226	1370-1380	nadaljeval	_	_	_	_	
+1-227	1381-1387	Kmetič	PER	_	*->18-2	*[18]	
+1-228	1388-1389	.	_	_	_	_	
+1-229	1390-1395	Poleg	_	_	_	_	
+1-230	1396-1400	tega	_	_	_	_	
+1-231	1401-1403	so	_	_	_	_	
+1-232	1404-1413	opozorila	_	_	_	_	
+1-233	1414-1415	o	_	_	_	_	
+1-234	1416-1424	meritvah	_	_	_	_	
+1-235	1425-1433	hitrosti	_	_	_	_	
+1-236	1434-1445	postavljena	_	_	_	_	
+1-237	1446-1450	zelo	_	_	_	_	
+1-238	1451-1453	na	_	_	_	_	
+1-239	1454-1459	redko	_	_	_	_	
+1-240	1460-1463	ali	_	_	_	_	
+1-241	1464-1466	pa	_	_	_	_	
+1-242	1467-1472	sploh	_	_	_	_	
+1-243	1473-1475	ne	_	_	_	_	
+1-244	1476-1477	,	_	_	_	_	
+1-245	1478-1480	še	_	_	_	_	
+1-246	1481-1487	dodaja	_	3 - Nevtralno	*->18-3	*[18]	

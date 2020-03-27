@@ -1,0 +1,349 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=V drugem četrtletju sta se spremenili občini Vrhnika in Cerknica . Največ naselij ima občina Krško . Na novo smo dobili tri ulice , spremenili pa smo kar dva tisoč hišnih številk . V Registru prostorskih enot je bilo v drugem četrtletju spremenjenih več kot dva tisoč hišnih številk . Največ novih hišnih številk je dobila občina Koper . Spremenjeni Vrhnika in Cerknica Po podatkih Statističnega urada RS sta se v tem obdobju spremenili območji občin Vrhnika in Cerknica , in sicer se je del naselja Dobec , ki je doslej spadal v občino Cerknica , priključil naselju Pokojišče v občini Vrhnika , del naselja Padež , ki je doslej spadal v občino Vrhnika , pa se je priključil naselju Kožljek v občini Cerknica . Drugo četrtletje Spremenjene so bile 2.303 hišne številke , od tega jih je 1.271 nastalo na novo , 967 je bilo ukinjenih , 65 pa preštevilčenih . Največ naselij v Krškem Po številu naselij je bila na prvem mestu občina Krško s 158 naselji , na drugem pa občina Trebnje s 153 naselji . Občine Kobilje in Odranci ter Trzin so obsegale vsaka le po eno naselje . Na novo je nastalo le eno naselje , in sicer na območju občine Krško ( Kerinov Grm ) , število ulic pa se je povečalo za tri . Sveti Jurij le s štirimi ulicami Več kot tisoč ulic ima le občina Ljubljana , nad 200 ulic pa ima še pet občin . Občina z najmanjšim številom ulic ( tj . 4 ) je občina Sveti Jurij ( pomurska regija ) . Največjo skupino so sestavljale občine z naselji brez uličnega sistema – takih občin je bilo 64 . Število hišnih številk se je najopazneje povečalo v občini Koper , in sicer za 52 . Sledi občina Krško , ki je na novo dobila 48 hišnih številk . Najopazneje se je število zmanjšalo v občinah Slovenska Bistrica ( za 73 ) , Metlika ( za 51 ) , Rogaška Slatina ( za 50 ) in Lendava ( za 34 )
+1-1	0-1	V	_	_	_	_	
+1-2	2-8	drugem	_	_	_	_	
+1-3	9-19	četrtletju	_	_	_	_	
+1-4	20-23	sta	_	_	_	_	
+1-5	24-26	se	_	_	_	_	
+1-6	27-37	spremenili	_	_	_	_	
+1-7	38-44	občini	_	_	_	_	
+1-8	45-52	Vrhnika	LOC	_	*->1-1	*[1]	
+1-9	53-55	in	_	_	_	_	
+1-10	56-64	Cerknica	LOC	_	*->2-1	*[2]	
+1-11	65-66	.	_	_	_	_	
+1-12	67-73	Največ	_	_	_	_	
+1-13	74-81	naselij	_	_	_	_	
+1-14	82-85	ima	_	_	_	_	
+1-15	86-92	občina	_	_	*->3-1	*[3]	
+1-16	93-98	Krško	LOC	_	*->3-1	*[3]	
+1-17	99-100	.	_	_	_	_	
+1-18	101-103	Na	_	_	_	_	
+1-19	104-108	novo	_	_	_	_	
+1-20	109-112	smo	_	_	_	_	
+1-21	113-119	dobili	_	_	_	_	
+1-22	120-123	tri	_	_	_	_	
+1-23	124-129	ulice	_	_	_	_	
+1-24	130-131	,	_	_	_	_	
+1-25	132-142	spremenili	_	_	_	_	
+1-26	143-145	pa	_	_	_	_	
+1-27	146-149	smo	_	_	_	_	
+1-28	150-153	kar	_	_	_	_	
+1-29	154-157	dva	_	_	_	_	
+1-30	158-163	tisoč	_	_	_	_	
+1-31	164-170	hišnih	_	_	_	_	
+1-32	171-178	številk	_	_	_	_	
+1-33	179-180	.	_	_	_	_	
+1-34	181-182	V	_	_	_	_	
+1-35	183-191	Registru	_	_	_	_	
+1-36	192-203	prostorskih	_	_	_	_	
+1-37	204-208	enot	_	_	_	_	
+1-38	209-211	je	_	_	_	_	
+1-39	212-216	bilo	_	_	_	_	
+1-40	217-218	v	_	_	_	_	
+1-41	219-225	drugem	_	_	_	_	
+1-42	226-236	četrtletju	_	_	_	_	
+1-43	237-249	spremenjenih	_	_	_	_	
+1-44	250-253	več	_	_	_	_	
+1-45	254-257	kot	_	_	_	_	
+1-46	258-261	dva	_	_	_	_	
+1-47	262-267	tisoč	_	_	_	_	
+1-48	268-274	hišnih	_	_	_	_	
+1-49	275-282	številk	_	_	_	_	
+1-50	283-284	.	_	_	_	_	
+1-51	285-291	Največ	_	_	_	_	
+1-52	292-297	novih	_	_	_	_	
+1-53	298-304	hišnih	_	_	_	_	
+1-54	305-312	številk	_	_	_	_	
+1-55	313-315	je	_	_	_	_	
+1-56	316-322	dobila	_	_	_	_	
+1-57	323-329	občina	_	_	*->4-1	*[4]	
+1-58	330-335	Koper	LOC	_	*->4-1	*[4]	
+1-59	336-337	.	_	_	_	_	
+1-60	338-349	Spremenjeni	_	_	_	_	
+1-61	350-357	Vrhnika	LOC	_	*->1-2	*[1]	
+1-62	358-360	in	_	_	_	_	
+1-63	361-369	Cerknica	LOC	_	*->2-2	*[2]	
+1-64	370-372	Po	_	_	_	_	
+1-65	373-381	podatkih	_	_	_	_	
+1-66	382-395	Statističnega	ORG[1]	3 - Nevtralno[7]	*->5-1	*[5]	
+1-67	396-401	urada	ORG[1]	3 - Nevtralno[7]	*->5-1	*[5]	
+1-68	402-404	RS	ORG[1]	3 - Nevtralno[7]	*->5-1	*[5]	
+1-69	405-408	sta	_	_	_	_	
+1-70	409-411	se	_	_	_	_	
+1-71	412-413	v	_	_	_	_	
+1-72	414-417	tem	_	_	_	_	
+1-73	418-425	obdobju	_	_	_	_	
+1-74	426-436	spremenili	_	_	_	_	
+1-75	437-444	območji	_	_	_	_	
+1-76	445-450	občin	_	_	_	_	
+1-77	451-458	Vrhnika	LOC	_	*->1-3	*[1]	
+1-78	459-461	in	_	_	_	_	
+1-79	462-470	Cerknica	LOC	_	*->2-3	*[2]	
+1-80	471-472	,	_	_	_	_	
+1-81	473-475	in	_	_	_	_	
+1-82	476-481	sicer	_	_	_	_	
+1-83	482-484	se	_	_	_	_	
+1-84	485-487	je	_	_	_	_	
+1-85	488-491	del	_	_	_	_	
+1-86	492-499	naselja	_	3 - Nevtralno[8]	*->6-1	*[6]	
+1-87	500-505	Dobec	LOC	3 - Nevtralno[8]	*->6-1	*[6]	
+1-88	506-507	,	_	_	_	_	
+1-89	508-510	ki	_	_	_	_	
+1-90	511-513	je	_	_	_	_	
+1-91	514-520	doslej	_	_	_	_	
+1-92	521-527	spadal	_	_	_	_	
+1-93	528-529	v	_	_	_	_	
+1-94	530-536	občino	_	_	*->2-4	*[2]	
+1-95	537-545	Cerknica	LOC	_	*->2-4	*[2]	
+1-96	546-547	,	_	_	_	_	
+1-97	548-558	priključil	_	_	_	_	
+1-98	559-566	naselju	_	3 - Nevtralno[9]	*->7-1	*[7]	
+1-99	567-576	Pokojišče	LOC	3 - Nevtralno[9]	*->7-1	*[7]	
+1-100	577-578	v	_	_	_	_	
+1-101	579-585	občini	_	_	*->1-4	*[1]	
+1-102	586-593	Vrhnika	LOC	_	*->1-4	*[1]	
+1-103	594-595	,	_	_	_	_	
+1-104	596-599	del	_	_	_	_	
+1-105	600-607	naselja	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-106	608-613	Padež	LOC	3 - Nevtralno[10]	*->8-1	*[8]	
+1-107	614-615	,	_	_	_	_	
+1-108	616-618	ki	_	_	_	_	
+1-109	619-621	je	_	_	_	_	
+1-110	622-628	doslej	_	_	_	_	
+1-111	629-635	spadal	_	_	_	_	
+1-112	636-637	v	_	_	_	_	
+1-113	638-644	občino	_	3 - Nevtralno[11]	*->1-5	*[1]	
+1-114	645-652	Vrhnika	LOC	3 - Nevtralno[11]	*->1-5	*[1]	
+1-115	653-654	,	_	_	_	_	
+1-116	655-657	pa	_	_	_	_	
+1-117	658-660	se	_	_	_	_	
+1-118	661-663	je	_	_	_	_	
+1-119	664-674	priključil	_	_	_	_	
+1-120	675-682	naselju	_	3 - Nevtralno[12]	*->9-1	*[9]	
+1-121	683-690	Kožljek	LOC	3 - Nevtralno[12]	*->9-1	*[9]	
+1-122	691-692	v	_	_	_	_	
+1-123	693-699	občini	_	3 - Nevtralno[13]	*->2-5	*[2]	
+1-124	700-708	Cerknica	LOC	3 - Nevtralno[13]	*->2-5	*[2]	
+1-125	709-710	.	_	_	_	_	
+1-126	711-716	Drugo	_	_	_	_	
+1-127	717-727	četrtletje	_	_	_	_	
+1-128	728-739	Spremenjene	_	_	_	_	
+1-129	740-742	so	_	_	_	_	
+1-130	743-747	bile	_	_	_	_	
+1-131	748-753	2.303	_	_	_	_	
+1-132	754-759	hišne	_	_	_	_	
+1-133	760-768	številke	_	_	_	_	
+1-134	769-770	,	_	_	_	_	
+1-135	771-773	od	_	_	_	_	
+1-136	774-778	tega	_	_	_	_	
+1-137	779-782	jih	_	_	_	_	
+1-138	783-785	je	_	_	_	_	
+1-139	786-791	1.271	_	_	_	_	
+1-140	792-799	nastalo	_	_	_	_	
+1-141	800-802	na	_	_	_	_	
+1-142	803-807	novo	_	_	_	_	
+1-143	808-809	,	_	_	_	_	
+1-144	810-813	967	_	_	_	_	
+1-145	814-816	je	_	_	_	_	
+1-146	817-821	bilo	_	_	_	_	
+1-147	822-831	ukinjenih	_	_	_	_	
+1-148	832-833	,	_	_	_	_	
+1-149	834-836	65	_	_	_	_	
+1-150	837-839	pa	_	_	_	_	
+1-151	840-854	preštevilčenih	_	_	_	_	
+1-152	855-856	.	_	_	_	_	
+1-153	857-863	Največ	_	_	_	_	
+1-154	864-871	naselij	_	_	_	_	
+1-155	872-873	v	_	_	_	_	
+1-156	874-880	Krškem	LOC	_	*->3-2	*[3]	
+1-157	881-883	Po	_	_	_	_	
+1-158	884-891	številu	_	_	_	_	
+1-159	892-899	naselij	_	_	_	_	
+1-160	900-902	je	_	_	_	_	
+1-161	903-907	bila	_	_	_	_	
+1-162	908-910	na	_	_	_	_	
+1-163	911-916	prvem	_	_	_	_	
+1-164	917-922	mestu	_	_	_	_	
+1-165	923-929	občina	_	_	*->3-3	*[3]	
+1-166	930-935	Krško	LOC	_	*->3-3	*[3]	
+1-167	936-937	s	_	_	_	_	
+1-168	938-941	158	_	_	_	_	
+1-169	942-949	naselji	_	_	_	_	
+1-170	950-951	,	_	_	_	_	
+1-171	952-954	na	_	_	_	_	
+1-172	955-961	drugem	_	_	_	_	
+1-173	962-964	pa	_	_	_	_	
+1-174	965-971	občina	_	3 - Nevtralno[14]	*->10-1	*[10]	
+1-175	972-979	Trebnje	LOC	3 - Nevtralno[14]	*->10-1	*[10]	
+1-176	980-981	s	_	_	_	_	
+1-177	982-985	153	_	_	_	_	
+1-178	986-993	naselji	_	_	_	_	
+1-179	994-995	.	_	_	_	_	
+1-180	996-1002	Občine	_	_	_	_	
+1-181	1003-1010	Kobilje	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-182	1011-1013	in	_	_	_	_	
+1-183	1014-1021	Odranci	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-184	1022-1025	ter	_	_	_	_	
+1-185	1026-1031	Trzin	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-186	1032-1034	so	_	_	_	_	
+1-187	1035-1043	obsegale	_	_	_	_	
+1-188	1044-1049	vsaka	_	_	_	_	
+1-189	1050-1052	le	_	_	_	_	
+1-190	1053-1055	po	_	_	_	_	
+1-191	1056-1059	eno	_	_	_	_	
+1-192	1060-1067	naselje	_	_	_	_	
+1-193	1068-1069	.	_	_	_	_	
+1-194	1070-1072	Na	_	_	_	_	
+1-195	1073-1077	novo	_	_	_	_	
+1-196	1078-1080	je	_	_	_	_	
+1-197	1081-1088	nastalo	_	_	_	_	
+1-198	1089-1091	le	_	_	_	_	
+1-199	1092-1095	eno	_	_	_	_	
+1-200	1096-1103	naselje	_	_	_	_	
+1-201	1104-1105	,	_	_	_	_	
+1-202	1106-1108	in	_	_	_	_	
+1-203	1109-1114	sicer	_	_	_	_	
+1-204	1115-1117	na	_	_	_	_	
+1-205	1118-1125	območju	_	_	_	_	
+1-206	1126-1132	občine	_	_	*->3-4	*[3]	
+1-207	1133-1138	Krško	LOC	_	*->3-4	*[3]	
+1-208	1139-1140	(	_	_	_	_	
+1-209	1141-1148	Kerinov	LOC[2]	3 - Nevtralno[15]	*->14-1	*[14]	
+1-210	1149-1152	Grm	LOC[2]	3 - Nevtralno[15]	*->14-1	*[14]	
+1-211	1153-1154	)	_	_	_	_	
+1-212	1155-1156	,	_	_	_	_	
+1-213	1157-1164	število	_	_	_	_	
+1-214	1165-1169	ulic	_	_	_	_	
+1-215	1170-1172	pa	_	_	_	_	
+1-216	1173-1175	se	_	_	_	_	
+1-217	1176-1178	je	_	_	_	_	
+1-218	1179-1187	povečalo	_	_	_	_	
+1-219	1188-1190	za	_	_	_	_	
+1-220	1191-1194	tri	_	_	_	_	
+1-221	1195-1196	.	_	_	_	_	
+1-222	1197-1202	Sveti	PER[3]	_	*->15-1	*[15]	
+1-223	1203-1208	Jurij	PER[3]	_	*->15-1	*[15]	
+1-224	1209-1211	le	_	_	_	_	
+1-225	1212-1213	s	_	_	_	_	
+1-226	1214-1221	štirimi	_	_	_	_	
+1-227	1222-1229	ulicami	_	_	_	_	
+1-228	1230-1233	Več	_	_	_	_	
+1-229	1234-1237	kot	_	_	_	_	
+1-230	1238-1243	tisoč	_	_	_	_	
+1-231	1244-1248	ulic	_	_	_	_	
+1-232	1249-1252	ima	_	_	_	_	
+1-233	1253-1255	le	_	_	_	_	
+1-234	1256-1262	občina	_	3 - Nevtralno[16]	*->16-1	*[16]	
+1-235	1263-1272	Ljubljana	LOC	3 - Nevtralno[16]	*->16-1	*[16]	
+1-236	1273-1274	,	_	_	_	_	
+1-237	1275-1278	nad	_	_	_	_	
+1-238	1279-1282	200	_	_	_	_	
+1-239	1283-1287	ulic	_	_	_	_	
+1-240	1288-1290	pa	_	_	_	_	
+1-241	1291-1294	ima	_	_	_	_	
+1-242	1295-1297	še	_	_	_	_	
+1-243	1298-1301	pet	_	_	_	_	
+1-244	1302-1307	občin	_	_	_	_	
+1-245	1308-1309	.	_	_	_	_	
+1-246	1310-1316	Občina	_	_	*->15-2	*[15]	
+1-247	1317-1318	z	_	_	*->15-2	*[15]	
+1-248	1319-1329	najmanjšim	_	_	*->15-2	*[15]	
+1-249	1330-1338	številom	_	_	*->15-2	*[15]	
+1-250	1339-1343	ulic	_	_	*->15-2	*[15]	
+1-251	1344-1345	(	_	_	_	_	
+1-252	1346-1348	tj	_	_	_	_	
+1-253	1349-1350	.	_	_	_	_	
+1-254	1351-1352	4	_	_	_	_	
+1-255	1353-1354	)	_	_	_	_	
+1-256	1355-1357	je	_	_	_	_	
+1-257	1358-1364	občina	_	3 - Nevtralno[17]	*->15-3	*[15]	
+1-258	1365-1370	Sveti	LOC[4]	3 - Nevtralno[17]	*->15-3	*[15]	
+1-259	1371-1376	Jurij	LOC[4]	3 - Nevtralno[17]	*->15-3	*[15]	
+1-260	1377-1378	(	_	_	_	_	
+1-261	1379-1387	pomurska	_	_	_	_	
+1-262	1388-1394	regija	_	_	_	_	
+1-263	1395-1396	)	_	_	_	_	
+1-264	1397-1398	.	_	_	_	_	
+1-265	1399-1407	Največjo	_	_	_	_	
+1-266	1408-1415	skupino	_	_	_	_	
+1-267	1416-1418	so	_	_	_	_	
+1-268	1419-1430	sestavljale	_	_	_	_	
+1-269	1431-1437	občine	_	_	_	_	
+1-270	1438-1439	z	_	_	_	_	
+1-271	1440-1447	naselji	_	_	_	_	
+1-272	1448-1452	brez	_	_	_	_	
+1-273	1453-1461	uličnega	_	_	_	_	
+1-274	1462-1469	sistema	_	_	_	_	
+1-275	1470-1471	–	_	_	_	_	
+1-276	1472-1477	takih	_	_	_	_	
+1-277	1478-1483	občin	_	_	_	_	
+1-278	1484-1486	je	_	_	_	_	
+1-279	1487-1491	bilo	_	_	_	_	
+1-280	1492-1494	64	_	_	_	_	
+1-281	1495-1496	.	_	_	_	_	
+1-282	1497-1504	Število	_	_	_	_	
+1-283	1505-1511	hišnih	_	_	_	_	
+1-284	1512-1519	številk	_	_	_	_	
+1-285	1520-1522	se	_	_	_	_	
+1-286	1523-1525	je	_	_	_	_	
+1-287	1526-1537	najopazneje	_	_	_	_	
+1-288	1538-1546	povečalo	_	_	_	_	
+1-289	1547-1548	v	_	_	_	_	
+1-290	1549-1555	občini	_	3 - Nevtralno[18]	*->4-2	*[4]	
+1-291	1556-1561	Koper	LOC	3 - Nevtralno[18]	*->4-2	*[4]	
+1-292	1562-1563	,	_	_	_	_	
+1-293	1564-1566	in	_	_	_	_	
+1-294	1567-1572	sicer	_	_	_	_	
+1-295	1573-1575	za	_	_	_	_	
+1-296	1576-1578	52	_	_	_	_	
+1-297	1579-1580	.	_	_	_	_	
+1-298	1581-1586	Sledi	_	_	_	_	
+1-299	1587-1593	občina	_	3 - Nevtralno[19]	*->3-5	*[3]	
+1-300	1594-1599	Krško	LOC	3 - Nevtralno[19]	*->3-5	*[3]	
+1-301	1600-1601	,	_	_	_	_	
+1-302	1602-1604	ki	_	_	_	_	
+1-303	1605-1607	je	_	_	_	_	
+1-304	1608-1610	na	_	_	_	_	
+1-305	1611-1615	novo	_	_	_	_	
+1-306	1616-1622	dobila	_	_	_	_	
+1-307	1623-1625	48	_	_	_	_	
+1-308	1626-1632	hišnih	_	_	_	_	
+1-309	1633-1640	številk	_	_	_	_	
+1-310	1641-1642	.	_	_	_	_	
+1-311	1643-1654	Najopazneje	_	_	_	_	
+1-312	1655-1657	se	_	_	_	_	
+1-313	1658-1660	je	_	_	_	_	
+1-314	1661-1668	število	_	_	_	_	
+1-315	1669-1678	zmanjšalo	_	_	_	_	
+1-316	1679-1680	v	_	_	_	_	
+1-317	1681-1688	občinah	_	_	_	_	
+1-318	1689-1698	Slovenska	LOC[5]	3 - Nevtralno[20]	*->17-1	*[17]	
+1-319	1699-1707	Bistrica	LOC[5]	3 - Nevtralno[20]	*->17-1	*[17]	
+1-320	1708-1709	(	_	_	_	_	
+1-321	1710-1712	za	_	_	_	_	
+1-322	1713-1715	73	_	_	_	_	
+1-323	1716-1717	)	_	_	_	_	
+1-324	1718-1719	,	_	_	_	_	
+1-325	1720-1727	Metlika	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-326	1728-1729	(	_	_	_	_	
+1-327	1730-1732	za	_	_	_	_	
+1-328	1733-1735	51	_	_	_	_	
+1-329	1736-1737	)	_	_	_	_	
+1-330	1738-1739	,	_	_	_	_	
+1-331	1740-1747	Rogaška	LOC[6]	3 - Nevtralno[21]	*->20-1	*[20]	
+1-332	1748-1755	Slatina	LOC[6]	3 - Nevtralno[21]	*->20-1	*[20]	
+1-333	1756-1757	(	_	_	_	_	
+1-334	1758-1760	za	_	_	_	_	
+1-335	1761-1763	50	_	_	_	_	
+1-336	1764-1765	)	_	_	_	_	
+1-337	1766-1768	in	_	_	_	_	
+1-338	1769-1776	Lendava	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-339	1777-1778	(	_	_	_	_	
+1-340	1779-1781	za	_	_	_	_	
+1-341	1782-1784	34	_	_	_	_	
+1-342	1785-1786	)	_	_	_	_	

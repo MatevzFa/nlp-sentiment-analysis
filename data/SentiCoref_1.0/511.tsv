@@ -1,0 +1,370 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Telekom Slovenije je podpisal pogodbo z vodilnim grškim mobilnim operaterjem Cosmonote o nakupu makedonskega mobilnega operaterja Cosmofon in GTS . Posel je vreden 190 milijonov evrov . Telekom Slovenije Telekom Slovenije je danes s Cosmote in Germanos podpisal pogodbo o nakupu 100 - odstotnega deleža družbe Cosmofon Mobile Telecommunications in 100 - odstotnega deleža v družbi Germanos Telecom GTS . Skupna vrednost transakcije znaša 190 milijonov evrov , so sporočili iz Telekoma . Pogodbo o nakupu oziroma prodaji sta podpisala predsednik uprave Telekoma Bojan Dremelj in namestnik glavnega izvršnega direktorja Cosmonote Group Michael Tsamaz . Grško družbo OTE Hellenic Telecommunications Organization so v prodajo Cosmofona prisilile makedonske oblasti , potem ko je v njo investiral Deutsche Telekom . Deutsche Telekom ima namreč pomembne deleže tudi v drugih dveh konkurenčnih mobilnih operaterjih v Makedoniji . Bojan Dremelj je ob tem dejal Zelo smo zadovoljni , da smo podpisali dogovor o nakupu 100 - odstotnega deleža v Cosmofonu in družbi GTS . Ta nakup zaokroža in dopolnjuje naše dosedanje aktivnosti v Makedoniji , hkrati pa predstavlja pomemben korak v naši strategiji postati eden najpomembnejših telekomunikacijskih ponudnikov v JV Evropi . Predsednik uprave Telekoma Bojan Dremelj Foto Kanal A Michael Tsamaz pa je ob podpisu povedal Zelo smo veseli , da lahko objavimo uspešno zaključeno prodajo Cosmofona in GTS , in zanimanje za nakup , ki ga je pokazalo več telekomunikacijskih skupin . Radi bi se zahvalili in čestitali Telekomu Slovenje , kot tudi vsem drugim sodelujočim v tem procesu . V nadaljevanju želimo Cosmofonu , GTS in vsem zaposlenim , s katerimi smo sodelovali kot člani Cosmonote Group , veliko uspeha v prihodnje . Prepričan sem , da bo Telekom Slovenije nadaljeval uspešno začrtano pot na makedonskem trgu . Cosmofon je začel s svojo komercialno dejavnostjo junija 2003 in ima drugo mobilno licenco v Makedoniji . Cosmofon je Avgusta 2005 kupil največji grški mobilni operater Cosmonote Group , sicer del grškega nacionalnega telefonskega operaterja Hellenic Telecomunications Organization OTE . Cosmofon ima danes približno 30 - odstotni tržni delež v Makedoniji . Germanos Telecom pa je distributer Cosmofonovih storitev v državi , s 66 prodajnimi mesti . Pogodbo o nakupu mora potrditi še makedonska regulatorna agencija
+1-1	0-7	Telekom	ORG[1]	_	*->13-1	*[13]	
+1-2	8-17	Slovenije	ORG[1]|LOC[2]	_	*->13-1|*->1-1	*[13]|*[1]	
+1-3	18-20	je	_	_	_	_	
+1-4	21-29	podpisal	_	_	_	_	
+1-5	30-37	pogodbo	_	_	_	_	
+1-6	38-39	z	_	_	_	_	
+1-7	40-48	vodilnim	_	_	*->15-1	*[15]	
+1-8	49-55	grškim	_	_	*->15-1	*[15]	
+1-9	56-64	mobilnim	_	_	*->15-1	*[15]	
+1-10	65-76	operaterjem	_	_	*->15-1	*[15]	
+1-11	77-86	Cosmonote	ORG	_	*->15-1	*[15]	
+1-12	87-88	o	_	_	_	_	
+1-13	89-95	nakupu	_	_	_	_	
+1-14	96-108	makedonskega	_	_	*->12-1	*[12]	
+1-15	109-118	mobilnega	_	_	*->12-1	*[12]	
+1-16	119-129	operaterja	_	_	*->12-1	*[12]	
+1-17	130-138	Cosmofon	ORG	_	*->12-1	*[12]	
+1-18	139-141	in	_	_	_	_	
+1-19	142-145	GTS	ORG	_	*->3-1	*[3]	
+1-20	146-147	.	_	_	_	_	
+1-21	148-153	Posel	_	_	_	_	
+1-22	154-156	je	_	_	_	_	
+1-23	157-163	vreden	_	_	_	_	
+1-24	164-167	190	_	_	_	_	
+1-25	168-177	milijonov	_	_	_	_	
+1-26	178-183	evrov	_	_	_	_	
+1-27	184-185	.	_	_	_	_	
+1-28	186-193	Telekom	ORG[3]	_	*->13-2	*[13]	
+1-29	194-203	Slovenije	ORG[3]|LOC[4]	_	*->13-2|*->1-2	*[13]|*[1]	
+1-30	204-211	Telekom	ORG[5]	_	*->13-3	*[13]	
+1-31	212-221	Slovenije	ORG[5]|LOC[6]	_	*->13-3|*->1-3	*[13]|*[1]	
+1-32	222-224	je	_	_	_	_	
+1-33	225-230	danes	_	_	_	_	
+1-34	231-232	s	_	_	_	_	
+1-35	233-240	Cosmote	ORG	_	*->2-1	*[2]	
+1-36	241-243	in	_	_	_	_	
+1-37	244-252	Germanos	ORG	_	*->3-2	*[3]	
+1-38	253-261	podpisal	_	_	_	_	
+1-39	262-269	pogodbo	_	_	_	_	
+1-40	270-271	o	_	_	_	_	
+1-41	272-278	nakupu	_	_	_	_	
+1-42	279-282	100	_	_	_	_	
+1-43	283-284	-	_	_	_	_	
+1-44	285-295	odstotnega	_	_	_	_	
+1-45	296-302	deleža	_	_	_	_	
+1-46	303-309	družbe	_	_	*->12-2	*[12]	
+1-47	310-318	Cosmofon	ORG[7]	_	*->12-2	*[12]	
+1-48	319-325	Mobile	ORG[7]	_	*->12-2	*[12]	
+1-49	326-344	Telecommunications	ORG[7]	_	*->12-2	*[12]	
+1-50	345-347	in	_	_	_	_	
+1-51	348-351	100	_	_	_	_	
+1-52	352-353	-	_	_	_	_	
+1-53	354-364	odstotnega	_	_	_	_	
+1-54	365-371	deleža	_	_	_	_	
+1-55	372-373	v	_	_	_	_	
+1-56	374-380	družbi	_	_	*->3-3	*[3]	
+1-57	381-389	Germanos	ORG[8]	_	*->3-3	*[3]	
+1-58	390-397	Telecom	ORG[8]	_	*->3-3	*[3]	
+1-59	398-401	GTS	ORG[8]	_	*->3-3	*[3]	
+1-60	402-403	.	_	_	_	_	
+1-61	404-410	Skupna	_	_	_	_	
+1-62	411-419	vrednost	_	_	_	_	
+1-63	420-431	transakcije	_	_	_	_	
+1-64	432-437	znaša	_	_	_	_	
+1-65	438-441	190	_	_	_	_	
+1-66	442-451	milijonov	_	_	_	_	
+1-67	452-457	evrov	_	_	_	_	
+1-68	458-459	,	_	_	_	_	
+1-69	460-462	so	_	_	_	_	
+1-70	463-472	sporočili	_	_	_	_	
+1-71	473-475	iz	_	_	_	_	
+1-72	476-484	Telekoma	ORG	_	*->13-4	*[13]	
+1-73	485-486	.	_	_	_	_	
+1-74	487-494	Pogodbo	_	_	_	_	
+1-75	495-496	o	_	_	_	_	
+1-76	497-503	nakupu	_	_	_	_	
+1-77	504-511	oziroma	_	_	_	_	
+1-78	512-519	prodaji	_	_	_	_	
+1-79	520-523	sta	_	_	_	_	
+1-80	524-533	podpisala	_	_	_	_	
+1-81	534-544	predsednik	_	_	*->7-1	*[7]	
+1-82	545-551	uprave	_	_	*->7-1	*[7]	
+1-83	552-560	Telekoma	ORG	_	*->7-1|*->13-5	*[7]|*[13]	
+1-84	561-566	Bojan	PER[9]	_	*->7-1	*[7]	
+1-85	567-574	Dremelj	PER[9]	_	*->7-1	*[7]	
+1-86	575-577	in	_	_	_	_	
+1-87	578-587	namestnik	_	3 - Nevtralno[28]	*->4-1	*[4]	
+1-88	588-596	glavnega	_	3 - Nevtralno[28]	*->4-1	*[4]	
+1-89	597-606	izvršnega	_	3 - Nevtralno[28]	*->4-1	*[4]	
+1-90	607-617	direktorja	_	3 - Nevtralno[28]	*->4-1	*[4]	
+1-91	618-627	Cosmonote	ORG[10]	3 - Nevtralno[28]	*->4-1|*->15-2	*[4]|*[15]	
+1-92	628-633	Group	ORG[10]	3 - Nevtralno[28]	*->4-1|*->15-2	*[4]|*[15]	
+1-93	634-641	Michael	PER[11]	3 - Nevtralno[28]	*->4-1	*[4]	
+1-94	642-648	Tsamaz	PER[11]	3 - Nevtralno[28]	*->4-1	*[4]	
+1-95	649-650	.	_	_	_	_	
+1-96	651-656	Grško	_	_	*->5-1	*[5]	
+1-97	657-663	družbo	_	_	*->5-1	*[5]	
+1-98	664-667	OTE	ORG[12]	_	*->5-1	*[5]	
+1-99	668-676	Hellenic	ORG[12]	_	*->5-1	*[5]	
+1-100	677-695	Telecommunications	ORG[12]	_	*->5-1	*[5]	
+1-101	696-708	Organization	ORG[12]	_	*->5-1	*[5]	
+1-102	709-711	so	_	_	_	_	
+1-103	712-713	v	_	_	_	_	
+1-104	714-721	prodajo	_	_	_	_	
+1-105	722-731	Cosmofona	ORG	_	*->12-3	*[12]	
+1-106	732-741	prisilile	_	_	_	_	
+1-107	742-752	makedonske	_	_	_	_	
+1-108	753-760	oblasti	_	_	_	_	
+1-109	761-762	,	_	_	_	_	
+1-110	763-768	potem	_	_	_	_	
+1-111	769-771	ko	_	_	_	_	
+1-112	772-774	je	_	_	_	_	
+1-113	775-776	v	_	_	_	_	
+1-114	777-780	njo	_	_	*->5-2	*[5]	
+1-115	781-791	investiral	_	_	_	_	
+1-116	792-800	Deutsche	ORG[13]	_	*->6-1	*[6]	
+1-117	801-808	Telekom	ORG[13]	_	*->6-1	*[6]	
+1-118	809-810	.	_	_	_	_	
+1-119	811-819	Deutsche	ORG[14]	4 - Pozitivno[29]	*->6-2	*[6]	
+1-120	820-827	Telekom	ORG[14]	4 - Pozitivno[29]	*->6-2	*[6]	
+1-121	828-831	ima	_	_	_	_	
+1-122	832-838	namreč	_	_	_	_	
+1-123	839-847	pomembne	_	_	_	_	
+1-124	848-854	deleže	_	_	_	_	
+1-125	855-859	tudi	_	_	_	_	
+1-126	860-861	v	_	_	_	_	
+1-127	862-868	drugih	_	_	_	_	
+1-128	869-873	dveh	_	_	_	_	
+1-129	874-886	konkurenčnih	_	_	_	_	
+1-130	887-895	mobilnih	_	_	_	_	
+1-131	896-907	operaterjih	_	_	_	_	
+1-132	908-909	v	_	_	_	_	
+1-133	910-920	Makedoniji	LOC	_	*->10-1	*[10]	
+1-134	921-922	.	_	_	_	_	
+1-135	923-928	Bojan	PER[15]	_	*->7-2	*[7]	
+1-136	929-936	Dremelj	PER[15]	_	*->7-2	*[7]	
+1-137	937-939	je	_	_	_	_	
+1-138	940-942	ob	_	_	_	_	
+1-139	943-946	tem	_	_	_	_	
+1-140	947-952	dejal	_	_	_	_	
+1-141	953-957	Zelo	_	_	_	_	
+1-142	958-961	smo	_	_	*->13-6	*[13]	
+1-143	962-972	zadovoljni	_	_	_	_	
+1-144	973-974	,	_	_	_	_	
+1-145	975-977	da	_	_	_	_	
+1-146	978-981	smo	_	_	_	_	
+1-147	982-991	podpisali	_	_	*->13-7	*[13]	
+1-148	992-999	dogovor	_	_	_	_	
+1-149	1000-1001	o	_	_	_	_	
+1-150	1002-1008	nakupu	_	_	_	_	
+1-151	1009-1012	100	_	_	_	_	
+1-152	1013-1014	-	_	_	_	_	
+1-153	1015-1025	odstotnega	_	_	_	_	
+1-154	1026-1032	deleža	_	_	_	_	
+1-155	1033-1034	v	_	_	_	_	
+1-156	1035-1044	Cosmofonu	ORG	_	*->12-4	*[12]	
+1-157	1045-1047	in	_	_	_	_	
+1-158	1048-1054	družbi	_	_	*->3-4	*[3]	
+1-159	1055-1058	GTS	ORG	_	*->3-4	*[3]	
+1-160	1059-1060	.	_	_	_	_	
+1-161	1061-1063	Ta	_	_	_	_	
+1-162	1064-1069	nakup	_	_	_	_	
+1-163	1070-1078	zaokroža	_	_	_	_	
+1-164	1079-1081	in	_	_	_	_	
+1-165	1082-1092	dopolnjuje	_	_	_	_	
+1-166	1093-1097	naše	_	_	*->13-8	*[13]	
+1-167	1098-1107	dosedanje	_	_	_	_	
+1-168	1108-1118	aktivnosti	_	_	_	_	
+1-169	1119-1120	v	_	_	_	_	
+1-170	1121-1131	Makedoniji	LOC	_	*->10-2	*[10]	
+1-171	1132-1133	,	_	_	_	_	
+1-172	1134-1140	hkrati	_	_	_	_	
+1-173	1141-1143	pa	_	_	_	_	
+1-174	1144-1155	predstavlja	_	_	_	_	
+1-175	1156-1164	pomemben	_	_	_	_	
+1-176	1165-1170	korak	_	_	_	_	
+1-177	1171-1172	v	_	_	_	_	
+1-178	1173-1177	naši	_	_	*->13-9	*[13]	
+1-179	1178-1188	strategiji	_	_	_	_	
+1-180	1189-1196	postati	_	_	_	_	
+1-181	1197-1201	eden	_	_	_	_	
+1-182	1202-1217	najpomembnejših	_	_	_	_	
+1-183	1218-1237	telekomunikacijskih	_	_	_	_	
+1-184	1238-1248	ponudnikov	_	_	_	_	
+1-185	1249-1250	v	_	_	_	_	
+1-186	1251-1253	JV	LOC[16]	3 - Nevtralno[30]	*->14-1	*[14]	
+1-187	1254-1260	Evropi	LOC[16]	3 - Nevtralno[30]	*->14-1	*[14]	
+1-188	1261-1262	.	_	_	_	_	
+1-189	1263-1273	Predsednik	_	4 - Pozitivno[31]	*->7-3	*[7]	
+1-190	1274-1280	uprave	_	4 - Pozitivno[31]	*->7-3	*[7]	
+1-191	1281-1289	Telekoma	ORG	4 - Pozitivno[31]	*->7-3|*->13-10	*[7]|*[13]	
+1-192	1290-1295	Bojan	PER[17]	4 - Pozitivno[31]	*->7-3	*[7]	
+1-193	1296-1303	Dremelj	PER[17]	4 - Pozitivno[31]	*->7-3	*[7]	
+1-194	1304-1308	Foto	_	_	_	_	
+1-195	1309-1314	Kanal	ORG[18]	3 - Nevtralno[32]	*->8-1	*[8]	
+1-196	1315-1316	A	ORG[18]	3 - Nevtralno[32]	*->8-1	*[8]	
+1-197	1317-1324	Michael	PER[19]	_	*->9-1	*[9]	
+1-198	1325-1331	Tsamaz	PER[19]	_	*->9-1	*[9]	
+1-199	1332-1334	pa	_	_	_	_	
+1-200	1335-1337	je	_	_	_	_	
+1-201	1338-1340	ob	_	_	_	_	
+1-202	1341-1348	podpisu	_	_	_	_	
+1-203	1349-1356	povedal	_	_	_	_	
+1-204	1357-1361	Zelo	_	_	_	_	
+1-205	1362-1365	smo	_	_	*->15-3	*[15]	
+1-206	1366-1372	veseli	_	_	_	_	
+1-207	1373-1374	,	_	_	_	_	
+1-208	1375-1377	da	_	_	_	_	
+1-209	1378-1383	lahko	_	_	_	_	
+1-210	1384-1392	objavimo	_	_	*->15-4	*[15]	
+1-211	1393-1400	uspešno	_	_	_	_	
+1-212	1401-1411	zaključeno	_	_	_	_	
+1-213	1412-1419	prodajo	_	_	_	_	
+1-214	1420-1429	Cosmofona	ORG	_	*->12-5	*[12]	
+1-215	1430-1432	in	_	_	_	_	
+1-216	1433-1436	GTS	ORG	_	*->3-5	*[3]	
+1-217	1437-1438	,	_	_	_	_	
+1-218	1439-1441	in	_	_	_	_	
+1-219	1442-1451	zanimanje	_	_	_	_	
+1-220	1452-1454	za	_	_	_	_	
+1-221	1455-1460	nakup	_	_	_	_	
+1-222	1461-1462	,	_	_	_	_	
+1-223	1463-1465	ki	_	_	_	_	
+1-224	1466-1468	ga	_	_	_	_	
+1-225	1469-1471	je	_	_	_	_	
+1-226	1472-1480	pokazalo	_	_	_	_	
+1-227	1481-1484	več	_	_	_	_	
+1-228	1485-1504	telekomunikacijskih	_	_	_	_	
+1-229	1505-1511	skupin	_	_	_	_	
+1-230	1512-1513	.	_	_	_	_	
+1-231	1514-1518	Radi	_	_	_	_	
+1-232	1519-1521	bi	_	_	_	_	
+1-233	1522-1524	se	_	_	_	_	
+1-234	1525-1534	zahvalili	_	_	*->15-5	*[15]	
+1-235	1535-1537	in	_	_	_	_	
+1-236	1538-1547	čestitali	_	_	*->15-6	*[15]	
+1-237	1548-1556	Telekomu	ORG[20]	_	*->13-11	*[13]	
+1-238	1557-1565	Slovenje	ORG[20]|LOC[21]	_	*->13-11|*->1-4	*[13]|*[1]	
+1-239	1566-1567	,	_	_	_	_	
+1-240	1568-1571	kot	_	_	_	_	
+1-241	1572-1576	tudi	_	_	_	_	
+1-242	1577-1581	vsem	_	_	_	_	
+1-243	1582-1588	drugim	_	_	_	_	
+1-244	1589-1600	sodelujočim	_	_	_	_	
+1-245	1601-1602	v	_	_	_	_	
+1-246	1603-1606	tem	_	_	_	_	
+1-247	1607-1614	procesu	_	_	_	_	
+1-248	1615-1616	.	_	_	_	_	
+1-249	1617-1618	V	_	_	_	_	
+1-250	1619-1631	nadaljevanju	_	_	_	_	
+1-251	1632-1638	želimo	_	_	*->15-7	*[15]	
+1-252	1639-1648	Cosmofonu	ORG	_	*->12-6	*[12]	
+1-253	1649-1650	,	_	_	_	_	
+1-254	1651-1654	GTS	ORG	_	*->3-6	*[3]	
+1-255	1655-1657	in	_	_	_	_	
+1-256	1658-1662	vsem	_	_	_	_	
+1-257	1663-1673	zaposlenim	_	_	_	_	
+1-258	1674-1675	,	_	_	_	_	
+1-259	1676-1677	s	_	_	_	_	
+1-260	1678-1686	katerimi	_	_	_	_	
+1-261	1687-1690	smo	_	_	_	_	
+1-262	1691-1701	sodelovali	_	_	*->15-8	*[15]	
+1-263	1702-1705	kot	_	_	_	_	
+1-264	1706-1711	člani	_	_	_	_	
+1-265	1712-1721	Cosmonote	ORG[22]	_	*->15-9	*[15]	
+1-266	1722-1727	Group	ORG[22]	_	*->15-9	*[15]	
+1-267	1728-1729	,	_	_	_	_	
+1-268	1730-1736	veliko	_	_	_	_	
+1-269	1737-1743	uspeha	_	_	_	_	
+1-270	1744-1745	v	_	_	_	_	
+1-271	1746-1755	prihodnje	_	_	_	_	
+1-272	1756-1757	.	_	_	_	_	
+1-273	1758-1767	Prepričan	_	_	*->9-2	*[9]	
+1-274	1768-1771	sem	_	_	*->9-2	*[9]	
+1-275	1772-1773	,	_	_	_	_	
+1-276	1774-1776	da	_	_	_	_	
+1-277	1777-1779	bo	_	_	_	_	
+1-278	1780-1787	Telekom	ORG[23]	4 - Pozitivno[33]	*->13-12	*[13]	
+1-279	1788-1797	Slovenije	ORG[23]|LOC[24]	4 - Pozitivno[33]|3 - Nevtralno[34]	*->13-12|*->1-5	*[13]|*[1]	
+1-280	1798-1808	nadaljeval	_	_	_	_	
+1-281	1809-1816	uspešno	_	_	_	_	
+1-282	1817-1825	začrtano	_	_	_	_	
+1-283	1826-1829	pot	_	_	_	_	
+1-284	1830-1832	na	_	_	_	_	
+1-285	1833-1844	makedonskem	_	_	_	_	
+1-286	1845-1849	trgu	_	_	_	_	
+1-287	1850-1851	.	_	_	_	_	
+1-288	1852-1860	Cosmofon	ORG	_	*->12-7	*[12]	
+1-289	1861-1863	je	_	_	_	_	
+1-290	1864-1869	začel	_	_	_	_	
+1-291	1870-1871	s	_	_	_	_	
+1-292	1872-1877	svojo	_	_	_	_	
+1-293	1878-1889	komercialno	_	_	_	_	
+1-294	1890-1901	dejavnostjo	_	_	_	_	
+1-295	1902-1908	junija	_	_	_	_	
+1-296	1909-1913	2003	_	_	_	_	
+1-297	1914-1916	in	_	_	_	_	
+1-298	1917-1920	ima	_	_	*->12-8	*[12]	
+1-299	1921-1926	drugo	_	_	_	_	
+1-300	1927-1934	mobilno	_	_	_	_	
+1-301	1935-1942	licenco	_	_	_	_	
+1-302	1943-1944	v	_	_	_	_	
+1-303	1945-1955	Makedoniji	LOC	_	*->10-3	*[10]	
+1-304	1956-1957	.	_	_	_	_	
+1-305	1958-1966	Cosmofon	ORG	_	*->12-9	*[12]	
+1-306	1967-1969	je	_	_	_	_	
+1-307	1970-1977	Avgusta	_	_	_	_	
+1-308	1978-1982	2005	_	_	_	_	
+1-309	1983-1988	kupil	_	_	_	_	
+1-310	1989-1997	največji	_	4 - Pozitivno[35]	*->15-10	*[15]	
+1-311	1998-2003	grški	_	4 - Pozitivno[35]	*->15-10	*[15]	
+1-312	2004-2011	mobilni	_	4 - Pozitivno[35]	*->15-10	*[15]	
+1-313	2012-2020	operater	_	4 - Pozitivno[35]	*->15-10	*[15]	
+1-314	2021-2030	Cosmonote	ORG[25]	4 - Pozitivno[35]	*->15-10	*[15]	
+1-315	2031-2036	Group	ORG[25]	4 - Pozitivno[35]	*->15-10	*[15]	
+1-316	2037-2038	,	_	_	_	_	
+1-317	2039-2044	sicer	_	_	_	_	
+1-318	2045-2048	del	_	_	_	_	
+1-319	2049-2056	grškega	_	3 - Nevtralno[36]	*->5-3	*[5]	
+1-320	2057-2069	nacionalnega	_	3 - Nevtralno[36]	*->5-3	*[5]	
+1-321	2070-2082	telefonskega	_	3 - Nevtralno[36]	*->5-3	*[5]	
+1-322	2083-2093	operaterja	_	3 - Nevtralno[36]	*->5-3	*[5]	
+1-323	2094-2102	Hellenic	ORG[26]	3 - Nevtralno[36]	*->5-3	*[5]	
+1-324	2103-2120	Telecomunications	ORG[26]	3 - Nevtralno[36]	*->5-3	*[5]	
+1-325	2121-2133	Organization	ORG[26]	3 - Nevtralno[36]	*->5-3	*[5]	
+1-326	2134-2137	OTE	ORG[26]	3 - Nevtralno[36]	*->5-3	*[5]	
+1-327	2138-2139	.	_	_	_	_	
+1-328	2140-2148	Cosmofon	ORG	_	*->12-10	*[12]	
+1-329	2149-2152	ima	_	_	_	_	
+1-330	2153-2158	danes	_	_	_	_	
+1-331	2159-2168	približno	_	_	_	_	
+1-332	2169-2171	30	_	_	_	_	
+1-333	2172-2173	-	_	_	_	_	
+1-334	2174-2182	odstotni	_	_	_	_	
+1-335	2183-2188	tržni	_	_	_	_	
+1-336	2189-2194	delež	_	_	_	_	
+1-337	2195-2196	v	_	_	_	_	
+1-338	2197-2207	Makedoniji	LOC	_	*->10-4	*[10]	
+1-339	2208-2209	.	_	_	_	_	
+1-340	2210-2218	Germanos	ORG[27]	4 - Pozitivno[37]	*->11-1	*[11]	
+1-341	2219-2226	Telecom	ORG[27]	4 - Pozitivno[37]	*->11-1	*[11]	
+1-342	2227-2229	pa	_	_	_	_	
+1-343	2230-2232	je	_	_	_	_	
+1-344	2233-2244	distributer	_	_	_	_	
+1-345	2245-2257	Cosmofonovih	_	4 - Pozitivno	*->12-11	*[12]	
+1-346	2258-2266	storitev	_	_	_	_	
+1-347	2267-2268	v	_	_	_	_	
+1-348	2269-2275	državi	_	3 - Nevtralno	*->10-5	*[10]	
+1-349	2276-2277	,	_	_	_	_	
+1-350	2278-2279	s	_	_	_	_	
+1-351	2280-2282	66	_	_	_	_	
+1-352	2283-2293	prodajnimi	_	_	_	_	
+1-353	2294-2299	mesti	_	_	_	_	
+1-354	2300-2301	.	_	_	_	_	
+1-355	2302-2309	Pogodbo	_	_	_	_	
+1-356	2310-2311	o	_	_	_	_	
+1-357	2312-2318	nakupu	_	_	_	_	
+1-358	2319-2323	mora	_	_	_	_	
+1-359	2324-2332	potrditi	_	_	_	_	
+1-360	2333-2335	še	_	_	_	_	
+1-361	2336-2346	makedonska	_	_	_	_	
+1-362	2347-2358	regulatorna	_	_	_	_	
+1-363	2359-2367	agencija	_	_	_	_	

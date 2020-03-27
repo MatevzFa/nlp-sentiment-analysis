@@ -1,0 +1,306 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=15 . maja je podal nepreklicno izjavo Matjaž Gantar , ki vodi KD Group , je nepreklicno izstopil iz nadzornega sveta Petrola , je sporočil predsednik nadzornega sveta . Predsednik nadzornega sveta Petrola Viktor Baraga je seznanil nadzorni svet , da je Matjaž Gantar 15 . maja podal pisno izjavo , da nepreklicno odstopa s funkcije člana nadzornikov , so sporočili iz Petrola . Gantar , sicer direktor družb KD Group in KD Holding , je bil za člana nadzornega sveta kot predstavnik kapitala imenovan na 11 . skupščini delničarjev 4 . aprila 2005 , štiriletni mandat pa je nastopil dan pozneje . Nadzorniki Petrola so se na 39 . redni seji posvetili tudi rednemu poslovanju družbe in zagotovitvi še učinkovitejšega vodenja in nadzora z oblikovanjem komisij nadzornega sveta , piše v objavi na spletni strani Petrola . 15 . maja bi morali odločati o enotirnem sistemu upravljanja Zanimivo je , da so 15 . maja , ko je Gantar podal odstopno izjavo , iz dnevnega reda skupščine Petrola umaknili odločanje o prehodu na enotirni sistem upravljanja . Viktor Baraga je takrat o razlogih za umik te teme z dnevnega reda dejal , da predlog ne bi dobil ustrezne podpore . Takšen sklep so nadzorniki sprejeli na sredini seji . Kot je pojasnil predsednik nadzornega sveta Baraga , so se za ta korak odločili po pogovoru z velikimi lastniki družbe . Glede nadaljnje usode enotirnega sistema upravljanja pa bodo lastniki odločali na kateri izmed naslednjih skupščin . Nadzorni svet Petrola sicer sestavljajo predstavniki kapitala - poleg Gantarja še Bojan Šrot , predsednik SLS - a in celjski župan , Andrej Bratož , Aleš Marinček , predsednik Viktor Baraga in podpredsednik Milan Podpečan , ki zastopa interese Soda - in predstavniki zaposlenih Samo Gerdin , Cvetka Žigart in Ciril Pirš
+1-1	0-2	15	_	_	_	_	
+1-2	3-4	.	_	_	_	_	
+1-3	5-9	maja	_	_	_	_	
+1-4	10-12	je	_	_	_	_	
+1-5	13-18	podal	_	_	*->13-1	*[13]	
+1-6	19-30	nepreklicno	_	_	_	_	
+1-7	31-37	izjavo	_	_	_	_	
+1-8	38-44	Matjaž	PER[1]	_	*->13-2	*[13]	
+1-9	45-51	Gantar	PER[1]	_	*->13-2	*[13]	
+1-10	52-53	,	_	_	_	_	
+1-11	54-56	ki	_	_	_	_	
+1-12	57-61	vodi	_	_	*->13-3	*[13]	
+1-13	62-64	KD	ORG[2]	_	*->2-1	*[2]	
+1-14	65-70	Group	ORG[2]	_	*->2-1	*[2]	
+1-15	71-72	,	_	_	_	_	
+1-16	73-75	je	_	_	_	_	
+1-17	76-87	nepreklicno	_	_	_	_	
+1-18	88-96	izstopil	_	_	_	_	
+1-19	97-99	iz	_	_	_	_	
+1-20	100-110	nadzornega	_	_	_	_	
+1-21	111-116	sveta	_	_	_	_	
+1-22	117-124	Petrola	ORG	_	*->1-1	*[1]	
+1-23	125-126	,	_	_	_	_	
+1-24	127-129	je	_	_	_	_	
+1-25	130-138	sporočil	_	_	_	_	
+1-26	139-149	predsednik	_	_	_	_	
+1-27	150-160	nadzornega	_	_	_	_	
+1-28	161-166	sveta	_	_	_	_	
+1-29	167-168	.	_	_	_	_	
+1-30	169-179	Predsednik	_	_	*->3-1	*[3]	
+1-31	180-190	nadzornega	_	_	*->3-1	*[3]	
+1-32	191-196	sveta	_	_	*->3-1	*[3]	
+1-33	197-204	Petrola	ORG	_	*->3-1|*->1-2	*[3]|*[1]	
+1-34	205-211	Viktor	PER[3]	_	*->3-1	*[3]	
+1-35	212-218	Baraga	PER[3]	_	*->3-1	*[3]	
+1-36	219-221	je	_	_	_	_	
+1-37	222-230	seznanil	_	_	_	_	
+1-38	231-239	nadzorni	_	_	_	_	
+1-39	240-244	svet	_	_	_	_	
+1-40	245-246	,	_	_	_	_	
+1-41	247-249	da	_	_	_	_	
+1-42	250-252	je	_	_	_	_	
+1-43	253-259	Matjaž	PER[4]	_	*->13-4	*[13]	
+1-44	260-266	Gantar	PER[4]	_	*->13-4	*[13]	
+1-45	267-269	15	_	_	_	_	
+1-46	270-271	.	_	_	_	_	
+1-47	272-276	maja	_	_	_	_	
+1-48	277-282	podal	_	_	_	_	
+1-49	283-288	pisno	_	_	_	_	
+1-50	289-295	izjavo	_	_	_	_	
+1-51	296-297	,	_	_	_	_	
+1-52	298-300	da	_	_	_	_	
+1-53	301-312	nepreklicno	_	_	_	_	
+1-54	313-320	odstopa	_	_	*->13-5	*[13]	
+1-55	321-322	s	_	_	_	_	
+1-56	323-331	funkcije	_	_	_	_	
+1-57	332-337	člana	_	_	_	_	
+1-58	338-349	nadzornikov	_	_	_	_	
+1-59	350-351	,	_	_	_	_	
+1-60	352-354	so	_	_	_	_	
+1-61	355-364	sporočili	_	_	_	_	
+1-62	365-367	iz	_	_	_	_	
+1-63	368-375	Petrola	ORG	_	*->1-3	*[1]	
+1-64	376-377	.	_	_	_	_	
+1-65	378-384	Gantar	PER	_	*->13-6	*[13]	
+1-66	385-386	,	_	_	_	_	
+1-67	387-392	sicer	_	_	_	_	
+1-68	393-401	direktor	_	_	*->13-7	*[13]	
+1-69	402-407	družb	_	_	*->13-7	*[13]	
+1-70	408-410	KD	ORG[5]	3 - Nevtralno[16]	*->13-7|*->2-2	*[13]|*[2]	
+1-71	411-416	Group	ORG[5]	3 - Nevtralno[16]	*->13-7|*->2-2	*[13]|*[2]	
+1-72	417-419	in	_	_	*->13-7	*[13]	
+1-73	420-422	KD	ORG[6]	3 - Nevtralno[17]	*->13-7|*->4-1	*[13]|*[4]	
+1-74	423-430	Holding	ORG[6]	3 - Nevtralno[17]	*->13-7|*->4-1	*[13]|*[4]	
+1-75	431-432	,	_	_	_	_	
+1-76	433-435	je	_	_	_	_	
+1-77	436-439	bil	_	_	_	_	
+1-78	440-442	za	_	_	_	_	
+1-79	443-448	člana	_	_	*->13-8	*[13]	
+1-80	449-459	nadzornega	_	_	*->13-8	*[13]	
+1-81	460-465	sveta	_	_	*->13-8	*[13]	
+1-82	466-469	kot	_	_	*->13-8	*[13]	
+1-83	470-481	predstavnik	_	_	*->13-8	*[13]	
+1-84	482-490	kapitala	_	_	*->13-8	*[13]	
+1-85	491-499	imenovan	_	_	_	_	
+1-86	500-502	na	_	_	_	_	
+1-87	503-505	11	_	_	_	_	
+1-88	506-507	.	_	_	_	_	
+1-89	508-517	skupščini	_	_	_	_	
+1-90	518-529	delničarjev	_	_	_	_	
+1-91	530-531	4	_	_	_	_	
+1-92	532-533	.	_	_	_	_	
+1-93	534-540	aprila	_	_	_	_	
+1-94	541-545	2005	_	_	_	_	
+1-95	546-547	,	_	_	_	_	
+1-96	548-558	štiriletni	_	_	_	_	
+1-97	559-565	mandat	_	_	_	_	
+1-98	566-568	pa	_	_	_	_	
+1-99	569-571	je	_	_	_	_	
+1-100	572-580	nastopil	_	_	*->13-9	*[13]	
+1-101	581-584	dan	_	_	_	_	
+1-102	585-592	pozneje	_	_	_	_	
+1-103	593-594	.	_	_	_	_	
+1-104	595-605	Nadzorniki	_	_	_	_	
+1-105	606-613	Petrola	ORG	_	*->1-4	*[1]	
+1-106	614-616	so	_	_	_	_	
+1-107	617-619	se	_	_	_	_	
+1-108	620-622	na	_	_	_	_	
+1-109	623-625	39	_	_	_	_	
+1-110	626-627	.	_	_	_	_	
+1-111	628-633	redni	_	_	_	_	
+1-112	634-638	seji	_	_	_	_	
+1-113	639-648	posvetili	_	_	_	_	
+1-114	649-653	tudi	_	_	_	_	
+1-115	654-661	rednemu	_	_	_	_	
+1-116	662-672	poslovanju	_	_	_	_	
+1-117	673-679	družbe	_	_	*->1-5	*[1]	
+1-118	680-682	in	_	_	_	_	
+1-119	683-694	zagotovitvi	_	_	_	_	
+1-120	695-697	še	_	_	_	_	
+1-121	698-713	učinkovitejšega	_	_	_	_	
+1-122	714-721	vodenja	_	_	_	_	
+1-123	722-724	in	_	_	_	_	
+1-124	725-732	nadzora	_	_	_	_	
+1-125	733-734	z	_	_	_	_	
+1-126	735-747	oblikovanjem	_	_	_	_	
+1-127	748-755	komisij	_	_	_	_	
+1-128	756-766	nadzornega	_	_	_	_	
+1-129	767-772	sveta	_	_	_	_	
+1-130	773-774	,	_	_	_	_	
+1-131	775-779	piše	_	_	_	_	
+1-132	780-781	v	_	_	_	_	
+1-133	782-788	objavi	_	_	_	_	
+1-134	789-791	na	_	_	_	_	
+1-135	792-799	spletni	_	_	_	_	
+1-136	800-806	strani	_	_	_	_	
+1-137	807-814	Petrola	ORG	_	*->1-6	*[1]	
+1-138	815-816	.	_	_	_	_	
+1-139	817-819	15	_	_	_	_	
+1-140	820-821	.	_	_	_	_	
+1-141	822-826	maja	_	_	_	_	
+1-142	827-829	bi	_	_	_	_	
+1-143	830-836	morali	_	_	_	_	
+1-144	837-845	odločati	_	_	_	_	
+1-145	846-847	o	_	_	_	_	
+1-146	848-857	enotirnem	_	_	_	_	
+1-147	858-865	sistemu	_	_	_	_	
+1-148	866-877	upravljanja	_	_	_	_	
+1-149	878-886	Zanimivo	_	_	_	_	
+1-150	887-889	je	_	_	_	_	
+1-151	890-891	,	_	_	_	_	
+1-152	892-894	da	_	_	_	_	
+1-153	895-897	so	_	_	_	_	
+1-154	898-900	15	_	_	_	_	
+1-155	901-902	.	_	_	_	_	
+1-156	903-907	maja	_	_	_	_	
+1-157	908-909	,	_	_	_	_	
+1-158	910-912	ko	_	_	_	_	
+1-159	913-915	je	_	_	_	_	
+1-160	916-922	Gantar	PER	_	*->13-10	*[13]	
+1-161	923-928	podal	_	_	_	_	
+1-162	929-937	odstopno	_	_	_	_	
+1-163	938-944	izjavo	_	_	_	_	
+1-164	945-946	,	_	_	_	_	
+1-165	947-949	iz	_	_	_	_	
+1-166	950-958	dnevnega	_	_	_	_	
+1-167	959-963	reda	_	_	_	_	
+1-168	964-973	skupščine	_	_	_	_	
+1-169	974-981	Petrola	ORG	_	*->1-7	*[1]	
+1-170	982-990	umaknili	_	_	_	_	
+1-171	991-1000	odločanje	_	_	_	_	
+1-172	1001-1002	o	_	_	_	_	
+1-173	1003-1010	prehodu	_	_	_	_	
+1-174	1011-1013	na	_	_	_	_	
+1-175	1014-1022	enotirni	_	_	_	_	
+1-176	1023-1029	sistem	_	_	_	_	
+1-177	1030-1041	upravljanja	_	_	_	_	
+1-178	1042-1043	.	_	_	_	_	
+1-179	1044-1050	Viktor	PER[7]	_	*->3-2	*[3]	
+1-180	1051-1057	Baraga	PER[7]	_	*->3-2	*[3]	
+1-181	1058-1060	je	_	_	_	_	
+1-182	1061-1067	takrat	_	_	_	_	
+1-183	1068-1069	o	_	_	_	_	
+1-184	1070-1078	razlogih	_	_	_	_	
+1-185	1079-1081	za	_	_	_	_	
+1-186	1082-1086	umik	_	_	_	_	
+1-187	1087-1089	te	_	_	_	_	
+1-188	1090-1094	teme	_	_	_	_	
+1-189	1095-1096	z	_	_	_	_	
+1-190	1097-1105	dnevnega	_	_	_	_	
+1-191	1106-1110	reda	_	_	_	_	
+1-192	1111-1116	dejal	_	_	_	_	
+1-193	1117-1118	,	_	_	_	_	
+1-194	1119-1121	da	_	_	_	_	
+1-195	1122-1129	predlog	_	_	_	_	
+1-196	1130-1132	ne	_	_	_	_	
+1-197	1133-1135	bi	_	_	_	_	
+1-198	1136-1141	dobil	_	_	_	_	
+1-199	1142-1150	ustrezne	_	_	_	_	
+1-200	1151-1158	podpore	_	_	_	_	
+1-201	1159-1160	.	_	_	_	_	
+1-202	1161-1167	Takšen	_	_	_	_	
+1-203	1168-1173	sklep	_	_	_	_	
+1-204	1174-1176	so	_	_	_	_	
+1-205	1177-1187	nadzorniki	_	_	_	_	
+1-206	1188-1196	sprejeli	_	_	_	_	
+1-207	1197-1199	na	_	_	_	_	
+1-208	1200-1207	sredini	_	_	_	_	
+1-209	1208-1212	seji	_	_	_	_	
+1-210	1213-1214	.	_	_	_	_	
+1-211	1215-1218	Kot	_	_	_	_	
+1-212	1219-1221	je	_	_	_	_	
+1-213	1222-1230	pojasnil	_	_	_	_	
+1-214	1231-1241	predsednik	_	_	*->3-3	*[3]	
+1-215	1242-1252	nadzornega	_	_	*->3-3	*[3]	
+1-216	1253-1258	sveta	_	_	*->3-3	*[3]	
+1-217	1259-1265	Baraga	PER	_	*->3-3	*[3]	
+1-218	1266-1267	,	_	_	_	_	
+1-219	1268-1270	so	_	_	_	_	
+1-220	1271-1273	se	_	_	_	_	
+1-221	1274-1276	za	_	_	_	_	
+1-222	1277-1279	ta	_	_	_	_	
+1-223	1280-1285	korak	_	_	_	_	
+1-224	1286-1294	odločili	_	_	_	_	
+1-225	1295-1297	po	_	_	_	_	
+1-226	1298-1306	pogovoru	_	_	_	_	
+1-227	1307-1308	z	_	_	_	_	
+1-228	1309-1317	velikimi	_	_	_	_	
+1-229	1318-1326	lastniki	_	_	_	_	
+1-230	1327-1333	družbe	_	_	_	_	
+1-231	1334-1335	.	_	_	_	_	
+1-232	1336-1341	Glede	_	_	_	_	
+1-233	1342-1351	nadaljnje	_	_	_	_	
+1-234	1352-1357	usode	_	_	_	_	
+1-235	1358-1368	enotirnega	_	_	_	_	
+1-236	1369-1376	sistema	_	_	_	_	
+1-237	1377-1388	upravljanja	_	_	_	_	
+1-238	1389-1391	pa	_	_	_	_	
+1-239	1392-1396	bodo	_	_	_	_	
+1-240	1397-1405	lastniki	_	_	_	_	
+1-241	1406-1414	odločali	_	_	_	_	
+1-242	1415-1417	na	_	_	_	_	
+1-243	1418-1424	kateri	_	_	_	_	
+1-244	1425-1430	izmed	_	_	_	_	
+1-245	1431-1441	naslednjih	_	_	_	_	
+1-246	1442-1450	skupščin	_	_	_	_	
+1-247	1451-1452	.	_	_	_	_	
+1-248	1453-1461	Nadzorni	_	_	_	_	
+1-249	1462-1466	svet	_	_	_	_	
+1-250	1467-1474	Petrola	ORG	3 - Nevtralno	*->1-8	*[1]	
+1-251	1475-1480	sicer	_	_	_	_	
+1-252	1481-1492	sestavljajo	_	_	_	_	
+1-253	1493-1505	predstavniki	_	_	_	_	
+1-254	1506-1514	kapitala	_	_	_	_	
+1-255	1515-1516	-	_	_	_	_	
+1-256	1517-1522	poleg	_	_	_	_	
+1-257	1523-1531	Gantarja	PER	2 - Negativno	*->13-11	*[13]	
+1-258	1532-1534	še	_	_	_	_	
+1-259	1535-1540	Bojan	PER[8]	3 - Nevtralno[18]	*->5-1	*[5]	
+1-260	1541-1545	Šrot	PER[8]	3 - Nevtralno[18]	*->5-1	*[5]	
+1-261	1546-1547	,	_	_	_	_	
+1-262	1548-1558	predsednik	_	3 - Nevtralno[19]	*->6-1	*[6]	
+1-263	1559-1562	SLS	ORG	3 - Nevtralno[19]|3 - Nevtralno[20]	*->6-1|*->7-1	*[6]|*[7]	
+1-264	1563-1564	-	_	3 - Nevtralno[19]	*->6-1	*[6]	
+1-265	1565-1566	a	_	3 - Nevtralno[19]	*->6-1	*[6]	
+1-266	1567-1569	in	_	3 - Nevtralno[19]	*->6-1	*[6]	
+1-267	1570-1577	celjski	_	3 - Nevtralno[19]	*->6-1	*[6]	
+1-268	1578-1583	župan	_	3 - Nevtralno[19]	*->6-1	*[6]	
+1-269	1584-1585	,	_	3 - Nevtralno[19]	*->6-1	*[6]	
+1-270	1586-1592	Andrej	PER[9]	3 - Nevtralno[19]	*->6-1	*[6]	
+1-271	1593-1599	Bratož	PER[9]	3 - Nevtralno[19]	*->6-1	*[6]	
+1-272	1600-1601	,	_	_	_	_	
+1-273	1602-1606	Aleš	PER[10]	3 - Nevtralno[21]	*->8-1	*[8]	
+1-274	1607-1615	Marinček	PER[10]	3 - Nevtralno[21]	*->8-1	*[8]	
+1-275	1616-1617	,	_	_	_	_	
+1-276	1618-1628	predsednik	_	3 - Nevtralno[22]	*->3-4	*[3]	
+1-277	1629-1635	Viktor	PER[11]	3 - Nevtralno[22]	*->3-4	*[3]	
+1-278	1636-1642	Baraga	PER[11]	3 - Nevtralno[22]	*->3-4	*[3]	
+1-279	1643-1645	in	_	_	_	_	
+1-280	1646-1659	podpredsednik	_	_	*->12-1	*[12]	
+1-281	1660-1665	Milan	PER[12]	_	*->12-1	*[12]	
+1-282	1666-1674	Podpečan	PER[12]	_	*->12-1	*[12]	
+1-283	1675-1676	,	_	_	_	_	
+1-284	1677-1679	ki	_	_	_	_	
+1-285	1680-1687	zastopa	_	3 - Nevtralno	*->12-2	*[12]	
+1-286	1688-1696	interese	_	_	_	_	
+1-287	1697-1701	Soda	ORG	3 - Nevtralno	*->14-1	*[14]	
+1-288	1702-1703	-	_	_	_	_	
+1-289	1704-1706	in	_	_	_	_	
+1-290	1707-1719	predstavniki	_	_	_	_	
+1-291	1720-1730	zaposlenih	_	_	_	_	
+1-292	1731-1735	Samo	PER[13]	3 - Nevtralno[23]	*->11-1	*[11]	
+1-293	1736-1742	Gerdin	PER[13]	3 - Nevtralno[23]	*->11-1	*[11]	
+1-294	1743-1744	,	_	_	_	_	
+1-295	1745-1751	Cvetka	PER[14]	3 - Nevtralno[24]	*->10-1	*[10]	
+1-296	1752-1758	Žigart	PER[14]	3 - Nevtralno[24]	*->10-1	*[10]	
+1-297	1759-1761	in	_	_	_	_	
+1-298	1762-1767	Ciril	PER[15]	3 - Nevtralno[25]	*->9-1	*[9]	
+1-299	1768-1772	Pirš	PER[15]	3 - Nevtralno[25]	*->9-1	*[9]	

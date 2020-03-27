@@ -1,0 +1,433 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Delničarji Pivovarne Laško so po nasprotnem predlogu NLB v nov nadzorni svet imenovali Enza Smrekarja , Petra Groznika , Gorana Brankoviča in Jožeta Bajuka . Že četrtič so glasovali proti dokapitalizaciji , ki je bila predlagana v višini 36,5 milijona evrov . Delničarji Pivovarne Laško so na današnji skupščini , na kateri je bilo navzočega 83,7 odstotka kapitala , po nasprotnem predlogu NLB v nov nadzorni svet imenovali Enza Smrekarja , Petra Groznika , Gorana Brankoviča in Jožeta Bajuka . Imenovani so za mandatno obdobje od 1 . septembra letos do 31 . avgusta 2017 . Dosedanji nadzornik Borut Jamnik , predsednik uprave Modre zavarovalnice , je kandidaturo umaknil . Za nadzorni svet so po prvotnem predlogu nadzornega sveta kandidirali trenutni prvi nadzornik Vladimir Malenković , Borut Bratina , že omenjeni Groznik , nekdanji prvi mož Adrie Airways Klemen Boštjančič , Simon Čadež in Alenka Podbevšek . Na prvotni predlog o imenovanju novih nadzornikov so nasprotni predlog podali še nekateri delničarji , med njimi tudi mali delničarji , vendar je skupščina vse predloge zavrnila . Že četrtič glasovali proti dokapitalizaciji Na skupščini so se delničarji seznanili tudi z informacijo , da je lanska čista izguba znašala 18,5 milijona evrov , pokrili pa so jo iz dobička iz poslovanja iz preteklih let v višini skoraj 860.000 evrov , iz drugih rezerv iz dobička v višini dobrih 232.000 evrov ter iz kapitalskih rezerv v višini 17,4 milijona evrov . Že četrtič pa so delničarji , med katerimi prevladujejo banke upnice , glasovali proti dokapitalizaciji , ki sta jo uprava in nadzorni svet predlagala v višini 36,5 milijona evrov . Delničarji so upravi in nadzornemu svetu podelili razrešnice za poslovno leto 2012 , za letošnjega revizorja pa je imenovana revizijska družba Ernst & Young iz Ljubljane . Tudi na skupščini je predsednik uprave Pivovarne Laško Dušan Zorko izrazil upanje , da bo prišlo do prodaje Mercatorja , saj bi skupina Laško za 23,4 - odstotni delež v tej trgovski družbi iztržila okoli 105 milijonov evrov , kar bi zadolženost skupine znižalo na nekaj več kot 200 milijonov evrov . Prodajo Mercatorja Zorko pričakuje v prvem četrtletju leta 2014 . Zorko je tudi pojasnil , da so pripravili več scenarij razdolževanja skupine , ob tem je tudi poudaril , da je njihov cilj najti strateškega partnerja za skupino Laško . Dejal je tudi , da so najeli svetovalce za prodajo tistih segmentov skupine , ki jih doslej niso uspeli prodati . Na vprašanje , kako komentira novo sestavo nadzornega sveta , je Zorko odgovoril , da je to stvar lastnikov
+1-1	0-10	Delničarji	_	_	_	_	
+1-2	11-20	Pivovarne	ORG[1]	_	*->18-1	*[18]	
+1-3	21-26	Laško	ORG[1]|LOC[2]	_	*->18-1|*->1-1	*[18]|*[1]	
+1-4	27-29	so	_	_	_	_	
+1-5	30-32	po	_	_	_	_	
+1-6	33-43	nasprotnem	_	_	_	_	
+1-7	44-52	predlogu	_	_	_	_	
+1-8	53-56	NLB	ORG	_	*->2-1	*[2]	
+1-9	57-58	v	_	_	_	_	
+1-10	59-62	nov	_	_	_	_	
+1-11	63-71	nadzorni	_	_	_	_	
+1-12	72-76	svet	_	_	_	_	
+1-13	77-86	imenovali	_	_	_	_	
+1-14	87-91	Enza	PER[3]	_	*->3-1	*[3]	
+1-15	92-101	Smrekarja	PER[3]	_	*->3-1	*[3]	
+1-16	102-103	,	_	_	_	_	
+1-17	104-109	Petra	PER[4]	_	*->9-1	*[9]	
+1-18	110-118	Groznika	PER[4]	_	*->9-1	*[9]	
+1-19	119-120	,	_	_	_	_	
+1-20	121-127	Gorana	PER[5]	_	*->4-1	*[4]	
+1-21	128-138	Brankoviča	PER[5]	_	*->4-1	*[4]	
+1-22	139-141	in	_	_	_	_	
+1-23	142-148	Jožeta	PER[6]	_	*->5-1	*[5]	
+1-24	149-155	Bajuka	PER[6]	_	*->5-1	*[5]	
+1-25	156-157	.	_	_	_	_	
+1-26	158-160	Že	_	_	_	_	
+1-27	161-168	četrtič	_	_	_	_	
+1-28	169-171	so	_	_	_	_	
+1-29	172-181	glasovali	_	_	_	_	
+1-30	182-187	proti	_	_	_	_	
+1-31	188-204	dokapitalizaciji	_	_	_	_	
+1-32	205-206	,	_	_	_	_	
+1-33	207-209	ki	_	_	_	_	
+1-34	210-212	je	_	_	_	_	
+1-35	213-217	bila	_	_	_	_	
+1-36	218-228	predlagana	_	_	_	_	
+1-37	229-230	v	_	_	_	_	
+1-38	231-237	višini	_	_	_	_	
+1-39	238-242	36,5	_	_	_	_	
+1-40	243-251	milijona	_	_	_	_	
+1-41	252-257	evrov	_	_	_	_	
+1-42	258-259	.	_	_	_	_	
+1-43	260-270	Delničarji	_	_	_	_	
+1-44	271-280	Pivovarne	ORG[7]	_	*->18-2	*[18]	
+1-45	281-286	Laško	ORG[7]|LOC[8]	_	*->18-2|*->1-2	*[18]|*[1]	
+1-46	287-289	so	_	_	_	_	
+1-47	290-292	na	_	_	_	_	
+1-48	293-301	današnji	_	_	_	_	
+1-49	302-311	skupščini	_	_	_	_	
+1-50	312-313	,	_	_	_	_	
+1-51	314-316	na	_	_	_	_	
+1-52	317-323	kateri	_	_	_	_	
+1-53	324-326	je	_	_	_	_	
+1-54	327-331	bilo	_	_	_	_	
+1-55	332-341	navzočega	_	_	_	_	
+1-56	342-346	83,7	_	_	_	_	
+1-57	347-355	odstotka	_	_	_	_	
+1-58	356-364	kapitala	_	_	_	_	
+1-59	365-366	,	_	_	_	_	
+1-60	367-369	po	_	_	_	_	
+1-61	370-380	nasprotnem	_	_	_	_	
+1-62	381-389	predlogu	_	_	_	_	
+1-63	390-393	NLB	ORG	3 - Nevtralno	*->2-2	*[2]	
+1-64	394-395	v	_	_	_	_	
+1-65	396-399	nov	_	_	_	_	
+1-66	400-408	nadzorni	_	_	_	_	
+1-67	409-413	svet	_	_	_	_	
+1-68	414-423	imenovali	_	_	_	_	
+1-69	424-428	Enza	PER[9]	4 - Pozitivno[25]	*->3-2	*[3]	
+1-70	429-438	Smrekarja	PER[9]	4 - Pozitivno[25]	*->3-2	*[3]	
+1-71	439-440	,	_	_	_	_	
+1-72	441-446	Petra	PER[10]	_	*->9-2	*[9]	
+1-73	447-455	Groznika	PER[10]	_	*->9-2	*[9]	
+1-74	456-457	,	_	_	_	_	
+1-75	458-464	Gorana	PER[11]	4 - Pozitivno[26]	*->4-2	*[4]	
+1-76	465-475	Brankoviča	PER[11]	4 - Pozitivno[26]	*->4-2	*[4]	
+1-77	476-478	in	_	_	_	_	
+1-78	479-485	Jožeta	PER[12]	4 - Pozitivno[27]	*->5-2	*[5]	
+1-79	486-492	Bajuka	PER[12]	4 - Pozitivno[27]	*->5-2	*[5]	
+1-80	493-494	.	_	_	_	_	
+1-81	495-504	Imenovani	_	_	_	_	
+1-82	505-507	so	_	_	_	_	
+1-83	508-510	za	_	_	_	_	
+1-84	511-519	mandatno	_	_	_	_	
+1-85	520-527	obdobje	_	_	_	_	
+1-86	528-530	od	_	_	_	_	
+1-87	531-532	1	_	_	_	_	
+1-88	533-534	.	_	_	_	_	
+1-89	535-544	septembra	_	_	_	_	
+1-90	545-550	letos	_	_	_	_	
+1-91	551-553	do	_	_	_	_	
+1-92	554-556	31	_	_	_	_	
+1-93	557-558	.	_	_	_	_	
+1-94	559-566	avgusta	_	_	_	_	
+1-95	567-571	2017	_	_	_	_	
+1-96	572-573	.	_	_	_	_	
+1-97	574-583	Dosedanji	_	_	*->6-1	*[6]	
+1-98	584-593	nadzornik	_	_	*->6-1	*[6]	
+1-99	594-599	Borut	PER[13]	_	*->6-1	*[6]	
+1-100	600-606	Jamnik	PER[13]	_	*->6-1	*[6]	
+1-101	607-608	,	_	_	_	_	
+1-102	609-619	predsednik	_	2 - Negativno[28]	*->6-2	*[6]	
+1-103	620-626	uprave	_	2 - Negativno[28]	*->6-2	*[6]	
+1-104	627-632	Modre	ORG[14]	2 - Negativno[28]|3 - Nevtralno[29]	*->6-2|*->7-1	*[6]|*[7]	
+1-105	633-646	zavarovalnice	ORG[14]	2 - Negativno[28]|3 - Nevtralno[29]	*->6-2|*->7-1	*[6]|*[7]	
+1-106	647-648	,	_	_	_	_	
+1-107	649-651	je	_	_	_	_	
+1-108	652-663	kandidaturo	_	_	_	_	
+1-109	664-671	umaknil	_	_	_	_	
+1-110	672-673	.	_	_	_	_	
+1-111	674-676	Za	_	_	_	_	
+1-112	677-685	nadzorni	_	_	_	_	
+1-113	686-690	svet	_	_	_	_	
+1-114	691-693	so	_	_	_	_	
+1-115	694-696	po	_	_	_	_	
+1-116	697-705	prvotnem	_	_	_	_	
+1-117	706-714	predlogu	_	_	_	_	
+1-118	715-725	nadzornega	_	_	_	_	
+1-119	726-731	sveta	_	_	_	_	
+1-120	732-743	kandidirali	_	_	_	_	
+1-121	744-752	trenutni	_	_	_	_	
+1-122	753-757	prvi	_	3 - Nevtralno[30]	*->14-1	*[14]	
+1-123	758-767	nadzornik	_	3 - Nevtralno[30]	*->14-1	*[14]	
+1-124	768-776	Vladimir	PER[15]	3 - Nevtralno[30]	*->14-1	*[14]	
+1-125	777-787	Malenković	PER[15]	3 - Nevtralno[30]	*->14-1	*[14]	
+1-126	788-789	,	_	_	_	_	
+1-127	790-795	Borut	PER[16]	3 - Nevtralno[31]	*->8-1	*[8]	
+1-128	796-803	Bratina	PER[16]	3 - Nevtralno[31]	*->8-1	*[8]	
+1-129	804-805	,	_	_	_	_	
+1-130	806-808	že	_	_	_	_	
+1-131	809-817	omenjeni	_	_	_	_	
+1-132	818-825	Groznik	PER	3 - Nevtralno	*->9-3	*[9]	
+1-133	826-827	,	_	_	_	_	
+1-134	828-836	nekdanji	_	3 - Nevtralno[32]	*->10-1	*[10]	
+1-135	837-841	prvi	_	3 - Nevtralno[32]	*->10-1	*[10]	
+1-136	842-845	mož	_	3 - Nevtralno[32]	*->10-1	*[10]	
+1-137	846-851	Adrie	ORG[17]	3 - Nevtralno[32]|3 - Nevtralno[33]	*->10-1|*->11-1	*[10]|*[11]	
+1-138	852-859	Airways	ORG[17]	3 - Nevtralno[32]|3 - Nevtralno[33]	*->10-1|*->11-1	*[10]|*[11]	
+1-139	860-866	Klemen	PER[18]	3 - Nevtralno[32]	*->10-1	*[10]	
+1-140	867-877	Boštjančič	PER[18]	3 - Nevtralno[32]	*->10-1	*[10]	
+1-141	878-879	,	_	_	_	_	
+1-142	880-885	Simon	PER[19]	3 - Nevtralno[34]	*->12-1	*[12]	
+1-143	886-891	Čadež	PER[19]	3 - Nevtralno[34]	*->12-1	*[12]	
+1-144	892-894	in	_	_	_	_	
+1-145	895-901	Alenka	PER[20]	3 - Nevtralno[35]	*->13-1	*[13]	
+1-146	902-911	Podbevšek	PER[20]	3 - Nevtralno[35]	*->13-1	*[13]	
+1-147	912-913	.	_	_	_	_	
+1-148	914-916	Na	_	_	_	_	
+1-149	917-924	prvotni	_	_	_	_	
+1-150	925-932	predlog	_	_	_	_	
+1-151	933-934	o	_	_	_	_	
+1-152	935-945	imenovanju	_	_	_	_	
+1-153	946-951	novih	_	_	_	_	
+1-154	952-963	nadzornikov	_	_	_	_	
+1-155	964-966	so	_	_	_	_	
+1-156	967-976	nasprotni	_	_	_	_	
+1-157	977-984	predlog	_	_	_	_	
+1-158	985-991	podali	_	_	_	_	
+1-159	992-994	še	_	_	_	_	
+1-160	995-1003	nekateri	_	_	_	_	
+1-161	1004-1014	delničarji	_	_	_	_	
+1-162	1015-1016	,	_	_	_	_	
+1-163	1017-1020	med	_	_	_	_	
+1-164	1021-1026	njimi	_	_	_	_	
+1-165	1027-1031	tudi	_	_	_	_	
+1-166	1032-1036	mali	_	_	_	_	
+1-167	1037-1047	delničarji	_	_	_	_	
+1-168	1048-1049	,	_	_	_	_	
+1-169	1050-1056	vendar	_	_	_	_	
+1-170	1057-1059	je	_	_	_	_	
+1-171	1060-1069	skupščina	_	_	_	_	
+1-172	1070-1073	vse	_	_	_	_	
+1-173	1074-1082	predloge	_	_	_	_	
+1-174	1083-1091	zavrnila	_	_	_	_	
+1-175	1092-1093	.	_	_	_	_	
+1-176	1094-1096	Že	_	_	_	_	
+1-177	1097-1104	četrtič	_	_	_	_	
+1-178	1105-1114	glasovali	_	_	_	_	
+1-179	1115-1120	proti	_	_	_	_	
+1-180	1121-1137	dokapitalizaciji	_	_	_	_	
+1-181	1138-1140	Na	_	_	_	_	
+1-182	1141-1150	skupščini	_	_	_	_	
+1-183	1151-1153	so	_	_	_	_	
+1-184	1154-1156	se	_	_	_	_	
+1-185	1157-1167	delničarji	_	_	_	_	
+1-186	1168-1177	seznanili	_	_	_	_	
+1-187	1178-1182	tudi	_	_	_	_	
+1-188	1183-1184	z	_	_	_	_	
+1-189	1185-1196	informacijo	_	_	_	_	
+1-190	1197-1198	,	_	_	_	_	
+1-191	1199-1201	da	_	_	_	_	
+1-192	1202-1204	je	_	_	_	_	
+1-193	1205-1211	lanska	_	_	_	_	
+1-194	1212-1217	čista	_	_	_	_	
+1-195	1218-1224	izguba	_	_	_	_	
+1-196	1225-1232	znašala	_	_	_	_	
+1-197	1233-1237	18,5	_	_	_	_	
+1-198	1238-1246	milijona	_	_	_	_	
+1-199	1247-1252	evrov	_	_	_	_	
+1-200	1253-1254	,	_	_	_	_	
+1-201	1255-1262	pokrili	_	_	_	_	
+1-202	1263-1265	pa	_	_	_	_	
+1-203	1266-1268	so	_	_	_	_	
+1-204	1269-1271	jo	_	_	_	_	
+1-205	1272-1274	iz	_	_	_	_	
+1-206	1275-1282	dobička	_	_	_	_	
+1-207	1283-1285	iz	_	_	_	_	
+1-208	1286-1296	poslovanja	_	_	_	_	
+1-209	1297-1299	iz	_	_	_	_	
+1-210	1300-1309	preteklih	_	_	_	_	
+1-211	1310-1313	let	_	_	_	_	
+1-212	1314-1315	v	_	_	_	_	
+1-213	1316-1322	višini	_	_	_	_	
+1-214	1323-1329	skoraj	_	_	_	_	
+1-215	1330-1337	860.000	_	_	_	_	
+1-216	1338-1343	evrov	_	_	_	_	
+1-217	1344-1345	,	_	_	_	_	
+1-218	1346-1348	iz	_	_	_	_	
+1-219	1349-1355	drugih	_	_	_	_	
+1-220	1356-1362	rezerv	_	_	_	_	
+1-221	1363-1365	iz	_	_	_	_	
+1-222	1366-1373	dobička	_	_	_	_	
+1-223	1374-1375	v	_	_	_	_	
+1-224	1376-1382	višini	_	_	_	_	
+1-225	1383-1389	dobrih	_	_	_	_	
+1-226	1390-1397	232.000	_	_	_	_	
+1-227	1398-1403	evrov	_	_	_	_	
+1-228	1404-1407	ter	_	_	_	_	
+1-229	1408-1410	iz	_	_	_	_	
+1-230	1411-1422	kapitalskih	_	_	_	_	
+1-231	1423-1429	rezerv	_	_	_	_	
+1-232	1430-1431	v	_	_	_	_	
+1-233	1432-1438	višini	_	_	_	_	
+1-234	1439-1443	17,4	_	_	_	_	
+1-235	1444-1452	milijona	_	_	_	_	
+1-236	1453-1458	evrov	_	_	_	_	
+1-237	1459-1460	.	_	_	_	_	
+1-238	1461-1463	Že	_	_	_	_	
+1-239	1464-1471	četrtič	_	_	_	_	
+1-240	1472-1474	pa	_	_	_	_	
+1-241	1475-1477	so	_	_	_	_	
+1-242	1478-1488	delničarji	_	_	_	_	
+1-243	1489-1490	,	_	_	_	_	
+1-244	1491-1494	med	_	_	_	_	
+1-245	1495-1503	katerimi	_	_	_	_	
+1-246	1504-1516	prevladujejo	_	_	_	_	
+1-247	1517-1522	banke	_	_	_	_	
+1-248	1523-1529	upnice	_	_	_	_	
+1-249	1530-1531	,	_	_	_	_	
+1-250	1532-1541	glasovali	_	_	_	_	
+1-251	1542-1547	proti	_	_	_	_	
+1-252	1548-1564	dokapitalizaciji	_	_	_	_	
+1-253	1565-1566	,	_	_	_	_	
+1-254	1567-1569	ki	_	_	_	_	
+1-255	1570-1573	sta	_	_	_	_	
+1-256	1574-1576	jo	_	_	_	_	
+1-257	1577-1583	uprava	_	_	_	_	
+1-258	1584-1586	in	_	_	_	_	
+1-259	1587-1595	nadzorni	_	_	_	_	
+1-260	1596-1600	svet	_	_	_	_	
+1-261	1601-1611	predlagala	_	_	_	_	
+1-262	1612-1613	v	_	_	_	_	
+1-263	1614-1620	višini	_	_	_	_	
+1-264	1621-1625	36,5	_	_	_	_	
+1-265	1626-1634	milijona	_	_	_	_	
+1-266	1635-1640	evrov	_	_	_	_	
+1-267	1641-1642	.	_	_	_	_	
+1-268	1643-1653	Delničarji	_	_	_	_	
+1-269	1654-1656	so	_	_	_	_	
+1-270	1657-1663	upravi	_	_	_	_	
+1-271	1664-1666	in	_	_	_	_	
+1-272	1667-1677	nadzornemu	_	_	_	_	
+1-273	1678-1683	svetu	_	_	_	_	
+1-274	1684-1692	podelili	_	_	_	_	
+1-275	1693-1703	razrešnice	_	_	_	_	
+1-276	1704-1706	za	_	_	_	_	
+1-277	1707-1715	poslovno	_	_	_	_	
+1-278	1716-1720	leto	_	_	_	_	
+1-279	1721-1725	2012	_	_	_	_	
+1-280	1726-1727	,	_	_	_	_	
+1-281	1728-1730	za	_	_	_	_	
+1-282	1731-1741	letošnjega	_	_	_	_	
+1-283	1742-1751	revizorja	_	_	_	_	
+1-284	1752-1754	pa	_	_	_	_	
+1-285	1755-1757	je	_	_	_	_	
+1-286	1758-1767	imenovana	_	_	_	_	
+1-287	1768-1778	revizijska	_	4 - Pozitivno[36]	*->15-1	*[15]	
+1-288	1779-1785	družba	_	4 - Pozitivno[36]	*->15-1	*[15]	
+1-289	1786-1791	Ernst	ORG[21]	4 - Pozitivno[36]	*->15-1	*[15]	
+1-290	1792-1793	&	ORG[21]	4 - Pozitivno[36]	*->15-1	*[15]	
+1-291	1794-1799	Young	ORG[21]	4 - Pozitivno[36]	*->15-1	*[15]	
+1-292	1800-1802	iz	_	_	_	_	
+1-293	1803-1812	Ljubljane	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-294	1813-1814	.	_	_	_	_	
+1-295	1815-1819	Tudi	_	_	_	_	
+1-296	1820-1822	na	_	_	_	_	
+1-297	1823-1832	skupščini	_	_	_	_	
+1-298	1833-1835	je	_	_	_	_	
+1-299	1836-1846	predsednik	_	_	*->19-1	*[19]	
+1-300	1847-1853	uprave	_	_	*->19-1	*[19]	
+1-301	1854-1863	Pivovarne	ORG[22]	_	*->19-1|*->18-3	*[19]|*[18]	
+1-302	1864-1869	Laško	ORG[22]|LOC[23]	3 - Nevtralno	*->19-1|*->18-3|*->1-3	*[19]|*[18]|*[1]	
+1-303	1870-1875	Dušan	PER[24]	_	*->19-1	*[19]	
+1-304	1876-1881	Zorko	PER[24]	_	*->19-1	*[19]	
+1-305	1882-1889	izrazil	_	_	_	_	
+1-306	1890-1896	upanje	_	_	_	_	
+1-307	1897-1898	,	_	_	_	_	
+1-308	1899-1901	da	_	_	_	_	
+1-309	1902-1904	bo	_	_	_	_	
+1-310	1905-1911	prišlo	_	_	_	_	
+1-311	1912-1914	do	_	_	_	_	
+1-312	1915-1922	prodaje	_	_	_	_	
+1-313	1923-1933	Mercatorja	ORG	_	*->17-1	*[17]	
+1-314	1934-1935	,	_	_	_	_	
+1-315	1936-1939	saj	_	_	_	_	
+1-316	1940-1942	bi	_	_	_	_	
+1-317	1943-1950	skupina	_	_	*->18-4	*[18]	
+1-318	1951-1956	Laško	ORG	_	*->18-4	*[18]	
+1-319	1957-1959	za	_	_	_	_	
+1-320	1960-1964	23,4	_	_	_	_	
+1-321	1965-1966	-	_	_	_	_	
+1-322	1967-1975	odstotni	_	_	_	_	
+1-323	1976-1981	delež	_	_	_	_	
+1-324	1982-1983	v	_	_	_	_	
+1-325	1984-1987	tej	_	_	_	_	
+1-326	1988-1996	trgovski	_	_	*->17-2	*[17]	
+1-327	1997-2003	družbi	_	_	*->17-2	*[17]	
+1-328	2004-2012	iztržila	_	_	_	_	
+1-329	2013-2018	okoli	_	_	_	_	
+1-330	2019-2022	105	_	_	_	_	
+1-331	2023-2032	milijonov	_	_	_	_	
+1-332	2033-2038	evrov	_	_	_	_	
+1-333	2039-2040	,	_	_	_	_	
+1-334	2041-2044	kar	_	_	_	_	
+1-335	2045-2047	bi	_	_	_	_	
+1-336	2048-2059	zadolženost	_	_	_	_	
+1-337	2060-2067	skupine	_	_	*->18-5	*[18]	
+1-338	2068-2075	znižalo	_	_	_	_	
+1-339	2076-2078	na	_	_	_	_	
+1-340	2079-2084	nekaj	_	_	_	_	
+1-341	2085-2088	več	_	_	_	_	
+1-342	2089-2092	kot	_	_	_	_	
+1-343	2093-2096	200	_	_	_	_	
+1-344	2097-2106	milijonov	_	_	_	_	
+1-345	2107-2112	evrov	_	_	_	_	
+1-346	2113-2114	.	_	_	_	_	
+1-347	2115-2122	Prodajo	_	_	_	_	
+1-348	2123-2133	Mercatorja	ORG	4 - Pozitivno	*->17-3	*[17]	
+1-349	2134-2139	Zorko	PER	_	*->19-2	*[19]	
+1-350	2140-2149	pričakuje	_	_	_	_	
+1-351	2150-2151	v	_	_	_	_	
+1-352	2152-2157	prvem	_	_	_	_	
+1-353	2158-2168	četrtletju	_	_	_	_	
+1-354	2169-2173	leta	_	_	_	_	
+1-355	2174-2178	2014	_	_	_	_	
+1-356	2179-2180	.	_	_	_	_	
+1-357	2181-2186	Zorko	PER	_	*->19-3	*[19]	
+1-358	2187-2189	je	_	_	_	_	
+1-359	2190-2194	tudi	_	_	_	_	
+1-360	2195-2203	pojasnil	_	_	_	_	
+1-361	2204-2205	,	_	_	_	_	
+1-362	2206-2208	da	_	_	_	_	
+1-363	2209-2211	so	_	_	_	_	
+1-364	2212-2222	pripravili	_	_	_	_	
+1-365	2223-2226	več	_	_	_	_	
+1-366	2227-2235	scenarij	_	_	_	_	
+1-367	2236-2249	razdolževanja	_	_	_	_	
+1-368	2250-2257	skupine	_	_	*->18-6	*[18]	
+1-369	2258-2259	,	_	_	_	_	
+1-370	2260-2262	ob	_	_	_	_	
+1-371	2263-2266	tem	_	_	_	_	
+1-372	2267-2269	je	_	_	_	_	
+1-373	2270-2274	tudi	_	_	_	_	
+1-374	2275-2283	poudaril	_	_	*->19-4	*[19]	
+1-375	2284-2285	,	_	_	_	_	
+1-376	2286-2288	da	_	_	_	_	
+1-377	2289-2291	je	_	_	_	_	
+1-378	2292-2298	njihov	_	_	_	_	
+1-379	2299-2303	cilj	_	_	_	_	
+1-380	2304-2309	najti	_	_	_	_	
+1-381	2310-2321	strateškega	_	_	_	_	
+1-382	2322-2331	partnerja	_	_	_	_	
+1-383	2332-2334	za	_	_	_	_	
+1-384	2335-2342	skupino	_	4 - Pozitivno[37]	*->18-7	*[18]	
+1-385	2343-2348	Laško	ORG	4 - Pozitivno[37]	*->18-7	*[18]	
+1-386	2349-2350	.	_	_	_	_	
+1-387	2351-2356	Dejal	_	_	*->19-5	*[19]	
+1-388	2357-2359	je	_	_	*->19-5	*[19]	
+1-389	2360-2364	tudi	_	_	_	_	
+1-390	2365-2366	,	_	_	_	_	
+1-391	2367-2369	da	_	_	_	_	
+1-392	2370-2372	so	_	_	_	_	
+1-393	2373-2379	najeli	_	_	_	_	
+1-394	2380-2390	svetovalce	_	_	_	_	
+1-395	2391-2393	za	_	_	_	_	
+1-396	2394-2401	prodajo	_	_	_	_	
+1-397	2402-2408	tistih	_	_	_	_	
+1-398	2409-2418	segmentov	_	_	_	_	
+1-399	2419-2426	skupine	_	_	_	_	
+1-400	2427-2428	,	_	_	_	_	
+1-401	2429-2431	ki	_	_	_	_	
+1-402	2432-2435	jih	_	_	_	_	
+1-403	2436-2442	doslej	_	_	_	_	
+1-404	2443-2447	niso	_	_	_	_	
+1-405	2448-2454	uspeli	_	_	_	_	
+1-406	2455-2462	prodati	_	_	_	_	
+1-407	2463-2464	.	_	_	_	_	
+1-408	2465-2467	Na	_	_	_	_	
+1-409	2468-2477	vprašanje	_	_	_	_	
+1-410	2478-2479	,	_	_	_	_	
+1-411	2480-2484	kako	_	_	_	_	
+1-412	2485-2494	komentira	_	_	_	_	
+1-413	2495-2499	novo	_	_	_	_	
+1-414	2500-2507	sestavo	_	_	_	_	
+1-415	2508-2518	nadzornega	_	_	_	_	
+1-416	2519-2524	sveta	_	_	_	_	
+1-417	2525-2526	,	_	_	_	_	
+1-418	2527-2529	je	_	_	_	_	
+1-419	2530-2535	Zorko	PER	4 - Pozitivno	*->19-6	*[19]	
+1-420	2536-2545	odgovoril	_	_	_	_	
+1-421	2546-2547	,	_	_	_	_	
+1-422	2548-2550	da	_	_	_	_	
+1-423	2551-2553	je	_	_	_	_	
+1-424	2554-2556	to	_	_	_	_	
+1-425	2557-2562	stvar	_	_	_	_	
+1-426	2563-2572	lastnikov	_	_	_	_	

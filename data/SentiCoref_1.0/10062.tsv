@@ -1,0 +1,318 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Neuradno je znana celotna sestava novega mandata državnega sveta . Novoizvoljenih je 18 svetnikov , od katerih jih je 16 funkcijo opravljalo že do sedaj , v 40 - članskem organu pa bosta po novem dve ženski . Uradna potrditev rezultatov bo na seji 27 . novembra . Novoizvoljeni svetniki naj bi se sestali 12 . decembra , na kateri naj bi izvolili svojega predstavnika . V novem mandatu iz vrst delodajalcev je položaj obdržal Stojan Binder , poleg njega so bili izvoljeni predsednik Združenja delodajalcev Slovenije Milan Lukić , generalni sekretar Združenja delodajalcev obrti in podjetnikov Igor Antauer in predsednica upravnega odbora Trgovinske zbornice Slovenije Marija Lah . Predstavnika kmetov bosta še naprej Cvetko Zupančič in Peter Vrisk . Odvetniška zbornica Slovenije je za predstavnico samostojnih poklicev predlagala Bojano Potočan . Univerze , visoke in višje šole bo zastopal rektor ljubljanske univerze Radovan Stanislav Pejovnik . Ravnatelj SNG Opera in balet Ljubljana Mitja Bervar je zastopnik za Funkcionalne interese kulture in športa . Za interese socialnega varstva je bila izvoljena sekretarka Združenja centrov za socialno delo Darja Kuzmanič Korva . Na svetniški funkciji ostaja Janvit Golob kot predstavnik raziskovalne dejavnosti in za interese zdravstva Peter Požun . Predstavniki delojemalcev so sindikalisti Dušan Semolič , Branimir Štrukelj , Drago Ščernjavič in Oskar Komac . Alojz Kovšca bo še naprej zastopal interese obrtnikov , Zveza društev Slavistično društvo Slovenije pa je za predstavnika vzgoje in izobraževanja predlagala Zorana Božiča . Svetniške funkcije bo obdržalo sedem sedanjih predstavnikov lokalnih interesov , nova izvolitev pa ni uspela sedanjemu predsedniku DS Blažu Kavčiču . Za 40 svetniških mest se je potegovalo 127 kandidatov , med njimi več kot polovica svetnikov iz sedanje sestave . V sredo so lektorji volili 22 državnih svetnikov , ki bodo zastopali lokalne interese , danes pa so odločili še o 18 svetnikih , zastopnikih socialnih , gospodarskih in poklicnih interesov
+1-1	0-8	Neuradno	_	_	_	_	
+1-2	9-11	je	_	_	_	_	
+1-3	12-17	znana	_	_	_	_	
+1-4	18-25	celotna	_	_	_	_	
+1-5	26-33	sestava	_	_	_	_	
+1-6	34-40	novega	_	_	_	_	
+1-7	41-48	mandata	_	_	_	_	
+1-8	49-58	državnega	ORG[1]	_	*->28-1	*[28]	
+1-9	59-64	sveta	ORG[1]	_	*->28-1	*[28]	
+1-10	65-66	.	_	_	_	_	
+1-11	67-81	Novoizvoljenih	_	_	_	_	
+1-12	82-84	je	_	_	_	_	
+1-13	85-87	18	_	_	_	_	
+1-14	88-97	svetnikov	_	_	_	_	
+1-15	98-99	,	_	_	_	_	
+1-16	100-102	od	_	_	_	_	
+1-17	103-110	katerih	_	_	_	_	
+1-18	111-114	jih	_	_	_	_	
+1-19	115-117	je	_	_	_	_	
+1-20	118-120	16	_	_	_	_	
+1-21	121-129	funkcijo	_	_	_	_	
+1-22	130-140	opravljalo	_	_	_	_	
+1-23	141-143	že	_	_	_	_	
+1-24	144-146	do	_	_	_	_	
+1-25	147-152	sedaj	_	_	_	_	
+1-26	153-154	,	_	_	_	_	
+1-27	155-156	v	_	_	_	_	
+1-28	157-159	40	_	_	*->28-2	*[28]	
+1-29	160-161	-	_	_	*->28-2	*[28]	
+1-30	162-170	članskem	_	_	*->28-2	*[28]	
+1-31	171-177	organu	_	_	*->28-2	*[28]	
+1-32	178-180	pa	_	_	_	_	
+1-33	181-186	bosta	_	_	_	_	
+1-34	187-189	po	_	_	_	_	
+1-35	190-195	novem	_	_	_	_	
+1-36	196-199	dve	_	_	_	_	
+1-37	200-206	ženski	_	_	_	_	
+1-38	207-208	.	_	_	_	_	
+1-39	209-215	Uradna	_	_	_	_	
+1-40	216-225	potrditev	_	_	_	_	
+1-41	226-236	rezultatov	_	_	_	_	
+1-42	237-239	bo	_	_	_	_	
+1-43	240-242	na	_	_	_	_	
+1-44	243-247	seji	_	_	_	_	
+1-45	248-250	27	_	_	_	_	
+1-46	251-252	.	_	_	_	_	
+1-47	253-261	novembra	_	_	_	_	
+1-48	262-263	.	_	_	_	_	
+1-49	264-277	Novoizvoljeni	_	_	_	_	
+1-50	278-286	svetniki	_	_	_	_	
+1-51	287-290	naj	_	_	_	_	
+1-52	291-293	bi	_	_	_	_	
+1-53	294-296	se	_	_	_	_	
+1-54	297-304	sestali	_	_	_	_	
+1-55	305-307	12	_	_	_	_	
+1-56	308-309	.	_	_	_	_	
+1-57	310-318	decembra	_	_	_	_	
+1-58	319-320	,	_	_	_	_	
+1-59	321-323	na	_	_	_	_	
+1-60	324-330	kateri	_	_	_	_	
+1-61	331-334	naj	_	_	_	_	
+1-62	335-337	bi	_	_	_	_	
+1-63	338-346	izvolili	_	_	_	_	
+1-64	347-354	svojega	_	_	_	_	
+1-65	355-367	predstavnika	_	_	_	_	
+1-66	368-369	.	_	_	_	_	
+1-67	370-371	V	_	_	_	_	
+1-68	372-377	novem	_	_	_	_	
+1-69	378-385	mandatu	_	_	_	_	
+1-70	386-388	iz	_	_	_	_	
+1-71	389-393	vrst	_	_	_	_	
+1-72	394-406	delodajalcev	_	_	_	_	
+1-73	407-409	je	_	_	_	_	
+1-74	410-417	položaj	_	_	_	_	
+1-75	418-425	obdržal	_	_	_	_	
+1-76	426-432	Stojan	PER[2]	3 - Nevtralno[32]	*->27-1	*[27]	
+1-77	433-439	Binder	PER[2]	3 - Nevtralno[32]	*->27-1	*[27]	
+1-78	440-441	,	_	_	_	_	
+1-79	442-447	poleg	_	_	_	_	
+1-80	448-453	njega	_	_	_	_	
+1-81	454-456	so	_	_	_	_	
+1-82	457-461	bili	_	_	_	_	
+1-83	462-471	izvoljeni	_	_	_	_	
+1-84	472-482	predsednik	_	3 - Nevtralno[33]	*->1-1	*[1]	
+1-85	483-492	Združenja	ORG[3]	3 - Nevtralno[33]|3 - Nevtralno[34]	*->1-1|*->2-1	*[1]|*[2]	
+1-86	493-505	delodajalcev	ORG[3]	3 - Nevtralno[33]|3 - Nevtralno[34]	*->1-1|*->2-1	*[1]|*[2]	
+1-87	506-515	Slovenije	ORG[3]|LOC[4]	3 - Nevtralno[33]|3 - Nevtralno[34]	*->1-1|*->2-1|*->24-1	*[1]|*[2]|*[24]	
+1-88	516-521	Milan	PER[5]	3 - Nevtralno[33]	*->1-1	*[1]	
+1-89	522-527	Lukić	PER[5]	3 - Nevtralno[33]	*->1-1	*[1]	
+1-90	528-529	,	_	_	_	_	
+1-91	530-539	generalni	_	3 - Nevtralno[35]	*->3-1	*[3]	
+1-92	540-548	sekretar	_	3 - Nevtralno[35]	*->3-1	*[3]	
+1-93	549-558	Združenja	ORG[6]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->3-1|*->4-1	*[3]|*[4]	
+1-94	559-571	delodajalcev	ORG[6]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->3-1|*->4-1	*[3]|*[4]	
+1-95	572-577	obrti	ORG[6]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->3-1|*->4-1	*[3]|*[4]	
+1-96	578-580	in	ORG[6]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->3-1|*->4-1	*[3]|*[4]	
+1-97	581-592	podjetnikov	ORG[6]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->3-1|*->4-1	*[3]|*[4]	
+1-98	593-597	Igor	PER[7]	3 - Nevtralno[35]	*->3-1	*[3]	
+1-99	598-605	Antauer	PER[7]	3 - Nevtralno[35]	*->3-1	*[3]	
+1-100	606-608	in	_	_	_	_	
+1-101	609-620	predsednica	_	3 - Nevtralno[37]	*->5-1	*[5]	
+1-102	621-630	upravnega	_	3 - Nevtralno[37]	*->5-1	*[5]	
+1-103	631-637	odbora	_	3 - Nevtralno[37]	*->5-1	*[5]	
+1-104	638-648	Trgovinske	ORG[8]	3 - Nevtralno[37]|3 - Nevtralno[38]	*->5-1|*->6-1	*[5]|*[6]	
+1-105	649-657	zbornice	ORG[8]	3 - Nevtralno[37]|3 - Nevtralno[38]	*->5-1|*->6-1	*[5]|*[6]	
+1-106	658-667	Slovenije	ORG[8]|LOC[9]	3 - Nevtralno[37]|3 - Nevtralno[38]	*->5-1|*->6-1|*->24-2	*[5]|*[6]|*[24]	
+1-107	668-674	Marija	PER[10]	3 - Nevtralno[37]	*->5-1	*[5]	
+1-108	675-678	Lah	PER[10]	3 - Nevtralno[37]	*->5-1	*[5]	
+1-109	679-680	.	_	_	_	_	
+1-110	681-693	Predstavnika	_	_	_	_	
+1-111	694-700	kmetov	_	_	_	_	
+1-112	701-706	bosta	_	_	_	_	
+1-113	707-709	še	_	_	_	_	
+1-114	710-716	naprej	_	_	_	_	
+1-115	717-723	Cvetko	PER[11]	3 - Nevtralno[39]	*->7-1	*[7]	
+1-116	724-732	Zupančič	PER[11]	3 - Nevtralno[39]	*->7-1	*[7]	
+1-117	733-735	in	_	_	_	_	
+1-118	736-741	Peter	PER[12]	3 - Nevtralno[40]	*->8-1	*[8]	
+1-119	742-747	Vrisk	PER[12]	3 - Nevtralno[40]	*->8-1	*[8]	
+1-120	748-749	.	_	_	_	_	
+1-121	750-760	Odvetniška	ORG[13]	3 - Nevtralno[41]	*->9-1	*[9]	
+1-122	761-769	zbornica	ORG[13]	3 - Nevtralno[41]	*->9-1	*[9]	
+1-123	770-779	Slovenije	ORG[13]|LOC[14]	3 - Nevtralno[41]	*->9-1|*->24-3	*[9]|*[24]	
+1-124	780-782	je	_	_	_	_	
+1-125	783-785	za	_	_	_	_	
+1-126	786-798	predstavnico	_	_	*->10-1	*[10]	
+1-127	799-810	samostojnih	_	_	*->10-1	*[10]	
+1-128	811-819	poklicev	_	_	*->10-1	*[10]	
+1-129	820-830	predlagala	_	_	_	_	
+1-130	831-837	Bojano	PER[15]	3 - Nevtralno[42]	*->10-2	*[10]	
+1-131	838-845	Potočan	PER[15]	3 - Nevtralno[42]	*->10-2	*[10]	
+1-132	846-847	.	_	_	_	_	
+1-133	848-856	Univerze	_	_	_	_	
+1-134	857-858	,	_	_	_	_	
+1-135	859-865	visoke	_	_	_	_	
+1-136	866-868	in	_	_	_	_	
+1-137	869-874	višje	_	_	_	_	
+1-138	875-879	šole	_	_	_	_	
+1-139	880-882	bo	_	_	_	_	
+1-140	883-891	zastopal	_	_	_	_	
+1-141	892-898	rektor	_	3 - Nevtralno[43]	*->11-1	*[11]	
+1-142	899-910	ljubljanske	_	3 - Nevtralno[43]	*->11-1	*[11]	
+1-143	911-919	univerze	_	3 - Nevtralno[43]	*->11-1	*[11]	
+1-144	920-927	Radovan	PER[16]	3 - Nevtralno[43]	*->11-1	*[11]	
+1-145	928-937	Stanislav	PER[16]	3 - Nevtralno[43]	*->11-1	*[11]	
+1-146	938-946	Pejovnik	PER[16]	3 - Nevtralno[43]	*->11-1	*[11]	
+1-147	947-948	.	_	_	_	_	
+1-148	949-958	Ravnatelj	_	_	*->12-1	*[12]	
+1-149	959-962	SNG	ORG[17]	3 - Nevtralno[44]	*->12-1|*->13-1	*[12]|*[13]	
+1-150	963-968	Opera	ORG[17]	3 - Nevtralno[44]	*->12-1|*->13-1	*[12]|*[13]	
+1-151	969-971	in	ORG[17]	3 - Nevtralno[44]	*->12-1|*->13-1	*[12]|*[13]	
+1-152	972-977	balet	ORG[17]	3 - Nevtralno[44]	*->12-1|*->13-1	*[12]|*[13]	
+1-153	978-987	Ljubljana	LOC	3 - Nevtralno	*->12-1|*->14-1	*[12]|*[14]	
+1-154	988-993	Mitja	PER[18]	_	*->12-1	*[12]	
+1-155	994-1000	Bervar	PER[18]	_	*->12-1	*[12]	
+1-156	1001-1003	je	_	_	_	_	
+1-157	1004-1013	zastopnik	_	3 - Nevtralno[45]	*->12-2	*[12]	
+1-158	1014-1016	za	_	3 - Nevtralno[45]	*->12-2	*[12]	
+1-159	1017-1029	Funkcionalne	_	3 - Nevtralno[45]	*->12-2	*[12]	
+1-160	1030-1038	interese	_	3 - Nevtralno[45]	*->12-2	*[12]	
+1-161	1039-1046	kulture	_	3 - Nevtralno[45]	*->12-2	*[12]	
+1-162	1047-1049	in	_	3 - Nevtralno[45]	*->12-2	*[12]	
+1-163	1050-1056	športa	_	3 - Nevtralno[45]	*->12-2	*[12]	
+1-164	1057-1058	.	_	_	_	_	
+1-165	1059-1061	Za	_	_	_	_	
+1-166	1062-1070	interese	_	_	_	_	
+1-167	1071-1081	socialnega	_	_	_	_	
+1-168	1082-1089	varstva	_	_	_	_	
+1-169	1090-1092	je	_	_	_	_	
+1-170	1093-1097	bila	_	_	_	_	
+1-171	1098-1107	izvoljena	_	_	_	_	
+1-172	1108-1118	sekretarka	_	3 - Nevtralno[46]	*->15-1	*[15]	
+1-173	1119-1128	Združenja	ORG[19]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->15-1|*->16-1	*[15]|*[16]	
+1-174	1129-1136	centrov	ORG[19]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->15-1|*->16-1	*[15]|*[16]	
+1-175	1137-1139	za	ORG[19]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->15-1|*->16-1	*[15]|*[16]	
+1-176	1140-1148	socialno	ORG[19]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->15-1|*->16-1	*[15]|*[16]	
+1-177	1149-1153	delo	ORG[19]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->15-1|*->16-1	*[15]|*[16]	
+1-178	1154-1159	Darja	PER[20]	3 - Nevtralno[46]	*->15-1	*[15]	
+1-179	1160-1168	Kuzmanič	PER[20]	3 - Nevtralno[46]	*->15-1	*[15]	
+1-180	1169-1174	Korva	PER[20]	3 - Nevtralno[46]	*->15-1	*[15]	
+1-181	1175-1176	.	_	_	_	_	
+1-182	1177-1179	Na	_	_	_	_	
+1-183	1180-1189	svetniški	_	_	_	_	
+1-184	1190-1198	funkciji	_	_	_	_	
+1-185	1199-1205	ostaja	_	_	_	_	
+1-186	1206-1212	Janvit	PER[21]	_	*->17-1	*[17]	
+1-187	1213-1218	Golob	PER[21]	_	*->17-1	*[17]	
+1-188	1219-1222	kot	_	_	_	_	
+1-189	1223-1234	predstavnik	_	3 - Nevtralno[48]	*->17-2	*[17]	
+1-190	1235-1247	raziskovalne	_	3 - Nevtralno[48]	*->17-2	*[17]	
+1-191	1248-1258	dejavnosti	_	3 - Nevtralno[48]	*->17-2	*[17]	
+1-192	1259-1261	in	_	_	_	_	
+1-193	1262-1264	za	_	_	_	_	
+1-194	1265-1273	interese	_	_	_	_	
+1-195	1274-1283	zdravstva	_	_	_	_	
+1-196	1284-1289	Peter	PER[22]	3 - Nevtralno[49]	_	_	
+1-197	1290-1295	Požun	PER[22]	3 - Nevtralno[49]	_	_	
+1-198	1296-1297	.	_	_	_	_	
+1-199	1298-1310	Predstavniki	_	_	_	_	
+1-200	1311-1323	delojemalcev	_	_	_	_	
+1-201	1324-1326	so	_	_	_	_	
+1-202	1327-1339	sindikalisti	_	_	_	_	
+1-203	1340-1345	Dušan	PER[23]	3 - Nevtralno[50]	*->18-1	*[18]	
+1-204	1346-1353	Semolič	PER[23]	3 - Nevtralno[50]	*->18-1	*[18]	
+1-205	1354-1355	,	_	_	_	_	
+1-206	1356-1364	Branimir	PER[24]	3 - Nevtralno[51]	*->19-1	*[19]	
+1-207	1365-1373	Štrukelj	PER[24]	3 - Nevtralno[51]	*->19-1	*[19]	
+1-208	1374-1375	,	_	_	_	_	
+1-209	1376-1381	Drago	PER[25]	3 - Nevtralno[52]	*->20-1	*[20]	
+1-210	1382-1392	Ščernjavič	PER[25]	3 - Nevtralno[52]	*->20-1	*[20]	
+1-211	1393-1395	in	_	_	_	_	
+1-212	1396-1401	Oskar	PER[26]	3 - Nevtralno[53]	*->21-1	*[21]	
+1-213	1402-1407	Komac	PER[26]	3 - Nevtralno[53]	*->21-1	*[21]	
+1-214	1408-1409	.	_	_	_	_	
+1-215	1410-1415	Alojz	PER[27]	3 - Nevtralno[54]	*->22-1	*[22]	
+1-216	1416-1422	Kovšca	PER[27]	3 - Nevtralno[54]	*->22-1	*[22]	
+1-217	1423-1425	bo	_	_	_	_	
+1-218	1426-1428	še	_	_	_	_	
+1-219	1429-1435	naprej	_	_	_	_	
+1-220	1436-1444	zastopal	_	_	_	_	
+1-221	1445-1453	interese	_	_	_	_	
+1-222	1454-1463	obrtnikov	_	_	_	_	
+1-223	1464-1465	,	_	_	_	_	
+1-224	1466-1471	Zveza	ORG[28]	3 - Nevtralno[55]	*->23-1	*[23]	
+1-225	1472-1479	društev	ORG[28]	3 - Nevtralno[55]	*->23-1	*[23]	
+1-226	1480-1491	Slavistično	ORG[28]	3 - Nevtralno[55]	*->23-1	*[23]	
+1-227	1492-1499	društvo	ORG[28]	3 - Nevtralno[55]	*->23-1	*[23]	
+1-228	1500-1509	Slovenije	ORG[28]|LOC[29]	3 - Nevtralno[55]|3 - Nevtralno[56]	*->23-1|*->24-4	*[23]|*[24]	
+1-229	1510-1512	pa	_	_	_	_	
+1-230	1513-1515	je	_	_	_	_	
+1-231	1516-1518	za	_	_	_	_	
+1-232	1519-1531	predstavnika	_	_	*->25-1	*[25]	
+1-233	1532-1538	vzgoje	_	_	*->25-1	*[25]	
+1-234	1539-1541	in	_	_	*->25-1	*[25]	
+1-235	1542-1555	izobraževanja	_	_	*->25-1	*[25]	
+1-236	1556-1566	predlagala	_	_	_	_	
+1-237	1567-1573	Zorana	PER[30]	3 - Nevtralno[57]	*->25-2	*[25]	
+1-238	1574-1580	Božiča	PER[30]	3 - Nevtralno[57]	*->25-2	*[25]	
+1-239	1581-1582	.	_	_	_	_	
+1-240	1583-1592	Svetniške	_	_	_	_	
+1-241	1593-1601	funkcije	_	_	_	_	
+1-242	1602-1604	bo	_	_	_	_	
+1-243	1605-1613	obdržalo	_	_	_	_	
+1-244	1614-1619	sedem	_	_	_	_	
+1-245	1620-1628	sedanjih	_	_	_	_	
+1-246	1629-1642	predstavnikov	_	_	_	_	
+1-247	1643-1651	lokalnih	_	_	_	_	
+1-248	1652-1661	interesov	_	_	_	_	
+1-249	1662-1663	,	_	_	_	_	
+1-250	1664-1668	nova	_	_	_	_	
+1-251	1669-1678	izvolitev	_	_	_	_	
+1-252	1679-1681	pa	_	_	_	_	
+1-253	1682-1684	ni	_	_	_	_	
+1-254	1685-1691	uspela	_	_	_	_	
+1-255	1692-1701	sedanjemu	_	3 - Nevtralno[58]	*->26-1	*[26]	
+1-256	1702-1713	predsedniku	_	3 - Nevtralno[58]	*->26-1	*[26]	
+1-257	1714-1716	DS	ORG	3 - Nevtralno[58]|3 - Nevtralno[59]	*->26-1|*->28-3	*[26]|*[28]	
+1-258	1717-1722	Blažu	PER[31]	3 - Nevtralno[58]	*->26-1	*[26]	
+1-259	1723-1730	Kavčiču	PER[31]	3 - Nevtralno[58]	*->26-1	*[26]	
+1-260	1731-1732	.	_	_	_	_	
+1-261	1733-1735	Za	_	_	_	_	
+1-262	1736-1738	40	_	_	_	_	
+1-263	1739-1749	svetniških	_	_	_	_	
+1-264	1750-1754	mest	_	_	_	_	
+1-265	1755-1757	se	_	_	_	_	
+1-266	1758-1760	je	_	_	_	_	
+1-267	1761-1771	potegovalo	_	_	_	_	
+1-268	1772-1775	127	_	_	_	_	
+1-269	1776-1786	kandidatov	_	_	_	_	
+1-270	1787-1788	,	_	_	_	_	
+1-271	1789-1792	med	_	_	_	_	
+1-272	1793-1798	njimi	_	_	_	_	
+1-273	1799-1802	več	_	_	_	_	
+1-274	1803-1806	kot	_	_	_	_	
+1-275	1807-1815	polovica	_	_	_	_	
+1-276	1816-1825	svetnikov	_	_	_	_	
+1-277	1826-1828	iz	_	_	_	_	
+1-278	1829-1836	sedanje	_	_	_	_	
+1-279	1837-1844	sestave	_	_	_	_	
+1-280	1845-1846	.	_	_	_	_	
+1-281	1847-1848	V	_	_	_	_	
+1-282	1849-1854	sredo	_	_	_	_	
+1-283	1855-1857	so	_	_	_	_	
+1-284	1858-1866	lektorji	_	_	_	_	
+1-285	1867-1873	volili	_	_	_	_	
+1-286	1874-1876	22	_	_	_	_	
+1-287	1877-1885	državnih	_	_	_	_	
+1-288	1886-1895	svetnikov	_	_	_	_	
+1-289	1896-1897	,	_	_	_	_	
+1-290	1898-1900	ki	_	_	_	_	
+1-291	1901-1905	bodo	_	_	_	_	
+1-292	1906-1915	zastopali	_	_	_	_	
+1-293	1916-1923	lokalne	_	_	_	_	
+1-294	1924-1932	interese	_	_	_	_	
+1-295	1933-1934	,	_	_	_	_	
+1-296	1935-1940	danes	_	_	_	_	
+1-297	1941-1943	pa	_	_	_	_	
+1-298	1944-1946	so	_	_	_	_	
+1-299	1947-1955	odločili	_	_	_	_	
+1-300	1956-1958	še	_	_	_	_	
+1-301	1959-1960	o	_	_	_	_	
+1-302	1961-1963	18	_	_	_	_	
+1-303	1964-1973	svetnikih	_	_	_	_	
+1-304	1974-1975	,	_	_	_	_	
+1-305	1976-1987	zastopnikih	_	_	_	_	
+1-306	1988-1997	socialnih	_	_	_	_	
+1-307	1998-1999	,	_	_	_	_	
+1-308	2000-2012	gospodarskih	_	_	_	_	
+1-309	2013-2015	in	_	_	_	_	
+1-310	2016-2025	poklicnih	_	_	_	_	
+1-311	2026-2035	interesov	_	_	_	_	

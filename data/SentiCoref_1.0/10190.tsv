@@ -1,0 +1,333 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Vlada je na današnji seji imenovala podpredsednike vlade in nove državne sekretarje . Minister , ki opravlja funkcijo podpredsednika , nadomešča predsednika vlade , če je ta odsoten ali zadržan , pri predstavljanju vlade , vodenju vladnih sej in usmerjanju uprave , ne more pa ga nadomeščati pri opravljanju nalog , ki se nanašajo na zaupnico vladi ter na imenovanje in razrešitev ministrov . Podpredsedniki vlade so tako postali zunanji minister Karl Erjavec , kmetijski minister Dejan Židan in notranji minister Gregor Virant . Pet sekretarjev v kabinet premierke Vlada je danes imenovala tudi pet državnih sekretarjev v kabinet predsednice vlade . Tamara Vonta bo pristojna za vzpostavitev dialoga s civilno družbo in koordinacijo državljanskih pobud . Gašpar Gašpar Mišič bo zadolžen za koordinacijo velikih infrastrukturnih projektov in pomoč pri sanaciji gospodarskih družb v težavah . Za koordinacijo učinkovite državne informatike bo skrbel Dušan Kričej . Dušan Kumer in Jernej Pavlič pa bosta sekretarja brez resorja . Premierki bosta pomagala pri " opravljanju funkcije v okviru danih možnosti " . Pavlič je predsednik podmladka Pozitivne Slovenije in sin poslanke te stranke Alenke Pavlič . Nov na Morsu Za državnega sekretarja na ministrstvu za obrambo pa je vlada na predlog obrambnega ministra Romana Jakiča imenovala Zorana Klemenčiča . Za v . d . generalnega sekretarja na Morsu pa imenovala Mojco Ferjančič Podbregar . Vsi sekretarji bodo na položaj imenovani s 1 . aprilom . Tudi razreševali Vlada danes ni le imenovala , ampak tudi razreševala . Razrešila je štiri člane uradniškega sveta in imenovala nove , razrešila je generalnega sekretarja na ministrstvu za izobraževanje , znanost in šport Tomaža Rozmana in na njegovo mesto kot vršilca dolžnosti imenovala Gregorja Kosa . Vlada je razrešila tudi Boruta Rončevića in imenovala Urbana Krajcarja za v . d . direktorja direktorata za visoko šolstvo in znanost . S položaja generalnega direktorja direktorata za šport je razrešila Draga Balenta , s položaja generalnega direktorja direktorata za investicije so razrešili Andrejo Vihtelič
+1-1	0-5	Vlada	ORG	_	*->17-1	*[17]	
+1-2	6-8	je	_	_	_	_	
+1-3	9-11	na	_	_	_	_	
+1-4	12-20	današnji	_	_	_	_	
+1-5	21-25	seji	_	_	_	_	
+1-6	26-35	imenovala	_	_	_	_	
+1-7	36-50	podpredsednike	_	_	_	_	
+1-8	51-56	vlade	ORG	_	*->17-2	*[17]	
+1-9	57-59	in	_	_	_	_	
+1-10	60-64	nove	_	_	_	_	
+1-11	65-72	državne	_	_	_	_	
+1-12	73-83	sekretarje	_	_	_	_	
+1-13	84-85	.	_	_	_	_	
+1-14	86-94	Minister	_	_	_	_	
+1-15	95-96	,	_	_	_	_	
+1-16	97-99	ki	_	_	_	_	
+1-17	100-108	opravlja	_	_	_	_	
+1-18	109-117	funkcijo	_	_	_	_	
+1-19	118-132	podpredsednika	_	_	_	_	
+1-20	133-134	,	_	_	_	_	
+1-21	135-144	nadomešča	_	_	_	_	
+1-22	145-156	predsednika	_	_	_	_	
+1-23	157-162	vlade	ORG	_	*->17-3	*[17]	
+1-24	163-164	,	_	_	_	_	
+1-25	165-167	če	_	_	_	_	
+1-26	168-170	je	_	_	_	_	
+1-27	171-173	ta	_	_	_	_	
+1-28	174-181	odsoten	_	_	_	_	
+1-29	182-185	ali	_	_	_	_	
+1-30	186-193	zadržan	_	_	_	_	
+1-31	194-195	,	_	_	_	_	
+1-32	196-199	pri	_	_	_	_	
+1-33	200-214	predstavljanju	_	_	_	_	
+1-34	215-220	vlade	ORG	_	*->17-4	*[17]	
+1-35	221-222	,	_	_	_	_	
+1-36	223-230	vodenju	_	_	_	_	
+1-37	231-238	vladnih	_	_	_	_	
+1-38	239-242	sej	_	_	_	_	
+1-39	243-245	in	_	_	_	_	
+1-40	246-256	usmerjanju	_	_	_	_	
+1-41	257-263	uprave	_	_	_	_	
+1-42	264-265	,	_	_	_	_	
+1-43	266-268	ne	_	_	_	_	
+1-44	269-273	more	_	_	_	_	
+1-45	274-276	pa	_	_	_	_	
+1-46	277-279	ga	_	_	_	_	
+1-47	280-291	nadomeščati	_	_	_	_	
+1-48	292-295	pri	_	_	_	_	
+1-49	296-307	opravljanju	_	_	_	_	
+1-50	308-313	nalog	_	_	_	_	
+1-51	314-315	,	_	_	_	_	
+1-52	316-318	ki	_	_	_	_	
+1-53	319-321	se	_	_	_	_	
+1-54	322-330	nanašajo	_	_	_	_	
+1-55	331-333	na	_	_	_	_	
+1-56	334-342	zaupnico	_	_	_	_	
+1-57	343-348	vladi	ORG	_	*->17-5	*[17]	
+1-58	349-352	ter	_	_	_	_	
+1-59	353-355	na	_	_	_	_	
+1-60	356-366	imenovanje	_	_	_	_	
+1-61	367-369	in	_	_	_	_	
+1-62	370-380	razrešitev	_	_	_	_	
+1-63	381-390	ministrov	_	_	_	_	
+1-64	391-392	.	_	_	_	_	
+1-65	393-407	Podpredsedniki	_	_	_	_	
+1-66	408-413	vlade	ORG	_	*->17-6	*[17]	
+1-67	414-416	so	_	_	_	_	
+1-68	417-421	tako	_	_	_	_	
+1-69	422-429	postali	_	_	_	_	
+1-70	430-437	zunanji	_	3 - Nevtralno[25]	*->1-1	*[1]	
+1-71	438-446	minister	_	3 - Nevtralno[25]	*->1-1	*[1]	
+1-72	447-451	Karl	PER[1]	3 - Nevtralno[25]	*->1-1	*[1]	
+1-73	452-459	Erjavec	PER[1]	3 - Nevtralno[25]	*->1-1	*[1]	
+1-74	460-461	,	_	_	_	_	
+1-75	462-471	kmetijski	_	3 - Nevtralno[26]	*->2-1	*[2]	
+1-76	472-480	minister	_	3 - Nevtralno[26]	*->2-1	*[2]	
+1-77	481-486	Dejan	PER[2]	3 - Nevtralno[26]	*->2-1	*[2]	
+1-78	487-492	Židan	PER[2]	3 - Nevtralno[26]	*->2-1	*[2]	
+1-79	493-495	in	_	_	_	_	
+1-80	496-504	notranji	_	3 - Nevtralno[27]	*->3-1	*[3]	
+1-81	505-513	minister	_	3 - Nevtralno[27]	*->3-1	*[3]	
+1-82	514-520	Gregor	PER[3]	3 - Nevtralno[27]	*->3-1	*[3]	
+1-83	521-527	Virant	PER[3]	3 - Nevtralno[27]	*->3-1	*[3]	
+1-84	528-529	.	_	_	_	_	
+1-85	530-533	Pet	_	_	_	_	
+1-86	534-545	sekretarjev	_	_	_	_	
+1-87	546-547	v	_	_	_	_	
+1-88	548-555	kabinet	_	_	_	_	
+1-89	556-565	premierke	_	_	_	_	
+1-90	566-571	Vlada	ORG	_	*->17-7	*[17]	
+1-91	572-574	je	_	_	_	_	
+1-92	575-580	danes	_	_	_	_	
+1-93	581-590	imenovala	_	_	_	_	
+1-94	591-595	tudi	_	_	_	_	
+1-95	596-599	pet	_	_	_	_	
+1-96	600-608	državnih	_	_	_	_	
+1-97	609-620	sekretarjev	_	_	_	_	
+1-98	621-622	v	_	_	_	_	
+1-99	623-630	kabinet	_	_	_	_	
+1-100	631-642	predsednice	_	_	_	_	
+1-101	643-648	vlade	_	_	_	_	
+1-102	649-650	.	_	_	_	_	
+1-103	651-657	Tamara	PER[4]	3 - Nevtralno[28]	*->4-1	*[4]	
+1-104	658-663	Vonta	PER[4]	3 - Nevtralno[28]	*->4-1	*[4]	
+1-105	664-666	bo	_	_	_	_	
+1-106	667-676	pristojna	_	_	_	_	
+1-107	677-679	za	_	_	_	_	
+1-108	680-692	vzpostavitev	_	_	_	_	
+1-109	693-700	dialoga	_	_	_	_	
+1-110	701-702	s	_	_	_	_	
+1-111	703-710	civilno	_	_	_	_	
+1-112	711-717	družbo	_	_	_	_	
+1-113	718-720	in	_	_	_	_	
+1-114	721-733	koordinacijo	_	_	_	_	
+1-115	734-747	državljanskih	_	_	_	_	
+1-116	748-753	pobud	_	_	_	_	
+1-117	754-755	.	_	_	_	_	
+1-118	756-762	Gašpar	PER[5]	3 - Nevtralno[29]	*->5-1	*[5]	
+1-119	763-769	Gašpar	PER[5]	3 - Nevtralno[29]	*->5-1	*[5]	
+1-120	770-775	Mišič	PER[5]	3 - Nevtralno[29]	*->5-1	*[5]	
+1-121	776-778	bo	_	_	_	_	
+1-122	779-787	zadolžen	_	_	_	_	
+1-123	788-790	za	_	_	_	_	
+1-124	791-803	koordinacijo	_	_	_	_	
+1-125	804-811	velikih	_	_	_	_	
+1-126	812-828	infrastrukturnih	_	_	_	_	
+1-127	829-838	projektov	_	_	_	_	
+1-128	839-841	in	_	_	_	_	
+1-129	842-847	pomoč	_	_	_	_	
+1-130	848-851	pri	_	_	_	_	
+1-131	852-860	sanaciji	_	_	_	_	
+1-132	861-873	gospodarskih	_	_	_	_	
+1-133	874-879	družb	_	_	_	_	
+1-134	880-881	v	_	_	_	_	
+1-135	882-889	težavah	_	_	_	_	
+1-136	890-891	.	_	_	_	_	
+1-137	892-894	Za	_	_	_	_	
+1-138	895-907	koordinacijo	_	_	_	_	
+1-139	908-918	učinkovite	_	_	_	_	
+1-140	919-926	državne	_	_	_	_	
+1-141	927-938	informatike	_	_	_	_	
+1-142	939-941	bo	_	_	_	_	
+1-143	942-948	skrbel	_	_	_	_	
+1-144	949-954	Dušan	PER[6]	3 - Nevtralno[30]	*->6-1	*[6]	
+1-145	955-961	Kričej	PER[6]	3 - Nevtralno[30]	*->6-1	*[6]	
+1-146	962-963	.	_	_	_	_	
+1-147	964-969	Dušan	PER[7]	3 - Nevtralno[31]	*->7-1	*[7]	
+1-148	970-975	Kumer	PER[7]	3 - Nevtralno[31]	*->7-1	*[7]	
+1-149	976-978	in	_	_	_	_	
+1-150	979-985	Jernej	PER[8]	_	*->9-1	*[9]	
+1-151	986-992	Pavlič	PER[8]	_	*->9-1	*[9]	
+1-152	993-995	pa	_	_	_	_	
+1-153	996-1001	bosta	_	_	_	_	
+1-154	1002-1012	sekretarja	_	_	_	_	
+1-155	1013-1017	brez	_	_	_	_	
+1-156	1018-1025	resorja	_	_	_	_	
+1-157	1026-1027	.	_	_	_	_	
+1-158	1028-1037	Premierki	_	_	_	_	
+1-159	1038-1043	bosta	_	_	_	_	
+1-160	1044-1052	pomagala	_	_	_	_	
+1-161	1053-1056	pri	_	_	_	_	
+1-162	1057-1058	"	_	_	_	_	
+1-163	1059-1070	opravljanju	_	_	_	_	
+1-164	1071-1079	funkcije	_	_	_	_	
+1-165	1080-1081	v	_	_	_	_	
+1-166	1082-1088	okviru	_	_	_	_	
+1-167	1089-1094	danih	_	_	_	_	
+1-168	1095-1103	možnosti	_	_	_	_	
+1-169	1104-1105	"	_	_	_	_	
+1-170	1106-1107	.	_	_	_	_	
+1-171	1108-1114	Pavlič	PER	_	*->9-2	*[9]	
+1-172	1115-1117	je	_	_	_	_	
+1-173	1118-1128	predsednik	_	_	*->9-3	*[9]	
+1-174	1129-1138	podmladka	_	_	*->9-3	*[9]	
+1-175	1139-1148	Pozitivne	ORG[9]	3 - Nevtralno[32]	*->9-3|*->8-1	*[9]|*[8]	
+1-176	1149-1158	Slovenije	ORG[9]	3 - Nevtralno[32]	*->9-3|*->8-1	*[9]|*[8]	
+1-177	1159-1161	in	_	_	_	_	
+1-178	1162-1165	sin	_	3 - Nevtralno[33]	*->9-4	*[9]	
+1-179	1166-1174	poslanke	_	3 - Nevtralno[33]	*->9-4	*[9]	
+1-180	1175-1177	te	_	3 - Nevtralno[33]	*->9-4	*[9]	
+1-181	1178-1185	stranke	_	3 - Nevtralno[33]	*->9-4	*[9]	
+1-182	1186-1192	Alenke	PER[10]	3 - Nevtralno[33]|3 - Nevtralno[34]	*->9-4|*->10-1	*[9]|*[10]	
+1-183	1193-1199	Pavlič	PER[10]	3 - Nevtralno[33]|3 - Nevtralno[34]	*->9-4|*->10-1	*[9]|*[10]	
+1-184	1200-1201	.	_	_	_	_	
+1-185	1202-1205	Nov	_	_	_	_	
+1-186	1206-1208	na	_	_	_	_	
+1-187	1209-1214	Morsu	ORG	_	*->13-1	*[13]	
+1-188	1215-1217	Za	_	_	_	_	
+1-189	1218-1227	državnega	_	_	*->12-1	*[12]	
+1-190	1228-1238	sekretarja	_	_	*->12-1	*[12]	
+1-191	1239-1241	na	_	_	*->12-1	*[12]	
+1-192	1242-1253	ministrstvu	ORG[11]	_	*->12-1|*->13-2	*[12]|*[13]	
+1-193	1254-1256	za	ORG[11]	_	*->12-1|*->13-2	*[12]|*[13]	
+1-194	1257-1264	obrambo	ORG[11]	_	*->12-1|*->13-2	*[12]|*[13]	
+1-195	1265-1267	pa	_	_	_	_	
+1-196	1268-1270	je	_	_	_	_	
+1-197	1271-1276	vlada	ORG	_	*->17-8	*[17]	
+1-198	1277-1279	na	_	_	_	_	
+1-199	1280-1287	predlog	_	_	_	_	
+1-200	1288-1298	obrambnega	_	3 - Nevtralno[35]	*->11-1	*[11]	
+1-201	1299-1307	ministra	_	3 - Nevtralno[35]	*->11-1	*[11]	
+1-202	1308-1314	Romana	PER[12]	3 - Nevtralno[35]	*->11-1	*[11]	
+1-203	1315-1321	Jakiča	PER[12]	3 - Nevtralno[35]	*->11-1	*[11]	
+1-204	1322-1331	imenovala	_	_	_	_	
+1-205	1332-1338	Zorana	PER[13]	3 - Nevtralno[36]	*->12-2	*[12]	
+1-206	1339-1349	Klemenčiča	PER[13]	3 - Nevtralno[36]	*->12-2	*[12]	
+1-207	1350-1351	.	_	_	_	_	
+1-208	1352-1354	Za	_	_	_	_	
+1-209	1355-1356	v	_	_	*->14-1	*[14]	
+1-210	1357-1358	.	_	_	*->14-1	*[14]	
+1-211	1359-1360	d	_	_	*->14-1	*[14]	
+1-212	1361-1362	.	_	_	*->14-1	*[14]	
+1-213	1363-1374	generalnega	_	_	*->14-1	*[14]	
+1-214	1375-1385	sekretarja	_	_	*->14-1	*[14]	
+1-215	1386-1388	na	_	_	*->14-1	*[14]	
+1-216	1389-1394	Morsu	ORG	3 - Nevtralno	*->14-1|*->13-3	*[14]|*[13]	
+1-217	1395-1397	pa	_	_	_	_	
+1-218	1398-1407	imenovala	_	_	_	_	
+1-219	1408-1413	Mojco	PER[14]	3 - Nevtralno[37]	*->14-2	*[14]	
+1-220	1414-1423	Ferjančič	PER[14]	3 - Nevtralno[37]	*->14-2	*[14]	
+1-221	1424-1433	Podbregar	PER[14]	3 - Nevtralno[37]	*->14-2	*[14]	
+1-222	1434-1435	.	_	_	_	_	
+1-223	1436-1439	Vsi	_	_	_	_	
+1-224	1440-1450	sekretarji	_	_	_	_	
+1-225	1451-1455	bodo	_	_	_	_	
+1-226	1456-1458	na	_	_	_	_	
+1-227	1459-1466	položaj	_	_	_	_	
+1-228	1467-1476	imenovani	_	_	_	_	
+1-229	1477-1478	s	_	_	_	_	
+1-230	1479-1480	1	_	_	_	_	
+1-231	1481-1482	.	_	_	_	_	
+1-232	1483-1490	aprilom	_	_	_	_	
+1-233	1491-1492	.	_	_	_	_	
+1-234	1493-1497	Tudi	_	_	_	_	
+1-235	1498-1509	razreševali	_	_	_	_	
+1-236	1510-1515	Vlada	ORG	_	*->17-9	*[17]	
+1-237	1516-1521	danes	_	_	_	_	
+1-238	1522-1524	ni	_	_	_	_	
+1-239	1525-1527	le	_	_	_	_	
+1-240	1528-1537	imenovala	_	_	_	_	
+1-241	1538-1539	,	_	_	_	_	
+1-242	1540-1545	ampak	_	_	_	_	
+1-243	1546-1550	tudi	_	_	_	_	
+1-244	1551-1562	razreševala	_	_	_	_	
+1-245	1563-1564	.	_	_	_	_	
+1-246	1565-1574	Razrešila	_	_	_	_	
+1-247	1575-1577	je	_	_	_	_	
+1-248	1578-1583	štiri	_	_	_	_	
+1-249	1584-1589	člane	_	_	_	_	
+1-250	1590-1601	uradniškega	_	_	_	_	
+1-251	1602-1607	sveta	_	_	_	_	
+1-252	1608-1610	in	_	_	_	_	
+1-253	1611-1620	imenovala	_	_	_	_	
+1-254	1621-1625	nove	_	_	_	_	
+1-255	1626-1627	,	_	_	_	_	
+1-256	1628-1637	razrešila	_	_	_	_	
+1-257	1638-1640	je	_	_	_	_	
+1-258	1641-1652	generalnega	_	3 - Nevtralno[38]	*->15-1	*[15]	
+1-259	1653-1663	sekretarja	_	3 - Nevtralno[38]	*->15-1	*[15]	
+1-260	1664-1666	na	_	3 - Nevtralno[38]	*->15-1	*[15]	
+1-261	1667-1678	ministrstvu	ORG[15]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->15-1|*->22-1	*[15]|*[22]	
+1-262	1679-1681	za	ORG[15]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->15-1|*->22-1	*[15]|*[22]	
+1-263	1682-1695	izobraževanje	ORG[15]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->15-1|*->22-1	*[15]|*[22]	
+1-264	1696-1697	,	ORG[15]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->15-1|*->22-1	*[15]|*[22]	
+1-265	1698-1705	znanost	ORG[15]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->15-1|*->22-1	*[15]|*[22]	
+1-266	1706-1708	in	ORG[15]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->15-1|*->22-1	*[15]|*[22]	
+1-267	1709-1714	šport	ORG[15]	3 - Nevtralno[38]|3 - Nevtralno[39]	*->15-1|*->22-1	*[15]|*[22]	
+1-268	1715-1721	Tomaža	PER[16]	3 - Nevtralno[38]	*->15-1	*[15]	
+1-269	1722-1729	Rozmana	PER[16]	3 - Nevtralno[38]	*->15-1	*[15]	
+1-270	1730-1732	in	_	_	_	_	
+1-271	1733-1735	na	_	_	_	_	
+1-272	1736-1743	njegovo	_	_	_	_	
+1-273	1744-1749	mesto	_	_	_	_	
+1-274	1750-1753	kot	_	_	_	_	
+1-275	1754-1761	vršilca	_	_	*->16-1	*[16]	
+1-276	1762-1771	dolžnosti	_	_	*->16-1	*[16]	
+1-277	1772-1781	imenovala	_	_	_	_	
+1-278	1782-1790	Gregorja	PER[17]	3 - Nevtralno[40]	*->16-2	*[16]	
+1-279	1791-1795	Kosa	PER[17]	3 - Nevtralno[40]	*->16-2	*[16]	
+1-280	1796-1797	.	_	_	_	_	
+1-281	1798-1803	Vlada	ORG	3 - Nevtralno	*->17-10	*[17]	
+1-282	1804-1806	je	_	_	_	_	
+1-283	1807-1816	razrešila	_	_	_	_	
+1-284	1817-1821	tudi	_	_	_	_	
+1-285	1822-1828	Boruta	PER[18]	3 - Nevtralno[41]	*->18-1	*[18]	
+1-286	1829-1838	Rončevića	PER[18]	3 - Nevtralno[41]	*->18-1	*[18]	
+1-287	1839-1841	in	_	_	_	_	
+1-288	1842-1851	imenovala	_	_	_	_	
+1-289	1852-1858	Urbana	PER[19]	_	*->19-1	*[19]	
+1-290	1859-1868	Krajcarja	PER[19]	_	*->19-1	*[19]	
+1-291	1869-1871	za	_	_	_	_	
+1-292	1872-1873	v	_	3 - Nevtralno[42]	*->19-2	*[19]	
+1-293	1874-1875	.	_	3 - Nevtralno[42]	*->19-2	*[19]	
+1-294	1876-1877	d	_	3 - Nevtralno[42]	*->19-2	*[19]	
+1-295	1878-1879	.	_	3 - Nevtralno[42]	*->19-2	*[19]	
+1-296	1880-1890	direktorja	_	3 - Nevtralno[42]	*->19-2	*[19]	
+1-297	1891-1902	direktorata	ORG[20]	3 - Nevtralno[42]|3 - Nevtralno[43]	*->19-2|*->23-1	*[19]|*[23]	
+1-298	1903-1905	za	ORG[20]	3 - Nevtralno[42]|3 - Nevtralno[43]	*->19-2|*->23-1	*[19]|*[23]	
+1-299	1906-1912	visoko	ORG[20]	3 - Nevtralno[42]|3 - Nevtralno[43]	*->19-2|*->23-1	*[19]|*[23]	
+1-300	1913-1920	šolstvo	ORG[20]	3 - Nevtralno[42]|3 - Nevtralno[43]	*->19-2|*->23-1	*[19]|*[23]	
+1-301	1921-1923	in	ORG[20]	3 - Nevtralno[42]|3 - Nevtralno[43]	*->19-2|*->23-1	*[19]|*[23]	
+1-302	1924-1931	znanost	ORG[20]	3 - Nevtralno[42]|3 - Nevtralno[43]	*->19-2|*->23-1	*[19]|*[23]	
+1-303	1932-1933	.	_	_	_	_	
+1-304	1934-1935	S	_	_	_	_	
+1-305	1936-1944	položaja	_	_	_	_	
+1-306	1945-1956	generalnega	_	_	_	_	
+1-307	1957-1967	direktorja	_	_	_	_	
+1-308	1968-1979	direktorata	ORG[21]	3 - Nevtralno[44]	*->24-1	*[24]	
+1-309	1980-1982	za	ORG[21]	3 - Nevtralno[44]	*->24-1	*[24]	
+1-310	1983-1988	šport	ORG[21]	3 - Nevtralno[44]	*->24-1	*[24]	
+1-311	1989-1991	je	_	_	_	_	
+1-312	1992-2001	razrešila	_	_	_	_	
+1-313	2002-2007	Draga	PER[22]	3 - Nevtralno[45]	*->20-1	*[20]	
+1-314	2008-2015	Balenta	PER[22]	3 - Nevtralno[45]	*->20-1	*[20]	
+1-315	2016-2017	,	_	_	_	_	
+1-316	2018-2019	s	_	_	_	_	
+1-317	2020-2028	položaja	_	_	_	_	
+1-318	2029-2040	generalnega	_	_	_	_	
+1-319	2041-2051	direktorja	_	_	_	_	
+1-320	2052-2063	direktorata	ORG[23]	3 - Nevtralno[46]	*->25-1	*[25]	
+1-321	2064-2066	za	ORG[23]	3 - Nevtralno[46]	*->25-1	*[25]	
+1-322	2067-2078	investicije	ORG[23]	3 - Nevtralno[46]	*->25-1	*[25]	
+1-323	2079-2081	so	_	_	_	_	
+1-324	2082-2091	razrešili	_	_	_	_	
+1-325	2092-2099	Andrejo	PER[24]	3 - Nevtralno[47]	*->21-1	*[21]	
+1-326	2100-2108	Vihtelič	PER[24]	3 - Nevtralno[47]	*->21-1	*[21]	

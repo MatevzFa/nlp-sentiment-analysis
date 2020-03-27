@@ -1,0 +1,216 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Nešteto pokrajin , a le eno morje . 46 tisoč kilometrov obale , ki povezuje tri celine . Križišče narodov , civilizacij in zibelka najstarejših kultur . Ob stoletnici italijanske Banca Nazionale del Lavoro BNL , članice ene večjih svetovnih bančnih skupin BNP Paribas , so v duhu povezovanja kulturnih in umetniških dialogov zasnovali večmedijsko razstavo " The sea is my land " , ki presega fizične družbene meje , verski pluralizem in etnične okvirje . K sodelovanju so povabili po enega avtorja iz vsake države , ki meji na sredozemsko morje , in nastalo je 22 vizij Sredozemlja , ki povezujejo Španijo , Francijo , Monako , Italijo , Malto , Hrvaško , Bosno in Hercegovino , Črno goro , Albanijo , Grčijo , Ciper , Turčijo , Sirijo , Libanon , Izrael , Palestino , Egipt , Libijo , Tunizijo , Alžirijo , Marko in - Slovenijo . Kot predstavnika naše države sta kuratorja Francesco Bonami in Emanuela Mazzonis izbrala fotografa Aleša Bravničarja , ki bo v Narodnem muzeju umetnosti XXI stoletja MAXXI v Rimu 4 . julija razstavil sredozemske podobe iz njegove serije miniaturnih svetov Miniverse I in II . Razstava bo na ogled do 29 . septembra . Aleša Bravničarja v Sloveniji zastopa Galerija Fotografija
+1-1	0-7	Nešteto	_	_	_	_	
+1-2	8-16	pokrajin	_	_	_	_	
+1-3	17-18	,	_	_	_	_	
+1-4	19-20	a	_	_	_	_	
+1-5	21-23	le	_	_	_	_	
+1-6	24-27	eno	_	_	_	_	
+1-7	28-33	morje	_	_	_	_	
+1-8	34-35	.	_	_	_	_	
+1-9	36-38	46	_	_	_	_	
+1-10	39-44	tisoč	_	_	_	_	
+1-11	45-55	kilometrov	_	_	_	_	
+1-12	56-61	obale	_	_	_	_	
+1-13	62-63	,	_	_	_	_	
+1-14	64-66	ki	_	_	_	_	
+1-15	67-75	povezuje	_	_	_	_	
+1-16	76-79	tri	_	_	_	_	
+1-17	80-86	celine	_	_	_	_	
+1-18	87-88	.	_	_	_	_	
+1-19	89-97	Križišče	_	_	_	_	
+1-20	98-105	narodov	_	_	_	_	
+1-21	106-107	,	_	_	_	_	
+1-22	108-119	civilizacij	_	_	_	_	
+1-23	120-122	in	_	_	_	_	
+1-24	123-130	zibelka	_	_	_	_	
+1-25	131-143	najstarejših	_	_	_	_	
+1-26	144-150	kultur	_	_	_	_	
+1-27	151-152	.	_	_	_	_	
+1-28	153-155	Ob	_	_	_	_	
+1-29	156-166	stoletnici	_	_	_	_	
+1-30	167-178	italijanske	_	_	*->2-1	*[2]	
+1-31	179-184	Banca	ORG[1]	_	*->2-1	*[2]	
+1-32	185-194	Nazionale	ORG[1]	_	*->2-1	*[2]	
+1-33	195-198	del	ORG[1]	_	*->2-1	*[2]	
+1-34	199-205	Lavoro	ORG[1]	_	*->2-1	*[2]	
+1-35	206-209	BNL	ORG[1]	_	*->2-1	*[2]	
+1-36	210-211	,	_	_	_	_	
+1-37	212-219	članice	_	4 - Pozitivno[11]	*->2-2	*[2]	
+1-38	220-223	ene	_	4 - Pozitivno[11]	*->2-2	*[2]	
+1-39	224-230	večjih	_	4 - Pozitivno[11]	*->2-2	*[2]	
+1-40	231-240	svetovnih	_	4 - Pozitivno[11]	*->2-2	*[2]	
+1-41	241-248	bančnih	_	4 - Pozitivno[11]	*->2-2	*[2]	
+1-42	249-255	skupin	_	4 - Pozitivno[11]	*->2-2	*[2]	
+1-43	256-259	BNP	ORG[2]	4 - Pozitivno[11]|3 - Nevtralno[12]	*->2-2	*[2]	
+1-44	260-267	Paribas	ORG[2]	4 - Pozitivno[11]|3 - Nevtralno[12]	*->2-2	*[2]	
+1-45	268-269	,	_	_	_	_	
+1-46	270-272	so	_	_	_	_	
+1-47	273-274	v	_	_	_	_	
+1-48	275-279	duhu	_	_	_	_	
+1-49	280-291	povezovanja	_	_	_	_	
+1-50	292-301	kulturnih	_	_	_	_	
+1-51	302-304	in	_	_	_	_	
+1-52	305-315	umetniških	_	_	_	_	
+1-53	316-324	dialogov	_	_	_	_	
+1-54	325-334	zasnovali	_	_	_	_	
+1-55	335-346	večmedijsko	_	_	_	_	
+1-56	347-355	razstavo	_	_	_	_	
+1-57	356-357	"	_	_	_	_	
+1-58	358-361	The	_	_	_	_	
+1-59	362-365	sea	_	_	_	_	
+1-60	366-368	is	_	_	_	_	
+1-61	369-371	my	_	_	_	_	
+1-62	372-376	land	_	_	_	_	
+1-63	377-378	"	_	_	_	_	
+1-64	379-380	,	_	_	_	_	
+1-65	381-383	ki	_	_	_	_	
+1-66	384-391	presega	_	_	_	_	
+1-67	392-399	fizične	_	_	_	_	
+1-68	400-408	družbene	_	_	_	_	
+1-69	409-413	meje	_	_	_	_	
+1-70	414-415	,	_	_	_	_	
+1-71	416-422	verski	_	_	_	_	
+1-72	423-433	pluralizem	_	_	_	_	
+1-73	434-436	in	_	_	_	_	
+1-74	437-444	etnične	_	_	_	_	
+1-75	445-452	okvirje	_	_	_	_	
+1-76	453-454	.	_	_	_	_	
+1-77	455-456	K	_	_	_	_	
+1-78	457-468	sodelovanju	_	_	_	_	
+1-79	469-471	so	_	_	_	_	
+1-80	472-480	povabili	_	_	_	_	
+1-81	481-483	po	_	_	_	_	
+1-82	484-489	enega	_	_	_	_	
+1-83	490-497	avtorja	_	_	_	_	
+1-84	498-500	iz	_	_	_	_	
+1-85	501-506	vsake	_	_	_	_	
+1-86	507-513	države	_	_	_	_	
+1-87	514-515	,	_	_	_	_	
+1-88	516-518	ki	_	_	_	_	
+1-89	519-523	meji	_	_	_	_	
+1-90	524-526	na	_	_	_	_	
+1-91	527-538	sredozemsko	_	_	_	_	
+1-92	539-544	morje	_	_	_	_	
+1-93	545-546	,	_	_	_	_	
+1-94	547-549	in	_	_	_	_	
+1-95	550-557	nastalo	_	_	_	_	
+1-96	558-560	je	_	_	_	_	
+1-97	561-563	22	_	_	_	_	
+1-98	564-569	vizij	_	_	_	_	
+1-99	570-581	Sredozemlja	LOC	3 - Nevtralno	*->3-1	*[3]	
+1-100	582-583	,	_	_	_	_	
+1-101	584-586	ki	_	_	_	_	
+1-102	587-597	povezujejo	_	_	_	_	
+1-103	598-605	Španijo	LOC	3 - Nevtralno	*->4-1	*[4]	
+1-104	606-607	,	_	_	_	_	
+1-105	608-616	Francijo	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-106	617-618	,	_	_	_	_	
+1-107	619-625	Monako	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-108	626-627	,	_	_	_	_	
+1-109	628-635	Italijo	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-110	636-637	,	_	_	_	_	
+1-111	638-643	Malto	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-112	644-645	,	_	_	_	_	
+1-113	646-653	Hrvaško	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-114	654-655	,	_	_	_	_	
+1-115	656-661	Bosno	LOC[3]	3 - Nevtralno[13]	*->10-1	*[10]	
+1-116	662-664	in	LOC[3]	3 - Nevtralno[13]	*->10-1	*[10]	
+1-117	665-676	Hercegovino	LOC[3]	3 - Nevtralno[13]	*->10-1	*[10]	
+1-118	677-678	,	_	_	_	_	
+1-119	679-683	Črno	LOC[4]	3 - Nevtralno[14]	*->11-1	*[11]	
+1-120	684-688	goro	LOC[4]	3 - Nevtralno[14]	*->11-1	*[11]	
+1-121	689-690	,	_	_	_	_	
+1-122	691-699	Albanijo	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-123	700-701	,	_	_	_	_	
+1-124	702-708	Grčijo	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-125	709-710	,	_	_	_	_	
+1-126	711-716	Ciper	LOC	3 - Nevtralno	*->24-1	*[24]	
+1-127	717-718	,	_	_	_	_	
+1-128	719-726	Turčijo	LOC	3 - Nevtralno	*->23-1	*[23]	
+1-129	727-728	,	_	_	_	_	
+1-130	729-735	Sirijo	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-131	736-737	,	_	_	_	_	
+1-132	738-745	Libanon	LOC	3 - Nevtralno	*->21-1	*[21]	
+1-133	746-747	,	_	_	_	_	
+1-134	748-754	Izrael	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-135	755-756	,	_	_	_	_	
+1-136	757-766	Palestino	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-137	767-768	,	_	_	_	_	
+1-138	769-774	Egipt	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-139	775-776	,	_	_	_	_	
+1-140	777-783	Libijo	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-141	784-785	,	_	_	_	_	
+1-142	786-794	Tunizijo	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-143	795-796	,	_	_	_	_	
+1-144	797-805	Alžirijo	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-145	806-807	,	_	_	_	_	
+1-146	808-813	Marko	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-147	814-816	in	_	_	_	_	
+1-148	817-818	-	_	_	_	_	
+1-149	819-828	Slovenijo	LOC	_	*->1-1	*[1]	
+1-150	829-830	.	_	_	_	_	
+1-151	831-834	Kot	_	_	_	_	
+1-152	835-847	predstavnika	_	_	*->30-1	*[30]	
+1-153	848-852	naše	_	_	*->30-1|*->1-2	*[30]|*[1]	
+1-154	853-859	države	_	_	*->30-1|*->1-2	*[30]|*[1]	
+1-155	860-863	sta	_	_	_	_	
+1-156	864-873	kuratorja	_	_	_	_	
+1-157	874-883	Francesco	PER[5]	3 - Nevtralno[15]	*->25-1	*[25]	
+1-158	884-890	Bonami	PER[5]	3 - Nevtralno[15]	*->25-1	*[25]	
+1-159	891-893	in	_	_	_	_	
+1-160	894-902	Emanuela	PER[6]	3 - Nevtralno[16]	*->26-1	*[26]	
+1-161	903-911	Mazzonis	PER[6]	3 - Nevtralno[16]	*->26-1	*[26]	
+1-162	912-919	izbrala	_	_	_	_	
+1-163	920-929	fotografa	_	_	*->30-2	*[30]	
+1-164	930-935	Aleša	PER[7]	_	*->30-2	*[30]	
+1-165	936-947	Bravničarja	PER[7]	_	*->30-2	*[30]	
+1-166	948-949	,	_	_	_	_	
+1-167	950-952	ki	_	_	_	_	
+1-168	953-955	bo	_	_	_	_	
+1-169	956-957	v	_	_	_	_	
+1-170	958-966	Narodnem	ORG[8]	3 - Nevtralno[17]	*->27-1	*[27]	
+1-171	967-973	muzeju	ORG[8]	3 - Nevtralno[17]	*->27-1	*[27]	
+1-172	974-983	umetnosti	ORG[8]	3 - Nevtralno[17]	*->27-1	*[27]	
+1-173	984-987	XXI	ORG[8]	3 - Nevtralno[17]	*->27-1	*[27]	
+1-174	988-996	stoletja	ORG[8]	3 - Nevtralno[17]	*->27-1	*[27]	
+1-175	997-1002	MAXXI	ORG[8]	3 - Nevtralno[17]	*->27-1	*[27]	
+1-176	1003-1004	v	_	3 - Nevtralno[17]	*->27-1	*[27]	
+1-177	1005-1009	Rimu	LOC	3 - Nevtralno[17]|3 - Nevtralno[18]	*->27-1|*->28-1	*[27]|*[28]	
+1-178	1010-1011	4	_	_	_	_	
+1-179	1012-1013	.	_	_	_	_	
+1-180	1014-1020	julija	_	_	_	_	
+1-181	1021-1030	razstavil	_	_	_	_	
+1-182	1031-1042	sredozemske	_	_	_	_	
+1-183	1043-1049	podobe	_	_	_	_	
+1-184	1050-1052	iz	_	_	_	_	
+1-185	1053-1060	njegove	_	_	_	_	
+1-186	1061-1067	serije	_	_	_	_	
+1-187	1068-1079	miniaturnih	_	_	_	_	
+1-188	1080-1086	svetov	_	_	_	_	
+1-189	1087-1096	Miniverse	_	_	_	_	
+1-190	1097-1098	I	_	_	_	_	
+1-191	1099-1101	in	_	_	_	_	
+1-192	1102-1104	II	_	_	_	_	
+1-193	1105-1106	.	_	_	_	_	
+1-194	1107-1115	Razstava	_	_	_	_	
+1-195	1116-1118	bo	_	_	_	_	
+1-196	1119-1121	na	_	_	_	_	
+1-197	1122-1127	ogled	_	_	_	_	
+1-198	1128-1130	do	_	_	_	_	
+1-199	1131-1133	29	_	_	_	_	
+1-200	1134-1135	.	_	_	_	_	
+1-201	1136-1145	septembra	_	_	_	_	
+1-202	1146-1147	.	_	_	_	_	
+1-203	1148-1153	Aleša	PER[9]	4 - Pozitivno[19]	*->30-3	*[30]	
+1-204	1154-1165	Bravničarja	PER[9]	4 - Pozitivno[19]	*->30-3	*[30]	
+1-205	1166-1167	v	_	_	_	_	
+1-206	1168-1177	Sloveniji	LOC	3 - Nevtralno	*->1-3	*[1]	
+1-207	1178-1185	zastopa	_	_	_	_	
+1-208	1186-1194	Galerija	ORG[10]	4 - Pozitivno[20]	*->29-1	*[29]	
+1-209	1195-1206	Fotografija	ORG[10]	4 - Pozitivno[20]	*->29-1	*[29]	

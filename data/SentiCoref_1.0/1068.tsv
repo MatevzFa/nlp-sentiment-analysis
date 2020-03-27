@@ -1,0 +1,299 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Leta 2047 bomo ljudje pokurili vse zaloge nafte , zaloge zemeljskega plina bodo zadostovale do leta 2068 , premoga na svetu ne bo več leta 2140 , urana pa štiri leta pozneje . In kaj bomo po tem ? Glede na ocene , zapisane na energetski spletni strani Evropske unije , bomo ljudje vse zaloge nafte izčrpali do 22 . oktobra 2047 , zaloge zemeljskega plina bodo pošle 21 let pozneje , premoga pa ne bo več 19 . maja 2140 . Najdlje bodo zdržale zaloge urana , ki naj bi pošle 28 . novembra 2144 , še ocenjujejo na portalu . Ljudje glede na podatke , zapisane na omenjeni spletni strani , vsako sekundo porabimo 92.653 kubičnih metrov zemeljskega plina , 986 159 - litrskih sodčkov nafte , 203 tone premoga in 4,2 grama urana . Hkrati so objavili tudi rezerve neobnovljivih virov energije . Največ rezerv zemeljskega plina ima Rusija , sledita pa Iran in Katar . Pri zalogah premoga so na prvem mestu ZDA , sledita pa Rusija in Kitajska . Zalog nafte je največ v Savdski Arabiji , skoraj polovico manj zalog ima Iran , še nekaj manj pa je zalog v Iraku . Od 4 . do 7 . mesta se zvrstijo še Kuvajt , Venezuela , Združeni arabski emirati in Rusija . Z uranom pa so najbogatejše Avstralija , Kazakhstan , Rusija , Južnoafriška republika , Kanada , ZDA in Brazilija . Objavili so tudi lestvico proizvedene energije iz obnovljivih virov v državah članicah EU . Daleč največ take energije proizvede Nemčija , sledi Španija , na tretjem mestu je Italija , ki pa ne proizvede niti šest odstotkov energije , ki jo proizvede vodilna Nemčija . Slovenija je na tej lestvici na 16 . mestu
+1-1	0-4	Leta	_	_	_	_	
+1-2	5-9	2047	_	_	_	_	
+1-3	10-14	bomo	_	_	_	_	
+1-4	15-21	ljudje	_	_	_	_	
+1-5	22-30	pokurili	_	_	_	_	
+1-6	31-34	vse	_	_	_	_	
+1-7	35-41	zaloge	_	_	_	_	
+1-8	42-47	nafte	_	_	_	_	
+1-9	48-49	,	_	_	_	_	
+1-10	50-56	zaloge	_	_	_	_	
+1-11	57-68	zemeljskega	_	_	_	_	
+1-12	69-74	plina	_	_	_	_	
+1-13	75-79	bodo	_	_	_	_	
+1-14	80-91	zadostovale	_	_	_	_	
+1-15	92-94	do	_	_	_	_	
+1-16	95-99	leta	_	_	_	_	
+1-17	100-104	2068	_	_	_	_	
+1-18	105-106	,	_	_	_	_	
+1-19	107-114	premoga	_	_	_	_	
+1-20	115-117	na	_	_	_	_	
+1-21	118-123	svetu	_	_	_	_	
+1-22	124-126	ne	_	_	_	_	
+1-23	127-129	bo	_	_	_	_	
+1-24	130-133	več	_	_	_	_	
+1-25	134-138	leta	_	_	_	_	
+1-26	139-143	2140	_	_	_	_	
+1-27	144-145	,	_	_	_	_	
+1-28	146-151	urana	_	_	_	_	
+1-29	152-154	pa	_	_	_	_	
+1-30	155-160	štiri	_	_	_	_	
+1-31	161-165	leta	_	_	_	_	
+1-32	166-173	pozneje	_	_	_	_	
+1-33	174-175	.	_	_	_	_	
+1-34	176-178	In	_	_	_	_	
+1-35	179-182	kaj	_	_	_	_	
+1-36	183-187	bomo	_	_	_	_	
+1-37	188-190	po	_	_	_	_	
+1-38	191-194	tem	_	_	_	_	
+1-39	195-196	?	_	_	_	_	
+1-40	197-202	Glede	_	_	_	_	
+1-41	203-205	na	_	_	_	_	
+1-42	206-211	ocene	_	_	_	_	
+1-43	212-213	,	_	_	_	_	
+1-44	214-222	zapisane	_	_	_	_	
+1-45	223-225	na	_	_	_	_	
+1-46	226-236	energetski	_	_	_	_	
+1-47	237-244	spletni	_	_	_	_	
+1-48	245-251	strani	_	_	_	_	
+1-49	252-260	Evropske	ORG[1]	_	*->1-1	*[1]	
+1-50	261-266	unije	ORG[1]	_	*->1-1	*[1]	
+1-51	267-268	,	_	_	_	_	
+1-52	269-273	bomo	_	_	_	_	
+1-53	274-280	ljudje	_	_	_	_	
+1-54	281-284	vse	_	_	_	_	
+1-55	285-291	zaloge	_	_	_	_	
+1-56	292-297	nafte	_	_	_	_	
+1-57	298-306	izčrpali	_	_	_	_	
+1-58	307-309	do	_	_	_	_	
+1-59	310-312	22	_	_	_	_	
+1-60	313-314	.	_	_	_	_	
+1-61	315-322	oktobra	_	_	_	_	
+1-62	323-327	2047	_	_	_	_	
+1-63	328-329	,	_	_	_	_	
+1-64	330-336	zaloge	_	_	_	_	
+1-65	337-348	zemeljskega	_	_	_	_	
+1-66	349-354	plina	_	_	_	_	
+1-67	355-359	bodo	_	_	_	_	
+1-68	360-365	pošle	_	_	_	_	
+1-69	366-368	21	_	_	_	_	
+1-70	369-372	let	_	_	_	_	
+1-71	373-380	pozneje	_	_	_	_	
+1-72	381-382	,	_	_	_	_	
+1-73	383-390	premoga	_	_	_	_	
+1-74	391-393	pa	_	_	_	_	
+1-75	394-396	ne	_	_	_	_	
+1-76	397-399	bo	_	_	_	_	
+1-77	400-403	več	_	_	_	_	
+1-78	404-406	19	_	_	_	_	
+1-79	407-408	.	_	_	_	_	
+1-80	409-413	maja	_	_	_	_	
+1-81	414-418	2140	_	_	_	_	
+1-82	419-420	.	_	_	_	_	
+1-83	421-428	Najdlje	_	_	_	_	
+1-84	429-433	bodo	_	_	_	_	
+1-85	434-441	zdržale	_	_	_	_	
+1-86	442-448	zaloge	_	_	_	_	
+1-87	449-454	urana	_	_	_	_	
+1-88	455-456	,	_	_	_	_	
+1-89	457-459	ki	_	_	_	_	
+1-90	460-463	naj	_	_	_	_	
+1-91	464-466	bi	_	_	_	_	
+1-92	467-472	pošle	_	_	_	_	
+1-93	473-475	28	_	_	_	_	
+1-94	476-477	.	_	_	_	_	
+1-95	478-486	novembra	_	_	_	_	
+1-96	487-491	2144	_	_	_	_	
+1-97	492-493	,	_	_	_	_	
+1-98	494-496	še	_	_	_	_	
+1-99	497-507	ocenjujejo	_	_	_	_	
+1-100	508-510	na	_	_	_	_	
+1-101	511-518	portalu	_	_	_	_	
+1-102	519-520	.	_	_	_	_	
+1-103	521-527	Ljudje	_	_	_	_	
+1-104	528-533	glede	_	_	_	_	
+1-105	534-536	na	_	_	_	_	
+1-106	537-544	podatke	_	_	_	_	
+1-107	545-546	,	_	_	_	_	
+1-108	547-555	zapisane	_	_	_	_	
+1-109	556-558	na	_	_	_	_	
+1-110	559-567	omenjeni	_	_	_	_	
+1-111	568-575	spletni	_	_	_	_	
+1-112	576-582	strani	_	_	_	_	
+1-113	583-584	,	_	_	_	_	
+1-114	585-590	vsako	_	_	_	_	
+1-115	591-598	sekundo	_	_	_	_	
+1-116	599-607	porabimo	_	_	_	_	
+1-117	608-614	92.653	_	_	_	_	
+1-118	615-623	kubičnih	_	_	_	_	
+1-119	624-630	metrov	_	_	_	_	
+1-120	631-642	zemeljskega	_	_	_	_	
+1-121	643-648	plina	_	_	_	_	
+1-122	649-650	,	_	_	_	_	
+1-123	651-654	986	_	_	_	_	
+1-124	655-658	159	_	_	_	_	
+1-125	659-660	-	_	_	_	_	
+1-126	661-669	litrskih	_	_	_	_	
+1-127	670-677	sodčkov	_	_	_	_	
+1-128	678-683	nafte	_	_	_	_	
+1-129	684-685	,	_	_	_	_	
+1-130	686-689	203	_	_	_	_	
+1-131	690-694	tone	_	_	_	_	
+1-132	695-702	premoga	_	_	_	_	
+1-133	703-705	in	_	_	_	_	
+1-134	706-709	4,2	_	_	_	_	
+1-135	710-715	grama	_	_	_	_	
+1-136	716-721	urana	_	_	_	_	
+1-137	722-723	.	_	_	_	_	
+1-138	724-730	Hkrati	_	_	_	_	
+1-139	731-733	so	_	_	_	_	
+1-140	734-742	objavili	_	_	_	_	
+1-141	743-747	tudi	_	_	_	_	
+1-142	748-755	rezerve	_	_	_	_	
+1-143	756-769	neobnovljivih	_	_	_	_	
+1-144	770-775	virov	_	_	_	_	
+1-145	776-784	energije	_	_	_	_	
+1-146	785-786	.	_	_	_	_	
+1-147	787-793	Največ	_	_	_	_	
+1-148	794-800	rezerv	_	_	_	_	
+1-149	801-812	zemeljskega	_	_	_	_	
+1-150	813-818	plina	_	_	_	_	
+1-151	819-822	ima	_	_	_	_	
+1-152	823-829	Rusija	LOC	_	*->12-1	*[12]	
+1-153	830-831	,	_	_	_	_	
+1-154	832-839	sledita	_	_	_	_	
+1-155	840-842	pa	_	_	_	_	
+1-156	843-847	Iran	LOC	_	*->3-1	*[3]	
+1-157	848-850	in	_	_	_	_	
+1-158	851-856	Katar	LOC	4 - Pozitivno	*->19-1	*[19]	
+1-159	857-858	.	_	_	_	_	
+1-160	859-862	Pri	_	_	_	_	
+1-161	863-870	zalogah	_	_	_	_	
+1-162	871-878	premoga	_	_	_	_	
+1-163	879-881	so	_	_	_	_	
+1-164	882-884	na	_	_	_	_	
+1-165	885-890	prvem	_	_	_	_	
+1-166	891-896	mestu	_	_	_	_	
+1-167	897-900	ZDA	LOC	_	*->2-1	*[2]	
+1-168	901-902	,	_	_	_	_	
+1-169	903-910	sledita	_	_	_	_	
+1-170	911-913	pa	_	_	_	_	
+1-171	914-920	Rusija	LOC	_	*->12-2	*[12]	
+1-172	921-923	in	_	_	_	_	
+1-173	924-932	Kitajska	LOC	4 - Pozitivno	*->20-1	*[20]	
+1-174	933-934	.	_	_	_	_	
+1-175	935-940	Zalog	_	_	_	_	
+1-176	941-946	nafte	_	_	_	_	
+1-177	947-949	je	_	_	_	_	
+1-178	950-956	največ	_	_	_	_	
+1-179	957-958	v	_	_	_	_	
+1-180	959-966	Savdski	LOC[2]	4 - Pozitivno[5]	*->4-1	*[4]	
+1-181	967-974	Arabiji	LOC[2]	4 - Pozitivno[5]	*->4-1	*[4]	
+1-182	975-976	,	_	_	_	_	
+1-183	977-983	skoraj	_	_	_	_	
+1-184	984-992	polovico	_	_	_	_	
+1-185	993-997	manj	_	_	_	_	
+1-186	998-1003	zalog	_	_	_	_	
+1-187	1004-1007	ima	_	_	_	_	
+1-188	1008-1012	Iran	LOC	4 - Pozitivno	*->3-2	*[3]	
+1-189	1013-1014	,	_	_	_	_	
+1-190	1015-1017	še	_	_	_	_	
+1-191	1018-1023	nekaj	_	_	_	_	
+1-192	1024-1028	manj	_	_	_	_	
+1-193	1029-1031	pa	_	_	_	_	
+1-194	1032-1034	je	_	_	_	_	
+1-195	1035-1040	zalog	_	_	_	_	
+1-196	1041-1042	v	_	_	_	_	
+1-197	1043-1048	Iraku	LOC	4 - Pozitivno	*->5-1	*[5]	
+1-198	1049-1050	.	_	_	_	_	
+1-199	1051-1053	Od	_	_	_	_	
+1-200	1054-1055	4	_	_	_	_	
+1-201	1056-1057	.	_	_	_	_	
+1-202	1058-1060	do	_	_	_	_	
+1-203	1061-1062	7	_	_	_	_	
+1-204	1063-1064	.	_	_	_	_	
+1-205	1065-1070	mesta	_	_	_	_	
+1-206	1071-1073	se	_	_	_	_	
+1-207	1074-1082	zvrstijo	_	_	_	_	
+1-208	1083-1085	še	_	_	_	_	
+1-209	1086-1092	Kuvajt	LOC	4 - Pozitivno	*->9-1	*[9]	
+1-210	1093-1094	,	_	_	_	_	
+1-211	1095-1104	Venezuela	LOC	4 - Pozitivno	*->10-1	*[10]	
+1-212	1105-1106	,	_	_	_	_	
+1-213	1107-1115	Združeni	LOC[3]	4 - Pozitivno[6]	*->11-1	*[11]	
+1-214	1116-1123	arabski	LOC[3]	4 - Pozitivno[6]	*->11-1	*[11]	
+1-215	1124-1131	emirati	LOC[3]	4 - Pozitivno[6]	*->11-1	*[11]	
+1-216	1132-1134	in	_	_	_	_	
+1-217	1135-1141	Rusija	LOC	_	*->12-3	*[12]	
+1-218	1142-1143	.	_	_	_	_	
+1-219	1144-1145	Z	_	_	_	_	
+1-220	1146-1152	uranom	_	_	_	_	
+1-221	1153-1155	pa	_	_	_	_	
+1-222	1156-1158	so	_	_	_	_	
+1-223	1159-1171	najbogatejše	_	_	_	_	
+1-224	1172-1182	Avstralija	LOC	4 - Pozitivno	*->6-1	*[6]	
+1-225	1183-1184	,	_	_	_	_	
+1-226	1185-1195	Kazakhstan	LOC	4 - Pozitivno	*->7-1	*[7]	
+1-227	1196-1197	,	_	_	_	_	
+1-228	1198-1204	Rusija	LOC	4 - Pozitivno	*->12-4	*[12]	
+1-229	1205-1206	,	_	_	_	_	
+1-230	1207-1219	Južnoafriška	LOC[4]	4 - Pozitivno[7]	*->13-1	*[13]	
+1-231	1220-1229	republika	LOC[4]	4 - Pozitivno[7]	*->13-1	*[13]	
+1-232	1230-1231	,	_	_	_	_	
+1-233	1232-1238	Kanada	LOC	4 - Pozitivno	*->14-1	*[14]	
+1-234	1239-1240	,	_	_	_	_	
+1-235	1241-1244	ZDA	LOC	4 - Pozitivno	*->2-2	*[2]	
+1-236	1245-1247	in	_	_	_	_	
+1-237	1248-1257	Brazilija	LOC	4 - Pozitivno	*->15-1	*[15]	
+1-238	1258-1259	.	_	_	_	_	
+1-239	1260-1268	Objavili	_	_	_	_	
+1-240	1269-1271	so	_	_	_	_	
+1-241	1272-1276	tudi	_	_	_	_	
+1-242	1277-1285	lestvico	_	_	_	_	
+1-243	1286-1297	proizvedene	_	_	_	_	
+1-244	1298-1306	energije	_	_	_	_	
+1-245	1307-1309	iz	_	_	_	_	
+1-246	1310-1321	obnovljivih	_	_	_	_	
+1-247	1322-1327	virov	_	_	_	_	
+1-248	1328-1329	v	_	_	_	_	
+1-249	1330-1337	državah	_	_	_	_	
+1-250	1338-1346	članicah	_	_	_	_	
+1-251	1347-1349	EU	ORG	3 - Nevtralno	*->1-2	*[1]	
+1-252	1350-1351	.	_	_	_	_	
+1-253	1352-1357	Daleč	_	_	_	_	
+1-254	1358-1364	največ	_	_	_	_	
+1-255	1365-1369	take	_	_	_	_	
+1-256	1370-1378	energije	_	_	_	_	
+1-257	1379-1388	proizvede	_	_	_	_	
+1-258	1389-1396	Nemčija	LOC	_	*->16-1	*[16]	
+1-259	1397-1398	,	_	_	_	_	
+1-260	1399-1404	sledi	_	_	_	_	
+1-261	1405-1412	Španija	LOC	4 - Pozitivno	*->8-1	*[8]	
+1-262	1413-1414	,	_	_	_	_	
+1-263	1415-1417	na	_	_	_	_	
+1-264	1418-1425	tretjem	_	_	_	_	
+1-265	1426-1431	mestu	_	_	_	_	
+1-266	1432-1434	je	_	_	_	_	
+1-267	1435-1442	Italija	LOC	4 - Pozitivno	*->18-1	*[18]	
+1-268	1443-1444	,	_	_	_	_	
+1-269	1445-1447	ki	_	_	_	_	
+1-270	1448-1450	pa	_	_	_	_	
+1-271	1451-1453	ne	_	_	_	_	
+1-272	1454-1463	proizvede	_	_	_	_	
+1-273	1464-1468	niti	_	_	_	_	
+1-274	1469-1473	šest	_	_	_	_	
+1-275	1474-1483	odstotkov	_	_	_	_	
+1-276	1484-1492	energije	_	_	_	_	
+1-277	1493-1494	,	_	_	_	_	
+1-278	1495-1497	ki	_	_	_	_	
+1-279	1498-1500	jo	_	_	_	_	
+1-280	1501-1510	proizvede	_	_	_	_	
+1-281	1511-1518	vodilna	_	_	_	_	
+1-282	1519-1526	Nemčija	LOC	4 - Pozitivno	*->16-2	*[16]	
+1-283	1527-1528	.	_	_	_	_	
+1-284	1529-1538	Slovenija	LOC	4 - Pozitivno	*->17-1	*[17]	
+1-285	1539-1541	je	_	_	_	_	
+1-286	1542-1544	na	_	_	_	_	
+1-287	1545-1548	tej	_	_	_	_	
+1-288	1549-1557	lestvici	_	_	_	_	
+1-289	1558-1560	na	_	_	_	_	
+1-290	1561-1563	16	_	_	_	_	
+1-291	1564-1565	.	_	_	_	_	
+1-292	1566-1571	mestu	_	_	_	_	

@@ -1,0 +1,424 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=To je razlog za pesimizem pa tudi spodbujanje zavesti o korupciji , je naziv komentiral dobitnik priznanja Goran Klemenčič . Finalisti izbora Ime leta Odstopljeni predsednik Komisije za preprečevanje korupcije Goran Klemenčič ( januar ) , smučarka Tina Maze ( februar ) , pobudnica Botrstva v Sloveniji Milena Štular in fotograf Matjaž Tančič ( marec ) , oče izolskega časopisa Mandračin glasbenik Drago Mislej Mef ( april ) , nekdanji ustavni sodnik Matevž Krivic ( maj ) , predsednik športnega društva Narodni dom Dejan Crnek ( junij ) , informacijska pooblaščenka Nataša Pirc Musar , plavalec Darko Đurić ( avgust ) , kolesar Matej Mohorič ( september ) , vodnik Andrej Žuničin njegov reševalni pes Haron ( oktober ) , pobudnik dobrodelne akcije Mali koraki za velik cilj Jan Golja ( november ) , raziskovalka in znanstvenica z oddelka za kompleksne snovi Instituta Jožef Stefan Alenka Mertelj ( december ) . Dvanajst finalistov izbora Ime leta , ki so jih v sklopu akcije Ime tedna skozi leto izbirali poslušalci Vala 202 , se je odločilo , da si naziv Ime leta 2013 najbolj zasluži nekdanji vodja Komisije za preprečevanje korupcije Goran Klemenčič . “ Ne znam sprejemati nagrad in si jih niti ne želim , ” je na včerajšnji slovesnosti v Lutkovnem gledališču Ljubljana ob prejemu nagrade dejal Klemenčič in priznanje komentiral z besedami : “ Ko razmišljam , kakšno ogledalo se nastavlja družbi , v kateri ime leta postane šef protikorupcijske komisije , ki je odstopil , ker se je zaletel v zid , je tukaj razlog za veliko pesimizma , lahko pa gledamo tudi na drug način – da se vendarle tudi pri nas spodbuja zavest , da je korupcija nekaj , kar je močno prisotno v tej družbi , in da nam krade prihodnost . ” Ko bomo nehali pristajati na puhlice , s katerimi so nas levi in desni pripeljali do tega , potem bojo otroci dobili prihodnost nazaj . Goran Klemenčič Klemenčič se je navezal tudi na humanitarni projekt Botrstvo , katerega del je Ime tedna in ki pod geslom Vrnimo otrokom prihodnost pomaga iskati botre za socialno ogrožene otroke , ter poudaril , da sta za tolikšno revščino v državi lahko le dva razloga : “ Eden je nesposobnost in vsi vemo , da je je veliko , drugi pa je korupcija . In ko bomo vsi skupaj nehali pristajati na puhlice , s katerimi so nas levi in desni pripeljali do tega , potem bojo otroci dobili prihodnost nazaj .
+1-1	0-2	To	_	_	_	_	
+1-2	3-5	je	_	_	_	_	
+1-3	6-12	razlog	_	_	_	_	
+1-4	13-15	za	_	_	_	_	
+1-5	16-25	pesimizem	_	_	_	_	
+1-6	26-28	pa	_	_	_	_	
+1-7	29-33	tudi	_	_	_	_	
+1-8	34-45	spodbujanje	_	_	_	_	
+1-9	46-53	zavesti	_	_	_	_	
+1-10	54-55	o	_	_	_	_	
+1-11	56-65	korupciji	_	_	_	_	
+1-12	66-67	,	_	_	_	_	
+1-13	68-70	je	_	_	_	_	
+1-14	71-76	naziv	_	_	_	_	
+1-15	77-87	komentiral	_	_	_	_	
+1-16	88-96	dobitnik	_	_	*->17-1	*[17]	
+1-17	97-106	priznanja	_	_	*->17-1	*[17]	
+1-18	107-112	Goran	PER[1]	_	*->17-1	*[17]	
+1-19	113-122	Klemenčič	PER[1]	_	*->17-1	*[17]	
+1-20	123-124	.	_	_	_	_	
+1-21	125-134	Finalisti	_	_	*->17-2	*[17]	
+1-22	135-141	izbora	_	_	*->17-2	*[17]	
+1-23	142-145	Ime	_	_	*->17-2	*[17]	
+1-24	146-150	leta	_	_	*->17-2	*[17]	
+1-25	151-162	Odstopljeni	_	_	*->17-3	*[17]	
+1-26	163-173	predsednik	_	_	*->17-3	*[17]	
+1-27	174-182	Komisije	ORG[2]	_	*->17-3|*->16-1	*[17]|*[16]	
+1-28	183-185	za	ORG[2]	_	*->17-3|*->16-1	*[17]|*[16]	
+1-29	186-199	preprečevanje	ORG[2]	_	*->17-3|*->16-1	*[17]|*[16]	
+1-30	200-209	korupcije	ORG[2]	_	*->17-3|*->16-1	*[17]|*[16]	
+1-31	210-215	Goran	PER[3]	_	*->17-3	*[17]	
+1-32	216-225	Klemenčič	PER[3]	_	*->17-3	*[17]	
+1-33	226-227	(	_	_	_	_	
+1-34	228-234	januar	_	_	_	_	
+1-35	235-236	)	_	_	_	_	
+1-36	237-238	,	_	_	_	_	
+1-37	239-247	smučarka	_	3 - Nevtralno[28]	*->1-1	*[1]	
+1-38	248-252	Tina	PER[4]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-39	253-257	Maze	PER[4]	3 - Nevtralno[28]	*->1-1	*[1]	
+1-40	258-259	(	_	_	_	_	
+1-41	260-267	februar	_	_	_	_	
+1-42	268-269	)	_	_	_	_	
+1-43	270-271	,	_	_	_	_	
+1-44	272-281	pobudnica	_	3 - Nevtralno[29]	*->2-1	*[2]	
+1-45	282-290	Botrstva	ORG[5]	3 - Nevtralno[29]|3 - Nevtralno[30]	*->2-1|*->18-1	*[2]|*[18]	
+1-46	291-292	v	ORG[5]	3 - Nevtralno[29]|3 - Nevtralno[30]	*->2-1|*->18-1	*[2]|*[18]	
+1-47	293-302	Sloveniji	ORG[5]|LOC[6]	3 - Nevtralno[29]|3 - Nevtralno[30]|3 - Nevtralno[31]	*->2-1|*->18-1|*->3-1	*[2]|*[18]|*[3]	
+1-48	303-309	Milena	PER[7]	3 - Nevtralno[29]	*->2-1	*[2]	
+1-49	310-316	Štular	PER[7]	3 - Nevtralno[29]	*->2-1	*[2]	
+1-50	317-319	in	_	_	_	_	
+1-51	320-328	fotograf	_	3 - Nevtralno[32]	*->4-1	*[4]	
+1-52	329-335	Matjaž	PER[8]	3 - Nevtralno[32]	*->4-1	*[4]	
+1-53	336-342	Tančič	PER[8]	3 - Nevtralno[32]	*->4-1	*[4]	
+1-54	343-344	(	_	_	_	_	
+1-55	345-350	marec	_	_	_	_	
+1-56	351-352	)	_	_	_	_	
+1-57	353-354	,	_	_	_	_	
+1-58	355-358	oče	_	3 - Nevtralno[33]	*->20-1	*[20]	
+1-59	359-368	izolskega	_	3 - Nevtralno[33]|3 - Nevtralno[34]	*->20-1|*->23-1	*[20]|*[23]	
+1-60	369-377	časopisa	_	3 - Nevtralno[33]|3 - Nevtralno[34]	*->20-1|*->23-1	*[20]|*[23]	
+1-61	378-387	Mandračin	ORG	3 - Nevtralno[33]|3 - Nevtralno[34]	*->20-1|*->23-1	*[20]|*[23]	
+1-62	388-397	glasbenik	_	3 - Nevtralno[33]	*->20-1	*[20]	
+1-63	398-403	Drago	PER[9]	3 - Nevtralno[33]	*->20-1	*[20]	
+1-64	404-410	Mislej	PER[9]	3 - Nevtralno[33]	*->20-1	*[20]	
+1-65	411-414	Mef	PER[9]	3 - Nevtralno[33]	*->20-1	*[20]	
+1-66	415-416	(	_	_	_	_	
+1-67	417-422	april	_	_	_	_	
+1-68	423-424	)	_	_	_	_	
+1-69	425-426	,	_	_	_	_	
+1-70	427-435	nekdanji	_	3 - Nevtralno[35]	*->5-1	*[5]	
+1-71	436-443	ustavni	_	3 - Nevtralno[35]	*->5-1	*[5]	
+1-72	444-450	sodnik	_	3 - Nevtralno[35]	*->5-1	*[5]	
+1-73	451-457	Matevž	PER[10]	3 - Nevtralno[35]	*->5-1	*[5]	
+1-74	458-464	Krivic	PER[10]	3 - Nevtralno[35]	*->5-1	*[5]	
+1-75	465-466	(	_	_	_	_	
+1-76	467-470	maj	_	_	_	_	
+1-77	471-472	)	_	_	_	_	
+1-78	473-474	,	_	_	_	_	
+1-79	475-485	predsednik	_	3 - Nevtralno[36]	*->6-1	*[6]	
+1-80	486-495	športnega	_	3 - Nevtralno[36]|3 - Nevtralno[37]	*->6-1|*->7-1	*[6]|*[7]	
+1-81	496-503	društva	_	3 - Nevtralno[36]|3 - Nevtralno[37]	*->6-1|*->7-1	*[6]|*[7]	
+1-82	504-511	Narodni	ORG[11]	3 - Nevtralno[36]|3 - Nevtralno[37]	*->6-1|*->7-1	*[6]|*[7]	
+1-83	512-515	dom	ORG[11]	3 - Nevtralno[36]|3 - Nevtralno[37]	*->6-1|*->7-1	*[6]|*[7]	
+1-84	516-521	Dejan	PER[12]	3 - Nevtralno[36]	*->6-1	*[6]	
+1-85	522-527	Crnek	PER[12]	3 - Nevtralno[36]	*->6-1	*[6]	
+1-86	528-529	(	_	_	_	_	
+1-87	530-535	junij	_	_	_	_	
+1-88	536-537	)	_	_	_	_	
+1-89	538-539	,	_	_	_	_	
+1-90	540-553	informacijska	_	3 - Nevtralno[38]	*->8-1	*[8]	
+1-91	554-566	pooblaščenka	_	3 - Nevtralno[38]	*->8-1	*[8]	
+1-92	567-573	Nataša	PER[13]	3 - Nevtralno[38]	*->8-1	*[8]	
+1-93	574-578	Pirc	PER[13]	3 - Nevtralno[38]	*->8-1	*[8]	
+1-94	579-584	Musar	PER[13]	3 - Nevtralno[38]	*->8-1	*[8]	
+1-95	585-586	,	_	_	_	_	
+1-96	587-595	plavalec	_	3 - Nevtralno[39]	*->9-1	*[9]	
+1-97	596-601	Darko	PER[14]	3 - Nevtralno[39]	*->9-1	*[9]	
+1-98	602-607	Đurić	PER[14]	3 - Nevtralno[39]	*->9-1	*[9]	
+1-99	608-609	(	_	_	_	_	
+1-100	610-616	avgust	_	_	_	_	
+1-101	617-618	)	_	_	_	_	
+1-102	619-620	,	_	_	_	_	
+1-103	621-628	kolesar	_	3 - Nevtralno[40]	*->10-1	*[10]	
+1-104	629-634	Matej	PER[15]	3 - Nevtralno[40]	*->10-1	*[10]	
+1-105	635-642	Mohorič	PER[15]	3 - Nevtralno[40]	*->10-1	*[10]	
+1-106	643-644	(	_	_	_	_	
+1-107	645-654	september	_	_	_	_	
+1-108	655-656	)	_	_	_	_	
+1-109	657-658	,	_	_	_	_	
+1-110	659-665	vodnik	_	3 - Nevtralno[41]	*->11-1	*[11]	
+1-111	666-672	Andrej	PER[16]	3 - Nevtralno[41]	*->11-1	*[11]	
+1-112	673-680	Žuničin	PER[16]	3 - Nevtralno[41]	*->11-1	*[11]	
+1-113	681-687	njegov	_	_	_	_	
+1-114	688-697	reševalni	_	3 - Nevtralno[42]	*->19-1	*[19]	
+1-115	698-701	pes	_	3 - Nevtralno[42]	*->19-1	*[19]	
+1-116	702-707	Haron	PER	3 - Nevtralno[42]	*->19-1	*[19]	
+1-117	708-709	(	_	_	_	_	
+1-118	710-717	oktober	_	_	_	_	
+1-119	718-719	)	_	_	_	_	
+1-120	720-721	,	_	_	_	_	
+1-121	722-730	pobudnik	_	3 - Nevtralno[43]	*->12-1	*[12]	
+1-122	731-741	dobrodelne	_	3 - Nevtralno[43]	*->12-1	*[12]	
+1-123	742-748	akcije	_	3 - Nevtralno[43]	*->12-1	*[12]	
+1-124	749-753	Mali	_	3 - Nevtralno[43]	*->12-1	*[12]	
+1-125	754-760	koraki	_	3 - Nevtralno[43]	*->12-1	*[12]	
+1-126	761-763	za	_	3 - Nevtralno[43]	*->12-1	*[12]	
+1-127	764-769	velik	_	3 - Nevtralno[43]	*->12-1	*[12]	
+1-128	770-774	cilj	_	3 - Nevtralno[43]	*->12-1	*[12]	
+1-129	775-778	Jan	PER[17]	3 - Nevtralno[43]	*->12-1	*[12]	
+1-130	779-784	Golja	PER[17]	3 - Nevtralno[43]	*->12-1	*[12]	
+1-131	785-786	(	_	_	_	_	
+1-132	787-795	november	_	_	_	_	
+1-133	796-797	)	_	_	_	_	
+1-134	798-799	,	_	_	_	_	
+1-135	800-812	raziskovalka	_	3 - Nevtralno[44]	*->13-1	*[13]	
+1-136	813-815	in	_	3 - Nevtralno[44]	*->13-1	*[13]	
+1-137	816-828	znanstvenica	_	3 - Nevtralno[44]	*->13-1	*[13]	
+1-138	829-830	z	_	3 - Nevtralno[44]	*->13-1	*[13]	
+1-139	831-838	oddelka	_	3 - Nevtralno[44]	*->13-1	*[13]	
+1-140	839-841	za	_	3 - Nevtralno[44]	*->13-1	*[13]	
+1-141	842-852	kompleksne	_	3 - Nevtralno[44]	*->13-1	*[13]	
+1-142	853-858	snovi	_	3 - Nevtralno[44]	*->13-1	*[13]	
+1-143	859-868	Instituta	ORG[18]	3 - Nevtralno[44]|3 - Nevtralno[45]	*->13-1|*->14-1	*[13]|*[14]	
+1-144	869-874	Jožef	ORG[18]|PER[19]	3 - Nevtralno[44]|3 - Nevtralno[45]	*->13-1|*->14-1	*[13]|*[14]	
+1-145	875-881	Stefan	ORG[18]|PER[19]	3 - Nevtralno[44]|3 - Nevtralno[45]	*->13-1|*->14-1	*[13]|*[14]	
+1-146	882-888	Alenka	PER[20]	3 - Nevtralno[44]	*->13-1	*[13]	
+1-147	889-896	Mertelj	PER[20]	3 - Nevtralno[44]	*->13-1	*[13]	
+1-148	897-898	(	_	_	_	_	
+1-149	899-907	december	_	_	_	_	
+1-150	908-909	)	_	_	_	_	
+1-151	910-911	.	_	_	_	_	
+1-152	912-920	Dvanajst	_	_	_	_	
+1-153	921-931	finalistov	_	_	_	_	
+1-154	932-938	izbora	_	_	_	_	
+1-155	939-942	Ime	_	_	_	_	
+1-156	943-947	leta	_	_	_	_	
+1-157	948-949	,	_	_	_	_	
+1-158	950-952	ki	_	_	_	_	
+1-159	953-955	so	_	_	_	_	
+1-160	956-959	jih	_	_	_	_	
+1-161	960-961	v	_	_	_	_	
+1-162	962-968	sklopu	_	_	_	_	
+1-163	969-975	akcije	_	_	_	_	
+1-164	976-979	Ime	_	_	_	_	
+1-165	980-985	tedna	_	_	_	_	
+1-166	986-991	skozi	_	_	_	_	
+1-167	992-996	leto	_	_	_	_	
+1-168	997-1005	izbirali	_	_	_	_	
+1-169	1006-1016	poslušalci	_	_	_	_	
+1-170	1017-1021	Vala	ORG[21]	_	*->22-1	*[22]	
+1-171	1022-1025	202	ORG[21]	_	*->22-1	*[22]	
+1-172	1026-1027	,	_	_	_	_	
+1-173	1028-1030	se	_	_	_	_	
+1-174	1031-1033	je	_	_	_	_	
+1-175	1034-1042	odločilo	_	_	_	_	
+1-176	1043-1044	,	_	_	_	_	
+1-177	1045-1047	da	_	_	_	_	
+1-178	1048-1050	si	_	_	_	_	
+1-179	1051-1056	naziv	_	_	_	_	
+1-180	1057-1060	Ime	_	_	_	_	
+1-181	1061-1065	leta	_	_	_	_	
+1-182	1066-1070	2013	_	_	_	_	
+1-183	1071-1078	najbolj	_	_	_	_	
+1-184	1079-1086	zasluži	_	_	_	_	
+1-185	1087-1095	nekdanji	_	_	*->17-4	*[17]	
+1-186	1096-1101	vodja	_	_	*->17-4	*[17]	
+1-187	1102-1110	Komisije	ORG[22]	_	*->17-4|*->16-2	*[17]|*[16]	
+1-188	1111-1113	za	ORG[22]	_	*->17-4|*->16-2	*[17]|*[16]	
+1-189	1114-1127	preprečevanje	ORG[22]	_	*->17-4|*->16-2	*[17]|*[16]	
+1-190	1128-1137	korupcije	ORG[22]	_	*->17-4|*->16-2	*[17]|*[16]	
+1-191	1138-1143	Goran	PER[23]	_	*->17-4	*[17]	
+1-192	1144-1153	Klemenčič	PER[23]	_	*->17-4	*[17]	
+1-193	1154-1155	.	_	_	_	_	
+1-194	1156-1157	“	_	_	_	_	
+1-195	1158-1160	Ne	_	_	_	_	
+1-196	1161-1165	znam	_	_	_	_	
+1-197	1166-1176	sprejemati	_	_	_	_	
+1-198	1177-1183	nagrad	_	_	_	_	
+1-199	1184-1186	in	_	_	_	_	
+1-200	1187-1189	si	_	_	_	_	
+1-201	1190-1193	jih	_	_	_	_	
+1-202	1194-1198	niti	_	_	_	_	
+1-203	1199-1201	ne	_	_	_	_	
+1-204	1202-1207	želim	_	_	_	_	
+1-205	1208-1209	,	_	_	_	_	
+1-206	1210-1211	”	_	_	_	_	
+1-207	1212-1214	je	_	_	_	_	
+1-208	1215-1217	na	_	_	_	_	
+1-209	1218-1228	včerajšnji	_	_	_	_	
+1-210	1229-1240	slovesnosti	_	_	_	_	
+1-211	1241-1242	v	_	_	_	_	
+1-212	1243-1252	Lutkovnem	ORG[24]	3 - Nevtralno[46]	*->15-1	*[15]	
+1-213	1253-1263	gledališču	ORG[24]	3 - Nevtralno[46]	*->15-1	*[15]	
+1-214	1264-1273	Ljubljana	ORG[24]|LOC[25]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->15-1|*->21-1	*[15]|*[21]	
+1-215	1274-1276	ob	_	_	_	_	
+1-216	1277-1284	prejemu	_	_	_	_	
+1-217	1285-1292	nagrade	_	_	_	_	
+1-218	1293-1298	dejal	_	_	_	_	
+1-219	1299-1308	Klemenčič	PER	_	*->17-5	*[17]	
+1-220	1309-1311	in	_	_	_	_	
+1-221	1312-1321	priznanje	_	_	_	_	
+1-222	1322-1332	komentiral	_	_	_	_	
+1-223	1333-1334	z	_	_	_	_	
+1-224	1335-1343	besedami	_	_	_	_	
+1-225	1344-1345	:	_	_	_	_	
+1-226	1346-1347	“	_	_	_	_	
+1-227	1348-1350	Ko	_	_	_	_	
+1-228	1351-1361	razmišljam	_	_	_	_	
+1-229	1362-1363	,	_	_	_	_	
+1-230	1364-1370	kakšno	_	_	_	_	
+1-231	1371-1379	ogledalo	_	_	_	_	
+1-232	1380-1382	se	_	_	_	_	
+1-233	1383-1392	nastavlja	_	_	_	_	
+1-234	1393-1399	družbi	_	_	_	_	
+1-235	1400-1401	,	_	_	_	_	
+1-236	1402-1403	v	_	_	_	_	
+1-237	1404-1410	kateri	_	_	_	_	
+1-238	1411-1414	ime	_	_	_	_	
+1-239	1415-1419	leta	_	_	_	_	
+1-240	1420-1427	postane	_	_	_	_	
+1-241	1428-1431	šef	_	_	*->17-6	*[17]	
+1-242	1432-1448	protikorupcijske	ORG[26]	4 - Pozitivno[48]	*->17-6|*->16-3	*[17]|*[16]	
+1-243	1449-1457	komisije	ORG[26]	4 - Pozitivno[48]	*->17-6|*->16-3	*[17]|*[16]	
+1-244	1458-1459	,	_	_	_	_	
+1-245	1460-1462	ki	_	_	_	_	
+1-246	1463-1465	je	_	_	_	_	
+1-247	1466-1474	odstopil	_	_	_	_	
+1-248	1475-1476	,	_	_	_	_	
+1-249	1477-1480	ker	_	_	_	_	
+1-250	1481-1483	se	_	_	_	_	
+1-251	1484-1486	je	_	_	_	_	
+1-252	1487-1494	zaletel	_	_	_	_	
+1-253	1495-1496	v	_	_	_	_	
+1-254	1497-1500	zid	_	_	_	_	
+1-255	1501-1502	,	_	_	_	_	
+1-256	1503-1505	je	_	_	_	_	
+1-257	1506-1511	tukaj	_	_	_	_	
+1-258	1512-1518	razlog	_	_	_	_	
+1-259	1519-1521	za	_	_	_	_	
+1-260	1522-1528	veliko	_	_	_	_	
+1-261	1529-1538	pesimizma	_	_	_	_	
+1-262	1539-1540	,	_	_	_	_	
+1-263	1541-1546	lahko	_	_	_	_	
+1-264	1547-1549	pa	_	_	_	_	
+1-265	1550-1557	gledamo	_	_	_	_	
+1-266	1558-1562	tudi	_	_	_	_	
+1-267	1563-1565	na	_	_	_	_	
+1-268	1566-1570	drug	_	_	_	_	
+1-269	1571-1576	način	_	_	_	_	
+1-270	1577-1578	–	_	_	_	_	
+1-271	1579-1581	da	_	_	_	_	
+1-272	1582-1584	se	_	_	_	_	
+1-273	1585-1593	vendarle	_	_	_	_	
+1-274	1594-1598	tudi	_	_	_	_	
+1-275	1599-1602	pri	_	_	_	_	
+1-276	1603-1606	nas	_	_	_	_	
+1-277	1607-1615	spodbuja	_	_	_	_	
+1-278	1616-1622	zavest	_	_	_	_	
+1-279	1623-1624	,	_	_	_	_	
+1-280	1625-1627	da	_	_	_	_	
+1-281	1628-1630	je	_	_	_	_	
+1-282	1631-1640	korupcija	_	_	_	_	
+1-283	1641-1646	nekaj	_	_	_	_	
+1-284	1647-1648	,	_	_	_	_	
+1-285	1649-1652	kar	_	_	_	_	
+1-286	1653-1655	je	_	_	_	_	
+1-287	1656-1661	močno	_	_	_	_	
+1-288	1662-1670	prisotno	_	_	_	_	
+1-289	1671-1672	v	_	_	_	_	
+1-290	1673-1676	tej	_	_	_	_	
+1-291	1677-1683	družbi	_	_	_	_	
+1-292	1684-1685	,	_	_	_	_	
+1-293	1686-1688	in	_	_	_	_	
+1-294	1689-1691	da	_	_	_	_	
+1-295	1692-1695	nam	_	_	_	_	
+1-296	1696-1701	krade	_	_	_	_	
+1-297	1702-1712	prihodnost	_	_	_	_	
+1-298	1713-1714	.	_	_	_	_	
+1-299	1715-1716	”	_	_	_	_	
+1-300	1717-1719	Ko	_	_	_	_	
+1-301	1720-1724	bomo	_	_	_	_	
+1-302	1725-1731	nehali	_	_	_	_	
+1-303	1732-1742	pristajati	_	_	_	_	
+1-304	1743-1745	na	_	_	_	_	
+1-305	1746-1753	puhlice	_	_	_	_	
+1-306	1754-1755	,	_	_	_	_	
+1-307	1756-1757	s	_	_	_	_	
+1-308	1758-1766	katerimi	_	_	_	_	
+1-309	1767-1769	so	_	_	_	_	
+1-310	1770-1773	nas	_	_	_	_	
+1-311	1774-1778	levi	_	_	_	_	
+1-312	1779-1781	in	_	_	_	_	
+1-313	1782-1787	desni	_	_	_	_	
+1-314	1788-1798	pripeljali	_	_	_	_	
+1-315	1799-1801	do	_	_	_	_	
+1-316	1802-1806	tega	_	_	_	_	
+1-317	1807-1808	,	_	_	_	_	
+1-318	1809-1814	potem	_	_	_	_	
+1-319	1815-1819	bojo	_	_	_	_	
+1-320	1820-1826	otroci	_	_	_	_	
+1-321	1827-1833	dobili	_	_	_	_	
+1-322	1834-1844	prihodnost	_	_	_	_	
+1-323	1845-1850	nazaj	_	_	_	_	
+1-324	1851-1852	.	_	_	_	_	
+1-325	1853-1858	Goran	PER[27]	4 - Pozitivno[49]	*->17-7	*[17]	
+1-326	1859-1868	Klemenčič	PER[27]	4 - Pozitivno[49]	*->17-7	*[17]	
+1-327	1869-1878	Klemenčič	PER[27]	4 - Pozitivno[49]	*->17-7	*[17]	
+1-328	1879-1881	se	_	_	_	_	
+1-329	1882-1884	je	_	_	_	_	
+1-330	1885-1892	navezal	_	_	_	_	
+1-331	1893-1897	tudi	_	_	_	_	
+1-332	1898-1900	na	_	_	_	_	
+1-333	1901-1912	humanitarni	_	4 - Pozitivno[50]	*->18-2	o[18]	
+1-334	1913-1920	projekt	_	4 - Pozitivno[50]	*->18-2	o[18]	
+1-335	1921-1929	Botrstvo	ORG	4 - Pozitivno[50]	*->18-2	o[18]	
+1-336	1930-1931	,	_	_	_	_	
+1-337	1932-1940	katerega	_	_	_	_	
+1-338	1941-1944	del	_	_	_	_	
+1-339	1945-1947	je	_	_	_	_	
+1-340	1948-1951	Ime	_	_	_	_	
+1-341	1952-1957	tedna	_	_	_	_	
+1-342	1958-1960	in	_	_	_	_	
+1-343	1961-1963	ki	_	_	_	_	
+1-344	1964-1967	pod	_	_	_	_	
+1-345	1968-1974	geslom	_	_	_	_	
+1-346	1975-1981	Vrnimo	_	_	_	_	
+1-347	1982-1989	otrokom	_	_	_	_	
+1-348	1990-2000	prihodnost	_	_	_	_	
+1-349	2001-2007	pomaga	_	_	_	_	
+1-350	2008-2014	iskati	_	_	_	_	
+1-351	2015-2020	botre	_	_	_	_	
+1-352	2021-2023	za	_	_	_	_	
+1-353	2024-2032	socialno	_	_	_	_	
+1-354	2033-2041	ogrožene	_	_	_	_	
+1-355	2042-2048	otroke	_	_	_	_	
+1-356	2049-2050	,	_	_	_	_	
+1-357	2051-2054	ter	_	_	_	_	
+1-358	2055-2063	poudaril	_	_	_	_	
+1-359	2064-2065	,	_	_	_	_	
+1-360	2066-2068	da	_	_	_	_	
+1-361	2069-2072	sta	_	_	_	_	
+1-362	2073-2075	za	_	_	_	_	
+1-363	2076-2084	tolikšno	_	_	_	_	
+1-364	2085-2093	revščino	_	_	_	_	
+1-365	2094-2095	v	_	_	_	_	
+1-366	2096-2102	državi	_	_	_	_	
+1-367	2103-2108	lahko	_	_	_	_	
+1-368	2109-2111	le	_	_	_	_	
+1-369	2112-2115	dva	_	_	_	_	
+1-370	2116-2123	razloga	_	_	_	_	
+1-371	2124-2125	:	_	_	_	_	
+1-372	2126-2127	“	_	_	_	_	
+1-373	2128-2132	Eden	_	_	_	_	
+1-374	2133-2135	je	_	_	_	_	
+1-375	2136-2148	nesposobnost	_	_	_	_	
+1-376	2149-2151	in	_	_	_	_	
+1-377	2152-2155	vsi	_	_	_	_	
+1-378	2156-2160	vemo	_	_	_	_	
+1-379	2161-2162	,	_	_	_	_	
+1-380	2163-2165	da	_	_	_	_	
+1-381	2166-2168	je	_	_	_	_	
+1-382	2169-2171	je	_	_	_	_	
+1-383	2172-2178	veliko	_	_	_	_	
+1-384	2179-2180	,	_	_	_	_	
+1-385	2181-2186	drugi	_	_	_	_	
+1-386	2187-2189	pa	_	_	_	_	
+1-387	2190-2192	je	_	_	_	_	
+1-388	2193-2202	korupcija	_	_	_	_	
+1-389	2203-2204	.	_	_	_	_	
+1-390	2205-2207	In	_	_	_	_	
+1-391	2208-2210	ko	_	_	_	_	
+1-392	2211-2215	bomo	_	_	_	_	
+1-393	2216-2219	vsi	_	_	_	_	
+1-394	2220-2226	skupaj	_	_	_	_	
+1-395	2227-2233	nehali	_	_	_	_	
+1-396	2234-2244	pristajati	_	_	_	_	
+1-397	2245-2247	na	_	_	_	_	
+1-398	2248-2255	puhlice	_	_	_	_	
+1-399	2256-2257	,	_	_	_	_	
+1-400	2258-2259	s	_	_	_	_	
+1-401	2260-2268	katerimi	_	_	_	_	
+1-402	2269-2271	so	_	_	_	_	
+1-403	2272-2275	nas	_	_	_	_	
+1-404	2276-2280	levi	_	_	_	_	
+1-405	2281-2283	in	_	_	_	_	
+1-406	2284-2289	desni	_	_	_	_	
+1-407	2290-2300	pripeljali	_	_	_	_	
+1-408	2301-2303	do	_	_	_	_	
+1-409	2304-2308	tega	_	_	_	_	
+1-410	2309-2310	,	_	_	_	_	
+1-411	2311-2316	potem	_	_	_	_	
+1-412	2317-2321	bojo	_	_	_	_	
+1-413	2322-2328	otroci	_	_	_	_	
+1-414	2329-2335	dobili	_	_	_	_	
+1-415	2336-2346	prihodnost	_	_	_	_	
+1-416	2347-2352	nazaj	_	_	_	_	
+1-417	2353-2354	.	_	_	_	_	

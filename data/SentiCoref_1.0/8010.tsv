@@ -1,0 +1,326 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Vsi imajo enake težave Štirje največji japonski proizvajalci avtomobilov - Toyota , Nissan , Honda in Mazda - bodo zaradi možnih težav z zračnimi blazinami po vsem svetu skupaj vpoklicali 3,39 milijona vozil . Toyota bo v Sloveniji na pregled povabila 1.612 lastnikov modelov yaris , corolla in avensis . Vsi proizvajalci navajajo iste težave z zračno blazino . V slovenskem predstavništvu Toyote so pojasnili , da se lahko zaradi nepravilnega postopka izdelave pogonskega dela sovoznikove zračne vreče ob sproženju le - te do poškoduje inflator , kar bi utegnilo poškodovati sopotnika . Predstavnik Toyote je pojasnil , da bodo vpoklicali 1,73 milijona vozil , ki so bili na Japonskem ali drugod po svetu izdelani med novembrom leta 2000 in marcem leta 2004 . V ZDA bodo vpoklicali 170.000 vozil . V Evropi bo Toyota vpoklicala približno 490.000 vozil modelov yaris , corolla in avensis . Do zdaj poročajo o skupno petih poškodbah inflatorja dva primera v ZDA in trije na Japonskem , a v nobenem primeru ni prišlo do poškodb potnikov . Krivo japonsko podjetje ? Nissan bo po vsem svetu odpoklical 480.000 vozil , ki so jih izdelali na Japonskem med avgustom leta 2000 in januarjem leta 2004 . Honda bo odpoklicala 1,135 milijona vozil . Gre za vsesplošni vpoklic , ki zadeva vse regije , kjer poslujemo , so pojasnili v Hondi . Mazda bo po vsem svetu odpoklicala 45.463 vozil , od tega 4.384 na Japonskem . Iz Toyote in Nissana so sporočili , da je zračne blazine proizvedlo podjetje Takata iz Tokia , medtem ko je japonsko ministrstvo za promet pojasnilo , da je sestavne dele za zračne blazine dobavilo eno podjetje , pri čemer njegovega imena niso navedli . Takata naj bi zračne blazine dobavljala vsem večjih proizvajalcem avtomobilov na svetu , tudi nemškim proizvajalcem Daimler , Volkswagen in BMW , ameriškima proizvajalcema Ford in General Motors , italijanskemu Fiatu in južnokorejskemu Hyundaiu
+1-1	0-3	Vsi	_	_	_	_	
+1-2	4-9	imajo	_	_	_	_	
+1-3	10-15	enake	_	_	_	_	
+1-4	16-22	težave	_	_	_	_	
+1-5	23-29	Štirje	_	_	_	_	
+1-6	30-38	največji	_	_	_	_	
+1-7	39-47	japonski	_	_	_	_	
+1-8	48-60	proizvajalci	_	_	_	_	
+1-9	61-72	avtomobilov	_	_	_	_	
+1-10	73-74	-	_	_	_	_	
+1-11	75-81	Toyota	ORG	_	*->7-1	*[7]	
+1-12	82-83	,	_	_	_	_	
+1-13	84-90	Nissan	ORG	_	*->8-1	*[8]	
+1-14	91-92	,	_	_	_	_	
+1-15	93-98	Honda	ORG	_	*->4-1	*[4]	
+1-16	99-101	in	_	_	_	_	
+1-17	102-107	Mazda	ORG	_	*->5-1	*[5]	
+1-18	108-109	-	_	_	_	_	
+1-19	110-114	bodo	_	_	_	_	
+1-20	115-121	zaradi	_	_	_	_	
+1-21	122-128	možnih	_	_	_	_	
+1-22	129-134	težav	_	_	_	_	
+1-23	135-136	z	_	_	_	_	
+1-24	137-145	zračnimi	_	_	_	_	
+1-25	146-155	blazinami	_	_	_	_	
+1-26	156-158	po	_	_	_	_	
+1-27	159-163	vsem	_	_	_	_	
+1-28	164-169	svetu	_	_	_	_	
+1-29	170-176	skupaj	_	_	_	_	
+1-30	177-187	vpoklicali	_	_	_	_	
+1-31	188-192	3,39	_	_	_	_	
+1-32	193-201	milijona	_	_	_	_	
+1-33	202-207	vozil	_	_	_	_	
+1-34	208-209	.	_	_	_	_	
+1-35	210-216	Toyota	ORG	_	*->7-2	*[7]	
+1-36	217-219	bo	_	_	_	_	
+1-37	220-221	v	_	_	_	_	
+1-38	222-231	Sloveniji	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-39	232-234	na	_	_	_	_	
+1-40	235-242	pregled	_	_	_	_	
+1-41	243-251	povabila	_	_	_	_	
+1-42	252-257	1.612	_	_	_	_	
+1-43	258-267	lastnikov	_	_	_	_	
+1-44	268-275	modelov	_	_	_	_	
+1-45	276-281	yaris	_	_	_	_	
+1-46	282-283	,	_	_	_	_	
+1-47	284-291	corolla	_	_	_	_	
+1-48	292-294	in	_	_	_	_	
+1-49	295-302	avensis	_	_	_	_	
+1-50	303-304	.	_	_	_	_	
+1-51	305-308	Vsi	_	_	_	_	
+1-52	309-321	proizvajalci	_	_	_	_	
+1-53	322-330	navajajo	_	_	_	_	
+1-54	331-335	iste	_	_	_	_	
+1-55	336-342	težave	_	_	_	_	
+1-56	343-344	z	_	_	_	_	
+1-57	345-351	zračno	_	_	_	_	
+1-58	352-359	blazino	_	_	_	_	
+1-59	360-361	.	_	_	_	_	
+1-60	362-363	V	_	_	_	_	
+1-61	364-374	slovenskem	_	_	_	_	
+1-62	375-389	predstavništvu	_	_	_	_	
+1-63	390-396	Toyote	ORG	_	*->7-3	*[7]	
+1-64	397-399	so	_	_	_	_	
+1-65	400-409	pojasnili	_	_	_	_	
+1-66	410-411	,	_	_	_	_	
+1-67	412-414	da	_	_	_	_	
+1-68	415-417	se	_	_	_	_	
+1-69	418-423	lahko	_	_	_	_	
+1-70	424-430	zaradi	_	_	_	_	
+1-71	431-443	nepravilnega	_	_	_	_	
+1-72	444-452	postopka	_	_	_	_	
+1-73	453-461	izdelave	_	_	_	_	
+1-74	462-472	pogonskega	_	_	_	_	
+1-75	473-477	dela	_	_	_	_	
+1-76	478-489	sovoznikove	_	_	_	_	
+1-77	490-496	zračne	_	_	_	_	
+1-78	497-502	vreče	_	_	_	_	
+1-79	503-505	ob	_	_	_	_	
+1-80	506-515	sproženju	_	_	_	_	
+1-81	516-518	le	_	_	_	_	
+1-82	519-520	-	_	_	_	_	
+1-83	521-523	te	_	_	_	_	
+1-84	524-526	do	_	_	_	_	
+1-85	527-536	poškoduje	_	_	_	_	
+1-86	537-545	inflator	_	_	_	_	
+1-87	546-547	,	_	_	_	_	
+1-88	548-551	kar	_	_	_	_	
+1-89	552-554	bi	_	_	_	_	
+1-90	555-563	utegnilo	_	_	_	_	
+1-91	564-575	poškodovati	_	_	_	_	
+1-92	576-585	sopotnika	_	_	_	_	
+1-93	586-587	.	_	_	_	_	
+1-94	588-599	Predstavnik	_	_	_	_	
+1-95	600-606	Toyote	ORG	_	*->7-4	*[7]	
+1-96	607-609	je	_	_	_	_	
+1-97	610-618	pojasnil	_	_	_	_	
+1-98	619-620	,	_	_	_	_	
+1-99	621-623	da	_	_	_	_	
+1-100	624-628	bodo	_	_	_	_	
+1-101	629-639	vpoklicali	_	_	_	_	
+1-102	640-644	1,73	_	_	_	_	
+1-103	645-653	milijona	_	_	_	_	
+1-104	654-659	vozil	_	_	_	_	
+1-105	660-661	,	_	_	_	_	
+1-106	662-664	ki	_	_	_	_	
+1-107	665-667	so	_	_	_	_	
+1-108	668-672	bili	_	_	_	_	
+1-109	673-675	na	_	_	_	_	
+1-110	676-685	Japonskem	LOC	_	*->6-1	*[6]	
+1-111	686-689	ali	_	_	_	_	
+1-112	690-696	drugod	_	_	_	_	
+1-113	697-699	po	_	_	_	_	
+1-114	700-705	svetu	_	_	_	_	
+1-115	706-714	izdelani	_	_	_	_	
+1-116	715-718	med	_	_	_	_	
+1-117	719-728	novembrom	_	_	_	_	
+1-118	729-733	leta	_	_	_	_	
+1-119	734-738	2000	_	_	_	_	
+1-120	739-741	in	_	_	_	_	
+1-121	742-748	marcem	_	_	_	_	
+1-122	749-753	leta	_	_	_	_	
+1-123	754-758	2004	_	_	_	_	
+1-124	759-760	.	_	_	_	_	
+1-125	761-762	V	_	_	_	_	
+1-126	763-766	ZDA	LOC	_	*->3-1	*[3]	
+1-127	767-771	bodo	_	_	_	_	
+1-128	772-782	vpoklicali	_	_	_	_	
+1-129	783-790	170.000	_	_	_	_	
+1-130	791-796	vozil	_	_	_	_	
+1-131	797-798	.	_	_	_	_	
+1-132	799-800	V	_	_	_	_	
+1-133	801-807	Evropi	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-134	808-810	bo	_	_	_	_	
+1-135	811-817	Toyota	ORG	_	*->7-5	*[7]	
+1-136	818-828	vpoklicala	_	_	_	_	
+1-137	829-838	približno	_	_	_	_	
+1-138	839-846	490.000	_	_	_	_	
+1-139	847-852	vozil	_	_	_	_	
+1-140	853-860	modelov	_	_	_	_	
+1-141	861-866	yaris	_	_	_	_	
+1-142	867-868	,	_	_	_	_	
+1-143	869-876	corolla	_	_	_	_	
+1-144	877-879	in	_	_	_	_	
+1-145	880-887	avensis	_	_	_	_	
+1-146	888-889	.	_	_	_	_	
+1-147	890-892	Do	_	_	_	_	
+1-148	893-897	zdaj	_	_	_	_	
+1-149	898-906	poročajo	_	_	_	_	
+1-150	907-908	o	_	_	_	_	
+1-151	909-915	skupno	_	_	_	_	
+1-152	916-921	petih	_	_	_	_	
+1-153	922-931	poškodbah	_	_	_	_	
+1-154	932-942	inflatorja	_	_	_	_	
+1-155	943-946	dva	_	_	_	_	
+1-156	947-954	primera	_	_	_	_	
+1-157	955-956	v	_	_	_	_	
+1-158	957-960	ZDA	LOC	3 - Nevtralno	*->3-2	*[3]	
+1-159	961-963	in	_	_	_	_	
+1-160	964-969	trije	_	_	_	_	
+1-161	970-972	na	_	_	_	_	
+1-162	973-982	Japonskem	LOC	_	*->6-2	*[6]	
+1-163	983-984	,	_	_	_	_	
+1-164	985-986	a	_	_	_	_	
+1-165	987-988	v	_	_	_	_	
+1-166	989-996	nobenem	_	_	_	_	
+1-167	997-1004	primeru	_	_	_	_	
+1-168	1005-1007	ni	_	_	_	_	
+1-169	1008-1014	prišlo	_	_	_	_	
+1-170	1015-1017	do	_	_	_	_	
+1-171	1018-1025	poškodb	_	_	_	_	
+1-172	1026-1034	potnikov	_	_	_	_	
+1-173	1035-1036	.	_	_	_	_	
+1-174	1037-1042	Krivo	_	_	_	_	
+1-175	1043-1051	japonsko	_	_	_	_	
+1-176	1052-1060	podjetje	_	_	_	_	
+1-177	1061-1062	?	_	_	_	_	
+1-178	1063-1069	Nissan	ORG	_	*->8-2	*[8]	
+1-179	1070-1072	bo	_	_	_	_	
+1-180	1073-1075	po	_	_	_	_	
+1-181	1076-1080	vsem	_	_	_	_	
+1-182	1081-1086	svetu	_	_	_	_	
+1-183	1087-1097	odpoklical	_	_	_	_	
+1-184	1098-1105	480.000	_	_	_	_	
+1-185	1106-1111	vozil	_	_	_	_	
+1-186	1112-1113	,	_	_	_	_	
+1-187	1114-1116	ki	_	_	_	_	
+1-188	1117-1119	so	_	_	_	_	
+1-189	1120-1123	jih	_	_	_	_	
+1-190	1124-1132	izdelali	_	_	_	_	
+1-191	1133-1135	na	_	_	_	_	
+1-192	1136-1145	Japonskem	LOC	_	*->6-3	*[6]	
+1-193	1146-1149	med	_	_	_	_	
+1-194	1150-1158	avgustom	_	_	_	_	
+1-195	1159-1163	leta	_	_	_	_	
+1-196	1164-1168	2000	_	_	_	_	
+1-197	1169-1171	in	_	_	_	_	
+1-198	1172-1181	januarjem	_	_	_	_	
+1-199	1182-1186	leta	_	_	_	_	
+1-200	1187-1191	2004	_	_	_	_	
+1-201	1192-1193	.	_	_	_	_	
+1-202	1194-1199	Honda	ORG	_	*->4-2	*[4]	
+1-203	1200-1202	bo	_	_	_	_	
+1-204	1203-1214	odpoklicala	_	_	_	_	
+1-205	1215-1220	1,135	_	_	_	_	
+1-206	1221-1229	milijona	_	_	_	_	
+1-207	1230-1235	vozil	_	_	_	_	
+1-208	1236-1237	.	_	_	_	_	
+1-209	1238-1241	Gre	_	_	_	_	
+1-210	1242-1244	za	_	_	_	_	
+1-211	1245-1255	vsesplošni	_	_	_	_	
+1-212	1256-1263	vpoklic	_	_	_	_	
+1-213	1264-1265	,	_	_	_	_	
+1-214	1266-1268	ki	_	_	_	_	
+1-215	1269-1275	zadeva	_	_	_	_	
+1-216	1276-1279	vse	_	_	_	_	
+1-217	1280-1286	regije	_	_	_	_	
+1-218	1287-1288	,	_	_	_	_	
+1-219	1289-1293	kjer	_	_	_	_	
+1-220	1294-1303	poslujemo	_	_	_	_	
+1-221	1304-1305	,	_	_	_	_	
+1-222	1306-1308	so	_	_	_	_	
+1-223	1309-1318	pojasnili	_	_	_	_	
+1-224	1319-1320	v	_	_	_	_	
+1-225	1321-1326	Hondi	ORG	3 - Nevtralno	*->4-3	*[4]	
+1-226	1327-1328	.	_	_	_	_	
+1-227	1329-1334	Mazda	ORG	3 - Nevtralno	*->5-2	*[5]	
+1-228	1335-1337	bo	_	_	_	_	
+1-229	1338-1340	po	_	_	_	_	
+1-230	1341-1345	vsem	_	_	_	_	
+1-231	1346-1351	svetu	_	_	_	_	
+1-232	1352-1363	odpoklicala	_	_	_	_	
+1-233	1364-1370	45.463	_	_	_	_	
+1-234	1371-1376	vozil	_	_	_	_	
+1-235	1377-1378	,	_	_	_	_	
+1-236	1379-1381	od	_	_	_	_	
+1-237	1382-1386	tega	_	_	_	_	
+1-238	1387-1392	4.384	_	_	_	_	
+1-239	1393-1395	na	_	_	_	_	
+1-240	1396-1405	Japonskem	LOC	3 - Nevtralno	*->6-4	*[6]	
+1-241	1406-1407	.	_	_	_	_	
+1-242	1408-1410	Iz	_	_	_	_	
+1-243	1411-1417	Toyote	ORG	2 - Negativno	*->7-6	*[7]	
+1-244	1418-1420	in	_	_	_	_	
+1-245	1421-1428	Nissana	ORG	3 - Nevtralno	*->8-3	*[8]	
+1-246	1429-1431	so	_	_	_	_	
+1-247	1432-1441	sporočili	_	_	_	_	
+1-248	1442-1443	,	_	_	_	_	
+1-249	1444-1446	da	_	_	_	_	
+1-250	1447-1449	je	_	_	_	_	
+1-251	1450-1456	zračne	_	_	_	_	
+1-252	1457-1464	blazine	_	_	_	_	
+1-253	1465-1475	proizvedlo	_	_	_	_	
+1-254	1476-1484	podjetje	_	_	_	_	
+1-255	1485-1491	Takata	ORG	_	*->10-1	*[10]	
+1-256	1492-1494	iz	_	_	_	_	
+1-257	1495-1500	Tokia	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-258	1501-1502	,	_	_	_	_	
+1-259	1503-1509	medtem	_	_	_	_	
+1-260	1510-1512	ko	_	_	_	_	
+1-261	1513-1515	je	_	_	_	_	
+1-262	1516-1524	japonsko	_	3 - Nevtralno[3]	*->18-1	*[18]	
+1-263	1525-1536	ministrstvo	ORG[1]	3 - Nevtralno[3]	*->18-1	*[18]	
+1-264	1537-1539	za	ORG[1]	3 - Nevtralno[3]	*->18-1	*[18]	
+1-265	1540-1546	promet	ORG[1]	3 - Nevtralno[3]	*->18-1	*[18]	
+1-266	1547-1556	pojasnilo	_	_	_	_	
+1-267	1557-1558	,	_	_	_	_	
+1-268	1559-1561	da	_	_	_	_	
+1-269	1562-1564	je	_	_	_	_	
+1-270	1565-1573	sestavne	_	_	_	_	
+1-271	1574-1578	dele	_	_	_	_	
+1-272	1579-1581	za	_	_	_	_	
+1-273	1582-1588	zračne	_	_	_	_	
+1-274	1589-1596	blazine	_	_	_	_	
+1-275	1597-1605	dobavilo	_	_	_	_	
+1-276	1606-1609	eno	_	_	_	_	
+1-277	1610-1618	podjetje	_	_	_	_	
+1-278	1619-1620	,	_	_	_	_	
+1-279	1621-1624	pri	_	_	_	_	
+1-280	1625-1630	čemer	_	_	_	_	
+1-281	1631-1640	njegovega	_	_	_	_	
+1-282	1641-1646	imena	_	_	_	_	
+1-283	1647-1651	niso	_	_	_	_	
+1-284	1652-1659	navedli	_	_	_	_	
+1-285	1660-1661	.	_	_	_	_	
+1-286	1662-1668	Takata	ORG	2 - Negativno	*->10-2	*[10]	
+1-287	1669-1672	naj	_	_	_	_	
+1-288	1673-1675	bi	_	_	_	_	
+1-289	1676-1682	zračne	_	_	_	_	
+1-290	1683-1690	blazine	_	_	_	_	
+1-291	1691-1701	dobavljala	_	_	_	_	
+1-292	1702-1706	vsem	_	_	_	_	
+1-293	1707-1713	večjih	_	_	_	_	
+1-294	1714-1727	proizvajalcem	_	_	_	_	
+1-295	1728-1739	avtomobilov	_	_	_	_	
+1-296	1740-1742	na	_	_	_	_	
+1-297	1743-1748	svetu	_	_	_	_	
+1-298	1749-1750	,	_	_	_	_	
+1-299	1751-1755	tudi	_	_	_	_	
+1-300	1756-1763	nemškim	_	_	_	_	
+1-301	1764-1777	proizvajalcem	_	_	_	_	
+1-302	1778-1785	Daimler	ORG	3 - Nevtralno	*->11-1	*[11]	
+1-303	1786-1787	,	_	_	_	_	
+1-304	1788-1798	Volkswagen	ORG	3 - Nevtralno	*->12-1	*[12]	
+1-305	1799-1801	in	_	_	_	_	
+1-306	1802-1805	BMW	ORG	3 - Nevtralno	*->13-1	*[13]	
+1-307	1806-1807	,	_	_	_	_	
+1-308	1808-1818	ameriškima	_	_	_	_	
+1-309	1819-1833	proizvajalcema	_	_	_	_	
+1-310	1834-1838	Ford	ORG	3 - Nevtralno	*->14-1	*[14]	
+1-311	1839-1841	in	_	_	_	_	
+1-312	1842-1849	General	ORG[2]	3 - Nevtralno[4]	*->15-1	*[15]	
+1-313	1850-1856	Motors	ORG[2]	3 - Nevtralno[4]	*->15-1	*[15]	
+1-314	1857-1858	,	_	_	_	_	
+1-315	1859-1872	italijanskemu	_	3 - Nevtralno[5]	*->16-1	*[16]	
+1-316	1873-1878	Fiatu	ORG	3 - Nevtralno[5]	*->16-1	*[16]	
+1-317	1879-1881	in	_	_	_	_	
+1-318	1882-1897	južnokorejskemu	_	3 - Nevtralno[6]	*->17-1	*[17]	
+1-319	1898-1906	Hyundaiu	ORG	3 - Nevtralno[6]	*->17-1	*[17]	

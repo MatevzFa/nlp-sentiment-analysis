@@ -1,0 +1,474 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Na avstrijski strani predora Karavanke kljub napovedim ob peti uri zjutraj niso prepovedali prometa tovornim vozilom . Prepoved so uvedli šele nekaj minut pred deveto uro . Medtem pa je bil predor za tovorna vozila iz slovenske smeri ves čas zaprt . V veljavo je namreč stopila avstrijska odredba o prepovedi vožnje tovornjakov skozi predor Karavanke ob sobotah dopoldne . V skladu z odredbo avstrijske ministrice za promet velja prepoved vožnje skozi predor na avstrijski strani ob sobotah med 5 . in 12 . uro . Član upravnega odbora za promet na Obrtni zbornici Slovenije Aleksander Bizjak , ki vse od zjutraj spremlja dogajanje na Karavankah , je za zurnal24 . si povedal , da so Avstrijci začeli tovornim vozilom prepovedovati vstop v predor nekaj minut pred deveto uro . Tiskovni predstavnik Darsa Marjan Koler je za Radio Slovenija zanikal , da naj bi Dars omejeval vožnjo tovornim vozilom . Pred tem pa je bil predor za tovorna vozila odprt , razen iz slovenske stani , " kljub obljubam , da bo predor odprt za izvoz iz Slovenije " . Na spletni stran avstrijskega upravljalca avtocest Asfinag opozorila o prepovedi prometa skozi Karavanški predor še ni mogoče opaziti . Predsednik sekcije za promet pri OZS Andrej Klobasa pa je za zurnal24 . si povedal , da je ogorčen nad ravnanjem Darsa , ki je kljub izrecnim navodilom prometnega ministrstva , da naj ne postavlja nobenih elektronskih preprek , tovornim vozilom prepovedal vstop v predor Karavanke . " To so lumpi , ki nagajajo slovenskim podjetnikom . Sami sebi smo berači , " se nad Darsom jezi Klobasa . Nove omejitve tovornega prometa Celoletni prepovedi vožnje tovornih vozil nad 7,5 tone ob nedeljah , praznikih in dela prostih dneh se z današnjim dnem pridružujejo še nove . Doslej je bila tovornjakom , katerih največja dovoljena masa presega 7,5 tone , prepovedana vožnja po slovenskih cestah ob nedeljah , praznikih in dela prostih dneh od 8 . do 21 . ure ter še dodatno v petek pred veliko nočjo od 14 . do 21 . ure . V skladu z odredbo o omejitvi prometa , ki jo je konec lanskega avgusta sprejel tedanji minister za promet Patrick Vlačič , se danes tem omejitvam pridružujejo še dodatne , s turistično sezono povezane omejitve prometa . Vse do prvega konca tedna v septembru bo tako veljala še dodatna omejitev tovornega prometa ob sobotah med 8 . in 13 . uro ter za določene ceste tudi ob sobotah med 6 . in 16 . uro ter ob nedeljah , praznikih in dela prostih dneh od 8 . do 22 . ure . Te ceste so : avtocesta Ljubljana - Klanec ter regionalne ceste Ljubljana - Kozina - Klanec - Srmin , Škofije - Sečovlje , Koper - Dragonja in Postojna - Jelšane
+1-1	0-2	Na	_	_	_	_	
+1-2	3-13	avstrijski	_	_	_	_	
+1-3	14-20	strani	_	_	_	_	
+1-4	21-28	predora	_	_	*->1-1	*[1]	
+1-5	29-38	Karavanke	LOC	_	*->1-1	*[1]	
+1-6	39-44	kljub	_	_	_	_	
+1-7	45-54	napovedim	_	_	_	_	
+1-8	55-57	ob	_	_	_	_	
+1-9	58-62	peti	_	_	_	_	
+1-10	63-66	uri	_	_	_	_	
+1-11	67-74	zjutraj	_	_	_	_	
+1-12	75-79	niso	_	_	_	_	
+1-13	80-91	prepovedali	_	_	_	_	
+1-14	92-99	prometa	_	_	_	_	
+1-15	100-108	tovornim	_	_	_	_	
+1-16	109-116	vozilom	_	_	_	_	
+1-17	117-118	.	_	_	_	_	
+1-18	119-127	Prepoved	_	_	_	_	
+1-19	128-130	so	_	_	_	_	
+1-20	131-137	uvedli	_	_	_	_	
+1-21	138-142	šele	_	_	_	_	
+1-22	143-148	nekaj	_	_	_	_	
+1-23	149-154	minut	_	_	_	_	
+1-24	155-159	pred	_	_	_	_	
+1-25	160-166	deveto	_	_	_	_	
+1-26	167-170	uro	_	_	_	_	
+1-27	171-172	.	_	_	_	_	
+1-28	173-179	Medtem	_	_	_	_	
+1-29	180-182	pa	_	_	_	_	
+1-30	183-185	je	_	_	_	_	
+1-31	186-189	bil	_	_	_	_	
+1-32	190-196	predor	_	_	_	_	
+1-33	197-199	za	_	_	_	_	
+1-34	200-207	tovorna	_	_	_	_	
+1-35	208-214	vozila	_	_	_	_	
+1-36	215-217	iz	_	_	_	_	
+1-37	218-227	slovenske	_	_	_	_	
+1-38	228-233	smeri	_	_	_	_	
+1-39	234-237	ves	_	_	_	_	
+1-40	238-241	čas	_	_	_	_	
+1-41	242-247	zaprt	_	_	_	_	
+1-42	248-249	.	_	_	_	_	
+1-43	250-251	V	_	_	_	_	
+1-44	252-259	veljavo	_	_	_	_	
+1-45	260-262	je	_	_	_	_	
+1-46	263-269	namreč	_	_	_	_	
+1-47	270-277	stopila	_	_	_	_	
+1-48	278-288	avstrijska	_	_	_	_	
+1-49	289-296	odredba	_	_	_	_	
+1-50	297-298	o	_	_	_	_	
+1-51	299-308	prepovedi	_	_	_	_	
+1-52	309-315	vožnje	_	_	_	_	
+1-53	316-327	tovornjakov	_	_	_	_	
+1-54	328-333	skozi	_	_	_	_	
+1-55	334-340	predor	_	_	*->1-2	*[1]	
+1-56	341-350	Karavanke	LOC	_	*->1-2	*[1]	
+1-57	351-353	ob	_	_	_	_	
+1-58	354-361	sobotah	_	_	_	_	
+1-59	362-370	dopoldne	_	_	_	_	
+1-60	371-372	.	_	_	_	_	
+1-61	373-374	V	_	_	_	_	
+1-62	375-381	skladu	_	_	_	_	
+1-63	382-383	z	_	_	_	_	
+1-64	384-391	odredbo	_	_	_	_	
+1-65	392-402	avstrijske	_	_	_	_	
+1-66	403-413	ministrice	_	_	_	_	
+1-67	414-416	za	_	_	_	_	
+1-68	417-423	promet	_	_	_	_	
+1-69	424-429	velja	_	_	_	_	
+1-70	430-438	prepoved	_	_	_	_	
+1-71	439-445	vožnje	_	_	_	_	
+1-72	446-451	skozi	_	_	_	_	
+1-73	452-458	predor	_	_	_	_	
+1-74	459-461	na	_	_	_	_	
+1-75	462-472	avstrijski	_	_	_	_	
+1-76	473-479	strani	_	_	_	_	
+1-77	480-482	ob	_	_	_	_	
+1-78	483-490	sobotah	_	_	_	_	
+1-79	491-494	med	_	_	_	_	
+1-80	495-496	5	_	_	_	_	
+1-81	497-498	.	_	_	_	_	
+1-82	499-501	in	_	_	_	_	
+1-83	502-504	12	_	_	_	_	
+1-84	505-506	.	_	_	_	_	
+1-85	507-510	uro	_	_	_	_	
+1-86	511-512	.	_	_	_	_	
+1-87	513-517	Član	_	3 - Nevtralno[10]	*->2-1	*[2]	
+1-88	518-527	upravnega	_	3 - Nevtralno[10]	*->2-1	*[2]	
+1-89	528-534	odbora	_	3 - Nevtralno[10]	*->2-1	*[2]	
+1-90	535-537	za	_	3 - Nevtralno[10]	*->2-1	*[2]	
+1-91	538-544	promet	_	3 - Nevtralno[10]	*->2-1	*[2]	
+1-92	545-547	na	_	3 - Nevtralno[10]	*->2-1	*[2]	
+1-93	548-554	Obrtni	ORG[1]	3 - Nevtralno[10]	*->2-1|*->3-1	*[2]|*[3]	
+1-94	555-563	zbornici	ORG[1]	3 - Nevtralno[10]	*->2-1|*->3-1	*[2]|*[3]	
+1-95	564-573	Slovenije	ORG[1]|LOC[2]	3 - Nevtralno[10]	*->2-1|*->3-1|*->4-1	*[2]|*[3]|*[4]	
+1-96	574-584	Aleksander	PER[3]	3 - Nevtralno[10]	*->2-1	*[2]	
+1-97	585-591	Bizjak	PER[3]	3 - Nevtralno[10]	*->2-1	*[2]	
+1-98	592-593	,	_	_	_	_	
+1-99	594-596	ki	_	_	_	_	
+1-100	597-600	vse	_	_	_	_	
+1-101	601-603	od	_	_	_	_	
+1-102	604-611	zjutraj	_	_	_	_	
+1-103	612-620	spremlja	_	_	_	_	
+1-104	621-630	dogajanje	_	_	_	_	
+1-105	631-633	na	_	_	_	_	
+1-106	634-644	Karavankah	LOC	_	*->1-3	*[1]	
+1-107	645-646	,	_	_	_	_	
+1-108	647-649	je	_	_	_	_	
+1-109	650-652	za	_	_	_	_	
+1-110	653-661	zurnal24	_	_	_	_	
+1-111	662-663	.	_	_	_	_	
+1-112	664-666	si	_	_	_	_	
+1-113	667-674	povedal	_	_	_	_	
+1-114	675-676	,	_	_	_	_	
+1-115	677-679	da	_	_	_	_	
+1-116	680-682	so	_	_	_	_	
+1-117	683-692	Avstrijci	PER	3 - Nevtralno	*->5-1	*[5]	
+1-118	693-699	začeli	_	_	_	_	
+1-119	700-708	tovornim	_	_	_	_	
+1-120	709-716	vozilom	_	_	_	_	
+1-121	717-730	prepovedovati	_	_	_	_	
+1-122	731-736	vstop	_	_	_	_	
+1-123	737-738	v	_	_	_	_	
+1-124	739-745	predor	_	_	_	_	
+1-125	746-751	nekaj	_	_	_	_	
+1-126	752-757	minut	_	_	_	_	
+1-127	758-762	pred	_	_	_	_	
+1-128	763-769	deveto	_	_	_	_	
+1-129	770-773	uro	_	_	_	_	
+1-130	774-775	.	_	_	_	_	
+1-131	776-784	Tiskovni	_	3 - Nevtralno[11]	*->6-1	*[6]	
+1-132	785-796	predstavnik	_	3 - Nevtralno[11]	*->6-1	*[6]	
+1-133	797-802	Darsa	ORG	3 - Nevtralno[11]	*->6-1|*->7-1	*[6]|*[7]	
+1-134	803-809	Marjan	PER[4]	3 - Nevtralno[11]	*->6-1	*[6]	
+1-135	810-815	Koler	PER[4]	3 - Nevtralno[11]	*->6-1	*[6]	
+1-136	816-818	je	_	_	_	_	
+1-137	819-821	za	_	_	_	_	
+1-138	822-827	Radio	ORG[5]	3 - Nevtralno[12]	*->8-1	*[8]	
+1-139	828-837	Slovenija	ORG[5]|LOC[6]	3 - Nevtralno[12]	*->8-1|*->4-2	*[8]|*[4]	
+1-140	838-845	zanikal	_	_	_	_	
+1-141	846-847	,	_	_	_	_	
+1-142	848-850	da	_	_	_	_	
+1-143	851-854	naj	_	_	_	_	
+1-144	855-857	bi	_	_	_	_	
+1-145	858-862	Dars	ORG	_	*->7-2	*[7]	
+1-146	863-871	omejeval	_	_	_	_	
+1-147	872-878	vožnjo	_	_	_	_	
+1-148	879-887	tovornim	_	_	_	_	
+1-149	888-895	vozilom	_	_	_	_	
+1-150	896-897	.	_	_	_	_	
+1-151	898-902	Pred	_	_	_	_	
+1-152	903-906	tem	_	_	_	_	
+1-153	907-909	pa	_	_	_	_	
+1-154	910-912	je	_	_	_	_	
+1-155	913-916	bil	_	_	_	_	
+1-156	917-923	predor	_	_	_	_	
+1-157	924-926	za	_	_	_	_	
+1-158	927-934	tovorna	_	_	_	_	
+1-159	935-941	vozila	_	_	_	_	
+1-160	942-947	odprt	_	_	_	_	
+1-161	948-949	,	_	_	_	_	
+1-162	950-955	razen	_	_	_	_	
+1-163	956-958	iz	_	_	_	_	
+1-164	959-968	slovenske	_	_	_	_	
+1-165	969-974	stani	_	_	_	_	
+1-166	975-976	,	_	_	_	_	
+1-167	977-978	"	_	_	_	_	
+1-168	979-984	kljub	_	_	_	_	
+1-169	985-993	obljubam	_	_	_	_	
+1-170	994-995	,	_	_	_	_	
+1-171	996-998	da	_	_	_	_	
+1-172	999-1001	bo	_	_	_	_	
+1-173	1002-1008	predor	_	_	_	_	
+1-174	1009-1014	odprt	_	_	_	_	
+1-175	1015-1017	za	_	_	_	_	
+1-176	1018-1023	izvoz	_	_	_	_	
+1-177	1024-1026	iz	_	_	_	_	
+1-178	1027-1036	Slovenije	LOC	3 - Nevtralno	*->4-3	*[4]	
+1-179	1037-1038	"	_	_	_	_	
+1-180	1039-1040	.	_	_	_	_	
+1-181	1041-1043	Na	_	_	_	_	
+1-182	1044-1051	spletni	_	_	_	_	
+1-183	1052-1057	stran	_	_	_	_	
+1-184	1058-1070	avstrijskega	_	3 - Nevtralno[13]	*->9-1	*[9]	
+1-185	1071-1082	upravljalca	_	3 - Nevtralno[13]	*->9-1	*[9]	
+1-186	1083-1091	avtocest	_	3 - Nevtralno[13]	*->9-1	*[9]	
+1-187	1092-1099	Asfinag	ORG	3 - Nevtralno[13]	*->9-1	*[9]	
+1-188	1100-1109	opozorila	_	_	_	_	
+1-189	1110-1111	o	_	_	_	_	
+1-190	1112-1121	prepovedi	_	_	_	_	
+1-191	1122-1129	prometa	_	_	_	_	
+1-192	1130-1135	skozi	_	_	_	_	
+1-193	1136-1146	Karavanški	_	_	*->1-4	*[1]	
+1-194	1147-1153	predor	_	_	*->1-4	*[1]	
+1-195	1154-1156	še	_	_	_	_	
+1-196	1157-1159	ni	_	_	_	_	
+1-197	1160-1166	mogoče	_	_	_	_	
+1-198	1167-1174	opaziti	_	_	_	_	
+1-199	1175-1176	.	_	_	_	_	
+1-200	1177-1187	Predsednik	_	_	*->10-1	*[10]	
+1-201	1188-1195	sekcije	_	_	*->10-1	*[10]	
+1-202	1196-1198	za	_	_	*->10-1	*[10]	
+1-203	1199-1205	promet	_	_	*->10-1	*[10]	
+1-204	1206-1209	pri	_	_	*->10-1	*[10]	
+1-205	1210-1213	OZS	ORG	3 - Nevtralno	*->10-1|*->3-2	*[10]|*[3]	
+1-206	1214-1220	Andrej	PER[7]	_	*->10-1	*[10]	
+1-207	1221-1228	Klobasa	PER[7]	_	*->10-1	*[10]	
+1-208	1229-1231	pa	_	_	_	_	
+1-209	1232-1234	je	_	_	_	_	
+1-210	1235-1237	za	_	_	_	_	
+1-211	1238-1246	zurnal24	_	_	_	_	
+1-212	1247-1248	.	_	_	_	_	
+1-213	1249-1251	si	_	_	_	_	
+1-214	1252-1259	povedal	_	_	_	_	
+1-215	1260-1261	,	_	_	_	_	
+1-216	1262-1264	da	_	_	_	_	
+1-217	1265-1267	je	_	_	_	_	
+1-218	1268-1275	ogorčen	_	_	_	_	
+1-219	1276-1279	nad	_	_	_	_	
+1-220	1280-1289	ravnanjem	_	_	_	_	
+1-221	1290-1295	Darsa	ORG	_	*->7-3	*[7]	
+1-222	1296-1297	,	_	_	_	_	
+1-223	1298-1300	ki	_	_	_	_	
+1-224	1301-1303	je	_	_	_	_	
+1-225	1304-1309	kljub	_	_	_	_	
+1-226	1310-1318	izrecnim	_	_	_	_	
+1-227	1319-1328	navodilom	_	_	_	_	
+1-228	1329-1339	prometnega	ORG[8]	3 - Nevtralno[14]	*->11-1	*[11]	
+1-229	1340-1351	ministrstva	ORG[8]	3 - Nevtralno[14]	*->11-1	*[11]	
+1-230	1352-1353	,	_	_	_	_	
+1-231	1354-1356	da	_	_	_	_	
+1-232	1357-1360	naj	_	_	_	_	
+1-233	1361-1363	ne	_	_	_	_	
+1-234	1364-1373	postavlja	_	_	_	_	
+1-235	1374-1381	nobenih	_	_	_	_	
+1-236	1382-1394	elektronskih	_	_	_	_	
+1-237	1395-1402	preprek	_	_	_	_	
+1-238	1403-1404	,	_	_	_	_	
+1-239	1405-1413	tovornim	_	_	_	_	
+1-240	1414-1421	vozilom	_	_	_	_	
+1-241	1422-1432	prepovedal	_	_	_	_	
+1-242	1433-1438	vstop	_	_	_	_	
+1-243	1439-1440	v	_	_	_	_	
+1-244	1441-1447	predor	_	3 - Nevtralno[15]	*->1-5	*[1]	
+1-245	1448-1457	Karavanke	LOC	3 - Nevtralno[15]	*->1-5	*[1]	
+1-246	1458-1459	.	_	_	_	_	
+1-247	1460-1461	"	_	_	_	_	
+1-248	1462-1464	To	_	_	_	_	
+1-249	1465-1467	so	_	_	_	_	
+1-250	1468-1473	lumpi	_	_	_	_	
+1-251	1474-1475	,	_	_	_	_	
+1-252	1476-1478	ki	_	_	_	_	
+1-253	1479-1487	nagajajo	_	_	_	_	
+1-254	1488-1498	slovenskim	_	_	_	_	
+1-255	1499-1510	podjetnikom	_	_	_	_	
+1-256	1511-1512	.	_	_	_	_	
+1-257	1513-1517	Sami	_	_	_	_	
+1-258	1518-1522	sebi	_	_	_	_	
+1-259	1523-1526	smo	_	_	_	_	
+1-260	1527-1533	berači	_	_	_	_	
+1-261	1534-1535	,	_	_	_	_	
+1-262	1536-1537	"	_	_	_	_	
+1-263	1538-1540	se	_	_	_	_	
+1-264	1541-1544	nad	_	_	_	_	
+1-265	1545-1551	Darsom	ORG	2 - Negativno	*->7-4	*[7]	
+1-266	1552-1556	jezi	_	_	_	_	
+1-267	1557-1564	Klobasa	PER	3 - Nevtralno	*->10-2	*[10]	
+1-268	1565-1566	.	_	_	_	_	
+1-269	1567-1571	Nove	_	_	_	_	
+1-270	1572-1580	omejitve	_	_	_	_	
+1-271	1581-1590	tovornega	_	_	_	_	
+1-272	1591-1598	prometa	_	_	_	_	
+1-273	1599-1608	Celoletni	_	_	_	_	
+1-274	1609-1618	prepovedi	_	_	_	_	
+1-275	1619-1625	vožnje	_	_	_	_	
+1-276	1626-1634	tovornih	_	_	_	_	
+1-277	1635-1640	vozil	_	_	_	_	
+1-278	1641-1644	nad	_	_	_	_	
+1-279	1645-1648	7,5	_	_	_	_	
+1-280	1649-1653	tone	_	_	_	_	
+1-281	1654-1656	ob	_	_	_	_	
+1-282	1657-1665	nedeljah	_	_	_	_	
+1-283	1666-1667	,	_	_	_	_	
+1-284	1668-1677	praznikih	_	_	_	_	
+1-285	1678-1680	in	_	_	_	_	
+1-286	1681-1685	dela	_	_	_	_	
+1-287	1686-1693	prostih	_	_	_	_	
+1-288	1694-1698	dneh	_	_	_	_	
+1-289	1699-1701	se	_	_	_	_	
+1-290	1702-1703	z	_	_	_	_	
+1-291	1704-1713	današnjim	_	_	_	_	
+1-292	1714-1718	dnem	_	_	_	_	
+1-293	1719-1731	pridružujejo	_	_	_	_	
+1-294	1732-1734	še	_	_	_	_	
+1-295	1735-1739	nove	_	_	_	_	
+1-296	1740-1741	.	_	_	_	_	
+1-297	1742-1748	Doslej	_	_	_	_	
+1-298	1749-1751	je	_	_	_	_	
+1-299	1752-1756	bila	_	_	_	_	
+1-300	1757-1768	tovornjakom	_	_	_	_	
+1-301	1769-1770	,	_	_	_	_	
+1-302	1771-1778	katerih	_	_	_	_	
+1-303	1779-1787	največja	_	_	_	_	
+1-304	1788-1797	dovoljena	_	_	_	_	
+1-305	1798-1802	masa	_	_	_	_	
+1-306	1803-1810	presega	_	_	_	_	
+1-307	1811-1814	7,5	_	_	_	_	
+1-308	1815-1819	tone	_	_	_	_	
+1-309	1820-1821	,	_	_	_	_	
+1-310	1822-1833	prepovedana	_	_	_	_	
+1-311	1834-1840	vožnja	_	_	_	_	
+1-312	1841-1843	po	_	_	_	_	
+1-313	1844-1854	slovenskih	_	_	_	_	
+1-314	1855-1861	cestah	_	_	_	_	
+1-315	1862-1864	ob	_	_	_	_	
+1-316	1865-1873	nedeljah	_	_	_	_	
+1-317	1874-1875	,	_	_	_	_	
+1-318	1876-1885	praznikih	_	_	_	_	
+1-319	1886-1888	in	_	_	_	_	
+1-320	1889-1893	dela	_	_	_	_	
+1-321	1894-1901	prostih	_	_	_	_	
+1-322	1902-1906	dneh	_	_	_	_	
+1-323	1907-1909	od	_	_	_	_	
+1-324	1910-1911	8	_	_	_	_	
+1-325	1912-1913	.	_	_	_	_	
+1-326	1914-1916	do	_	_	_	_	
+1-327	1917-1919	21	_	_	_	_	
+1-328	1920-1921	.	_	_	_	_	
+1-329	1922-1925	ure	_	_	_	_	
+1-330	1926-1929	ter	_	_	_	_	
+1-331	1930-1932	še	_	_	_	_	
+1-332	1933-1940	dodatno	_	_	_	_	
+1-333	1941-1942	v	_	_	_	_	
+1-334	1943-1948	petek	_	_	_	_	
+1-335	1949-1953	pred	_	_	_	_	
+1-336	1954-1960	veliko	_	_	_	_	
+1-337	1961-1966	nočjo	_	_	_	_	
+1-338	1967-1969	od	_	_	_	_	
+1-339	1970-1972	14	_	_	_	_	
+1-340	1973-1974	.	_	_	_	_	
+1-341	1975-1977	do	_	_	_	_	
+1-342	1978-1980	21	_	_	_	_	
+1-343	1981-1982	.	_	_	_	_	
+1-344	1983-1986	ure	_	_	_	_	
+1-345	1987-1988	.	_	_	_	_	
+1-346	1989-1990	V	_	_	_	_	
+1-347	1991-1997	skladu	_	_	_	_	
+1-348	1998-1999	z	_	_	_	_	
+1-349	2000-2007	odredbo	_	_	_	_	
+1-350	2008-2009	o	_	_	_	_	
+1-351	2010-2018	omejitvi	_	_	_	_	
+1-352	2019-2026	prometa	_	_	_	_	
+1-353	2027-2028	,	_	_	_	_	
+1-354	2029-2031	ki	_	_	_	_	
+1-355	2032-2034	jo	_	_	_	_	
+1-356	2035-2037	je	_	_	_	_	
+1-357	2038-2043	konec	_	_	_	_	
+1-358	2044-2052	lanskega	_	_	_	_	
+1-359	2053-2060	avgusta	_	_	_	_	
+1-360	2061-2068	sprejel	_	_	_	_	
+1-361	2069-2076	tedanji	_	3 - Nevtralno[16]	*->12-1	*[12]	
+1-362	2077-2085	minister	_	3 - Nevtralno[16]	*->12-1	*[12]	
+1-363	2086-2088	za	_	3 - Nevtralno[16]	*->12-1	*[12]	
+1-364	2089-2095	promet	_	3 - Nevtralno[16]	*->12-1	*[12]	
+1-365	2096-2103	Patrick	PER[9]	3 - Nevtralno[16]	*->12-1	*[12]	
+1-366	2104-2110	Vlačič	PER[9]	3 - Nevtralno[16]	*->12-1	*[12]	
+1-367	2111-2112	,	_	_	_	_	
+1-368	2113-2115	se	_	_	_	_	
+1-369	2116-2121	danes	_	_	_	_	
+1-370	2122-2125	tem	_	_	_	_	
+1-371	2126-2135	omejitvam	_	_	_	_	
+1-372	2136-2148	pridružujejo	_	_	_	_	
+1-373	2149-2151	še	_	_	_	_	
+1-374	2152-2159	dodatne	_	_	_	_	
+1-375	2160-2161	,	_	_	_	_	
+1-376	2162-2163	s	_	_	_	_	
+1-377	2164-2174	turistično	_	_	_	_	
+1-378	2175-2181	sezono	_	_	_	_	
+1-379	2182-2190	povezane	_	_	_	_	
+1-380	2191-2199	omejitve	_	_	_	_	
+1-381	2200-2207	prometa	_	_	_	_	
+1-382	2208-2209	.	_	_	_	_	
+1-383	2210-2213	Vse	_	_	_	_	
+1-384	2214-2216	do	_	_	_	_	
+1-385	2217-2223	prvega	_	_	_	_	
+1-386	2224-2229	konca	_	_	_	_	
+1-387	2230-2235	tedna	_	_	_	_	
+1-388	2236-2237	v	_	_	_	_	
+1-389	2238-2247	septembru	_	_	_	_	
+1-390	2248-2250	bo	_	_	_	_	
+1-391	2251-2255	tako	_	_	_	_	
+1-392	2256-2263	veljala	_	_	_	_	
+1-393	2264-2266	še	_	_	_	_	
+1-394	2267-2274	dodatna	_	_	_	_	
+1-395	2275-2283	omejitev	_	_	_	_	
+1-396	2284-2293	tovornega	_	_	_	_	
+1-397	2294-2301	prometa	_	_	_	_	
+1-398	2302-2304	ob	_	_	_	_	
+1-399	2305-2312	sobotah	_	_	_	_	
+1-400	2313-2316	med	_	_	_	_	
+1-401	2317-2318	8	_	_	_	_	
+1-402	2319-2320	.	_	_	_	_	
+1-403	2321-2323	in	_	_	_	_	
+1-404	2324-2326	13	_	_	_	_	
+1-405	2327-2328	.	_	_	_	_	
+1-406	2329-2332	uro	_	_	_	_	
+1-407	2333-2336	ter	_	_	_	_	
+1-408	2337-2339	za	_	_	_	_	
+1-409	2340-2348	določene	_	_	_	_	
+1-410	2349-2354	ceste	_	_	_	_	
+1-411	2355-2359	tudi	_	_	_	_	
+1-412	2360-2362	ob	_	_	_	_	
+1-413	2363-2370	sobotah	_	_	_	_	
+1-414	2371-2374	med	_	_	_	_	
+1-415	2375-2376	6	_	_	_	_	
+1-416	2377-2378	.	_	_	_	_	
+1-417	2379-2381	in	_	_	_	_	
+1-418	2382-2384	16	_	_	_	_	
+1-419	2385-2386	.	_	_	_	_	
+1-420	2387-2390	uro	_	_	_	_	
+1-421	2391-2394	ter	_	_	_	_	
+1-422	2395-2397	ob	_	_	_	_	
+1-423	2398-2406	nedeljah	_	_	_	_	
+1-424	2407-2408	,	_	_	_	_	
+1-425	2409-2418	praznikih	_	_	_	_	
+1-426	2419-2421	in	_	_	_	_	
+1-427	2422-2426	dela	_	_	_	_	
+1-428	2427-2434	prostih	_	_	_	_	
+1-429	2435-2439	dneh	_	_	_	_	
+1-430	2440-2442	od	_	_	_	_	
+1-431	2443-2444	8	_	_	_	_	
+1-432	2445-2446	.	_	_	_	_	
+1-433	2447-2449	do	_	_	_	_	
+1-434	2450-2452	22	_	_	_	_	
+1-435	2453-2454	.	_	_	_	_	
+1-436	2455-2458	ure	_	_	_	_	
+1-437	2459-2460	.	_	_	_	_	
+1-438	2461-2463	Te	_	_	_	_	
+1-439	2464-2469	ceste	_	_	_	_	
+1-440	2470-2472	so	_	_	_	_	
+1-441	2473-2474	:	_	_	_	_	
+1-442	2475-2484	avtocesta	_	_	_	_	
+1-443	2485-2494	Ljubljana	LOC	_	*->13-1	*[13]	
+1-444	2495-2496	-	_	_	_	_	
+1-445	2497-2503	Klanec	LOC	_	*->14-1	*[14]	
+1-446	2504-2507	ter	_	_	_	_	
+1-447	2508-2518	regionalne	_	_	_	_	
+1-448	2519-2524	ceste	_	_	_	_	
+1-449	2525-2534	Ljubljana	LOC	3 - Nevtralno	*->13-2	*[13]	
+1-450	2535-2536	-	_	_	_	_	
+1-451	2537-2543	Kozina	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-452	2544-2545	-	_	_	_	_	
+1-453	2546-2552	Klanec	LOC	3 - Nevtralno	*->14-2	*[14]	
+1-454	2553-2554	-	_	_	_	_	
+1-455	2555-2560	Srmin	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-456	2561-2562	,	_	_	_	_	
+1-457	2563-2570	Škofije	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-458	2571-2572	-	_	_	_	_	
+1-459	2573-2581	Sečovlje	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-460	2582-2583	,	_	_	_	_	
+1-461	2584-2589	Koper	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-462	2590-2591	-	_	_	_	_	
+1-463	2592-2600	Dragonja	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-464	2601-2603	in	_	_	_	_	
+1-465	2604-2612	Postojna	LOC	3 - Nevtralno	*->21-1	*[21]	
+1-466	2613-2614	-	_	_	_	_	
+1-467	2615-2622	Jelšane	LOC	3 - Nevtralno	*->22-1	*[22]	

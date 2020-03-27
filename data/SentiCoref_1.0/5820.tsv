@@ -1,0 +1,299 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Po besedah Špele Vovk iz volilnega štaba Boruta Pahorja , bo nadaljnji potek Pahorjeve predvolilne kampanje nekoliko prilagojen . Predsedniški kandidat Borut Pahor je po petkovem padcu s konja in oskrbi v Univerzitetnem kliničnem centru Ljubljana danes zapustil bolnišnico , je pojasnila Špela Vovk iz Pahorjevega volilnega štaba . Pahor bo po njenih besedah moral še nekaj časa okrevati , vendar pa se počuti dobro , zato bodo s predvolilnimi aktivnostmi nadaljevali . Pahorja so v petek popoldne zaradi bolečin po padcu na hrbet slikali z rentgenom , ki sprva ni pokazal poškodb ali zlomov . Z dodatnimi preiskavami pa so ugotovili , da ima počeno križnico . Pahor se sicer ni poškodoval v času opravljanja svojih aktivnosti kot predsedniški kandidat . Po besedah Vovkove bodo v štabu nekoliko prilagojeno , pa vendarle nadaljevali s predvolilnimi aktivnostmi . Že v torek bo tako potekal politično - kulturni večer z Borutom Pahorjem , prav tako bo kandidat nadaljeval z aktivnostmi v okviru projekta Skupaj - spodbujajmo drug drugega . Pahor in Zver kandidature še nista uradno vložila Po nedavnih podatkih volilne pisarne je sicer Pahor že pred dnevi zbral dovolj podpisov za kandidaturo za predsednika republike , vendar kandidature za razliko od aktualnega predsednika republike Danila Türka še ni uradno vložil . Prav tako kandidature še ni vložil predsedniški kandidat Milan Zver , ki bo kandidiral s podporo dveh strank in podpisi poslancev . Rok za vložitev kandidatur se sicer izteče natančno čez mesec dni - 17 . oktobra . Doslej je kandidaturo napovedalo 12 kandidatov - poleg omenjenih treh še Monika Malešič , Artur Štern , Miro Žitko , Fani Eršte , Ladislav Troha , Dušan Egidij Kubot - Totislo , Milan Robič , Miran Šic , Martina Valenčič in Veronika Juvan
+1-1	0-2	Po	_	_	_	_	
+1-2	3-10	besedah	_	_	_	_	
+1-3	11-16	Špele	PER[1]	_	*->2-1	*[2]	
+1-4	17-21	Vovk	PER[1]	_	*->2-1	*[2]	
+1-5	22-24	iz	_	_	_	_	
+1-6	25-34	volilnega	_	_	_	_	
+1-7	35-40	štaba	_	_	_	_	
+1-8	41-47	Boruta	PER[2]	_	*->1-1	*[1]	
+1-9	48-55	Pahorja	PER[2]	_	*->1-1	*[1]	
+1-10	56-57	,	_	_	_	_	
+1-11	58-60	bo	_	_	_	_	
+1-12	61-70	nadaljnji	_	_	_	_	
+1-13	71-76	potek	_	_	_	_	
+1-14	77-86	Pahorjeve	PER	_	*->1-2	*[1]	
+1-15	87-98	predvolilne	_	_	_	_	
+1-16	99-107	kampanje	_	_	_	_	
+1-17	108-116	nekoliko	_	_	_	_	
+1-18	117-127	prilagojen	_	_	_	_	
+1-19	128-129	.	_	_	_	_	
+1-20	130-142	Predsedniški	_	_	*->1-3	*[1]	
+1-21	143-151	kandidat	_	_	*->1-3	*[1]	
+1-22	152-157	Borut	PER[3]	_	*->1-3	*[1]	
+1-23	158-163	Pahor	PER[3]	_	*->1-3	*[1]	
+1-24	164-166	je	_	_	_	_	
+1-25	167-169	po	_	_	_	_	
+1-26	170-178	petkovem	_	_	_	_	
+1-27	179-184	padcu	_	_	_	_	
+1-28	185-186	s	_	_	_	_	
+1-29	187-192	konja	_	_	_	_	
+1-30	193-195	in	_	_	_	_	
+1-31	196-202	oskrbi	_	_	_	_	
+1-32	203-204	v	_	_	_	_	
+1-33	205-219	Univerzitetnem	ORG[4]	3 - Nevtralno[20]	*->4-1	*[4]	
+1-34	220-229	kliničnem	ORG[4]	3 - Nevtralno[20]	*->4-1	*[4]	
+1-35	230-236	centru	ORG[4]	3 - Nevtralno[20]	*->4-1	*[4]	
+1-36	237-246	Ljubljana	ORG[4]|LOC[5]	3 - Nevtralno[20]|3 - Nevtralno[21]	*->4-1|*->5-1	*[4]|*[5]	
+1-37	247-252	danes	_	_	_	_	
+1-38	253-261	zapustil	_	_	_	_	
+1-39	262-272	bolnišnico	_	_	_	_	
+1-40	273-274	,	_	_	_	_	
+1-41	275-277	je	_	_	_	_	
+1-42	278-287	pojasnila	_	_	_	_	
+1-43	288-293	Špela	PER[6]	_	*->2-2	*[2]	
+1-44	294-298	Vovk	PER[6]	_	*->2-2	*[2]	
+1-45	299-301	iz	_	_	_	_	
+1-46	302-313	Pahorjevega	PER	_	*->1-4	*[1]	
+1-47	314-323	volilnega	_	_	_	_	
+1-48	324-329	štaba	_	_	_	_	
+1-49	330-331	.	_	_	_	_	
+1-50	332-337	Pahor	PER	_	*->1-5	*[1]	
+1-51	338-340	bo	_	_	_	_	
+1-52	341-343	po	_	_	_	_	
+1-53	344-350	njenih	_	_	*->2-3	*[2]	
+1-54	351-358	besedah	_	_	_	_	
+1-55	359-364	moral	_	_	_	_	
+1-56	365-367	še	_	_	_	_	
+1-57	368-373	nekaj	_	_	_	_	
+1-58	374-378	časa	_	_	_	_	
+1-59	379-387	okrevati	_	_	_	_	
+1-60	388-389	,	_	_	_	_	
+1-61	390-396	vendar	_	_	_	_	
+1-62	397-399	pa	_	_	_	_	
+1-63	400-402	se	_	_	_	_	
+1-64	403-409	počuti	_	_	*->1-6	*[1]	
+1-65	410-415	dobro	_	_	_	_	
+1-66	416-417	,	_	_	_	_	
+1-67	418-422	zato	_	_	_	_	
+1-68	423-427	bodo	_	_	_	_	
+1-69	428-429	s	_	_	_	_	
+1-70	430-443	predvolilnimi	_	_	_	_	
+1-71	444-455	aktivnostmi	_	_	_	_	
+1-72	456-467	nadaljevali	_	_	_	_	
+1-73	468-469	.	_	_	_	_	
+1-74	470-477	Pahorja	PER	_	*->1-7	*[1]	
+1-75	478-480	so	_	_	_	_	
+1-76	481-482	v	_	_	_	_	
+1-77	483-488	petek	_	_	_	_	
+1-78	489-497	popoldne	_	_	_	_	
+1-79	498-504	zaradi	_	_	_	_	
+1-80	505-512	bolečin	_	_	_	_	
+1-81	513-515	po	_	_	_	_	
+1-82	516-521	padcu	_	_	_	_	
+1-83	522-524	na	_	_	_	_	
+1-84	525-530	hrbet	_	_	_	_	
+1-85	531-538	slikali	_	_	_	_	
+1-86	539-540	z	_	_	_	_	
+1-87	541-550	rentgenom	_	_	_	_	
+1-88	551-552	,	_	_	_	_	
+1-89	553-555	ki	_	_	_	_	
+1-90	556-561	sprva	_	_	_	_	
+1-91	562-564	ni	_	_	_	_	
+1-92	565-572	pokazal	_	_	_	_	
+1-93	573-580	poškodb	_	_	_	_	
+1-94	581-584	ali	_	_	_	_	
+1-95	585-591	zlomov	_	_	_	_	
+1-96	592-593	.	_	_	_	_	
+1-97	594-595	Z	_	_	_	_	
+1-98	596-605	dodatnimi	_	_	_	_	
+1-99	606-617	preiskavami	_	_	_	_	
+1-100	618-620	pa	_	_	_	_	
+1-101	621-623	so	_	_	_	_	
+1-102	624-633	ugotovili	_	_	_	_	
+1-103	634-635	,	_	_	_	_	
+1-104	636-638	da	_	_	_	_	
+1-105	639-642	ima	_	_	*->1-8	*[1]	
+1-106	643-649	počeno	_	_	_	_	
+1-107	650-658	križnico	_	_	_	_	
+1-108	659-660	.	_	_	_	_	
+1-109	661-666	Pahor	PER	_	*->1-9	*[1]	
+1-110	667-669	se	_	_	_	_	
+1-111	670-675	sicer	_	_	_	_	
+1-112	676-678	ni	_	_	_	_	
+1-113	679-689	poškodoval	_	_	_	_	
+1-114	690-691	v	_	_	_	_	
+1-115	692-696	času	_	_	_	_	
+1-116	697-708	opravljanja	_	_	_	_	
+1-117	709-715	svojih	_	_	_	_	
+1-118	716-726	aktivnosti	_	_	_	_	
+1-119	727-730	kot	_	_	_	_	
+1-120	731-743	predsedniški	_	_	*->1-10	*[1]	
+1-121	744-752	kandidat	_	_	*->1-10	*[1]	
+1-122	753-754	.	_	_	_	_	
+1-123	755-757	Po	_	_	_	_	
+1-124	758-765	besedah	_	_	_	_	
+1-125	766-773	Vovkove	PER	3 - Nevtralno	*->2-4	*[2]	
+1-126	774-778	bodo	_	_	_	_	
+1-127	779-780	v	_	_	_	_	
+1-128	781-786	štabu	_	_	_	_	
+1-129	787-795	nekoliko	_	_	_	_	
+1-130	796-807	prilagojeno	_	_	_	_	
+1-131	808-809	,	_	_	_	_	
+1-132	810-812	pa	_	_	_	_	
+1-133	813-821	vendarle	_	_	_	_	
+1-134	822-833	nadaljevali	_	_	_	_	
+1-135	834-835	s	_	_	_	_	
+1-136	836-849	predvolilnimi	_	_	_	_	
+1-137	850-861	aktivnostmi	_	_	_	_	
+1-138	862-863	.	_	_	_	_	
+1-139	864-866	Že	_	_	_	_	
+1-140	867-868	v	_	_	_	_	
+1-141	869-874	torek	_	_	_	_	
+1-142	875-877	bo	_	_	_	_	
+1-143	878-882	tako	_	_	_	_	
+1-144	883-890	potekal	_	_	_	_	
+1-145	891-900	politično	_	_	_	_	
+1-146	901-902	-	_	_	_	_	
+1-147	903-911	kulturni	_	_	_	_	
+1-148	912-917	večer	_	_	_	_	
+1-149	918-919	z	_	_	_	_	
+1-150	920-927	Borutom	PER[7]	_	*->1-11	*[1]	
+1-151	928-936	Pahorjem	PER[7]	_	*->1-11	*[1]	
+1-152	937-938	,	_	_	_	_	
+1-153	939-943	prav	_	_	_	_	
+1-154	944-948	tako	_	_	_	_	
+1-155	949-951	bo	_	_	_	_	
+1-156	952-960	kandidat	_	_	*->1-12	*[1]	
+1-157	961-971	nadaljeval	_	_	_	_	
+1-158	972-973	z	_	_	_	_	
+1-159	974-985	aktivnostmi	_	_	_	_	
+1-160	986-987	v	_	_	_	_	
+1-161	988-994	okviru	_	_	_	_	
+1-162	995-1003	projekta	_	_	_	_	
+1-163	1004-1010	Skupaj	_	_	_	_	
+1-164	1011-1012	-	_	_	_	_	
+1-165	1013-1024	spodbujajmo	_	_	_	_	
+1-166	1025-1029	drug	_	_	_	_	
+1-167	1030-1037	drugega	_	_	_	_	
+1-168	1038-1039	.	_	_	_	_	
+1-169	1040-1045	Pahor	PER	_	*->1-13	*[1]	
+1-170	1046-1048	in	_	_	_	_	
+1-171	1049-1053	Zver	PER	_	*->3-1	*[3]	
+1-172	1054-1065	kandidature	_	_	_	_	
+1-173	1066-1068	še	_	_	_	_	
+1-174	1069-1074	nista	_	_	_	_	
+1-175	1075-1081	uradno	_	_	_	_	
+1-176	1082-1089	vložila	_	_	_	_	
+1-177	1090-1092	Po	_	_	_	_	
+1-178	1093-1101	nedavnih	_	_	_	_	
+1-179	1102-1110	podatkih	_	_	_	_	
+1-180	1111-1118	volilne	_	_	_	_	
+1-181	1119-1126	pisarne	_	_	_	_	
+1-182	1127-1129	je	_	_	_	_	
+1-183	1130-1135	sicer	_	_	_	_	
+1-184	1136-1141	Pahor	PER	_	*->1-14	*[1]	
+1-185	1142-1144	že	_	_	_	_	
+1-186	1145-1149	pred	_	_	_	_	
+1-187	1150-1155	dnevi	_	_	_	_	
+1-188	1156-1161	zbral	_	_	_	_	
+1-189	1162-1168	dovolj	_	_	_	_	
+1-190	1169-1177	podpisov	_	_	_	_	
+1-191	1178-1180	za	_	_	_	_	
+1-192	1181-1192	kandidaturo	_	_	_	_	
+1-193	1193-1195	za	_	_	_	_	
+1-194	1196-1207	predsednika	_	_	_	_	
+1-195	1208-1217	republike	_	_	_	_	
+1-196	1218-1219	,	_	_	_	_	
+1-197	1220-1226	vendar	_	_	_	_	
+1-198	1227-1238	kandidature	_	_	_	_	
+1-199	1239-1241	za	_	_	_	_	
+1-200	1242-1249	razliko	_	_	_	_	
+1-201	1250-1252	od	_	_	_	_	
+1-202	1253-1263	aktualnega	_	_	_	_	
+1-203	1264-1275	predsednika	_	_	_	_	
+1-204	1276-1285	republike	_	_	_	_	
+1-205	1286-1292	Danila	PER[8]	3 - Nevtralno[22]	*->6-1	*[6]	
+1-206	1293-1298	Türka	PER[8]	3 - Nevtralno[22]	*->6-1	*[6]	
+1-207	1299-1301	še	_	_	_	_	
+1-208	1302-1304	ni	_	_	_	_	
+1-209	1305-1311	uradno	_	_	_	_	
+1-210	1312-1318	vložil	_	4 - Pozitivno	*->1-15	*[1]	
+1-211	1319-1320	.	_	_	_	_	
+1-212	1321-1325	Prav	_	_	_	_	
+1-213	1326-1330	tako	_	_	_	_	
+1-214	1331-1342	kandidature	_	_	_	_	
+1-215	1343-1345	še	_	_	_	_	
+1-216	1346-1348	ni	_	_	_	_	
+1-217	1349-1355	vložil	_	_	_	_	
+1-218	1356-1368	predsedniški	_	_	_	_	
+1-219	1369-1377	kandidat	_	_	_	_	
+1-220	1378-1383	Milan	PER[9]	_	*->3-2	*[3]	
+1-221	1384-1388	Zver	PER[9]	_	*->3-2	*[3]	
+1-222	1389-1390	,	_	_	_	_	
+1-223	1391-1393	ki	_	_	_	_	
+1-224	1394-1396	bo	_	_	_	_	
+1-225	1397-1407	kandidiral	_	3 - Nevtralno	*->3-3	*[3]	
+1-226	1408-1409	s	_	_	_	_	
+1-227	1410-1417	podporo	_	_	_	_	
+1-228	1418-1422	dveh	_	_	_	_	
+1-229	1423-1429	strank	_	_	_	_	
+1-230	1430-1432	in	_	_	_	_	
+1-231	1433-1440	podpisi	_	_	_	_	
+1-232	1441-1450	poslancev	_	_	_	_	
+1-233	1451-1452	.	_	_	_	_	
+1-234	1453-1456	Rok	_	_	_	_	
+1-235	1457-1459	za	_	_	_	_	
+1-236	1460-1468	vložitev	_	_	_	_	
+1-237	1469-1479	kandidatur	_	_	_	_	
+1-238	1480-1482	se	_	_	_	_	
+1-239	1483-1488	sicer	_	_	_	_	
+1-240	1489-1495	izteče	_	_	_	_	
+1-241	1496-1504	natančno	_	_	_	_	
+1-242	1505-1508	čez	_	_	_	_	
+1-243	1509-1514	mesec	_	_	_	_	
+1-244	1515-1518	dni	_	_	_	_	
+1-245	1519-1520	-	_	_	_	_	
+1-246	1521-1523	17	_	_	_	_	
+1-247	1524-1525	.	_	_	_	_	
+1-248	1526-1533	oktobra	_	_	_	_	
+1-249	1534-1535	.	_	_	_	_	
+1-250	1536-1542	Doslej	_	_	_	_	
+1-251	1543-1545	je	_	_	_	_	
+1-252	1546-1557	kandidaturo	_	_	_	_	
+1-253	1558-1568	napovedalo	_	_	_	_	
+1-254	1569-1571	12	_	_	_	_	
+1-255	1572-1582	kandidatov	_	_	_	_	
+1-256	1583-1584	-	_	_	_	_	
+1-257	1585-1590	poleg	_	_	_	_	
+1-258	1591-1600	omenjenih	_	_	_	_	
+1-259	1601-1605	treh	_	_	_	_	
+1-260	1606-1608	še	_	_	_	_	
+1-261	1609-1615	Monika	PER[10]	3 - Nevtralno[23]	*->7-1	*[7]	
+1-262	1616-1623	Malešič	PER[10]	3 - Nevtralno[23]	*->7-1	*[7]	
+1-263	1624-1625	,	_	_	_	_	
+1-264	1626-1631	Artur	PER[11]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-265	1632-1637	Štern	PER[11]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-266	1638-1639	,	_	_	_	_	
+1-267	1640-1644	Miro	PER[12]	3 - Nevtralno[25]	*->15-1	*[15]	
+1-268	1645-1650	Žitko	PER[12]	3 - Nevtralno[25]	*->15-1	*[15]	
+1-269	1651-1652	,	_	_	_	_	
+1-270	1653-1657	Fani	PER[13]	3 - Nevtralno[26]	*->16-1	*[16]	
+1-271	1658-1663	Eršte	PER[13]	3 - Nevtralno[26]	*->16-1	*[16]	
+1-272	1664-1665	,	_	_	_	_	
+1-273	1666-1674	Ladislav	PER[14]	3 - Nevtralno[27]	*->14-1	*[14]	
+1-274	1675-1680	Troha	PER[14]	3 - Nevtralno[27]	*->14-1	*[14]	
+1-275	1681-1682	,	_	_	_	_	
+1-276	1683-1688	Dušan	PER[15]	3 - Nevtralno[28]	*->13-1	*[13]	
+1-277	1689-1695	Egidij	PER[15]	3 - Nevtralno[28]	*->13-1	*[13]	
+1-278	1696-1701	Kubot	PER[15]	3 - Nevtralno[28]	*->13-1	*[13]	
+1-279	1702-1703	-	PER[15]	3 - Nevtralno[28]	*->13-1	*[13]	
+1-280	1704-1711	Totislo	PER[15]	3 - Nevtralno[28]	*->13-1	*[13]	
+1-281	1712-1713	,	_	_	_	_	
+1-282	1714-1719	Milan	PER[16]	3 - Nevtralno[29]	*->12-1	*[12]	
+1-283	1720-1725	Robič	PER[16]	3 - Nevtralno[29]	*->12-1	*[12]	
+1-284	1726-1727	,	_	_	_	_	
+1-285	1728-1733	Miran	PER[17]	3 - Nevtralno[30]	*->11-1	*[11]	
+1-286	1734-1737	Šic	PER[17]	3 - Nevtralno[30]	*->11-1	*[11]	
+1-287	1738-1739	,	_	_	_	_	
+1-288	1740-1747	Martina	PER[18]	3 - Nevtralno[31]	*->10-1	*[10]	
+1-289	1748-1756	Valenčič	PER[18]	3 - Nevtralno[31]	*->10-1	*[10]	
+1-290	1757-1759	in	_	_	_	_	
+1-291	1760-1768	Veronika	PER[19]	3 - Nevtralno[32]	*->9-1	*[9]	
+1-292	1769-1774	Juvan	PER[19]	3 - Nevtralno[32]	*->9-1	*[9]	

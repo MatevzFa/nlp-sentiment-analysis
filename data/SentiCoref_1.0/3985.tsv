@@ -1,0 +1,503 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Kratke vestičke s sveta gospodarstva za vas pripravljajo v redakciji Poslovnega dnevnika . Boštjan Kreft okrepil kapital Reporterja . . . Boštjan Kreft je v dneh okrog novega leta izvedel za 110.000 evrov težko dokapitalizacijo podjetja Prava smer , ki izdaja tednik Reporter . V kapital je pretvoril terjatev do podjetja Gradis iz Srbije v lasti Ljubomirja Svorcana in hkrati vložil še 30.000 evrov v denarju . Prava smer ima sicer že od ustanovitve leta 2008 naprej negativen kapital . . . Miklavž Borec pa podjetja Finea Tudi Miklavž Borec , lastnik Finee , se je odločil za dokapitalizacijo podjetja . V kapital je pretvoril za 600.000 evrov posojil . Pulsar Naložbe bo ugasnil Družba Pulsar Naložbe , ki jo vodi Marko Vavpetič in je imelo še konec leta 2011 za dobrih deset milijonov evrov premoženja , bo po odločitvi ciprskega lastnika prenehala po skrajšanem postopku brez likvidacije . Tomaž Jeršič do leta 2018 pod budnim očesom upnikov Sodišče je v osebnem stečaju Tomaža Jeršiča začelo postopek odpusta obveznosti . Preizkusno obdobje bo trajalo do januarja 2018 , pri čemer se lahko upniki na čelu z NLB na sklep še pritožijo . Jeršič , nekdanji državni sekretar , je sicer jamčil za obveznosti podjetja Proholding . Stojanu Oštirju zamrznili lastništvo Lesnine trgovine Direktor in večinski lastnik Lesnine trgovine Stojan Oštir do nadaljnjega ne more razpolagati s svojim 90 - odstotnim deležem . Sadjar in zelenjavar se je rešil stečaja Upniki ljubljanskega podjetja Bokat , ki se ukvarja z uvozom sadja in zelenjave , so potrdili prisilno poravnavo . Za 50 - odstotni odpis terjatev so glasovali upniki s 64 odstotki glasov . Linxair izgubil družbenika Letalska družba Linxair , ki ima že več kot pol leta blokirane račune , je pred dnevi izgubila enega od lastnikov . Saša Vinković je dober odstotek lastništva prodal Rudiju Bricu . Upniki “ napadajo ” Odlazkovo Komunalo Pred dnevi sta še dva upnika Komunale iz Lendave uspela z izvršbo in se vpisala na njen 15 - odstotni lastniški delež Papirja Servisa . Na njem je sicer že vrsta upnikov , prva pa je NLB . Kot je znano , lendavsko Komunalo , ki jo večinsko obvladuje prav Papir Servis Martina Odlazka , zapirajo . Grunt : NLB Leasing ob najmanj polovico denarja Tržna vrednost 32 stanovanjskih hiš v Bistrici ob Dravi pri Mariboru , ki jih je do tretje faze zgradilo podjetje Grunt in so danes v njegovi stečajni masi , je okoli tri milijone evrov . Po dogovoru z NLB Leasingom ( prijavil 5,6 milijona evrov terjatev ) kot ločitvenim upnikom se bo sklop hiš prodajal v celoti . Usoda družbe KVM - Grafik v rokah DZS Grafika Bojan Kos , direktor in lastnik družbe KVM - Grafik , ki jo je pred dnevi poslal v prisilno poravnavo , bo moral za njeno uspešnost v prvi vrsti prepričati družbo DZS Grafik . Do nje ima namreč za več kot 1,5 milijona evrov navadnih terjatev . Pripravil Tomaž
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->26-1	*[26]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-18	Kratke	_	_	_	_	
+1-4	19-27	vestičke	_	_	_	_	
+1-5	28-29	s	_	_	_	_	
+1-6	30-35	sveta	_	_	_	_	
+1-7	36-48	gospodarstva	_	_	_	_	
+1-8	49-51	za	_	_	_	_	
+1-9	52-55	vas	_	_	_	_	
+1-10	56-68	pripravljajo	_	_	_	_	
+1-11	69-70	v	_	_	_	_	
+1-12	71-80	redakciji	_	_	_	_	
+1-13	81-91	Poslovnega	ORG[1]	3 - Nevtralno[31]	*->13-1	*[13]	
+1-14	92-100	dnevnika	ORG[1]	3 - Nevtralno[31]	*->13-1	*[13]	
+1-15	101-102	.	_	_	_	_	
+1-16	103-110	Boštjan	PER[2]	_	*->27-1	*[27]	
+1-17	111-116	Kreft	PER[2]	_	*->27-1	*[27]	
+1-18	117-124	okrepil	_	_	_	_	
+1-19	125-132	kapital	_	_	_	_	
+1-20	133-143	Reporterja	ORG	_	*->15-1	*[15]	
+1-21	144-145	.	_	_	_	_	
+1-22	146-147	.	_	_	_	_	
+1-23	148-149	.	_	_	_	_	
+1-24	150-157	Boštjan	PER[3]	_	*->27-2	*[27]	
+1-25	158-163	Kreft	PER[3]	_	*->27-2	*[27]	
+1-26	164-166	je	_	_	_	_	
+1-27	167-168	v	_	_	_	_	
+1-28	169-173	dneh	_	_	_	_	
+1-29	174-179	okrog	_	_	_	_	
+1-30	180-186	novega	_	_	_	_	
+1-31	187-191	leta	_	_	_	_	
+1-32	192-199	izvedel	_	_	_	_	
+1-33	200-202	za	_	_	_	_	
+1-34	203-210	110.000	_	_	_	_	
+1-35	211-216	evrov	_	_	_	_	
+1-36	217-222	težko	_	_	_	_	
+1-37	223-239	dokapitalizacijo	_	_	_	_	
+1-38	240-248	podjetja	_	_	*->4-1	*[4]	
+1-39	249-254	Prava	ORG[4]	_	*->4-1	*[4]	
+1-40	255-259	smer	ORG[4]	_	*->4-1	*[4]	
+1-41	260-261	,	_	_	_	_	
+1-42	262-264	ki	_	_	_	_	
+1-43	265-271	izdaja	_	_	_	_	
+1-44	272-278	tednik	_	3 - Nevtralno[32]	*->15-2	*[15]	
+1-45	279-287	Reporter	ORG	3 - Nevtralno[32]	*->15-2	*[15]	
+1-46	288-289	.	_	_	_	_	
+1-47	290-291	V	_	_	_	_	
+1-48	292-299	kapital	_	_	_	_	
+1-49	300-302	je	_	_	_	_	
+1-50	303-312	pretvoril	_	_	*->27-3	*[27]	
+1-51	313-321	terjatev	_	_	_	_	
+1-52	322-324	do	_	_	_	_	
+1-53	325-333	podjetja	_	3 - Nevtralno[33]	*->32-1	*[32]	
+1-54	334-340	Gradis	ORG	3 - Nevtralno[33]	*->32-1	*[32]	
+1-55	341-343	iz	_	_	_	_	
+1-56	344-350	Srbije	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-57	351-352	v	_	_	_	_	
+1-58	353-358	lasti	_	_	_	_	
+1-59	359-369	Ljubomirja	PER[5]	3 - Nevtralno[34]	*->24-1	*[24]	
+1-60	370-378	Svorcana	PER[5]	3 - Nevtralno[34]	*->24-1	*[24]	
+1-61	379-381	in	_	_	_	_	
+1-62	382-388	hkrati	_	_	_	_	
+1-63	389-395	vložil	_	4 - Pozitivno	*->27-4	*[27]	
+1-64	396-398	še	_	_	_	_	
+1-65	399-405	30.000	_	_	_	_	
+1-66	406-411	evrov	_	_	_	_	
+1-67	412-413	v	_	_	_	_	
+1-68	414-421	denarju	_	_	_	_	
+1-69	422-423	.	_	_	_	_	
+1-70	424-429	Prava	ORG[6]	2 - Negativno[35]	*->4-2	*[4]	
+1-71	430-434	smer	ORG[6]	2 - Negativno[35]	*->4-2	*[4]	
+1-72	435-438	ima	_	_	_	_	
+1-73	439-444	sicer	_	_	_	_	
+1-74	445-447	že	_	_	_	_	
+1-75	448-450	od	_	_	_	_	
+1-76	451-462	ustanovitve	_	_	_	_	
+1-77	463-467	leta	_	_	_	_	
+1-78	468-472	2008	_	_	_	_	
+1-79	473-479	naprej	_	_	_	_	
+1-80	480-489	negativen	_	_	_	_	
+1-81	490-497	kapital	_	_	_	_	
+1-82	498-499	.	_	_	_	_	
+1-83	500-501	.	_	_	_	_	
+1-84	502-503	.	_	_	_	_	
+1-85	504-511	Miklavž	PER[7]	_	*->3-1	*[3]	
+1-86	512-517	Borec	PER[7]	_	*->3-1	*[3]	
+1-87	518-520	pa	_	_	_	_	
+1-88	521-529	podjetja	_	_	*->25-1	*[25]	
+1-89	530-535	Finea	ORG	_	*->25-1	*[25]	
+1-90	536-540	Tudi	_	_	_	_	
+1-91	541-548	Miklavž	PER[8]	_	*->3-2	*[3]	
+1-92	549-554	Borec	PER[8]	_	*->3-2	*[3]	
+1-93	555-556	,	_	_	_	_	
+1-94	557-564	lastnik	_	4 - Pozitivno[36]	*->3-3	*[3]	
+1-95	565-570	Finee	ORG	4 - Pozitivno[36]|3 - Nevtralno[37]	*->3-3|*->25-2	*[3]|*[25]	
+1-96	571-572	,	_	_	_	_	
+1-97	573-575	se	_	_	_	_	
+1-98	576-578	je	_	_	_	_	
+1-99	579-586	odločil	_	_	_	_	
+1-100	587-589	za	_	_	_	_	
+1-101	590-606	dokapitalizacijo	_	_	_	_	
+1-102	607-615	podjetja	_	_	*->25-3	*[25]	
+1-103	616-617	.	_	_	_	_	
+1-104	618-619	V	_	_	_	_	
+1-105	620-627	kapital	_	_	_	_	
+1-106	628-630	je	_	_	_	_	
+1-107	631-640	pretvoril	_	_	_	_	
+1-108	641-643	za	_	_	_	_	
+1-109	644-651	600.000	_	_	_	_	
+1-110	652-657	evrov	_	_	_	_	
+1-111	658-665	posojil	_	_	_	_	
+1-112	666-667	.	_	_	_	_	
+1-113	668-674	Pulsar	ORG[9]	_	*->30-1	*[30]	
+1-114	675-682	Naložbe	ORG[9]	_	*->30-1	*[30]	
+1-115	683-685	bo	_	_	_	_	
+1-116	686-693	ugasnil	_	_	_	_	
+1-117	694-700	Družba	_	_	*->30-2	*[30]	
+1-118	701-707	Pulsar	ORG[10]	_	*->30-2	*[30]	
+1-119	708-715	Naložbe	ORG[10]	_	*->30-2	*[30]	
+1-120	716-717	,	_	_	_	_	
+1-121	718-720	ki	_	_	_	_	
+1-122	721-723	jo	_	_	*->30-3	*[30]	
+1-123	724-728	vodi	_	_	_	_	
+1-124	729-734	Marko	PER[11]	3 - Nevtralno[38]	*->8-1	*[8]	
+1-125	735-743	Vavpetič	PER[11]	3 - Nevtralno[38]	*->8-1	*[8]	
+1-126	744-746	in	_	_	_	_	
+1-127	747-749	je	_	_	_	_	
+1-128	750-755	imelo	_	_	_	_	
+1-129	756-758	še	_	_	_	_	
+1-130	759-764	konec	_	_	_	_	
+1-131	765-769	leta	_	_	_	_	
+1-132	770-774	2011	_	_	_	_	
+1-133	775-777	za	_	_	_	_	
+1-134	778-784	dobrih	_	_	_	_	
+1-135	785-790	deset	_	_	_	_	
+1-136	791-800	milijonov	_	_	_	_	
+1-137	801-806	evrov	_	_	_	_	
+1-138	807-817	premoženja	_	_	_	_	
+1-139	818-819	,	_	_	_	_	
+1-140	820-822	bo	_	_	_	_	
+1-141	823-825	po	_	_	_	_	
+1-142	826-835	odločitvi	_	_	_	_	
+1-143	836-845	ciprskega	_	_	_	_	
+1-144	846-854	lastnika	_	_	_	_	
+1-145	855-864	prenehala	_	2 - Negativno	*->30-4	*[30]	
+1-146	865-867	po	_	_	_	_	
+1-147	868-878	skrajšanem	_	_	_	_	
+1-148	879-887	postopku	_	_	_	_	
+1-149	888-892	brez	_	_	_	_	
+1-150	893-904	likvidacije	_	_	_	_	
+1-151	905-906	.	_	_	_	_	
+1-152	907-912	Tomaž	PER[12]	_	*->28-1	*[28]	
+1-153	913-919	Jeršič	PER[12]	_	*->28-1	*[28]	
+1-154	920-922	do	_	_	_	_	
+1-155	923-927	leta	_	_	_	_	
+1-156	928-932	2018	_	_	_	_	
+1-157	933-936	pod	_	_	_	_	
+1-158	937-943	budnim	_	_	_	_	
+1-159	944-950	očesom	_	_	_	_	
+1-160	951-958	upnikov	_	_	_	_	
+1-161	959-966	Sodišče	_	_	_	_	
+1-162	967-969	je	_	_	_	_	
+1-163	970-971	v	_	_	_	_	
+1-164	972-979	osebnem	_	_	_	_	
+1-165	980-987	stečaju	_	_	_	_	
+1-166	988-994	Tomaža	PER[13]	_	*->28-2	*[28]	
+1-167	995-1002	Jeršiča	PER[13]	_	*->28-2	*[28]	
+1-168	1003-1009	začelo	_	_	_	_	
+1-169	1010-1018	postopek	_	_	_	_	
+1-170	1019-1026	odpusta	_	_	_	_	
+1-171	1027-1037	obveznosti	_	_	_	_	
+1-172	1038-1039	.	_	_	_	_	
+1-173	1040-1050	Preizkusno	_	_	_	_	
+1-174	1051-1058	obdobje	_	_	_	_	
+1-175	1059-1061	bo	_	_	_	_	
+1-176	1062-1069	trajalo	_	_	_	_	
+1-177	1070-1072	do	_	_	_	_	
+1-178	1073-1081	januarja	_	_	_	_	
+1-179	1082-1086	2018	_	_	_	_	
+1-180	1087-1088	,	_	_	_	_	
+1-181	1089-1092	pri	_	_	_	_	
+1-182	1093-1098	čemer	_	_	_	_	
+1-183	1099-1101	se	_	_	_	_	
+1-184	1102-1107	lahko	_	_	_	_	
+1-185	1108-1114	upniki	_	_	_	_	
+1-186	1115-1117	na	_	_	_	_	
+1-187	1118-1122	čelu	_	_	_	_	
+1-188	1123-1124	z	_	_	_	_	
+1-189	1125-1128	NLB	ORG	_	*->11-1	*[11]	
+1-190	1129-1131	na	_	_	_	_	
+1-191	1132-1137	sklep	_	_	_	_	
+1-192	1138-1140	še	_	_	_	_	
+1-193	1141-1150	pritožijo	_	_	_	_	
+1-194	1151-1152	.	_	_	_	_	
+1-195	1153-1159	Jeršič	PER	_	*->28-3	*[28]	
+1-196	1160-1161	,	_	_	_	_	
+1-197	1162-1170	nekdanji	_	_	*->28-4	*[28]	
+1-198	1171-1178	državni	_	_	*->28-4	*[28]	
+1-199	1179-1187	sekretar	_	_	*->28-4	*[28]	
+1-200	1188-1189	,	_	_	_	_	
+1-201	1190-1192	je	_	_	_	_	
+1-202	1193-1198	sicer	_	_	_	_	
+1-203	1199-1205	jamčil	_	2 - Negativno	*->28-5	*[28]	
+1-204	1206-1208	za	_	_	_	_	
+1-205	1209-1219	obveznosti	_	_	_	_	
+1-206	1220-1228	podjetja	_	3 - Nevtralno[39]	*->14-1	*[14]	
+1-207	1229-1239	Proholding	ORG	3 - Nevtralno[39]	*->14-1	*[14]	
+1-208	1240-1241	.	_	_	_	_	
+1-209	1242-1249	Stojanu	PER[14]	_	*->12-1	*[12]	
+1-210	1250-1257	Oštirju	PER[14]	_	*->12-1	*[12]	
+1-211	1258-1267	zamrznili	_	_	_	_	
+1-212	1268-1278	lastništvo	_	_	_	_	
+1-213	1279-1286	Lesnine	ORG[15]	_	*->18-1	*[18]	
+1-214	1287-1295	trgovine	ORG[15]	_	*->18-1	*[18]	
+1-215	1296-1304	Direktor	_	2 - Negativno[40]	*->12-2	*[12]	
+1-216	1305-1307	in	_	2 - Negativno[40]	*->12-2	*[12]	
+1-217	1308-1316	večinski	_	2 - Negativno[40]	*->12-2	*[12]	
+1-218	1317-1324	lastnik	_	2 - Negativno[40]	*->12-2	*[12]	
+1-219	1325-1332	Lesnine	ORG[16]	2 - Negativno[40]|3 - Nevtralno[41]	*->12-2|*->18-2	*[12]|*[18]	
+1-220	1333-1341	trgovine	ORG[16]	2 - Negativno[40]|3 - Nevtralno[41]	*->12-2|*->18-2	*[12]|*[18]	
+1-221	1342-1348	Stojan	PER[17]	2 - Negativno[40]	*->12-2	*[12]	
+1-222	1349-1354	Oštir	PER[17]	2 - Negativno[40]	*->12-2	*[12]	
+1-223	1355-1357	do	_	_	_	_	
+1-224	1358-1369	nadaljnjega	_	_	_	_	
+1-225	1370-1372	ne	_	_	_	_	
+1-226	1373-1377	more	_	_	_	_	
+1-227	1378-1389	razpolagati	_	_	_	_	
+1-228	1390-1391	s	_	_	_	_	
+1-229	1392-1398	svojim	_	_	_	_	
+1-230	1399-1401	90	_	_	_	_	
+1-231	1402-1403	-	_	_	_	_	
+1-232	1404-1413	odstotnim	_	_	_	_	
+1-233	1414-1421	deležem	_	_	_	_	
+1-234	1422-1423	.	_	_	_	_	
+1-235	1424-1430	Sadjar	_	_	*->17-1	*[17]	
+1-236	1431-1433	in	_	_	*->17-1	*[17]	
+1-237	1434-1444	zelenjavar	_	_	*->17-1	*[17]	
+1-238	1445-1447	se	_	_	_	_	
+1-239	1448-1450	je	_	_	_	_	
+1-240	1451-1456	rešil	_	_	*->17-2	*[17]	
+1-241	1457-1464	stečaja	_	_	_	_	
+1-242	1465-1471	Upniki	_	_	_	_	
+1-243	1472-1485	ljubljanskega	_	_	_	_	
+1-244	1486-1494	podjetja	_	_	*->17-3	*[17]	
+1-245	1495-1500	Bokat	ORG	_	*->17-3	*[17]	
+1-246	1501-1502	,	_	_	_	_	
+1-247	1503-1505	ki	_	_	_	_	
+1-248	1506-1508	se	_	_	_	_	
+1-249	1509-1516	ukvarja	_	4 - Pozitivno	*->17-4	*[17]	
+1-250	1517-1518	z	_	_	_	_	
+1-251	1519-1525	uvozom	_	_	_	_	
+1-252	1526-1531	sadja	_	_	_	_	
+1-253	1532-1534	in	_	_	_	_	
+1-254	1535-1544	zelenjave	_	_	_	_	
+1-255	1545-1546	,	_	_	_	_	
+1-256	1547-1549	so	_	_	_	_	
+1-257	1550-1558	potrdili	_	_	_	_	
+1-258	1559-1567	prisilno	_	_	_	_	
+1-259	1568-1577	poravnavo	_	_	_	_	
+1-260	1578-1579	.	_	_	_	_	
+1-261	1580-1582	Za	_	_	_	_	
+1-262	1583-1585	50	_	_	_	_	
+1-263	1586-1587	-	_	_	_	_	
+1-264	1588-1596	odstotni	_	_	_	_	
+1-265	1597-1602	odpis	_	_	_	_	
+1-266	1603-1611	terjatev	_	_	_	_	
+1-267	1612-1614	so	_	_	_	_	
+1-268	1615-1624	glasovali	_	_	_	_	
+1-269	1625-1631	upniki	_	_	_	_	
+1-270	1632-1633	s	_	_	_	_	
+1-271	1634-1636	64	_	_	_	_	
+1-272	1637-1645	odstotki	_	_	_	_	
+1-273	1646-1652	glasov	_	_	_	_	
+1-274	1653-1654	.	_	_	_	_	
+1-275	1655-1662	Linxair	ORG	_	*->16-1	*[16]	
+1-276	1663-1670	izgubil	_	_	_	_	
+1-277	1671-1681	družbenika	_	_	_	_	
+1-278	1682-1690	Letalska	_	_	*->16-2	*[16]	
+1-279	1691-1697	družba	_	_	*->16-2	*[16]	
+1-280	1698-1705	Linxair	ORG	_	*->16-2	*[16]	
+1-281	1706-1707	,	_	_	_	_	
+1-282	1708-1710	ki	_	_	_	_	
+1-283	1711-1714	ima	_	2 - Negativno	*->16-3	*[16]	
+1-284	1715-1717	že	_	_	_	_	
+1-285	1718-1721	več	_	_	_	_	
+1-286	1722-1725	kot	_	_	_	_	
+1-287	1726-1729	pol	_	_	_	_	
+1-288	1730-1734	leta	_	_	_	_	
+1-289	1735-1744	blokirane	_	_	_	_	
+1-290	1745-1751	račune	_	_	_	_	
+1-291	1752-1753	,	_	_	_	_	
+1-292	1754-1756	je	_	_	_	_	
+1-293	1757-1761	pred	_	_	_	_	
+1-294	1762-1767	dnevi	_	_	_	_	
+1-295	1768-1776	izgubila	_	_	_	_	
+1-296	1777-1782	enega	_	_	_	_	
+1-297	1783-1785	od	_	_	_	_	
+1-298	1786-1795	lastnikov	_	_	_	_	
+1-299	1796-1797	.	_	_	_	_	
+1-300	1798-1802	Saša	PER[18]	3 - Nevtralno[42]	*->22-1	*[22]	
+1-301	1803-1811	Vinković	PER[18]	3 - Nevtralno[42]	*->22-1	*[22]	
+1-302	1812-1814	je	_	_	_	_	
+1-303	1815-1820	dober	_	_	_	_	
+1-304	1821-1829	odstotek	_	_	_	_	
+1-305	1830-1840	lastništva	_	_	_	_	
+1-306	1841-1847	prodal	_	_	_	_	
+1-307	1848-1854	Rudiju	PER[19]	3 - Nevtralno[43]	*->19-1	*[19]	
+1-308	1855-1860	Bricu	PER[19]	3 - Nevtralno[43]	*->19-1	*[19]	
+1-309	1861-1862	.	_	_	_	_	
+1-310	1863-1869	Upniki	_	_	_	_	
+1-311	1870-1871	“	_	_	_	_	
+1-312	1872-1880	napadajo	_	_	_	_	
+1-313	1881-1882	”	_	_	_	_	
+1-314	1883-1892	Odlazkovo	PER	_	*->5-1	*[5]	
+1-315	1893-1901	Komunalo	ORG	_	*->1-1	*[1]	
+1-316	1902-1906	Pred	_	_	_	_	
+1-317	1907-1912	dnevi	_	_	_	_	
+1-318	1913-1916	sta	_	_	_	_	
+1-319	1917-1919	še	_	_	_	_	
+1-320	1920-1923	dva	_	_	_	_	
+1-321	1924-1930	upnika	_	_	_	_	
+1-322	1931-1939	Komunale	ORG	_	*->1-2	*[1]	
+1-323	1940-1942	iz	_	_	_	_	
+1-324	1943-1950	Lendave	LOC	3 - Nevtralno	*->23-1	*[23]	
+1-325	1951-1957	uspela	_	_	_	_	
+1-326	1958-1959	z	_	_	_	_	
+1-327	1960-1967	izvršbo	_	_	_	_	
+1-328	1968-1970	in	_	_	_	_	
+1-329	1971-1973	se	_	_	_	_	
+1-330	1974-1981	vpisala	_	_	_	_	
+1-331	1982-1984	na	_	_	_	_	
+1-332	1985-1989	njen	_	_	*->1-3	*[1]	
+1-333	1990-1992	15	_	_	_	_	
+1-334	1993-1994	-	_	_	_	_	
+1-335	1995-2003	odstotni	_	_	_	_	
+1-336	2004-2013	lastniški	_	_	_	_	
+1-337	2014-2019	delež	_	_	_	_	
+1-338	2020-2027	Papirja	ORG[20]	_	*->6-1	*[6]	
+1-339	2028-2035	Servisa	ORG[20]	_	*->6-1	*[6]	
+1-340	2036-2037	.	_	_	_	_	
+1-341	2038-2040	Na	_	_	_	_	
+1-342	2041-2045	njem	_	_	_	_	
+1-343	2046-2048	je	_	_	_	_	
+1-344	2049-2054	sicer	_	_	_	_	
+1-345	2055-2057	že	_	_	_	_	
+1-346	2058-2063	vrsta	_	_	_	_	
+1-347	2064-2071	upnikov	_	_	_	_	
+1-348	2072-2073	,	_	_	_	_	
+1-349	2074-2078	prva	_	_	_	_	
+1-350	2079-2081	pa	_	_	_	_	
+1-351	2082-2084	je	_	_	_	_	
+1-352	2085-2088	NLB	ORG	3 - Nevtralno	*->11-2	*[11]	
+1-353	2089-2090	.	_	_	_	_	
+1-354	2091-2094	Kot	_	_	_	_	
+1-355	2095-2097	je	_	_	_	_	
+1-356	2098-2103	znano	_	_	_	_	
+1-357	2104-2105	,	_	_	_	_	
+1-358	2106-2115	lendavsko	_	2 - Negativno[44]	*->1-4	*[1]	
+1-359	2116-2124	Komunalo	ORG	2 - Negativno[44]	*->1-4	*[1]	
+1-360	2125-2126	,	_	_	_	_	
+1-361	2127-2129	ki	_	_	_	_	
+1-362	2130-2132	jo	_	_	_	_	
+1-363	2133-2141	večinsko	_	_	_	_	
+1-364	2142-2151	obvladuje	_	_	_	_	
+1-365	2152-2156	prav	_	_	_	_	
+1-366	2157-2162	Papir	ORG[21]	3 - Nevtralno[45]	*->6-2	*[6]	
+1-367	2163-2169	Servis	ORG[21]	3 - Nevtralno[45]	*->6-2	*[6]	
+1-368	2170-2177	Martina	PER[22]	3 - Nevtralno[46]	*->5-2	*[5]	
+1-369	2178-2185	Odlazka	PER[22]	3 - Nevtralno[46]	*->5-2	*[5]	
+1-370	2186-2187	,	_	_	_	_	
+1-371	2188-2196	zapirajo	_	_	_	_	
+1-372	2197-2198	.	_	_	_	_	
+1-373	2199-2204	Grunt	ORG	_	*->31-1	*[31]	
+1-374	2205-2206	:	_	_	_	_	
+1-375	2207-2210	NLB	ORG[23]	_	*->29-1	*[29]	
+1-376	2211-2218	Leasing	ORG[23]	_	*->29-1	*[29]	
+1-377	2219-2221	ob	_	_	_	_	
+1-378	2222-2229	najmanj	_	_	_	_	
+1-379	2230-2238	polovico	_	_	_	_	
+1-380	2239-2246	denarja	_	_	_	_	
+1-381	2247-2252	Tržna	_	_	_	_	
+1-382	2253-2261	vrednost	_	_	_	_	
+1-383	2262-2264	32	_	_	_	_	
+1-384	2265-2278	stanovanjskih	_	_	_	_	
+1-385	2279-2282	hiš	_	_	_	_	
+1-386	2283-2284	v	_	_	_	_	
+1-387	2285-2293	Bistrici	LOC[24]	3 - Nevtralno[47]	*->10-1	*[10]	
+1-388	2294-2296	ob	LOC[24]	3 - Nevtralno[47]	*->10-1	*[10]	
+1-389	2297-2302	Dravi	LOC[24]	3 - Nevtralno[47]	*->10-1	*[10]	
+1-390	2303-2306	pri	LOC[24]	3 - Nevtralno[47]	*->10-1	*[10]	
+1-391	2307-2315	Mariboru	LOC[24]	3 - Nevtralno[47]	*->10-1	*[10]	
+1-392	2316-2317	,	_	_	_	_	
+1-393	2318-2320	ki	_	_	_	_	
+1-394	2321-2324	jih	_	_	_	_	
+1-395	2325-2327	je	_	_	_	_	
+1-396	2328-2330	do	_	_	_	_	
+1-397	2331-2337	tretje	_	_	_	_	
+1-398	2338-2342	faze	_	_	_	_	
+1-399	2343-2351	zgradilo	_	_	_	_	
+1-400	2352-2360	podjetje	_	_	*->31-2	*[31]	
+1-401	2361-2366	Grunt	ORG	_	*->31-2	*[31]	
+1-402	2367-2369	in	_	_	_	_	
+1-403	2370-2372	so	_	_	_	_	
+1-404	2373-2378	danes	_	_	_	_	
+1-405	2379-2380	v	_	_	_	_	
+1-406	2381-2388	njegovi	_	2 - Negativno	*->31-3	*[31]	
+1-407	2389-2397	stečajni	_	_	_	_	
+1-408	2398-2402	masi	_	_	_	_	
+1-409	2403-2404	,	_	_	_	_	
+1-410	2405-2407	je	_	_	_	_	
+1-411	2408-2413	okoli	_	_	_	_	
+1-412	2414-2417	tri	_	_	_	_	
+1-413	2418-2426	milijone	_	_	_	_	
+1-414	2427-2432	evrov	_	_	_	_	
+1-415	2433-2434	.	_	_	_	_	
+1-416	2435-2437	Po	_	_	_	_	
+1-417	2438-2446	dogovoru	_	_	_	_	
+1-418	2447-2448	z	_	_	_	_	
+1-419	2449-2452	NLB	ORG[25]	3 - Nevtralno[48]	*->29-2	*[29]	
+1-420	2453-2462	Leasingom	ORG[25]	3 - Nevtralno[48]	*->29-2	*[29]	
+1-421	2463-2464	(	_	_	_	_	
+1-422	2465-2473	prijavil	_	_	_	_	
+1-423	2474-2477	5,6	_	_	_	_	
+1-424	2478-2486	milijona	_	_	_	_	
+1-425	2487-2492	evrov	_	_	_	_	
+1-426	2493-2501	terjatev	_	_	_	_	
+1-427	2502-2503	)	_	_	_	_	
+1-428	2504-2507	kot	_	_	_	_	
+1-429	2508-2518	ločitvenim	_	_	_	_	
+1-430	2519-2526	upnikom	_	_	_	_	
+1-431	2527-2529	se	_	_	_	_	
+1-432	2530-2532	bo	_	_	_	_	
+1-433	2533-2538	sklop	_	_	_	_	
+1-434	2539-2542	hiš	_	_	_	_	
+1-435	2543-2551	prodajal	_	_	_	_	
+1-436	2552-2553	v	_	_	_	_	
+1-437	2554-2560	celoti	_	_	_	_	
+1-438	2561-2562	.	_	_	_	_	
+1-439	2563-2568	Usoda	_	_	_	_	
+1-440	2569-2575	družbe	_	_	_	_	
+1-441	2576-2579	KVM	ORG[26]	_	*->20-1	*[20]	
+1-442	2580-2581	-	ORG[26]	_	*->20-1	*[20]	
+1-443	2582-2588	Grafik	ORG[26]	_	*->20-1	*[20]	
+1-444	2589-2590	v	_	_	_	_	
+1-445	2591-2596	rokah	_	_	_	_	
+1-446	2597-2600	DZS	ORG[27]	_	*->9-1	*[9]	
+1-447	2601-2608	Grafika	ORG[27]	_	*->9-1	*[9]	
+1-448	2609-2614	Bojan	PER[28]	_	*->21-1	*[21]	
+1-449	2615-2618	Kos	PER[28]	_	*->21-1	*[21]	
+1-450	2619-2620	,	_	_	_	_	
+1-451	2621-2629	direktor	_	_	*->21-2	*[21]	
+1-452	2630-2632	in	_	_	*->21-2	*[21]	
+1-453	2633-2640	lastnik	_	_	*->21-2	*[21]	
+1-454	2641-2647	družbe	_	_	*->21-2|*->20-2	*[21]|*[20]	
+1-455	2648-2651	KVM	ORG[29]	_	*->21-2|*->20-2	*[21]|*[20]	
+1-456	2652-2653	-	ORG[29]	_	*->21-2|*->20-2	*[21]|*[20]	
+1-457	2654-2660	Grafik	ORG[29]	_	*->21-2|*->20-2	*[21]|*[20]	
+1-458	2661-2662	,	_	_	_	_	
+1-459	2663-2665	ki	_	_	_	_	
+1-460	2666-2668	jo	_	_	*->20-3	*[20]	
+1-461	2669-2671	je	_	_	_	_	
+1-462	2672-2676	pred	_	_	_	_	
+1-463	2677-2682	dnevi	_	_	_	_	
+1-464	2683-2689	poslal	_	_	*->21-3	*[21]	
+1-465	2690-2691	v	_	_	_	_	
+1-466	2692-2700	prisilno	_	_	_	_	
+1-467	2701-2710	poravnavo	_	_	_	_	
+1-468	2711-2712	,	_	_	_	_	
+1-469	2713-2715	bo	_	_	_	_	
+1-470	2716-2721	moral	_	2 - Negativno	*->21-4	*[21]	
+1-471	2722-2724	za	_	_	_	_	
+1-472	2725-2730	njeno	_	2 - Negativno	*->20-4	*[20]	
+1-473	2731-2740	uspešnost	_	_	_	_	
+1-474	2741-2742	v	_	_	_	_	
+1-475	2743-2747	prvi	_	_	_	_	
+1-476	2748-2753	vrsti	_	_	_	_	
+1-477	2754-2764	prepričati	_	_	_	_	
+1-478	2765-2771	družbo	_	3 - Nevtralno[49]	*->9-2	*[9]	
+1-479	2772-2775	DZS	ORG[30]	3 - Nevtralno[49]	*->9-2	*[9]	
+1-480	2776-2782	Grafik	ORG[30]	3 - Nevtralno[49]	*->9-2	*[9]	
+1-481	2783-2784	.	_	_	_	_	
+1-482	2785-2787	Do	_	_	_	_	
+1-483	2788-2791	nje	_	_	_	_	
+1-484	2792-2795	ima	_	_	_	_	
+1-485	2796-2802	namreč	_	_	_	_	
+1-486	2803-2805	za	_	_	_	_	
+1-487	2806-2809	več	_	_	_	_	
+1-488	2810-2813	kot	_	_	_	_	
+1-489	2814-2817	1,5	_	_	_	_	
+1-490	2818-2826	milijona	_	_	_	_	
+1-491	2827-2832	evrov	_	_	_	_	
+1-492	2833-2841	navadnih	_	_	_	_	
+1-493	2842-2850	terjatev	_	_	_	_	
+1-494	2851-2852	.	_	_	_	_	
+1-495	2853-2862	Pripravil	_	_	_	_	
+1-496	2863-2868	Tomaž	PER	3 - Nevtralno	*->7-1	*[7]	

@@ -1,0 +1,406 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Kraljica bo Slovenijo obiskala med 21 . in 23 . oktobrom . Za darilo bo verjetno dobila žrebca , za njen obisk pa so zaslužni dosedanji slovenski veleposlaniki ter britanski veleposlanik v Ljubljani . Obisk kraljice je potrdilo vsem Slovencem za uspešen razvoj . Gre tudi za sporočilo regiji , da je Slovenija model , vreden posnemanja . Iztok Mirošič , slovenski veleposlanik v Londonu Majhna uspešna država , ki je zgled za regijo , povrhu pa ima še lepe konje . Tako bi lahko povzeli razloge , ki so pripeljali do prvega obiska angleške kraljice Elizabete II . v Sloveniji . Zadnjič je bila v bližini – na Brionih – leta 1972 , ko jo je po kraljevsko gostil tedanji jugoslovanski predsednik Josip Broz Tito . Potrditev uspeha “ Kraljičin obisk dokazuje , da je Slovenija normalna stabilna država , prijateljica Združenega kraljestva , ” ocenjuje predsednik društva slovensko - britanskega prijateljstva Keith Miles . Poudarja , da gre za zelo priljubljenega in najizkušenejšega šefa države na svetu , ki je spoznal svetovne voditelje od Churchilla do Busha in Putina . Kraljica prihaja zaradi velikih naporov vseh dozdajšnjih slovenskih veleposlanikov ter britanskega veleposlanika Simmonsa v Ljubljani . Vplival je tudi obisk premierja Janše . Keith Miles Paul Townend , ki je v angleščino prevedel knjigi Janeza Drnovška , poudarja , da je kraljica zelo spoštovana in svetovno znana osebnost ter da ima njen obisk zagotovo večji pomen od obiska premierja Browna . “ Britanija ima dolgo zgodovino , kraljica je simbol tradicionalnih vrednot za veliko ljudi , ampak ne vem , koliko to velja za mlajšo populacijo , ” še dodaja . “ Kraljici sem večkrat predstavil uspešno pot Slovenije , govorila sva o našem predsedovanju EU , potem ko sva si ogledala nastop dunajske jahalne šole , sem ji poslal monografijo Lipicanci Joca Žnidaršiča , ki jo je zelo zanimala , ” pa razkrije slovenski veleposlanik v Londonu Iztok Mirošič . Za darilo verjetno žrebec Kraljica je zelo navezana na konje , nanje se spozna in jih ima zelo rada . V lasti ima več kot sto grl . Kraljici bodo zato simbolično podarili lipicanskega žrebca , ime je še skrivnost , je povedal Klavdij Čehovin , direktor marketinga Kobilarne Lipica . Pokazali ji bodo tudi Muzej kočij , otroci s Krasa so zanjo izdelali različne umetniške predmete , videla pa bo tudi predstavo klasične šole jahanja
+1-1	0-8	Kraljica	_	_	*->1-1	*[1]	
+1-2	9-11	bo	_	_	_	_	
+1-3	12-21	Slovenijo	LOC	_	*->2-1	*[2]	
+1-4	22-30	obiskala	_	_	_	_	
+1-5	31-34	med	_	_	_	_	
+1-6	35-37	21	_	_	_	_	
+1-7	38-39	.	_	_	_	_	
+1-8	40-42	in	_	_	_	_	
+1-9	43-45	23	_	_	_	_	
+1-10	46-47	.	_	_	_	_	
+1-11	48-56	oktobrom	_	_	_	_	
+1-12	57-58	.	_	_	_	_	
+1-13	59-61	Za	_	_	_	_	
+1-14	62-68	darilo	_	_	_	_	
+1-15	69-71	bo	_	_	_	_	
+1-16	72-80	verjetno	_	_	_	_	
+1-17	81-87	dobila	_	_	_	_	
+1-18	88-94	žrebca	_	_	_	_	
+1-19	95-96	,	_	_	_	_	
+1-20	97-99	za	_	_	_	_	
+1-21	100-104	njen	_	_	*->1-2	*[1]	
+1-22	105-110	obisk	_	_	_	_	
+1-23	111-113	pa	_	_	_	_	
+1-24	114-116	so	_	_	_	_	
+1-25	117-125	zaslužni	_	_	_	_	
+1-26	126-135	dosedanji	_	_	_	_	
+1-27	136-145	slovenski	_	_	_	_	
+1-28	146-159	veleposlaniki	_	_	_	_	
+1-29	160-163	ter	_	_	_	_	
+1-30	164-173	britanski	_	_	*->3-1	*[3]	
+1-31	174-186	veleposlanik	_	_	*->3-1	*[3]	
+1-32	187-188	v	_	_	*->3-1	*[3]	
+1-33	189-198	Ljubljani	LOC	_	*->3-1|*->4-1	*[3]|*[4]	
+1-34	199-200	.	_	_	_	_	
+1-35	201-206	Obisk	_	_	_	_	
+1-36	207-215	kraljice	_	_	*->1-3	*[1]	
+1-37	216-218	je	_	_	_	_	
+1-38	219-227	potrdilo	_	_	_	_	
+1-39	228-232	vsem	_	_	_	_	
+1-40	233-242	Slovencem	PER	3 - Nevtralno	*->5-1	*[5]	
+1-41	243-245	za	_	_	_	_	
+1-42	246-253	uspešen	_	_	_	_	
+1-43	254-260	razvoj	_	_	_	_	
+1-44	261-262	.	_	_	_	_	
+1-45	263-266	Gre	_	_	_	_	
+1-46	267-271	tudi	_	_	_	_	
+1-47	272-274	za	_	_	_	_	
+1-48	275-284	sporočilo	_	_	_	_	
+1-49	285-291	regiji	_	_	_	_	
+1-50	292-293	,	_	_	_	_	
+1-51	294-296	da	_	_	_	_	
+1-52	297-299	je	_	_	_	_	
+1-53	300-309	Slovenija	LOC	_	*->2-2	*[2]	
+1-54	310-315	model	_	_	_	_	
+1-55	316-317	,	_	_	_	_	
+1-56	318-324	vreden	_	_	_	_	
+1-57	325-335	posnemanja	_	_	_	_	
+1-58	336-337	.	_	_	_	_	
+1-59	338-343	Iztok	PER[1]	_	*->6-1	*[6]	
+1-60	344-351	Mirošič	PER[1]	_	*->6-1	*[6]	
+1-61	352-353	,	_	_	_	_	
+1-62	354-363	slovenski	_	_	*->6-2	*[6]	
+1-63	364-376	veleposlanik	_	_	*->6-2	*[6]	
+1-64	377-378	v	_	_	*->6-2	*[6]	
+1-65	379-386	Londonu	LOC	_	*->6-2|*->7-1	*[6]|*[7]	
+1-66	387-393	Majhna	_	_	*->2-3	*[2]	
+1-67	394-401	uspešna	_	_	*->2-3	*[2]	
+1-68	402-408	država	_	_	*->2-3	*[2]	
+1-69	409-410	,	_	_	_	_	
+1-70	411-413	ki	_	_	_	_	
+1-71	414-416	je	_	_	_	_	
+1-72	417-422	zgled	_	_	_	_	
+1-73	423-425	za	_	_	_	_	
+1-74	426-432	regijo	_	_	_	_	
+1-75	433-434	,	_	_	_	_	
+1-76	435-441	povrhu	_	_	_	_	
+1-77	442-444	pa	_	_	_	_	
+1-78	445-448	ima	_	_	_	_	
+1-79	449-451	še	_	_	_	_	
+1-80	452-456	lepe	_	_	_	_	
+1-81	457-462	konje	_	_	_	_	
+1-82	463-464	.	_	_	_	_	
+1-83	465-469	Tako	_	_	_	_	
+1-84	470-472	bi	_	_	_	_	
+1-85	473-478	lahko	_	_	_	_	
+1-86	479-486	povzeli	_	_	_	_	
+1-87	487-494	razloge	_	_	_	_	
+1-88	495-496	,	_	_	_	_	
+1-89	497-499	ki	_	_	_	_	
+1-90	500-502	so	_	_	_	_	
+1-91	503-513	pripeljali	_	_	_	_	
+1-92	514-516	do	_	_	_	_	
+1-93	517-523	prvega	_	_	_	_	
+1-94	524-530	obiska	_	_	_	_	
+1-95	531-539	angleške	_	_	*->1-4	*[1]	
+1-96	540-548	kraljice	_	_	*->1-4	*[1]	
+1-97	549-558	Elizabete	PER[2]	_	*->1-4	*[1]	
+1-98	559-561	II	PER[2]	_	*->1-4	*[1]	
+1-99	562-563	.	PER[2]	_	*->1-4	*[1]	
+1-100	564-565	v	_	_	_	_	
+1-101	566-575	Sloveniji	LOC	_	*->2-4	*[2]	
+1-102	576-577	.	_	_	_	_	
+1-103	578-585	Zadnjič	_	_	_	_	
+1-104	586-588	je	_	_	*->1-5	*[1]	
+1-105	589-593	bila	_	_	*->1-5	*[1]	
+1-106	594-595	v	_	_	_	_	
+1-107	596-603	bližini	_	_	_	_	
+1-108	604-605	–	_	_	_	_	
+1-109	606-608	na	_	_	_	_	
+1-110	609-616	Brionih	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-111	617-618	–	_	_	_	_	
+1-112	619-623	leta	_	_	_	_	
+1-113	624-628	1972	_	_	_	_	
+1-114	629-630	,	_	_	_	_	
+1-115	631-633	ko	_	_	_	_	
+1-116	634-636	jo	_	_	_	_	
+1-117	637-639	je	_	_	_	_	
+1-118	640-642	po	_	_	_	_	
+1-119	643-653	kraljevsko	_	_	_	_	
+1-120	654-660	gostil	_	_	_	_	
+1-121	661-668	tedanji	_	3 - Nevtralno[15]	*->9-1	*[9]	
+1-122	669-682	jugoslovanski	_	3 - Nevtralno[15]	*->9-1	*[9]	
+1-123	683-693	predsednik	_	3 - Nevtralno[15]	*->9-1	*[9]	
+1-124	694-699	Josip	PER[3]	3 - Nevtralno[15]	*->9-1	*[9]	
+1-125	700-704	Broz	PER[3]	3 - Nevtralno[15]	*->9-1	*[9]	
+1-126	705-709	Tito	PER[3]	3 - Nevtralno[15]	*->9-1	*[9]	
+1-127	710-711	.	_	_	_	_	
+1-128	712-721	Potrditev	_	_	_	_	
+1-129	722-728	uspeha	_	_	_	_	
+1-130	729-730	“	_	_	_	_	
+1-131	731-740	Kraljičin	_	_	*->1-6	*[1]	
+1-132	741-746	obisk	_	_	_	_	
+1-133	747-755	dokazuje	_	_	_	_	
+1-134	756-757	,	_	_	_	_	
+1-135	758-760	da	_	_	_	_	
+1-136	761-763	je	_	_	_	_	
+1-137	764-773	Slovenija	LOC	_	*->2-5	*[2]	
+1-138	774-782	normalna	_	_	*->2-6	*[2]	
+1-139	783-791	stabilna	_	_	*->2-6	*[2]	
+1-140	792-798	država	_	_	*->2-6	*[2]	
+1-141	799-800	,	_	_	_	_	
+1-142	801-813	prijateljica	_	_	*->2-7	*[2]	
+1-143	814-824	Združenega	LOC[4]	3 - Nevtralno[16]	*->2-7|*->10-1	*[2]|*[10]	
+1-144	825-835	kraljestva	LOC[4]	3 - Nevtralno[16]	*->2-7|*->10-1	*[2]|*[10]	
+1-145	836-837	,	_	_	_	_	
+1-146	838-839	”	_	_	_	_	
+1-147	840-848	ocenjuje	_	_	_	_	
+1-148	849-859	predsednik	_	_	*->11-1	*[11]	
+1-149	860-867	društva	_	_	*->11-1	*[11]	
+1-150	868-877	slovensko	_	_	*->11-1	*[11]	
+1-151	878-879	-	_	_	*->11-1	*[11]	
+1-152	880-891	britanskega	_	_	*->11-1	*[11]	
+1-153	892-905	prijateljstva	_	_	*->11-1	*[11]	
+1-154	906-911	Keith	PER[5]	_	*->11-1	*[11]	
+1-155	912-917	Miles	PER[5]	_	*->11-1	*[11]	
+1-156	918-919	.	_	_	_	_	
+1-157	920-928	Poudarja	_	_	*->11-2	*[11]	
+1-158	929-930	,	_	_	_	_	
+1-159	931-933	da	_	_	_	_	
+1-160	934-937	gre	_	_	_	_	
+1-161	938-940	za	_	_	_	_	
+1-162	941-945	zelo	_	_	*->1-7	*[1]	
+1-163	946-960	priljubljenega	_	_	*->1-7	*[1]	
+1-164	961-963	in	_	_	*->1-7	*[1]	
+1-165	964-980	najizkušenejšega	_	_	*->1-7	*[1]	
+1-166	981-985	šefa	_	_	*->1-7	*[1]	
+1-167	986-992	države	_	_	*->1-7	*[1]	
+1-168	993-995	na	_	_	*->1-7	*[1]	
+1-169	996-1001	svetu	_	_	*->1-7	*[1]	
+1-170	1002-1003	,	_	_	_	_	
+1-171	1004-1006	ki	_	_	_	_	
+1-172	1007-1009	je	_	_	_	_	
+1-173	1010-1017	spoznal	_	_	_	_	
+1-174	1018-1026	svetovne	_	_	_	_	
+1-175	1027-1036	voditelje	_	_	_	_	
+1-176	1037-1039	od	_	_	_	_	
+1-177	1040-1050	Churchilla	PER	3 - Nevtralno	*->12-1	*[12]	
+1-178	1051-1053	do	_	_	_	_	
+1-179	1054-1059	Busha	PER	3 - Nevtralno	*->13-1	*[13]	
+1-180	1060-1062	in	_	_	_	_	
+1-181	1063-1069	Putina	PER	3 - Nevtralno	*->14-1	*[14]	
+1-182	1070-1071	.	_	_	_	_	
+1-183	1072-1080	Kraljica	_	_	*->1-8	*[1]	
+1-184	1081-1088	prihaja	_	_	_	_	
+1-185	1089-1095	zaradi	_	_	_	_	
+1-186	1096-1103	velikih	_	_	_	_	
+1-187	1104-1111	naporov	_	_	_	_	
+1-188	1112-1116	vseh	_	_	_	_	
+1-189	1117-1128	dozdajšnjih	_	_	_	_	
+1-190	1129-1139	slovenskih	_	_	_	_	
+1-191	1140-1154	veleposlanikov	_	_	_	_	
+1-192	1155-1158	ter	_	_	_	_	
+1-193	1159-1170	britanskega	_	3 - Nevtralno[17]	*->3-2	*[3]	
+1-194	1171-1184	veleposlanika	_	3 - Nevtralno[17]	*->3-2	*[3]	
+1-195	1185-1193	Simmonsa	PER	3 - Nevtralno[17]	*->3-2	*[3]	
+1-196	1194-1195	v	_	3 - Nevtralno[17]	*->3-2	*[3]	
+1-197	1196-1205	Ljubljani	LOC	3 - Nevtralno[17]|3 - Nevtralno[18]	*->3-2|*->4-2	*[3]|*[4]	
+1-198	1206-1207	.	_	_	_	_	
+1-199	1208-1215	Vplival	_	_	_	_	
+1-200	1216-1218	je	_	_	_	_	
+1-201	1219-1223	tudi	_	_	_	_	
+1-202	1224-1229	obisk	_	_	_	_	
+1-203	1230-1239	premierja	_	3 - Nevtralno[19]	*->15-1	*[15]	
+1-204	1240-1245	Janše	PER	3 - Nevtralno[19]	*->15-1	*[15]	
+1-205	1246-1247	.	_	_	_	_	
+1-206	1248-1253	Keith	PER[6]	3 - Nevtralno[20]	*->11-3	*[11]	
+1-207	1254-1259	Miles	PER[6]	3 - Nevtralno[20]	*->11-3	*[11]	
+1-208	1260-1264	Paul	PER[7]	_	*->16-1	*[16]	
+1-209	1265-1272	Townend	PER[7]	_	*->16-1	*[16]	
+1-210	1273-1274	,	_	_	_	_	
+1-211	1275-1277	ki	_	_	_	_	
+1-212	1278-1280	je	_	_	_	_	
+1-213	1281-1282	v	_	_	_	_	
+1-214	1283-1293	angleščino	_	_	_	_	
+1-215	1294-1302	prevedel	_	_	_	_	
+1-216	1303-1309	knjigi	_	_	_	_	
+1-217	1310-1316	Janeza	PER[8]	3 - Nevtralno[21]	*->17-1	*[17]	
+1-218	1317-1325	Drnovška	PER[8]	3 - Nevtralno[21]	*->17-1	*[17]	
+1-219	1326-1327	,	_	_	_	_	
+1-220	1328-1336	poudarja	_	_	_	_	
+1-221	1337-1338	,	_	_	_	_	
+1-222	1339-1341	da	_	_	_	_	
+1-223	1342-1344	je	_	_	_	_	
+1-224	1345-1353	kraljica	_	_	*->1-9	*[1]	
+1-225	1354-1358	zelo	_	_	*->1-10	*[1]	
+1-226	1359-1369	spoštovana	_	_	*->1-10	*[1]	
+1-227	1370-1372	in	_	_	*->1-10	*[1]	
+1-228	1373-1381	svetovno	_	_	*->1-10	*[1]	
+1-229	1382-1387	znana	_	_	*->1-10	*[1]	
+1-230	1388-1396	osebnost	_	_	*->1-10	*[1]	
+1-231	1397-1400	ter	_	_	_	_	
+1-232	1401-1403	da	_	_	_	_	
+1-233	1404-1407	ima	_	_	_	_	
+1-234	1408-1412	njen	_	_	_	_	
+1-235	1413-1418	obisk	_	_	_	_	
+1-236	1419-1427	zagotovo	_	_	_	_	
+1-237	1428-1433	večji	_	_	_	_	
+1-238	1434-1439	pomen	_	_	_	_	
+1-239	1440-1442	od	_	_	_	_	
+1-240	1443-1449	obiska	_	_	_	_	
+1-241	1450-1459	premierja	_	3 - Nevtralno[22]	*->18-1	*[18]	
+1-242	1460-1466	Browna	PER	3 - Nevtralno[22]	*->18-1	*[18]	
+1-243	1467-1468	.	_	_	_	_	
+1-244	1469-1470	“	_	_	_	_	
+1-245	1471-1480	Britanija	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-246	1481-1484	ima	_	_	_	_	
+1-247	1485-1490	dolgo	_	_	_	_	
+1-248	1491-1500	zgodovino	_	_	_	_	
+1-249	1501-1502	,	_	_	_	_	
+1-250	1503-1511	kraljica	_	_	*->1-11	*[1]	
+1-251	1512-1514	je	_	_	_	_	
+1-252	1515-1521	simbol	_	_	*->1-12	*[1]	
+1-253	1522-1536	tradicionalnih	_	_	*->1-12	*[1]	
+1-254	1537-1544	vrednot	_	_	*->1-12	*[1]	
+1-255	1545-1547	za	_	_	_	_	
+1-256	1548-1554	veliko	_	_	_	_	
+1-257	1555-1560	ljudi	_	_	_	_	
+1-258	1561-1562	,	_	_	_	_	
+1-259	1563-1568	ampak	_	_	_	_	
+1-260	1569-1571	ne	_	_	_	_	
+1-261	1572-1575	vem	_	_	_	_	
+1-262	1576-1577	,	_	_	_	_	
+1-263	1578-1584	koliko	_	_	_	_	
+1-264	1585-1587	to	_	_	_	_	
+1-265	1588-1593	velja	_	_	_	_	
+1-266	1594-1596	za	_	_	_	_	
+1-267	1597-1603	mlajšo	_	_	_	_	
+1-268	1604-1614	populacijo	_	_	_	_	
+1-269	1615-1616	,	_	_	_	_	
+1-270	1617-1618	”	_	_	_	_	
+1-271	1619-1621	še	_	_	_	_	
+1-272	1622-1628	dodaja	_	3 - Nevtralno	*->16-2	*[16]	
+1-273	1629-1630	.	_	_	_	_	
+1-274	1631-1632	“	_	_	_	_	
+1-275	1633-1641	Kraljici	_	_	*->1-13	*[1]	
+1-276	1642-1645	sem	_	_	*->6-3	*[6]	
+1-277	1646-1653	večkrat	_	_	_	_	
+1-278	1654-1664	predstavil	_	_	_	_	
+1-279	1665-1672	uspešno	_	_	_	_	
+1-280	1673-1676	pot	_	_	_	_	
+1-281	1677-1686	Slovenije	LOC	3 - Nevtralno	*->2-8	*[2]	
+1-282	1687-1688	,	_	_	_	_	
+1-283	1689-1697	govorila	_	_	_	_	
+1-284	1698-1701	sva	_	_	_	_	
+1-285	1702-1703	o	_	_	_	_	
+1-286	1704-1709	našem	_	_	_	_	
+1-287	1710-1723	predsedovanju	_	_	_	_	
+1-288	1724-1726	EU	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-289	1727-1728	,	_	_	_	_	
+1-290	1729-1734	potem	_	_	_	_	
+1-291	1735-1737	ko	_	_	_	_	
+1-292	1738-1741	sva	_	_	_	_	
+1-293	1742-1744	si	_	_	_	_	
+1-294	1745-1753	ogledala	_	_	_	_	
+1-295	1754-1760	nastop	_	_	_	_	
+1-296	1761-1769	dunajske	_	_	_	_	
+1-297	1770-1777	jahalne	_	_	_	_	
+1-298	1778-1782	šole	_	_	_	_	
+1-299	1783-1784	,	_	_	_	_	
+1-300	1785-1788	sem	_	_	*->6-4	*[6]	
+1-301	1789-1791	ji	_	_	*->1-14	*[1]	
+1-302	1792-1798	poslal	_	_	_	_	
+1-303	1799-1810	monografijo	_	_	_	_	
+1-304	1811-1820	Lipicanci	_	_	_	_	
+1-305	1821-1825	Joca	PER[9]	3 - Nevtralno[23]	*->21-1	*[21]	
+1-306	1826-1836	Žnidaršiča	PER[9]	3 - Nevtralno[23]	*->21-1	*[21]	
+1-307	1837-1838	,	_	_	_	_	
+1-308	1839-1841	ki	_	_	_	_	
+1-309	1842-1844	jo	_	_	*->1-15	*[1]	
+1-310	1845-1847	je	_	_	_	_	
+1-311	1848-1852	zelo	_	_	_	_	
+1-312	1853-1861	zanimala	_	_	_	_	
+1-313	1862-1863	,	_	_	_	_	
+1-314	1864-1865	”	_	_	_	_	
+1-315	1866-1868	pa	_	_	_	_	
+1-316	1869-1877	razkrije	_	_	_	_	
+1-317	1878-1887	slovenski	_	3 - Nevtralno[24]	*->6-5	*[6]	
+1-318	1888-1900	veleposlanik	_	3 - Nevtralno[24]	*->6-5	*[6]	
+1-319	1901-1902	v	_	3 - Nevtralno[24]	*->6-5	*[6]	
+1-320	1903-1910	Londonu	LOC	3 - Nevtralno[24]|3 - Nevtralno[25]	*->6-5|*->7-2	*[6]|*[7]	
+1-321	1911-1916	Iztok	PER[10]	3 - Nevtralno[24]	*->6-5	*[6]	
+1-322	1917-1924	Mirošič	PER[10]	3 - Nevtralno[24]	*->6-5	*[6]	
+1-323	1925-1926	.	_	_	_	_	
+1-324	1927-1929	Za	_	_	_	_	
+1-325	1930-1936	darilo	_	_	_	_	
+1-326	1937-1945	verjetno	_	_	_	_	
+1-327	1946-1952	žrebec	_	_	_	_	
+1-328	1953-1961	Kraljica	_	_	*->1-16	*[1]	
+1-329	1962-1964	je	_	_	_	_	
+1-330	1965-1969	zelo	_	_	_	_	
+1-331	1970-1978	navezana	_	_	_	_	
+1-332	1979-1981	na	_	_	_	_	
+1-333	1982-1987	konje	_	_	_	_	
+1-334	1988-1989	,	_	_	_	_	
+1-335	1990-1995	nanje	_	_	_	_	
+1-336	1996-1998	se	_	_	_	_	
+1-337	1999-2005	spozna	_	_	_	_	
+1-338	2006-2008	in	_	_	_	_	
+1-339	2009-2012	jih	_	_	_	_	
+1-340	2013-2016	ima	_	_	_	_	
+1-341	2017-2021	zelo	_	_	_	_	
+1-342	2022-2026	rada	_	_	_	_	
+1-343	2027-2028	.	_	_	_	_	
+1-344	2029-2030	V	_	_	_	_	
+1-345	2031-2036	lasti	_	_	_	_	
+1-346	2037-2040	ima	_	_	*->1-17	*[1]	
+1-347	2041-2044	več	_	_	_	_	
+1-348	2045-2048	kot	_	_	_	_	
+1-349	2049-2052	sto	_	_	_	_	
+1-350	2053-2056	grl	_	_	_	_	
+1-351	2057-2058	.	_	_	_	_	
+1-352	2059-2067	Kraljici	_	_	*->1-18	*[1]	
+1-353	2068-2072	bodo	_	_	_	_	
+1-354	2073-2077	zato	_	_	_	_	
+1-355	2078-2088	simbolično	_	_	_	_	
+1-356	2089-2097	podarili	_	_	_	_	
+1-357	2098-2110	lipicanskega	_	_	_	_	
+1-358	2111-2117	žrebca	_	_	_	_	
+1-359	2118-2119	,	_	_	_	_	
+1-360	2120-2123	ime	_	_	_	_	
+1-361	2124-2126	je	_	_	_	_	
+1-362	2127-2129	še	_	_	_	_	
+1-363	2130-2139	skrivnost	_	_	_	_	
+1-364	2140-2141	,	_	_	_	_	
+1-365	2142-2144	je	_	_	_	_	
+1-366	2145-2152	povedal	_	_	_	_	
+1-367	2153-2160	Klavdij	PER[11]	_	*->22-1	*[22]	
+1-368	2161-2168	Čehovin	PER[11]	_	*->22-1	*[22]	
+1-369	2169-2170	,	_	_	_	_	
+1-370	2171-2179	direktor	_	3 - Nevtralno[26]	*->22-2	*[22]	
+1-371	2180-2190	marketinga	_	3 - Nevtralno[26]	*->22-2	*[22]	
+1-372	2191-2200	Kobilarne	ORG[12]	3 - Nevtralno[26]|3 - Nevtralno[27]	*->22-2|*->23-1	*[22]|*[23]	
+1-373	2201-2207	Lipica	ORG[12]|LOC[13]	3 - Nevtralno[26]|3 - Nevtralno[27]|3 - Nevtralno[28]	*->22-2|*->23-1|*->24-1	*[22]|*[23]|*[24]	
+1-374	2208-2209	.	_	_	_	_	
+1-375	2210-2218	Pokazali	_	_	_	_	
+1-376	2219-2221	ji	_	_	_	_	
+1-377	2222-2226	bodo	_	_	_	_	
+1-378	2227-2231	tudi	_	_	_	_	
+1-379	2232-2237	Muzej	ORG[14]	3 - Nevtralno[29]	*->25-1	*[25]	
+1-380	2238-2243	kočij	ORG[14]	3 - Nevtralno[29]	*->25-1	*[25]	
+1-381	2244-2245	,	_	_	_	_	
+1-382	2246-2252	otroci	_	_	_	_	
+1-383	2253-2254	s	_	_	_	_	
+1-384	2255-2260	Krasa	LOC	3 - Nevtralno	*->26-1	*[26]	
+1-385	2261-2263	so	_	_	_	_	
+1-386	2264-2269	zanjo	_	_	*->1-19	*[1]	
+1-387	2270-2278	izdelali	_	_	_	_	
+1-388	2279-2287	različne	_	_	_	_	
+1-389	2288-2297	umetniške	_	_	_	_	
+1-390	2298-2306	predmete	_	_	_	_	
+1-391	2307-2308	,	_	_	_	_	
+1-392	2309-2315	videla	_	4 - Pozitivno	*->1-20	*[1]	
+1-393	2316-2318	pa	_	_	_	_	
+1-394	2319-2321	bo	_	_	_	_	
+1-395	2322-2326	tudi	_	_	_	_	
+1-396	2327-2336	predstavo	_	_	_	_	
+1-397	2337-2345	klasične	_	_	_	_	
+1-398	2346-2350	šole	_	_	_	_	
+1-399	2351-2358	jahanja	_	_	_	_	

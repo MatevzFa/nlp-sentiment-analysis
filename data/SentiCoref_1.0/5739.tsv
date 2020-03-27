@@ -1,0 +1,252 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Oba člana upravnega odbora Cestnega podjetja Ljubljana - Jure Kranjc in Bojan Kozar , sta bila odpoklicana . Njuni mesti sta zasedla Primož Ovijač in Andrej Košir Foto : Andrej Križ Od šeste ure zjutraj poteka na še delujočih gradbiščih rubež opreme Cestnega podjetja Ljubljana ( CPL ) , smo izvedeli . Rubež opravlja izvršitelj Marjana Hojsa ( na sliki ) , ki je pobral večino strojev in kamionov na gradbiščih , nekaj po 10 . uri pa je prišel na sedež CPL . Kot smo izvedeli , za rubežem stoji podjetje Terra RB , in sicer zaradi terjatev v višini več kot 600 tisoč evrov . Blokiran je tudi račun podjetja CPL in hčerinske družbe . Kot smo včeraj že poročali je zet Dušana Črnigoja Valter Kobal iz Go - Renta skupaj s trgovino Terra RB zarubil kamnolom Primorja in asfaltno bazo Laže ter opremo za proizvodnjo betonskih polizdelkov v obratu ABK ( armiranobetonske konstrukcije ) v Ajdovščini . Ob 10 . uri se je sicer začela skupščina CPL , na kateri sta bila po pričakovanjih imenovana dva člana upravnega odbora . Oba člana upravnega odbora - Jure Kranjc in Bojan Kozar , sta bila odpoklicana . Njuni mesti sta zasedla Primož Ovijač in Andrej Košir , ki prihaja iz Primorja Geotehnike . Vsi sklepi skupščine so bili sprejeti . Poleg tega je bil imenovan tudi nadomestni revizor ABC revizija . Več o tem v članku Kdo se bo zravsal za posle CM Celje
+1-1	0-3	Oba	_	_	_	_	
+1-2	4-9	člana	_	_	_	_	
+1-3	10-19	upravnega	_	_	_	_	
+1-4	20-26	odbora	_	_	_	_	
+1-5	27-35	Cestnega	ORG[1]	_	*->1-1	*[1]	
+1-6	36-44	podjetja	ORG[1]	_	*->1-1	*[1]	
+1-7	45-54	Ljubljana	ORG[1]|LOC[2]	_	*->1-1|*->8-1	*[1]|*[8]	
+1-8	55-56	-	_	_	_	_	
+1-9	57-61	Jure	PER[3]	_	*->3-1	*[3]	
+1-10	62-68	Kranjc	PER[3]	_	*->3-1	*[3]	
+1-11	69-71	in	_	_	_	_	
+1-12	72-77	Bojan	PER[4]	_	*->4-1	*[4]	
+1-13	78-83	Kozar	PER[4]	_	*->4-1	*[4]	
+1-14	84-85	,	_	_	_	_	
+1-15	86-89	sta	_	_	_	_	
+1-16	90-94	bila	_	_	_	_	
+1-17	95-106	odpoklicana	_	_	_	_	
+1-18	107-108	.	_	_	_	_	
+1-19	109-114	Njuni	_	_	_	_	
+1-20	115-120	mesti	_	_	_	_	
+1-21	121-124	sta	_	_	_	_	
+1-22	125-132	zasedla	_	_	_	_	
+1-23	133-139	Primož	PER[5]	_	*->6-1	*[6]	
+1-24	140-146	Ovijač	PER[5]	_	*->6-1	*[6]	
+1-25	147-149	in	_	_	_	_	
+1-26	150-156	Andrej	PER[6]	_	*->5-1	*[5]	
+1-27	157-162	Košir	PER[6]	_	*->5-1	*[5]	
+1-28	163-167	Foto	_	_	_	_	
+1-29	168-169	:	_	_	_	_	
+1-30	170-176	Andrej	PER[7]	3 - Nevtralno[24]	*->9-1	*[9]	
+1-31	177-181	Križ	PER[7]	3 - Nevtralno[24]	*->9-1	*[9]	
+1-32	182-184	Od	_	_	_	_	
+1-33	185-190	šeste	_	_	_	_	
+1-34	191-194	ure	_	_	_	_	
+1-35	195-202	zjutraj	_	_	_	_	
+1-36	203-209	poteka	_	_	_	_	
+1-37	210-212	na	_	_	_	_	
+1-38	213-215	še	_	_	_	_	
+1-39	216-225	delujočih	_	_	_	_	
+1-40	226-236	gradbiščih	_	_	_	_	
+1-41	237-242	rubež	_	_	_	_	
+1-42	243-249	opreme	_	_	_	_	
+1-43	250-258	Cestnega	ORG[8]	_	*->1-2	*[1]	
+1-44	259-267	podjetja	ORG[8]	_	*->1-2	*[1]	
+1-45	268-277	Ljubljana	ORG[8]|LOC[9]	3 - Nevtralno	*->1-2|*->8-2	*[1]|*[8]	
+1-46	278-279	(	_	_	_	_	
+1-47	280-283	CPL	ORG	_	*->1-3	*[1]	
+1-48	284-285	)	_	_	_	_	
+1-49	286-287	,	_	_	_	_	
+1-50	288-291	smo	_	_	_	_	
+1-51	292-300	izvedeli	_	_	_	_	
+1-52	301-302	.	_	_	_	_	
+1-53	303-308	Rubež	_	_	_	_	
+1-54	309-317	opravlja	_	_	_	_	
+1-55	318-328	izvršitelj	_	_	*->10-1	*[10]	
+1-56	329-336	Marjana	PER[10]	_	*->10-1	*[10]	
+1-57	337-342	Hojsa	PER[10]	_	*->10-1	*[10]	
+1-58	343-344	(	_	_	_	_	
+1-59	345-347	na	_	_	_	_	
+1-60	348-353	sliki	_	_	_	_	
+1-61	354-355	)	_	_	_	_	
+1-62	356-357	,	_	_	_	_	
+1-63	358-360	ki	_	_	_	_	
+1-64	361-363	je	_	_	_	_	
+1-65	364-370	pobral	_	_	*->10-2	*[10]	
+1-66	371-377	večino	_	_	_	_	
+1-67	378-385	strojev	_	_	_	_	
+1-68	386-388	in	_	_	_	_	
+1-69	389-397	kamionov	_	_	_	_	
+1-70	398-400	na	_	_	_	_	
+1-71	401-411	gradbiščih	_	_	_	_	
+1-72	412-413	,	_	_	_	_	
+1-73	414-419	nekaj	_	_	_	_	
+1-74	420-422	po	_	_	_	_	
+1-75	423-425	10	_	_	_	_	
+1-76	426-427	.	_	_	_	_	
+1-77	428-431	uri	_	_	_	_	
+1-78	432-434	pa	_	_	_	_	
+1-79	435-437	je	_	_	_	_	
+1-80	438-444	prišel	_	3 - Nevtralno	*->10-3	*[10]	
+1-81	445-447	na	_	_	_	_	
+1-82	448-453	sedež	_	_	_	_	
+1-83	454-457	CPL	ORG	_	*->1-4	*[1]	
+1-84	458-459	.	_	_	_	_	
+1-85	460-463	Kot	_	_	_	_	
+1-86	464-467	smo	_	_	_	_	
+1-87	468-476	izvedeli	_	_	_	_	
+1-88	477-478	,	_	_	_	_	
+1-89	479-481	za	_	_	_	_	
+1-90	482-489	rubežem	_	_	_	_	
+1-91	490-495	stoji	_	_	_	_	
+1-92	496-504	podjetje	_	_	_	_	
+1-93	505-510	Terra	ORG[11]	_	*->2-1	*[2]	
+1-94	511-513	RB	ORG[11]	_	*->2-1	*[2]	
+1-95	514-515	,	_	_	_	_	
+1-96	516-518	in	_	_	_	_	
+1-97	519-524	sicer	_	_	_	_	
+1-98	525-531	zaradi	_	_	_	_	
+1-99	532-540	terjatev	_	_	_	_	
+1-100	541-542	v	_	_	_	_	
+1-101	543-549	višini	_	_	_	_	
+1-102	550-553	več	_	_	_	_	
+1-103	554-557	kot	_	_	_	_	
+1-104	558-561	600	_	_	_	_	
+1-105	562-567	tisoč	_	_	_	_	
+1-106	568-573	evrov	_	_	_	_	
+1-107	574-575	.	_	_	_	_	
+1-108	576-584	Blokiran	_	_	_	_	
+1-109	585-587	je	_	_	_	_	
+1-110	588-592	tudi	_	_	_	_	
+1-111	593-598	račun	_	_	_	_	
+1-112	599-607	podjetja	_	_	_	_	
+1-113	608-611	CPL	ORG	_	*->1-5	*[1]	
+1-114	612-614	in	_	_	_	_	
+1-115	615-624	hčerinske	_	_	_	_	
+1-116	625-631	družbe	_	_	_	_	
+1-117	632-633	.	_	_	_	_	
+1-118	634-637	Kot	_	_	_	_	
+1-119	638-641	smo	_	_	_	_	
+1-120	642-648	včeraj	_	_	_	_	
+1-121	649-651	že	_	_	_	_	
+1-122	652-660	poročali	_	_	_	_	
+1-123	661-663	je	_	_	_	_	
+1-124	664-667	zet	_	3 - Nevtralno[25]	*->16-1	*[16]	
+1-125	668-674	Dušana	PER[12]	3 - Nevtralno[25]|3 - Nevtralno[26]	*->16-1|*->12-1	*[16]|*[12]	
+1-126	675-683	Črnigoja	PER[12]	3 - Nevtralno[25]|3 - Nevtralno[26]	*->16-1|*->12-1	*[16]|*[12]	
+1-127	684-690	Valter	PER[13]	3 - Nevtralno[25]	*->16-1	*[16]	
+1-128	691-696	Kobal	PER[13]	3 - Nevtralno[25]	*->16-1	*[16]	
+1-129	697-699	iz	_	3 - Nevtralno[25]	*->16-1	*[16]	
+1-130	700-702	Go	ORG[14]	3 - Nevtralno[25]|3 - Nevtralno[27]	*->16-1|*->11-1	*[16]|*[11]	
+1-131	703-704	-	ORG[14]	3 - Nevtralno[25]|3 - Nevtralno[27]	*->16-1|*->11-1	*[16]|*[11]	
+1-132	705-710	Renta	ORG[14]	3 - Nevtralno[25]|3 - Nevtralno[27]	*->16-1|*->11-1	*[16]|*[11]	
+1-133	711-717	skupaj	_	_	_	_	
+1-134	718-719	s	_	_	_	_	
+1-135	720-728	trgovino	_	_	_	_	
+1-136	729-734	Terra	ORG[15]	2 - Negativno[28]	*->2-2	*[2]	
+1-137	735-737	RB	ORG[15]	2 - Negativno[28]	*->2-2	*[2]	
+1-138	738-745	zarubil	_	_	_	_	
+1-139	746-754	kamnolom	_	_	_	_	
+1-140	755-763	Primorja	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-141	764-766	in	_	_	_	_	
+1-142	767-775	asfaltno	_	_	_	_	
+1-143	776-780	bazo	_	_	_	_	
+1-144	781-785	Laže	ORG	3 - Nevtralno	*->18-1	*[18]	
+1-145	786-789	ter	_	_	_	_	
+1-146	790-796	opremo	_	_	_	_	
+1-147	797-799	za	_	_	_	_	
+1-148	800-811	proizvodnjo	_	_	_	_	
+1-149	812-821	betonskih	_	_	_	_	
+1-150	822-833	polizdelkov	_	_	_	_	
+1-151	834-835	v	_	_	_	_	
+1-152	836-842	obratu	_	_	_	_	
+1-153	843-846	ABK	_	_	_	_	
+1-154	847-848	(	_	_	_	_	
+1-155	849-865	armiranobetonske	_	_	_	_	
+1-156	866-878	konstrukcije	_	_	_	_	
+1-157	879-880	)	_	_	_	_	
+1-158	881-882	v	_	_	_	_	
+1-159	883-893	Ajdovščini	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-160	894-895	.	_	_	_	_	
+1-161	896-898	Ob	_	_	_	_	
+1-162	899-901	10	_	_	_	_	
+1-163	902-903	.	_	_	_	_	
+1-164	904-907	uri	_	_	_	_	
+1-165	908-910	se	_	_	_	_	
+1-166	911-913	je	_	_	_	_	
+1-167	914-919	sicer	_	_	_	_	
+1-168	920-926	začela	_	_	_	_	
+1-169	927-936	skupščina	_	_	_	_	
+1-170	937-940	CPL	ORG	2 - Negativno	*->1-6	*[1]	
+1-171	941-942	,	_	_	_	_	
+1-172	943-945	na	_	_	_	_	
+1-173	946-952	kateri	_	_	_	_	
+1-174	953-956	sta	_	_	_	_	
+1-175	957-961	bila	_	_	_	_	
+1-176	962-964	po	_	_	_	_	
+1-177	965-978	pričakovanjih	_	_	_	_	
+1-178	979-988	imenovana	_	_	_	_	
+1-179	989-992	dva	_	_	_	_	
+1-180	993-998	člana	_	_	_	_	
+1-181	999-1008	upravnega	_	_	_	_	
+1-182	1009-1015	odbora	_	_	_	_	
+1-183	1016-1017	.	_	_	_	_	
+1-184	1018-1021	Oba	_	_	_	_	
+1-185	1022-1027	člana	_	_	_	_	
+1-186	1028-1037	upravnega	_	_	_	_	
+1-187	1038-1044	odbora	_	_	_	_	
+1-188	1045-1046	-	_	_	_	_	
+1-189	1047-1051	Jure	PER[16]	2 - Negativno[29]	*->3-2	*[3]	
+1-190	1052-1058	Kranjc	PER[16]	2 - Negativno[29]	*->3-2	*[3]	
+1-191	1059-1061	in	_	_	_	_	
+1-192	1062-1067	Bojan	PER[17]	2 - Negativno[30]	*->4-2	*[4]	
+1-193	1068-1073	Kozar	PER[17]	2 - Negativno[30]	*->4-2	*[4]	
+1-194	1074-1075	,	_	_	_	_	
+1-195	1076-1079	sta	_	_	_	_	
+1-196	1080-1084	bila	_	_	_	_	
+1-197	1085-1096	odpoklicana	_	_	_	_	
+1-198	1097-1098	.	_	_	_	_	
+1-199	1099-1104	Njuni	_	_	_	_	
+1-200	1105-1110	mesti	_	_	_	_	
+1-201	1111-1114	sta	_	_	_	_	
+1-202	1115-1122	zasedla	_	_	_	_	
+1-203	1123-1129	Primož	PER[18]	4 - Pozitivno[31]	*->6-2	*[6]	
+1-204	1130-1136	Ovijač	PER[18]	4 - Pozitivno[31]	*->6-2	*[6]	
+1-205	1137-1139	in	_	_	_	_	
+1-206	1140-1146	Andrej	PER[19]	_	*->5-2	*[5]	
+1-207	1147-1152	Košir	PER[19]	_	*->5-2	*[5]	
+1-208	1153-1154	,	_	_	_	_	
+1-209	1155-1157	ki	_	_	_	_	
+1-210	1158-1165	prihaja	_	4 - Pozitivno	*->5-3	*[5]	
+1-211	1166-1168	iz	_	_	_	_	
+1-212	1169-1177	Primorja	ORG[20]	3 - Nevtralno[32]	*->17-1	*[17]	
+1-213	1178-1188	Geotehnike	ORG[20]	3 - Nevtralno[32]	*->17-1	*[17]	
+1-214	1189-1190	.	_	_	_	_	
+1-215	1191-1194	Vsi	_	_	_	_	
+1-216	1195-1201	sklepi	_	_	_	_	
+1-217	1202-1211	skupščine	_	_	_	_	
+1-218	1212-1214	so	_	_	_	_	
+1-219	1215-1219	bili	_	_	_	_	
+1-220	1220-1228	sprejeti	_	_	_	_	
+1-221	1229-1230	.	_	_	_	_	
+1-222	1231-1236	Poleg	_	_	_	_	
+1-223	1237-1241	tega	_	_	_	_	
+1-224	1242-1244	je	_	_	_	_	
+1-225	1245-1248	bil	_	_	_	_	
+1-226	1249-1257	imenovan	_	_	_	_	
+1-227	1258-1262	tudi	_	_	_	_	
+1-228	1263-1273	nadomestni	_	_	_	_	
+1-229	1274-1281	revizor	_	_	_	_	
+1-230	1282-1285	ABC	ORG[21]	3 - Nevtralno[33]	*->14-1	*[14]	
+1-231	1286-1294	revizija	ORG[21]	3 - Nevtralno[33]	*->14-1	*[14]	
+1-232	1295-1296	.	_	_	_	_	
+1-233	1297-1300	Več	_	_	_	_	
+1-234	1301-1302	o	_	_	_	_	
+1-235	1303-1306	tem	_	_	_	_	
+1-236	1307-1308	v	_	_	_	_	
+1-237	1309-1315	članku	_	_	_	_	
+1-238	1316-1319	Kdo	_	_	_	_	
+1-239	1320-1322	se	_	_	_	_	
+1-240	1323-1325	bo	_	_	_	_	
+1-241	1326-1333	zravsal	_	_	_	_	
+1-242	1334-1336	za	_	_	_	_	
+1-243	1337-1342	posle	_	_	_	_	
+1-244	1343-1345	CM	ORG[22]	3 - Nevtralno[34]	*->15-1	*[15]	
+1-245	1346-1351	Celje	ORG[22]|LOC[23]	3 - Nevtralno[34]|3 - Nevtralno[35]	*->15-1	*[15]	

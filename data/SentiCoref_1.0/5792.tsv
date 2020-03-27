@@ -1,0 +1,427 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Novi predsednik nadzornega sveta vipavske hranilnice je Uroš Glavan , ki je povezan s krogi privatizacijskega mogotca Igorja Laha Foto : Aleš Beno Novi predsednik nadzornega sveta vipavske hranilnice , ki jo Kmetijska zadruga Vipava prodaja , je Uroš Glavan , poroča Dnevnik . Ta je do pred leti sodeloval s privatizacijskim mogotcem Igorjem Lahom ( na sliki ) in je znan iz poslov z Gradbenim podjetjem Grosuplje ( GPG ) . Ob tem so se pojavila namigovanja , da naj bi se Lah in njegovi nekdanji tesni sodelavci zanimali za nakup druge družb v lasti zadruge , Agroind Vipava 1894 . V Lahovi družbi KS Naložbe so vse zanikali . Agroind , ki ima v lasti mlekarno in drugo največjo vinsko klet pri nas , je sicer v zadnjih letih ustvaril izgubo , vrednost njegovega premoženja pa se ocenjuje na dobrih 18 milijonov evrov . Zamenjana tudi predstavnika interesov zadruge " Nimam nobenih lastniških ambicij niti v Hranilnici in posojilnici Vipava niti v Agroindu , " je včeraj zagotovil Glavan . " Zadruga me je povabila v nadzorni svet , ker sem z njimi že sodeloval pri nekaterih drugih projektih v preteklosti oziroma jim svetoval , " je povedal . Vodja Kmetijske zadruge ( KZ ) Vipava , Boris Bajc je iz nadzornega sveta odpoklical Branka Košuto in Nežko Soja . Po trditvah virov Dnevnika pa si je vsaj eden od odstavljenih nadzornikov prizadeval za prodajo hranilnice po transparentnem postopku , morebitnemu predlogu likvidacije pa bi nasprotoval . Zamenjal je tudi predstavnika interesov zadruge , saj bosta v nadzornem svetu namesto Borisa Perica ( KB 1909 ) in Adriana Kovačiča ( Zadružna kraška banka ) zastopala samostojni podjetnik Aleš Krečič , sicer komitent hranilnice , in investicijski menedžer Glavan . Za večino hranilnice slabih dva milijona evrov Kot smo že poročali v članku Patriotizem občine žene v boj za svojo banko je bilo več interesentov za hranilnico , njihove ponudbe pa bodo odpirali prihodnji teden . Po izvedenih pogajanjih pa bi morali do konca avgusta že izvedeti končne rezultate . Po naših informacijah morebitni likvidaciji hranilnice nasprotuje Banka Slovenije , a ji po trditvah naših virov ne bo nasprotovala , če prodaja ne bi uspela . Ta pa je v Bajčevih rokah , ki se bo moral odločiti , ali bo sprejel katero od ponudb . V zadrugi naj bi pričakovali , da bodo za večino hranilnice iztržili vsaj 2,1 milijona evrov , primorske občine pa naj bi svojo ponudbo po izvedbi skrbnega pregleda oklestili na 1,6 milijona evrov
+1-1	0-4	Novi	_	_	*->9-1	*[9]	
+1-2	5-15	predsednik	_	_	*->9-1	*[9]	
+1-3	16-26	nadzornega	_	_	*->9-1	*[9]	
+1-4	27-32	sveta	_	_	*->9-1	*[9]	
+1-5	33-41	vipavske	_	_	*->9-1|*->21-1	*[9]|*[21]	
+1-6	42-52	hranilnice	_	_	*->9-1|*->21-1	*[9]|*[21]	
+1-7	53-55	je	_	_	_	_	
+1-8	56-60	Uroš	PER[1]	_	*->9-2	*[9]	
+1-9	61-67	Glavan	PER[1]	_	*->9-2	*[9]	
+1-10	68-69	,	_	_	_	_	
+1-11	70-72	ki	_	_	_	_	
+1-12	73-75	je	_	_	_	_	
+1-13	76-83	povezan	_	_	*->9-3	*[9]	
+1-14	84-85	s	_	_	_	_	
+1-15	86-91	krogi	_	_	_	_	
+1-16	92-109	privatizacijskega	_	_	_	_	
+1-17	110-117	mogotca	_	_	_	_	
+1-18	118-124	Igorja	PER[2]	_	*->1-1	*[1]	
+1-19	125-129	Laha	PER[2]	_	*->1-1	*[1]	
+1-20	130-134	Foto	_	_	_	_	
+1-21	135-136	:	_	_	_	_	
+1-22	137-141	Aleš	PER[3]	3 - Nevtralno[27]	*->5-1	*[5]	
+1-23	142-146	Beno	PER[3]	3 - Nevtralno[27]	*->5-1	*[5]	
+1-24	147-151	Novi	_	_	*->9-4	*[9]	
+1-25	152-162	predsednik	_	_	*->9-4	*[9]	
+1-26	163-173	nadzornega	_	_	*->9-4	*[9]	
+1-27	174-179	sveta	_	_	*->9-4	*[9]	
+1-28	180-188	vipavske	_	_	*->9-4|*->21-2	*[9]|*[21]	
+1-29	189-199	hranilnice	_	_	*->9-4|*->21-2	*[9]|*[21]	
+1-30	200-201	,	_	_	_	_	
+1-31	202-204	ki	_	_	_	_	
+1-32	205-207	jo	_	_	*->21-3	*[21]	
+1-33	208-217	Kmetijska	ORG[4]	_	*->4-1	*[4]	
+1-34	218-225	zadruga	ORG[4]	_	*->4-1	*[4]	
+1-35	226-232	Vipava	ORG[4]|LOC[5]	_	*->4-1|*->2-1	*[4]|*[2]	
+1-36	233-240	prodaja	_	_	_	_	
+1-37	241-242	,	_	_	_	_	
+1-38	243-245	je	_	_	_	_	
+1-39	246-250	Uroš	PER[6]	_	*->9-5	*[9]	
+1-40	251-257	Glavan	PER[6]	_	*->9-5	*[9]	
+1-41	258-259	,	_	_	_	_	
+1-42	260-266	poroča	_	_	_	_	
+1-43	267-274	Dnevnik	ORG	_	*->6-1	*[6]	
+1-44	275-276	.	_	_	_	_	
+1-45	277-279	Ta	_	_	*->9-6	*[9]	
+1-46	280-282	je	_	_	_	_	
+1-47	283-285	do	_	_	_	_	
+1-48	286-290	pred	_	_	_	_	
+1-49	291-295	leti	_	_	_	_	
+1-50	296-305	sodeloval	_	_	_	_	
+1-51	306-307	s	_	_	_	_	
+1-52	308-324	privatizacijskim	_	_	_	_	
+1-53	325-333	mogotcem	_	_	_	_	
+1-54	334-341	Igorjem	PER[7]	_	*->1-2	*[1]	
+1-55	342-347	Lahom	PER[7]	_	*->1-2	*[1]	
+1-56	348-349	(	_	_	_	_	
+1-57	350-352	na	_	_	_	_	
+1-58	353-358	sliki	_	_	_	_	
+1-59	359-360	)	_	_	_	_	
+1-60	361-363	in	_	_	_	_	
+1-61	364-366	je	_	_	_	_	
+1-62	367-371	znan	_	_	*->9-7	*[9]	
+1-63	372-374	iz	_	_	_	_	
+1-64	375-381	poslov	_	_	_	_	
+1-65	382-383	z	_	_	_	_	
+1-66	384-393	Gradbenim	ORG[8]	3 - Nevtralno[28]	*->7-1	*[7]	
+1-67	394-403	podjetjem	ORG[8]	3 - Nevtralno[28]	*->7-1	*[7]	
+1-68	404-413	Grosuplje	ORG[8]|LOC[9]	3 - Nevtralno[28]|3 - Nevtralno[29]	*->7-1|*->8-1	*[7]|*[8]	
+1-69	414-415	(	_	_	_	_	
+1-70	416-419	GPG	ORG	3 - Nevtralno	*->7-2	*[7]	
+1-71	420-421	)	_	_	_	_	
+1-72	422-423	.	_	_	_	_	
+1-73	424-426	Ob	_	_	_	_	
+1-74	427-430	tem	_	_	_	_	
+1-75	431-433	so	_	_	_	_	
+1-76	434-436	se	_	_	_	_	
+1-77	437-445	pojavila	_	_	_	_	
+1-78	446-457	namigovanja	_	_	_	_	
+1-79	458-459	,	_	_	_	_	
+1-80	460-462	da	_	_	_	_	
+1-81	463-466	naj	_	_	_	_	
+1-82	467-469	bi	_	_	_	_	
+1-83	470-472	se	_	_	_	_	
+1-84	473-476	Lah	PER	_	*->1-3	*[1]	
+1-85	477-479	in	_	_	_	_	
+1-86	480-487	njegovi	_	_	*->1-4	*[1]	
+1-87	488-496	nekdanji	_	_	_	_	
+1-88	497-502	tesni	_	_	_	_	
+1-89	503-512	sodelavci	_	_	_	_	
+1-90	513-521	zanimali	_	_	_	_	
+1-91	522-524	za	_	_	_	_	
+1-92	525-530	nakup	_	_	_	_	
+1-93	531-536	druge	_	_	*->3-1	*[3]	
+1-94	537-542	družb	_	_	*->3-1	*[3]	
+1-95	543-544	v	_	_	*->3-1	*[3]	
+1-96	545-550	lasti	_	_	*->3-1	*[3]	
+1-97	551-558	zadruge	_	_	*->3-1|*->4-2	*[3]|*[4]	
+1-98	559-560	,	_	_	_	_	
+1-99	561-568	Agroind	ORG[10]	_	*->3-2	*[3]	
+1-100	569-575	Vipava	ORG[10]|LOC[11]	_	*->3-2|*->2-2	*[3]|*[2]	
+1-101	576-580	1894	ORG[10]	_	*->3-2	*[3]	
+1-102	581-582	.	_	_	_	_	
+1-103	583-584	V	_	_	_	_	
+1-104	585-591	Lahovi	PER	2 - Negativno[30]|2 - Negativno[31]	*->20-1|*->1-5	*[20]|*[1]	
+1-105	592-598	družbi	_	2 - Negativno[30]	*->20-1	*[20]	
+1-106	599-601	KS	ORG[12]	2 - Negativno[30]	*->20-1	*[20]	
+1-107	602-609	Naložbe	ORG[12]	2 - Negativno[30]	*->20-1	*[20]	
+1-108	610-612	so	_	_	_	_	
+1-109	613-616	vse	_	_	_	_	
+1-110	617-625	zanikali	_	_	_	_	
+1-111	626-627	.	_	_	_	_	
+1-112	628-635	Agroind	ORG	_	*->3-3	*[3]	
+1-113	636-637	,	_	_	_	_	
+1-114	638-640	ki	_	_	_	_	
+1-115	641-644	ima	_	_	*->3-4	*[3]	
+1-116	645-646	v	_	_	_	_	
+1-117	647-652	lasti	_	_	_	_	
+1-118	653-661	mlekarno	_	_	_	_	
+1-119	662-664	in	_	_	_	_	
+1-120	665-670	drugo	_	_	_	_	
+1-121	671-679	največjo	_	_	_	_	
+1-122	680-686	vinsko	_	_	_	_	
+1-123	687-691	klet	_	_	_	_	
+1-124	692-695	pri	_	_	_	_	
+1-125	696-699	nas	_	_	_	_	
+1-126	700-701	,	_	_	_	_	
+1-127	702-704	je	_	_	_	_	
+1-128	705-710	sicer	_	_	_	_	
+1-129	711-712	v	_	_	_	_	
+1-130	713-720	zadnjih	_	_	_	_	
+1-131	721-726	letih	_	_	_	_	
+1-132	727-735	ustvaril	_	_	_	_	
+1-133	736-742	izgubo	_	_	_	_	
+1-134	743-744	,	_	_	_	_	
+1-135	745-753	vrednost	_	_	_	_	
+1-136	754-763	njegovega	_	_	*->3-5	*[3]	
+1-137	764-774	premoženja	_	_	_	_	
+1-138	775-777	pa	_	_	_	_	
+1-139	778-780	se	_	_	_	_	
+1-140	781-789	ocenjuje	_	_	_	_	
+1-141	790-792	na	_	_	_	_	
+1-142	793-799	dobrih	_	_	_	_	
+1-143	800-802	18	_	_	_	_	
+1-144	803-812	milijonov	_	_	_	_	
+1-145	813-818	evrov	_	_	_	_	
+1-146	819-820	.	_	_	_	_	
+1-147	821-830	Zamenjana	_	_	_	_	
+1-148	831-835	tudi	_	_	_	_	
+1-149	836-848	predstavnika	_	_	_	_	
+1-150	849-858	interesov	_	_	_	_	
+1-151	859-866	zadruge	_	_	_	_	
+1-152	867-868	"	_	_	_	_	
+1-153	869-874	Nimam	_	_	_	_	
+1-154	875-882	nobenih	_	_	_	_	
+1-155	883-893	lastniških	_	_	_	_	
+1-156	894-901	ambicij	_	_	_	_	
+1-157	902-906	niti	_	_	_	_	
+1-158	907-908	v	_	_	_	_	
+1-159	909-919	Hranilnici	ORG[13]	_	*->21-4	*[21]	
+1-160	920-922	in	ORG[13]	_	*->21-4	*[21]	
+1-161	923-934	posojilnici	ORG[13]	_	*->21-4	*[21]	
+1-162	935-941	Vipava	ORG[13]|LOC[14]	_	*->21-4|*->2-3	*[21]|*[2]	
+1-163	942-946	niti	_	_	_	_	
+1-164	947-948	v	_	_	_	_	
+1-165	949-957	Agroindu	ORG	3 - Nevtralno	*->3-6	*[3]	
+1-166	958-959	,	_	_	_	_	
+1-167	960-961	"	_	_	_	_	
+1-168	962-964	je	_	_	_	_	
+1-169	965-971	včeraj	_	_	_	_	
+1-170	972-981	zagotovil	_	_	_	_	
+1-171	982-988	Glavan	PER	_	*->9-8	*[9]	
+1-172	989-990	.	_	_	_	_	
+1-173	991-992	"	_	_	_	_	
+1-174	993-1000	Zadruga	_	_	*->4-3	*[4]	
+1-175	1001-1003	me	_	_	*->9-9	*[9]	
+1-176	1004-1006	je	_	_	_	_	
+1-177	1007-1015	povabila	_	_	_	_	
+1-178	1016-1017	v	_	_	_	_	
+1-179	1018-1026	nadzorni	_	_	_	_	
+1-180	1027-1031	svet	_	_	_	_	
+1-181	1032-1033	,	_	_	_	_	
+1-182	1034-1037	ker	_	_	_	_	
+1-183	1038-1041	sem	_	_	_	_	
+1-184	1042-1043	z	_	_	_	_	
+1-185	1044-1049	njimi	_	_	*->4-4	*[4]	
+1-186	1050-1052	že	_	_	_	_	
+1-187	1053-1062	sodeloval	_	_	*->9-10	*[9]	
+1-188	1063-1066	pri	_	_	_	_	
+1-189	1067-1076	nekaterih	_	_	_	_	
+1-190	1077-1083	drugih	_	_	_	_	
+1-191	1084-1093	projektih	_	_	_	_	
+1-192	1094-1095	v	_	_	_	_	
+1-193	1096-1107	preteklosti	_	_	_	_	
+1-194	1108-1115	oziroma	_	_	_	_	
+1-195	1116-1119	jim	_	_	*->4-5	*[4]	
+1-196	1120-1128	svetoval	_	_	*->9-11	*[9]	
+1-197	1129-1130	,	_	_	_	_	
+1-198	1131-1132	"	_	_	_	_	
+1-199	1133-1135	je	_	_	*->9-12	*[9]	
+1-200	1136-1143	povedal	_	_	*->9-12	*[9]	
+1-201	1144-1145	.	_	_	_	_	
+1-202	1146-1151	Vodja	_	_	*->10-1	*[10]	
+1-203	1152-1161	Kmetijske	ORG[15]	_	*->10-1|*->4-6	*[10]|*[4]	
+1-204	1162-1169	zadruge	ORG[15]	_	*->10-1|*->4-6	*[10]|*[4]	
+1-205	1170-1171	(	ORG[15]	_	*->10-1|*->4-6	*[10]|*[4]	
+1-206	1172-1174	KZ	ORG[15]	_	*->10-1|*->4-6	*[10]|*[4]	
+1-207	1175-1176	)	ORG[15]	_	*->10-1|*->4-6	*[10]|*[4]	
+1-208	1177-1183	Vipava	ORG[15]|LOC[16]	3 - Nevtralno	*->10-1|*->4-6|*->2-4	*[10]|*[4]|*[2]	
+1-209	1184-1185	,	_	_	*->10-1	*[10]	
+1-210	1186-1191	Boris	PER[17]	_	*->10-1	*[10]	
+1-211	1192-1196	Bajc	PER[17]	_	*->10-1	*[10]	
+1-212	1197-1199	je	_	_	_	_	
+1-213	1200-1202	iz	_	_	_	_	
+1-214	1203-1213	nadzornega	_	_	_	_	
+1-215	1214-1219	sveta	_	_	_	_	
+1-216	1220-1230	odpoklical	_	_	_	_	
+1-217	1231-1237	Branka	PER[18]	2 - Negativno[32]	*->11-1	*[11]	
+1-218	1238-1244	Košuto	PER[18]	2 - Negativno[32]	*->11-1	*[11]	
+1-219	1245-1247	in	_	_	_	_	
+1-220	1248-1253	Nežko	PER[19]	2 - Negativno[33]	*->12-1	*[12]	
+1-221	1254-1258	Soja	PER[19]	2 - Negativno[33]	*->12-1	*[12]	
+1-222	1259-1260	.	_	_	_	_	
+1-223	1261-1263	Po	_	_	_	_	
+1-224	1264-1272	trditvah	_	_	_	_	
+1-225	1273-1278	virov	_	_	_	_	
+1-226	1279-1287	Dnevnika	ORG	3 - Nevtralno	*->6-2	*[6]	
+1-227	1288-1290	pa	_	_	_	_	
+1-228	1291-1293	si	_	_	_	_	
+1-229	1294-1296	je	_	_	_	_	
+1-230	1297-1301	vsaj	_	_	_	_	
+1-231	1302-1306	eden	_	_	_	_	
+1-232	1307-1309	od	_	_	_	_	
+1-233	1310-1322	odstavljenih	_	_	_	_	
+1-234	1323-1334	nadzornikov	_	_	_	_	
+1-235	1335-1345	prizadeval	_	_	_	_	
+1-236	1346-1348	za	_	_	_	_	
+1-237	1349-1356	prodajo	_	_	_	_	
+1-238	1357-1367	hranilnice	_	_	*->21-5	*[21]	
+1-239	1368-1370	po	_	_	_	_	
+1-240	1371-1385	transparentnem	_	_	_	_	
+1-241	1386-1394	postopku	_	_	_	_	
+1-242	1395-1396	,	_	_	_	_	
+1-243	1397-1408	morebitnemu	_	_	_	_	
+1-244	1409-1417	predlogu	_	_	_	_	
+1-245	1418-1429	likvidacije	_	_	_	_	
+1-246	1430-1432	pa	_	_	_	_	
+1-247	1433-1435	bi	_	_	_	_	
+1-248	1436-1447	nasprotoval	_	_	_	_	
+1-249	1448-1449	.	_	_	_	_	
+1-250	1450-1458	Zamenjal	_	_	*->10-2	*[10]	
+1-251	1459-1461	je	_	_	*->10-2	*[10]	
+1-252	1462-1466	tudi	_	_	_	_	
+1-253	1467-1479	predstavnika	_	_	_	_	
+1-254	1480-1489	interesov	_	_	_	_	
+1-255	1490-1497	zadruge	_	3 - Nevtralno	*->4-7	*[4]	
+1-256	1498-1499	,	_	_	_	_	
+1-257	1500-1503	saj	_	_	_	_	
+1-258	1504-1509	bosta	_	_	_	_	
+1-259	1510-1511	v	_	_	_	_	
+1-260	1512-1521	nadzornem	_	_	_	_	
+1-261	1522-1527	svetu	_	_	_	_	
+1-262	1528-1535	namesto	_	_	_	_	
+1-263	1536-1542	Borisa	PER[20]	2 - Negativno[34]	*->13-1	*[13]	
+1-264	1543-1549	Perica	PER[20]	2 - Negativno[34]	*->13-1	*[13]	
+1-265	1550-1551	(	_	_	_	_	
+1-266	1552-1554	KB	ORG[21]	3 - Nevtralno[35]	*->14-1	*[14]	
+1-267	1555-1559	1909	ORG[21]	3 - Nevtralno[35]	*->14-1	*[14]	
+1-268	1560-1561	)	_	_	_	_	
+1-269	1562-1564	in	_	_	_	_	
+1-270	1565-1572	Adriana	PER[22]	2 - Negativno[36]	*->15-1	*[15]	
+1-271	1573-1581	Kovačiča	PER[22]	2 - Negativno[36]	*->15-1	*[15]	
+1-272	1582-1583	(	_	_	_	_	
+1-273	1584-1592	Zadružna	ORG[23]	3 - Nevtralno[37]	*->16-1	*[16]	
+1-274	1593-1599	kraška	ORG[23]	3 - Nevtralno[37]	*->16-1	*[16]	
+1-275	1600-1605	banka	ORG[23]	3 - Nevtralno[37]	*->16-1	*[16]	
+1-276	1606-1607	)	_	_	_	_	
+1-277	1608-1617	zastopala	_	_	_	_	
+1-278	1618-1628	samostojni	_	_	*->17-1	*[17]	
+1-279	1629-1638	podjetnik	_	_	*->17-1	*[17]	
+1-280	1639-1643	Aleš	PER[24]	_	*->17-1	*[17]	
+1-281	1644-1650	Krečič	PER[24]	_	*->17-1	*[17]	
+1-282	1651-1652	,	_	_	_	_	
+1-283	1653-1658	sicer	_	_	_	_	
+1-284	1659-1667	komitent	_	3 - Nevtralno[38]	*->17-2	*[17]	
+1-285	1668-1678	hranilnice	_	3 - Nevtralno[38]	*->17-2|*->21-6	*[17]|*[21]	
+1-286	1679-1680	,	_	_	_	_	
+1-287	1681-1683	in	_	_	_	_	
+1-288	1684-1697	investicijski	_	2 - Negativno[39]	*->9-13	*[9]	
+1-289	1698-1706	menedžer	_	2 - Negativno[39]	*->9-13	*[9]	
+1-290	1707-1713	Glavan	PER	2 - Negativno[39]	*->9-13	*[9]	
+1-291	1714-1715	.	_	_	_	_	
+1-292	1716-1718	Za	_	_	_	_	
+1-293	1719-1725	večino	_	_	_	_	
+1-294	1726-1736	hranilnice	_	_	*->21-7	*[21]	
+1-295	1737-1743	slabih	_	_	_	_	
+1-296	1744-1747	dva	_	_	_	_	
+1-297	1748-1756	milijona	_	_	_	_	
+1-298	1757-1762	evrov	_	_	_	_	
+1-299	1763-1766	Kot	_	_	_	_	
+1-300	1767-1770	smo	_	_	_	_	
+1-301	1771-1773	že	_	_	_	_	
+1-302	1774-1782	poročali	_	_	_	_	
+1-303	1783-1784	v	_	_	_	_	
+1-304	1785-1791	članku	_	_	_	_	
+1-305	1792-1803	Patriotizem	_	_	_	_	
+1-306	1804-1810	občine	_	_	_	_	
+1-307	1811-1815	žene	_	_	_	_	
+1-308	1816-1817	v	_	_	_	_	
+1-309	1818-1821	boj	_	_	_	_	
+1-310	1822-1824	za	_	_	_	_	
+1-311	1825-1830	svojo	_	_	_	_	
+1-312	1831-1836	banko	_	_	_	_	
+1-313	1837-1839	je	_	_	_	_	
+1-314	1840-1844	bilo	_	_	_	_	
+1-315	1845-1848	več	_	_	_	_	
+1-316	1849-1861	interesentov	_	_	_	_	
+1-317	1862-1864	za	_	_	_	_	
+1-318	1865-1875	hranilnico	_	_	*->21-8	*[21]	
+1-319	1876-1877	,	_	_	_	_	
+1-320	1878-1885	njihove	_	_	_	_	
+1-321	1886-1893	ponudbe	_	_	_	_	
+1-322	1894-1896	pa	_	_	_	_	
+1-323	1897-1901	bodo	_	_	_	_	
+1-324	1902-1910	odpirali	_	_	_	_	
+1-325	1911-1920	prihodnji	_	_	_	_	
+1-326	1921-1926	teden	_	_	_	_	
+1-327	1927-1928	.	_	_	_	_	
+1-328	1929-1931	Po	_	_	_	_	
+1-329	1932-1941	izvedenih	_	_	_	_	
+1-330	1942-1952	pogajanjih	_	_	_	_	
+1-331	1953-1955	pa	_	_	_	_	
+1-332	1956-1958	bi	_	_	_	_	
+1-333	1959-1965	morali	_	_	_	_	
+1-334	1966-1968	do	_	_	_	_	
+1-335	1969-1974	konca	_	_	_	_	
+1-336	1975-1982	avgusta	_	_	_	_	
+1-337	1983-1985	že	_	_	_	_	
+1-338	1986-1994	izvedeti	_	_	_	_	
+1-339	1995-2001	končne	_	_	_	_	
+1-340	2002-2011	rezultate	_	_	_	_	
+1-341	2012-2013	.	_	_	_	_	
+1-342	2014-2016	Po	_	_	_	_	
+1-343	2017-2022	naših	_	_	_	_	
+1-344	2023-2035	informacijah	_	_	_	_	
+1-345	2036-2045	morebitni	_	_	_	_	
+1-346	2046-2057	likvidaciji	_	_	_	_	
+1-347	2058-2068	hranilnice	_	_	*->21-9	*[21]	
+1-348	2069-2079	nasprotuje	_	_	_	_	
+1-349	2080-2085	Banka	ORG[25]	_	*->18-1	*[18]	
+1-350	2086-2095	Slovenije	ORG[25]|LOC[26]	3 - Nevtralno	*->18-1|*->19-1	*[18]|*[19]	
+1-351	2096-2097	,	_	_	_	_	
+1-352	2098-2099	a	_	_	_	_	
+1-353	2100-2102	ji	_	_	_	_	
+1-354	2103-2105	po	_	_	_	_	
+1-355	2106-2114	trditvah	_	_	_	_	
+1-356	2115-2120	naših	_	_	_	_	
+1-357	2121-2126	virov	_	_	_	_	
+1-358	2127-2129	ne	_	_	_	_	
+1-359	2130-2132	bo	_	_	_	_	
+1-360	2133-2145	nasprotovala	_	3 - Nevtralno	*->18-2	*[18]	
+1-361	2146-2147	,	_	_	_	_	
+1-362	2148-2150	če	_	_	_	_	
+1-363	2151-2158	prodaja	_	_	_	_	
+1-364	2159-2161	ne	_	_	_	_	
+1-365	2162-2164	bi	_	_	_	_	
+1-366	2165-2171	uspela	_	_	_	_	
+1-367	2172-2173	.	_	_	_	_	
+1-368	2174-2176	Ta	_	_	_	_	
+1-369	2177-2179	pa	_	_	_	_	
+1-370	2180-2182	je	_	_	_	_	
+1-371	2183-2184	v	_	_	_	_	
+1-372	2185-2193	Bajčevih	PER	_	*->10-3	*[10]	
+1-373	2194-2199	rokah	_	_	_	_	
+1-374	2200-2201	,	_	_	_	_	
+1-375	2202-2204	ki	_	_	_	_	
+1-376	2205-2207	se	_	_	_	_	
+1-377	2208-2210	bo	_	_	_	_	
+1-378	2211-2216	moral	_	_	*->10-4	*[10]	
+1-379	2217-2225	odločiti	_	_	_	_	
+1-380	2226-2227	,	_	_	_	_	
+1-381	2228-2231	ali	_	_	_	_	
+1-382	2232-2234	bo	_	_	_	_	
+1-383	2235-2242	sprejel	_	3 - Nevtralno	*->10-5	*[10]	
+1-384	2243-2249	katero	_	_	_	_	
+1-385	2250-2252	od	_	_	_	_	
+1-386	2253-2259	ponudb	_	_	_	_	
+1-387	2260-2261	.	_	_	_	_	
+1-388	2262-2263	V	_	_	_	_	
+1-389	2264-2271	zadrugi	_	_	_	_	
+1-390	2272-2275	naj	_	_	_	_	
+1-391	2276-2278	bi	_	_	_	_	
+1-392	2279-2290	pričakovali	_	_	_	_	
+1-393	2291-2292	,	_	_	_	_	
+1-394	2293-2295	da	_	_	_	_	
+1-395	2296-2300	bodo	_	_	_	_	
+1-396	2301-2303	za	_	_	_	_	
+1-397	2304-2310	večino	_	_	_	_	
+1-398	2311-2321	hranilnice	_	3 - Nevtralno	*->21-10	*[21]	
+1-399	2322-2330	iztržili	_	_	_	_	
+1-400	2331-2335	vsaj	_	_	_	_	
+1-401	2336-2339	2,1	_	_	_	_	
+1-402	2340-2348	milijona	_	_	_	_	
+1-403	2349-2354	evrov	_	_	_	_	
+1-404	2355-2356	,	_	_	_	_	
+1-405	2357-2366	primorske	_	_	_	_	
+1-406	2367-2373	občine	_	_	_	_	
+1-407	2374-2376	pa	_	_	_	_	
+1-408	2377-2380	naj	_	_	_	_	
+1-409	2381-2383	bi	_	_	_	_	
+1-410	2384-2389	svojo	_	_	_	_	
+1-411	2390-2397	ponudbo	_	_	_	_	
+1-412	2398-2400	po	_	_	_	_	
+1-413	2401-2408	izvedbi	_	_	_	_	
+1-414	2409-2417	skrbnega	_	_	_	_	
+1-415	2418-2426	pregleda	_	_	_	_	
+1-416	2427-2436	oklestili	_	_	_	_	
+1-417	2437-2439	na	_	_	_	_	
+1-418	2440-2443	1,6	_	_	_	_	
+1-419	2444-2452	milijona	_	_	_	_	
+1-420	2453-2458	evrov	_	_	_	_	

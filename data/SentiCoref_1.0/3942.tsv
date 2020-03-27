@@ -1,0 +1,461 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Vlada Janeza Janše nadaljuje svoj način korporativnega upravljanja , pri katerem pa ne krši več zgolj zakona o upravljanju kapitalskih naložb , ampak očitno tudi vse druge zakone , ki ji stojijo na poti pri kadrovanju v družbah z lastniškim deležem države . Vlada je namreč Agenciji za upravljanje kapitalskih naložb ( AUKN ) po naših informacijah izrecno naložila , da pooblaščenec , ki bo na torkovi skupščini Cinkarne Celje zastopal 20 - odstotni delež Modre zavarovalnice , vloži nasprotni predlog in v nadzorni svet ene najuspešnejših gospodarskih družb v državi imenuje člana SDS Matjaža Janšo . Z navodilom je vlada tokrat povozila tudi zakon o gospodarskih družbah , ki določa , da lahko nasprotne predloge na skupščinah vlaga zgolj delničar , torej v tem primeru Modra zavarovalnica . Vlada postavlja s tovrstno prakso v neprijeten položaj tako pooblaščenca , ki bo na skupščini glasoval v imenu Modre zavarovalnice , kot predsedujočega skupščini . Glede na sklic skupščine bo to vodil Zdenko Podlesnik in ta bo odločil , ali na dnevni red skupščine uvrstiti nasprotni predlog brez podpisa oziroma soglasje delničarja ali ne . Delež v Cinkarni Celje je sicer edini delež Modre zavarovalnice v kakšni gospodarski družbi , ki ga v imenu in za račun zavarovalnice upravlja AUKN , to pomeni , da v njenem imenu izvršuje glasovalne pravice . Prav na skupščini Modre zavarovalnice pa je vladi s podobnim načrtom enkrat že spodletelo . Spomnimo , predsednica skupščine pooblaščencu AUKN takrat ni dovolila vložitve nasprotnega predloga o nepodelitvi razrešnice , saj ta ni imel pooblastila Kada , ki je lastnik zavarovalnice . Vlada želi Matjaža Janšo , v času prve Janševe vlade nadzornika Pošte Slovenije in Telekoma Slovenije ter kasnejšega direktorja direktorata za elektronske komunikacije ter vladnega pooblaščenca neuspešnega postopka prodaje Telekoma , imenovati na mesto v nadzornem svetu Cinkarne Celje , ki ga je v začetku julija sprostila nekdanja članica uprave propadlega Zvona Ena Holdinga Mateja Vidnar . Po prvotnem predlogu naj bi mesto v nadzornem svetu zasedel član uprave Slovenske odškodninske družbe ( Sod ) Krešo Šavrič . Sod je namreč 11,41 - odstotni lastnik cinkarne in predsednik uprave Soda Tomaž Kuntarič , ki mu vlada želi v prehodnem obdobju zaupati vodenje Slovenskega državnega holdinga ( SDH ) , bo tako pred odločitvijo , ali podpreti člana svoje uprave ali kandidata vlade . Pomembnejši , 15 - odstotni delež , ima poleg Modre zavarovalnice , propadlega Zvona in Soda v Cinkarni Celje zgolj še družba za upravljanje NFD , medtem ko Skupina KD Group obvladuje slabo desetino lastništva . Če se bo nasprotni predlog za imenovanje Matjaža Janše v nadzorni svet Cinkarne Celje dejansko uvrstil na skupščino družbe , je njen razplet zaradi razpršenega lastništva zelo težko napovedati
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-17	Vlada	_	_	_	_	
+1-4	18-24	Janeza	PER[1]	_	*->2-1	*[2]	
+1-5	25-30	Janše	PER[1]	_	*->2-1	*[2]	
+1-6	31-40	nadaljuje	_	_	_	_	
+1-7	41-45	svoj	_	_	_	_	
+1-8	46-51	način	_	_	_	_	
+1-9	52-66	korporativnega	_	_	_	_	
+1-10	67-78	upravljanja	_	_	_	_	
+1-11	79-80	,	_	_	_	_	
+1-12	81-84	pri	_	_	_	_	
+1-13	85-92	katerem	_	_	_	_	
+1-14	93-95	pa	_	_	_	_	
+1-15	96-98	ne	_	_	_	_	
+1-16	99-103	krši	_	_	_	_	
+1-17	104-107	več	_	_	_	_	
+1-18	108-113	zgolj	_	_	_	_	
+1-19	114-120	zakona	_	_	_	_	
+1-20	121-122	o	_	_	_	_	
+1-21	123-134	upravljanju	_	_	_	_	
+1-22	135-146	kapitalskih	_	_	_	_	
+1-23	147-153	naložb	_	_	_	_	
+1-24	154-155	,	_	_	_	_	
+1-25	156-161	ampak	_	_	_	_	
+1-26	162-168	očitno	_	_	_	_	
+1-27	169-173	tudi	_	_	_	_	
+1-28	174-177	vse	_	_	_	_	
+1-29	178-183	druge	_	_	_	_	
+1-30	184-190	zakone	_	_	_	_	
+1-31	191-192	,	_	_	_	_	
+1-32	193-195	ki	_	_	_	_	
+1-33	196-198	ji	_	_	_	_	
+1-34	199-206	stojijo	_	_	_	_	
+1-35	207-209	na	_	_	_	_	
+1-36	210-214	poti	_	_	_	_	
+1-37	215-218	pri	_	_	_	_	
+1-38	219-229	kadrovanju	_	_	_	_	
+1-39	230-231	v	_	_	_	_	
+1-40	232-239	družbah	_	_	_	_	
+1-41	240-241	z	_	_	_	_	
+1-42	242-252	lastniškim	_	_	_	_	
+1-43	253-260	deležem	_	_	_	_	
+1-44	261-267	države	_	_	_	_	
+1-45	268-269	.	_	_	_	_	
+1-46	270-275	Vlada	_	_	_	_	
+1-47	276-278	je	_	_	_	_	
+1-48	279-285	namreč	_	_	_	_	
+1-49	286-294	Agenciji	ORG[2]	_	*->3-1	*[3]	
+1-50	295-297	za	ORG[2]	_	*->3-1	*[3]	
+1-51	298-309	upravljanje	ORG[2]	_	*->3-1	*[3]	
+1-52	310-321	kapitalskih	ORG[2]	_	*->3-1	*[3]	
+1-53	322-328	naložb	ORG[2]	_	*->3-1	*[3]	
+1-54	329-330	(	_	_	_	_	
+1-55	331-335	AUKN	ORG	_	*->3-2	*[3]	
+1-56	336-337	)	_	_	_	_	
+1-57	338-340	po	_	_	_	_	
+1-58	341-346	naših	_	_	_	_	
+1-59	347-359	informacijah	_	_	_	_	
+1-60	360-367	izrecno	_	_	_	_	
+1-61	368-376	naložila	_	_	_	_	
+1-62	377-378	,	_	_	_	_	
+1-63	379-381	da	_	_	_	_	
+1-64	382-394	pooblaščenec	_	_	_	_	
+1-65	395-396	,	_	_	_	_	
+1-66	397-399	ki	_	_	_	_	
+1-67	400-402	bo	_	_	_	_	
+1-68	403-405	na	_	_	_	_	
+1-69	406-413	torkovi	_	_	_	_	
+1-70	414-423	skupščini	_	_	_	_	
+1-71	424-432	Cinkarne	ORG[3]	_	*->4-1	*[4]	
+1-72	433-438	Celje	ORG[3]|LOC[4]	_	*->4-1|*->5-1	*[4]|*[5]	
+1-73	439-447	zastopal	_	_	_	_	
+1-74	448-450	20	_	_	_	_	
+1-75	451-452	-	_	_	_	_	
+1-76	453-461	odstotni	_	_	_	_	
+1-77	462-467	delež	_	_	_	_	
+1-78	468-473	Modre	ORG[5]	_	*->6-1	*[6]	
+1-79	474-487	zavarovalnice	ORG[5]	_	*->6-1	*[6]	
+1-80	488-489	,	_	_	_	_	
+1-81	490-495	vloži	_	_	_	_	
+1-82	496-505	nasprotni	_	_	_	_	
+1-83	506-513	predlog	_	_	_	_	
+1-84	514-516	in	_	_	_	_	
+1-85	517-518	v	_	_	_	_	
+1-86	519-527	nadzorni	_	_	_	_	
+1-87	528-532	svet	_	_	_	_	
+1-88	533-536	ene	_	_	*->4-2	*[4]	
+1-89	537-551	najuspešnejših	_	_	*->4-2	*[4]	
+1-90	552-564	gospodarskih	_	_	*->4-2	*[4]	
+1-91	565-570	družb	_	_	*->4-2	*[4]	
+1-92	571-572	v	_	_	*->4-2	*[4]	
+1-93	573-579	državi	_	_	*->4-2	*[4]	
+1-94	580-587	imenuje	_	_	_	_	
+1-95	588-593	člana	_	_	*->8-1	*[8]	
+1-96	594-597	SDS	LOC	3 - Nevtralno	*->8-1|*->7-1	*[8]|*[7]	
+1-97	598-605	Matjaža	PER[6]	_	*->8-1	*[8]	
+1-98	606-611	Janšo	PER[6]	_	*->8-1	*[8]	
+1-99	612-613	.	_	_	_	_	
+1-100	614-615	Z	_	_	_	_	
+1-101	616-625	navodilom	_	_	_	_	
+1-102	626-628	je	_	_	_	_	
+1-103	629-634	vlada	_	_	_	_	
+1-104	635-641	tokrat	_	_	_	_	
+1-105	642-650	povozila	_	_	_	_	
+1-106	651-655	tudi	_	_	_	_	
+1-107	656-661	zakon	_	_	_	_	
+1-108	662-663	o	_	_	_	_	
+1-109	664-676	gospodarskih	_	_	_	_	
+1-110	677-684	družbah	_	_	_	_	
+1-111	685-686	,	_	_	_	_	
+1-112	687-689	ki	_	_	_	_	
+1-113	690-696	določa	_	_	_	_	
+1-114	697-698	,	_	_	_	_	
+1-115	699-701	da	_	_	_	_	
+1-116	702-707	lahko	_	_	_	_	
+1-117	708-717	nasprotne	_	_	_	_	
+1-118	718-726	predloge	_	_	_	_	
+1-119	727-729	na	_	_	_	_	
+1-120	730-740	skupščinah	_	_	_	_	
+1-121	741-746	vlaga	_	_	_	_	
+1-122	747-752	zgolj	_	_	_	_	
+1-123	753-761	delničar	_	_	_	_	
+1-124	762-763	,	_	_	_	_	
+1-125	764-769	torej	_	_	_	_	
+1-126	770-771	v	_	_	_	_	
+1-127	772-775	tem	_	_	_	_	
+1-128	776-783	primeru	_	_	_	_	
+1-129	784-789	Modra	ORG[7]	_	*->6-2	*[6]	
+1-130	790-803	zavarovalnica	ORG[7]	_	*->6-2	*[6]	
+1-131	804-805	.	_	_	_	_	
+1-132	806-811	Vlada	_	_	_	_	
+1-133	812-821	postavlja	_	_	_	_	
+1-134	822-823	s	_	_	_	_	
+1-135	824-832	tovrstno	_	_	_	_	
+1-136	833-839	prakso	_	_	_	_	
+1-137	840-841	v	_	_	_	_	
+1-138	842-852	neprijeten	_	_	_	_	
+1-139	853-860	položaj	_	_	_	_	
+1-140	861-865	tako	_	_	_	_	
+1-141	866-878	pooblaščenca	_	_	_	_	
+1-142	879-880	,	_	_	_	_	
+1-143	881-883	ki	_	_	_	_	
+1-144	884-886	bo	_	_	_	_	
+1-145	887-889	na	_	_	_	_	
+1-146	890-899	skupščini	_	_	_	_	
+1-147	900-908	glasoval	_	_	_	_	
+1-148	909-910	v	_	_	_	_	
+1-149	911-916	imenu	_	_	_	_	
+1-150	917-922	Modre	ORG[8]	_	*->6-3	*[6]	
+1-151	923-936	zavarovalnice	ORG[8]	_	*->6-3	*[6]	
+1-152	937-938	,	_	_	_	_	
+1-153	939-942	kot	_	_	_	_	
+1-154	943-957	predsedujočega	_	_	_	_	
+1-155	958-967	skupščini	_	_	_	_	
+1-156	968-969	.	_	_	_	_	
+1-157	970-975	Glede	_	_	_	_	
+1-158	976-978	na	_	_	_	_	
+1-159	979-984	sklic	_	_	_	_	
+1-160	985-994	skupščine	_	_	_	_	
+1-161	995-997	bo	_	_	_	_	
+1-162	998-1000	to	_	_	_	_	
+1-163	1001-1006	vodil	_	_	_	_	
+1-164	1007-1013	Zdenko	ORG[9]	_	*->9-1	*[9]	
+1-165	1014-1023	Podlesnik	ORG[9]	_	*->9-1	*[9]	
+1-166	1024-1026	in	_	_	_	_	
+1-167	1027-1029	ta	_	_	*->9-2	*[9]	
+1-168	1030-1032	bo	_	_	_	_	
+1-169	1033-1040	odločil	_	3 - Nevtralno	*->9-3	*[9]	
+1-170	1041-1042	,	_	_	_	_	
+1-171	1043-1046	ali	_	_	_	_	
+1-172	1047-1049	na	_	_	_	_	
+1-173	1050-1056	dnevni	_	_	_	_	
+1-174	1057-1060	red	_	_	_	_	
+1-175	1061-1070	skupščine	_	_	_	_	
+1-176	1071-1079	uvrstiti	_	_	_	_	
+1-177	1080-1089	nasprotni	_	_	_	_	
+1-178	1090-1097	predlog	_	_	_	_	
+1-179	1098-1102	brez	_	_	_	_	
+1-180	1103-1110	podpisa	_	_	_	_	
+1-181	1111-1118	oziroma	_	_	_	_	
+1-182	1119-1127	soglasje	_	_	_	_	
+1-183	1128-1138	delničarja	_	_	_	_	
+1-184	1139-1142	ali	_	_	_	_	
+1-185	1143-1145	ne	_	_	_	_	
+1-186	1146-1147	.	_	_	_	_	
+1-187	1148-1153	Delež	_	_	_	_	
+1-188	1154-1155	v	_	_	_	_	
+1-189	1156-1164	Cinkarni	ORG[10]	_	*->4-3	*[4]	
+1-190	1165-1170	Celje	ORG[10]|LOC[11]	_	*->4-3|*->5-2	*[4]|*[5]	
+1-191	1171-1173	je	_	_	_	_	
+1-192	1174-1179	sicer	_	_	_	_	
+1-193	1180-1185	edini	_	_	_	_	
+1-194	1186-1191	delež	_	_	_	_	
+1-195	1192-1197	Modre	ORG[12]	_	*->6-4	*[6]	
+1-196	1198-1211	zavarovalnice	ORG[12]	_	*->6-4	*[6]	
+1-197	1212-1213	v	_	_	_	_	
+1-198	1214-1220	kakšni	_	_	_	_	
+1-199	1221-1232	gospodarski	_	_	_	_	
+1-200	1233-1239	družbi	_	_	_	_	
+1-201	1240-1241	,	_	_	_	_	
+1-202	1242-1244	ki	_	_	_	_	
+1-203	1245-1247	ga	_	_	_	_	
+1-204	1248-1249	v	_	_	_	_	
+1-205	1250-1255	imenu	_	_	_	_	
+1-206	1256-1258	in	_	_	_	_	
+1-207	1259-1261	za	_	_	_	_	
+1-208	1262-1267	račun	_	_	_	_	
+1-209	1268-1281	zavarovalnice	_	_	_	_	
+1-210	1282-1290	upravlja	_	_	_	_	
+1-211	1291-1295	AUKN	ORG	_	*->3-3	*[3]	
+1-212	1296-1297	,	_	_	_	_	
+1-213	1298-1300	to	_	_	_	_	
+1-214	1301-1307	pomeni	_	_	_	_	
+1-215	1308-1309	,	_	_	_	_	
+1-216	1310-1312	da	_	_	_	_	
+1-217	1313-1314	v	_	_	_	_	
+1-218	1315-1321	njenem	_	_	*->3-4	*[3]	
+1-219	1322-1327	imenu	_	_	_	_	
+1-220	1328-1336	izvršuje	_	_	_	_	
+1-221	1337-1347	glasovalne	_	_	_	_	
+1-222	1348-1355	pravice	_	_	_	_	
+1-223	1356-1357	.	_	_	_	_	
+1-224	1358-1362	Prav	_	_	_	_	
+1-225	1363-1365	na	_	_	_	_	
+1-226	1366-1375	skupščini	_	_	_	_	
+1-227	1376-1381	Modre	ORG[13]	_	*->6-5	*[6]	
+1-228	1382-1395	zavarovalnice	ORG[13]	_	*->6-5	*[6]	
+1-229	1396-1398	pa	_	_	_	_	
+1-230	1399-1401	je	_	_	_	_	
+1-231	1402-1407	vladi	_	_	_	_	
+1-232	1408-1409	s	_	_	_	_	
+1-233	1410-1418	podobnim	_	_	_	_	
+1-234	1419-1426	načrtom	_	_	_	_	
+1-235	1427-1433	enkrat	_	_	_	_	
+1-236	1434-1436	že	_	_	_	_	
+1-237	1437-1447	spodletelo	_	_	_	_	
+1-238	1448-1449	.	_	_	_	_	
+1-239	1450-1458	Spomnimo	_	_	_	_	
+1-240	1459-1460	,	_	_	_	_	
+1-241	1461-1472	predsednica	_	_	_	_	
+1-242	1473-1482	skupščine	_	_	_	_	
+1-243	1483-1495	pooblaščencu	_	_	_	_	
+1-244	1496-1500	AUKN	ORG	3 - Nevtralno	*->3-5	*[3]	
+1-245	1501-1507	takrat	_	_	_	_	
+1-246	1508-1510	ni	_	_	_	_	
+1-247	1511-1519	dovolila	_	_	_	_	
+1-248	1520-1528	vložitve	_	_	_	_	
+1-249	1529-1540	nasprotnega	_	_	_	_	
+1-250	1541-1549	predloga	_	_	_	_	
+1-251	1550-1551	o	_	_	_	_	
+1-252	1552-1563	nepodelitvi	_	_	_	_	
+1-253	1564-1574	razrešnice	_	_	_	_	
+1-254	1575-1576	,	_	_	_	_	
+1-255	1577-1580	saj	_	_	_	_	
+1-256	1581-1583	ta	_	_	_	_	
+1-257	1584-1586	ni	_	_	_	_	
+1-258	1587-1591	imel	_	_	_	_	
+1-259	1592-1603	pooblastila	_	_	_	_	
+1-260	1604-1608	Kada	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-261	1609-1610	,	_	_	_	_	
+1-262	1611-1613	ki	_	_	_	_	
+1-263	1614-1616	je	_	_	_	_	
+1-264	1617-1624	lastnik	_	_	_	_	
+1-265	1625-1638	zavarovalnice	_	_	*->6-6	*[6]	
+1-266	1639-1640	.	_	_	_	_	
+1-267	1641-1646	Vlada	_	_	_	_	
+1-268	1647-1651	želi	_	_	_	_	
+1-269	1652-1659	Matjaža	PER[14]	_	*->8-2	*[8]	
+1-270	1660-1665	Janšo	PER[14]	_	*->8-2	*[8]	
+1-271	1666-1667	,	_	_	_	_	
+1-272	1668-1669	v	_	_	_	_	
+1-273	1670-1674	času	_	_	_	_	
+1-274	1675-1679	prve	_	_	_	_	
+1-275	1680-1687	Janševe	PER	3 - Nevtralno	*->2-2	*[2]	
+1-276	1688-1693	vlade	_	_	_	_	
+1-277	1694-1704	nadzornika	_	_	*->8-3	*[8]	
+1-278	1705-1710	Pošte	ORG[15]	3 - Nevtralno[34]	*->8-3|*->11-1	*[8]|*[11]	
+1-279	1711-1720	Slovenije	ORG[15]|LOC[16]	3 - Nevtralno[34]	*->8-3|*->11-1|*->12-1	*[8]|*[11]|*[12]	
+1-280	1721-1723	in	_	_	*->8-3	*[8]	
+1-281	1724-1732	Telekoma	ORG[17]	_	*->8-3|*->13-1	*[8]|*[13]	
+1-282	1733-1742	Slovenije	ORG[17]|LOC[18]	3 - Nevtralno	*->8-3|*->13-1|*->12-2	*[8]|*[13]|*[12]	
+1-283	1743-1746	ter	_	_	_	_	
+1-284	1747-1757	kasnejšega	_	_	_	_	
+1-285	1758-1768	direktorja	_	_	*->8-4	*[8]	
+1-286	1769-1780	direktorata	_	_	*->8-4	*[8]	
+1-287	1781-1783	za	_	_	*->8-4	*[8]	
+1-288	1784-1795	elektronske	_	_	*->8-4	*[8]	
+1-289	1796-1808	komunikacije	_	_	*->8-4	*[8]	
+1-290	1809-1812	ter	_	_	*->8-4	*[8]	
+1-291	1813-1821	vladnega	_	_	*->8-4	*[8]	
+1-292	1822-1834	pooblaščenca	_	_	*->8-4	*[8]	
+1-293	1835-1846	neuspešnega	_	_	*->8-4	*[8]	
+1-294	1847-1855	postopka	_	_	*->8-4	*[8]	
+1-295	1856-1863	prodaje	_	_	*->8-4	*[8]	
+1-296	1864-1872	Telekoma	ORG	3 - Nevtralno	*->8-4|*->13-2	*[8]|*[13]	
+1-297	1873-1874	,	_	_	_	_	
+1-298	1875-1884	imenovati	_	_	_	_	
+1-299	1885-1887	na	_	_	_	_	
+1-300	1888-1893	mesto	_	_	_	_	
+1-301	1894-1895	v	_	_	_	_	
+1-302	1896-1905	nadzornem	_	_	_	_	
+1-303	1906-1911	svetu	_	_	_	_	
+1-304	1912-1920	Cinkarne	ORG[19]	_	*->4-4	*[4]	
+1-305	1921-1926	Celje	ORG[19]|LOC[20]	_	*->4-4|*->5-3	*[4]|*[5]	
+1-306	1927-1928	,	_	_	_	_	
+1-307	1929-1931	ki	_	_	_	_	
+1-308	1932-1934	ga	_	_	_	_	
+1-309	1935-1937	je	_	_	_	_	
+1-310	1938-1939	v	_	_	_	_	
+1-311	1940-1947	začetku	_	_	_	_	
+1-312	1948-1954	julija	_	_	_	_	
+1-313	1955-1964	sprostila	_	_	_	_	
+1-314	1965-1973	nekdanja	_	3 - Nevtralno[35]	*->15-1	*[15]	
+1-315	1974-1981	članica	_	3 - Nevtralno[35]	*->15-1	*[15]	
+1-316	1982-1988	uprave	_	3 - Nevtralno[35]	*->15-1	*[15]	
+1-317	1989-1999	propadlega	_	3 - Nevtralno[35]	*->15-1	*[15]	
+1-318	2000-2005	Zvona	ORG[21]	3 - Nevtralno[35]	*->15-1|*->14-1	*[15]|*[14]	
+1-319	2006-2009	Ena	ORG[21]	3 - Nevtralno[35]	*->15-1|*->14-1	*[15]|*[14]	
+1-320	2010-2018	Holdinga	ORG[21]	3 - Nevtralno[35]	*->15-1|*->14-1	*[15]|*[14]	
+1-321	2019-2025	Mateja	PER[22]	3 - Nevtralno[35]	*->15-1	*[15]	
+1-322	2026-2032	Vidnar	PER[22]	3 - Nevtralno[35]	*->15-1	*[15]	
+1-323	2033-2034	.	_	_	_	_	
+1-324	2035-2037	Po	_	_	_	_	
+1-325	2038-2046	prvotnem	_	_	_	_	
+1-326	2047-2055	predlogu	_	_	_	_	
+1-327	2056-2059	naj	_	_	_	_	
+1-328	2060-2062	bi	_	_	_	_	
+1-329	2063-2068	mesto	_	_	_	_	
+1-330	2069-2070	v	_	_	_	_	
+1-331	2071-2080	nadzornem	_	_	_	_	
+1-332	2081-2086	svetu	_	_	_	_	
+1-333	2087-2094	zasedel	_	_	_	_	
+1-334	2095-2099	član	_	3 - Nevtralno[36]	*->16-1	*[16]	
+1-335	2100-2106	uprave	_	3 - Nevtralno[36]	*->16-1	*[16]	
+1-336	2107-2116	Slovenske	ORG[23]	3 - Nevtralno[36]	*->16-1|*->20-1	*[16]|*[20]	
+1-337	2117-2129	odškodninske	ORG[23]	3 - Nevtralno[36]	*->16-1|*->20-1	*[16]|*[20]	
+1-338	2130-2136	družbe	ORG[23]	3 - Nevtralno[36]	*->16-1|*->20-1	*[16]|*[20]	
+1-339	2137-2138	(	ORG[23]	3 - Nevtralno[36]	*->16-1|*->20-1	*[16]|*[20]	
+1-340	2139-2142	Sod	ORG[23]	3 - Nevtralno[36]	*->16-1|*->20-1	*[16]|*[20]	
+1-341	2143-2144	)	ORG[23]	3 - Nevtralno[36]	*->16-1|*->20-1	*[16]|*[20]	
+1-342	2145-2150	Krešo	PER[24]	3 - Nevtralno[36]	*->16-1	*[16]	
+1-343	2151-2157	Šavrič	PER[24]	3 - Nevtralno[36]	*->16-1	*[16]	
+1-344	2158-2159	.	_	_	_	_	
+1-345	2160-2163	Sod	ORG	_	*->20-2	*[20]	
+1-346	2164-2166	je	_	_	_	_	
+1-347	2167-2173	namreč	_	_	_	_	
+1-348	2174-2179	11,41	_	_	*->20-3	*[20]	
+1-349	2180-2181	-	_	_	*->20-3	*[20]	
+1-350	2182-2190	odstotni	_	_	*->20-3	*[20]	
+1-351	2191-2198	lastnik	_	_	*->20-3	*[20]	
+1-352	2199-2207	cinkarne	_	_	*->20-3|*->4-5	*[20]|*[4]	
+1-353	2208-2210	in	_	_	_	_	
+1-354	2211-2221	predsednik	_	_	*->17-1	*[17]	
+1-355	2222-2228	uprave	_	_	*->17-1	*[17]	
+1-356	2229-2233	Soda	ORG	_	*->17-1|*->20-4	*[17]|*[20]	
+1-357	2234-2239	Tomaž	PER[25]	_	*->17-1	*[17]	
+1-358	2240-2248	Kuntarič	PER[25]	_	*->17-1	*[17]	
+1-359	2249-2250	,	_	_	_	_	
+1-360	2251-2253	ki	_	_	_	_	
+1-361	2254-2256	mu	_	_	*->17-2	*[17]	
+1-362	2257-2262	vlada	_	_	_	_	
+1-363	2263-2267	želi	_	_	_	_	
+1-364	2268-2269	v	_	_	_	_	
+1-365	2270-2279	prehodnem	_	_	_	_	
+1-366	2280-2287	obdobju	_	_	_	_	
+1-367	2288-2295	zaupati	_	_	_	_	
+1-368	2296-2303	vodenje	_	_	_	_	
+1-369	2304-2315	Slovenskega	ORG[26]	_	*->18-1	*[18]	
+1-370	2316-2325	državnega	ORG[26]	_	*->18-1	*[18]	
+1-371	2326-2334	holdinga	ORG[26]	_	*->18-1	*[18]	
+1-372	2335-2336	(	_	_	_	_	
+1-373	2337-2340	SDH	ORG	3 - Nevtralno	*->18-2	*[18]	
+1-374	2341-2342	)	_	_	_	_	
+1-375	2343-2344	,	_	_	_	_	
+1-376	2345-2347	bo	_	_	*->17-3	*[17]	
+1-377	2348-2352	tako	_	_	_	_	
+1-378	2353-2357	pred	_	_	_	_	
+1-379	2358-2369	odločitvijo	_	_	_	_	
+1-380	2370-2371	,	_	_	_	_	
+1-381	2372-2375	ali	_	_	_	_	
+1-382	2376-2384	podpreti	_	_	_	_	
+1-383	2385-2390	člana	_	_	_	_	
+1-384	2391-2396	svoje	_	3 - Nevtralno	*->17-4	*[17]	
+1-385	2397-2403	uprave	_	_	_	_	
+1-386	2404-2407	ali	_	_	_	_	
+1-387	2408-2417	kandidata	_	_	_	_	
+1-388	2418-2423	vlade	_	_	_	_	
+1-389	2424-2425	.	_	_	_	_	
+1-390	2426-2437	Pomembnejši	_	_	_	_	
+1-391	2438-2439	,	_	_	_	_	
+1-392	2440-2442	15	_	_	_	_	
+1-393	2443-2444	-	_	_	_	_	
+1-394	2445-2453	odstotni	_	_	_	_	
+1-395	2454-2459	delež	_	_	_	_	
+1-396	2460-2461	,	_	_	_	_	
+1-397	2462-2465	ima	_	_	_	_	
+1-398	2466-2471	poleg	_	_	_	_	
+1-399	2472-2477	Modre	ORG[27]	3 - Nevtralno[37]	*->6-7	*[6]	
+1-400	2478-2491	zavarovalnice	ORG[27]	3 - Nevtralno[37]	*->6-7	*[6]	
+1-401	2492-2493	,	_	_	_	_	
+1-402	2494-2504	propadlega	_	_	_	_	
+1-403	2505-2510	Zvona	ORG	3 - Nevtralno	*->14-2	*[14]	
+1-404	2511-2513	in	_	_	_	_	
+1-405	2514-2518	Soda	ORG	3 - Nevtralno	*->20-5	*[20]	
+1-406	2519-2520	v	_	_	_	_	
+1-407	2521-2529	Cinkarni	ORG[28]	_	*->4-6	*[4]	
+1-408	2530-2535	Celje	ORG[28]|LOC[29]	_	*->4-6|*->5-4	*[4]|*[5]	
+1-409	2536-2541	zgolj	_	_	_	_	
+1-410	2542-2544	še	_	_	_	_	
+1-411	2545-2551	družba	_	3 - Nevtralno[38]	*->21-1	*[21]	
+1-412	2552-2554	za	_	3 - Nevtralno[38]	*->21-1	*[21]	
+1-413	2555-2566	upravljanje	_	3 - Nevtralno[38]	*->21-1	*[21]	
+1-414	2567-2570	NFD	ORG	3 - Nevtralno[38]	*->21-1	*[21]	
+1-415	2571-2572	,	_	_	_	_	
+1-416	2573-2579	medtem	_	_	_	_	
+1-417	2580-2582	ko	_	_	_	_	
+1-418	2583-2590	Skupina	ORG[30]	3 - Nevtralno[39]	*->19-1	*[19]	
+1-419	2591-2593	KD	ORG[30]	3 - Nevtralno[39]	*->19-1	*[19]	
+1-420	2594-2599	Group	ORG[30]	3 - Nevtralno[39]	*->19-1	*[19]	
+1-421	2600-2609	obvladuje	_	_	_	_	
+1-422	2610-2615	slabo	_	_	_	_	
+1-423	2616-2624	desetino	_	_	_	_	
+1-424	2625-2635	lastništva	_	_	_	_	
+1-425	2636-2637	.	_	_	_	_	
+1-426	2638-2640	Če	_	_	_	_	
+1-427	2641-2643	se	_	_	_	_	
+1-428	2644-2646	bo	_	_	_	_	
+1-429	2647-2656	nasprotni	_	_	_	_	
+1-430	2657-2664	predlog	_	_	_	_	
+1-431	2665-2667	za	_	_	_	_	
+1-432	2668-2678	imenovanje	_	_	_	_	
+1-433	2679-2686	Matjaža	PER[31]	2 - Negativno[40]	*->8-5	*[8]	
+1-434	2687-2692	Janše	PER[31]	2 - Negativno[40]	*->8-5	*[8]	
+1-435	2693-2694	v	_	_	_	_	
+1-436	2695-2703	nadzorni	_	_	_	_	
+1-437	2704-2708	svet	_	_	_	_	
+1-438	2709-2717	Cinkarne	ORG[32]	3 - Nevtralno[41]	*->4-7	*[4]	
+1-439	2718-2723	Celje	ORG[32]|LOC[33]	3 - Nevtralno[41]|3 - Nevtralno[42]	*->4-7|*->5-5	*[4]|*[5]	
+1-440	2724-2732	dejansko	_	_	_	_	
+1-441	2733-2740	uvrstil	_	_	_	_	
+1-442	2741-2743	na	_	_	_	_	
+1-443	2744-2753	skupščino	_	_	_	_	
+1-444	2754-2760	družbe	_	_	_	_	
+1-445	2761-2762	,	_	_	_	_	
+1-446	2763-2765	je	_	_	_	_	
+1-447	2766-2770	njen	_	_	_	_	
+1-448	2771-2778	razplet	_	_	_	_	
+1-449	2779-2785	zaradi	_	_	_	_	
+1-450	2786-2797	razpršenega	_	_	_	_	
+1-451	2798-2808	lastništva	_	_	_	_	
+1-452	2809-2813	zelo	_	_	_	_	
+1-453	2814-2819	težko	_	_	_	_	
+1-454	2820-2830	napovedati	_	_	_	_	

@@ -1,0 +1,372 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Srbi aretirali 10 osumljenih oškodovanja banke Novosadska banka NLB Continental se je pravočasno odzvala na oškodovanja , ki naj bi jih zakrivilo deset Srbov in trije Slovenci . Kot zatrjujejo na sedežu NLB - ja v Ljubljani , je NLB Continental prek svojih notranjih nadzornih organov sprejel ustrezne interne ukrepe za zaščito premoženja banke in podal kazenske ovadbe . Kot smo že poročali , so v Srbiji prijeli deseterico , ki naj bi skupaj s tremi slovenskimi državljani , ki jih policija še išče , banko v Novem Sadu oškodovala za več kot tri milijone evrov . Iz NLB - ja so še sporočili , da konec policijske preiskave z aretacijami osumljenih dokazuje , da pravni sistem v Srbiji deluje . Osumljenci priskrbeli ljudi , ki so najemali posojila v Inđiji Iz NLB Continentala so sporočili , da je do aretacije prišlo po večmesečnem delu preiskovalnih oragnov ob sodelovanju banke . Po poročanju srbke agencije Tanjug so pridržane osebe osumljene zlorabe službenega položaja , ponarejanja službenih dokumentov in pranja denarja v obdobju od marca 2006 do januarja 2007 . Vodja odseka sektorja za boj proti korupciji in kriminalu uprave srbske kriminalistične policije Slavoljub Nedeljković je za agencijo povedal , da so osumljenci organizirali mrežo posrednikov in oseb , ki so najemali dolgoročna nenamenska gotovinska posojila pri izpostavi NLB Continental banke v Inđiji ob predložitvi ponarejenih dokumentov glede zaposlitve za nedoločen čas in višine mesečnih prihodkov . Nezakoniti posli naj bi prinesli 3,5 milijona evrov Obseg nezakonitih posojil po podatkih srbske policije znaša 3,5 milijona evrov in skoraj milijon švicarskih frankov . Člani skupine osumljencev pa naj bi si med seboj razdelili več kot 2 milijona evrov in 700.000 frankov . V NLB - ju so še zagotovili , da poslovanje skupine NLB na srbskem trgu poteka v okviru ciljev in letnih načrtov . NLB ima sicer v lasti 99,99 odstotka NLB Continentala , banka pa ima v Srbiji približno 1,6 - odstotni delež , v Vojvodini pa je delež mnogo višji . V lasti skupine NLB , ki je v Srbiji močno zastopana , je tudi beograjska banka NLB LHB , aktivna pa je tudi na področju pokojninskih skladov , lizinga in drugih finančnih storitev
+1-1	0-4	Srbi	_	_	_	_	
+1-2	5-14	aretirali	_	_	_	_	
+1-3	15-17	10	_	_	_	_	
+1-4	18-28	osumljenih	_	_	_	_	
+1-5	29-40	oškodovanja	_	_	_	_	
+1-6	41-46	banke	_	_	_	_	
+1-7	47-57	Novosadska	_	_	*->1-1	*[1]	
+1-8	58-63	banka	_	_	*->1-1	*[1]	
+1-9	64-67	NLB	ORG[1]	_	*->1-1	*[1]	
+1-10	68-79	Continental	ORG[1]	_	*->1-1	*[1]	
+1-11	80-82	se	_	_	_	_	
+1-12	83-85	je	_	_	_	_	
+1-13	86-96	pravočasno	_	_	_	_	
+1-14	97-104	odzvala	_	_	_	_	
+1-15	105-107	na	_	_	_	_	
+1-16	108-119	oškodovanja	_	_	_	_	
+1-17	120-121	,	_	_	_	_	
+1-18	122-124	ki	_	_	_	_	
+1-19	125-128	naj	_	_	_	_	
+1-20	129-131	bi	_	_	_	_	
+1-21	132-135	jih	_	_	_	_	
+1-22	136-145	zakrivilo	_	_	_	_	
+1-23	146-151	deset	_	_	_	_	
+1-24	152-157	Srbov	_	_	_	_	
+1-25	158-160	in	_	_	_	_	
+1-26	161-166	trije	_	_	_	_	
+1-27	167-175	Slovenci	_	_	_	_	
+1-28	176-177	.	_	_	_	_	
+1-29	178-181	Kot	_	_	_	_	
+1-30	182-192	zatrjujejo	_	_	_	_	
+1-31	193-195	na	_	_	_	_	
+1-32	196-202	sedežu	_	_	_	_	
+1-33	203-206	NLB	ORG	_	*->3-1	*[3]	
+1-34	207-208	-	_	_	_	_	
+1-35	209-211	ja	_	_	_	_	
+1-36	212-213	v	_	_	_	_	
+1-37	214-223	Ljubljani	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-38	224-225	,	_	_	_	_	
+1-39	226-228	je	_	_	_	_	
+1-40	229-232	NLB	ORG[2]	_	*->1-2	*[1]	
+1-41	233-244	Continental	ORG[2]	_	*->1-2	*[1]	
+1-42	245-249	prek	_	_	_	_	
+1-43	250-256	svojih	_	_	_	_	
+1-44	257-266	notranjih	_	_	_	_	
+1-45	267-276	nadzornih	_	_	_	_	
+1-46	277-284	organov	_	_	_	_	
+1-47	285-292	sprejel	_	_	_	_	
+1-48	293-301	ustrezne	_	_	_	_	
+1-49	302-309	interne	_	_	_	_	
+1-50	310-316	ukrepe	_	_	_	_	
+1-51	317-319	za	_	_	_	_	
+1-52	320-327	zaščito	_	_	_	_	
+1-53	328-338	premoženja	_	_	_	_	
+1-54	339-344	banke	_	_	_	_	
+1-55	345-347	in	_	_	_	_	
+1-56	348-353	podal	_	_	_	_	
+1-57	354-362	kazenske	_	_	_	_	
+1-58	363-369	ovadbe	_	_	_	_	
+1-59	370-371	.	_	_	_	_	
+1-60	372-375	Kot	_	_	_	_	
+1-61	376-379	smo	_	_	_	_	
+1-62	380-382	že	_	_	_	_	
+1-63	383-391	poročali	_	_	_	_	
+1-64	392-393	,	_	_	_	_	
+1-65	394-396	so	_	_	_	_	
+1-66	397-398	v	_	_	_	_	
+1-67	399-405	Srbiji	LOC	_	*->2-1	*[2]	
+1-68	406-413	prijeli	_	_	_	_	
+1-69	414-424	deseterico	_	_	_	_	
+1-70	425-426	,	_	_	_	_	
+1-71	427-429	ki	_	_	_	_	
+1-72	430-433	naj	_	_	_	_	
+1-73	434-436	bi	_	_	_	_	
+1-74	437-443	skupaj	_	_	_	_	
+1-75	444-445	s	_	_	_	_	
+1-76	446-451	tremi	_	_	_	_	
+1-77	452-463	slovenskimi	_	_	_	_	
+1-78	464-474	državljani	_	_	_	_	
+1-79	475-476	,	_	_	_	_	
+1-80	477-479	ki	_	_	_	_	
+1-81	480-483	jih	_	_	_	_	
+1-82	484-492	policija	_	_	_	_	
+1-83	493-495	še	_	_	_	_	
+1-84	496-500	išče	_	_	_	_	
+1-85	501-502	,	_	_	_	_	
+1-86	503-508	banko	_	_	*->1-3	*[1]	
+1-87	509-510	v	_	_	_	_	
+1-88	511-516	Novem	LOC[3]	3 - Nevtralno[9]	*->6-1	*[6]	
+1-89	517-521	Sadu	LOC[3]	3 - Nevtralno[9]	*->6-1	*[6]	
+1-90	522-532	oškodovala	_	_	_	_	
+1-91	533-535	za	_	_	_	_	
+1-92	536-539	več	_	_	_	_	
+1-93	540-543	kot	_	_	_	_	
+1-94	544-547	tri	_	_	_	_	
+1-95	548-556	milijone	_	_	_	_	
+1-96	557-562	evrov	_	_	_	_	
+1-97	563-564	.	_	_	_	_	
+1-98	565-567	Iz	_	_	_	_	
+1-99	568-571	NLB	ORG	_	*->3-2	*[3]	
+1-100	572-573	-	_	_	_	_	
+1-101	574-576	ja	_	_	_	_	
+1-102	577-579	so	_	_	_	_	
+1-103	580-582	še	_	_	_	_	
+1-104	583-592	sporočili	_	_	_	_	
+1-105	593-594	,	_	_	_	_	
+1-106	595-597	da	_	_	_	_	
+1-107	598-603	konec	_	_	_	_	
+1-108	604-614	policijske	_	_	_	_	
+1-109	615-624	preiskave	_	_	_	_	
+1-110	625-626	z	_	_	_	_	
+1-111	627-638	aretacijami	_	_	_	_	
+1-112	639-649	osumljenih	_	_	_	_	
+1-113	650-658	dokazuje	_	_	_	_	
+1-114	659-660	,	_	_	_	_	
+1-115	661-663	da	_	_	_	_	
+1-116	664-670	pravni	_	_	_	_	
+1-117	671-677	sistem	_	_	_	_	
+1-118	678-679	v	_	_	_	_	
+1-119	680-686	Srbiji	LOC	_	*->2-2	*[2]	
+1-120	687-693	deluje	_	_	_	_	
+1-121	694-695	.	_	_	_	_	
+1-122	696-706	Osumljenci	_	_	_	_	
+1-123	707-717	priskrbeli	_	_	_	_	
+1-124	718-723	ljudi	_	_	_	_	
+1-125	724-725	,	_	_	_	_	
+1-126	726-728	ki	_	_	_	_	
+1-127	729-731	so	_	_	_	_	
+1-128	732-740	najemali	_	_	_	_	
+1-129	741-749	posojila	_	_	_	_	
+1-130	750-751	v	_	_	_	_	
+1-131	752-758	Inđiji	LOC	_	*->4-1	*[4]	
+1-132	759-761	Iz	_	_	_	_	
+1-133	762-765	NLB	ORG[4]	_	*->1-4	*[1]	
+1-134	766-778	Continentala	ORG[4]	_	*->1-4	*[1]	
+1-135	779-781	so	_	_	_	_	
+1-136	782-791	sporočili	_	_	_	_	
+1-137	792-793	,	_	_	_	_	
+1-138	794-796	da	_	_	_	_	
+1-139	797-799	je	_	_	_	_	
+1-140	800-802	do	_	_	_	_	
+1-141	803-812	aretacije	_	_	_	_	
+1-142	813-819	prišlo	_	_	_	_	
+1-143	820-822	po	_	_	_	_	
+1-144	823-834	večmesečnem	_	_	_	_	
+1-145	835-839	delu	_	_	_	_	
+1-146	840-853	preiskovalnih	_	_	_	_	
+1-147	854-861	oragnov	_	_	_	_	
+1-148	862-864	ob	_	_	_	_	
+1-149	865-876	sodelovanju	_	_	_	_	
+1-150	877-882	banke	_	_	_	_	
+1-151	883-884	.	_	_	_	_	
+1-152	885-887	Po	_	_	_	_	
+1-153	888-897	poročanju	_	_	_	_	
+1-154	898-903	srbke	_	_	*->7-1	*[7]	
+1-155	904-912	agencije	_	_	*->7-1	*[7]	
+1-156	913-919	Tanjug	ORG	_	*->7-1	*[7]	
+1-157	920-922	so	_	_	_	_	
+1-158	923-932	pridržane	_	_	_	_	
+1-159	933-938	osebe	_	_	_	_	
+1-160	939-948	osumljene	_	_	_	_	
+1-161	949-956	zlorabe	_	_	_	_	
+1-162	957-967	službenega	_	_	_	_	
+1-163	968-976	položaja	_	_	_	_	
+1-164	977-978	,	_	_	_	_	
+1-165	979-990	ponarejanja	_	_	_	_	
+1-166	991-1000	službenih	_	_	_	_	
+1-167	1001-1011	dokumentov	_	_	_	_	
+1-168	1012-1014	in	_	_	_	_	
+1-169	1015-1021	pranja	_	_	_	_	
+1-170	1022-1029	denarja	_	_	_	_	
+1-171	1030-1031	v	_	_	_	_	
+1-172	1032-1039	obdobju	_	_	_	_	
+1-173	1040-1042	od	_	_	_	_	
+1-174	1043-1048	marca	_	_	_	_	
+1-175	1049-1053	2006	_	_	_	_	
+1-176	1054-1056	do	_	_	_	_	
+1-177	1057-1065	januarja	_	_	_	_	
+1-178	1066-1070	2007	_	_	_	_	
+1-179	1071-1072	.	_	_	_	_	
+1-180	1073-1078	Vodja	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-181	1079-1085	odseka	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-182	1086-1094	sektorja	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-183	1095-1097	za	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-184	1098-1101	boj	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-185	1102-1107	proti	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-186	1108-1117	korupciji	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-187	1118-1120	in	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-188	1121-1130	kriminalu	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-189	1131-1137	uprave	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-190	1138-1144	srbske	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-191	1145-1160	kriminalistične	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-192	1161-1169	policije	_	3 - Nevtralno[10]	*->8-1	*[8]	
+1-193	1170-1179	Slavoljub	PER[5]	3 - Nevtralno[10]	*->8-1	*[8]	
+1-194	1180-1191	Nedeljković	PER[5]	3 - Nevtralno[10]	*->8-1	*[8]	
+1-195	1192-1194	je	_	_	_	_	
+1-196	1195-1197	za	_	_	_	_	
+1-197	1198-1206	agencijo	_	3 - Nevtralno	*->7-2	*[7]	
+1-198	1207-1214	povedal	_	_	_	_	
+1-199	1215-1216	,	_	_	_	_	
+1-200	1217-1219	da	_	_	_	_	
+1-201	1220-1222	so	_	_	_	_	
+1-202	1223-1233	osumljenci	_	_	_	_	
+1-203	1234-1246	organizirali	_	_	_	_	
+1-204	1247-1252	mrežo	_	_	_	_	
+1-205	1253-1264	posrednikov	_	_	_	_	
+1-206	1265-1267	in	_	_	_	_	
+1-207	1268-1272	oseb	_	_	_	_	
+1-208	1273-1274	,	_	_	_	_	
+1-209	1275-1277	ki	_	_	_	_	
+1-210	1278-1280	so	_	_	_	_	
+1-211	1281-1289	najemali	_	_	_	_	
+1-212	1290-1300	dolgoročna	_	_	_	_	
+1-213	1301-1311	nenamenska	_	_	_	_	
+1-214	1312-1322	gotovinska	_	_	_	_	
+1-215	1323-1331	posojila	_	_	_	_	
+1-216	1332-1335	pri	_	_	_	_	
+1-217	1336-1345	izpostavi	_	_	_	_	
+1-218	1346-1349	NLB	ORG[6]	_	*->1-5	*[1]	
+1-219	1350-1361	Continental	ORG[6]	_	*->1-5	*[1]	
+1-220	1362-1367	banke	_	_	_	_	
+1-221	1368-1369	v	_	_	_	_	
+1-222	1370-1376	Inđiji	LOC	3 - Nevtralno	*->4-2	*[4]	
+1-223	1377-1379	ob	_	_	_	_	
+1-224	1380-1391	predložitvi	_	_	_	_	
+1-225	1392-1403	ponarejenih	_	_	_	_	
+1-226	1404-1414	dokumentov	_	_	_	_	
+1-227	1415-1420	glede	_	_	_	_	
+1-228	1421-1431	zaposlitve	_	_	_	_	
+1-229	1432-1434	za	_	_	_	_	
+1-230	1435-1444	nedoločen	_	_	_	_	
+1-231	1445-1448	čas	_	_	_	_	
+1-232	1449-1451	in	_	_	_	_	
+1-233	1452-1458	višine	_	_	_	_	
+1-234	1459-1467	mesečnih	_	_	_	_	
+1-235	1468-1477	prihodkov	_	_	_	_	
+1-236	1478-1479	.	_	_	_	_	
+1-237	1480-1490	Nezakoniti	_	_	_	_	
+1-238	1491-1496	posli	_	_	_	_	
+1-239	1497-1500	naj	_	_	_	_	
+1-240	1501-1503	bi	_	_	_	_	
+1-241	1504-1512	prinesli	_	_	_	_	
+1-242	1513-1516	3,5	_	_	_	_	
+1-243	1517-1525	milijona	_	_	_	_	
+1-244	1526-1531	evrov	_	_	_	_	
+1-245	1532-1537	Obseg	_	_	_	_	
+1-246	1538-1549	nezakonitih	_	_	_	_	
+1-247	1550-1557	posojil	_	_	_	_	
+1-248	1558-1560	po	_	_	_	_	
+1-249	1561-1569	podatkih	_	_	_	_	
+1-250	1570-1576	srbske	_	_	_	_	
+1-251	1577-1585	policije	_	_	_	_	
+1-252	1586-1591	znaša	_	_	_	_	
+1-253	1592-1595	3,5	_	_	_	_	
+1-254	1596-1604	milijona	_	_	_	_	
+1-255	1605-1610	evrov	_	_	_	_	
+1-256	1611-1613	in	_	_	_	_	
+1-257	1614-1620	skoraj	_	_	_	_	
+1-258	1621-1628	milijon	_	_	_	_	
+1-259	1629-1639	švicarskih	_	_	_	_	
+1-260	1640-1647	frankov	_	_	_	_	
+1-261	1648-1649	.	_	_	_	_	
+1-262	1650-1655	Člani	_	_	_	_	
+1-263	1656-1663	skupine	_	_	_	_	
+1-264	1664-1675	osumljencev	_	_	_	_	
+1-265	1676-1678	pa	_	_	_	_	
+1-266	1679-1682	naj	_	_	_	_	
+1-267	1683-1685	bi	_	_	_	_	
+1-268	1686-1688	si	_	_	_	_	
+1-269	1689-1692	med	_	_	_	_	
+1-270	1693-1698	seboj	_	_	_	_	
+1-271	1699-1708	razdelili	_	_	_	_	
+1-272	1709-1712	več	_	_	_	_	
+1-273	1713-1716	kot	_	_	_	_	
+1-274	1717-1718	2	_	_	_	_	
+1-275	1719-1727	milijona	_	_	_	_	
+1-276	1728-1733	evrov	_	_	_	_	
+1-277	1734-1736	in	_	_	_	_	
+1-278	1737-1744	700.000	_	_	_	_	
+1-279	1745-1752	frankov	_	_	_	_	
+1-280	1753-1754	.	_	_	_	_	
+1-281	1755-1756	V	_	_	_	_	
+1-282	1757-1760	NLB	ORG	_	*->3-3	*[3]	
+1-283	1761-1762	-	_	_	_	_	
+1-284	1763-1765	ju	_	_	_	_	
+1-285	1766-1768	so	_	_	_	_	
+1-286	1769-1771	še	_	_	_	_	
+1-287	1772-1782	zagotovili	_	_	_	_	
+1-288	1783-1784	,	_	_	_	_	
+1-289	1785-1787	da	_	_	_	_	
+1-290	1788-1798	poslovanje	_	_	_	_	
+1-291	1799-1806	skupine	_	_	_	_	
+1-292	1807-1810	NLB	ORG	_	*->3-4	*[3]	
+1-293	1811-1813	na	_	_	_	_	
+1-294	1814-1821	srbskem	_	_	_	_	
+1-295	1822-1826	trgu	_	_	_	_	
+1-296	1827-1833	poteka	_	_	_	_	
+1-297	1834-1835	v	_	_	_	_	
+1-298	1836-1842	okviru	_	_	_	_	
+1-299	1843-1849	ciljev	_	_	_	_	
+1-300	1850-1852	in	_	_	_	_	
+1-301	1853-1859	letnih	_	_	_	_	
+1-302	1860-1867	načrtov	_	_	_	_	
+1-303	1868-1869	.	_	_	_	_	
+1-304	1870-1873	NLB	ORG	_	*->3-5	*[3]	
+1-305	1874-1877	ima	_	_	_	_	
+1-306	1878-1883	sicer	_	_	_	_	
+1-307	1884-1885	v	_	_	_	_	
+1-308	1886-1891	lasti	_	_	_	_	
+1-309	1892-1897	99,99	_	_	_	_	
+1-310	1898-1906	odstotka	_	_	_	_	
+1-311	1907-1910	NLB	ORG[7]	2 - Negativno[11]	*->1-6	*[1]	
+1-312	1911-1923	Continentala	ORG[7]	2 - Negativno[11]	*->1-6	*[1]	
+1-313	1924-1925	,	_	_	_	_	
+1-314	1926-1931	banka	_	_	_	_	
+1-315	1932-1934	pa	_	_	_	_	
+1-316	1935-1938	ima	_	_	_	_	
+1-317	1939-1940	v	_	_	_	_	
+1-318	1941-1947	Srbiji	LOC	_	*->2-3	*[2]	
+1-319	1948-1957	približno	_	_	_	_	
+1-320	1958-1961	1,6	_	_	_	_	
+1-321	1962-1963	-	_	_	_	_	
+1-322	1964-1972	odstotni	_	_	_	_	
+1-323	1973-1978	delež	_	_	_	_	
+1-324	1979-1980	,	_	_	_	_	
+1-325	1981-1982	v	_	_	_	_	
+1-326	1983-1992	Vojvodini	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-327	1993-1995	pa	_	_	_	_	
+1-328	1996-1998	je	_	_	_	_	
+1-329	1999-2004	delež	_	_	_	_	
+1-330	2005-2010	mnogo	_	_	_	_	
+1-331	2011-2016	višji	_	_	_	_	
+1-332	2017-2018	.	_	_	_	_	
+1-333	2019-2020	V	_	_	_	_	
+1-334	2021-2026	lasti	_	_	_	_	
+1-335	2027-2034	skupine	_	_	_	_	
+1-336	2035-2038	NLB	ORG	3 - Nevtralno	*->3-6	*[3]	
+1-337	2039-2040	,	_	_	_	_	
+1-338	2041-2043	ki	_	_	_	_	
+1-339	2044-2046	je	_	_	_	_	
+1-340	2047-2048	v	_	_	_	_	
+1-341	2049-2055	Srbiji	LOC	3 - Nevtralno	*->2-4	*[2]	
+1-342	2056-2061	močno	_	_	_	_	
+1-343	2062-2071	zastopana	_	_	_	_	
+1-344	2072-2073	,	_	_	_	_	
+1-345	2074-2076	je	_	_	_	_	
+1-346	2077-2081	tudi	_	_	_	_	
+1-347	2082-2092	beograjska	_	3 - Nevtralno[12]	*->10-1	*[10]	
+1-348	2093-2098	banka	_	3 - Nevtralno[12]	*->10-1	*[10]	
+1-349	2099-2102	NLB	ORG[8]	3 - Nevtralno[12]	*->10-1	*[10]	
+1-350	2103-2106	LHB	ORG[8]	3 - Nevtralno[12]	*->10-1	*[10]	
+1-351	2107-2108	,	_	_	_	_	
+1-352	2109-2116	aktivna	_	_	_	_	
+1-353	2117-2119	pa	_	_	_	_	
+1-354	2120-2122	je	_	_	_	_	
+1-355	2123-2127	tudi	_	_	_	_	
+1-356	2128-2130	na	_	_	_	_	
+1-357	2131-2139	področju	_	_	_	_	
+1-358	2140-2152	pokojninskih	_	_	_	_	
+1-359	2153-2160	skladov	_	_	_	_	
+1-360	2161-2162	,	_	_	_	_	
+1-361	2163-2170	lizinga	_	_	_	_	
+1-362	2171-2173	in	_	_	_	_	
+1-363	2174-2180	drugih	_	_	_	_	
+1-364	2181-2190	finančnih	_	_	_	_	
+1-365	2191-2199	storitev	_	_	_	_	

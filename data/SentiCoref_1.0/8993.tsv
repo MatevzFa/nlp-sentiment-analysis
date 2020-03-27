@@ -1,0 +1,212 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Muslimani v Sloveniji obeležujejo začetek najpomembnejšega praznika kurban bajram . Praznik je med drugim posvečen strpnosti med religijami . „ Vsak vernik in vernica , ki sta polnoletna , zdrava in pametna , sta dolžna enkrat v življenju , če za to imata materialne možnosti , obiskati svete kraje , “ se glasi sporočilo islamske skupnosti v Sloveniji . Tisti , ki ne morejo v svete kraje , se udeležijo bajramske molitve v svoji državi . Kurban bajram je sicer praznik , ki je namenjen strpnosti med tremi religijami : krščanstvom , judovstvom in islamom . Ta praznik namreč muslimani povezujejo z Ibrahimom ali Abrahamom , Božjim odposlancem , ki je praoče omenjenih treh religij . Osrednja slovesnost se je tudi letos ob 6 . uri zjutraj začela v športni dvorani na Kodeljevem . Zbrane bo nagovoril namestnik muftija Ibrahim Malanović . Mufti Nedžad Grabus se je namreč s še dvanajstimi muslimani iz Slovenije podal na romanje v sveti mesti Meko in Medino . Bajramska molitev bo poteka tudi na Jesenicah , v Tržiču , Kranju , Škofji Loki , Postojni , Sežani , Ajdovščini , Kopru , Kočevju , Trbovljah , Novem mestu , Velenju , Celju , Krškem , Slovenj Gradcu in Mariboru
+1-1	0-9	Muslimani	PER	_	*->2-1	*[2]	
+1-2	10-11	v	_	_	_	_	
+1-3	12-21	Sloveniji	LOC	_	*->1-1	*[1]	
+1-4	22-33	obeležujejo	_	_	_	_	
+1-5	34-41	začetek	_	_	_	_	
+1-6	42-58	najpomembnejšega	_	_	_	_	
+1-7	59-67	praznika	_	_	_	_	
+1-8	68-74	kurban	_	_	_	_	
+1-9	75-81	bajram	_	_	_	_	
+1-10	82-83	.	_	_	_	_	
+1-11	84-91	Praznik	_	_	_	_	
+1-12	92-94	je	_	_	_	_	
+1-13	95-98	med	_	_	_	_	
+1-14	99-105	drugim	_	_	_	_	
+1-15	106-114	posvečen	_	_	_	_	
+1-16	115-124	strpnosti	_	_	_	_	
+1-17	125-128	med	_	_	_	_	
+1-18	129-139	religijami	_	_	_	_	
+1-19	140-141	.	_	_	_	_	
+1-20	142-143	„	_	_	_	_	
+1-21	144-148	Vsak	_	_	_	_	
+1-22	149-155	vernik	_	_	_	_	
+1-23	156-158	in	_	_	_	_	
+1-24	159-166	vernica	_	_	_	_	
+1-25	167-168	,	_	_	_	_	
+1-26	169-171	ki	_	_	_	_	
+1-27	172-175	sta	_	_	_	_	
+1-28	176-186	polnoletna	_	_	_	_	
+1-29	187-188	,	_	_	_	_	
+1-30	189-195	zdrava	_	_	_	_	
+1-31	196-198	in	_	_	_	_	
+1-32	199-206	pametna	_	_	_	_	
+1-33	207-208	,	_	_	_	_	
+1-34	209-212	sta	_	_	_	_	
+1-35	213-219	dolžna	_	_	_	_	
+1-36	220-226	enkrat	_	_	_	_	
+1-37	227-228	v	_	_	_	_	
+1-38	229-238	življenju	_	_	_	_	
+1-39	239-240	,	_	_	_	_	
+1-40	241-243	če	_	_	_	_	
+1-41	244-246	za	_	_	_	_	
+1-42	247-249	to	_	_	_	_	
+1-43	250-255	imata	_	_	_	_	
+1-44	256-266	materialne	_	_	_	_	
+1-45	267-275	možnosti	_	_	_	_	
+1-46	276-277	,	_	_	_	_	
+1-47	278-286	obiskati	_	_	_	_	
+1-48	287-292	svete	_	_	_	_	
+1-49	293-298	kraje	_	_	_	_	
+1-50	299-300	,	_	_	_	_	
+1-51	301-302	“	_	_	_	_	
+1-52	303-305	se	_	_	_	_	
+1-53	306-311	glasi	_	_	_	_	
+1-54	312-321	sporočilo	_	_	_	_	
+1-55	322-330	islamske	_	_	_	_	
+1-56	331-340	skupnosti	_	_	_	_	
+1-57	341-342	v	_	_	_	_	
+1-58	343-352	Sloveniji	LOC	_	*->1-2	*[1]	
+1-59	353-354	.	_	_	_	_	
+1-60	355-360	Tisti	_	_	_	_	
+1-61	361-362	,	_	_	_	_	
+1-62	363-365	ki	_	_	_	_	
+1-63	366-368	ne	_	_	_	_	
+1-64	369-375	morejo	_	_	_	_	
+1-65	376-377	v	_	_	_	_	
+1-66	378-383	svete	_	_	_	_	
+1-67	384-389	kraje	_	_	_	_	
+1-68	390-391	,	_	_	_	_	
+1-69	392-394	se	_	_	_	_	
+1-70	395-404	udeležijo	_	_	_	_	
+1-71	405-414	bajramske	_	_	_	_	
+1-72	415-422	molitve	_	_	_	_	
+1-73	423-424	v	_	_	_	_	
+1-74	425-430	svoji	_	_	_	_	
+1-75	431-437	državi	_	_	_	_	
+1-76	438-439	.	_	_	_	_	
+1-77	440-446	Kurban	_	_	_	_	
+1-78	447-453	bajram	_	_	_	_	
+1-79	454-456	je	_	_	_	_	
+1-80	457-462	sicer	_	_	_	_	
+1-81	463-470	praznik	_	_	_	_	
+1-82	471-472	,	_	_	_	_	
+1-83	473-475	ki	_	_	_	_	
+1-84	476-478	je	_	_	_	_	
+1-85	479-487	namenjen	_	_	_	_	
+1-86	488-497	strpnosti	_	_	_	_	
+1-87	498-501	med	_	_	_	_	
+1-88	502-507	tremi	_	_	_	_	
+1-89	508-518	religijami	_	_	_	_	
+1-90	519-520	:	_	_	_	_	
+1-91	521-532	krščanstvom	_	_	_	_	
+1-92	533-534	,	_	_	_	_	
+1-93	535-545	judovstvom	_	_	_	_	
+1-94	546-548	in	_	_	_	_	
+1-95	549-556	islamom	_	_	_	_	
+1-96	557-558	.	_	_	_	_	
+1-97	559-561	Ta	_	_	_	_	
+1-98	562-569	praznik	_	_	_	_	
+1-99	570-576	namreč	_	_	_	_	
+1-100	577-586	muslimani	PER	_	*->2-2	*[2]	
+1-101	587-597	povezujejo	_	_	_	_	
+1-102	598-599	z	_	_	_	_	
+1-103	600-609	Ibrahimom	PER	_	*->3-1	*[3]	
+1-104	610-613	ali	_	_	_	_	
+1-105	614-623	Abrahamom	PER	_	*->3-2	*[3]	
+1-106	624-625	,	_	_	_	_	
+1-107	626-632	Božjim	_	_	*->3-3	*[3]	
+1-108	633-644	odposlancem	_	_	*->3-3	*[3]	
+1-109	645-646	,	_	_	_	_	
+1-110	647-649	ki	_	_	_	_	
+1-111	650-652	je	_	_	_	_	
+1-112	653-659	praoče	_	3 - Nevtralno[6]	*->3-4	*[3]	
+1-113	660-669	omenjenih	_	3 - Nevtralno[6]	*->3-4	*[3]	
+1-114	670-674	treh	_	3 - Nevtralno[6]	*->3-4	*[3]	
+1-115	675-682	religij	_	3 - Nevtralno[6]	*->3-4	*[3]	
+1-116	683-684	.	_	_	_	_	
+1-117	685-693	Osrednja	_	_	_	_	
+1-118	694-704	slovesnost	_	_	_	_	
+1-119	705-707	se	_	_	_	_	
+1-120	708-710	je	_	_	_	_	
+1-121	711-715	tudi	_	_	_	_	
+1-122	716-721	letos	_	_	_	_	
+1-123	722-724	ob	_	_	_	_	
+1-124	725-726	6	_	_	_	_	
+1-125	727-728	.	_	_	_	_	
+1-126	729-732	uri	_	_	_	_	
+1-127	733-740	zjutraj	_	_	_	_	
+1-128	741-747	začela	_	_	_	_	
+1-129	748-749	v	_	_	_	_	
+1-130	750-757	športni	_	_	_	_	
+1-131	758-765	dvorani	_	_	_	_	
+1-132	766-768	na	_	_	_	_	
+1-133	769-779	Kodeljevem	LOC	3 - Nevtralno	*->4-1	*[4]	
+1-134	780-781	.	_	_	_	_	
+1-135	782-788	Zbrane	_	_	_	_	
+1-136	789-791	bo	_	_	_	_	
+1-137	792-801	nagovoril	_	_	_	_	
+1-138	802-811	namestnik	_	3 - Nevtralno[7]	*->5-1	*[5]	
+1-139	812-819	muftija	_	3 - Nevtralno[7]	*->5-1|*->24-1	*[5]|*[24]	
+1-140	820-827	Ibrahim	PER[1]	3 - Nevtralno[7]	*->5-1	*[5]	
+1-141	828-837	Malanović	PER[1]	3 - Nevtralno[7]	*->5-1	*[5]	
+1-142	838-839	.	_	_	_	_	
+1-143	840-845	Mufti	_	3 - Nevtralno[8]	*->24-2	*[24]	
+1-144	846-852	Nedžad	PER[2]	3 - Nevtralno[8]	*->24-2	*[24]	
+1-145	853-859	Grabus	PER[2]	3 - Nevtralno[8]	*->24-2	*[24]	
+1-146	860-862	se	_	_	_	_	
+1-147	863-865	je	_	_	_	_	
+1-148	866-872	namreč	_	_	_	_	
+1-149	873-874	s	_	_	_	_	
+1-150	875-877	še	_	_	_	_	
+1-151	878-889	dvanajstimi	_	_	_	_	
+1-152	890-899	muslimani	PER	3 - Nevtralno	*->2-3	*[2]	
+1-153	900-902	iz	_	_	_	_	
+1-154	903-912	Slovenije	LOC	3 - Nevtralno	*->1-3	*[1]	
+1-155	913-918	podal	_	_	_	_	
+1-156	919-921	na	_	_	_	_	
+1-157	922-929	romanje	_	_	_	_	
+1-158	930-931	v	_	_	_	_	
+1-159	932-937	sveti	_	_	_	_	
+1-160	938-943	mesti	_	_	_	_	
+1-161	944-948	Meko	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-162	949-951	in	_	_	_	_	
+1-163	952-958	Medino	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-164	959-960	.	_	_	_	_	
+1-165	961-970	Bajramska	_	_	_	_	
+1-166	971-978	molitev	_	_	_	_	
+1-167	979-981	bo	_	_	_	_	
+1-168	982-988	poteka	_	_	_	_	
+1-169	989-993	tudi	_	_	_	_	
+1-170	994-996	na	_	_	_	_	
+1-171	997-1006	Jesenicah	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-172	1007-1008	,	_	_	_	_	
+1-173	1009-1010	v	_	_	_	_	
+1-174	1011-1017	Tržiču	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-175	1018-1019	,	_	_	_	_	
+1-176	1020-1026	Kranju	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-177	1027-1028	,	_	_	_	_	
+1-178	1029-1035	Škofji	LOC[3]	3 - Nevtralno[9]	*->11-1	*[11]	
+1-179	1036-1040	Loki	LOC[3]	3 - Nevtralno[9]	*->11-1	*[11]	
+1-180	1041-1042	,	_	_	_	_	
+1-181	1043-1051	Postojni	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-182	1052-1053	,	_	_	_	_	
+1-183	1054-1060	Sežani	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-184	1061-1062	,	_	_	_	_	
+1-185	1063-1073	Ajdovščini	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-186	1074-1075	,	_	_	_	_	
+1-187	1076-1081	Kopru	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-188	1082-1083	,	_	_	_	_	
+1-189	1084-1091	Kočevju	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-190	1092-1093	,	_	_	_	_	
+1-191	1094-1103	Trbovljah	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-192	1104-1105	,	_	_	_	_	
+1-193	1106-1111	Novem	LOC[4]	3 - Nevtralno[10]	*->18-1	*[18]	
+1-194	1112-1117	mestu	LOC[4]	3 - Nevtralno[10]	*->18-1	*[18]	
+1-195	1118-1119	,	_	_	_	_	
+1-196	1120-1127	Velenju	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-197	1128-1129	,	_	_	_	_	
+1-198	1130-1135	Celju	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-199	1136-1137	,	_	_	_	_	
+1-200	1138-1144	Krškem	LOC	3 - Nevtralno	*->21-1	*[21]	
+1-201	1145-1146	,	_	_	_	_	
+1-202	1147-1154	Slovenj	LOC[5]	3 - Nevtralno[11]	*->22-1	*[22]	
+1-203	1155-1161	Gradcu	LOC[5]	3 - Nevtralno[11]	*->22-1	*[22]	
+1-204	1162-1164	in	_	_	_	_	
+1-205	1165-1173	Mariboru	LOC	3 - Nevtralno	*->23-1	*[23]	

@@ -1,0 +1,386 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Pretok reke Mure v Gornji Radgoni je začel upadati . Reka je poplavila cesto med naseljema Razkrižje in Gornja Bistrica , zaprt je tudi mejni prehod na Hotizi . " Pretok reke Mure v Gornji Radgoni je danes ob 17 . uri znašal 1035 m3 / s in se postopno zmanjšuje , pretok Mure v Petanjcih pa 1045 m3 / s in je ustaljen . Mura bo še naraščala na območju ob meji s Hrvaško danes zvečer in v ponedeljek dopoldan . V celotnem toku Mure v Sloveniji reka poplavlja znotraj poplavnih nasipov , " so sporočili iz Uprave RS za zaščito in reševanje . Poplave povzročile številne nevšečnosti Zaradi poplavljanja Mure je za promet zaprt obmejni prehod Hotiza in regionalna cesta Razkrižje - Bistrice - Črenšovci , so sporočili iz PU Murska Sobota . Zaradi sproženja plazu v kamnolomu Sotina je za ves promet zaprta regionalna cesta skozi naselje Sotina , ki vodi mimo kamnoloma v Avstrijo . Kot piše na spletni strani Uprave RS za zaščito in reševanje , se začele krušiti skale velikosti do enega metra in padale na cesto , ki povezuje mejni prehod z Avstrijo . Delavci cestnega podjetja in policija so zavarovali cesto . Ob pol devetih zjutraj so v Gornji Radgoni pri domu starejših občanov , gasilci PGD Gornja Radgona očistili dostop do visokovodnih nasipov zaradi lažjega transporta protipoplavnih vreč . Ob 9.10 so ob naselju Ižakovci , občina Beltinci , gasilci PGD Ižakovci opazili prepuščanje nasipa reke Mure na dveh mestih . " Trenutno potekajo aktivnosti za zavarovanje nasipa . Stanovanjske hiše še niso ogrožene . Ob 13.00 so gasilci PGD Ižakovci izvedli ogled objektov na Otoku ljubezni ob reki Muri . Premestili in pričvrstili so premični inventar , ker je višina vode na otoku presegla 80 centimetrov . Preverili so tudi stanje broda in mlina , ter ugotovili močno obremenjenost jeklenih vrvi na obeh objektih . Na pomolu broda je voda odnesla okoli 20 metrov varovalne ograje " Ob 9.15 so v naselju Melinci , občina Beltinci , gasilci PGD Melinci ob pomoči vaščanov s protipoplavnimi vrečami zavarovali gostinski objekt znotraj poplavnih nasipov . Ob 10.50 se je na nasip reke Mure v Moti , občina Ljutomer , podrlo drevo . Gasilca PGD Mota sta podrto drevo odstranila z nasipa
+1-1	0-6	Pretok	_	_	_	_	
+1-2	7-11	reke	_	_	_	_	
+1-3	12-16	Mure	LOC	_	*->1-1	*[1]	
+1-4	17-18	v	_	_	_	_	
+1-5	19-25	Gornji	LOC[1]	_	*->2-1	*[2]	
+1-6	26-33	Radgoni	LOC[1]	_	*->2-1	*[2]	
+1-7	34-36	je	_	_	_	_	
+1-8	37-42	začel	_	_	_	_	
+1-9	43-50	upadati	_	_	_	_	
+1-10	51-52	.	_	_	_	_	
+1-11	53-57	Reka	_	_	_	_	
+1-12	58-60	je	_	_	_	_	
+1-13	61-70	poplavila	_	_	_	_	
+1-14	71-76	cesto	_	_	_	_	
+1-15	77-80	med	_	_	_	_	
+1-16	81-90	naseljema	_	_	_	_	
+1-17	91-100	Razkrižje	LOC	_	*->3-1	*[3]	
+1-18	101-103	in	_	_	_	_	
+1-19	104-110	Gornja	LOC[2]	3 - Nevtralno[20]	*->4-1	*[4]	
+1-20	111-119	Bistrica	LOC[2]	3 - Nevtralno[20]	*->4-1	*[4]	
+1-21	120-121	,	_	_	_	_	
+1-22	122-127	zaprt	_	_	_	_	
+1-23	128-130	je	_	_	_	_	
+1-24	131-135	tudi	_	_	_	_	
+1-25	136-141	mejni	_	_	_	_	
+1-26	142-148	prehod	_	_	_	_	
+1-27	149-151	na	_	_	_	_	
+1-28	152-158	Hotizi	LOC	_	*->5-1	*[5]	
+1-29	159-160	.	_	_	_	_	
+1-30	161-162	"	_	_	_	_	
+1-31	163-169	Pretok	_	_	_	_	
+1-32	170-174	reke	_	_	_	_	
+1-33	175-179	Mure	LOC	_	*->1-2	*[1]	
+1-34	180-181	v	_	_	_	_	
+1-35	182-188	Gornji	LOC[3]	_	*->2-2	*[2]	
+1-36	189-196	Radgoni	LOC[3]	_	*->2-2	*[2]	
+1-37	197-199	je	_	_	_	_	
+1-38	200-205	danes	_	_	_	_	
+1-39	206-208	ob	_	_	_	_	
+1-40	209-211	17	_	_	_	_	
+1-41	212-213	.	_	_	_	_	
+1-42	214-217	uri	_	_	_	_	
+1-43	218-224	znašal	_	_	_	_	
+1-44	225-229	1035	_	_	_	_	
+1-45	230-232	m3	_	_	_	_	
+1-46	233-234	/	_	_	_	_	
+1-47	235-236	s	_	_	_	_	
+1-48	237-239	in	_	_	_	_	
+1-49	240-242	se	_	_	_	_	
+1-50	243-251	postopno	_	_	_	_	
+1-51	252-261	zmanjšuje	_	_	_	_	
+1-52	262-263	,	_	_	_	_	
+1-53	264-270	pretok	_	_	_	_	
+1-54	271-275	Mure	LOC	_	*->1-3	*[1]	
+1-55	276-277	v	_	_	_	_	
+1-56	278-287	Petanjcih	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-57	288-290	pa	_	_	_	_	
+1-58	291-295	1045	_	_	_	_	
+1-59	296-298	m3	_	_	_	_	
+1-60	299-300	/	_	_	_	_	
+1-61	301-302	s	_	_	_	_	
+1-62	303-305	in	_	_	_	_	
+1-63	306-308	je	_	_	_	_	
+1-64	309-317	ustaljen	_	_	_	_	
+1-65	318-319	.	_	_	_	_	
+1-66	320-324	Mura	LOC	_	*->1-4	*[1]	
+1-67	325-327	bo	_	_	_	_	
+1-68	328-330	še	_	_	_	_	
+1-69	331-340	naraščala	_	_	_	_	
+1-70	341-343	na	_	_	_	_	
+1-71	344-351	območju	_	_	_	_	
+1-72	352-354	ob	_	_	_	_	
+1-73	355-359	meji	_	_	_	_	
+1-74	360-361	s	_	_	_	_	
+1-75	362-369	Hrvaško	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-76	370-375	danes	_	_	_	_	
+1-77	376-382	zvečer	_	_	_	_	
+1-78	383-385	in	_	_	_	_	
+1-79	386-387	v	_	_	_	_	
+1-80	388-398	ponedeljek	_	_	_	_	
+1-81	399-407	dopoldan	_	_	_	_	
+1-82	408-409	.	_	_	_	_	
+1-83	410-411	V	_	_	_	_	
+1-84	412-420	celotnem	_	_	_	_	
+1-85	421-425	toku	_	_	_	_	
+1-86	426-430	Mure	LOC	_	*->1-5	*[1]	
+1-87	431-432	v	_	_	_	_	
+1-88	433-442	Sloveniji	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-89	443-447	reka	_	_	_	_	
+1-90	448-457	poplavlja	_	_	_	_	
+1-91	458-465	znotraj	_	_	_	_	
+1-92	466-475	poplavnih	_	_	_	_	
+1-93	476-483	nasipov	_	_	_	_	
+1-94	484-485	,	_	_	_	_	
+1-95	486-487	"	_	_	_	_	
+1-96	488-490	so	_	_	_	_	
+1-97	491-500	sporočili	_	_	_	_	
+1-98	501-503	iz	_	_	_	_	
+1-99	504-510	Uprave	ORG[4]	_	*->9-1	*[9]	
+1-100	511-513	RS	ORG[4]	_	*->9-1	*[9]	
+1-101	514-516	za	ORG[4]	_	*->9-1	*[9]	
+1-102	517-524	zaščito	ORG[4]	_	*->9-1	*[9]	
+1-103	525-527	in	ORG[4]	_	*->9-1	*[9]	
+1-104	528-537	reševanje	ORG[4]	_	*->9-1	*[9]	
+1-105	538-539	.	_	_	_	_	
+1-106	540-547	Poplave	_	_	_	_	
+1-107	548-558	povzročile	_	_	_	_	
+1-108	559-567	številne	_	_	_	_	
+1-109	568-579	nevšečnosti	_	_	_	_	
+1-110	580-586	Zaradi	_	_	_	_	
+1-111	587-599	poplavljanja	_	_	_	_	
+1-112	600-604	Mure	LOC	_	*->1-6	*[1]	
+1-113	605-607	je	_	_	_	_	
+1-114	608-610	za	_	_	_	_	
+1-115	611-617	promet	_	_	_	_	
+1-116	618-623	zaprt	_	_	_	_	
+1-117	624-631	obmejni	_	_	_	_	
+1-118	632-638	prehod	_	_	_	_	
+1-119	639-645	Hotiza	LOC	3 - Nevtralno	*->5-2	*[5]	
+1-120	646-648	in	_	_	_	_	
+1-121	649-659	regionalna	_	_	_	_	
+1-122	660-665	cesta	_	_	_	_	
+1-123	666-675	Razkrižje	LOC	3 - Nevtralno	*->3-2	*[3]	
+1-124	676-677	-	_	_	_	_	
+1-125	678-686	Bistrice	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-126	687-688	-	_	_	_	_	
+1-127	689-698	Črenšovci	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-128	699-700	,	_	_	_	_	
+1-129	701-703	so	_	_	_	_	
+1-130	704-713	sporočili	_	_	_	_	
+1-131	714-716	iz	_	_	_	_	
+1-132	717-719	PU	ORG[5]	3 - Nevtralno[21]	*->12-1	*[12]	
+1-133	720-726	Murska	ORG[5]|LOC[6]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->12-1|*->13-1	*[12]|*[13]	
+1-134	727-733	Sobota	ORG[5]|LOC[6]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->12-1|*->13-1	*[12]|*[13]	
+1-135	734-735	.	_	_	_	_	
+1-136	736-742	Zaradi	_	_	_	_	
+1-137	743-752	sproženja	_	_	_	_	
+1-138	753-758	plazu	_	_	_	_	
+1-139	759-760	v	_	_	_	_	
+1-140	761-770	kamnolomu	_	_	_	_	
+1-141	771-777	Sotina	LOC	_	*->14-1	*[14]	
+1-142	778-780	je	_	_	_	_	
+1-143	781-783	za	_	_	_	_	
+1-144	784-787	ves	_	_	_	_	
+1-145	788-794	promet	_	_	_	_	
+1-146	795-801	zaprta	_	_	_	_	
+1-147	802-812	regionalna	_	_	_	_	
+1-148	813-818	cesta	_	_	_	_	
+1-149	819-824	skozi	_	_	_	_	
+1-150	825-832	naselje	_	_	_	_	
+1-151	833-839	Sotina	LOC	3 - Nevtralno	*->14-2	*[14]	
+1-152	840-841	,	_	_	_	_	
+1-153	842-844	ki	_	_	_	_	
+1-154	845-849	vodi	_	_	_	_	
+1-155	850-854	mimo	_	_	_	_	
+1-156	855-864	kamnoloma	_	_	_	_	
+1-157	865-866	v	_	_	_	_	
+1-158	867-875	Avstrijo	LOC	_	*->15-1	*[15]	
+1-159	876-877	.	_	_	_	_	
+1-160	878-881	Kot	_	_	_	_	
+1-161	882-886	piše	_	_	_	_	
+1-162	887-889	na	_	_	_	_	
+1-163	890-897	spletni	_	_	_	_	
+1-164	898-904	strani	_	_	_	_	
+1-165	905-911	Uprave	ORG[7]	3 - Nevtralno[23]	*->9-2	*[9]	
+1-166	912-914	RS	ORG[7]	3 - Nevtralno[23]	*->9-2	*[9]	
+1-167	915-917	za	ORG[7]	3 - Nevtralno[23]	*->9-2	*[9]	
+1-168	918-925	zaščito	ORG[7]	3 - Nevtralno[23]	*->9-2	*[9]	
+1-169	926-928	in	ORG[7]	3 - Nevtralno[23]	*->9-2	*[9]	
+1-170	929-938	reševanje	ORG[7]	3 - Nevtralno[23]	*->9-2	*[9]	
+1-171	939-940	,	_	_	_	_	
+1-172	941-943	se	_	_	_	_	
+1-173	944-950	začele	_	_	_	_	
+1-174	951-958	krušiti	_	_	_	_	
+1-175	959-964	skale	_	_	_	_	
+1-176	965-974	velikosti	_	_	_	_	
+1-177	975-977	do	_	_	_	_	
+1-178	978-983	enega	_	_	_	_	
+1-179	984-989	metra	_	_	_	_	
+1-180	990-992	in	_	_	_	_	
+1-181	993-999	padale	_	_	_	_	
+1-182	1000-1002	na	_	_	_	_	
+1-183	1003-1008	cesto	_	_	_	_	
+1-184	1009-1010	,	_	_	_	_	
+1-185	1011-1013	ki	_	_	_	_	
+1-186	1014-1022	povezuje	_	_	_	_	
+1-187	1023-1028	mejni	_	_	_	_	
+1-188	1029-1035	prehod	_	_	_	_	
+1-189	1036-1037	z	_	_	_	_	
+1-190	1038-1046	Avstrijo	LOC	3 - Nevtralno	*->15-2	*[15]	
+1-191	1047-1048	.	_	_	_	_	
+1-192	1049-1056	Delavci	_	_	_	_	
+1-193	1057-1065	cestnega	_	_	_	_	
+1-194	1066-1074	podjetja	_	_	_	_	
+1-195	1075-1077	in	_	_	_	_	
+1-196	1078-1086	policija	ORG	3 - Nevtralno	*->16-1	*[16]	
+1-197	1087-1089	so	_	_	_	_	
+1-198	1090-1100	zavarovali	_	_	_	_	
+1-199	1101-1106	cesto	_	_	_	_	
+1-200	1107-1108	.	_	_	_	_	
+1-201	1109-1111	Ob	_	_	_	_	
+1-202	1112-1115	pol	_	_	_	_	
+1-203	1116-1123	devetih	_	_	_	_	
+1-204	1124-1131	zjutraj	_	_	_	_	
+1-205	1132-1134	so	_	_	_	_	
+1-206	1135-1136	v	_	_	_	_	
+1-207	1137-1143	Gornji	LOC[8]	_	*->2-3	*[2]	
+1-208	1144-1151	Radgoni	LOC[8]	_	*->2-3	*[2]	
+1-209	1152-1155	pri	_	_	_	_	
+1-210	1156-1160	domu	_	_	_	_	
+1-211	1161-1170	starejših	_	_	_	_	
+1-212	1171-1178	občanov	_	_	_	_	
+1-213	1179-1180	,	_	_	_	_	
+1-214	1181-1188	gasilci	_	_	_	_	
+1-215	1189-1192	PGD	ORG[9]	3 - Nevtralno[24]	*->17-1	*[17]	
+1-216	1193-1199	Gornja	ORG[9]|LOC[10]	3 - Nevtralno[24]|3 - Nevtralno[25]	*->17-1|*->2-4	*[17]|*[2]	
+1-217	1200-1207	Radgona	ORG[9]|LOC[10]	3 - Nevtralno[24]|3 - Nevtralno[25]	*->17-1|*->2-4	*[17]|*[2]	
+1-218	1208-1216	očistili	_	_	_	_	
+1-219	1217-1223	dostop	_	_	_	_	
+1-220	1224-1226	do	_	_	_	_	
+1-221	1227-1239	visokovodnih	_	_	_	_	
+1-222	1240-1247	nasipov	_	_	_	_	
+1-223	1248-1254	zaradi	_	_	_	_	
+1-224	1255-1262	lažjega	_	_	_	_	
+1-225	1263-1273	transporta	_	_	_	_	
+1-226	1274-1288	protipoplavnih	_	_	_	_	
+1-227	1289-1293	vreč	_	_	_	_	
+1-228	1294-1295	.	_	_	_	_	
+1-229	1296-1298	Ob	_	_	_	_	
+1-230	1299-1303	9.10	_	_	_	_	
+1-231	1304-1306	so	_	_	_	_	
+1-232	1307-1309	ob	_	_	_	_	
+1-233	1310-1317	naselju	_	_	*->18-1	*[18]	
+1-234	1318-1326	Ižakovci	LOC	_	*->18-1	*[18]	
+1-235	1327-1328	,	_	_	_	_	
+1-236	1329-1335	občina	_	_	*->19-1	*[19]	
+1-237	1336-1344	Beltinci	LOC	_	*->19-1	*[19]	
+1-238	1345-1346	,	_	_	_	_	
+1-239	1347-1354	gasilci	_	_	_	_	
+1-240	1355-1358	PGD	ORG[11]	_	*->20-1	*[20]	
+1-241	1359-1367	Ižakovci	ORG[11]|LOC[12]	_	*->20-1|*->18-2	*[20]|*[18]	
+1-242	1368-1375	opazili	_	_	_	_	
+1-243	1376-1387	prepuščanje	_	_	_	_	
+1-244	1388-1394	nasipa	_	_	_	_	
+1-245	1395-1399	reke	_	_	*->1-7	*[1]	
+1-246	1400-1404	Mure	LOC	_	*->1-7	*[1]	
+1-247	1405-1407	na	_	_	_	_	
+1-248	1408-1412	dveh	_	_	_	_	
+1-249	1413-1419	mestih	_	_	_	_	
+1-250	1420-1421	.	_	_	_	_	
+1-251	1422-1423	"	_	_	_	_	
+1-252	1424-1432	Trenutno	_	_	_	_	
+1-253	1433-1441	potekajo	_	_	_	_	
+1-254	1442-1452	aktivnosti	_	_	_	_	
+1-255	1453-1455	za	_	_	_	_	
+1-256	1456-1467	zavarovanje	_	_	_	_	
+1-257	1468-1474	nasipa	_	_	_	_	
+1-258	1475-1476	.	_	_	_	_	
+1-259	1477-1489	Stanovanjske	_	_	_	_	
+1-260	1490-1494	hiše	_	_	_	_	
+1-261	1495-1497	še	_	_	_	_	
+1-262	1498-1502	niso	_	_	_	_	
+1-263	1503-1511	ogrožene	_	_	_	_	
+1-264	1512-1513	.	_	_	_	_	
+1-265	1514-1516	Ob	_	_	_	_	
+1-266	1517-1522	13.00	_	_	_	_	
+1-267	1523-1525	so	_	_	_	_	
+1-268	1526-1533	gasilci	_	_	_	_	
+1-269	1534-1537	PGD	ORG[13]	3 - Nevtralno[26]	*->20-2	*[20]	
+1-270	1538-1546	Ižakovci	ORG[13]|LOC[14]	3 - Nevtralno[26]|3 - Nevtralno[27]	*->20-2|*->18-3	*[20]|*[18]	
+1-271	1547-1554	izvedli	_	_	_	_	
+1-272	1555-1560	ogled	_	_	_	_	
+1-273	1561-1569	objektov	_	_	_	_	
+1-274	1570-1572	na	_	_	_	_	
+1-275	1573-1578	Otoku	LOC[15]	3 - Nevtralno[28]	*->21-1	*[21]	
+1-276	1579-1587	ljubezni	LOC[15]	3 - Nevtralno[28]	*->21-1	*[21]	
+1-277	1588-1590	ob	_	_	_	_	
+1-278	1591-1595	reki	_	_	*->1-8	*[1]	
+1-279	1596-1600	Muri	LOC	_	*->1-8	*[1]	
+1-280	1601-1602	.	_	_	_	_	
+1-281	1603-1613	Premestili	_	_	_	_	
+1-282	1614-1616	in	_	_	_	_	
+1-283	1617-1628	pričvrstili	_	_	_	_	
+1-284	1629-1631	so	_	_	_	_	
+1-285	1632-1640	premični	_	_	_	_	
+1-286	1641-1649	inventar	_	_	_	_	
+1-287	1650-1651	,	_	_	_	_	
+1-288	1652-1655	ker	_	_	_	_	
+1-289	1656-1658	je	_	_	_	_	
+1-290	1659-1665	višina	_	_	_	_	
+1-291	1666-1670	vode	_	_	_	_	
+1-292	1671-1673	na	_	_	_	_	
+1-293	1674-1679	otoku	_	_	_	_	
+1-294	1680-1688	presegla	_	_	_	_	
+1-295	1689-1691	80	_	_	_	_	
+1-296	1692-1703	centimetrov	_	_	_	_	
+1-297	1704-1705	.	_	_	_	_	
+1-298	1706-1715	Preverili	_	_	_	_	
+1-299	1716-1718	so	_	_	_	_	
+1-300	1719-1723	tudi	_	_	_	_	
+1-301	1724-1730	stanje	_	_	_	_	
+1-302	1731-1736	broda	_	_	_	_	
+1-303	1737-1739	in	_	_	_	_	
+1-304	1740-1745	mlina	_	_	_	_	
+1-305	1746-1747	,	_	_	_	_	
+1-306	1748-1751	ter	_	_	_	_	
+1-307	1752-1761	ugotovili	_	_	_	_	
+1-308	1762-1767	močno	_	_	_	_	
+1-309	1768-1781	obremenjenost	_	_	_	_	
+1-310	1782-1790	jeklenih	_	_	_	_	
+1-311	1791-1795	vrvi	_	_	_	_	
+1-312	1796-1798	na	_	_	_	_	
+1-313	1799-1803	obeh	_	_	_	_	
+1-314	1804-1812	objektih	_	_	_	_	
+1-315	1813-1814	.	_	_	_	_	
+1-316	1815-1817	Na	_	_	_	_	
+1-317	1818-1824	pomolu	_	_	_	_	
+1-318	1825-1830	broda	_	_	_	_	
+1-319	1831-1833	je	_	_	_	_	
+1-320	1834-1838	voda	_	_	_	_	
+1-321	1839-1846	odnesla	_	_	_	_	
+1-322	1847-1852	okoli	_	_	_	_	
+1-323	1853-1855	20	_	_	_	_	
+1-324	1856-1862	metrov	_	_	_	_	
+1-325	1863-1872	varovalne	_	_	_	_	
+1-326	1873-1879	ograje	_	_	_	_	
+1-327	1880-1881	"	_	_	_	_	
+1-328	1882-1884	Ob	_	_	_	_	
+1-329	1885-1889	9.15	_	_	_	_	
+1-330	1890-1892	so	_	_	_	_	
+1-331	1893-1894	v	_	_	_	_	
+1-332	1895-1902	naselju	_	_	*->22-1	*[22]	
+1-333	1903-1910	Melinci	LOC	_	*->22-1	*[22]	
+1-334	1911-1912	,	_	_	_	_	
+1-335	1913-1919	občina	_	3 - Nevtralno[29]	*->19-2	*[19]	
+1-336	1920-1928	Beltinci	LOC	3 - Nevtralno[29]	*->19-2	*[19]	
+1-337	1929-1930	,	_	_	_	_	
+1-338	1931-1938	gasilci	_	_	_	_	
+1-339	1939-1942	PGD	ORG[16]	3 - Nevtralno[30]	*->23-1	*[23]	
+1-340	1943-1950	Melinci	ORG[16]|LOC[17]	3 - Nevtralno[30]|3 - Nevtralno[31]	*->23-1|*->22-2	*[23]|*[22]	
+1-341	1951-1953	ob	_	_	_	_	
+1-342	1954-1960	pomoči	_	_	_	_	
+1-343	1961-1969	vaščanov	_	_	_	_	
+1-344	1970-1971	s	_	_	_	_	
+1-345	1972-1987	protipoplavnimi	_	_	_	_	
+1-346	1988-1995	vrečami	_	_	_	_	
+1-347	1996-2006	zavarovali	_	_	_	_	
+1-348	2007-2016	gostinski	_	_	_	_	
+1-349	2017-2023	objekt	_	_	_	_	
+1-350	2024-2031	znotraj	_	_	_	_	
+1-351	2032-2041	poplavnih	_	_	_	_	
+1-352	2042-2049	nasipov	_	_	_	_	
+1-353	2050-2051	.	_	_	_	_	
+1-354	2052-2054	Ob	_	_	_	_	
+1-355	2055-2060	10.50	_	_	_	_	
+1-356	2061-2063	se	_	_	_	_	
+1-357	2064-2066	je	_	_	_	_	
+1-358	2067-2069	na	_	_	_	_	
+1-359	2070-2075	nasip	_	_	_	_	
+1-360	2076-2080	reke	_	3 - Nevtralno[32]	*->1-9	*[1]	
+1-361	2081-2085	Mure	LOC	3 - Nevtralno[32]	*->1-9	*[1]	
+1-362	2086-2087	v	_	_	_	_	
+1-363	2088-2092	Moti	LOC	_	*->24-1	*[24]	
+1-364	2093-2094	,	_	_	_	_	
+1-365	2095-2101	občina	_	3 - Nevtralno[33]	*->25-1	*[25]	
+1-366	2102-2110	Ljutomer	LOC	3 - Nevtralno[33]	*->25-1	*[25]	
+1-367	2111-2112	,	_	_	_	_	
+1-368	2113-2119	podrlo	_	_	_	_	
+1-369	2120-2125	drevo	_	_	_	_	
+1-370	2126-2127	.	_	_	_	_	
+1-371	2128-2135	Gasilca	_	_	_	_	
+1-372	2136-2139	PGD	ORG[18]	3 - Nevtralno[34]	*->26-1	*[26]	
+1-373	2140-2144	Mota	ORG[18]|LOC[19]	3 - Nevtralno[34]|3 - Nevtralno[35]	*->26-1|*->24-2	*[26]|*[24]	
+1-374	2145-2148	sta	_	_	_	_	
+1-375	2149-2155	podrto	_	_	_	_	
+1-376	2156-2161	drevo	_	_	_	_	
+1-377	2162-2172	odstranila	_	_	_	_	
+1-378	2173-2174	z	_	_	_	_	
+1-379	2175-2181	nasipa	_	_	_	_	

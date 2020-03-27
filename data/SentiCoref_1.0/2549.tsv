@@ -1,0 +1,524 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Petrol je upravi Istrabenza poslal zahtevo za razširitev dnevnega reda skupščine , na kateri naj bi delničarji glasovali le o dveh nadomestnih članih nadzornega sveta . Petrol tako želi , da skupščina odloča tudi o novih nadzornikih v prihodnjem mandatnem obdobju , ki se začne 30 . maja . Za nove nadzornike predlaga Alenko Vrhovnik Težak , Tamaro Jerman , Janeza Grošlja , Barbaro Jama Živalič , Kristjana Verbiča in Iztoka Bajdo . Hkrati predlaga , da se o njih glasuje posamično . Bencin bo dražji Po naših izračunih se bo v torek ob predpostavki , da trošarine ostanejo nespremenjene , cena najbolj prodajnega goriva , eurosuper , zvišala za okoli 2,3 cente za liter . Dražji bo tudi eurosuper plus ( za 2,4 cente na liter ) , medtem ko naj bi se dizel in kurilno olje za malenkost pocenila . Liter dizla bo cenejši za 0,1 centa , liter kurilnega olja pa za 0,3 centa . Marolt novi direktor Gorenja notranje opreme Član uprave Gorenja Uroš Marolt je s 1 . februarjem postal tudi direktor družbe Gorenje notranja oprema . Na položaju je zamenjal Gregorja Verbiča , ki ga je Gorenje , kot 99,9 - odstotni lastnik , odpoklicalo konec januarja . Uprava bo kupila delnice Adrie Airways Uprava in zaposleni Adrie Airways so se odzvali na poziv Kapitalske družbe ( Kad ) ter se odločili , da bodo sodelovali pri drugi in tretji fazi dokapitalizacije družbe . Kupili bodo celotno količino razpoložljivih delnic , torej 23 odstotkov celotne razpisane dokapitalizacijske vrednosti , kar predstavlja šest odstotkov celotnega kapitala družbe . Na borzi 36,4 milijona evrov prometa Na Ljubljanski borzi je bilo januarja sklenjenih za 36,4 milijona evrov poslov . Delniški indeks SBI 20 je pridobil 3,8 odstotka , indeks najboljših podjetij SBI TOP pa 5,35 odstotka . Kot po navadi se je najbolj trgovalo z delnicami Krke , sledijo delnice Telekoma Slovenije in Petrola . Najbolj so se podražile delnice Luke Koper ( za 14,50 odstotka ) , Salusa ( za 13,75 odstotka ) in Krke ( za 12,53 odstotka ) , medtem ko so se po drugi strani najbolj pocenile delnice Abanke ( za 10,80 odstotka ) , Istrabenza ( za 7,86 odstotka ) ter Pivovarne Laško ( za 4,48 odstotka ) . Centromerkur prodal lastne delnice Centromerkur je družbi Tekstil , ki je v večinski lasti njenih menedžerjev na čelu s Stanislavom Zidarjem ( bratom predsednika uprave SCT Ivana Zidarja ) , prodal deset odstotkov lastnih delnic . Marles naskakuje Velo nepremičnine Marles je od družbe Niton , za katero naj bi stal predsednik uprave Velane Leopold Poljanšek , kupil njen 24 - odstotni delež Velo Nepremičnin in je tako za direktorjem Vela Pavlom Fišerjem drugi največji lastnik Velo Nepremičnin . Drugo partnersko srečanje GEN - I Na četrtkovem drugem partnerskem srečanju podjetja GEN - I so predstavili trenutne razmere na trgu električne energije ter nabor inštrumentov za obvladovanje tveganj pri nakupu elektrike . Predsednik uprave Robert Golob je poudaril , da je lani prišlo do velikih cenovnih pretresov , s kakršnimi se doslej nismo srečali . Pripravila Luki Nuredini in Matjaž
+1-1	0-6	Petrol	ORG	_	*->24-1	*[24]	
+1-2	7-9	je	_	_	_	_	
+1-3	10-16	upravi	_	_	_	_	
+1-4	17-27	Istrabenza	ORG	_	*->37-1	*[37]	
+1-5	28-34	poslal	_	_	_	_	
+1-6	35-42	zahtevo	_	_	_	_	
+1-7	43-45	za	_	_	_	_	
+1-8	46-56	razširitev	_	_	_	_	
+1-9	57-65	dnevnega	_	_	_	_	
+1-10	66-70	reda	_	_	_	_	
+1-11	71-80	skupščine	_	_	_	_	
+1-12	81-82	,	_	_	_	_	
+1-13	83-85	na	_	_	_	_	
+1-14	86-92	kateri	_	_	_	_	
+1-15	93-96	naj	_	_	_	_	
+1-16	97-99	bi	_	_	_	_	
+1-17	100-110	delničarji	_	_	_	_	
+1-18	111-120	glasovali	_	_	_	_	
+1-19	121-123	le	_	_	_	_	
+1-20	124-125	o	_	_	_	_	
+1-21	126-130	dveh	_	_	_	_	
+1-22	131-142	nadomestnih	_	_	_	_	
+1-23	143-149	članih	_	_	_	_	
+1-24	150-160	nadzornega	_	_	_	_	
+1-25	161-166	sveta	_	_	_	_	
+1-26	167-168	.	_	_	_	_	
+1-27	169-175	Petrol	ORG	_	*->24-2	*[24]	
+1-28	176-180	tako	_	_	_	_	
+1-29	181-185	želi	_	_	_	_	
+1-30	186-187	,	_	_	_	_	
+1-31	188-190	da	_	_	_	_	
+1-32	191-200	skupščina	_	_	_	_	
+1-33	201-207	odloča	_	_	_	_	
+1-34	208-212	tudi	_	_	_	_	
+1-35	213-214	o	_	_	_	_	
+1-36	215-220	novih	_	_	_	_	
+1-37	221-232	nadzornikih	_	_	_	_	
+1-38	233-234	v	_	_	_	_	
+1-39	235-245	prihodnjem	_	_	_	_	
+1-40	246-255	mandatnem	_	_	_	_	
+1-41	256-263	obdobju	_	_	_	_	
+1-42	264-265	,	_	_	_	_	
+1-43	266-268	ki	_	_	_	_	
+1-44	269-271	se	_	_	_	_	
+1-45	272-277	začne	_	_	_	_	
+1-46	278-280	30	_	_	_	_	
+1-47	281-282	.	_	_	_	_	
+1-48	283-287	maja	_	_	_	_	
+1-49	288-289	.	_	_	_	_	
+1-50	290-292	Za	_	_	_	_	
+1-51	293-297	nove	_	_	_	_	
+1-52	298-308	nadzornike	_	_	_	_	
+1-53	309-317	predlaga	_	_	*->24-3	*[24]	
+1-54	318-324	Alenko	PER[1]	4 - Pozitivno[32]	*->20-1	*[20]	
+1-55	325-333	Vrhovnik	PER[1]	4 - Pozitivno[32]	*->20-1	*[20]	
+1-56	334-339	Težak	PER[1]	4 - Pozitivno[32]	*->20-1	*[20]	
+1-57	340-341	,	_	_	_	_	
+1-58	342-348	Tamaro	PER[2]	4 - Pozitivno[33]	*->19-1	*[19]	
+1-59	349-355	Jerman	PER[2]	4 - Pozitivno[33]	*->19-1	*[19]	
+1-60	356-357	,	_	_	_	_	
+1-61	358-364	Janeza	PER[3]	4 - Pozitivno[34]	*->8-1	*[8]	
+1-62	365-372	Grošlja	PER[3]	4 - Pozitivno[34]	*->8-1	*[8]	
+1-63	373-374	,	_	_	_	_	
+1-64	375-382	Barbaro	PER[4]	4 - Pozitivno[35]	*->17-1	*[17]	
+1-65	383-387	Jama	PER[4]	4 - Pozitivno[35]	*->17-1	*[17]	
+1-66	388-395	Živalič	PER[4]	4 - Pozitivno[35]	*->17-1	*[17]	
+1-67	396-397	,	_	_	_	_	
+1-68	398-407	Kristjana	PER[5]	4 - Pozitivno[36]	*->12-1	*[12]	
+1-69	408-415	Verbiča	PER[5]	4 - Pozitivno[36]	*->12-1	*[12]	
+1-70	416-418	in	_	_	_	_	
+1-71	419-425	Iztoka	PER[6]	4 - Pozitivno[37]	*->4-1	*[4]	
+1-72	426-431	Bajdo	PER[6]	4 - Pozitivno[37]	*->4-1	*[4]	
+1-73	432-433	.	_	_	_	_	
+1-74	434-440	Hkrati	_	_	_	_	
+1-75	441-449	predlaga	_	_	*->24-4	*[24]	
+1-76	450-451	,	_	_	_	_	
+1-77	452-454	da	_	_	_	_	
+1-78	455-457	se	_	_	_	_	
+1-79	458-459	o	_	_	_	_	
+1-80	460-464	njih	_	_	_	_	
+1-81	465-472	glasuje	_	_	_	_	
+1-82	473-482	posamično	_	_	_	_	
+1-83	483-484	.	_	_	_	_	
+1-84	485-491	Bencin	_	_	_	_	
+1-85	492-494	bo	_	_	_	_	
+1-86	495-501	dražji	_	_	_	_	
+1-87	502-504	Po	_	_	_	_	
+1-88	505-510	naših	_	_	_	_	
+1-89	511-520	izračunih	_	_	_	_	
+1-90	521-523	se	_	_	_	_	
+1-91	524-526	bo	_	_	_	_	
+1-92	527-528	v	_	_	_	_	
+1-93	529-534	torek	_	_	_	_	
+1-94	535-537	ob	_	_	_	_	
+1-95	538-550	predpostavki	_	_	_	_	
+1-96	551-552	,	_	_	_	_	
+1-97	553-555	da	_	_	_	_	
+1-98	556-565	trošarine	_	_	_	_	
+1-99	566-574	ostanejo	_	_	_	_	
+1-100	575-588	nespremenjene	_	_	_	_	
+1-101	589-590	,	_	_	_	_	
+1-102	591-595	cena	_	_	_	_	
+1-103	596-603	najbolj	_	_	_	_	
+1-104	604-614	prodajnega	_	_	_	_	
+1-105	615-621	goriva	_	_	_	_	
+1-106	622-623	,	_	_	_	_	
+1-107	624-633	eurosuper	_	_	_	_	
+1-108	634-635	,	_	_	_	_	
+1-109	636-643	zvišala	_	_	_	_	
+1-110	644-646	za	_	_	_	_	
+1-111	647-652	okoli	_	_	_	_	
+1-112	653-656	2,3	_	_	_	_	
+1-113	657-662	cente	_	_	_	_	
+1-114	663-665	za	_	_	_	_	
+1-115	666-671	liter	_	_	_	_	
+1-116	672-673	.	_	_	_	_	
+1-117	674-680	Dražji	_	_	_	_	
+1-118	681-683	bo	_	_	_	_	
+1-119	684-688	tudi	_	_	_	_	
+1-120	689-698	eurosuper	_	_	_	_	
+1-121	699-703	plus	_	_	_	_	
+1-122	704-705	(	_	_	_	_	
+1-123	706-708	za	_	_	_	_	
+1-124	709-712	2,4	_	_	_	_	
+1-125	713-718	cente	_	_	_	_	
+1-126	719-721	na	_	_	_	_	
+1-127	722-727	liter	_	_	_	_	
+1-128	728-729	)	_	_	_	_	
+1-129	730-731	,	_	_	_	_	
+1-130	732-738	medtem	_	_	_	_	
+1-131	739-741	ko	_	_	_	_	
+1-132	742-745	naj	_	_	_	_	
+1-133	746-748	bi	_	_	_	_	
+1-134	749-751	se	_	_	_	_	
+1-135	752-757	dizel	_	_	_	_	
+1-136	758-760	in	_	_	_	_	
+1-137	761-768	kurilno	_	_	_	_	
+1-138	769-773	olje	_	_	_	_	
+1-139	774-776	za	_	_	_	_	
+1-140	777-786	malenkost	_	_	_	_	
+1-141	787-795	pocenila	_	_	_	_	
+1-142	796-797	.	_	_	_	_	
+1-143	798-803	Liter	_	_	_	_	
+1-144	804-809	dizla	_	_	_	_	
+1-145	810-812	bo	_	_	_	_	
+1-146	813-820	cenejši	_	_	_	_	
+1-147	821-823	za	_	_	_	_	
+1-148	824-827	0,1	_	_	_	_	
+1-149	828-833	centa	_	_	_	_	
+1-150	834-835	,	_	_	_	_	
+1-151	836-841	liter	_	_	_	_	
+1-152	842-851	kurilnega	_	_	_	_	
+1-153	852-856	olja	_	_	_	_	
+1-154	857-859	pa	_	_	_	_	
+1-155	860-862	za	_	_	_	_	
+1-156	863-866	0,3	_	_	_	_	
+1-157	867-872	centa	_	_	_	_	
+1-158	873-874	.	_	_	_	_	
+1-159	875-881	Marolt	PER	_	*->9-1	*[9]	
+1-160	882-886	novi	_	_	_	_	
+1-161	887-895	direktor	_	_	*->9-2	*[9]	
+1-162	896-903	Gorenja	ORG[7]	_	*->9-2|*->10-1	*[9]|*[10]	
+1-163	904-912	notranje	ORG[7]	_	*->9-2|*->10-1	*[9]|*[10]	
+1-164	913-919	opreme	ORG[7]	_	*->9-2|*->10-1	*[9]|*[10]	
+1-165	920-924	Član	_	_	*->9-3	*[9]	
+1-166	925-931	uprave	_	_	*->9-3	*[9]	
+1-167	932-939	Gorenja	ORG	_	*->9-3|*->10-2	*[9]|*[10]	
+1-168	940-944	Uroš	PER[8]	_	*->9-3	*[9]	
+1-169	945-951	Marolt	PER[8]	_	*->9-3	*[9]	
+1-170	952-954	je	_	_	_	_	
+1-171	955-956	s	_	_	_	_	
+1-172	957-958	1	_	_	_	_	
+1-173	959-960	.	_	_	_	_	
+1-174	961-971	februarjem	_	_	_	_	
+1-175	972-978	postal	_	_	_	_	
+1-176	979-983	tudi	_	_	_	_	
+1-177	984-992	direktor	_	_	*->9-4	*[9]	
+1-178	993-999	družbe	_	_	*->9-4|*->10-3	*[9]|*[10]	
+1-179	1000-1007	Gorenje	ORG[9]	_	*->9-4|*->10-3	*[9]|*[10]	
+1-180	1008-1016	notranja	ORG[9]	_	*->9-4|*->10-3	*[9]|*[10]	
+1-181	1017-1023	oprema	ORG[9]	_	*->9-4|*->10-3	*[9]|*[10]	
+1-182	1024-1025	.	_	_	_	_	
+1-183	1026-1028	Na	_	_	_	_	
+1-184	1029-1037	položaju	_	_	_	_	
+1-185	1038-1040	je	_	4 - Pozitivno[38]	*->9-5	*[9]	
+1-186	1041-1049	zamenjal	_	4 - Pozitivno[38]	*->9-5	*[9]	
+1-187	1050-1058	Gregorja	PER[10]	2 - Negativno[39]	*->22-1	*[22]	
+1-188	1059-1066	Verbiča	PER[10]	2 - Negativno[39]	*->22-1	*[22]	
+1-189	1067-1068	,	_	_	_	_	
+1-190	1069-1071	ki	_	_	_	_	
+1-191	1072-1074	ga	_	_	_	_	
+1-192	1075-1077	je	_	_	_	_	
+1-193	1078-1085	Gorenje	ORG	3 - Nevtralno	*->10-4	*[10]	
+1-194	1086-1087	,	_	_	_	_	
+1-195	1088-1091	kot	_	_	_	_	
+1-196	1092-1096	99,9	_	_	_	_	
+1-197	1097-1098	-	_	_	_	_	
+1-198	1099-1107	odstotni	_	_	_	_	
+1-199	1108-1115	lastnik	_	_	_	_	
+1-200	1116-1117	,	_	_	_	_	
+1-201	1118-1129	odpoklicalo	_	_	_	_	
+1-202	1130-1135	konec	_	_	_	_	
+1-203	1136-1144	januarja	_	_	_	_	
+1-204	1145-1146	.	_	_	_	_	
+1-205	1147-1153	Uprava	_	_	_	_	
+1-206	1154-1156	bo	_	_	_	_	
+1-207	1157-1163	kupila	_	_	_	_	
+1-208	1164-1171	delnice	_	_	_	_	
+1-209	1172-1177	Adrie	ORG[11]	_	*->14-1	*[14]	
+1-210	1178-1185	Airways	ORG[11]	_	*->14-1	*[14]	
+1-211	1186-1192	Uprava	_	_	_	_	
+1-212	1193-1195	in	_	_	_	_	
+1-213	1196-1205	zaposleni	_	_	_	_	
+1-214	1206-1211	Adrie	ORG[12]	3 - Nevtralno[40]	*->14-2	*[14]	
+1-215	1212-1219	Airways	ORG[12]	3 - Nevtralno[40]	*->14-2	*[14]	
+1-216	1220-1222	so	_	_	_	_	
+1-217	1223-1225	se	_	_	_	_	
+1-218	1226-1233	odzvali	_	_	_	_	
+1-219	1234-1236	na	_	_	_	_	
+1-220	1237-1242	poziv	_	_	_	_	
+1-221	1243-1253	Kapitalske	ORG[13]	_	*->23-1	*[23]	
+1-222	1254-1260	družbe	ORG[13]	_	*->23-1	*[23]	
+1-223	1261-1262	(	_	_	_	_	
+1-224	1263-1266	Kad	ORG	3 - Nevtralno	*->23-2	*[23]	
+1-225	1267-1268	)	_	_	_	_	
+1-226	1269-1272	ter	_	_	_	_	
+1-227	1273-1275	se	_	_	_	_	
+1-228	1276-1284	odločili	_	_	_	_	
+1-229	1285-1286	,	_	_	_	_	
+1-230	1287-1289	da	_	_	_	_	
+1-231	1290-1294	bodo	_	_	_	_	
+1-232	1295-1305	sodelovali	_	_	_	_	
+1-233	1306-1309	pri	_	_	_	_	
+1-234	1310-1315	drugi	_	_	_	_	
+1-235	1316-1318	in	_	_	_	_	
+1-236	1319-1325	tretji	_	_	_	_	
+1-237	1326-1330	fazi	_	_	_	_	
+1-238	1331-1347	dokapitalizacije	_	_	_	_	
+1-239	1348-1354	družbe	_	_	_	_	
+1-240	1355-1356	.	_	_	_	_	
+1-241	1357-1363	Kupili	_	_	_	_	
+1-242	1364-1368	bodo	_	_	_	_	
+1-243	1369-1376	celotno	_	_	_	_	
+1-244	1377-1385	količino	_	_	_	_	
+1-245	1386-1400	razpoložljivih	_	_	_	_	
+1-246	1401-1407	delnic	_	_	_	_	
+1-247	1408-1409	,	_	_	_	_	
+1-248	1410-1415	torej	_	_	_	_	
+1-249	1416-1418	23	_	_	_	_	
+1-250	1419-1428	odstotkov	_	_	_	_	
+1-251	1429-1436	celotne	_	_	_	_	
+1-252	1437-1446	razpisane	_	_	_	_	
+1-253	1447-1465	dokapitalizacijske	_	_	_	_	
+1-254	1466-1475	vrednosti	_	_	_	_	
+1-255	1476-1477	,	_	_	_	_	
+1-256	1478-1481	kar	_	_	_	_	
+1-257	1482-1493	predstavlja	_	_	_	_	
+1-258	1494-1498	šest	_	_	_	_	
+1-259	1499-1508	odstotkov	_	_	_	_	
+1-260	1509-1518	celotnega	_	_	_	_	
+1-261	1519-1527	kapitala	_	_	_	_	
+1-262	1528-1534	družbe	_	_	_	_	
+1-263	1535-1536	.	_	_	_	_	
+1-264	1537-1539	Na	_	_	_	_	
+1-265	1540-1545	borzi	_	_	_	_	
+1-266	1546-1550	36,4	_	_	_	_	
+1-267	1551-1559	milijona	_	_	_	_	
+1-268	1560-1565	evrov	_	_	_	_	
+1-269	1566-1573	prometa	_	_	_	_	
+1-270	1574-1576	Na	_	_	_	_	
+1-271	1577-1588	Ljubljanski	ORG[14]	3 - Nevtralno[41]	*->25-1	*[25]	
+1-272	1589-1594	borzi	ORG[14]	3 - Nevtralno[41]	*->25-1	*[25]	
+1-273	1595-1597	je	_	_	_	_	
+1-274	1598-1602	bilo	_	_	_	_	
+1-275	1603-1611	januarja	_	_	_	_	
+1-276	1612-1622	sklenjenih	_	_	_	_	
+1-277	1623-1625	za	_	_	_	_	
+1-278	1626-1630	36,4	_	_	_	_	
+1-279	1631-1639	milijona	_	_	_	_	
+1-280	1640-1645	evrov	_	_	_	_	
+1-281	1646-1652	poslov	_	_	_	_	
+1-282	1653-1654	.	_	_	_	_	
+1-283	1655-1663	Delniški	_	_	_	_	
+1-284	1664-1670	indeks	_	_	_	_	
+1-285	1671-1674	SBI	_	_	_	_	
+1-286	1675-1677	20	_	_	_	_	
+1-287	1678-1680	je	_	_	_	_	
+1-288	1681-1689	pridobil	_	_	_	_	
+1-289	1690-1693	3,8	_	_	_	_	
+1-290	1694-1702	odstotka	_	_	_	_	
+1-291	1703-1704	,	_	_	_	_	
+1-292	1705-1711	indeks	_	_	_	_	
+1-293	1712-1722	najboljših	_	_	_	_	
+1-294	1723-1731	podjetij	_	_	_	_	
+1-295	1732-1735	SBI	_	_	_	_	
+1-296	1736-1739	TOP	_	_	_	_	
+1-297	1740-1742	pa	_	_	_	_	
+1-298	1743-1747	5,35	_	_	_	_	
+1-299	1748-1756	odstotka	_	_	_	_	
+1-300	1757-1758	.	_	_	_	_	
+1-301	1759-1762	Kot	_	_	_	_	
+1-302	1763-1765	po	_	_	_	_	
+1-303	1766-1772	navadi	_	_	_	_	
+1-304	1773-1775	se	_	_	_	_	
+1-305	1776-1778	je	_	_	_	_	
+1-306	1779-1786	najbolj	_	_	_	_	
+1-307	1787-1795	trgovalo	_	_	_	_	
+1-308	1796-1797	z	_	_	_	_	
+1-309	1798-1807	delnicami	_	_	_	_	
+1-310	1808-1812	Krke	ORG	_	*->3-1	*[3]	
+1-311	1813-1814	,	_	_	_	_	
+1-312	1815-1822	sledijo	_	_	_	_	
+1-313	1823-1830	delnice	_	_	_	_	
+1-314	1831-1839	Telekoma	ORG[15]	4 - Pozitivno[42]	*->1-1	*[1]	
+1-315	1840-1849	Slovenije	ORG[15]|LOC[16]	4 - Pozitivno[42]|3 - Nevtralno[43]	*->1-1|*->38-1	*[1]|*[38]	
+1-316	1850-1852	in	_	_	_	_	
+1-317	1853-1860	Petrola	ORG	4 - Pozitivno	*->24-5	*[24]	
+1-318	1861-1862	.	_	_	_	_	
+1-319	1863-1870	Najbolj	_	_	_	_	
+1-320	1871-1873	so	_	_	_	_	
+1-321	1874-1876	se	_	_	_	_	
+1-322	1877-1886	podražile	_	_	_	_	
+1-323	1887-1894	delnice	_	_	_	_	
+1-324	1895-1899	Luke	ORG[17]	3 - Nevtralno[44]	*->28-1	*[28]	
+1-325	1900-1905	Koper	ORG[17]|LOC[18]	3 - Nevtralno[44]|3 - Nevtralno[45]	*->28-1|*->5-1	*[28]|*[5]	
+1-326	1906-1907	(	_	_	_	_	
+1-327	1908-1910	za	_	_	_	_	
+1-328	1911-1916	14,50	_	_	_	_	
+1-329	1917-1925	odstotka	_	_	_	_	
+1-330	1926-1927	)	_	_	_	_	
+1-331	1928-1929	,	_	_	_	_	
+1-332	1930-1936	Salusa	ORG	3 - Nevtralno	*->6-1	*[6]	
+1-333	1937-1938	(	_	_	_	_	
+1-334	1939-1941	za	_	_	_	_	
+1-335	1942-1947	13,75	_	_	_	_	
+1-336	1948-1956	odstotka	_	_	_	_	
+1-337	1957-1958	)	_	_	_	_	
+1-338	1959-1961	in	_	_	_	_	
+1-339	1962-1966	Krke	ORG	4 - Pozitivno	*->3-2	*[3]	
+1-340	1967-1968	(	_	_	_	_	
+1-341	1969-1971	za	_	_	_	_	
+1-342	1972-1977	12,53	_	_	_	_	
+1-343	1978-1986	odstotka	_	_	_	_	
+1-344	1987-1988	)	_	_	_	_	
+1-345	1989-1990	,	_	_	_	_	
+1-346	1991-1997	medtem	_	_	_	_	
+1-347	1998-2000	ko	_	_	_	_	
+1-348	2001-2003	so	_	_	_	_	
+1-349	2004-2006	se	_	_	_	_	
+1-350	2007-2009	po	_	_	_	_	
+1-351	2010-2015	drugi	_	_	_	_	
+1-352	2016-2022	strani	_	_	_	_	
+1-353	2023-2030	najbolj	_	_	_	_	
+1-354	2031-2039	pocenile	_	_	_	_	
+1-355	2040-2047	delnice	_	_	_	_	
+1-356	2048-2054	Abanke	ORG	3 - Nevtralno	*->15-1	*[15]	
+1-357	2055-2056	(	_	_	_	_	
+1-358	2057-2059	za	_	_	_	_	
+1-359	2060-2065	10,80	_	_	_	_	
+1-360	2066-2074	odstotka	_	_	_	_	
+1-361	2075-2076	)	_	_	_	_	
+1-362	2077-2078	,	_	_	_	_	
+1-363	2079-2089	Istrabenza	ORG	3 - Nevtralno	*->37-2	*[37]	
+1-364	2090-2091	(	_	_	_	_	
+1-365	2092-2094	za	_	_	_	_	
+1-366	2095-2099	7,86	_	_	_	_	
+1-367	2100-2108	odstotka	_	_	_	_	
+1-368	2109-2110	)	_	_	_	_	
+1-369	2111-2114	ter	_	_	_	_	
+1-370	2115-2124	Pivovarne	ORG[19]	3 - Nevtralno[46]	*->21-1	*[21]	
+1-371	2125-2130	Laško	ORG[19]|LOC[20]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->21-1|*->16-1	*[21]|*[16]	
+1-372	2131-2132	(	_	_	_	_	
+1-373	2133-2135	za	_	_	_	_	
+1-374	2136-2140	4,48	_	_	_	_	
+1-375	2141-2149	odstotka	_	_	_	_	
+1-376	2150-2151	)	_	_	_	_	
+1-377	2152-2153	.	_	_	_	_	
+1-378	2154-2166	Centromerkur	ORG	_	*->33-1	*[33]	
+1-379	2167-2173	prodal	_	_	_	_	
+1-380	2174-2180	lastne	_	_	_	_	
+1-381	2181-2188	delnice	_	_	_	_	
+1-382	2189-2201	Centromerkur	ORG	_	*->33-2	*[33]	
+1-383	2202-2204	je	_	_	_	_	
+1-384	2205-2211	družbi	_	_	_	_	
+1-385	2212-2219	Tekstil	ORG	_	*->31-1	*[31]	
+1-386	2220-2221	,	_	_	_	_	
+1-387	2222-2224	ki	_	_	_	_	
+1-388	2225-2227	je	_	_	_	_	
+1-389	2228-2229	v	_	_	_	_	
+1-390	2230-2238	večinski	_	3 - Nevtralno[48]	*->31-2	*[31]	
+1-391	2239-2244	lasti	_	3 - Nevtralno[48]	*->31-2	*[31]	
+1-392	2245-2251	njenih	_	3 - Nevtralno[48]	*->31-2|*->33-3	*[31]|*[33]	
+1-393	2252-2263	menedžerjev	_	3 - Nevtralno[48]	*->31-2	*[31]	
+1-394	2264-2266	na	_	3 - Nevtralno[48]	*->31-2	*[31]	
+1-395	2267-2271	čelu	_	3 - Nevtralno[48]	*->31-2	*[31]	
+1-396	2272-2273	s	_	3 - Nevtralno[48]	*->31-2	*[31]	
+1-397	2274-2285	Stanislavom	PER[21]	3 - Nevtralno[48]	*->31-2|*->35-1	*[31]|*[35]	
+1-398	2286-2294	Zidarjem	PER[21]	3 - Nevtralno[48]	*->31-2|*->35-1	*[31]|*[35]	
+1-399	2295-2296	(	_	_	_	_	
+1-400	2297-2303	bratom	_	3 - Nevtralno[49]	*->35-2	*[35]	
+1-401	2304-2315	predsednika	_	3 - Nevtralno[49]|3 - Nevtralno[50]	*->35-2|*->11-1	*[35]|*[11]	
+1-402	2316-2322	uprave	_	3 - Nevtralno[49]|3 - Nevtralno[50]	*->35-2|*->11-1	*[35]|*[11]	
+1-403	2323-2326	SCT	ORG	3 - Nevtralno[49]|3 - Nevtralno[50]|3 - Nevtralno[51]	*->35-2|*->11-1|*->34-1	*[35]|*[11]|*[34]	
+1-404	2327-2332	Ivana	PER[22]	3 - Nevtralno[49]|3 - Nevtralno[50]	*->35-2|*->11-1	*[35]|*[11]	
+1-405	2333-2340	Zidarja	PER[22]	3 - Nevtralno[49]|3 - Nevtralno[50]	*->35-2|*->11-1	*[35]|*[11]	
+1-406	2341-2342	)	_	_	_	_	
+1-407	2343-2344	,	_	_	_	_	
+1-408	2345-2351	prodal	_	3 - Nevtralno	*->33-4	*[33]	
+1-409	2352-2357	deset	_	_	_	_	
+1-410	2358-2367	odstotkov	_	_	_	_	
+1-411	2368-2375	lastnih	_	_	_	_	
+1-412	2376-2382	delnic	_	_	_	_	
+1-413	2383-2384	.	_	_	_	_	
+1-414	2385-2391	Marles	ORG	_	*->30-1	*[30]	
+1-415	2392-2401	naskakuje	_	_	_	_	
+1-416	2402-2406	Velo	ORG[23]	_	*->27-1	*[27]	
+1-417	2407-2419	nepremičnine	ORG[23]	_	*->27-1	*[27]	
+1-418	2420-2426	Marles	ORG	_	*->30-2	*[30]	
+1-419	2427-2429	je	_	_	_	_	
+1-420	2430-2432	od	_	_	_	_	
+1-421	2433-2439	družbe	_	_	*->36-1	*[36]	
+1-422	2440-2445	Niton	ORG	_	*->36-1	*[36]	
+1-423	2446-2447	,	_	_	_	_	
+1-424	2448-2450	za	_	_	_	_	
+1-425	2451-2457	katero	_	_	_	_	
+1-426	2458-2461	naj	_	_	_	_	
+1-427	2462-2464	bi	_	_	_	_	
+1-428	2465-2469	stal	_	_	_	_	
+1-429	2470-2480	predsednik	_	3 - Nevtralno[52]	*->26-1	*[26]	
+1-430	2481-2487	uprave	_	3 - Nevtralno[52]	*->26-1	*[26]	
+1-431	2488-2494	Velane	ORG	3 - Nevtralno[52]|3 - Nevtralno[53]	*->26-1|*->13-1	*[26]|*[13]	
+1-432	2495-2502	Leopold	PER[24]	3 - Nevtralno[52]	*->26-1	*[26]	
+1-433	2503-2512	Poljanšek	PER[24]	3 - Nevtralno[52]	*->26-1	*[26]	
+1-434	2513-2514	,	_	_	_	_	
+1-435	2515-2520	kupil	_	_	_	_	
+1-436	2521-2525	njen	_	3 - Nevtralno	*->36-2	*[36]	
+1-437	2526-2528	24	_	_	_	_	
+1-438	2529-2530	-	_	_	_	_	
+1-439	2531-2539	odstotni	_	_	_	_	
+1-440	2540-2545	delež	_	_	_	_	
+1-441	2546-2550	Velo	ORG[25]	_	*->27-2	*[27]	
+1-442	2551-2562	Nepremičnin	ORG[25]	_	*->27-2	*[27]	
+1-443	2563-2565	in	_	_	_	_	
+1-444	2566-2568	je	_	_	_	_	
+1-445	2569-2573	tako	_	_	_	_	
+1-446	2574-2576	za	_	_	_	_	
+1-447	2577-2588	direktorjem	_	3 - Nevtralno[54]	*->7-1	*[7]	
+1-448	2589-2593	Vela	LOC	3 - Nevtralno[54]	*->7-1|*->27-3	*[7]|*[27]	
+1-449	2594-2600	Pavlom	PER[26]	3 - Nevtralno[54]	*->7-1	*[7]	
+1-450	2601-2609	Fišerjem	PER[26]	3 - Nevtralno[54]	*->7-1	*[7]	
+1-451	2610-2615	drugi	_	4 - Pozitivno[55]	*->30-3	*[30]	
+1-452	2616-2624	največji	_	4 - Pozitivno[55]	*->30-3	*[30]	
+1-453	2625-2632	lastnik	_	4 - Pozitivno[55]	*->30-3	*[30]	
+1-454	2633-2637	Velo	ORG[27]	4 - Pozitivno[55]|3 - Nevtralno[56]	*->30-3|*->27-4	*[30]|*[27]	
+1-455	2638-2649	Nepremičnin	ORG[27]	4 - Pozitivno[55]|3 - Nevtralno[56]	*->30-3|*->27-4	*[30]|*[27]	
+1-456	2650-2651	.	_	_	_	_	
+1-457	2652-2657	Drugo	_	_	_	_	
+1-458	2658-2668	partnersko	_	_	_	_	
+1-459	2669-2677	srečanje	_	_	_	_	
+1-460	2678-2681	GEN	ORG[28]	_	*->2-1	*[2]	
+1-461	2682-2683	-	ORG[28]	_	*->2-1	*[2]	
+1-462	2684-2685	I	ORG[28]	_	*->2-1	*[2]	
+1-463	2686-2688	Na	_	_	_	_	
+1-464	2689-2699	četrtkovem	_	_	_	_	
+1-465	2700-2706	drugem	_	_	_	_	
+1-466	2707-2718	partnerskem	_	_	_	_	
+1-467	2719-2727	srečanju	_	_	_	_	
+1-468	2728-2736	podjetja	_	3 - Nevtralno[57]	*->2-2	*[2]	
+1-469	2737-2740	GEN	ORG[29]	3 - Nevtralno[57]	*->2-2	*[2]	
+1-470	2741-2742	-	ORG[29]	_	*->2-2	*[2]	
+1-471	2743-2744	I	ORG[29]	_	*->2-2	*[2]	
+1-472	2745-2747	so	_	_	_	_	
+1-473	2748-2759	predstavili	_	_	_	_	
+1-474	2760-2768	trenutne	_	_	_	_	
+1-475	2769-2776	razmere	_	_	_	_	
+1-476	2777-2779	na	_	_	_	_	
+1-477	2780-2784	trgu	_	_	_	_	
+1-478	2785-2795	električne	_	_	_	_	
+1-479	2796-2804	energije	_	_	_	_	
+1-480	2805-2808	ter	_	_	_	_	
+1-481	2809-2814	nabor	_	_	_	_	
+1-482	2815-2827	inštrumentov	_	_	_	_	
+1-483	2828-2830	za	_	_	_	_	
+1-484	2831-2843	obvladovanje	_	_	_	_	
+1-485	2844-2851	tveganj	_	_	_	_	
+1-486	2852-2855	pri	_	_	_	_	
+1-487	2856-2862	nakupu	_	_	_	_	
+1-488	2863-2872	elektrike	_	_	_	_	
+1-489	2873-2874	.	_	_	_	_	
+1-490	2875-2885	Predsednik	_	3 - Nevtralno[58]	*->18-1	*[18]	
+1-491	2886-2892	uprave	_	3 - Nevtralno[58]	*->18-1	*[18]	
+1-492	2893-2899	Robert	PER[30]	3 - Nevtralno[58]	*->18-1	*[18]	
+1-493	2900-2905	Golob	PER[30]	3 - Nevtralno[58]	*->18-1	*[18]	
+1-494	2906-2908	je	_	_	_	_	
+1-495	2909-2917	poudaril	_	_	_	_	
+1-496	2918-2919	,	_	_	_	_	
+1-497	2920-2922	da	_	_	_	_	
+1-498	2923-2925	je	_	_	_	_	
+1-499	2926-2930	lani	_	_	_	_	
+1-500	2931-2937	prišlo	_	_	_	_	
+1-501	2938-2940	do	_	_	_	_	
+1-502	2941-2948	velikih	_	_	_	_	
+1-503	2949-2957	cenovnih	_	_	_	_	
+1-504	2958-2967	pretresov	_	_	_	_	
+1-505	2968-2969	,	_	_	_	_	
+1-506	2970-2971	s	_	_	_	_	
+1-507	2972-2981	kakršnimi	_	_	_	_	
+1-508	2982-2984	se	_	_	_	_	
+1-509	2985-2991	doslej	_	_	_	_	
+1-510	2992-2997	nismo	_	_	_	_	
+1-511	2998-3005	srečali	_	_	_	_	
+1-512	3006-3007	.	_	_	_	_	
+1-513	3008-3018	Pripravila	_	_	_	_	
+1-514	3019-3023	Luki	PER[31]	3 - Nevtralno[59]	*->32-1	*[32]	
+1-515	3024-3032	Nuredini	PER[31]	3 - Nevtralno[59]	*->32-1	*[32]	
+1-516	3033-3035	in	_	_	_	_	
+1-517	3036-3042	Matjaž	PER	3 - Nevtralno	*->29-1	*[29]	

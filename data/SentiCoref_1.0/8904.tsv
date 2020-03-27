@@ -1,0 +1,325 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Na Bledu začel že četrti Strateški forum Bled , ki letos poteka na temo vpliva gospodarske krize na gospodarske in geopolitične spremembe v Evropi in Evraziji . Današnje slavnostne otvoritve sicer dvodnevnega foruma so se udeležili vsi trije slovenski predsedniki , Danilo Türk , Borut Pahor in Pavel Gantar , ter številni ugledni gostje iz tujine , med katerimi bo en premier ( Makedonec Nikola Gruevski ) in deset ministrov . Program foruma Po pozdravnih nagovorih bo v okviru foruma potekal prvi panel voditeljev na temo Novo globalno vodenje v 21 . stoletju , sledil bo panel o evropski varnostni strukturi . Po slavnostni večerji po potekala še polnočna razprava na temo krepitve gospodarskega povezovanja Zahodnega Balkana kot pomoči pri izhodu iz krize . Forum se bo nadaljeval in zaključil v ponedeljek , ko bodo sledili še štirje paneli in ena okrogla miza . Forum se je pričel z nagovorom premierja Boruta Pahorja kot predsedujočega forumu , zunanjega ministra Samuela Žbogarja kot gostitelja ter predsednika države Danila Türka kot častnega gosta . Med udeleženci so tudi predsednik državnega zbora Pavel Gantar in več poslancev ter ministrov . Skupno naj bi se foruma udeleževalo preko 400 udeležencev iz sveta politike , gospodarstva in znanstvene srenje . Na Bledu tudi o sporu Madžarska - Slovaška Blejski forum bo priložnost tudi za številna dvostranska srečanja . Med njimi bo eno bolj zanimivih srečanje zunanjih ministrov Madžarske in Slovaške Balasza in Lajčaka , ki bi lahko govorila tudi o morebitnem srečanju premierov Gordona Bajnaija in Roberta Fica . Odnosi med državama so zadnje tedne napeti zaradi novega zakona o rabi slovaškega jezika , ki pripadnikom madžarske manjšine na Slovaškem narekuje , da morajo v javni rabi uporabljati slovaški jezik , ali pa jim grozi kazen . Kot je znano , je pred pričetkom foruma potekalo tristransko srečanje med Pahorjem , Žbogarjem in hrvaškim zunanjim ministrom Gordanom Jandrokovićem na temo reševanja mejnega spora
+1-1	0-2	Na	_	_	_	_	
+1-2	3-8	Bledu	LOC	_	*->1-1	*[1]	
+1-3	9-14	začel	_	_	_	_	
+1-4	15-17	že	_	_	_	_	
+1-5	18-24	četrti	_	_	_	_	
+1-6	25-34	Strateški	_	_	_	_	
+1-7	35-40	forum	_	_	_	_	
+1-8	41-45	Bled	LOC	_	*->1-2	*[1]	
+1-9	46-47	,	_	_	_	_	
+1-10	48-50	ki	_	_	_	_	
+1-11	51-56	letos	_	_	_	_	
+1-12	57-63	poteka	_	_	_	_	
+1-13	64-66	na	_	_	_	_	
+1-14	67-71	temo	_	_	_	_	
+1-15	72-78	vpliva	_	_	_	_	
+1-16	79-90	gospodarske	_	_	_	_	
+1-17	91-96	krize	_	_	_	_	
+1-18	97-99	na	_	_	_	_	
+1-19	100-111	gospodarske	_	_	_	_	
+1-20	112-114	in	_	_	_	_	
+1-21	115-127	geopolitične	_	_	_	_	
+1-22	128-137	spremembe	_	_	_	_	
+1-23	138-139	v	_	_	_	_	
+1-24	140-146	Evropi	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-25	147-149	in	_	_	_	_	
+1-26	150-158	Evraziji	LOC	3 - Nevtralno	*->3-1	*[3]	
+1-27	159-160	.	_	_	_	_	
+1-28	161-169	Današnje	_	_	_	_	
+1-29	170-180	slavnostne	_	_	_	_	
+1-30	181-190	otvoritve	_	_	_	_	
+1-31	191-196	sicer	_	_	_	_	
+1-32	197-208	dvodnevnega	_	_	_	_	
+1-33	209-215	foruma	_	_	_	_	
+1-34	216-218	so	_	_	_	_	
+1-35	219-221	se	_	_	_	_	
+1-36	222-231	udeležili	_	_	_	_	
+1-37	232-235	vsi	_	_	_	_	
+1-38	236-241	trije	_	_	_	_	
+1-39	242-251	slovenski	_	_	_	_	
+1-40	252-263	predsedniki	_	_	_	_	
+1-41	264-265	,	_	_	_	_	
+1-42	266-272	Danilo	PER[1]	_	*->4-1	*[4]	
+1-43	273-277	Türk	PER[1]	_	*->4-1	*[4]	
+1-44	278-279	,	_	_	_	_	
+1-45	280-285	Borut	PER[2]	_	*->5-1	*[5]	
+1-46	286-291	Pahor	PER[2]	_	*->5-1	*[5]	
+1-47	292-294	in	_	_	_	_	
+1-48	295-300	Pavel	PER[3]	_	*->6-1	*[6]	
+1-49	301-307	Gantar	PER[3]	_	*->6-1	*[6]	
+1-50	308-309	,	_	_	_	_	
+1-51	310-313	ter	_	_	_	_	
+1-52	314-322	številni	_	_	_	_	
+1-53	323-330	ugledni	_	_	_	_	
+1-54	331-337	gostje	_	_	_	_	
+1-55	338-340	iz	_	_	_	_	
+1-56	341-347	tujine	_	_	_	_	
+1-57	348-349	,	_	_	_	_	
+1-58	350-353	med	_	_	_	_	
+1-59	354-362	katerimi	_	_	_	_	
+1-60	363-365	bo	_	_	_	_	
+1-61	366-368	en	_	_	_	_	
+1-62	369-376	premier	_	_	*->7-1	*[7]	
+1-63	377-378	(	_	_	_	_	
+1-64	379-388	Makedonec	_	3 - Nevtralno[14]	*->7-2	*[7]	
+1-65	389-395	Nikola	PER[4]	3 - Nevtralno[14]	*->7-2	*[7]	
+1-66	396-404	Gruevski	PER[4]	3 - Nevtralno[14]	*->7-2	*[7]	
+1-67	405-406	)	_	_	_	_	
+1-68	407-409	in	_	_	_	_	
+1-69	410-415	deset	_	_	_	_	
+1-70	416-425	ministrov	_	_	_	_	
+1-71	426-427	.	_	_	_	_	
+1-72	428-435	Program	_	_	_	_	
+1-73	436-442	foruma	_	_	_	_	
+1-74	443-445	Po	_	_	_	_	
+1-75	446-456	pozdravnih	_	_	_	_	
+1-76	457-466	nagovorih	_	_	_	_	
+1-77	467-469	bo	_	_	_	_	
+1-78	470-471	v	_	_	_	_	
+1-79	472-478	okviru	_	_	_	_	
+1-80	479-485	foruma	_	_	_	_	
+1-81	486-493	potekal	_	_	_	_	
+1-82	494-498	prvi	_	_	_	_	
+1-83	499-504	panel	_	_	_	_	
+1-84	505-515	voditeljev	_	_	_	_	
+1-85	516-518	na	_	_	_	_	
+1-86	519-523	temo	_	_	_	_	
+1-87	524-528	Novo	_	_	_	_	
+1-88	529-537	globalno	_	_	_	_	
+1-89	538-545	vodenje	_	_	_	_	
+1-90	546-547	v	_	_	_	_	
+1-91	548-550	21	_	_	_	_	
+1-92	551-552	.	_	_	_	_	
+1-93	553-561	stoletju	_	_	_	_	
+1-94	562-563	,	_	_	_	_	
+1-95	564-570	sledil	_	_	_	_	
+1-96	571-573	bo	_	_	_	_	
+1-97	574-579	panel	_	_	_	_	
+1-98	580-581	o	_	_	_	_	
+1-99	582-590	evropski	_	_	_	_	
+1-100	591-600	varnostni	_	_	_	_	
+1-101	601-610	strukturi	_	_	_	_	
+1-102	611-612	.	_	_	_	_	
+1-103	613-615	Po	_	_	_	_	
+1-104	616-626	slavnostni	_	_	_	_	
+1-105	627-634	večerji	_	_	_	_	
+1-106	635-637	po	_	_	_	_	
+1-107	638-646	potekala	_	_	_	_	
+1-108	647-649	še	_	_	_	_	
+1-109	650-658	polnočna	_	_	_	_	
+1-110	659-667	razprava	_	_	_	_	
+1-111	668-670	na	_	_	_	_	
+1-112	671-675	temo	_	_	_	_	
+1-113	676-684	krepitve	_	_	_	_	
+1-114	685-698	gospodarskega	_	_	_	_	
+1-115	699-710	povezovanja	_	_	_	_	
+1-116	711-720	Zahodnega	LOC[5]	3 - Nevtralno[15]	*->8-1	*[8]	
+1-117	721-728	Balkana	LOC[5]	3 - Nevtralno[15]	*->8-1	*[8]	
+1-118	729-732	kot	_	_	_	_	
+1-119	733-739	pomoči	_	_	_	_	
+1-120	740-743	pri	_	_	_	_	
+1-121	744-750	izhodu	_	_	_	_	
+1-122	751-753	iz	_	_	_	_	
+1-123	754-759	krize	_	_	_	_	
+1-124	760-761	.	_	_	_	_	
+1-125	762-767	Forum	_	_	_	_	
+1-126	768-770	se	_	_	_	_	
+1-127	771-773	bo	_	_	_	_	
+1-128	774-784	nadaljeval	_	_	_	_	
+1-129	785-787	in	_	_	_	_	
+1-130	788-797	zaključil	_	_	_	_	
+1-131	798-799	v	_	_	_	_	
+1-132	800-810	ponedeljek	_	_	_	_	
+1-133	811-812	,	_	_	_	_	
+1-134	813-815	ko	_	_	_	_	
+1-135	816-820	bodo	_	_	_	_	
+1-136	821-828	sledili	_	_	_	_	
+1-137	829-831	še	_	_	_	_	
+1-138	832-838	štirje	_	_	_	_	
+1-139	839-845	paneli	_	_	_	_	
+1-140	846-848	in	_	_	_	_	
+1-141	849-852	ena	_	_	_	_	
+1-142	853-860	okrogla	_	_	_	_	
+1-143	861-865	miza	_	_	_	_	
+1-144	866-867	.	_	_	_	_	
+1-145	868-873	Forum	_	_	_	_	
+1-146	874-876	se	_	_	_	_	
+1-147	877-879	je	_	_	_	_	
+1-148	880-886	pričel	_	_	_	_	
+1-149	887-888	z	_	_	_	_	
+1-150	889-898	nagovorom	_	_	_	_	
+1-151	899-908	premierja	_	_	*->5-2	*[5]	
+1-152	909-915	Boruta	PER[6]	_	*->5-2	*[5]	
+1-153	916-923	Pahorja	PER[6]	_	*->5-2	*[5]	
+1-154	924-927	kot	_	_	_	_	
+1-155	928-942	predsedujočega	_	_	*->5-3	*[5]	
+1-156	943-949	forumu	_	_	*->5-3	*[5]	
+1-157	950-951	,	_	_	_	_	
+1-158	952-961	zunanjega	_	_	*->9-1	*[9]	
+1-159	962-970	ministra	_	_	*->9-1	*[9]	
+1-160	971-978	Samuela	PER[7]	_	*->9-1	*[9]	
+1-161	979-987	Žbogarja	PER[7]	_	*->9-1	*[9]	
+1-162	988-991	kot	_	_	_	_	
+1-163	992-1002	gostitelja	_	_	*->9-2	*[9]	
+1-164	1003-1006	ter	_	_	_	_	
+1-165	1007-1018	predsednika	_	_	*->4-2	*[4]	
+1-166	1019-1025	države	_	_	*->4-2	*[4]	
+1-167	1026-1032	Danila	PER[8]	_	*->4-2	*[4]	
+1-168	1033-1038	Türka	PER[8]	_	*->4-2	*[4]	
+1-169	1039-1042	kot	_	_	_	_	
+1-170	1043-1051	častnega	_	3 - Nevtralno[16]	*->4-3	*[4]	
+1-171	1052-1057	gosta	_	3 - Nevtralno[16]	*->4-3	*[4]	
+1-172	1058-1059	.	_	_	_	_	
+1-173	1060-1063	Med	_	_	_	_	
+1-174	1064-1074	udeleženci	_	_	_	_	
+1-175	1075-1077	so	_	_	_	_	
+1-176	1078-1082	tudi	_	_	_	_	
+1-177	1083-1093	predsednik	_	3 - Nevtralno[17]	*->6-2	*[6]	
+1-178	1094-1103	državnega	ORG[9]	3 - Nevtralno[17]|3 - Nevtralno[18]	*->6-2|*->10-1	*[6]|*[10]	
+1-179	1104-1109	zbora	ORG[9]	3 - Nevtralno[17]|3 - Nevtralno[18]	*->6-2|*->10-1	*[6]|*[10]	
+1-180	1110-1115	Pavel	PER[10]	3 - Nevtralno[17]	*->6-2	*[6]	
+1-181	1116-1122	Gantar	PER[10]	3 - Nevtralno[17]	*->6-2	*[6]	
+1-182	1123-1125	in	_	_	_	_	
+1-183	1126-1129	več	_	_	_	_	
+1-184	1130-1139	poslancev	_	_	_	_	
+1-185	1140-1143	ter	_	_	_	_	
+1-186	1144-1153	ministrov	_	_	_	_	
+1-187	1154-1155	.	_	_	_	_	
+1-188	1156-1162	Skupno	_	_	_	_	
+1-189	1163-1166	naj	_	_	_	_	
+1-190	1167-1169	bi	_	_	_	_	
+1-191	1170-1172	se	_	_	_	_	
+1-192	1173-1179	foruma	_	_	_	_	
+1-193	1180-1191	udeleževalo	_	_	_	_	
+1-194	1192-1197	preko	_	_	_	_	
+1-195	1198-1201	400	_	_	_	_	
+1-196	1202-1213	udeležencev	_	_	_	_	
+1-197	1214-1216	iz	_	_	_	_	
+1-198	1217-1222	sveta	_	_	_	_	
+1-199	1223-1231	politike	_	_	_	_	
+1-200	1232-1233	,	_	_	_	_	
+1-201	1234-1246	gospodarstva	_	_	_	_	
+1-202	1247-1249	in	_	_	_	_	
+1-203	1250-1260	znanstvene	_	_	_	_	
+1-204	1261-1267	srenje	_	_	_	_	
+1-205	1268-1269	.	_	_	_	_	
+1-206	1270-1272	Na	_	_	_	_	
+1-207	1273-1278	Bledu	LOC	3 - Nevtralno	*->1-3	*[1]	
+1-208	1279-1283	tudi	_	_	_	_	
+1-209	1284-1285	o	_	_	_	_	
+1-210	1286-1291	sporu	_	_	_	_	
+1-211	1292-1301	Madžarska	LOC	_	*->11-1	*[11]	
+1-212	1302-1303	-	_	_	_	_	
+1-213	1304-1312	Slovaška	LOC	_	*->12-1	*[12]	
+1-214	1313-1320	Blejski	_	_	_	_	
+1-215	1321-1326	forum	_	_	_	_	
+1-216	1327-1329	bo	_	_	_	_	
+1-217	1330-1340	priložnost	_	_	_	_	
+1-218	1341-1345	tudi	_	_	_	_	
+1-219	1346-1348	za	_	_	_	_	
+1-220	1349-1357	številna	_	_	_	_	
+1-221	1358-1369	dvostranska	_	_	_	_	
+1-222	1370-1378	srečanja	_	_	_	_	
+1-223	1379-1380	.	_	_	_	_	
+1-224	1381-1384	Med	_	_	_	_	
+1-225	1385-1390	njimi	_	_	_	_	
+1-226	1391-1393	bo	_	_	_	_	
+1-227	1394-1397	eno	_	_	_	_	
+1-228	1398-1402	bolj	_	_	_	_	
+1-229	1403-1412	zanimivih	_	_	_	_	
+1-230	1413-1421	srečanje	_	_	_	_	
+1-231	1422-1430	zunanjih	_	_	_	_	
+1-232	1431-1440	ministrov	_	_	_	_	
+1-233	1441-1450	Madžarske	LOC	3 - Nevtralno	*->11-2	*[11]	
+1-234	1451-1453	in	_	_	_	_	
+1-235	1454-1462	Slovaške	LOC	_	*->12-2	*[12]	
+1-236	1463-1470	Balasza	PER	3 - Nevtralno	*->14-1	*[14]	
+1-237	1471-1473	in	_	_	_	_	
+1-238	1474-1481	Lajčaka	PER	3 - Nevtralno	*->13-1	*[13]	
+1-239	1482-1483	,	_	_	_	_	
+1-240	1484-1486	ki	_	_	_	_	
+1-241	1487-1489	bi	_	_	_	_	
+1-242	1490-1495	lahko	_	_	_	_	
+1-243	1496-1504	govorila	_	_	_	_	
+1-244	1505-1509	tudi	_	_	_	_	
+1-245	1510-1511	o	_	_	_	_	
+1-246	1512-1522	morebitnem	_	_	_	_	
+1-247	1523-1531	srečanju	_	_	_	_	
+1-248	1532-1541	premierov	_	_	_	_	
+1-249	1542-1549	Gordona	PER[11]	3 - Nevtralno[19]	*->15-1	*[15]	
+1-250	1550-1558	Bajnaija	PER[11]	3 - Nevtralno[19]	*->15-1	*[15]	
+1-251	1559-1561	in	_	_	_	_	
+1-252	1562-1569	Roberta	PER[12]	3 - Nevtralno[20]	*->16-1	*[16]	
+1-253	1570-1574	Fica	PER[12]	3 - Nevtralno[20]	*->16-1	*[16]	
+1-254	1575-1576	.	_	_	_	_	
+1-255	1577-1583	Odnosi	_	_	_	_	
+1-256	1584-1587	med	_	_	_	_	
+1-257	1588-1596	državama	_	_	_	_	
+1-258	1597-1599	so	_	_	_	_	
+1-259	1600-1606	zadnje	_	_	_	_	
+1-260	1607-1612	tedne	_	_	_	_	
+1-261	1613-1619	napeti	_	_	_	_	
+1-262	1620-1626	zaradi	_	_	_	_	
+1-263	1627-1633	novega	_	_	_	_	
+1-264	1634-1640	zakona	_	_	_	_	
+1-265	1641-1642	o	_	_	_	_	
+1-266	1643-1647	rabi	_	_	_	_	
+1-267	1648-1658	slovaškega	_	_	_	_	
+1-268	1659-1665	jezika	_	_	_	_	
+1-269	1666-1667	,	_	_	_	_	
+1-270	1668-1670	ki	_	_	_	_	
+1-271	1671-1682	pripadnikom	_	_	_	_	
+1-272	1683-1692	madžarske	_	_	_	_	
+1-273	1693-1701	manjšine	_	_	_	_	
+1-274	1702-1704	na	_	_	_	_	
+1-275	1705-1714	Slovaškem	LOC	2 - Negativno	*->12-3	*[12]	
+1-276	1715-1723	narekuje	_	_	_	_	
+1-277	1724-1725	,	_	_	_	_	
+1-278	1726-1728	da	_	_	_	_	
+1-279	1729-1735	morajo	_	_	_	_	
+1-280	1736-1737	v	_	_	_	_	
+1-281	1738-1743	javni	_	_	_	_	
+1-282	1744-1748	rabi	_	_	_	_	
+1-283	1749-1760	uporabljati	_	_	_	_	
+1-284	1761-1769	slovaški	_	_	_	_	
+1-285	1770-1775	jezik	_	_	_	_	
+1-286	1776-1777	,	_	_	_	_	
+1-287	1778-1781	ali	_	_	_	_	
+1-288	1782-1784	pa	_	_	_	_	
+1-289	1785-1788	jim	_	_	_	_	
+1-290	1789-1794	grozi	_	_	_	_	
+1-291	1795-1800	kazen	_	_	_	_	
+1-292	1801-1802	.	_	_	_	_	
+1-293	1803-1806	Kot	_	_	_	_	
+1-294	1807-1809	je	_	_	_	_	
+1-295	1810-1815	znano	_	_	_	_	
+1-296	1816-1817	,	_	_	_	_	
+1-297	1818-1820	je	_	_	_	_	
+1-298	1821-1825	pred	_	_	_	_	
+1-299	1826-1835	pričetkom	_	_	_	_	
+1-300	1836-1842	foruma	_	_	_	_	
+1-301	1843-1851	potekalo	_	_	_	_	
+1-302	1852-1863	tristransko	_	_	_	_	
+1-303	1864-1872	srečanje	_	_	_	_	
+1-304	1873-1876	med	_	_	_	_	
+1-305	1877-1885	Pahorjem	PER	3 - Nevtralno	*->5-4	*[5]	
+1-306	1886-1887	,	_	_	_	_	
+1-307	1888-1897	Žbogarjem	LOC	3 - Nevtralno	*->9-3	*[9]	
+1-308	1898-1900	in	_	_	_	_	
+1-309	1901-1909	hrvaškim	_	3 - Nevtralno[21]	*->17-1	*[17]	
+1-310	1910-1918	zunanjim	_	3 - Nevtralno[21]	*->17-1	*[17]	
+1-311	1919-1928	ministrom	_	3 - Nevtralno[21]	*->17-1	*[17]	
+1-312	1929-1937	Gordanom	PER[13]	3 - Nevtralno[21]	*->17-1	*[17]	
+1-313	1938-1951	Jandrokovićem	PER[13]	3 - Nevtralno[21]	*->17-1	*[17]	
+1-314	1952-1954	na	_	_	_	_	
+1-315	1955-1959	temo	_	_	_	_	
+1-316	1960-1969	reševanja	_	_	_	_	
+1-317	1970-1977	mejnega	_	_	_	_	
+1-318	1978-1983	spora	_	_	_	_	

@@ -1,0 +1,221 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Rezultati zadnje javnomnenjske raziskave , ki jo je opravila agencija Ninamedia , kažejo , da vlado premierja Pahorja podpira najmanj ljudi , odkar je prevzela oblast , in sicer 44,9 odstotka . Z vlado premierja Boruta Pahorja je po rezultatih javnomnenjske raziskave zadovoljnih 44,9 odstotka vprašanih , medtem ko jih je 25,5 odstotka z njenim delom nezadovoljnih , 29,6 odstotka pa neopredeljenih . Lestvica političnih strank na drugi strani ostaja bolj ali manj nespremenjena . Največ , 27,7odstotka anketirancev , bi volilo Socialne demokrate , na drugem mestu pa je SDS z 19,4 - odstotno podporo . Sledijo Zares ( 11,3 odstotka ) , SNS ( 6,5 odstotka ) , LDS ( 5,1 odstotka ) , DeSUS ( 4,8odstotka ) in SLS ( 1,4 odstotka ) . Na lestvici najbolj priljubljenih politikov še vedno vodi predsednik republike Danilo Türk , sledijo mu evropski komisar Janez Potočnik , premier Borut Pahor , minister za razvoj Mitja Gaspari , gospodarski minister Matej Lahovnik , minister za visoko šolstvo Gregor Golobič , nekdanji minister za javno upravo Gregor Virant , ljubljanski župan Zoran Janković , ministrica za obrambo Ljubica Jelušič in evropski poslanec Lojze Peterle . Predsednik SDS Janez Janša je izpadel iz prve deseterice priljubljenih politikov in pristal na18 . mestu , je poročal Pop TV
+1-1	0-9	Rezultati	_	_	_	_	
+1-2	10-16	zadnje	_	_	_	_	
+1-3	17-30	javnomnenjske	_	_	_	_	
+1-4	31-40	raziskave	_	_	_	_	
+1-5	41-42	,	_	_	_	_	
+1-6	43-45	ki	_	_	_	_	
+1-7	46-48	jo	_	_	_	_	
+1-8	49-51	je	_	_	_	_	
+1-9	52-60	opravila	_	_	_	_	
+1-10	61-69	agencija	_	3 - Nevtralno[15]	*->1-1	*[1]	
+1-11	70-79	Ninamedia	ORG	3 - Nevtralno[15]	*->1-1	*[1]	
+1-12	80-81	,	_	_	_	_	
+1-13	82-88	kažejo	_	_	_	_	
+1-14	89-90	,	_	_	_	_	
+1-15	91-93	da	_	_	_	_	
+1-16	94-99	vlado	ORG	_	*->2-1	*[2]	
+1-17	100-109	premierja	_	_	*->3-1	*[3]	
+1-18	110-117	Pahorja	PER	_	*->3-1	*[3]	
+1-19	118-125	podpira	_	_	_	_	
+1-20	126-133	najmanj	_	_	_	_	
+1-21	134-139	ljudi	_	_	_	_	
+1-22	140-141	,	_	_	_	_	
+1-23	142-147	odkar	_	_	_	_	
+1-24	148-150	je	_	_	*->2-2	*[2]	
+1-25	151-159	prevzela	_	_	*->2-2	*[2]	
+1-26	160-166	oblast	_	_	_	_	
+1-27	167-168	,	_	_	_	_	
+1-28	169-171	in	_	_	_	_	
+1-29	172-177	sicer	_	_	_	_	
+1-30	178-182	44,9	_	_	_	_	
+1-31	183-191	odstotka	_	_	_	_	
+1-32	192-193	.	_	_	_	_	
+1-33	194-195	Z	_	_	_	_	
+1-34	196-201	vlado	ORG	_	*->2-3	*[2]	
+1-35	202-211	premierja	_	_	*->3-2	*[3]	
+1-36	212-218	Boruta	PER[1]	_	*->3-2	*[3]	
+1-37	219-226	Pahorja	PER[1]	_	*->3-2	*[3]	
+1-38	227-229	je	_	_	_	_	
+1-39	230-232	po	_	_	_	_	
+1-40	233-243	rezultatih	_	_	_	_	
+1-41	244-257	javnomnenjske	_	_	_	_	
+1-42	258-267	raziskave	_	_	_	_	
+1-43	268-279	zadovoljnih	_	_	_	_	
+1-44	280-284	44,9	_	_	_	_	
+1-45	285-293	odstotka	_	_	_	_	
+1-46	294-303	vprašanih	_	_	_	_	
+1-47	304-305	,	_	_	_	_	
+1-48	306-312	medtem	_	_	_	_	
+1-49	313-315	ko	_	_	_	_	
+1-50	316-319	jih	_	_	_	_	
+1-51	320-322	je	_	_	_	_	
+1-52	323-327	25,5	_	_	_	_	
+1-53	328-336	odstotka	_	_	_	_	
+1-54	337-338	z	_	_	_	_	
+1-55	339-345	njenim	_	3 - Nevtralno	*->2-4	*[2]	
+1-56	346-351	delom	_	_	_	_	
+1-57	352-365	nezadovoljnih	_	_	_	_	
+1-58	366-367	,	_	_	_	_	
+1-59	368-372	29,6	_	_	_	_	
+1-60	373-381	odstotka	_	_	_	_	
+1-61	382-384	pa	_	_	_	_	
+1-62	385-399	neopredeljenih	_	_	_	_	
+1-63	400-401	.	_	_	_	_	
+1-64	402-410	Lestvica	_	_	_	_	
+1-65	411-421	političnih	_	_	_	_	
+1-66	422-428	strank	_	_	_	_	
+1-67	429-431	na	_	_	_	_	
+1-68	432-437	drugi	_	_	_	_	
+1-69	438-444	strani	_	_	_	_	
+1-70	445-451	ostaja	_	_	_	_	
+1-71	452-456	bolj	_	_	_	_	
+1-72	457-460	ali	_	_	_	_	
+1-73	461-465	manj	_	_	_	_	
+1-74	466-479	nespremenjena	_	_	_	_	
+1-75	480-481	.	_	_	_	_	
+1-76	482-488	Največ	_	_	_	_	
+1-77	489-490	,	_	_	_	_	
+1-78	491-503	27,7odstotka	_	_	_	_	
+1-79	504-516	anketirancev	_	_	_	_	
+1-80	517-518	,	_	_	_	_	
+1-81	519-521	bi	_	_	_	_	
+1-82	522-528	volilo	_	_	_	_	
+1-83	529-537	Socialne	ORG[2]	3 - Nevtralno[16]	*->4-1	*[4]	
+1-84	538-547	demokrate	ORG[2]	3 - Nevtralno[16]	*->4-1	*[4]	
+1-85	548-549	,	_	_	_	_	
+1-86	550-552	na	_	_	_	_	
+1-87	553-559	drugem	_	_	_	_	
+1-88	560-565	mestu	_	_	_	_	
+1-89	566-568	pa	_	_	_	_	
+1-90	569-571	je	_	_	_	_	
+1-91	572-575	SDS	ORG	_	*->5-1	*[5]	
+1-92	576-577	z	_	_	_	_	
+1-93	578-582	19,4	_	_	_	_	
+1-94	583-584	-	_	_	_	_	
+1-95	585-593	odstotno	_	_	_	_	
+1-96	594-601	podporo	_	_	_	_	
+1-97	602-603	.	_	_	_	_	
+1-98	604-611	Sledijo	_	_	_	_	
+1-99	612-617	Zares	ORG	3 - Nevtralno	*->6-1	*[6]	
+1-100	618-619	(	_	_	_	_	
+1-101	620-624	11,3	_	_	_	_	
+1-102	625-633	odstotka	_	_	_	_	
+1-103	634-635	)	_	_	_	_	
+1-104	636-637	,	_	_	_	_	
+1-105	638-641	SNS	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-106	642-643	(	_	_	_	_	
+1-107	644-647	6,5	_	_	_	_	
+1-108	648-656	odstotka	_	_	_	_	
+1-109	657-658	)	_	_	_	_	
+1-110	659-660	,	_	_	_	_	
+1-111	661-664	LDS	ORG	3 - Nevtralno	*->8-1	*[8]	
+1-112	665-666	(	_	_	_	_	
+1-113	667-670	5,1	_	_	_	_	
+1-114	671-679	odstotka	_	_	_	_	
+1-115	680-681	)	_	_	_	_	
+1-116	682-683	,	_	_	_	_	
+1-117	684-689	DeSUS	ORG	3 - Nevtralno	*->9-1	*[9]	
+1-118	690-691	(	_	_	_	_	
+1-119	692-703	4,8odstotka	_	_	_	_	
+1-120	704-705	)	_	_	_	_	
+1-121	706-708	in	_	_	_	_	
+1-122	709-712	SLS	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-123	713-714	(	_	_	_	_	
+1-124	715-718	1,4	_	_	_	_	
+1-125	719-727	odstotka	_	_	_	_	
+1-126	728-729	)	_	_	_	_	
+1-127	730-731	.	_	_	_	_	
+1-128	732-734	Na	_	_	_	_	
+1-129	735-743	lestvici	_	_	_	_	
+1-130	744-751	najbolj	_	_	_	_	
+1-131	752-765	priljubljenih	_	_	_	_	
+1-132	766-775	politikov	_	_	_	_	
+1-133	776-778	še	_	_	_	_	
+1-134	779-784	vedno	_	_	_	_	
+1-135	785-789	vodi	_	_	_	_	
+1-136	790-800	predsednik	_	4 - Pozitivno[17]	*->11-1	*[11]	
+1-137	801-810	republike	_	4 - Pozitivno[17]	*->11-1	*[11]	
+1-138	811-817	Danilo	PER[3]	4 - Pozitivno[17]	*->11-1	*[11]	
+1-139	818-822	Türk	PER[3]	4 - Pozitivno[17]	*->11-1	*[11]	
+1-140	823-824	,	_	_	_	_	
+1-141	825-832	sledijo	_	_	_	_	
+1-142	833-835	mu	_	_	_	_	
+1-143	836-844	evropski	_	3 - Nevtralno[18]	*->12-1	*[12]	
+1-144	845-852	komisar	_	3 - Nevtralno[18]	*->12-1	*[12]	
+1-145	853-858	Janez	PER[4]	3 - Nevtralno[18]	*->12-1	*[12]	
+1-146	859-867	Potočnik	PER[4]	3 - Nevtralno[18]	*->12-1	*[12]	
+1-147	868-869	,	_	_	_	_	
+1-148	870-877	premier	_	3 - Nevtralno[19]	*->3-3	*[3]	
+1-149	878-883	Borut	PER[5]	3 - Nevtralno[19]	*->3-3	*[3]	
+1-150	884-889	Pahor	PER[5]	3 - Nevtralno[19]	*->3-3	*[3]	
+1-151	890-891	,	_	_	_	_	
+1-152	892-900	minister	_	3 - Nevtralno[20]	*->13-1	*[13]	
+1-153	901-903	za	_	3 - Nevtralno[20]	*->13-1	*[13]	
+1-154	904-910	razvoj	_	3 - Nevtralno[20]	*->13-1	*[13]	
+1-155	911-916	Mitja	PER[6]	3 - Nevtralno[20]	*->13-1	*[13]	
+1-156	917-924	Gaspari	PER[6]	3 - Nevtralno[20]	*->13-1	*[13]	
+1-157	925-926	,	_	_	_	_	
+1-158	927-938	gospodarski	_	3 - Nevtralno[21]	*->14-1	*[14]	
+1-159	939-947	minister	_	3 - Nevtralno[21]	*->14-1	*[14]	
+1-160	948-953	Matej	PER[7]	3 - Nevtralno[21]	*->14-1	*[14]	
+1-161	954-962	Lahovnik	PER[7]	3 - Nevtralno[21]	*->14-1	*[14]	
+1-162	963-964	,	_	_	_	_	
+1-163	965-973	minister	_	3 - Nevtralno[22]	*->15-1	*[15]	
+1-164	974-976	za	_	3 - Nevtralno[22]	*->15-1	*[15]	
+1-165	977-983	visoko	_	3 - Nevtralno[22]	*->15-1	*[15]	
+1-166	984-991	šolstvo	_	3 - Nevtralno[22]	*->15-1	*[15]	
+1-167	992-998	Gregor	PER[8]	3 - Nevtralno[22]	*->15-1	*[15]	
+1-168	999-1006	Golobič	PER[8]	3 - Nevtralno[22]	*->15-1	*[15]	
+1-169	1007-1008	,	_	_	_	_	
+1-170	1009-1017	nekdanji	_	3 - Nevtralno[23]	*->16-1	*[16]	
+1-171	1018-1026	minister	_	3 - Nevtralno[23]	*->16-1	*[16]	
+1-172	1027-1029	za	_	3 - Nevtralno[23]	*->16-1	*[16]	
+1-173	1030-1035	javno	_	3 - Nevtralno[23]	*->16-1	*[16]	
+1-174	1036-1042	upravo	_	3 - Nevtralno[23]	*->16-1	*[16]	
+1-175	1043-1049	Gregor	PER[9]	3 - Nevtralno[23]	*->16-1	*[16]	
+1-176	1050-1056	Virant	PER[9]	3 - Nevtralno[23]	*->16-1	*[16]	
+1-177	1057-1058	,	_	_	_	_	
+1-178	1059-1070	ljubljanski	_	3 - Nevtralno[24]	*->17-1	*[17]	
+1-179	1071-1076	župan	_	3 - Nevtralno[24]	*->17-1	*[17]	
+1-180	1077-1082	Zoran	PER[10]	3 - Nevtralno[24]	*->17-1	*[17]	
+1-181	1083-1091	Janković	PER[10]	3 - Nevtralno[24]	*->17-1	*[17]	
+1-182	1092-1093	,	_	_	_	_	
+1-183	1094-1104	ministrica	_	3 - Nevtralno[25]	*->18-1	*[18]	
+1-184	1105-1107	za	_	3 - Nevtralno[25]	*->18-1	*[18]	
+1-185	1108-1115	obrambo	_	3 - Nevtralno[25]	*->18-1	*[18]	
+1-186	1116-1123	Ljubica	PER[11]	3 - Nevtralno[25]	*->18-1	*[18]	
+1-187	1124-1131	Jelušič	PER[11]	3 - Nevtralno[25]	*->18-1	*[18]	
+1-188	1132-1134	in	_	_	_	_	
+1-189	1135-1143	evropski	_	3 - Nevtralno[26]	*->19-1	*[19]	
+1-190	1144-1152	poslanec	_	3 - Nevtralno[26]	*->19-1	*[19]	
+1-191	1153-1158	Lojze	PER[12]	3 - Nevtralno[26]	*->19-1	*[19]	
+1-192	1159-1166	Peterle	PER[12]	3 - Nevtralno[26]	*->19-1	*[19]	
+1-193	1167-1168	.	_	_	_	_	
+1-194	1169-1179	Predsednik	_	3 - Nevtralno[27]	*->20-1	*[20]	
+1-195	1180-1183	SDS	ORG	3 - Nevtralno[27]|3 - Nevtralno[28]	*->20-1|*->5-2	*[20]|*[5]	
+1-196	1184-1189	Janez	PER[13]	3 - Nevtralno[27]	*->20-1	*[20]	
+1-197	1190-1195	Janša	PER[13]	3 - Nevtralno[27]	*->20-1	*[20]	
+1-198	1196-1198	je	_	_	_	_	
+1-199	1199-1206	izpadel	_	_	_	_	
+1-200	1207-1209	iz	_	_	_	_	
+1-201	1210-1214	prve	_	_	_	_	
+1-202	1215-1225	deseterice	_	_	_	_	
+1-203	1226-1239	priljubljenih	_	_	_	_	
+1-204	1240-1249	politikov	_	_	_	_	
+1-205	1250-1252	in	_	_	_	_	
+1-206	1253-1260	pristal	_	_	_	_	
+1-207	1261-1265	na18	_	_	_	_	
+1-208	1266-1267	.	_	_	_	_	
+1-209	1268-1273	mestu	_	_	_	_	
+1-210	1274-1275	,	_	_	_	_	
+1-211	1276-1278	je	_	_	_	_	
+1-212	1279-1286	poročal	_	_	_	_	
+1-213	1287-1290	Pop	ORG[14]	3 - Nevtralno[29]	*->21-1	*[21]	
+1-214	1291-1293	TV	ORG[14]	3 - Nevtralno[29]	*->21-1	*[21]	

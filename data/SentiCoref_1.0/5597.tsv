@@ -1,0 +1,319 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ernst Strasser je bil leta 2009 izvoljen v Evropski parlament , a je marca lani kot poslanec zaradi korupcijske afere odstopil Nekdanji evropski poslanec iz Avstrije Ernst Strasser ni predmet preiskave le zaradi afere sprejemanja podkupnin , v kateri se je znašel tudi Slovenec Zoran Thaler ( na sliki ) , ampak je osumljen tudi utaje davkov . Kot danes poroča avstrijski časnik Profil , naj bi med letoma 2007 in 2009 napačno prikazoval honorarje za svetovanje v višini 560 tisoč evrov . Foto : Barbara Reya Začetek zgodbe v Bruslju Strasser , ki je bil med leti 2000 in 2004 tudi minister za notranje zadeve , poročanja časnika ni želel komentirati . Njegov odvetnik Thomas Kralik je za avstrijsko tiskovno agencijo APA povedal , da politik ne želi komunicirati z mediji . Strasser je bil leta 2009 izvoljen v Evropski parlament , a je marca lani kot poslanec odstopil . Za to se je odločil po izbruhu korupcijske afere , ki jo je razkril britanski časnik Sunday Times . Novinarji so se pod krinko lobistov z določenimi poslanci Evropskega parlamenta dogovorili , da bodo ti v zameno za denar poskrbeli za sprejetje določenih dopolnil k evropski zakonodaji na področju financ . Svoje navedbe je časnik podkrepil tudi z na skrivaj narejenimi video posnetki . Olaf nepravilnosti ni odkril V afero naj bi bili poleg Strasserja vpleteni še trije evropski poslanci - Slovenec Zoran Thaler , Romun Adrian Severin in Španec Pablo Zalba Bidegain . Thaler in Strasser sta , ko je zadeva prišla na dan , kot evropska poslanca odstopila . Evropski urad za boj proti goljufijam ( Olaf ) v okviru preiskave primera nekdanjega evropskega poslanca Zorana Thalerja , ki je bil osumljen korupcije , ni našel dokazov o nepravilnostih , na podlagi katerih bi lahko uvedli disciplinski ali kazenski postopek . Preiskavo je Olaf zaključil 22 . decembra lani
+1-1	0-5	Ernst	PER[1]	_	*->1-1	*[1]	
+1-2	6-14	Strasser	PER[1]	_	*->1-1	*[1]	
+1-3	15-17	je	_	_	_	_	
+1-4	18-21	bil	_	_	_	_	
+1-5	22-26	leta	_	_	_	_	
+1-6	27-31	2009	_	_	_	_	
+1-7	32-40	izvoljen	_	_	_	_	
+1-8	41-42	v	_	_	_	_	
+1-9	43-51	Evropski	ORG[2]	_	*->2-1	*[2]	
+1-10	52-61	parlament	ORG[2]	_	*->2-1	*[2]	
+1-11	62-63	,	_	_	_	_	
+1-12	64-65	a	_	_	_	_	
+1-13	66-68	je	_	_	_	_	
+1-14	69-74	marca	_	_	_	_	
+1-15	75-79	lani	_	_	_	_	
+1-16	80-83	kot	_	_	_	_	
+1-17	84-92	poslanec	_	_	*->1-2	*[1]	
+1-18	93-99	zaradi	_	_	_	_	
+1-19	100-111	korupcijske	_	_	_	_	
+1-20	112-117	afere	_	_	_	_	
+1-21	118-126	odstopil	_	_	*->1-3	*[1]	
+1-22	127-135	Nekdanji	_	_	*->1-4	*[1]	
+1-23	136-144	evropski	_	_	*->1-4	*[1]	
+1-24	145-153	poslanec	_	_	*->1-4	*[1]	
+1-25	154-156	iz	_	_	*->1-4	*[1]	
+1-26	157-165	Avstrije	LOC	_	*->1-4	*[1]	
+1-27	166-171	Ernst	PER[3]	_	*->1-4	*[1]	
+1-28	172-180	Strasser	PER[3]	_	*->1-4	*[1]	
+1-29	181-183	ni	_	_	_	_	
+1-30	184-191	predmet	_	_	*->1-5	*[1]	
+1-31	192-201	preiskave	_	_	*->1-5	*[1]	
+1-32	202-204	le	_	_	_	_	
+1-33	205-211	zaradi	_	_	_	_	
+1-34	212-217	afere	_	_	_	_	
+1-35	218-229	sprejemanja	_	_	_	_	
+1-36	230-239	podkupnin	_	_	_	_	
+1-37	240-241	,	_	_	_	_	
+1-38	242-243	v	_	_	_	_	
+1-39	244-250	kateri	_	_	_	_	
+1-40	251-253	se	_	_	_	_	
+1-41	254-256	je	_	_	_	_	
+1-42	257-263	znašel	_	_	_	_	
+1-43	264-268	tudi	_	_	_	_	
+1-44	269-277	Slovenec	_	_	_	_	
+1-45	278-283	Zoran	PER[4]	_	*->3-1	*[3]	
+1-46	284-290	Thaler	PER[4]	_	*->3-1	*[3]	
+1-47	291-292	(	_	_	_	_	
+1-48	293-295	na	_	_	_	_	
+1-49	296-301	sliki	_	_	_	_	
+1-50	302-303	)	_	_	_	_	
+1-51	304-305	,	_	_	_	_	
+1-52	306-311	ampak	_	_	_	_	
+1-53	312-314	je	_	_	_	_	
+1-54	315-323	osumljen	_	_	*->1-6	*[1]	
+1-55	324-328	tudi	_	_	_	_	
+1-56	329-334	utaje	_	_	_	_	
+1-57	335-341	davkov	_	_	_	_	
+1-58	342-343	.	_	_	_	_	
+1-59	344-347	Kot	_	_	_	_	
+1-60	348-353	danes	_	_	_	_	
+1-61	354-360	poroča	_	_	_	_	
+1-62	361-371	avstrijski	_	_	*->9-1	*[9]	
+1-63	372-378	časnik	_	_	*->9-1	*[9]	
+1-64	379-385	Profil	ORG	_	*->9-1	*[9]	
+1-65	386-387	,	_	_	_	_	
+1-66	388-391	naj	_	_	_	_	
+1-67	392-394	bi	_	_	_	_	
+1-68	395-398	med	_	_	_	_	
+1-69	399-405	letoma	_	_	_	_	
+1-70	406-410	2007	_	_	_	_	
+1-71	411-413	in	_	_	_	_	
+1-72	414-418	2009	_	_	_	_	
+1-73	419-426	napačno	_	_	_	_	
+1-74	427-437	prikazoval	_	_	*->1-7	*[1]	
+1-75	438-447	honorarje	_	_	_	_	
+1-76	448-450	za	_	_	_	_	
+1-77	451-461	svetovanje	_	_	_	_	
+1-78	462-463	v	_	_	_	_	
+1-79	464-470	višini	_	_	_	_	
+1-80	471-474	560	_	_	_	_	
+1-81	475-480	tisoč	_	_	_	_	
+1-82	481-486	evrov	_	_	_	_	
+1-83	487-488	.	_	_	_	_	
+1-84	489-493	Foto	_	_	_	_	
+1-85	494-495	:	_	_	_	_	
+1-86	496-503	Barbara	PER[5]	3 - Nevtralno[15]	*->5-1	*[5]	
+1-87	504-508	Reya	PER[5]	3 - Nevtralno[15]	*->5-1	*[5]	
+1-88	509-516	Začetek	_	_	_	_	
+1-89	517-523	zgodbe	_	_	_	_	
+1-90	524-525	v	_	_	_	_	
+1-91	526-533	Bruslju	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-92	534-542	Strasser	PER	_	*->1-8	*[1]	
+1-93	543-544	,	_	_	_	_	
+1-94	545-547	ki	_	_	_	_	
+1-95	548-550	je	_	_	_	_	
+1-96	551-554	bil	_	_	*->1-9	*[1]	
+1-97	555-558	med	_	_	_	_	
+1-98	559-563	leti	_	_	_	_	
+1-99	564-568	2000	_	_	_	_	
+1-100	569-571	in	_	_	_	_	
+1-101	572-576	2004	_	_	_	_	
+1-102	577-581	tudi	_	_	_	_	
+1-103	582-590	minister	_	_	*->1-10	*[1]	
+1-104	591-593	za	_	_	*->1-10	*[1]	
+1-105	594-602	notranje	_	_	*->1-10	*[1]	
+1-106	603-609	zadeve	_	_	*->1-10	*[1]	
+1-107	610-611	,	_	_	_	_	
+1-108	612-621	poročanja	_	_	_	_	
+1-109	622-629	časnika	_	3 - Nevtralno	*->9-2	*[9]	
+1-110	630-632	ni	_	_	_	_	
+1-111	633-638	želel	_	_	*->1-11	*[1]	
+1-112	639-650	komentirati	_	_	_	_	
+1-113	651-652	.	_	_	_	_	
+1-114	653-659	Njegov	_	_	*->1-12	*[1]	
+1-115	660-668	odvetnik	_	3 - Nevtralno[16]	*->7-1	*[7]	
+1-116	669-675	Thomas	PER[6]	3 - Nevtralno[16]	*->7-1	*[7]	
+1-117	676-682	Kralik	PER[6]	3 - Nevtralno[16]	*->7-1	*[7]	
+1-118	683-685	je	_	_	_	_	
+1-119	686-688	za	_	_	_	_	
+1-120	689-699	avstrijsko	_	3 - Nevtralno[17]	*->8-1	*[8]	
+1-121	700-708	tiskovno	_	3 - Nevtralno[17]	*->8-1	*[8]	
+1-122	709-717	agencijo	_	3 - Nevtralno[17]	*->8-1	*[8]	
+1-123	718-721	APA	ORG	3 - Nevtralno[17]	*->8-1	*[8]	
+1-124	722-729	povedal	_	_	_	_	
+1-125	730-731	,	_	_	_	_	
+1-126	732-734	da	_	_	_	_	
+1-127	735-742	politik	_	_	*->1-13	*[1]	
+1-128	743-745	ne	_	_	_	_	
+1-129	746-750	želi	_	_	_	_	
+1-130	751-763	komunicirati	_	_	_	_	
+1-131	764-765	z	_	_	_	_	
+1-132	766-772	mediji	_	_	_	_	
+1-133	773-774	.	_	_	_	_	
+1-134	775-783	Strasser	PER	_	*->1-14	*[1]	
+1-135	784-786	je	_	_	_	_	
+1-136	787-790	bil	_	_	_	_	
+1-137	791-795	leta	_	_	_	_	
+1-138	796-800	2009	_	_	_	_	
+1-139	801-809	izvoljen	_	_	_	_	
+1-140	810-811	v	_	_	_	_	
+1-141	812-820	Evropski	ORG[7]	_	*->2-2	*[2]	
+1-142	821-830	parlament	ORG[7]	_	*->2-2	*[2]	
+1-143	831-832	,	_	_	_	_	
+1-144	833-834	a	_	_	_	_	
+1-145	835-837	je	_	_	_	_	
+1-146	838-843	marca	_	_	_	_	
+1-147	844-848	lani	_	_	_	_	
+1-148	849-852	kot	_	_	_	_	
+1-149	853-861	poslanec	_	_	*->1-15	*[1]	
+1-150	862-870	odstopil	_	_	*->1-16	*[1]	
+1-151	871-872	.	_	_	_	_	
+1-152	873-875	Za	_	_	_	_	
+1-153	876-878	to	_	_	_	_	
+1-154	879-881	se	_	_	*->1-17	*[1]	
+1-155	882-884	je	_	_	*->1-17	*[1]	
+1-156	885-892	odločil	_	_	*->1-17	*[1]	
+1-157	893-895	po	_	_	_	_	
+1-158	896-903	izbruhu	_	_	_	_	
+1-159	904-915	korupcijske	_	_	_	_	
+1-160	916-921	afere	_	_	_	_	
+1-161	922-923	,	_	_	_	_	
+1-162	924-926	ki	_	_	_	_	
+1-163	927-929	jo	_	_	_	_	
+1-164	930-932	je	_	_	_	_	
+1-165	933-940	razkril	_	_	_	_	
+1-166	941-950	britanski	_	_	*->10-1	*[10]	
+1-167	951-957	časnik	_	_	*->10-1	*[10]	
+1-168	958-964	Sunday	ORG[8]	_	*->10-1	*[10]	
+1-169	965-970	Times	ORG[8]	_	*->10-1	*[10]	
+1-170	971-972	.	_	_	_	_	
+1-171	973-982	Novinarji	_	_	_	_	
+1-172	983-985	so	_	_	_	_	
+1-173	986-988	se	_	_	_	_	
+1-174	989-992	pod	_	_	_	_	
+1-175	993-999	krinko	_	_	_	_	
+1-176	1000-1008	lobistov	_	_	_	_	
+1-177	1009-1010	z	_	_	_	_	
+1-178	1011-1021	določenimi	_	_	_	_	
+1-179	1022-1030	poslanci	_	_	_	_	
+1-180	1031-1041	Evropskega	ORG[9]	3 - Nevtralno[18]	*->2-3	*[2]	
+1-181	1042-1052	parlamenta	ORG[9]	3 - Nevtralno[18]	*->2-3	*[2]	
+1-182	1053-1063	dogovorili	_	_	_	_	
+1-183	1064-1065	,	_	_	_	_	
+1-184	1066-1068	da	_	_	_	_	
+1-185	1069-1073	bodo	_	_	_	_	
+1-186	1074-1076	ti	_	_	_	_	
+1-187	1077-1078	v	_	_	_	_	
+1-188	1079-1085	zameno	_	_	_	_	
+1-189	1086-1088	za	_	_	_	_	
+1-190	1089-1094	denar	_	_	_	_	
+1-191	1095-1104	poskrbeli	_	_	_	_	
+1-192	1105-1107	za	_	_	_	_	
+1-193	1108-1117	sprejetje	_	_	_	_	
+1-194	1118-1127	določenih	_	_	_	_	
+1-195	1128-1136	dopolnil	_	_	_	_	
+1-196	1137-1138	k	_	_	_	_	
+1-197	1139-1147	evropski	_	_	_	_	
+1-198	1148-1158	zakonodaji	_	_	_	_	
+1-199	1159-1161	na	_	_	_	_	
+1-200	1162-1170	področju	_	_	_	_	
+1-201	1171-1177	financ	_	_	_	_	
+1-202	1178-1179	.	_	_	_	_	
+1-203	1180-1185	Svoje	_	_	_	_	
+1-204	1186-1193	navedbe	_	_	_	_	
+1-205	1194-1196	je	_	_	_	_	
+1-206	1197-1203	časnik	_	4 - Pozitivno	*->10-2	*[10]	
+1-207	1204-1213	podkrepil	_	_	_	_	
+1-208	1214-1218	tudi	_	_	_	_	
+1-209	1219-1220	z	_	_	_	_	
+1-210	1221-1223	na	_	_	_	_	
+1-211	1224-1231	skrivaj	_	_	_	_	
+1-212	1232-1242	narejenimi	_	_	_	_	
+1-213	1243-1248	video	_	_	_	_	
+1-214	1249-1257	posnetki	_	_	_	_	
+1-215	1258-1259	.	_	_	_	_	
+1-216	1260-1264	Olaf	ORG	_	*->4-1	*[4]	
+1-217	1265-1278	nepravilnosti	_	_	_	_	
+1-218	1279-1281	ni	_	_	_	_	
+1-219	1282-1288	odkril	_	_	_	_	
+1-220	1289-1290	V	_	_	_	_	
+1-221	1291-1296	afero	_	_	_	_	
+1-222	1297-1300	naj	_	_	_	_	
+1-223	1301-1303	bi	_	_	_	_	
+1-224	1304-1308	bili	_	_	_	_	
+1-225	1309-1314	poleg	_	_	_	_	
+1-226	1315-1325	Strasserja	PER	_	*->1-18	*[1]	
+1-227	1326-1334	vpleteni	_	_	_	_	
+1-228	1335-1337	še	_	_	_	_	
+1-229	1338-1343	trije	_	_	_	_	
+1-230	1344-1352	evropski	_	_	_	_	
+1-231	1353-1361	poslanci	_	_	_	_	
+1-232	1362-1363	-	_	_	_	_	
+1-233	1364-1372	Slovenec	_	_	*->3-2	*[3]	
+1-234	1373-1378	Zoran	PER[10]	_	*->3-2	*[3]	
+1-235	1379-1385	Thaler	PER[10]	_	*->3-2	*[3]	
+1-236	1386-1387	,	_	_	_	_	
+1-237	1388-1393	Romun	_	2 - Negativno[19]	*->11-1	*[11]	
+1-238	1394-1400	Adrian	PER[11]	2 - Negativno[19]	*->11-1	*[11]	
+1-239	1401-1408	Severin	PER[11]	2 - Negativno[19]	*->11-1	*[11]	
+1-240	1409-1411	in	_	_	_	_	
+1-241	1412-1418	Španec	_	2 - Negativno[20]	*->12-1	*[12]	
+1-242	1419-1424	Pablo	PER[12]	2 - Negativno[20]	*->12-1	*[12]	
+1-243	1425-1430	Zalba	PER[12]	2 - Negativno[20]	*->12-1	*[12]	
+1-244	1431-1439	Bidegain	PER[12]	2 - Negativno[20]	*->12-1	*[12]	
+1-245	1440-1441	.	_	_	_	_	
+1-246	1442-1448	Thaler	PER	_	*->3-3	*[3]	
+1-247	1449-1451	in	_	_	_	_	
+1-248	1452-1460	Strasser	PER	2 - Negativno	*->1-19	*[1]	
+1-249	1461-1464	sta	_	_	_	_	
+1-250	1465-1466	,	_	_	_	_	
+1-251	1467-1469	ko	_	_	_	_	
+1-252	1470-1472	je	_	_	_	_	
+1-253	1473-1479	zadeva	_	_	_	_	
+1-254	1480-1486	prišla	_	_	_	_	
+1-255	1487-1489	na	_	_	_	_	
+1-256	1490-1493	dan	_	_	_	_	
+1-257	1494-1495	,	_	_	_	_	
+1-258	1496-1499	kot	_	_	_	_	
+1-259	1500-1508	evropska	_	_	_	_	
+1-260	1509-1517	poslanca	_	_	_	_	
+1-261	1518-1527	odstopila	_	_	_	_	
+1-262	1528-1529	.	_	_	_	_	
+1-263	1530-1538	Evropski	ORG[13]	_	*->4-2	*[4]	
+1-264	1539-1543	urad	ORG[13]	_	*->4-2	*[4]	
+1-265	1544-1546	za	ORG[13]	_	*->4-2	*[4]	
+1-266	1547-1550	boj	ORG[13]	_	*->4-2	*[4]	
+1-267	1551-1556	proti	ORG[13]	_	*->4-2	*[4]	
+1-268	1557-1567	goljufijam	ORG[13]	_	*->4-2	*[4]	
+1-269	1568-1569	(	_	_	*->4-2	*[4]	
+1-270	1570-1574	Olaf	ORG	_	*->4-2	*[4]	
+1-271	1575-1576	)	_	_	_	_	
+1-272	1577-1578	v	_	_	_	_	
+1-273	1579-1585	okviru	_	_	_	_	
+1-274	1586-1595	preiskave	_	_	_	_	
+1-275	1596-1603	primera	_	_	_	_	
+1-276	1604-1614	nekdanjega	_	_	_	_	
+1-277	1615-1625	evropskega	_	_	_	_	
+1-278	1626-1634	poslanca	_	_	_	_	
+1-279	1635-1641	Zorana	PER[14]	2 - Negativno[21]	*->3-4	*[3]	
+1-280	1642-1650	Thalerja	PER[14]	2 - Negativno[21]	*->3-4	*[3]	
+1-281	1651-1652	,	_	_	_	_	
+1-282	1653-1655	ki	_	_	_	_	
+1-283	1656-1658	je	_	_	_	_	
+1-284	1659-1662	bil	_	_	_	_	
+1-285	1663-1671	osumljen	_	_	_	_	
+1-286	1672-1681	korupcije	_	_	_	_	
+1-287	1682-1683	,	_	_	_	_	
+1-288	1684-1686	ni	_	_	_	_	
+1-289	1687-1692	našel	_	_	_	_	
+1-290	1693-1700	dokazov	_	_	_	_	
+1-291	1701-1702	o	_	_	_	_	
+1-292	1703-1717	nepravilnostih	_	_	_	_	
+1-293	1718-1719	,	_	_	_	_	
+1-294	1720-1722	na	_	_	_	_	
+1-295	1723-1730	podlagi	_	_	_	_	
+1-296	1731-1738	katerih	_	_	_	_	
+1-297	1739-1741	bi	_	_	_	_	
+1-298	1742-1747	lahko	_	_	_	_	
+1-299	1748-1754	uvedli	_	_	_	_	
+1-300	1755-1767	disciplinski	_	_	_	_	
+1-301	1768-1771	ali	_	_	_	_	
+1-302	1772-1780	kazenski	_	_	_	_	
+1-303	1781-1789	postopek	_	_	_	_	
+1-304	1790-1791	.	_	_	_	_	
+1-305	1792-1801	Preiskavo	_	_	_	_	
+1-306	1802-1804	je	_	_	_	_	
+1-307	1805-1809	Olaf	ORG	3 - Nevtralno	*->4-3	*[4]	
+1-308	1810-1819	zaključil	_	_	_	_	
+1-309	1820-1822	22	_	_	_	_	
+1-310	1823-1824	.	_	_	_	_	
+1-311	1825-1833	decembra	_	_	_	_	
+1-312	1834-1838	lani	_	_	_	_	

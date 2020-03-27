@@ -1,0 +1,287 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Vodafone bo na trgih , kjer skupaj živi 1,4 milijarde ljudi , prodajal Applov iPhone Vodafone se je pogodil z Applom za prodajo njihovega mobilnega telefona iPhone in ga bo ponudil svojim uporabnikom v Avstraliji , Indiji , Italiji , na Češkem , v Egiptu , Grčiji , na Portugalskem , v Novi Zelandiji , Južnoafriški republiki in Turčiji , v katerih skupaj živi 1,4 milijarde prebivalcev . V Italiji ga bo v ponudbi imela tudi Telecom Italia , kar je prvič , da Apple ni sklenil ekskluzivne pogodbe z le enim operaterjem v državi . Pogodba pomembna tako za Vodafone , kot za Apple Pogodba je za Vodafone zelo pomembna , saj so ga do zdaj lahko prodajali samo v Združenem kraljestvu , ki pa šteje " le " 61 milijonov ljudi . Samo v Indiji so mobilni operaterji v zadnje pol leta pridobili osem milijonov novih naročnikov , kar po hitrosti rasti trga Indijo postavlja na prvo mesto , poroča Bloomberg . Za Apple pa je sodelovanje z Vodafonom del načrta za povečanje prodaje zunaj Združenih držav . Kasneje letos nova verzija iPhona Do zdaj je Apple iPhone uradno prodajal le v ZDA , Veliki Britaniji , Franciji , Nemčiji , Avstriji in na Irskem , kupiti pa ga je mogoče tudi v Sloveniji pri Tušmobilu , ki pa nima pogodbe z Applom . V drugi polovici leta naj bi Apple tudi začel prodajati novo verzijo iPhone , najprej seveda v ZDA preko svojega partnerja AT & T . Nov aparat bo 3G , kar pomeni , da bo povezljiv z UMTS in zato bolj zanimiv za evropski trg , kjer je pri pametnih telefonih to že standard
+1-1	0-8	Vodafone	ORG	_	*->1-1	*[1]	
+1-2	9-11	bo	_	_	_	_	
+1-3	12-14	na	_	_	_	_	
+1-4	15-20	trgih	_	_	_	_	
+1-5	21-22	,	_	_	_	_	
+1-6	23-27	kjer	_	_	_	_	
+1-7	28-34	skupaj	_	_	_	_	
+1-8	35-39	živi	_	_	_	_	
+1-9	40-43	1,4	_	_	_	_	
+1-10	44-53	milijarde	_	_	_	_	
+1-11	54-59	ljudi	_	_	_	_	
+1-12	60-61	,	_	_	_	_	
+1-13	62-70	prodajal	_	_	_	_	
+1-14	71-77	Applov	ORG	_	*->2-1	*[2]	
+1-15	78-84	iPhone	_	_	_	_	
+1-16	85-93	Vodafone	ORG	_	*->1-2	*[1]	
+1-17	94-96	se	_	_	_	_	
+1-18	97-99	je	_	_	_	_	
+1-19	100-107	pogodil	_	_	_	_	
+1-20	108-109	z	_	_	_	_	
+1-21	110-116	Applom	ORG	_	*->2-2	*[2]	
+1-22	117-119	za	_	_	_	_	
+1-23	120-127	prodajo	_	_	_	_	
+1-24	128-137	njihovega	_	_	*->2-3	*[2]	
+1-25	138-147	mobilnega	_	_	_	_	
+1-26	148-156	telefona	_	_	_	_	
+1-27	157-163	iPhone	_	_	_	_	
+1-28	164-166	in	_	_	_	_	
+1-29	167-169	ga	_	_	_	_	
+1-30	170-172	bo	_	_	_	_	
+1-31	173-180	ponudil	_	_	*->1-3	*[1]	
+1-32	181-187	svojim	_	_	*->1-4	*[1]	
+1-33	188-199	uporabnikom	_	_	_	_	
+1-34	200-201	v	_	_	_	_	
+1-35	202-212	Avstraliji	LOC	3 - Nevtralno	*->3-1	*[3]	
+1-36	213-214	,	_	_	_	_	
+1-37	215-221	Indiji	LOC	_	*->4-1	*[4]	
+1-38	222-223	,	_	_	_	_	
+1-39	224-231	Italiji	LOC	_	*->5-1	*[5]	
+1-40	232-233	,	_	_	_	_	
+1-41	234-236	na	_	_	_	_	
+1-42	237-243	Češkem	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-43	244-245	,	_	_	_	_	
+1-44	246-247	v	_	_	_	_	
+1-45	248-254	Egiptu	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-46	255-256	,	_	_	_	_	
+1-47	257-263	Grčiji	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-48	264-265	,	_	_	_	_	
+1-49	266-268	na	_	_	_	_	
+1-50	269-281	Portugalskem	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-51	282-283	,	_	_	_	_	
+1-52	284-285	v	_	_	_	_	
+1-53	286-290	Novi	LOC[1]	3 - Nevtralno[8]	*->10-1	*[10]	
+1-54	291-300	Zelandiji	LOC[1]	3 - Nevtralno[8]	*->10-1	*[10]	
+1-55	301-302	,	_	_	_	_	
+1-56	303-315	Južnoafriški	LOC[2]	3 - Nevtralno[9]	*->11-1	*[11]	
+1-57	316-325	republiki	LOC[2]	3 - Nevtralno[9]	*->11-1	*[11]	
+1-58	326-328	in	_	_	_	_	
+1-59	329-336	Turčiji	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-60	337-338	,	_	_	_	_	
+1-61	339-340	v	_	_	_	_	
+1-62	341-348	katerih	_	_	_	_	
+1-63	349-355	skupaj	_	_	_	_	
+1-64	356-360	živi	_	_	_	_	
+1-65	361-364	1,4	_	_	_	_	
+1-66	365-374	milijarde	_	_	_	_	
+1-67	375-386	prebivalcev	_	_	_	_	
+1-68	387-388	.	_	_	_	_	
+1-69	389-390	V	_	_	_	_	
+1-70	391-398	Italiji	LOC	3 - Nevtralno	*->5-2	*[5]	
+1-71	399-401	ga	_	_	_	_	
+1-72	402-404	bo	_	_	_	_	
+1-73	405-406	v	_	_	_	_	
+1-74	407-414	ponudbi	_	_	_	_	
+1-75	415-420	imela	_	_	_	_	
+1-76	421-425	tudi	_	_	_	_	
+1-77	426-433	Telecom	ORG[3]	3 - Nevtralno[10]	*->13-1	*[13]	
+1-78	434-440	Italia	ORG[3]	3 - Nevtralno[10]	*->13-1	*[13]	
+1-79	441-442	,	_	_	_	_	
+1-80	443-446	kar	_	_	_	_	
+1-81	447-449	je	_	_	_	_	
+1-82	450-455	prvič	_	_	_	_	
+1-83	456-457	,	_	_	_	_	
+1-84	458-460	da	_	_	_	_	
+1-85	461-466	Apple	ORG	_	*->2-4	*[2]	
+1-86	467-469	ni	_	_	_	_	
+1-87	470-477	sklenil	_	_	_	_	
+1-88	478-489	ekskluzivne	_	_	_	_	
+1-89	490-497	pogodbe	_	_	_	_	
+1-90	498-499	z	_	_	_	_	
+1-91	500-502	le	_	_	_	_	
+1-92	503-507	enim	_	_	_	_	
+1-93	508-519	operaterjem	_	_	_	_	
+1-94	520-521	v	_	_	_	_	
+1-95	522-528	državi	_	_	_	_	
+1-96	529-530	.	_	_	_	_	
+1-97	531-538	Pogodba	_	_	_	_	
+1-98	539-547	pomembna	_	_	_	_	
+1-99	548-552	tako	_	_	_	_	
+1-100	553-555	za	_	_	_	_	
+1-101	556-564	Vodafone	ORG	_	*->1-5	*[1]	
+1-102	565-566	,	_	_	_	_	
+1-103	567-570	kot	_	_	_	_	
+1-104	571-573	za	_	_	_	_	
+1-105	574-579	Apple	ORG	_	*->2-5	*[2]	
+1-106	580-587	Pogodba	_	_	_	_	
+1-107	588-590	je	_	_	_	_	
+1-108	591-593	za	_	_	_	_	
+1-109	594-602	Vodafone	ORG	_	*->1-6	*[1]	
+1-110	603-607	zelo	_	_	_	_	
+1-111	608-616	pomembna	_	_	_	_	
+1-112	617-618	,	_	_	_	_	
+1-113	619-622	saj	_	_	_	_	
+1-114	623-625	so	_	_	_	_	
+1-115	626-628	ga	_	_	_	_	
+1-116	629-631	do	_	_	_	_	
+1-117	632-636	zdaj	_	_	_	_	
+1-118	637-642	lahko	_	_	_	_	
+1-119	643-652	prodajali	_	_	*->1-7	*[1]	
+1-120	653-657	samo	_	_	_	_	
+1-121	658-659	v	_	_	_	_	
+1-122	660-669	Združenem	LOC[4]	_	*->14-1	*[14]	
+1-123	670-680	kraljestvu	LOC[4]	_	*->14-1	*[14]	
+1-124	681-682	,	_	_	_	_	
+1-125	683-685	ki	_	_	_	_	
+1-126	686-688	pa	_	_	_	_	
+1-127	689-694	šteje	_	_	_	_	
+1-128	695-696	"	_	_	_	_	
+1-129	697-699	le	_	_	_	_	
+1-130	700-701	"	_	_	_	_	
+1-131	702-704	61	_	_	_	_	
+1-132	705-714	milijonov	_	_	_	_	
+1-133	715-720	ljudi	_	_	_	_	
+1-134	721-722	.	_	_	_	_	
+1-135	723-727	Samo	_	_	_	_	
+1-136	728-729	v	_	_	_	_	
+1-137	730-736	Indiji	LOC	_	*->4-2	*[4]	
+1-138	737-739	so	_	_	_	_	
+1-139	740-747	mobilni	_	_	_	_	
+1-140	748-758	operaterji	_	_	_	_	
+1-141	759-760	v	_	_	_	_	
+1-142	761-767	zadnje	_	_	_	_	
+1-143	768-771	pol	_	_	_	_	
+1-144	772-776	leta	_	_	_	_	
+1-145	777-786	pridobili	_	_	_	_	
+1-146	787-791	osem	_	_	_	_	
+1-147	792-801	milijonov	_	_	_	_	
+1-148	802-807	novih	_	_	_	_	
+1-149	808-818	naročnikov	_	_	_	_	
+1-150	819-820	,	_	_	_	_	
+1-151	821-824	kar	_	_	_	_	
+1-152	825-827	po	_	_	_	_	
+1-153	828-836	hitrosti	_	_	_	_	
+1-154	837-842	rasti	_	_	_	_	
+1-155	843-847	trga	_	_	_	_	
+1-156	848-854	Indijo	ORG	4 - Pozitivno	*->4-3	*[4]	
+1-157	855-864	postavlja	_	_	_	_	
+1-158	865-867	na	_	_	_	_	
+1-159	868-872	prvo	_	_	_	_	
+1-160	873-878	mesto	_	_	_	_	
+1-161	879-880	,	_	_	_	_	
+1-162	881-887	poroča	_	_	_	_	
+1-163	888-897	Bloomberg	ORG	3 - Nevtralno	*->23-1	*[23]	
+1-164	898-899	.	_	_	_	_	
+1-165	900-902	Za	_	_	_	_	
+1-166	903-908	Apple	ORG	_	*->2-6	*[2]	
+1-167	909-911	pa	_	_	_	_	
+1-168	912-914	je	_	_	_	_	
+1-169	915-926	sodelovanje	_	_	_	_	
+1-170	927-928	z	_	_	_	_	
+1-171	929-938	Vodafonom	ORG	4 - Pozitivno	*->1-8	*[1]	
+1-172	939-942	del	_	_	_	_	
+1-173	943-949	načrta	_	_	_	_	
+1-174	950-952	za	_	_	_	_	
+1-175	953-962	povečanje	_	_	_	_	
+1-176	963-970	prodaje	_	_	_	_	
+1-177	971-976	zunaj	_	_	_	_	
+1-178	977-986	Združenih	LOC[5]	_	*->15-1	*[15]	
+1-179	987-992	držav	LOC[5]	_	*->15-1	*[15]	
+1-180	993-994	.	_	_	_	_	
+1-181	995-1002	Kasneje	_	_	_	_	
+1-182	1003-1008	letos	_	_	_	_	
+1-183	1009-1013	nova	_	_	_	_	
+1-184	1014-1021	verzija	_	_	_	_	
+1-185	1022-1028	iPhona	_	_	_	_	
+1-186	1029-1031	Do	_	_	_	_	
+1-187	1032-1036	zdaj	_	_	_	_	
+1-188	1037-1039	je	_	_	_	_	
+1-189	1040-1045	Apple	ORG	_	*->2-7	*[2]	
+1-190	1046-1052	iPhone	_	_	_	_	
+1-191	1053-1059	uradno	_	_	_	_	
+1-192	1060-1068	prodajal	_	_	_	_	
+1-193	1069-1071	le	_	_	_	_	
+1-194	1072-1073	v	_	_	_	_	
+1-195	1074-1077	ZDA	LOC	_	*->15-2	*[15]	
+1-196	1078-1079	,	_	_	_	_	
+1-197	1080-1086	Veliki	LOC[6]	3 - Nevtralno[11]	*->14-2	*[14]	
+1-198	1087-1096	Britaniji	LOC[6]	3 - Nevtralno[11]	*->14-2	*[14]	
+1-199	1097-1098	,	_	_	_	_	
+1-200	1099-1107	Franciji	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-201	1108-1109	,	_	_	_	_	
+1-202	1110-1117	Nemčiji	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-203	1118-1119	,	_	_	_	_	
+1-204	1120-1128	Avstriji	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-205	1129-1131	in	_	_	_	_	
+1-206	1132-1134	na	_	_	_	_	
+1-207	1135-1141	Irskem	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-208	1142-1143	,	_	_	_	_	
+1-209	1144-1150	kupiti	_	_	_	_	
+1-210	1151-1153	pa	_	_	_	_	
+1-211	1154-1156	ga	_	_	_	_	
+1-212	1157-1159	je	_	_	_	_	
+1-213	1160-1166	mogoče	_	_	_	_	
+1-214	1167-1171	tudi	_	_	_	_	
+1-215	1172-1173	v	_	_	_	_	
+1-216	1174-1183	Sloveniji	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-217	1184-1187	pri	_	_	_	_	
+1-218	1188-1197	Tušmobilu	ORG	3 - Nevtralno	*->21-1	*[21]	
+1-219	1198-1199	,	_	_	_	_	
+1-220	1200-1202	ki	_	_	_	_	
+1-221	1203-1205	pa	_	_	_	_	
+1-222	1206-1210	nima	_	_	_	_	
+1-223	1211-1218	pogodbe	_	_	_	_	
+1-224	1219-1220	z	_	_	_	_	
+1-225	1221-1227	Applom	ORG	_	*->2-8	*[2]	
+1-226	1228-1229	.	_	_	_	_	
+1-227	1230-1231	V	_	_	_	_	
+1-228	1232-1237	drugi	_	_	_	_	
+1-229	1238-1246	polovici	_	_	_	_	
+1-230	1247-1251	leta	_	_	_	_	
+1-231	1252-1255	naj	_	_	_	_	
+1-232	1256-1258	bi	_	_	_	_	
+1-233	1259-1264	Apple	ORG	4 - Pozitivno	*->2-9	*[2]	
+1-234	1265-1269	tudi	_	_	_	_	
+1-235	1270-1275	začel	_	_	_	_	
+1-236	1276-1285	prodajati	_	_	_	_	
+1-237	1286-1290	novo	_	_	_	_	
+1-238	1291-1298	verzijo	_	_	_	_	
+1-239	1299-1305	iPhone	_	_	_	_	
+1-240	1306-1307	,	_	_	_	_	
+1-241	1308-1315	najprej	_	_	_	_	
+1-242	1316-1322	seveda	_	_	_	_	
+1-243	1323-1324	v	_	_	_	_	
+1-244	1325-1328	ZDA	LOC	3 - Nevtralno	*->15-3	*[15]	
+1-245	1329-1334	preko	_	_	_	_	
+1-246	1335-1342	svojega	_	_	_	_	
+1-247	1343-1352	partnerja	_	_	_	_	
+1-248	1353-1355	AT	ORG[7]	3 - Nevtralno[12]	*->22-1	*[22]	
+1-249	1356-1357	&	ORG[7]	3 - Nevtralno[12]	*->22-1	*[22]	
+1-250	1358-1359	T	ORG[7]	3 - Nevtralno[12]	*->22-1	*[22]	
+1-251	1360-1361	.	_	_	_	_	
+1-252	1362-1365	Nov	_	_	_	_	
+1-253	1366-1372	aparat	_	_	_	_	
+1-254	1373-1375	bo	_	_	_	_	
+1-255	1376-1378	3G	_	_	_	_	
+1-256	1379-1380	,	_	_	_	_	
+1-257	1381-1384	kar	_	_	_	_	
+1-258	1385-1391	pomeni	_	_	_	_	
+1-259	1392-1393	,	_	_	_	_	
+1-260	1394-1396	da	_	_	_	_	
+1-261	1397-1399	bo	_	_	_	_	
+1-262	1400-1409	povezljiv	_	_	_	_	
+1-263	1410-1411	z	_	_	_	_	
+1-264	1412-1416	UMTS	_	_	_	_	
+1-265	1417-1419	in	_	_	_	_	
+1-266	1420-1424	zato	_	_	_	_	
+1-267	1425-1429	bolj	_	_	_	_	
+1-268	1430-1437	zanimiv	_	_	_	_	
+1-269	1438-1440	za	_	_	_	_	
+1-270	1441-1449	evropski	_	_	_	_	
+1-271	1450-1453	trg	_	_	_	_	
+1-272	1454-1455	,	_	_	_	_	
+1-273	1456-1460	kjer	_	_	_	_	
+1-274	1461-1463	je	_	_	_	_	
+1-275	1464-1467	pri	_	_	_	_	
+1-276	1468-1476	pametnih	_	_	_	_	
+1-277	1477-1486	telefonih	_	_	_	_	
+1-278	1487-1489	to	_	_	_	_	
+1-279	1490-1492	že	_	_	_	_	
+1-280	1493-1501	standard	_	_	_	_	

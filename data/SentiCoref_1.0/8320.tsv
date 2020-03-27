@@ -1,0 +1,288 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Slovenec leta 2007 je po izboru bralcev Nedeljskega dnevnika postal Danilo Türk . Največ bralcev bi namreč na kosilo povabilo predsednika države . Nedeljski dnevnik je že dvajsetič razglasil Slovenca leta . Laskavi naziv za leto 2007 si je prislužil predsednik države Danilo Türk , ki bi ga največ bralcev in bralk Nedeljskega dnevnika povabilo k sebi na kosilo . Uredništvo časnika tako vsako leto pripravi izbor Slovencev , ki so zaznamovali minulo leto , nato pa bralke in bralci za svoje favorite glasujejo v štirih krogih glasovanja . Na jubilejni prireditvi v Litiji pa so razglasili tudi častnega Slovenca leta 2007 . Ta naziv je tokrat pripadel Janezu Drnovšku . Nekdanji predsednik je bil izbran predvsem zaradi svoje človeške dimenzije in pristnih etičnih dejanj , s katerimi je v zavest Slovencev vnesel globalni pogled in občutek soodgovornosti za svetovne probleme . Priznanje za izjemne dosežke pa je pripadlo plavalcu Petru Mankoču , ki je letos že osmič zapored osvojil naslov evropskega prvaka v plavanju na sto metrov mešano . Poleg omenjenih so za favorite letošnje akcije veljali tudi predsednik vlade Janez Janša , ljubljanski nadškof in metropolit Alojz Uran , voditelj Sašo Hribar , poslanec SNS Zmago Jelinčič , športnica Petra Majdič , predsednik SD Borut Pahor in predsednik Zveze borcev Janez Stanovnik . Slovenija dobila tudi sedem čudes Pol leta pa je več kot šest tisoč bralcev Nedeljskega sodelovalo v še eni akciji . Ta je za sedem čudes Slovenije izbrala Aljažev stolp , Blejski grad , bolnišnico Franja , cerkev sv . Roka s Kalvarijo , planiško velikanko , Plečnikovo Tromostovje in Predjamski grad . Župani občin , v katerih so omenjena čudesa , pa so dobili certifikate
+1-1	0-8	Slovenec	_	_	*->1-1	*[1]	
+1-2	9-13	leta	_	_	*->1-1	*[1]	
+1-3	14-18	2007	_	_	*->1-1	*[1]	
+1-4	19-21	je	_	_	_	_	
+1-5	22-24	po	_	_	_	_	
+1-6	25-31	izboru	_	_	_	_	
+1-7	32-39	bralcev	_	_	_	_	
+1-8	40-51	Nedeljskega	_	_	_	_	
+1-9	52-60	dnevnika	_	_	_	_	
+1-10	61-67	postal	_	_	_	_	
+1-11	68-74	Danilo	PER[1]	_	*->1-2	*[1]	
+1-12	75-79	Türk	PER[1]	_	*->1-2	*[1]	
+1-13	80-81	.	_	_	_	_	
+1-14	82-88	Največ	_	_	_	_	
+1-15	89-96	bralcev	_	_	_	_	
+1-16	97-99	bi	_	_	_	_	
+1-17	100-106	namreč	_	_	_	_	
+1-18	107-109	na	_	_	_	_	
+1-19	110-116	kosilo	_	_	_	_	
+1-20	117-125	povabilo	_	_	_	_	
+1-21	126-137	predsednika	_	_	*->1-3	*[1]	
+1-22	138-144	države	_	_	*->1-3	*[1]	
+1-23	145-146	.	_	_	_	_	
+1-24	147-156	Nedeljski	ORG[2]	_	*->24-1	*[24]	
+1-25	157-164	dnevnik	ORG[2]	_	*->24-1	*[24]	
+1-26	165-167	je	_	_	_	_	
+1-27	168-170	že	_	_	_	_	
+1-28	171-180	dvajsetič	_	_	_	_	
+1-29	181-190	razglasil	_	_	_	_	
+1-30	191-199	Slovenca	_	_	_	_	
+1-31	200-204	leta	_	_	_	_	
+1-32	205-206	.	_	_	_	_	
+1-33	207-214	Laskavi	_	_	_	_	
+1-34	215-220	naziv	_	_	_	_	
+1-35	221-223	za	_	_	_	_	
+1-36	224-228	leto	_	_	_	_	
+1-37	229-233	2007	_	_	_	_	
+1-38	234-236	si	_	_	_	_	
+1-39	237-239	je	_	_	_	_	
+1-40	240-249	prislužil	_	_	_	_	
+1-41	250-260	predsednik	_	4 - Pozitivno[19]	*->1-4	*[1]	
+1-42	261-267	države	_	4 - Pozitivno[19]	*->1-4	*[1]	
+1-43	268-274	Danilo	PER[3]	4 - Pozitivno[19]	*->1-4	*[1]	
+1-44	275-279	Türk	PER[3]	4 - Pozitivno[19]	*->1-4	*[1]	
+1-45	280-281	,	_	_	_	_	
+1-46	282-284	ki	_	_	_	_	
+1-47	285-287	bi	_	_	_	_	
+1-48	288-290	ga	_	_	_	_	
+1-49	291-297	največ	_	_	_	_	
+1-50	298-305	bralcev	_	_	_	_	
+1-51	306-308	in	_	_	_	_	
+1-52	309-314	bralk	_	_	_	_	
+1-53	315-326	Nedeljskega	_	_	_	_	
+1-54	327-335	dnevnika	_	_	_	_	
+1-55	336-344	povabilo	_	_	_	_	
+1-56	345-346	k	_	_	_	_	
+1-57	347-351	sebi	_	_	_	_	
+1-58	352-354	na	_	_	_	_	
+1-59	355-361	kosilo	_	_	_	_	
+1-60	362-363	.	_	_	_	_	
+1-61	364-374	Uredništvo	_	_	_	_	
+1-62	375-382	časnika	_	_	*->24-2	*[24]	
+1-63	383-387	tako	_	_	_	_	
+1-64	388-393	vsako	_	_	_	_	
+1-65	394-398	leto	_	_	_	_	
+1-66	399-407	pripravi	_	_	_	_	
+1-67	408-413	izbor	_	_	_	_	
+1-68	414-423	Slovencev	PER	_	*->4-1	*[4]	
+1-69	424-425	,	_	_	_	_	
+1-70	426-428	ki	_	_	_	_	
+1-71	429-431	so	_	_	_	_	
+1-72	432-443	zaznamovali	_	_	_	_	
+1-73	444-450	minulo	_	_	_	_	
+1-74	451-455	leto	_	_	_	_	
+1-75	456-457	,	_	_	_	_	
+1-76	458-462	nato	_	_	_	_	
+1-77	463-465	pa	_	_	_	_	
+1-78	466-472	bralke	_	_	_	_	
+1-79	473-475	in	_	_	_	_	
+1-80	476-482	bralci	_	_	_	_	
+1-81	483-485	za	_	_	_	_	
+1-82	486-491	svoje	_	_	_	_	
+1-83	492-500	favorite	_	_	_	_	
+1-84	501-510	glasujejo	_	_	_	_	
+1-85	511-512	v	_	_	_	_	
+1-86	513-519	štirih	_	_	_	_	
+1-87	520-526	krogih	_	_	_	_	
+1-88	527-537	glasovanja	_	_	_	_	
+1-89	538-539	.	_	_	_	_	
+1-90	540-542	Na	_	_	_	_	
+1-91	543-552	jubilejni	_	_	_	_	
+1-92	553-563	prireditvi	_	_	_	_	
+1-93	564-565	v	_	_	_	_	
+1-94	566-572	Litiji	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-95	573-575	pa	_	_	_	_	
+1-96	576-578	so	_	_	_	_	
+1-97	579-589	razglasili	_	_	_	_	
+1-98	590-594	tudi	_	_	_	_	
+1-99	595-603	častnega	_	_	*->3-1	*[3]	
+1-100	604-612	Slovenca	_	_	*->3-1	*[3]	
+1-101	613-617	leta	_	_	*->3-1	*[3]	
+1-102	618-622	2007	_	_	*->3-1	*[3]	
+1-103	623-624	.	_	_	_	_	
+1-104	625-627	Ta	_	_	_	_	
+1-105	628-633	naziv	_	_	_	_	
+1-106	634-636	je	_	_	_	_	
+1-107	637-643	tokrat	_	_	_	_	
+1-108	644-652	pripadel	_	_	_	_	
+1-109	653-659	Janezu	PER[4]	_	*->3-2	*[3]	
+1-110	660-668	Drnovšku	PER[4]	_	*->3-2	*[3]	
+1-111	669-670	.	_	_	_	_	
+1-112	671-679	Nekdanji	_	4 - Pozitivno[20]	*->3-3	*[3]	
+1-113	680-690	predsednik	_	4 - Pozitivno[20]	*->3-3	*[3]	
+1-114	691-693	je	_	_	_	_	
+1-115	694-697	bil	_	_	_	_	
+1-116	698-704	izbran	_	_	_	_	
+1-117	705-713	predvsem	_	_	_	_	
+1-118	714-720	zaradi	_	_	_	_	
+1-119	721-726	svoje	_	_	_	_	
+1-120	727-735	človeške	_	_	_	_	
+1-121	736-745	dimenzije	_	_	_	_	
+1-122	746-748	in	_	_	_	_	
+1-123	749-757	pristnih	_	_	_	_	
+1-124	758-765	etičnih	_	_	_	_	
+1-125	766-772	dejanj	_	_	_	_	
+1-126	773-774	,	_	_	_	_	
+1-127	775-776	s	_	_	_	_	
+1-128	777-785	katerimi	_	_	_	_	
+1-129	786-788	je	_	_	_	_	
+1-130	789-790	v	_	_	_	_	
+1-131	791-797	zavest	_	_	_	_	
+1-132	798-807	Slovencev	PER	3 - Nevtralno	*->4-2	*[4]	
+1-133	808-814	vnesel	_	_	_	_	
+1-134	815-823	globalni	_	_	_	_	
+1-135	824-830	pogled	_	_	_	_	
+1-136	831-833	in	_	_	_	_	
+1-137	834-841	občutek	_	_	_	_	
+1-138	842-856	soodgovornosti	_	_	_	_	
+1-139	857-859	za	_	_	_	_	
+1-140	860-868	svetovne	_	_	_	_	
+1-141	869-877	probleme	_	_	_	_	
+1-142	878-879	.	_	_	_	_	
+1-143	880-889	Priznanje	_	_	_	_	
+1-144	890-892	za	_	_	_	_	
+1-145	893-900	izjemne	_	_	_	_	
+1-146	901-908	dosežke	_	_	_	_	
+1-147	909-911	pa	_	_	_	_	
+1-148	912-914	je	_	_	_	_	
+1-149	915-923	pripadlo	_	_	_	_	
+1-150	924-932	plavalcu	_	_	*->5-1	*[5]	
+1-151	933-938	Petru	PER[5]	_	*->5-1	*[5]	
+1-152	939-946	Mankoču	PER[5]	_	*->5-1	*[5]	
+1-153	947-948	,	_	_	_	_	
+1-154	949-951	ki	_	_	_	_	
+1-155	952-954	je	_	_	_	_	
+1-156	955-960	letos	_	_	_	_	
+1-157	961-963	že	_	_	_	_	
+1-158	964-969	osmič	_	_	_	_	
+1-159	970-977	zapored	_	_	_	_	
+1-160	978-985	osvojil	_	_	_	_	
+1-161	986-992	naslov	_	_	_	_	
+1-162	993-1003	evropskega	_	4 - Pozitivno[21]	*->5-2	*[5]	
+1-163	1004-1010	prvaka	_	4 - Pozitivno[21]	*->5-2	*[5]	
+1-164	1011-1012	v	_	4 - Pozitivno[21]	*->5-2	*[5]	
+1-165	1013-1021	plavanju	_	4 - Pozitivno[21]	*->5-2	*[5]	
+1-166	1022-1024	na	_	4 - Pozitivno[21]	*->5-2	*[5]	
+1-167	1025-1028	sto	_	4 - Pozitivno[21]	*->5-2	*[5]	
+1-168	1029-1035	metrov	_	4 - Pozitivno[21]	*->5-2	*[5]	
+1-169	1036-1042	mešano	_	4 - Pozitivno[21]	*->5-2	*[5]	
+1-170	1043-1044	.	_	_	_	_	
+1-171	1045-1050	Poleg	_	_	_	_	
+1-172	1051-1060	omenjenih	_	_	_	_	
+1-173	1061-1063	so	_	_	_	_	
+1-174	1064-1066	za	_	_	_	_	
+1-175	1067-1075	favorite	_	_	_	_	
+1-176	1076-1084	letošnje	_	_	_	_	
+1-177	1085-1091	akcije	_	_	_	_	
+1-178	1092-1099	veljali	_	_	_	_	
+1-179	1100-1104	tudi	_	_	_	_	
+1-180	1105-1115	predsednik	_	3 - Nevtralno[22]	*->6-1	*[6]	
+1-181	1116-1121	vlade	ORG	3 - Nevtralno[22]|3 - Nevtralno[23]	*->6-1	*[6]	
+1-182	1122-1127	Janez	PER[6]	3 - Nevtralno[22]	*->6-1	*[6]	
+1-183	1128-1133	Janša	PER[6]	3 - Nevtralno[22]	*->6-1	*[6]	
+1-184	1134-1135	,	_	_	_	_	
+1-185	1136-1147	ljubljanski	_	3 - Nevtralno[24]	*->7-1	*[7]	
+1-186	1148-1155	nadškof	_	3 - Nevtralno[24]	*->7-1	*[7]	
+1-187	1156-1158	in	_	3 - Nevtralno[24]	*->7-1	*[7]	
+1-188	1159-1169	metropolit	_	3 - Nevtralno[24]	*->7-1	*[7]	
+1-189	1170-1175	Alojz	PER[7]	3 - Nevtralno[24]	*->7-1	*[7]	
+1-190	1176-1180	Uran	PER[7]	3 - Nevtralno[24]	*->7-1	*[7]	
+1-191	1181-1182	,	_	_	_	_	
+1-192	1183-1191	voditelj	_	3 - Nevtralno[25]	*->8-1	*[8]	
+1-193	1192-1196	Sašo	PER[8]	3 - Nevtralno[25]	*->8-1	*[8]	
+1-194	1197-1203	Hribar	PER[8]	3 - Nevtralno[25]	*->8-1	*[8]	
+1-195	1204-1205	,	_	_	_	_	
+1-196	1206-1214	poslanec	_	3 - Nevtralno[26]	*->10-1	*[10]	
+1-197	1215-1218	SNS	ORG	3 - Nevtralno[26]|3 - Nevtralno[27]	*->10-1|*->9-1	*[10]|*[9]	
+1-198	1219-1224	Zmago	PER[9]	3 - Nevtralno[26]	*->10-1	*[10]	
+1-199	1225-1233	Jelinčič	PER[9]	3 - Nevtralno[26]	*->10-1	*[10]	
+1-200	1234-1235	,	_	_	_	_	
+1-201	1236-1245	športnica	_	3 - Nevtralno[28]	*->11-1	*[11]	
+1-202	1246-1251	Petra	PER[10]	3 - Nevtralno[28]	*->11-1	*[11]	
+1-203	1252-1258	Majdič	PER[10]	3 - Nevtralno[28]	*->11-1	*[11]	
+1-204	1259-1260	,	_	_	_	_	
+1-205	1261-1271	predsednik	_	3 - Nevtralno[29]	*->13-1	*[13]	
+1-206	1272-1274	SD	ORG	3 - Nevtralno[29]|3 - Nevtralno[30]	*->13-1|*->12-1	*[13]|*[12]	
+1-207	1275-1280	Borut	PER[11]	3 - Nevtralno[29]	*->13-1	*[13]	
+1-208	1281-1286	Pahor	PER[11]	3 - Nevtralno[29]	*->13-1	*[13]	
+1-209	1287-1289	in	_	_	_	_	
+1-210	1290-1300	predsednik	_	3 - Nevtralno[31]	*->15-1	*[15]	
+1-211	1301-1306	Zveze	ORG[12]	3 - Nevtralno[31]|3 - Nevtralno[32]	*->15-1|*->14-1	*[15]|*[14]	
+1-212	1307-1313	borcev	ORG[12]	3 - Nevtralno[31]|3 - Nevtralno[32]	*->15-1|*->14-1	*[15]|*[14]	
+1-213	1314-1319	Janez	PER[13]	3 - Nevtralno[31]	*->15-1	*[15]	
+1-214	1320-1329	Stanovnik	PER[13]	3 - Nevtralno[31]	*->15-1	*[15]	
+1-215	1330-1331	.	_	_	_	_	
+1-216	1332-1341	Slovenija	LOC	_	*->16-1	*[16]	
+1-217	1342-1348	dobila	_	_	_	_	
+1-218	1349-1353	tudi	_	_	_	_	
+1-219	1354-1359	sedem	_	_	_	_	
+1-220	1360-1365	čudes	_	_	_	_	
+1-221	1366-1369	Pol	_	_	_	_	
+1-222	1370-1374	leta	_	_	_	_	
+1-223	1375-1377	pa	_	_	_	_	
+1-224	1378-1380	je	_	_	_	_	
+1-225	1381-1384	več	_	_	_	_	
+1-226	1385-1388	kot	_	_	_	_	
+1-227	1389-1393	šest	_	_	_	_	
+1-228	1394-1399	tisoč	_	_	_	_	
+1-229	1400-1407	bralcev	_	_	_	_	
+1-230	1408-1419	Nedeljskega	_	_	*->24-3	*[24]	
+1-231	1420-1430	sodelovalo	_	_	_	_	
+1-232	1431-1432	v	_	_	_	_	
+1-233	1433-1435	še	_	_	_	_	
+1-234	1436-1439	eni	_	_	_	_	
+1-235	1440-1446	akciji	_	_	_	_	
+1-236	1447-1448	.	_	_	_	_	
+1-237	1449-1451	Ta	_	_	_	_	
+1-238	1452-1454	je	_	_	_	_	
+1-239	1455-1457	za	_	_	_	_	
+1-240	1458-1463	sedem	_	_	_	_	
+1-241	1464-1469	čudes	_	_	_	_	
+1-242	1470-1479	Slovenije	LOC	3 - Nevtralno	*->16-2	*[16]	
+1-243	1480-1487	izbrala	_	_	_	_	
+1-244	1488-1495	Aljažev	LOC[14]	4 - Pozitivno[33]	*->17-1	*[17]	
+1-245	1496-1501	stolp	LOC[14]	4 - Pozitivno[33]	*->17-1	*[17]	
+1-246	1502-1503	,	_	_	_	_	
+1-247	1504-1511	Blejski	LOC[15]	4 - Pozitivno[34]	*->18-1	*[18]	
+1-248	1512-1516	grad	LOC[15]	4 - Pozitivno[34]	*->18-1	*[18]	
+1-249	1517-1518	,	_	_	_	_	
+1-250	1519-1529	bolnišnico	LOC[16]	4 - Pozitivno[35]	*->19-1	*[19]	
+1-251	1530-1536	Franja	LOC[16]	4 - Pozitivno[35]	*->19-1	*[19]	
+1-252	1537-1538	,	_	_	_	_	
+1-253	1539-1545	cerkev	LOC[17]	4 - Pozitivno[36]	*->20-1	*[20]	
+1-254	1546-1548	sv	LOC[17]	4 - Pozitivno[36]	*->20-1	*[20]	
+1-255	1549-1550	.	LOC[17]	4 - Pozitivno[36]	*->20-1	*[20]	
+1-256	1551-1555	Roka	LOC[17]	4 - Pozitivno[36]	*->20-1	*[20]	
+1-257	1556-1557	s	LOC[17]	4 - Pozitivno[36]	*->20-1	*[20]	
+1-258	1558-1567	Kalvarijo	LOC[17]	4 - Pozitivno[36]	*->20-1	*[20]	
+1-259	1568-1569	,	_	_	_	_	
+1-260	1570-1578	planiško	_	_	_	_	
+1-261	1579-1588	velikanko	_	_	_	_	
+1-262	1589-1590	,	_	_	_	_	
+1-263	1591-1601	Plečnikovo	PER	4 - Pozitivno[37]|3 - Nevtralno[38]	*->21-1|*->22-1	*[21]|*[22]	
+1-264	1602-1613	Tromostovje	LOC	4 - Pozitivno[37]	*->21-1	*[21]	
+1-265	1614-1616	in	_	_	_	_	
+1-266	1617-1627	Predjamski	LOC[18]	4 - Pozitivno[39]	*->23-1	*[23]	
+1-267	1628-1632	grad	LOC[18]	4 - Pozitivno[39]	*->23-1	*[23]	
+1-268	1633-1634	.	_	_	_	_	
+1-269	1635-1641	Župani	_	_	_	_	
+1-270	1642-1647	občin	_	_	_	_	
+1-271	1648-1649	,	_	_	_	_	
+1-272	1650-1651	v	_	_	_	_	
+1-273	1652-1659	katerih	_	_	_	_	
+1-274	1660-1662	so	_	_	_	_	
+1-275	1663-1671	omenjena	_	_	_	_	
+1-276	1672-1678	čudesa	_	_	_	_	
+1-277	1679-1680	,	_	_	_	_	
+1-278	1681-1683	pa	_	_	_	_	
+1-279	1684-1686	so	_	_	_	_	
+1-280	1687-1693	dobili	_	_	_	_	
+1-281	1694-1705	certifikate	_	_	_	_	

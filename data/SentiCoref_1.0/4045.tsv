@@ -1,0 +1,431 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Zagreb - Na Zagrebškem občinskem sodišču so danes znova preložili obravnavo v eni od tožb Privredne banke Zagreb ( PBZ ) proti Ljubljanski banki ( LB ) in NLB . Odvetnik LB Matija Pečatnik je zahteval prekinitev postopka , odvetnica PBZ Maja Špoljarić pa je nato prosila za 30 dni časa , da bi pripravila odgovor na predlog obrambe . Pečatnik je pojasnil , da zahteva prekinitev postopka za nedoločen čas na vseh pravosodnih instancah , ker je potrebno rešiti neko drugo predhodno stanje , ki izvira iz memoranduma o reševanju vprašanj LB . Opozoril je , da gre za mednarodno pogodbo , ki sta jo vladi Hrvaške in Slovenije podpisali 11 . marca v Mokricah . Sodnik Nikola Raguz je zahteval uradni prevod memoranduma v hrvaški jezik , čeprav mu je slovenska stran predložila hrvaški tekst dokumenta . V njem se je Hrvaška zavezala , da bo ustavila vse postopke proti slovenskim bankam , dokler ne bo dosežena celovita rešitev spora o LB , ki jo bosta državi iskali v okviru nasledstva . Kljub temu pa se obravnave nadaljujejo tudi po 11 . marcu . Hrvaška vlada je pojasnila , da je opravila svoj del posla iz memoranduma , potem ko je dala navodila bankam , te pa naprej svojim odvetnikom , naj ustavijo postopke , povezane z LB . O vsem so obvestili tudi pristojno sodišče . Odvetnica PBZ je na obravnavi v drugem primeru PBZ proti slovenskim bankam v začetku aprila sicer zahtevala mirovanje postopka za leto dni zaradi poskusa mirne rešitve spora na podlagi hrvaškega zakona o pravdnem postopku . Sicer je bila današnja obravnava že večkrat preložena , nazadnje 11 . februarja letos . Gre za eno od več kot 20 tožb PBZ in Zagrebške banke proti LB in NLB , ki potekajo na podlagi pooblastil hrvaškega finančnega ministrstva . Hrvaška vlada na sodiščih od Slovenije terja vrnitev deviznih vlog varčevalcev nekdanje Zagrebške podružnice LB , ki jih je Hrvaška v začetku 90 . let prenesla v javni dolg in nato izplačala delu varčevalcev . Današnja obravnava je potekala prav na dan , ko je na Hrvaško na dvodnevni uradni obisk prispel slovenski predsednik Borut Pahor . Pusićeva in njen slovenski kolega Karl Erjavec sta se sicer v Luksemburgu prejšnji mesec dogovorila , da bosta skupaj poslala pismo Banki za mednarodne poravnave v Baslu in ostalim državam naslednicam nekdanje SFRJ , da se začne postopek v okviru nasledstva . STA je na Zagrebškem sodišču neuradno izvedela , da bodo morali sodniki v vsakem primeru posebej odločati o ustavitvi postopka
+1-1	0-6	Zagreb	LOC	_	*->1-1	*[1]	
+1-2	7-8	-	_	_	_	_	
+1-3	9-11	Na	_	_	_	_	
+1-4	12-22	Zagrebškem	ORG[1]	_	*->2-1	*[2]	
+1-5	23-32	občinskem	ORG[1]	_	*->2-1	*[2]	
+1-6	33-40	sodišču	ORG[1]	_	*->2-1	*[2]	
+1-7	41-43	so	_	_	_	_	
+1-8	44-49	danes	_	_	_	_	
+1-9	50-55	znova	_	_	_	_	
+1-10	56-65	preložili	_	_	_	_	
+1-11	66-75	obravnavo	_	_	_	_	
+1-12	76-77	v	_	_	_	_	
+1-13	78-81	eni	_	_	_	_	
+1-14	82-84	od	_	_	_	_	
+1-15	85-89	tožb	_	_	_	_	
+1-16	90-99	Privredne	ORG[2]	_	*->19-1	*[19]	
+1-17	100-105	banke	ORG[2]	_	*->19-1	*[19]	
+1-18	106-112	Zagreb	ORG[2]|LOC[3]	3 - Nevtralno	*->19-1|*->1-2	*[19]|*[1]	
+1-19	113-114	(	ORG[2]	_	*->19-1	*[19]	
+1-20	115-118	PBZ	ORG[2]	_	*->19-1	*[19]	
+1-21	119-120	)	ORG[2]	_	*->19-1	*[19]	
+1-22	121-126	proti	_	_	_	_	
+1-23	127-138	Ljubljanski	ORG[4]	_	*->20-1	*[20]	
+1-24	139-144	banki	ORG[4]	_	*->20-1	*[20]	
+1-25	145-146	(	ORG[4]	_	*->20-1	*[20]	
+1-26	147-149	LB	ORG[4]	_	*->20-1	*[20]	
+1-27	150-151	)	ORG[4]	_	*->20-1	*[20]	
+1-28	152-154	in	_	_	_	_	
+1-29	155-158	NLB	ORG	_	*->3-1	*[3]	
+1-30	159-160	.	_	_	_	_	
+1-31	161-169	Odvetnik	_	_	*->4-1	*[4]	
+1-32	170-172	LB	ORG	_	*->4-1|*->20-2	*[4]|*[20]	
+1-33	173-179	Matija	PER[5]	_	*->4-1	*[4]	
+1-34	180-188	Pečatnik	PER[5]	_	*->4-1	*[4]	
+1-35	189-191	je	_	_	_	_	
+1-36	192-200	zahteval	_	_	_	_	
+1-37	201-211	prekinitev	_	_	_	_	
+1-38	212-220	postopka	_	_	_	_	
+1-39	221-222	,	_	_	_	_	
+1-40	223-232	odvetnica	_	_	*->5-1	*[5]	
+1-41	233-236	PBZ	ORG	_	*->5-1|*->19-2	*[5]|*[19]	
+1-42	237-241	Maja	PER[6]	_	*->5-1	*[5]	
+1-43	242-251	Špoljarić	PER[6]	_	*->5-1	*[5]	
+1-44	252-254	pa	_	_	_	_	
+1-45	255-257	je	_	_	_	_	
+1-46	258-262	nato	_	_	_	_	
+1-47	263-270	prosila	_	_	_	_	
+1-48	271-273	za	_	_	_	_	
+1-49	274-276	30	_	_	_	_	
+1-50	277-280	dni	_	_	_	_	
+1-51	281-285	časa	_	_	_	_	
+1-52	286-287	,	_	_	_	_	
+1-53	288-290	da	_	_	_	_	
+1-54	291-293	bi	_	_	_	_	
+1-55	294-304	pripravila	_	_	*->5-2	*[5]	
+1-56	305-312	odgovor	_	_	_	_	
+1-57	313-315	na	_	_	_	_	
+1-58	316-323	predlog	_	_	_	_	
+1-59	324-331	obrambe	_	_	_	_	
+1-60	332-333	.	_	_	_	_	
+1-61	334-342	Pečatnik	PER	_	*->4-2	*[4]	
+1-62	343-345	je	_	_	_	_	
+1-63	346-354	pojasnil	_	_	_	_	
+1-64	355-356	,	_	_	_	_	
+1-65	357-359	da	_	_	_	_	
+1-66	360-367	zahteva	_	_	*->4-3	*[4]	
+1-67	368-378	prekinitev	_	_	_	_	
+1-68	379-387	postopka	_	_	_	_	
+1-69	388-390	za	_	_	_	_	
+1-70	391-400	nedoločen	_	_	_	_	
+1-71	401-404	čas	_	_	_	_	
+1-72	405-407	na	_	_	_	_	
+1-73	408-412	vseh	_	_	_	_	
+1-74	413-424	pravosodnih	_	_	_	_	
+1-75	425-434	instancah	_	_	_	_	
+1-76	435-436	,	_	_	_	_	
+1-77	437-440	ker	_	_	_	_	
+1-78	441-443	je	_	_	_	_	
+1-79	444-452	potrebno	_	_	_	_	
+1-80	453-459	rešiti	_	_	_	_	
+1-81	460-464	neko	_	_	_	_	
+1-82	465-470	drugo	_	_	_	_	
+1-83	471-480	predhodno	_	_	_	_	
+1-84	481-487	stanje	_	_	_	_	
+1-85	488-489	,	_	_	_	_	
+1-86	490-492	ki	_	_	_	_	
+1-87	493-499	izvira	_	_	_	_	
+1-88	500-502	iz	_	_	_	_	
+1-89	503-514	memoranduma	_	_	_	_	
+1-90	515-516	o	_	_	_	_	
+1-91	517-526	reševanju	_	_	_	_	
+1-92	527-535	vprašanj	_	_	_	_	
+1-93	536-538	LB	ORG	_	*->20-3	*[20]	
+1-94	539-540	.	_	_	_	_	
+1-95	541-549	Opozoril	_	3 - Nevtralno[15]	*->4-4	*[4]	
+1-96	550-552	je	_	3 - Nevtralno[15]	*->4-4	*[4]	
+1-97	553-554	,	_	_	_	_	
+1-98	555-557	da	_	_	_	_	
+1-99	558-561	gre	_	_	_	_	
+1-100	562-564	za	_	_	_	_	
+1-101	565-575	mednarodno	_	_	_	_	
+1-102	576-583	pogodbo	_	_	_	_	
+1-103	584-585	,	_	_	_	_	
+1-104	586-588	ki	_	_	_	_	
+1-105	589-592	sta	_	_	_	_	
+1-106	593-595	jo	_	_	_	_	
+1-107	596-601	vladi	_	_	_	_	
+1-108	602-609	Hrvaške	ORG	_	*->6-1	*[6]	
+1-109	610-612	in	_	_	_	_	
+1-110	613-622	Slovenije	ORG	_	*->7-1	*[7]	
+1-111	623-632	podpisali	_	_	_	_	
+1-112	633-635	11	_	_	_	_	
+1-113	636-637	.	_	_	_	_	
+1-114	638-643	marca	_	_	_	_	
+1-115	644-645	v	_	_	_	_	
+1-116	646-654	Mokricah	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-117	655-656	.	_	_	_	_	
+1-118	657-663	Sodnik	_	2 - Negativno[16]	*->9-1	*[9]	
+1-119	664-670	Nikola	PER[7]	2 - Negativno[16]	*->9-1	*[9]	
+1-120	671-676	Raguz	PER[7]	2 - Negativno[16]	*->9-1	*[9]	
+1-121	677-679	je	_	_	_	_	
+1-122	680-688	zahteval	_	_	_	_	
+1-123	689-695	uradni	_	_	_	_	
+1-124	696-702	prevod	_	_	_	_	
+1-125	703-714	memoranduma	_	_	_	_	
+1-126	715-716	v	_	_	_	_	
+1-127	717-724	hrvaški	_	_	_	_	
+1-128	725-730	jezik	_	_	_	_	
+1-129	731-732	,	_	_	_	_	
+1-130	733-739	čeprav	_	_	_	_	
+1-131	740-742	mu	_	_	_	_	
+1-132	743-745	je	_	_	_	_	
+1-133	746-755	slovenska	_	_	_	_	
+1-134	756-761	stran	_	_	_	_	
+1-135	762-772	predložila	_	_	_	_	
+1-136	773-780	hrvaški	_	_	_	_	
+1-137	781-786	tekst	_	_	_	_	
+1-138	787-796	dokumenta	_	_	_	_	
+1-139	797-798	.	_	_	_	_	
+1-140	799-800	V	_	_	_	_	
+1-141	801-805	njem	_	_	_	_	
+1-142	806-808	se	_	_	_	_	
+1-143	809-811	je	_	_	_	_	
+1-144	812-819	Hrvaška	ORG	_	*->6-2	*[6]	
+1-145	820-828	zavezala	_	_	_	_	
+1-146	829-830	,	_	_	_	_	
+1-147	831-833	da	_	_	_	_	
+1-148	834-836	bo	_	_	_	_	
+1-149	837-845	ustavila	_	_	*->6-3	*[6]	
+1-150	846-849	vse	_	_	_	_	
+1-151	850-858	postopke	_	_	_	_	
+1-152	859-864	proti	_	_	_	_	
+1-153	865-875	slovenskim	_	_	_	_	
+1-154	876-882	bankam	_	_	_	_	
+1-155	883-884	,	_	_	_	_	
+1-156	885-891	dokler	_	_	_	_	
+1-157	892-894	ne	_	_	_	_	
+1-158	895-897	bo	_	_	_	_	
+1-159	898-906	dosežena	_	_	_	_	
+1-160	907-915	celovita	_	_	_	_	
+1-161	916-923	rešitev	_	_	_	_	
+1-162	924-929	spora	_	_	_	_	
+1-163	930-931	o	_	_	_	_	
+1-164	932-934	LB	ORG	_	*->20-4	*[20]	
+1-165	935-936	,	_	_	_	_	
+1-166	937-939	ki	_	_	_	_	
+1-167	940-942	jo	_	_	*->20-5	*[20]	
+1-168	943-948	bosta	_	_	_	_	
+1-169	949-955	državi	_	_	_	_	
+1-170	956-962	iskali	_	_	_	_	
+1-171	963-964	v	_	_	_	_	
+1-172	965-971	okviru	_	_	_	_	
+1-173	972-982	nasledstva	_	_	_	_	
+1-174	983-984	.	_	_	_	_	
+1-175	985-990	Kljub	_	_	_	_	
+1-176	991-995	temu	_	_	_	_	
+1-177	996-998	pa	_	_	_	_	
+1-178	999-1001	se	_	_	_	_	
+1-179	1002-1011	obravnave	_	_	_	_	
+1-180	1012-1023	nadaljujejo	_	_	_	_	
+1-181	1024-1028	tudi	_	_	_	_	
+1-182	1029-1031	po	_	_	_	_	
+1-183	1032-1034	11	_	_	_	_	
+1-184	1035-1036	.	_	_	_	_	
+1-185	1037-1042	marcu	_	_	_	_	
+1-186	1043-1044	.	_	_	_	_	
+1-187	1045-1052	Hrvaška	ORG	_	*->6-4	*[6]	
+1-188	1053-1058	vlada	_	_	_	_	
+1-189	1059-1061	je	_	_	_	_	
+1-190	1062-1071	pojasnila	_	_	_	_	
+1-191	1072-1073	,	_	_	_	_	
+1-192	1074-1076	da	_	_	_	_	
+1-193	1077-1079	je	_	_	_	_	
+1-194	1080-1088	opravila	_	_	_	_	
+1-195	1089-1093	svoj	_	_	_	_	
+1-196	1094-1097	del	_	_	_	_	
+1-197	1098-1103	posla	_	_	_	_	
+1-198	1104-1106	iz	_	_	_	_	
+1-199	1107-1118	memoranduma	_	_	_	_	
+1-200	1119-1120	,	_	_	_	_	
+1-201	1121-1126	potem	_	_	_	_	
+1-202	1127-1129	ko	_	_	_	_	
+1-203	1130-1132	je	_	_	_	_	
+1-204	1133-1137	dala	_	_	_	_	
+1-205	1138-1146	navodila	_	_	_	_	
+1-206	1147-1153	bankam	_	_	_	_	
+1-207	1154-1155	,	_	_	_	_	
+1-208	1156-1158	te	_	_	_	_	
+1-209	1159-1161	pa	_	_	_	_	
+1-210	1162-1168	naprej	_	_	_	_	
+1-211	1169-1175	svojim	_	_	_	_	
+1-212	1176-1186	odvetnikom	_	_	_	_	
+1-213	1187-1188	,	_	_	_	_	
+1-214	1189-1192	naj	_	_	_	_	
+1-215	1193-1201	ustavijo	_	_	_	_	
+1-216	1202-1210	postopke	_	_	_	_	
+1-217	1211-1212	,	_	_	_	_	
+1-218	1213-1221	povezane	_	_	_	_	
+1-219	1222-1223	z	_	_	_	_	
+1-220	1224-1226	LB	ORG	_	*->20-6	*[20]	
+1-221	1227-1228	.	_	_	_	_	
+1-222	1229-1230	O	_	_	_	_	
+1-223	1231-1235	vsem	_	_	_	_	
+1-224	1236-1238	so	_	_	_	_	
+1-225	1239-1248	obvestili	_	_	_	_	
+1-226	1249-1253	tudi	_	_	_	_	
+1-227	1254-1263	pristojno	_	_	_	_	
+1-228	1264-1271	sodišče	_	_	*->2-2	*[2]	
+1-229	1272-1273	.	_	_	_	_	
+1-230	1274-1283	Odvetnica	_	_	*->5-3	*[5]	
+1-231	1284-1287	PBZ	PER	_	*->5-3|*->19-3	*[5]|*[19]	
+1-232	1288-1290	je	_	_	_	_	
+1-233	1291-1293	na	_	_	_	_	
+1-234	1294-1303	obravnavi	_	_	_	_	
+1-235	1304-1305	v	_	_	_	_	
+1-236	1306-1312	drugem	_	_	_	_	
+1-237	1313-1320	primeru	_	_	_	_	
+1-238	1321-1324	PBZ	ORG	_	*->19-4	*[19]	
+1-239	1325-1330	proti	_	_	_	_	
+1-240	1331-1341	slovenskim	_	_	_	_	
+1-241	1342-1348	bankam	_	_	_	_	
+1-242	1349-1350	v	_	_	_	_	
+1-243	1351-1358	začetku	_	_	_	_	
+1-244	1359-1365	aprila	_	_	_	_	
+1-245	1366-1371	sicer	_	_	_	_	
+1-246	1372-1381	zahtevala	_	_	_	_	
+1-247	1382-1391	mirovanje	_	_	_	_	
+1-248	1392-1400	postopka	_	_	_	_	
+1-249	1401-1403	za	_	_	_	_	
+1-250	1404-1408	leto	_	_	_	_	
+1-251	1409-1412	dni	_	_	_	_	
+1-252	1413-1419	zaradi	_	_	_	_	
+1-253	1420-1427	poskusa	_	_	_	_	
+1-254	1428-1433	mirne	_	_	_	_	
+1-255	1434-1441	rešitve	_	_	_	_	
+1-256	1442-1447	spora	_	_	_	_	
+1-257	1448-1450	na	_	_	_	_	
+1-258	1451-1458	podlagi	_	_	_	_	
+1-259	1459-1468	hrvaškega	_	_	_	_	
+1-260	1469-1475	zakona	_	_	_	_	
+1-261	1476-1477	o	_	_	_	_	
+1-262	1478-1486	pravdnem	_	_	_	_	
+1-263	1487-1495	postopku	_	_	_	_	
+1-264	1496-1497	.	_	_	_	_	
+1-265	1498-1503	Sicer	_	_	_	_	
+1-266	1504-1506	je	_	_	_	_	
+1-267	1507-1511	bila	_	_	_	_	
+1-268	1512-1520	današnja	_	_	_	_	
+1-269	1521-1530	obravnava	_	_	_	_	
+1-270	1531-1533	že	_	_	_	_	
+1-271	1534-1541	večkrat	_	_	_	_	
+1-272	1542-1551	preložena	_	_	_	_	
+1-273	1552-1553	,	_	_	_	_	
+1-274	1554-1562	nazadnje	_	_	_	_	
+1-275	1563-1565	11	_	_	_	_	
+1-276	1566-1567	.	_	_	_	_	
+1-277	1568-1577	februarja	_	_	_	_	
+1-278	1578-1583	letos	_	_	_	_	
+1-279	1584-1585	.	_	_	_	_	
+1-280	1586-1589	Gre	_	_	_	_	
+1-281	1590-1592	za	_	_	_	_	
+1-282	1593-1596	eno	_	_	_	_	
+1-283	1597-1599	od	_	_	_	_	
+1-284	1600-1603	več	_	_	_	_	
+1-285	1604-1607	kot	_	_	_	_	
+1-286	1608-1610	20	_	_	_	_	
+1-287	1611-1615	tožb	_	_	_	_	
+1-288	1616-1619	PBZ	ORG	2 - Negativno	*->19-5	*[19]	
+1-289	1620-1622	in	_	_	_	_	
+1-290	1623-1632	Zagrebške	ORG[8]	2 - Negativno[17]	*->10-1	*[10]	
+1-291	1633-1638	banke	ORG[8]	2 - Negativno[17]	*->10-1	*[10]	
+1-292	1639-1644	proti	_	_	_	_	
+1-293	1645-1647	LB	ORG	_	*->20-7	*[20]	
+1-294	1648-1650	in	_	_	_	_	
+1-295	1651-1654	NLB	ORG	3 - Nevtralno	*->3-2	*[3]	
+1-296	1655-1656	,	_	_	_	_	
+1-297	1657-1659	ki	_	_	_	_	
+1-298	1660-1668	potekajo	_	_	_	_	
+1-299	1669-1671	na	_	_	_	_	
+1-300	1672-1679	podlagi	_	_	_	_	
+1-301	1680-1690	pooblastil	_	_	_	_	
+1-302	1691-1700	hrvaškega	_	_	_	_	
+1-303	1701-1711	finančnega	_	_	_	_	
+1-304	1712-1723	ministrstva	_	_	_	_	
+1-305	1724-1725	.	_	_	_	_	
+1-306	1726-1733	Hrvaška	_	_	_	_	
+1-307	1734-1739	vlada	_	_	_	_	
+1-308	1740-1742	na	_	_	_	_	
+1-309	1743-1751	sodiščih	_	_	_	_	
+1-310	1752-1754	od	_	_	_	_	
+1-311	1755-1764	Slovenije	ORG	2 - Negativno	*->7-2	*[7]	
+1-312	1765-1770	terja	_	_	_	_	
+1-313	1771-1778	vrnitev	_	_	_	_	
+1-314	1779-1787	deviznih	_	_	_	_	
+1-315	1788-1792	vlog	_	_	_	_	
+1-316	1793-1804	varčevalcev	_	_	_	_	
+1-317	1805-1813	nekdanje	_	_	_	_	
+1-318	1814-1823	Zagrebške	ORG[9]	3 - Nevtralno[18]	*->11-1	*[11]	
+1-319	1824-1834	podružnice	ORG[9]	3 - Nevtralno[18]	*->11-1	*[11]	
+1-320	1835-1837	LB	ORG[9]|ORG[10]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->11-1|*->20-8	*[11]|*[20]	
+1-321	1838-1839	,	_	_	_	_	
+1-322	1840-1842	ki	_	_	_	_	
+1-323	1843-1846	jih	_	_	_	_	
+1-324	1847-1849	je	_	_	_	_	
+1-325	1850-1857	Hrvaška	ORG	_	*->6-5	*[6]	
+1-326	1858-1859	v	_	_	_	_	
+1-327	1860-1867	začetku	_	_	_	_	
+1-328	1868-1870	90	_	_	_	_	
+1-329	1871-1872	.	_	_	_	_	
+1-330	1873-1876	let	_	_	_	_	
+1-331	1877-1885	prenesla	_	_	_	_	
+1-332	1886-1887	v	_	_	_	_	
+1-333	1888-1893	javni	_	_	_	_	
+1-334	1894-1898	dolg	_	_	_	_	
+1-335	1899-1901	in	_	_	_	_	
+1-336	1902-1906	nato	_	_	_	_	
+1-337	1907-1916	izplačala	_	_	*->6-6	*[6]	
+1-338	1917-1921	delu	_	_	_	_	
+1-339	1922-1933	varčevalcev	_	_	_	_	
+1-340	1934-1935	.	_	_	_	_	
+1-341	1936-1944	Današnja	_	_	_	_	
+1-342	1945-1954	obravnava	_	_	_	_	
+1-343	1955-1957	je	_	_	_	_	
+1-344	1958-1966	potekala	_	_	_	_	
+1-345	1967-1971	prav	_	_	_	_	
+1-346	1972-1974	na	_	_	_	_	
+1-347	1975-1978	dan	_	_	_	_	
+1-348	1979-1980	,	_	_	_	_	
+1-349	1981-1983	ko	_	_	_	_	
+1-350	1984-1986	je	_	_	_	_	
+1-351	1987-1989	na	_	_	_	_	
+1-352	1990-1997	Hrvaško	LOC	2 - Negativno	*->6-7	*[6]	
+1-353	1998-2000	na	_	_	_	_	
+1-354	2001-2010	dvodnevni	_	_	_	_	
+1-355	2011-2017	uradni	_	_	_	_	
+1-356	2018-2023	obisk	_	_	_	_	
+1-357	2024-2031	prispel	_	_	_	_	
+1-358	2032-2041	slovenski	_	3 - Nevtralno[20]	*->12-1	*[12]	
+1-359	2042-2052	predsednik	_	3 - Nevtralno[20]	*->12-1	*[12]	
+1-360	2053-2058	Borut	PER[11]	3 - Nevtralno[20]	*->12-1	*[12]	
+1-361	2059-2064	Pahor	PER[11]	3 - Nevtralno[20]	*->12-1	*[12]	
+1-362	2065-2066	.	_	_	_	_	
+1-363	2067-2075	Pusićeva	PER	3 - Nevtralno	*->5-4	*[5]	
+1-364	2076-2078	in	_	_	_	_	
+1-365	2079-2083	njen	_	_	_	_	
+1-366	2084-2093	slovenski	_	3 - Nevtralno[21]	*->13-1	*[13]	
+1-367	2094-2100	kolega	_	3 - Nevtralno[21]	*->13-1	*[13]	
+1-368	2101-2105	Karl	PER[12]	3 - Nevtralno[21]	*->13-1	*[13]	
+1-369	2106-2113	Erjavec	PER[12]	3 - Nevtralno[21]	*->13-1	*[13]	
+1-370	2114-2117	sta	_	_	_	_	
+1-371	2118-2120	se	_	_	_	_	
+1-372	2121-2126	sicer	_	_	_	_	
+1-373	2127-2128	v	_	_	_	_	
+1-374	2129-2140	Luksemburgu	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-375	2141-2149	prejšnji	_	_	_	_	
+1-376	2150-2155	mesec	_	_	_	_	
+1-377	2156-2166	dogovorila	_	_	_	_	
+1-378	2167-2168	,	_	_	_	_	
+1-379	2169-2171	da	_	_	_	_	
+1-380	2172-2177	bosta	_	_	_	_	
+1-381	2178-2184	skupaj	_	_	_	_	
+1-382	2185-2192	poslala	_	_	_	_	
+1-383	2193-2198	pismo	_	_	_	_	
+1-384	2199-2204	Banki	ORG[13]	3 - Nevtralno[22]	*->15-1	*[15]	
+1-385	2205-2207	za	ORG[13]	3 - Nevtralno[22]	*->15-1	*[15]	
+1-386	2208-2218	mednarodne	ORG[13]	3 - Nevtralno[22]	*->15-1	*[15]	
+1-387	2219-2228	poravnave	ORG[13]	3 - Nevtralno[22]	*->15-1	*[15]	
+1-388	2229-2230	v	_	_	_	_	
+1-389	2231-2236	Baslu	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-390	2237-2239	in	_	_	_	_	
+1-391	2240-2247	ostalim	_	_	_	_	
+1-392	2248-2255	državam	_	_	_	_	
+1-393	2256-2267	naslednicam	_	_	_	_	
+1-394	2268-2276	nekdanje	_	_	_	_	
+1-395	2277-2281	SFRJ	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-396	2282-2283	,	_	_	_	_	
+1-397	2284-2286	da	_	_	_	_	
+1-398	2287-2289	se	_	_	_	_	
+1-399	2290-2295	začne	_	_	_	_	
+1-400	2296-2304	postopek	_	_	_	_	
+1-401	2305-2306	v	_	_	_	_	
+1-402	2307-2313	okviru	_	_	_	_	
+1-403	2314-2324	nasledstva	_	_	_	_	
+1-404	2325-2326	.	_	_	_	_	
+1-405	2327-2330	STA	ORG	3 - Nevtralno	*->18-1	*[18]	
+1-406	2331-2333	je	_	_	_	_	
+1-407	2334-2336	na	_	_	_	_	
+1-408	2337-2347	Zagrebškem	ORG[14]	3 - Nevtralno[23]	*->2-3	*[2]	
+1-409	2348-2355	sodišču	ORG[14]	3 - Nevtralno[23]	*->2-3	*[2]	
+1-410	2356-2364	neuradno	_	_	_	_	
+1-411	2365-2373	izvedela	_	_	_	_	
+1-412	2374-2375	,	_	_	_	_	
+1-413	2376-2378	da	_	_	_	_	
+1-414	2379-2383	bodo	_	_	_	_	
+1-415	2384-2390	morali	_	_	_	_	
+1-416	2391-2398	sodniki	_	_	_	_	
+1-417	2399-2400	v	_	_	_	_	
+1-418	2401-2407	vsakem	_	_	_	_	
+1-419	2408-2415	primeru	_	_	_	_	
+1-420	2416-2423	posebej	_	_	_	_	
+1-421	2424-2432	odločati	_	_	_	_	
+1-422	2433-2434	o	_	_	_	_	
+1-423	2435-2444	ustavitvi	_	_	_	_	
+1-424	2445-2453	postopka	_	_	_	_	

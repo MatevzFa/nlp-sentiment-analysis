@@ -1,0 +1,311 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Tina Maze z odlično vožnjo priborila Sloveniji drugo medaljo na teh olimpijskih igrah Slovenski smučarki Tini Maze je uspelo : v olimpijskem superveleslalomu je z odlično vožnjo osvojila drugo mesto in Sloveniji po Petri Majdič priborila drugo olimpijsko medaljo na teh igrah . Smučarka iz Črne na Koroškem je z medaljo končala 16 let trajajoč premor osvajanja medalj v alpskem smučanju . " Ja , neverjetno tremo sem imela na štartu . Sama sebe sem bodrila , res mi je odleglo . Končno se počutim močno in samozavestno , res sem vesela . Enkrat so te številke ( op . Tina je imela številko 22 ) dobre , drugič slabe . Če v to ne verjameš , se stvari ne obrnejo . Moraš verjeti do konca . Šla sem korak za korakom . Želim si naprej . Želim si še kakšno medaljo . Vem , da sem sposobna , " je takoj po tekmi dejala Mazejeva , ki je tako kronala dolgoletno trdo delo . " Vse je poplačano . " Zlato medaljo si je z najhitrejšo vožnjo priborila Avstrijka Andrea Fischbacher . Tretje mesto je odšlo v ZDA z Lindsey Vonn . Druga slovenska predstavnica Maruša Ferk je odstopila . Kranjec končal na 9 . mestu Tekma v smučarskih skokih na veliki skakalnici se ni izšla po željah slovenskih skakalcev . Robertu Kranjcu skok v prvi seriji ni uspel , končal je šele na 27 . mestu , v drugem pa je skočil odlično in na koncu končal na 9 . mestu . Peter Prevc je tekmo končal na 16 . mestu , Mitja Mežnar pa na 29 . Zmagal je Švicar Simon Amman , ki ima tako kot prvi skakalec v zgodovini štiri posamične zmage na olimpijskih igrah . Srebrno medaljo je osvojil Poljak Adam Malysz , bron pa Avstrijec Gregor Schlierenzauer
+1-1	0-4	Tina	PER[1]	_	*->3-1	*[3]	
+1-2	5-9	Maze	PER[1]	_	*->3-1	*[3]	
+1-3	10-11	z	_	_	_	_	
+1-4	12-19	odlično	_	_	_	_	
+1-5	20-26	vožnjo	_	_	_	_	
+1-6	27-36	priborila	_	_	_	_	
+1-7	37-46	Sloveniji	ORG	_	*->4-1	*[4]	
+1-8	47-52	drugo	_	_	_	_	
+1-9	53-60	medaljo	_	_	_	_	
+1-10	61-63	na	_	_	_	_	
+1-11	64-67	teh	_	_	_	_	
+1-12	68-79	olimpijskih	_	_	_	_	
+1-13	80-85	igrah	_	_	_	_	
+1-14	86-95	Slovenski	_	_	*->3-2	*[3]	
+1-15	96-104	smučarki	_	_	*->3-2	*[3]	
+1-16	105-109	Tini	PER[2]	_	*->3-2	*[3]	
+1-17	110-114	Maze	PER[2]	_	*->3-2	*[3]	
+1-18	115-117	je	_	_	_	_	
+1-19	118-124	uspelo	_	_	_	_	
+1-20	125-126	:	_	_	_	_	
+1-21	127-128	v	_	_	_	_	
+1-22	129-140	olimpijskem	_	_	_	_	
+1-23	141-157	superveleslalomu	_	_	_	_	
+1-24	158-160	je	_	_	_	_	
+1-25	161-162	z	_	_	_	_	
+1-26	163-170	odlično	_	_	_	_	
+1-27	171-177	vožnjo	_	_	_	_	
+1-28	178-186	osvojila	_	_	*->3-3	*[3]	
+1-29	187-192	drugo	_	_	_	_	
+1-30	193-198	mesto	_	_	_	_	
+1-31	199-201	in	_	_	_	_	
+1-32	202-211	Sloveniji	ORG	4 - Pozitivno	*->4-2	*[4]	
+1-33	212-214	po	_	_	_	_	
+1-34	215-220	Petri	PER[3]	4 - Pozitivno[14]	*->5-1	*[5]	
+1-35	221-227	Majdič	PER[3]	4 - Pozitivno[14]	*->5-1	*[5]	
+1-36	228-237	priborila	_	_	*->3-4	*[3]	
+1-37	238-243	drugo	_	_	_	_	
+1-38	244-254	olimpijsko	_	_	_	_	
+1-39	255-262	medaljo	_	_	_	_	
+1-40	263-265	na	_	_	_	_	
+1-41	266-269	teh	_	_	_	_	
+1-42	270-275	igrah	_	_	_	_	
+1-43	276-277	.	_	_	_	_	
+1-44	278-286	Smučarka	_	_	*->3-5	*[3]	
+1-45	287-289	iz	_	_	*->3-5	*[3]	
+1-46	290-294	Črne	LOC[4]	3 - Nevtralno[15]	*->3-5|*->6-1	*[3]|*[6]	
+1-47	295-297	na	LOC[4]	3 - Nevtralno[15]	*->3-5|*->6-1	*[3]|*[6]	
+1-48	298-306	Koroškem	LOC[4]	3 - Nevtralno[15]	*->3-5|*->6-1	*[3]|*[6]	
+1-49	307-309	je	_	_	_	_	
+1-50	310-311	z	_	_	_	_	
+1-51	312-319	medaljo	_	_	_	_	
+1-52	320-327	končala	_	_	_	_	
+1-53	328-330	16	_	_	_	_	
+1-54	331-334	let	_	_	_	_	
+1-55	335-343	trajajoč	_	_	_	_	
+1-56	344-350	premor	_	_	_	_	
+1-57	351-360	osvajanja	_	_	_	_	
+1-58	361-367	medalj	_	_	_	_	
+1-59	368-369	v	_	_	_	_	
+1-60	370-377	alpskem	_	_	_	_	
+1-61	378-386	smučanju	_	_	_	_	
+1-62	387-388	.	_	_	_	_	
+1-63	389-390	"	_	_	_	_	
+1-64	391-393	Ja	_	_	_	_	
+1-65	394-395	,	_	_	_	_	
+1-66	396-406	neverjetno	_	_	_	_	
+1-67	407-412	tremo	_	_	_	_	
+1-68	413-416	sem	_	_	_	_	
+1-69	417-422	imela	_	_	*->3-6	*[3]	
+1-70	423-425	na	_	_	_	_	
+1-71	426-432	štartu	_	_	_	_	
+1-72	433-434	.	_	_	_	_	
+1-73	435-439	Sama	_	_	_	_	
+1-74	440-444	sebe	_	_	*->3-7	*[3]	
+1-75	445-448	sem	_	_	_	_	
+1-76	449-456	bodrila	_	_	_	_	
+1-77	457-458	,	_	_	_	_	
+1-78	459-462	res	_	_	_	_	
+1-79	463-465	mi	_	_	*->3-8	*[3]	
+1-80	466-468	je	_	_	_	_	
+1-81	469-476	odleglo	_	_	_	_	
+1-82	477-478	.	_	_	_	_	
+1-83	479-485	Končno	_	_	_	_	
+1-84	486-488	se	_	_	_	_	
+1-85	489-496	počutim	_	_	*->3-9	*[3]	
+1-86	497-502	močno	_	_	_	_	
+1-87	503-505	in	_	_	_	_	
+1-88	506-518	samozavestno	_	_	_	_	
+1-89	519-520	,	_	_	_	_	
+1-90	521-524	res	_	_	_	_	
+1-91	525-528	sem	_	_	_	_	
+1-92	529-535	vesela	_	_	*->3-10	*[3]	
+1-93	536-537	.	_	_	_	_	
+1-94	538-544	Enkrat	_	_	_	_	
+1-95	545-547	so	_	_	_	_	
+1-96	548-550	te	_	_	_	_	
+1-97	551-559	številke	_	_	_	_	
+1-98	560-561	(	_	_	_	_	
+1-99	562-564	op	_	_	_	_	
+1-100	565-566	.	_	_	_	_	
+1-101	567-571	Tina	PER	_	*->3-11	*[3]	
+1-102	572-574	je	_	_	_	_	
+1-103	575-580	imela	_	_	_	_	
+1-104	581-589	številko	_	_	_	_	
+1-105	590-592	22	_	_	_	_	
+1-106	593-594	)	_	_	_	_	
+1-107	595-600	dobre	_	_	_	_	
+1-108	601-602	,	_	_	_	_	
+1-109	603-609	drugič	_	_	_	_	
+1-110	610-615	slabe	_	_	_	_	
+1-111	616-617	.	_	_	_	_	
+1-112	618-620	Če	_	_	_	_	
+1-113	621-622	v	_	_	_	_	
+1-114	623-625	to	_	_	_	_	
+1-115	626-628	ne	_	_	_	_	
+1-116	629-637	verjameš	_	_	_	_	
+1-117	638-639	,	_	_	_	_	
+1-118	640-642	se	_	_	_	_	
+1-119	643-649	stvari	_	_	_	_	
+1-120	650-652	ne	_	_	_	_	
+1-121	653-660	obrnejo	_	_	_	_	
+1-122	661-662	.	_	_	_	_	
+1-123	663-668	Moraš	_	_	_	_	
+1-124	669-676	verjeti	_	_	_	_	
+1-125	677-679	do	_	_	_	_	
+1-126	680-685	konca	_	_	_	_	
+1-127	686-687	.	_	_	_	_	
+1-128	688-691	Šla	_	_	*->3-12	*[3]	
+1-129	692-695	sem	_	_	_	_	
+1-130	696-701	korak	_	_	_	_	
+1-131	702-704	za	_	_	_	_	
+1-132	705-712	korakom	_	_	_	_	
+1-133	713-714	.	_	_	_	_	
+1-134	715-720	Želim	_	_	*->3-13	*[3]	
+1-135	721-723	si	_	_	_	_	
+1-136	724-730	naprej	_	_	_	_	
+1-137	731-732	.	_	_	_	_	
+1-138	733-738	Želim	_	_	*->3-14	*[3]	
+1-139	739-741	si	_	_	_	_	
+1-140	742-744	še	_	_	_	_	
+1-141	745-751	kakšno	_	_	_	_	
+1-142	752-759	medaljo	_	_	_	_	
+1-143	760-761	.	_	_	_	_	
+1-144	762-765	Vem	_	_	*->3-15	*[3]	
+1-145	766-767	,	_	_	_	_	
+1-146	768-770	da	_	_	_	_	
+1-147	771-774	sem	_	_	*->3-16	*[3]	
+1-148	775-783	sposobna	_	_	_	_	
+1-149	784-785	,	_	_	_	_	
+1-150	786-787	"	_	_	_	_	
+1-151	788-790	je	_	_	_	_	
+1-152	791-796	takoj	_	_	_	_	
+1-153	797-799	po	_	_	_	_	
+1-154	800-805	tekmi	_	_	_	_	
+1-155	806-812	dejala	_	_	_	_	
+1-156	813-821	Mazejeva	PER	_	*->3-17	*[3]	
+1-157	822-823	,	_	_	_	_	
+1-158	824-826	ki	_	_	_	_	
+1-159	827-829	je	_	_	_	_	
+1-160	830-834	tako	_	_	_	_	
+1-161	835-842	kronala	_	5 - Zelo pozitivno	*->3-18	*[3]	
+1-162	843-853	dolgoletno	_	_	_	_	
+1-163	854-858	trdo	_	_	_	_	
+1-164	859-863	delo	_	_	_	_	
+1-165	864-865	.	_	_	_	_	
+1-166	866-867	"	_	_	_	_	
+1-167	868-871	Vse	_	_	_	_	
+1-168	872-874	je	_	_	_	_	
+1-169	875-884	poplačano	_	_	_	_	
+1-170	885-886	.	_	_	_	_	
+1-171	887-888	"	_	_	_	_	
+1-172	889-894	Zlato	_	_	_	_	
+1-173	895-902	medaljo	_	_	_	_	
+1-174	903-905	si	_	_	_	_	
+1-175	906-908	je	_	_	_	_	
+1-176	909-910	z	_	_	_	_	
+1-177	911-922	najhitrejšo	_	_	_	_	
+1-178	923-929	vožnjo	_	_	_	_	
+1-179	930-939	priborila	_	_	_	_	
+1-180	940-949	Avstrijka	PER	_	*->7-1	*[7]	
+1-181	950-956	Andrea	PER[5]	4 - Pozitivno[16]	*->7-2	*[7]	
+1-182	957-968	Fischbacher	PER[5]	4 - Pozitivno[16]	*->7-2	*[7]	
+1-183	969-970	.	_	_	_	_	
+1-184	971-977	Tretje	_	_	_	_	
+1-185	978-983	mesto	_	_	_	_	
+1-186	984-986	je	_	_	_	_	
+1-187	987-992	odšlo	_	_	_	_	
+1-188	993-994	v	_	_	_	_	
+1-189	995-998	ZDA	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-190	999-1000	z	_	_	_	_	
+1-191	1001-1008	Lindsey	PER[6]	4 - Pozitivno[17]	*->9-1	*[9]	
+1-192	1009-1013	Vonn	PER[6]	4 - Pozitivno[17]	*->9-1	*[9]	
+1-193	1014-1015	.	_	_	_	_	
+1-194	1016-1021	Druga	_	2 - Negativno[18]	*->10-1	*[10]	
+1-195	1022-1031	slovenska	_	2 - Negativno[18]	*->10-1	*[10]	
+1-196	1032-1044	predstavnica	_	2 - Negativno[18]	*->10-1	*[10]	
+1-197	1045-1051	Maruša	PER[7]	2 - Negativno[18]	*->10-1	*[10]	
+1-198	1052-1056	Ferk	PER[7]	2 - Negativno[18]	*->10-1	*[10]	
+1-199	1057-1059	je	_	_	_	_	
+1-200	1060-1069	odstopila	_	_	_	_	
+1-201	1070-1071	.	_	_	_	_	
+1-202	1072-1079	Kranjec	PER	_	*->11-1	*[11]	
+1-203	1080-1086	končal	_	_	_	_	
+1-204	1087-1089	na	_	_	_	_	
+1-205	1090-1091	9	_	_	_	_	
+1-206	1092-1093	.	_	_	_	_	
+1-207	1094-1099	mestu	_	_	_	_	
+1-208	1100-1105	Tekma	_	_	_	_	
+1-209	1106-1107	v	_	_	_	_	
+1-210	1108-1118	smučarskih	_	_	_	_	
+1-211	1119-1125	skokih	_	_	_	_	
+1-212	1126-1128	na	_	_	_	_	
+1-213	1129-1135	veliki	_	_	_	_	
+1-214	1136-1146	skakalnici	_	_	_	_	
+1-215	1147-1149	se	_	_	_	_	
+1-216	1150-1152	ni	_	_	_	_	
+1-217	1153-1158	izšla	_	_	_	_	
+1-218	1159-1161	po	_	_	_	_	
+1-219	1162-1168	željah	_	_	_	_	
+1-220	1169-1179	slovenskih	_	_	_	_	
+1-221	1180-1189	skakalcev	_	_	_	_	
+1-222	1190-1191	.	_	_	_	_	
+1-223	1192-1199	Robertu	PER[8]	_	*->11-2	*[11]	
+1-224	1200-1207	Kranjcu	PER[8]	_	*->11-2	*[11]	
+1-225	1208-1212	skok	_	_	_	_	
+1-226	1213-1214	v	_	_	_	_	
+1-227	1215-1219	prvi	_	_	_	_	
+1-228	1220-1226	seriji	_	_	_	_	
+1-229	1227-1229	ni	_	_	_	_	
+1-230	1230-1235	uspel	_	_	_	_	
+1-231	1236-1237	,	_	_	_	_	
+1-232	1238-1244	končal	_	_	_	_	
+1-233	1245-1247	je	_	_	_	_	
+1-234	1248-1252	šele	_	_	_	_	
+1-235	1253-1255	na	_	_	_	_	
+1-236	1256-1258	27	_	_	_	_	
+1-237	1259-1260	.	_	_	_	_	
+1-238	1261-1266	mestu	_	_	_	_	
+1-239	1267-1268	,	_	_	_	_	
+1-240	1269-1270	v	_	_	_	_	
+1-241	1271-1277	drugem	_	_	_	_	
+1-242	1278-1280	pa	_	_	_	_	
+1-243	1281-1283	je	_	_	_	_	
+1-244	1284-1290	skočil	_	_	*->11-3	*[11]	
+1-245	1291-1298	odlično	_	_	_	_	
+1-246	1299-1301	in	_	_	_	_	
+1-247	1302-1304	na	_	_	_	_	
+1-248	1305-1310	koncu	_	_	_	_	
+1-249	1311-1317	končal	_	3 - Nevtralno	*->11-4	*[11]	
+1-250	1318-1320	na	_	_	_	_	
+1-251	1321-1322	9	_	_	_	_	
+1-252	1323-1324	.	_	_	_	_	
+1-253	1325-1330	mestu	_	_	_	_	
+1-254	1331-1332	.	_	_	_	_	
+1-255	1333-1338	Peter	PER[9]	3 - Nevtralno[19]	*->12-1	*[12]	
+1-256	1339-1344	Prevc	PER[9]	3 - Nevtralno[19]	*->12-1	*[12]	
+1-257	1345-1347	je	_	_	_	_	
+1-258	1348-1353	tekmo	_	_	_	_	
+1-259	1354-1360	končal	_	_	_	_	
+1-260	1361-1363	na	_	_	_	_	
+1-261	1364-1366	16	_	_	_	_	
+1-262	1367-1368	.	_	_	_	_	
+1-263	1369-1374	mestu	_	_	_	_	
+1-264	1375-1376	,	_	_	_	_	
+1-265	1377-1382	Mitja	PER[10]	3 - Nevtralno[20]	*->13-1	*[13]	
+1-266	1383-1389	Mežnar	PER[10]	3 - Nevtralno[20]	*->13-1	*[13]	
+1-267	1390-1392	pa	_	_	_	_	
+1-268	1393-1395	na	_	_	_	_	
+1-269	1396-1398	29	_	_	_	_	
+1-270	1399-1400	.	_	_	_	_	
+1-271	1401-1407	Zmagal	_	_	_	_	
+1-272	1408-1410	je	_	_	_	_	
+1-273	1411-1417	Švicar	PER	_	*->14-1	*[14]	
+1-274	1418-1423	Simon	PER[11]	_	*->14-2	*[14]	
+1-275	1424-1429	Amman	PER[11]	_	*->14-2	*[14]	
+1-276	1430-1431	,	_	_	_	_	
+1-277	1432-1434	ki	_	_	_	_	
+1-278	1435-1438	ima	_	_	*->14-3	*[14]	
+1-279	1439-1443	tako	_	_	_	_	
+1-280	1444-1447	kot	_	_	_	_	
+1-281	1448-1452	prvi	_	5 - Zelo pozitivno[21]	*->14-4	*[14]	
+1-282	1453-1461	skakalec	_	5 - Zelo pozitivno[21]	*->14-4	*[14]	
+1-283	1462-1463	v	_	5 - Zelo pozitivno[21]	*->14-4	*[14]	
+1-284	1464-1473	zgodovini	_	5 - Zelo pozitivno[21]	*->14-4	*[14]	
+1-285	1474-1479	štiri	_	_	_	_	
+1-286	1480-1489	posamične	_	_	_	_	
+1-287	1490-1495	zmage	_	_	_	_	
+1-288	1496-1498	na	_	_	_	_	
+1-289	1499-1510	olimpijskih	_	_	_	_	
+1-290	1511-1516	igrah	_	_	_	_	
+1-291	1517-1518	.	_	_	_	_	
+1-292	1519-1526	Srebrno	_	_	_	_	
+1-293	1527-1534	medaljo	_	_	_	_	
+1-294	1535-1537	je	_	_	_	_	
+1-295	1538-1545	osvojil	_	_	_	_	
+1-296	1546-1552	Poljak	PER	_	*->2-1	*[2]	
+1-297	1553-1557	Adam	PER[12]	4 - Pozitivno[22]	*->2-2	*[2]	
+1-298	1558-1564	Malysz	PER[12]	4 - Pozitivno[22]	*->2-2	*[2]	
+1-299	1565-1566	,	_	_	_	_	
+1-300	1567-1571	bron	_	_	_	_	
+1-301	1572-1574	pa	_	_	_	_	
+1-302	1575-1584	Avstrijec	PER	_	*->1-1	*[1]	
+1-303	1585-1591	Gregor	PER[13]	4 - Pozitivno[23]	*->1-2	*[1]	
+1-304	1592-1606	Schlierenzauer	PER[13]	4 - Pozitivno[23]	*->1-2	*[1]	

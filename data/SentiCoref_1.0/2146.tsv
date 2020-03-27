@@ -1,0 +1,282 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Nova Gorica - Namera ministrstva za finance , da bodo izpeljali privatizacijo Nove Kreditne banke Maribor s prodajo svojega deleža , močno odmeva tudi na Goriškem . Novogoriški župan Mirko Brulc zahteva od vlade delež , ki naj bi pripadel bodoči goriški pokrajini . " Vložek Komercialne banke Nova Gorica v Novo KBM zdaj lokalne skupnosti zahtevamo nazaj . Predlagamo 25 odstotkov in eno delnico . Goriška podjetja so vlagala v preteklosti ogromna sredstva in bogastvo te banke izhaja prav iz sredstev našega gospodarstva , " pravi župan Mirko Brulc v imenu županov z območja Goriške . Joško Štrukelj , član Foruma za Goriško in nekdanji namestnik guvernerja Narodne banke Jugoslavije , dodaja , da se pri Forumu za Goriško že dolgo borijo za vrnitev banke na Goriško . Predlaga , da država da 51 - odstotni delež goriškim in mariborskim občinam . " Za to , da smo izgubili banko , je bil glavni krivec Marjan Podobnik , leta 1994 podpredsednik vlade , ko mi je na pogovorih v Kromberku pri Novi Gorici dejal , da bodo banko odpeljali v Maribor , kjer bodo šteli politične glasove stranke , " meni Joško Štrukelj . V zvezi z lastninjenjem Nove KBM so se oglasili tudi pri Zvezi za Primorsko , ki poziva ministra za finance Andreja Bajuka , da se sestane s severnoprimorskimi župani , gospodarstveniki in predstavniki varčevalcev ter poskuša vsaj delno popraviti krivico . " Če ministrstvo za finance ne bo ugodilo naši zahtevi , bomo razmislili o drugih akcijah . Tudi o tem , da bomo komitente poskušali preusmeriti v neko drugo , bolj našo banko , " še dodaja Mirko Brulc
+1-1	0-4	Nova	LOC[1]	_	*->1-1	*[1]	
+1-2	5-11	Gorica	LOC[1]	_	*->1-1	*[1]	
+1-3	12-13	-	_	_	_	_	
+1-4	14-20	Namera	_	_	_	_	
+1-5	21-32	ministrstva	_	_	_	_	
+1-6	33-35	za	_	_	_	_	
+1-7	36-43	finance	_	_	_	_	
+1-8	44-45	,	_	_	_	_	
+1-9	46-48	da	_	_	_	_	
+1-10	49-53	bodo	_	_	_	_	
+1-11	54-63	izpeljali	_	_	_	_	
+1-12	64-77	privatizacijo	_	_	_	_	
+1-13	78-82	Nove	ORG[2]	_	*->11-1	*[11]	
+1-14	83-91	Kreditne	ORG[2]	_	*->11-1	*[11]	
+1-15	92-97	banke	ORG[2]	_	*->11-1	*[11]	
+1-16	98-105	Maribor	ORG[2]|LOC[3]	_	*->11-1|*->2-1	*[11]|*[2]	
+1-17	106-107	s	_	_	_	_	
+1-18	108-115	prodajo	_	_	_	_	
+1-19	116-123	svojega	_	_	_	_	
+1-20	124-130	deleža	_	_	_	_	
+1-21	131-132	,	_	_	_	_	
+1-22	133-138	močno	_	_	_	_	
+1-23	139-145	odmeva	_	_	_	_	
+1-24	146-150	tudi	_	_	_	_	
+1-25	151-153	na	_	_	_	_	
+1-26	154-162	Goriškem	LOC	_	*->15-1	*[15]	
+1-27	163-164	.	_	_	_	_	
+1-28	165-176	Novogoriški	_	_	*->3-1	*[3]	
+1-29	177-182	župan	_	_	*->3-1	*[3]	
+1-30	183-188	Mirko	PER[4]	_	*->3-1	*[3]	
+1-31	189-194	Brulc	PER[4]	_	*->3-1	*[3]	
+1-32	195-202	zahteva	_	_	_	_	
+1-33	203-205	od	_	_	_	_	
+1-34	206-211	vlade	_	_	_	_	
+1-35	212-217	delež	_	_	_	_	
+1-36	218-219	,	_	_	_	_	
+1-37	220-222	ki	_	_	_	_	
+1-38	223-226	naj	_	_	_	_	
+1-39	227-229	bi	_	_	_	_	
+1-40	230-238	pripadel	_	_	_	_	
+1-41	239-245	bodoči	_	_	_	_	
+1-42	246-253	goriški	_	_	*->15-2	*[15]	
+1-43	254-263	pokrajini	_	_	*->15-2	*[15]	
+1-44	264-265	.	_	_	_	_	
+1-45	266-267	"	_	_	_	_	
+1-46	268-274	Vložek	_	_	_	_	
+1-47	275-286	Komercialne	ORG[5]	3 - Nevtralno[24]	*->4-1	*[4]	
+1-48	287-292	banke	ORG[5]	3 - Nevtralno[24]	*->4-1	*[4]	
+1-49	293-297	Nova	ORG[5]|LOC[6]	3 - Nevtralno[24]	*->4-1|*->1-2	*[4]|*[1]	
+1-50	298-304	Gorica	ORG[5]|LOC[6]	3 - Nevtralno[24]	*->4-1|*->1-2	*[4]|*[1]	
+1-51	305-306	v	_	_	_	_	
+1-52	307-311	Novo	ORG[7]	_	*->11-2	*[11]	
+1-53	312-315	KBM	ORG[7]	_	*->11-2	*[11]	
+1-54	316-320	zdaj	_	_	_	_	
+1-55	321-328	lokalne	_	_	_	_	
+1-56	329-338	skupnosti	_	_	_	_	
+1-57	339-348	zahtevamo	_	_	_	_	
+1-58	349-354	nazaj	_	_	_	_	
+1-59	355-356	.	_	_	_	_	
+1-60	357-367	Predlagamo	_	_	_	_	
+1-61	368-370	25	_	_	_	_	
+1-62	371-380	odstotkov	_	_	_	_	
+1-63	381-383	in	_	_	_	_	
+1-64	384-387	eno	_	_	_	_	
+1-65	388-395	delnico	_	_	_	_	
+1-66	396-397	.	_	_	_	_	
+1-67	398-405	Goriška	_	_	_	_	
+1-68	406-414	podjetja	_	_	_	_	
+1-69	415-417	so	_	_	_	_	
+1-70	418-425	vlagala	_	_	_	_	
+1-71	426-427	v	_	_	_	_	
+1-72	428-439	preteklosti	_	_	_	_	
+1-73	440-447	ogromna	_	_	_	_	
+1-74	448-456	sredstva	_	_	_	_	
+1-75	457-459	in	_	_	_	_	
+1-76	460-468	bogastvo	_	_	_	_	
+1-77	469-471	te	_	_	_	_	
+1-78	472-477	banke	_	_	*->11-3	*[11]	
+1-79	478-484	izhaja	_	_	_	_	
+1-80	485-489	prav	_	_	_	_	
+1-81	490-492	iz	_	_	_	_	
+1-82	493-501	sredstev	_	_	_	_	
+1-83	502-508	našega	_	_	_	_	
+1-84	509-521	gospodarstva	_	_	_	_	
+1-85	522-523	,	_	_	_	_	
+1-86	524-525	"	_	_	_	_	
+1-87	526-531	pravi	_	_	_	_	
+1-88	532-537	župan	_	_	*->3-2	*[3]	
+1-89	538-543	Mirko	PER[8]	_	*->3-2	*[3]	
+1-90	544-549	Brulc	PER[8]	_	*->3-2	*[3]	
+1-91	550-551	v	_	_	_	_	
+1-92	552-557	imenu	_	_	_	_	
+1-93	558-565	županov	_	_	_	_	
+1-94	566-567	z	_	_	_	_	
+1-95	568-575	območja	_	_	_	_	
+1-96	576-583	Goriške	LOC	_	*->15-3	*[15]	
+1-97	584-585	.	_	_	_	_	
+1-98	586-591	Joško	PER[9]	_	*->5-1	*[5]	
+1-99	592-600	Štrukelj	PER[9]	_	*->5-1	*[5]	
+1-100	601-602	,	_	_	_	_	
+1-101	603-607	član	_	_	*->5-2	*[5]	
+1-102	608-614	Foruma	ORG[10]	_	*->5-2|*->8-1	*[5]|*[8]	
+1-103	615-617	za	ORG[10]	_	*->5-2|*->8-1	*[5]|*[8]	
+1-104	618-625	Goriško	ORG[10]|LOC[11]	_	*->5-2|*->8-1|*->15-4	*[5]|*[8]|*[15]	
+1-105	626-628	in	_	_	_	_	
+1-106	629-637	nekdanji	_	_	*->5-3	*[5]	
+1-107	638-647	namestnik	_	_	*->5-3	*[5]	
+1-108	648-658	guvernerja	_	_	*->5-3	*[5]	
+1-109	659-666	Narodne	ORG[12]	3 - Nevtralno[25]	*->5-3|*->6-1	*[5]|*[6]	
+1-110	667-672	banke	ORG[12]	3 - Nevtralno[25]	*->5-3|*->6-1	*[5]|*[6]	
+1-111	673-684	Jugoslavije	ORG[12]|LOC[13]	3 - Nevtralno[25]|3 - Nevtralno[26]	*->5-3|*->6-1|*->7-1	*[5]|*[6]|*[7]	
+1-112	685-686	,	_	_	_	_	
+1-113	687-693	dodaja	_	_	_	_	
+1-114	694-695	,	_	_	_	_	
+1-115	696-698	da	_	_	_	_	
+1-116	699-701	se	_	_	_	_	
+1-117	702-705	pri	_	_	_	_	
+1-118	706-712	Forumu	ORG[14]	3 - Nevtralno[27]	*->8-2	*[8]	
+1-119	713-715	za	ORG[14]	3 - Nevtralno[27]	*->8-2	*[8]	
+1-120	716-723	Goriško	ORG[14]|LOC[15]	3 - Nevtralno[27]	*->8-2|*->15-5	*[8]|*[15]	
+1-121	724-726	že	_	_	_	_	
+1-122	727-732	dolgo	_	_	_	_	
+1-123	733-739	borijo	_	_	_	_	
+1-124	740-742	za	_	_	_	_	
+1-125	743-750	vrnitev	_	_	_	_	
+1-126	751-756	banke	_	_	*->11-4	*[11]	
+1-127	757-759	na	_	_	_	_	
+1-128	760-767	Goriško	LOC	3 - Nevtralno	*->15-6	*[15]	
+1-129	768-769	.	_	_	_	_	
+1-130	770-778	Predlaga	_	_	*->5-4	*[5]	
+1-131	779-780	,	_	_	_	_	
+1-132	781-783	da	_	_	_	_	
+1-133	784-790	država	_	_	_	_	
+1-134	791-793	da	_	_	_	_	
+1-135	794-796	51	_	_	_	_	
+1-136	797-798	-	_	_	_	_	
+1-137	799-807	odstotni	_	_	_	_	
+1-138	808-813	delež	_	_	_	_	
+1-139	814-822	goriškim	_	_	_	_	
+1-140	823-825	in	_	_	_	_	
+1-141	826-837	mariborskim	_	_	_	_	
+1-142	838-845	občinam	_	_	_	_	
+1-143	846-847	.	_	_	_	_	
+1-144	848-849	"	_	_	_	_	
+1-145	850-852	Za	_	_	_	_	
+1-146	853-855	to	_	_	_	_	
+1-147	856-857	,	_	_	_	_	
+1-148	858-860	da	_	_	_	_	
+1-149	861-864	smo	_	_	_	_	
+1-150	865-873	izgubili	_	_	_	_	
+1-151	874-879	banko	_	_	*->11-5	*[11]	
+1-152	880-881	,	_	_	_	_	
+1-153	882-884	je	_	_	_	_	
+1-154	885-888	bil	_	_	_	_	
+1-155	889-895	glavni	_	_	*->9-1	*[9]	
+1-156	896-902	krivec	_	_	*->9-1	*[9]	
+1-157	903-909	Marjan	PER[16]	_	*->9-1	*[9]	
+1-158	910-918	Podobnik	PER[16]	_	*->9-1	*[9]	
+1-159	919-920	,	_	_	_	_	
+1-160	921-925	leta	_	_	_	_	
+1-161	926-930	1994	_	_	_	_	
+1-162	931-944	podpredsednik	_	_	*->9-2	*[9]	
+1-163	945-950	vlade	_	_	*->9-2	*[9]	
+1-164	951-952	,	_	_	_	_	
+1-165	953-955	ko	_	_	_	_	
+1-166	956-958	mi	_	_	*->5-5	*[5]	
+1-167	959-961	je	_	_	_	_	
+1-168	962-964	na	_	_	_	_	
+1-169	965-974	pogovorih	_	_	_	_	
+1-170	975-976	v	_	_	_	_	
+1-171	977-986	Kromberku	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-172	987-990	pri	_	_	_	_	
+1-173	991-995	Novi	LOC[17]	3 - Nevtralno[28]	*->1-3	*[1]	
+1-174	996-1002	Gorici	LOC[17]	3 - Nevtralno[28]	*->1-3	*[1]	
+1-175	1003-1008	dejal	_	2 - Negativno	*->9-3	*[9]	
+1-176	1009-1010	,	_	_	_	_	
+1-177	1011-1013	da	_	_	_	_	
+1-178	1014-1018	bodo	_	_	_	_	
+1-179	1019-1024	banko	_	_	*->11-6	*[11]	
+1-180	1025-1034	odpeljali	_	_	_	_	
+1-181	1035-1036	v	_	_	_	_	
+1-182	1037-1044	Maribor	LOC	3 - Nevtralno	*->2-2	*[2]	
+1-183	1045-1046	,	_	_	_	_	
+1-184	1047-1051	kjer	_	_	_	_	
+1-185	1052-1056	bodo	_	_	_	_	
+1-186	1057-1062	šteli	_	_	_	_	
+1-187	1063-1072	politične	_	_	_	_	
+1-188	1073-1080	glasove	_	_	_	_	
+1-189	1081-1088	stranke	_	_	_	_	
+1-190	1089-1090	,	_	_	_	_	
+1-191	1091-1092	"	_	_	_	_	
+1-192	1093-1097	meni	_	_	_	_	
+1-193	1098-1103	Joško	PER[18]	4 - Pozitivno[29]	*->5-6	*[5]	
+1-194	1104-1112	Štrukelj	PER[18]	4 - Pozitivno[29]	*->5-6	*[5]	
+1-195	1113-1114	.	_	_	_	_	
+1-196	1115-1116	V	_	_	_	_	
+1-197	1117-1122	zvezi	_	_	_	_	
+1-198	1123-1124	z	_	_	_	_	
+1-199	1125-1138	lastninjenjem	_	_	_	_	
+1-200	1139-1143	Nove	ORG[19]	2 - Negativno[30]	*->11-7	*[11]	
+1-201	1144-1147	KBM	ORG[19]	2 - Negativno[30]	*->11-7	*[11]	
+1-202	1148-1150	so	_	_	_	_	
+1-203	1151-1153	se	_	_	_	_	
+1-204	1154-1162	oglasili	_	_	_	_	
+1-205	1163-1167	tudi	_	_	_	_	
+1-206	1168-1171	pri	_	_	_	_	
+1-207	1172-1177	Zvezi	ORG[20]	_	*->12-1	*[12]	
+1-208	1178-1180	za	ORG[20]	_	*->12-1	*[12]	
+1-209	1181-1190	Primorsko	ORG[20]|LOC[21]	3 - Nevtralno	*->12-1|*->13-1	*[12]|*[13]	
+1-210	1191-1192	,	_	_	_	_	
+1-211	1193-1195	ki	_	_	_	_	
+1-212	1196-1202	poziva	_	_	*->12-2	*[12]	
+1-213	1203-1211	ministra	_	3 - Nevtralno[31]	*->14-1	*[14]	
+1-214	1212-1214	za	_	3 - Nevtralno[31]	*->14-1	*[14]	
+1-215	1215-1222	finance	_	3 - Nevtralno[31]	*->14-1	*[14]	
+1-216	1223-1230	Andreja	PER[22]	3 - Nevtralno[31]	*->14-1	*[14]	
+1-217	1231-1237	Bajuka	PER[22]	3 - Nevtralno[31]	*->14-1	*[14]	
+1-218	1238-1239	,	_	_	_	_	
+1-219	1240-1242	da	_	_	_	_	
+1-220	1243-1245	se	_	_	_	_	
+1-221	1246-1253	sestane	_	_	*->14-2	*[14]	
+1-222	1254-1255	s	_	_	_	_	
+1-223	1256-1274	severnoprimorskimi	_	_	_	_	
+1-224	1275-1281	župani	_	_	_	_	
+1-225	1282-1283	,	_	_	_	_	
+1-226	1284-1300	gospodarstveniki	_	_	_	_	
+1-227	1301-1303	in	_	_	_	_	
+1-228	1304-1316	predstavniki	_	_	_	_	
+1-229	1317-1328	varčevalcev	_	_	_	_	
+1-230	1329-1332	ter	_	_	_	_	
+1-231	1333-1340	poskuša	_	2 - Negativno	*->14-3	*[14]	
+1-232	1341-1345	vsaj	_	_	_	_	
+1-233	1346-1351	delno	_	_	_	_	
+1-234	1352-1361	popraviti	_	_	_	_	
+1-235	1362-1369	krivico	_	_	_	_	
+1-236	1370-1371	.	_	_	_	_	
+1-237	1372-1373	"	_	_	_	_	
+1-238	1374-1376	Če	_	_	_	_	
+1-239	1377-1388	ministrstvo	_	_	_	_	
+1-240	1389-1391	za	_	_	_	_	
+1-241	1392-1399	finance	_	_	_	_	
+1-242	1400-1402	ne	_	_	_	_	
+1-243	1403-1405	bo	_	_	_	_	
+1-244	1406-1413	ugodilo	_	_	_	_	
+1-245	1414-1418	naši	_	_	*->12-3	*[12]	
+1-246	1419-1426	zahtevi	_	_	_	_	
+1-247	1427-1428	,	_	_	_	_	
+1-248	1429-1433	bomo	_	_	_	_	
+1-249	1434-1444	razmislili	_	_	*->12-4	*[12]	
+1-250	1445-1446	o	_	_	_	_	
+1-251	1447-1453	drugih	_	_	_	_	
+1-252	1454-1461	akcijah	_	_	_	_	
+1-253	1462-1463	.	_	_	_	_	
+1-254	1464-1468	Tudi	_	_	_	_	
+1-255	1469-1470	o	_	_	_	_	
+1-256	1471-1474	tem	_	_	_	_	
+1-257	1475-1476	,	_	_	_	_	
+1-258	1477-1479	da	_	_	_	_	
+1-259	1480-1484	bomo	_	_	_	_	
+1-260	1485-1494	komitente	_	_	_	_	
+1-261	1495-1504	poskušali	_	_	*->12-5	*[12]	
+1-262	1505-1516	preusmeriti	_	_	_	_	
+1-263	1517-1518	v	_	_	_	_	
+1-264	1519-1523	neko	_	_	_	_	
+1-265	1524-1529	drugo	_	_	_	_	
+1-266	1530-1531	,	_	_	_	_	
+1-267	1532-1536	bolj	_	_	_	_	
+1-268	1537-1541	našo	_	4 - Pozitivno	*->12-6	*[12]	
+1-269	1542-1547	banko	_	_	_	_	
+1-270	1548-1549	,	_	_	_	_	
+1-271	1550-1551	"	_	_	_	_	
+1-272	1552-1554	še	_	_	_	_	
+1-273	1555-1561	dodaja	_	_	_	_	
+1-274	1562-1567	Mirko	PER[23]	4 - Pozitivno[32]	*->3-3	*[3]	
+1-275	1568-1573	Brulc	PER[23]	4 - Pozitivno[32]	*->3-3	*[3]	

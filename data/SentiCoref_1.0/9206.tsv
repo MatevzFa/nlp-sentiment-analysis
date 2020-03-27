@@ -1,0 +1,306 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Med najbolj iskanimi pojmi na spletnem iskalniku najdi.si so se znašli horoskop , La Toya , Artur Štern in afera Baričevič . V prvi polovici letošnjega leta so Slovenci na spletnem iskalniku najpogosteje vtipkali besedo horoskop , ki je prišla na prvo mesto lestvice najbolj iskanih besed . Kaj nam prinaša usoda , je očitno še vedno vprašanje , ki Slovence najbolj zanima . Poraslo pa je tudi zanimanje za spletne skupnosti , saj se je na lestvico uvrstila tudi beseda facebook , pred njo je bilo le še vreme , sledile pa so ji besede gmail , google , 24 ur , avto.net , sex , netlog in prvič tudi zavod za zaposlovanje . Afera Baričevič razburkala javnost Med najbolj vročimi dogodki pa se je znašla afera Baričevič , ki je zabeležila nekaj deset tisoč več iskanj kot drugi dogodki . Poleg razvpite afere z bulmastifi so pozornost Slovencev dobili še akcija Očistimo Slovenijo v enem dnevu , šov Slovenija ima talent , Evrosong ter svetovno prvenstvo v nogometu . Zanimanje sta žela La Toya in Artur Štern Slovenka , ki je na spletu požela največ zanimanja , je bila pornozvezda La Toya , med moškimi pa so Slovenci najbolj iskali njenega moža Arturja Šterna . Obiskovalci spleta so največkrat vtipkali še ime Saše Einsiedler in Petre Majdič , kar pa se tiče moških , je bilo največkrat vtipkano ime Jana Plestenjaka ter Slavka Avsenika in Lojzeta Slaka . Med najbolj iskanimi imeni sta se prvič znašla tudi Bojan Požar in Srečko Prijatelj . Med najbolj iskanimi glasbeniki se je znašla Urša Čepin , najbolj iskan športnik je bila Petra Majdič , med politiki pa je Janezu Janši prestol spodmaknila Katarina Kresal . Med gospodarstveniki se je tokrat zaradi nesrečnega dogodka znašel pokojni predsednik uprave Abanke Aleš Žajdela
+1-1	0-3	Med	_	_	_	_	
+1-2	4-11	najbolj	_	_	_	_	
+1-3	12-20	iskanimi	_	_	_	_	
+1-4	21-26	pojmi	_	_	_	_	
+1-5	27-29	na	_	_	_	_	
+1-6	30-38	spletnem	_	_	_	_	
+1-7	39-48	iskalniku	_	_	_	_	
+1-8	49-57	najdi.si	_	_	_	_	
+1-9	58-60	so	_	_	_	_	
+1-10	61-63	se	_	_	_	_	
+1-11	64-70	znašli	_	_	_	_	
+1-12	71-79	horoskop	_	_	_	_	
+1-13	80-81	,	_	_	_	_	
+1-14	82-84	La	PER[1]	_	*->1-1	*[1]	
+1-15	85-89	Toya	PER[1]	_	*->1-1	*[1]	
+1-16	90-91	,	_	_	_	_	
+1-17	92-97	Artur	PER[2]	_	*->2-1	*[2]	
+1-18	98-103	Štern	PER[2]	_	*->2-1	*[2]	
+1-19	104-106	in	_	_	_	_	
+1-20	107-112	afera	_	_	_	_	
+1-21	113-122	Baričevič	PER	_	*->3-1	*[3]	
+1-22	123-124	.	_	_	_	_	
+1-23	125-126	V	_	_	_	_	
+1-24	127-131	prvi	_	_	_	_	
+1-25	132-140	polovici	_	_	_	_	
+1-26	141-151	letošnjega	_	_	_	_	
+1-27	152-156	leta	_	_	_	_	
+1-28	157-159	so	_	_	_	_	
+1-29	160-168	Slovenci	PER	_	*->4-1	*[4]	
+1-30	169-171	na	_	_	_	_	
+1-31	172-180	spletnem	_	_	_	_	
+1-32	181-190	iskalniku	_	_	_	_	
+1-33	191-203	najpogosteje	_	_	_	_	
+1-34	204-212	vtipkali	_	_	_	_	
+1-35	213-219	besedo	_	_	_	_	
+1-36	220-228	horoskop	_	_	_	_	
+1-37	229-230	,	_	_	_	_	
+1-38	231-233	ki	_	_	_	_	
+1-39	234-236	je	_	_	_	_	
+1-40	237-243	prišla	_	_	_	_	
+1-41	244-246	na	_	_	_	_	
+1-42	247-251	prvo	_	_	_	_	
+1-43	252-257	mesto	_	_	_	_	
+1-44	258-266	lestvice	_	_	_	_	
+1-45	267-274	najbolj	_	_	_	_	
+1-46	275-282	iskanih	_	_	_	_	
+1-47	283-288	besed	_	_	_	_	
+1-48	289-290	.	_	_	_	_	
+1-49	291-294	Kaj	_	_	_	_	
+1-50	295-298	nam	_	_	_	_	
+1-51	299-306	prinaša	_	_	_	_	
+1-52	307-312	usoda	_	_	_	_	
+1-53	313-314	,	_	_	_	_	
+1-54	315-317	je	_	_	_	_	
+1-55	318-324	očitno	_	_	_	_	
+1-56	325-327	še	_	_	_	_	
+1-57	328-333	vedno	_	_	_	_	
+1-58	334-343	vprašanje	_	_	_	_	
+1-59	344-345	,	_	_	_	_	
+1-60	346-348	ki	_	_	_	_	
+1-61	349-357	Slovence	PER	_	*->4-2	*[4]	
+1-62	358-365	najbolj	_	_	_	_	
+1-63	366-372	zanima	_	_	_	_	
+1-64	373-374	.	_	_	_	_	
+1-65	375-382	Poraslo	_	_	_	_	
+1-66	383-385	pa	_	_	_	_	
+1-67	386-388	je	_	_	_	_	
+1-68	389-393	tudi	_	_	_	_	
+1-69	394-403	zanimanje	_	_	_	_	
+1-70	404-406	za	_	_	_	_	
+1-71	407-414	spletne	_	_	_	_	
+1-72	415-424	skupnosti	_	_	_	_	
+1-73	425-426	,	_	_	_	_	
+1-74	427-430	saj	_	_	_	_	
+1-75	431-433	se	_	_	_	_	
+1-76	434-436	je	_	_	_	_	
+1-77	437-439	na	_	_	_	_	
+1-78	440-448	lestvico	_	_	_	_	
+1-79	449-457	uvrstila	_	_	_	_	
+1-80	458-462	tudi	_	_	_	_	
+1-81	463-469	beseda	_	_	_	_	
+1-82	470-478	facebook	ORG	3 - Nevtralno	*->5-1	*[5]	
+1-83	479-480	,	_	_	_	_	
+1-84	481-485	pred	_	_	_	_	
+1-85	486-489	njo	_	_	_	_	
+1-86	490-492	je	_	_	_	_	
+1-87	493-497	bilo	_	_	_	_	
+1-88	498-500	le	_	_	_	_	
+1-89	501-503	še	_	_	_	_	
+1-90	504-509	vreme	_	_	_	_	
+1-91	510-511	,	_	_	_	_	
+1-92	512-519	sledile	_	_	_	_	
+1-93	520-522	pa	_	_	_	_	
+1-94	523-525	so	_	_	_	_	
+1-95	526-528	ji	_	_	_	_	
+1-96	529-535	besede	_	_	_	_	
+1-97	536-541	gmail	_	_	_	_	
+1-98	542-543	,	_	_	_	_	
+1-99	544-550	google	ORG	3 - Nevtralno	*->6-1	*[6]	
+1-100	551-552	,	_	_	_	_	
+1-101	553-555	24	_	_	_	_	
+1-102	556-558	ur	_	_	_	_	
+1-103	559-560	,	_	_	_	_	
+1-104	561-569	avto.net	_	_	_	_	
+1-105	570-571	,	_	_	_	_	
+1-106	572-575	sex	_	_	_	_	
+1-107	576-577	,	_	_	_	_	
+1-108	578-584	netlog	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-109	585-587	in	_	_	_	_	
+1-110	588-593	prvič	_	_	_	_	
+1-111	594-598	tudi	_	_	_	_	
+1-112	599-604	zavod	ORG[3]	3 - Nevtralno[20]	*->8-1	*[8]	
+1-113	605-607	za	ORG[3]	3 - Nevtralno[20]	*->8-1	*[8]	
+1-114	608-620	zaposlovanje	ORG[3]	3 - Nevtralno[20]	*->8-1	*[8]	
+1-115	621-622	.	_	_	_	_	
+1-116	623-628	Afera	_	_	_	_	
+1-117	629-638	Baričevič	PER	_	*->3-2	*[3]	
+1-118	639-649	razburkala	_	_	_	_	
+1-119	650-657	javnost	_	_	_	_	
+1-120	658-661	Med	_	_	_	_	
+1-121	662-669	najbolj	_	_	_	_	
+1-122	670-677	vročimi	_	_	_	_	
+1-123	678-685	dogodki	_	_	_	_	
+1-124	686-688	pa	_	_	_	_	
+1-125	689-691	se	_	_	_	_	
+1-126	692-694	je	_	_	_	_	
+1-127	695-701	znašla	_	_	_	_	
+1-128	702-707	afera	_	_	_	_	
+1-129	708-717	Baričevič	PER	3 - Nevtralno	*->3-3	*[3]	
+1-130	718-719	,	_	_	_	_	
+1-131	720-722	ki	_	_	_	_	
+1-132	723-725	je	_	_	_	_	
+1-133	726-736	zabeležila	_	_	_	_	
+1-134	737-742	nekaj	_	_	_	_	
+1-135	743-748	deset	_	_	_	_	
+1-136	749-754	tisoč	_	_	_	_	
+1-137	755-758	več	_	_	_	_	
+1-138	759-765	iskanj	_	_	_	_	
+1-139	766-769	kot	_	_	_	_	
+1-140	770-775	drugi	_	_	_	_	
+1-141	776-783	dogodki	_	_	_	_	
+1-142	784-785	.	_	_	_	_	
+1-143	786-791	Poleg	_	_	_	_	
+1-144	792-800	razvpite	_	_	_	_	
+1-145	801-806	afere	_	_	_	_	
+1-146	807-808	z	_	_	_	_	
+1-147	809-819	bulmastifi	_	_	_	_	
+1-148	820-822	so	_	_	_	_	
+1-149	823-832	pozornost	_	_	_	_	
+1-150	833-842	Slovencev	PER	_	*->4-3	*[4]	
+1-151	843-849	dobili	_	_	_	_	
+1-152	850-852	še	_	_	_	_	
+1-153	853-859	akcija	_	_	_	_	
+1-154	860-868	Očistimo	_	_	_	_	
+1-155	869-878	Slovenijo	LOC	_	*->9-1	*[9]	
+1-156	879-880	v	_	_	_	_	
+1-157	881-885	enem	_	_	_	_	
+1-158	886-891	dnevu	_	_	_	_	
+1-159	892-893	,	_	_	_	_	
+1-160	894-897	šov	_	_	_	_	
+1-161	898-907	Slovenija	LOC	3 - Nevtralno	*->9-2	*[9]	
+1-162	908-911	ima	_	_	_	_	
+1-163	912-918	talent	_	_	_	_	
+1-164	919-920	,	_	_	_	_	
+1-165	921-929	Evrosong	_	_	_	_	
+1-166	930-933	ter	_	_	_	_	
+1-167	934-942	svetovno	_	_	_	_	
+1-168	943-952	prvenstvo	_	_	_	_	
+1-169	953-954	v	_	_	_	_	
+1-170	955-963	nogometu	_	_	_	_	
+1-171	964-965	.	_	_	_	_	
+1-172	966-975	Zanimanje	_	_	_	_	
+1-173	976-979	sta	_	_	_	_	
+1-174	980-984	žela	_	_	_	_	
+1-175	985-987	La	PER[4]	_	*->1-2	*[1]	
+1-176	988-992	Toya	PER[4]	_	*->1-2	*[1]	
+1-177	993-995	in	_	_	_	_	
+1-178	996-1001	Artur	PER[5]	_	*->2-2	*[2]	
+1-179	1002-1007	Štern	PER[5]	_	*->2-2	*[2]	
+1-180	1008-1016	Slovenka	_	_	*->1-3	*[1]	
+1-181	1017-1018	,	_	_	*->1-3	*[1]	
+1-182	1019-1021	ki	_	_	*->1-3	*[1]	
+1-183	1022-1024	je	_	_	*->1-3	*[1]	
+1-184	1025-1027	na	_	_	*->1-3	*[1]	
+1-185	1028-1034	spletu	_	_	*->1-3	*[1]	
+1-186	1035-1041	požela	_	_	*->1-3	*[1]	
+1-187	1042-1048	največ	_	_	*->1-3	*[1]	
+1-188	1049-1058	zanimanja	_	_	*->1-3	*[1]	
+1-189	1059-1060	,	_	_	_	_	
+1-190	1061-1063	je	_	_	_	_	
+1-191	1064-1068	bila	_	_	_	_	
+1-192	1069-1080	pornozvezda	_	_	*->1-4	*[1]	
+1-193	1081-1083	La	PER[6]	_	*->1-4	*[1]	
+1-194	1084-1088	Toya	PER[6]	_	*->1-4	*[1]	
+1-195	1089-1090	,	_	_	_	_	
+1-196	1091-1094	med	_	_	_	_	
+1-197	1095-1102	moškimi	_	_	_	_	
+1-198	1103-1105	pa	_	_	_	_	
+1-199	1106-1108	so	_	_	_	_	
+1-200	1109-1117	Slovenci	PER	3 - Nevtralno	*->4-4	*[4]	
+1-201	1118-1125	najbolj	_	_	_	_	
+1-202	1126-1132	iskali	_	_	_	_	
+1-203	1133-1140	njenega	_	3 - Nevtralno[21]|3 - Nevtralno[22]	*->2-3|*->1-5	*[2]|*[1]	
+1-204	1141-1145	moža	_	3 - Nevtralno[21]	*->2-3	*[2]	
+1-205	1146-1153	Arturja	PER[7]	3 - Nevtralno[21]	*->2-3	*[2]	
+1-206	1154-1160	Šterna	PER[7]	3 - Nevtralno[21]	*->2-3	*[2]	
+1-207	1161-1162	.	_	_	_	_	
+1-208	1163-1174	Obiskovalci	_	_	_	_	
+1-209	1175-1181	spleta	_	_	_	_	
+1-210	1182-1184	so	_	_	_	_	
+1-211	1185-1195	največkrat	_	_	_	_	
+1-212	1196-1204	vtipkali	_	_	_	_	
+1-213	1205-1207	še	_	_	_	_	
+1-214	1208-1211	ime	_	_	_	_	
+1-215	1212-1216	Saše	PER[8]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-216	1217-1227	Einsiedler	PER[8]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-217	1228-1230	in	_	_	_	_	
+1-218	1231-1236	Petre	PER[9]	_	*->11-1	*[11]	
+1-219	1237-1243	Majdič	PER[9]	_	*->11-1	*[11]	
+1-220	1244-1245	,	_	_	_	_	
+1-221	1246-1249	kar	_	_	_	_	
+1-222	1250-1252	pa	_	_	_	_	
+1-223	1253-1255	se	_	_	_	_	
+1-224	1256-1260	tiče	_	_	_	_	
+1-225	1261-1267	moških	_	_	_	_	
+1-226	1268-1269	,	_	_	_	_	
+1-227	1270-1272	je	_	_	_	_	
+1-228	1273-1277	bilo	_	_	_	_	
+1-229	1278-1288	največkrat	_	_	_	_	
+1-230	1289-1297	vtipkano	_	_	_	_	
+1-231	1298-1301	ime	_	_	_	_	
+1-232	1302-1306	Jana	PER[10]	3 - Nevtralno[24]	*->12-1	*[12]	
+1-233	1307-1318	Plestenjaka	PER[10]	3 - Nevtralno[24]	*->12-1	*[12]	
+1-234	1319-1322	ter	_	_	_	_	
+1-235	1323-1329	Slavka	PER[11]	3 - Nevtralno[25]	*->13-1	*[13]	
+1-236	1330-1338	Avsenika	PER[11]	3 - Nevtralno[25]	*->13-1	*[13]	
+1-237	1339-1341	in	_	_	_	_	
+1-238	1342-1349	Lojzeta	PER[12]	3 - Nevtralno[26]	*->14-1	*[14]	
+1-239	1350-1355	Slaka	PER[12]	3 - Nevtralno[26]	*->14-1	*[14]	
+1-240	1356-1357	.	_	_	_	_	
+1-241	1358-1361	Med	_	_	_	_	
+1-242	1362-1369	najbolj	_	_	_	_	
+1-243	1370-1378	iskanimi	_	_	_	_	
+1-244	1379-1384	imeni	_	_	_	_	
+1-245	1385-1388	sta	_	_	_	_	
+1-246	1389-1391	se	_	_	_	_	
+1-247	1392-1397	prvič	_	_	_	_	
+1-248	1398-1404	znašla	_	_	_	_	
+1-249	1405-1409	tudi	_	_	_	_	
+1-250	1410-1415	Bojan	PER[13]	3 - Nevtralno[27]	*->15-1	*[15]	
+1-251	1416-1421	Požar	PER[13]	3 - Nevtralno[27]	*->15-1	*[15]	
+1-252	1422-1424	in	_	_	_	_	
+1-253	1425-1431	Srečko	PER[14]	3 - Nevtralno[28]	*->16-1	*[16]	
+1-254	1432-1441	Prijatelj	PER[14]	3 - Nevtralno[28]	*->16-1	*[16]	
+1-255	1442-1443	.	_	_	_	_	
+1-256	1444-1447	Med	_	_	_	_	
+1-257	1448-1455	najbolj	_	_	_	_	
+1-258	1456-1464	iskanimi	_	_	_	_	
+1-259	1465-1475	glasbeniki	_	_	_	_	
+1-260	1476-1478	se	_	_	_	_	
+1-261	1479-1481	je	_	_	_	_	
+1-262	1482-1488	znašla	_	_	_	_	
+1-263	1489-1493	Urša	PER[15]	3 - Nevtralno[29]	*->17-1	*[17]	
+1-264	1494-1499	Čepin	PER[15]	3 - Nevtralno[29]	*->17-1	*[17]	
+1-265	1500-1501	,	_	_	_	_	
+1-266	1502-1509	najbolj	_	_	*->11-2	*[11]	
+1-267	1510-1515	iskan	_	_	*->11-2	*[11]	
+1-268	1516-1524	športnik	_	_	*->11-2	*[11]	
+1-269	1525-1527	je	_	_	_	_	
+1-270	1528-1532	bila	_	_	_	_	
+1-271	1533-1538	Petra	PER[16]	3 - Nevtralno[30]	*->11-3	*[11]	
+1-272	1539-1545	Majdič	PER[16]	3 - Nevtralno[30]	*->11-3	*[11]	
+1-273	1546-1547	,	_	_	_	_	
+1-274	1548-1551	med	_	_	_	_	
+1-275	1552-1560	politiki	_	_	_	_	
+1-276	1561-1563	pa	_	_	_	_	
+1-277	1564-1566	je	_	_	_	_	
+1-278	1567-1573	Janezu	PER[17]	3 - Nevtralno[31]	*->18-1	*[18]	
+1-279	1574-1579	Janši	PER[17]	3 - Nevtralno[31]	*->18-1	*[18]	
+1-280	1580-1587	prestol	_	_	_	_	
+1-281	1588-1599	spodmaknila	_	_	_	_	
+1-282	1600-1608	Katarina	PER[18]	3 - Nevtralno[32]	*->19-1	*[19]	
+1-283	1609-1615	Kresal	PER[18]	3 - Nevtralno[32]	*->19-1	*[19]	
+1-284	1616-1617	.	_	_	_	_	
+1-285	1618-1621	Med	_	_	_	_	
+1-286	1622-1638	gospodarstveniki	_	_	_	_	
+1-287	1639-1641	se	_	_	_	_	
+1-288	1642-1644	je	_	_	_	_	
+1-289	1645-1651	tokrat	_	_	_	_	
+1-290	1652-1658	zaradi	_	_	_	_	
+1-291	1659-1669	nesrečnega	_	_	_	_	
+1-292	1670-1677	dogodka	_	_	_	_	
+1-293	1678-1684	znašel	_	_	_	_	
+1-294	1685-1692	pokojni	_	3 - Nevtralno[33]	*->20-1	*[20]	
+1-295	1693-1703	predsednik	_	3 - Nevtralno[33]	*->20-1	*[20]	
+1-296	1704-1710	uprave	_	3 - Nevtralno[33]	*->20-1	*[20]	
+1-297	1711-1717	Abanke	ORG	3 - Nevtralno[33]|3 - Nevtralno[34]	*->20-1|*->21-1	*[20]|*[21]	
+1-298	1718-1722	Aleš	PER[19]	3 - Nevtralno[33]	*->20-1	*[20]	
+1-299	1723-1730	Žajdela	PER[19]	3 - Nevtralno[33]	*->20-1	*[20]	

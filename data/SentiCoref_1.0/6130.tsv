@@ -1,0 +1,440 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Srbski prevoznik v partnerstvu z Arabci posodablja floto , načrtujejo novo letalsko povezavo z Ljubljano , v Adrii Airways pravijo , da so cene od poletja znižali za pet odstotkov Air Serbia je v luči širitve oddala naročilo za deset novih letal A320neo v višini milijarde dolarjev ( okrog 740 milijonov evrov ) , poroča tradearabia.com . Spomnimo , srbski prevoznik - takrat se je še imenoval Jat - je pred tedni sklenil partnerstvo s prevoznikom Združenih arabskih emiratov Etihad Airways , ob tem pa se je preimenoval v Air Serbia . Letala bo francoski Airbus dobavil med leti 2018 in 2020 , je ob robu letalskega sejma Dubai Air Show povedal višji uradnik Air Serbia . naročilo je sicer del naročila Etihada , ki kupuje 117 Airbusovih letal . V štirih mesecih 12 novih povezav v 11 držav Air Serbia je konec oktobra , ob začetku sodelovanja z Eithadom , vzpostavila novo povezavo med Beogradom in Abu Dhabijem . Kmalu bodo začetli leteti še v Banja Luko ( BiH ) , Bukarešto ( Romunija ) , češko prestolnico Prago in Ljubljano . Srbski prevoznik namerava v prvi tretjini prihodnjega leta vzpostaviti 12 novih linij v 11 držav , hkrati bo optimiziral trenutno shemo povezav iz Beograda v svet . Letalo airbus A320neo ( vir : Wikipedia ) 15 - odstotni prihranek pri gorivu Po besedah šefa prevoznika Daneta Kondića želi Air Serbia z novo floto zagotoviti potnikom boljšo izkušnjo in postati prvorazredna letalska družba . Letalo A320neo sicer glede na predhodnike prinaša 15 - odstotne prihranke pri gorivu . Srbi v širitev , Adria poskuša med nizkocenovce Etihad Airways je sicer tudi največji posamični lastnik prevoznika Air Berlin , v času vstopa v lastništvo ga je vodil nesojeni sanator Slovenskih železnic Hartmut Mehdorn . Arabci so v strateško partnerstvo ( tako imenovani cose - share partnership ) s Srbi vstopili letos . Pogodbo o letenju pod skupno oznako sta pred dnevi sklenili tudi slovenska Adria Airways in Air India . Letalski družbi bosta pod skupno oznako leteleli na liniji Ljubljana - New Delhi - Ljubljana prek Frankfurta . Dodajmo pa , da se Adria v finančnih težavah neuspešno prodaja že več kot leto dni , zdaj se - v nasprotju z Air Serbia , ki gre z novim partnerjem v razkošno širitev - želijo približati nizkocenovnemu modelu . Kako ? Tako da letijo manjkrat , letala so bolj polna , poleg tega varčujejo pri stroških dela in pri postrežbi na letalih . Kot so nam v Adrii povedali pred tedni , je Adria od začetka poletne sezone cene znižala za pet odstotkov
+1-1	0-6	Srbski	_	_	*->15-1	*[15]	
+1-2	7-16	prevoznik	_	_	*->15-1	*[15]	
+1-3	17-18	v	_	_	_	_	
+1-4	19-30	partnerstvu	_	_	_	_	
+1-5	31-32	z	_	_	_	_	
+1-6	33-39	Arabci	_	_	_	_	
+1-7	40-50	posodablja	_	_	_	_	
+1-8	51-56	floto	_	_	_	_	
+1-9	57-58	,	_	_	_	_	
+1-10	59-69	načrtujejo	_	_	_	_	
+1-11	70-74	novo	_	_	_	_	
+1-12	75-83	letalsko	_	_	_	_	
+1-13	84-92	povezavo	_	_	_	_	
+1-14	93-94	z	_	_	_	_	
+1-15	95-104	Ljubljano	LOC	_	*->2-1	*[2]	
+1-16	105-106	,	_	_	_	_	
+1-17	107-108	v	_	_	_	_	
+1-18	109-114	Adrii	ORG[1]	_	*->4-1	*[4]	
+1-19	115-122	Airways	ORG[1]	_	*->4-1	*[4]	
+1-20	123-130	pravijo	_	_	_	_	
+1-21	131-132	,	_	_	_	_	
+1-22	133-135	da	_	_	_	_	
+1-23	136-138	so	_	_	_	_	
+1-24	139-143	cene	_	_	_	_	
+1-25	144-146	od	_	_	_	_	
+1-26	147-154	poletja	_	_	_	_	
+1-27	155-162	znižali	_	_	_	_	
+1-28	163-165	za	_	_	_	_	
+1-29	166-169	pet	_	_	_	_	
+1-30	170-179	odstotkov	_	_	_	_	
+1-31	180-183	Air	ORG[2]	_	*->15-2	*[15]	
+1-32	184-190	Serbia	ORG[2]	_	*->15-2	*[15]	
+1-33	191-193	je	_	_	_	_	
+1-34	194-195	v	_	_	_	_	
+1-35	196-200	luči	_	_	_	_	
+1-36	201-208	širitve	_	_	_	_	
+1-37	209-215	oddala	_	_	_	_	
+1-38	216-224	naročilo	_	_	_	_	
+1-39	225-227	za	_	_	_	_	
+1-40	228-233	deset	_	_	_	_	
+1-41	234-239	novih	_	_	_	_	
+1-42	240-245	letal	_	_	_	_	
+1-43	246-253	A320neo	_	_	_	_	
+1-44	254-255	v	_	_	_	_	
+1-45	256-262	višini	_	_	_	_	
+1-46	263-272	milijarde	_	_	_	_	
+1-47	273-281	dolarjev	_	_	_	_	
+1-48	282-283	(	_	_	_	_	
+1-49	284-289	okrog	_	_	_	_	
+1-50	290-293	740	_	_	_	_	
+1-51	294-303	milijonov	_	_	_	_	
+1-52	304-309	evrov	_	_	_	_	
+1-53	310-311	)	_	_	_	_	
+1-54	312-313	,	_	_	_	_	
+1-55	314-320	poroča	_	_	_	_	
+1-56	321-336	tradearabia.com	ORG	3 - Nevtralno	*->5-1	*[5]	
+1-57	337-338	.	_	_	_	_	
+1-58	339-347	Spomnimo	_	_	_	_	
+1-59	348-349	,	_	_	_	_	
+1-60	350-356	srbski	_	_	*->15-3	*[15]	
+1-61	357-366	prevoznik	_	_	*->15-3	*[15]	
+1-62	367-368	-	_	_	_	_	
+1-63	369-375	takrat	_	_	_	_	
+1-64	376-378	se	_	_	_	_	
+1-65	379-381	je	_	_	_	_	
+1-66	382-384	še	_	_	_	_	
+1-67	385-393	imenoval	_	_	*->15-4	*[15]	
+1-68	394-397	Jat	ORG	_	*->15-5	*[15]	
+1-69	398-399	-	_	_	_	_	
+1-70	400-402	je	_	_	_	_	
+1-71	403-407	pred	_	_	_	_	
+1-72	408-413	tedni	_	_	_	_	
+1-73	414-421	sklenil	_	_	_	_	
+1-74	422-433	partnerstvo	_	_	_	_	
+1-75	434-435	s	_	_	_	_	
+1-76	436-447	prevoznikom	_	_	*->1-1	*[1]	
+1-77	448-457	Združenih	LOC[3]	3 - Nevtralno[20]	*->1-1|*->6-1	*[1]|*[6]	
+1-78	458-466	arabskih	LOC[3]	3 - Nevtralno[20]	*->1-1|*->6-1	*[1]|*[6]	
+1-79	467-475	emiratov	LOC[3]	3 - Nevtralno[20]	*->1-1|*->6-1	*[1]|*[6]	
+1-80	476-482	Etihad	ORG[4]	_	*->1-1	*[1]	
+1-81	483-490	Airways	ORG[4]	_	*->1-1	*[1]	
+1-82	491-492	,	_	_	_	_	
+1-83	493-495	ob	_	_	_	_	
+1-84	496-499	tem	_	_	_	_	
+1-85	500-502	pa	_	_	_	_	
+1-86	503-505	se	_	_	_	_	
+1-87	506-508	je	_	_	_	_	
+1-88	509-520	preimenoval	_	_	*->15-6	*[15]	
+1-89	521-522	v	_	_	_	_	
+1-90	523-526	Air	ORG[5]	_	*->15-7	*[15]	
+1-91	527-533	Serbia	ORG[5]	_	*->15-7	*[15]	
+1-92	534-535	.	_	_	_	_	
+1-93	536-542	Letala	_	_	_	_	
+1-94	543-545	bo	_	_	_	_	
+1-95	546-555	francoski	_	_	_	_	
+1-96	556-562	Airbus	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-97	563-570	dobavil	_	_	_	_	
+1-98	571-574	med	_	_	_	_	
+1-99	575-579	leti	_	_	_	_	
+1-100	580-584	2018	_	_	_	_	
+1-101	585-587	in	_	_	_	_	
+1-102	588-592	2020	_	_	_	_	
+1-103	593-594	,	_	_	_	_	
+1-104	595-597	je	_	_	_	_	
+1-105	598-600	ob	_	_	_	_	
+1-106	601-605	robu	_	_	_	_	
+1-107	606-616	letalskega	_	_	_	_	
+1-108	617-622	sejma	_	_	_	_	
+1-109	623-628	Dubai	_	_	_	_	
+1-110	629-632	Air	_	_	_	_	
+1-111	633-637	Show	_	_	_	_	
+1-112	638-645	povedal	_	_	_	_	
+1-113	646-651	višji	_	_	_	_	
+1-114	652-659	uradnik	_	_	_	_	
+1-115	660-663	Air	ORG[6]	_	*->15-8	*[15]	
+1-116	664-670	Serbia	ORG[6]	_	*->15-8	*[15]	
+1-117	671-672	.	_	_	_	_	
+1-118	673-681	naročilo	_	_	_	_	
+1-119	682-684	je	_	_	_	_	
+1-120	685-690	sicer	_	_	_	_	
+1-121	691-694	del	_	_	_	_	
+1-122	695-703	naročila	_	_	_	_	
+1-123	704-711	Etihada	ORG	_	*->1-2	*[1]	
+1-124	712-713	,	_	_	_	_	
+1-125	714-716	ki	_	_	_	_	
+1-126	717-723	kupuje	_	_	_	_	
+1-127	724-727	117	_	_	_	_	
+1-128	728-738	Airbusovih	_	_	_	_	
+1-129	739-744	letal	_	_	_	_	
+1-130	745-746	.	_	_	_	_	
+1-131	747-748	V	_	_	_	_	
+1-132	749-755	štirih	_	_	_	_	
+1-133	756-763	mesecih	_	_	_	_	
+1-134	764-766	12	_	_	_	_	
+1-135	767-772	novih	_	_	_	_	
+1-136	773-780	povezav	_	_	_	_	
+1-137	781-782	v	_	_	_	_	
+1-138	783-785	11	_	_	_	_	
+1-139	786-791	držav	_	_	_	_	
+1-140	792-795	Air	ORG[7]	_	*->15-9	*[15]	
+1-141	796-802	Serbia	ORG[7]	_	*->15-9	*[15]	
+1-142	803-805	je	_	_	_	_	
+1-143	806-811	konec	_	_	_	_	
+1-144	812-819	oktobra	_	_	_	_	
+1-145	820-821	,	_	_	_	_	
+1-146	822-824	ob	_	_	_	_	
+1-147	825-832	začetku	_	_	_	_	
+1-148	833-844	sodelovanja	_	_	_	_	
+1-149	845-846	z	_	_	_	_	
+1-150	847-855	Eithadom	ORG	_	*->1-3	*[1]	
+1-151	856-857	,	_	_	_	_	
+1-152	858-869	vzpostavila	_	_	_	_	
+1-153	870-874	novo	_	_	_	_	
+1-154	875-883	povezavo	_	_	_	_	
+1-155	884-887	med	_	_	_	_	
+1-156	888-897	Beogradom	LOC	_	*->3-1	*[3]	
+1-157	898-900	in	_	_	_	_	
+1-158	901-904	Abu	LOC[8]	3 - Nevtralno[21]	*->8-1	*[8]	
+1-159	905-913	Dhabijem	LOC[8]	3 - Nevtralno[21]	*->8-1	*[8]	
+1-160	914-915	.	_	_	_	_	
+1-161	916-921	Kmalu	_	_	_	_	
+1-162	922-926	bodo	_	_	_	_	
+1-163	927-934	začetli	_	_	_	_	
+1-164	935-941	leteti	_	_	_	_	
+1-165	942-944	še	_	_	_	_	
+1-166	945-946	v	_	_	_	_	
+1-167	947-952	Banja	LOC[9]	3 - Nevtralno[22]	*->9-1	*[9]	
+1-168	953-957	Luko	LOC[9]	3 - Nevtralno[22]	*->9-1	*[9]	
+1-169	958-959	(	_	_	_	_	
+1-170	960-963	BiH	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-171	964-965	)	_	_	_	_	
+1-172	966-967	,	_	_	_	_	
+1-173	968-977	Bukarešto	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-174	978-979	(	_	_	_	_	
+1-175	980-988	Romunija	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-176	989-990	)	_	_	_	_	
+1-177	991-992	,	_	_	_	_	
+1-178	993-998	češko	_	3 - Nevtralno[23]	*->13-1	*[13]	
+1-179	999-1010	prestolnico	_	3 - Nevtralno[23]	*->13-1	*[13]	
+1-180	1011-1016	Prago	LOC	3 - Nevtralno[23]	*->13-1	*[13]	
+1-181	1017-1019	in	_	_	_	_	
+1-182	1020-1029	Ljubljano	LOC	_	*->2-2	*[2]	
+1-183	1030-1031	.	_	_	_	_	
+1-184	1032-1038	Srbski	_	_	*->15-10	*[15]	
+1-185	1039-1048	prevoznik	_	_	*->15-10	*[15]	
+1-186	1049-1057	namerava	_	_	_	_	
+1-187	1058-1059	v	_	_	_	_	
+1-188	1060-1064	prvi	_	_	_	_	
+1-189	1065-1073	tretjini	_	_	_	_	
+1-190	1074-1085	prihodnjega	_	_	_	_	
+1-191	1086-1090	leta	_	_	_	_	
+1-192	1091-1102	vzpostaviti	_	_	_	_	
+1-193	1103-1105	12	_	_	_	_	
+1-194	1106-1111	novih	_	_	_	_	
+1-195	1112-1117	linij	_	_	_	_	
+1-196	1118-1119	v	_	_	_	_	
+1-197	1120-1122	11	_	_	_	_	
+1-198	1123-1128	držav	_	_	_	_	
+1-199	1129-1130	,	_	_	_	_	
+1-200	1131-1137	hkrati	_	_	_	_	
+1-201	1138-1140	bo	_	_	_	_	
+1-202	1141-1152	optimiziral	_	_	*->15-11	*[15]	
+1-203	1153-1161	trenutno	_	_	_	_	
+1-204	1162-1167	shemo	_	_	_	_	
+1-205	1168-1175	povezav	_	_	_	_	
+1-206	1176-1178	iz	_	_	_	_	
+1-207	1179-1187	Beograda	LOC	3 - Nevtralno	*->3-2	*[3]	
+1-208	1188-1189	v	_	_	_	_	
+1-209	1190-1194	svet	_	_	_	_	
+1-210	1195-1196	.	_	_	_	_	
+1-211	1197-1203	Letalo	_	_	_	_	
+1-212	1204-1210	airbus	_	_	_	_	
+1-213	1211-1218	A320neo	_	_	_	_	
+1-214	1219-1220	(	_	_	_	_	
+1-215	1221-1224	vir	_	_	_	_	
+1-216	1225-1226	:	_	_	_	_	
+1-217	1227-1236	Wikipedia	_	_	_	_	
+1-218	1237-1238	)	_	_	_	_	
+1-219	1239-1241	15	_	_	_	_	
+1-220	1242-1243	-	_	_	_	_	
+1-221	1244-1252	odstotni	_	_	_	_	
+1-222	1253-1262	prihranek	_	_	_	_	
+1-223	1263-1266	pri	_	_	_	_	
+1-224	1267-1273	gorivu	_	_	_	_	
+1-225	1274-1276	Po	_	_	_	_	
+1-226	1277-1284	besedah	_	_	_	_	
+1-227	1285-1289	šefa	_	3 - Nevtralno[24]	*->14-1	*[14]	
+1-228	1290-1300	prevoznika	_	3 - Nevtralno[24]	*->14-1|*->15-12	*[14]|*[15]	
+1-229	1301-1307	Daneta	PER[10]	3 - Nevtralno[24]	*->14-1	*[14]	
+1-230	1308-1315	Kondića	PER[10]	3 - Nevtralno[24]	*->14-1	*[14]	
+1-231	1316-1320	želi	_	_	_	_	
+1-232	1321-1324	Air	ORG[11]	_	*->15-13	*[15]	
+1-233	1325-1331	Serbia	ORG[11]	_	*->15-13	*[15]	
+1-234	1332-1333	z	_	_	_	_	
+1-235	1334-1338	novo	_	_	_	_	
+1-236	1339-1344	floto	_	_	_	_	
+1-237	1345-1355	zagotoviti	_	_	_	_	
+1-238	1356-1364	potnikom	_	_	_	_	
+1-239	1365-1371	boljšo	_	_	_	_	
+1-240	1372-1380	izkušnjo	_	_	_	_	
+1-241	1381-1383	in	_	_	_	_	
+1-242	1384-1391	postati	_	_	*->15-14	*[15]	
+1-243	1392-1404	prvorazredna	_	_	_	_	
+1-244	1405-1413	letalska	_	_	_	_	
+1-245	1414-1420	družba	_	_	_	_	
+1-246	1421-1422	.	_	_	_	_	
+1-247	1423-1429	Letalo	_	_	_	_	
+1-248	1430-1437	A320neo	_	_	_	_	
+1-249	1438-1443	sicer	_	_	_	_	
+1-250	1444-1449	glede	_	_	_	_	
+1-251	1450-1452	na	_	_	_	_	
+1-252	1453-1464	predhodnike	_	_	_	_	
+1-253	1465-1472	prinaša	_	_	_	_	
+1-254	1473-1475	15	_	_	_	_	
+1-255	1476-1477	-	_	_	_	_	
+1-256	1478-1486	odstotne	_	_	_	_	
+1-257	1487-1496	prihranke	_	_	_	_	
+1-258	1497-1500	pri	_	_	_	_	
+1-259	1501-1507	gorivu	_	_	_	_	
+1-260	1508-1509	.	_	_	_	_	
+1-261	1510-1514	Srbi	_	_	_	_	
+1-262	1515-1516	v	_	_	_	_	
+1-263	1517-1524	širitev	_	_	_	_	
+1-264	1525-1526	,	_	_	_	_	
+1-265	1527-1532	Adria	ORG	_	*->4-2	*[4]	
+1-266	1533-1540	poskuša	_	_	_	_	
+1-267	1541-1544	med	_	_	_	_	
+1-268	1545-1557	nizkocenovce	_	_	_	_	
+1-269	1558-1564	Etihad	ORG[12]	_	*->1-4	*[1]	
+1-270	1565-1572	Airways	ORG[12]	_	*->1-4	*[1]	
+1-271	1573-1575	je	_	_	_	_	
+1-272	1576-1581	sicer	_	_	_	_	
+1-273	1582-1586	tudi	_	_	_	_	
+1-274	1587-1595	največji	_	_	*->1-5	*[1]	
+1-275	1596-1605	posamični	_	_	*->1-5	*[1]	
+1-276	1606-1613	lastnik	_	_	*->1-5	*[1]	
+1-277	1614-1624	prevoznika	_	3 - Nevtralno[25]	*->1-5|*->16-1	*[1]|*[16]	
+1-278	1625-1628	Air	ORG[13]	3 - Nevtralno[25]	*->1-5|*->16-1	*[1]|*[16]	
+1-279	1629-1635	Berlin	ORG[13]	3 - Nevtralno[25]	*->1-5|*->16-1	*[1]|*[16]	
+1-280	1636-1637	,	_	_	_	_	
+1-281	1638-1639	v	_	_	_	_	
+1-282	1640-1644	času	_	_	_	_	
+1-283	1645-1651	vstopa	_	_	_	_	
+1-284	1652-1653	v	_	_	_	_	
+1-285	1654-1664	lastništvo	_	_	_	_	
+1-286	1665-1667	ga	_	_	*->1-6	*[1]	
+1-287	1668-1670	je	_	_	_	_	
+1-288	1671-1676	vodil	_	_	_	_	
+1-289	1677-1685	nesojeni	_	_	_	_	
+1-290	1686-1693	sanator	_	3 - Nevtralno[26]	*->17-1	*[17]	
+1-291	1694-1704	Slovenskih	ORG[14]	3 - Nevtralno[26]|3 - Nevtralno[27]	*->17-1|*->18-1	*[17]|*[18]	
+1-292	1705-1713	železnic	ORG[14]	3 - Nevtralno[26]|3 - Nevtralno[27]	*->17-1|*->18-1	*[17]|*[18]	
+1-293	1714-1721	Hartmut	PER[15]	3 - Nevtralno[26]	*->17-1	*[17]	
+1-294	1722-1729	Mehdorn	PER[15]	3 - Nevtralno[26]	*->17-1	*[17]	
+1-295	1730-1731	.	_	_	_	_	
+1-296	1732-1738	Arabci	_	4 - Pozitivno	*->1-7	*[1]	
+1-297	1739-1741	so	_	_	_	_	
+1-298	1742-1743	v	_	_	_	_	
+1-299	1744-1753	strateško	_	_	_	_	
+1-300	1754-1765	partnerstvo	_	_	_	_	
+1-301	1766-1767	(	_	_	_	_	
+1-302	1768-1772	tako	_	_	_	_	
+1-303	1773-1782	imenovani	_	_	_	_	
+1-304	1783-1787	cose	_	_	_	_	
+1-305	1788-1789	-	_	_	_	_	
+1-306	1790-1795	share	_	_	_	_	
+1-307	1796-1807	partnership	_	_	_	_	
+1-308	1808-1809	)	_	_	_	_	
+1-309	1810-1811	s	_	_	_	_	
+1-310	1812-1816	Srbi	_	_	*->15-15	*[15]	
+1-311	1817-1825	vstopili	_	_	_	_	
+1-312	1826-1831	letos	_	_	_	_	
+1-313	1832-1833	.	_	_	_	_	
+1-314	1834-1841	Pogodbo	_	_	_	_	
+1-315	1842-1843	o	_	_	_	_	
+1-316	1844-1851	letenju	_	_	_	_	
+1-317	1852-1855	pod	_	_	_	_	
+1-318	1856-1862	skupno	_	_	_	_	
+1-319	1863-1869	oznako	_	_	_	_	
+1-320	1870-1873	sta	_	_	_	_	
+1-321	1874-1878	pred	_	_	_	_	
+1-322	1879-1884	dnevi	_	_	_	_	
+1-323	1885-1893	sklenili	_	_	_	_	
+1-324	1894-1898	tudi	_	_	_	_	
+1-325	1899-1908	slovenska	_	_	*->4-3	*[4]	
+1-326	1909-1914	Adria	ORG[16]	_	*->4-3	*[4]	
+1-327	1915-1922	Airways	ORG[16]	_	*->4-3	*[4]	
+1-328	1923-1925	in	_	_	*->4-3	*[4]	
+1-329	1926-1929	Air	ORG[17]	3 - Nevtralno[28]	*->19-1	*[19]	
+1-330	1930-1935	India	ORG[17]	3 - Nevtralno[28]	*->19-1	*[19]	
+1-331	1936-1937	.	_	_	_	_	
+1-332	1938-1946	Letalski	_	_	_	_	
+1-333	1947-1953	družbi	_	_	_	_	
+1-334	1954-1959	bosta	_	_	_	_	
+1-335	1960-1963	pod	_	_	_	_	
+1-336	1964-1970	skupno	_	_	_	_	
+1-337	1971-1977	oznako	_	_	_	_	
+1-338	1978-1986	leteleli	_	_	_	_	
+1-339	1987-1989	na	_	_	_	_	
+1-340	1990-1996	liniji	_	_	_	_	
+1-341	1997-2006	Ljubljana	LOC	_	*->2-3	*[2]	
+1-342	2007-2008	-	_	_	_	_	
+1-343	2009-2012	New	LOC[18]	3 - Nevtralno[29]	*->20-1	*[20]	
+1-344	2013-2018	Delhi	LOC[18]	3 - Nevtralno[29]	*->20-1	*[20]	
+1-345	2019-2020	-	_	_	_	_	
+1-346	2021-2030	Ljubljana	LOC	3 - Nevtralno	*->2-4	*[2]	
+1-347	2031-2035	prek	_	_	_	_	
+1-348	2036-2046	Frankfurta	LOC	3 - Nevtralno	*->21-1	*[21]	
+1-349	2047-2048	.	_	_	_	_	
+1-350	2049-2056	Dodajmo	_	_	_	_	
+1-351	2057-2059	pa	_	_	_	_	
+1-352	2060-2061	,	_	_	_	_	
+1-353	2062-2064	da	_	_	_	_	
+1-354	2065-2067	se	_	_	_	_	
+1-355	2068-2073	Adria	ORG	_	*->4-4	*[4]	
+1-356	2074-2075	v	_	_	_	_	
+1-357	2076-2085	finančnih	_	_	_	_	
+1-358	2086-2093	težavah	_	_	_	_	
+1-359	2094-2103	neuspešno	_	_	_	_	
+1-360	2104-2111	prodaja	_	_	_	_	
+1-361	2112-2114	že	_	_	_	_	
+1-362	2115-2118	več	_	_	_	_	
+1-363	2119-2122	kot	_	_	_	_	
+1-364	2123-2127	leto	_	_	_	_	
+1-365	2128-2131	dni	_	_	_	_	
+1-366	2132-2133	,	_	_	_	_	
+1-367	2134-2138	zdaj	_	_	_	_	
+1-368	2139-2141	se	_	_	_	_	
+1-369	2142-2143	-	_	_	_	_	
+1-370	2144-2145	v	_	_	_	_	
+1-371	2146-2155	nasprotju	_	_	_	_	
+1-372	2156-2157	z	_	_	_	_	
+1-373	2158-2161	Air	ORG[19]	_	*->15-16	*[15]	
+1-374	2162-2168	Serbia	ORG[19]	_	*->15-16	*[15]	
+1-375	2169-2170	,	_	_	_	_	
+1-376	2171-2173	ki	_	_	_	_	
+1-377	2174-2177	gre	_	4 - Pozitivno	*->15-17	*[15]	
+1-378	2178-2179	z	_	_	_	_	
+1-379	2180-2185	novim	_	_	_	_	
+1-380	2186-2196	partnerjem	_	_	_	_	
+1-381	2197-2198	v	_	_	_	_	
+1-382	2199-2207	razkošno	_	_	_	_	
+1-383	2208-2215	širitev	_	_	_	_	
+1-384	2216-2217	-	_	_	_	_	
+1-385	2218-2224	želijo	_	_	*->4-5	*[4]	
+1-386	2225-2235	približati	_	_	_	_	
+1-387	2236-2250	nizkocenovnemu	_	_	_	_	
+1-388	2251-2257	modelu	_	_	_	_	
+1-389	2258-2259	.	_	_	_	_	
+1-390	2260-2264	Kako	_	_	_	_	
+1-391	2265-2266	?	_	_	_	_	
+1-392	2267-2271	Tako	_	_	_	_	
+1-393	2272-2274	da	_	_	_	_	
+1-394	2275-2281	letijo	_	_	*->4-6	*[4]	
+1-395	2282-2290	manjkrat	_	_	_	_	
+1-396	2291-2292	,	_	_	_	_	
+1-397	2293-2299	letala	_	_	_	_	
+1-398	2300-2302	so	_	_	_	_	
+1-399	2303-2307	bolj	_	_	_	_	
+1-400	2308-2313	polna	_	_	_	_	
+1-401	2314-2315	,	_	_	_	_	
+1-402	2316-2321	poleg	_	_	_	_	
+1-403	2322-2326	tega	_	_	_	_	
+1-404	2327-2336	varčujejo	_	_	_	_	
+1-405	2337-2340	pri	_	_	_	_	
+1-406	2341-2349	stroških	_	_	_	_	
+1-407	2350-2354	dela	_	_	_	_	
+1-408	2355-2357	in	_	_	_	_	
+1-409	2358-2361	pri	_	_	_	_	
+1-410	2362-2371	postrežbi	_	_	_	_	
+1-411	2372-2374	na	_	_	_	_	
+1-412	2375-2382	letalih	_	_	_	_	
+1-413	2383-2384	.	_	_	_	_	
+1-414	2385-2388	Kot	_	_	_	_	
+1-415	2389-2391	so	_	_	_	_	
+1-416	2392-2395	nam	_	_	_	_	
+1-417	2396-2397	v	_	_	_	_	
+1-418	2398-2403	Adrii	ORG	_	*->4-7	*[4]	
+1-419	2404-2412	povedali	_	_	_	_	
+1-420	2413-2417	pred	_	_	_	_	
+1-421	2418-2423	tedni	_	_	_	_	
+1-422	2424-2425	,	_	_	_	_	
+1-423	2426-2428	je	_	_	_	_	
+1-424	2429-2434	Adria	ORG	2 - Negativno	*->4-8	*[4]	
+1-425	2435-2437	od	_	_	_	_	
+1-426	2438-2445	začetka	_	_	_	_	
+1-427	2446-2453	poletne	_	_	_	_	
+1-428	2454-2460	sezone	_	_	_	_	
+1-429	2461-2465	cene	_	_	_	_	
+1-430	2466-2473	znižala	_	_	_	_	
+1-431	2474-2476	za	_	_	_	_	
+1-432	2477-2480	pet	_	_	_	_	
+1-433	2481-2490	odstotkov	_	_	_	_	

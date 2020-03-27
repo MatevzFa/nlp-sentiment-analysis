@@ -1,0 +1,470 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Pri novem večjem poslu pri obnovi slovenskega železniškega omrežja se obeta spopad " težkokategornikov " . Na razpis za izvajalca druge etape nadgradnje železniške proge med Pragerskim in Mursko Soboto , ki je ocenjen na približno 50 milijonov evrov , so se tako prijavili trije ponudniki . Poleg GH Holdinga Blaža Miklavčiča , ki je ponudbo oddal skupaj s SGP Pomgradom in Eprojektom , za posel kandidira tudi avstrijski Porr , ki je pred kratkim ustanovil skupno podjetje s SCT Holdingom Ivana Zidarja . Ta je pred dnevi na seji upniškega odbora SCT napovedal , da bo s Porrom skupno nastopal na projektih izgradnje železniške infrastrukture . Ob tem velja spomniti , da sta se Miklavčič in Zidar za delež pri delitvi železniške pogače prvič spopadla že sredi leta 2008 . Takrat je direkcija za vodenje naložb v javno železniško infrastrukturo na razpisu za izvajalca del pri modernizaciji proge Divača - Koper sprva izbrala SCT , njeno odločitev pa je razveljavila državna revizijska komisija . Po ponovnem pregledu ponudb je direkcija , ki je pred tem ponudbo GH Holdinga izločila iz ocenjevanja kot nepravilno , izbrala ponudbo za 65 milijonov evrov , ki sta jo skupaj oddala avstrijski Swietelsky in CM Celje . Kljub temu je GH Holdingu , ki so ga ustanovili SGP Pomgrad , Kraški zidar in Konstruktor , uspelo priti do dela posla . CM Celje ga je namreč oktobra 2009 , torej le mesec dni po odločitvi direkcije , najel za podizvajalca , kar je holdingu prineslo 10 milijonov evrov . Kot tretji ponudnik se je na razpis za nadgradnjo proge Pragersko - Murska Sobota prijavil konzorcij , ki ga vodi SŽ Železniško gradbeno podjetje ( ŽGP ) . To je v večinski lasti SŽ , reference pa so mu ostale še izpred desetih let , ko je naša država zgradila zadnjo novo železniško progo ( do Madžarske ) . V konzorciju s SŽ ŽGP nastopata še SŽ Projektivno podjetje , ki lastniško ni povezano s SŽ , in Tegrad . Medtem ko je prvo že pred časom kot edini ponudnik dobilo dobrih 11 milijonov evrov vredno pripravo projektov pri obnovi in elektrifikaciji proge Pragersko - Hodoš , je družba Tegrad v lasti Janeza Javorška , nekoč zastopnika sindikata v propadlem Siteepu . Javoršek je Tegrad kupil lani od GPL Gradenj Boža Lazarevića . Rok za oddajo ponudb se je sicer iztekel konec prejšnjega tedna , pri čemer še ni znano , ali so na direkciji za vodenje investicij v javno železniško infrastrukturo , ki jo vodi Andrej Godec , že odprli ponudbe in kdaj bodo izbrali izvajalca . Ta bo moral zamenjati spodnji ustroj 35 kilometrov dolge proge , zagotoviti njeno predvideno osno in dolžinsko obremenitev ter vzpostaviti pogoje za dvig hitrosti vlakov . primoz.cirman @
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-15	Pri	_	_	_	_	
+1-4	16-21	novem	_	_	_	_	
+1-5	22-28	večjem	_	_	_	_	
+1-6	29-34	poslu	_	_	_	_	
+1-7	35-38	pri	_	_	_	_	
+1-8	39-45	obnovi	_	_	_	_	
+1-9	46-57	slovenskega	_	_	_	_	
+1-10	58-70	železniškega	_	_	_	_	
+1-11	71-78	omrežja	_	_	_	_	
+1-12	79-81	se	_	_	_	_	
+1-13	82-87	obeta	_	_	_	_	
+1-14	88-94	spopad	_	_	_	_	
+1-15	95-96	"	_	_	_	_	
+1-16	97-114	težkokategornikov	_	_	_	_	
+1-17	115-116	"	_	_	_	_	
+1-18	117-118	.	_	_	_	_	
+1-19	119-121	Na	_	_	_	_	
+1-20	122-128	razpis	_	_	_	_	
+1-21	129-131	za	_	_	_	_	
+1-22	132-141	izvajalca	_	_	_	_	
+1-23	142-147	druge	_	_	_	_	
+1-24	148-153	etape	_	_	_	_	
+1-25	154-164	nadgradnje	_	_	_	_	
+1-26	165-175	železniške	_	_	_	_	
+1-27	176-181	proge	_	_	_	_	
+1-28	182-185	med	_	_	_	_	
+1-29	186-196	Pragerskim	LOC	_	*->2-1	*[2]	
+1-30	197-199	in	_	_	_	_	
+1-31	200-206	Mursko	LOC[1]	_	*->3-1	*[3]	
+1-32	207-213	Soboto	LOC[1]	_	*->3-1	*[3]	
+1-33	214-215	,	_	_	_	_	
+1-34	216-218	ki	_	_	_	_	
+1-35	219-221	je	_	_	_	_	
+1-36	222-229	ocenjen	_	_	_	_	
+1-37	230-232	na	_	_	_	_	
+1-38	233-242	približno	_	_	_	_	
+1-39	243-245	50	_	_	_	_	
+1-40	246-255	milijonov	_	_	_	_	
+1-41	256-261	evrov	_	_	_	_	
+1-42	262-263	,	_	_	_	_	
+1-43	264-266	so	_	_	_	_	
+1-44	267-269	se	_	_	_	_	
+1-45	270-274	tako	_	_	_	_	
+1-46	275-284	prijavili	_	_	_	_	
+1-47	285-290	trije	_	_	_	_	
+1-48	291-300	ponudniki	_	_	_	_	
+1-49	301-302	.	_	_	_	_	
+1-50	303-308	Poleg	_	_	_	_	
+1-51	309-311	GH	ORG[2]	_	*->4-1	*[4]	
+1-52	312-320	Holdinga	ORG[2]	_	*->4-1	*[4]	
+1-53	321-326	Blaža	PER[3]	_	*->10-1	*[10]	
+1-54	327-337	Miklavčiča	PER[3]	_	*->10-1	*[10]	
+1-55	338-339	,	_	_	_	_	
+1-56	340-342	ki	_	_	_	_	
+1-57	343-345	je	_	_	_	_	
+1-58	346-353	ponudbo	_	_	_	_	
+1-59	354-359	oddal	_	_	_	_	
+1-60	360-366	skupaj	_	_	_	_	
+1-61	367-368	s	_	_	_	_	
+1-62	369-372	SGP	ORG[4]	_	*->6-1	*[6]	
+1-63	373-382	Pomgradom	ORG[4]	_	*->6-1	*[6]	
+1-64	383-385	in	_	_	_	_	
+1-65	386-396	Eprojektom	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-66	397-398	,	_	_	_	_	
+1-67	399-401	za	_	_	_	_	
+1-68	402-407	posel	_	_	_	_	
+1-69	408-417	kandidira	_	_	_	_	
+1-70	418-422	tudi	_	_	_	_	
+1-71	423-433	avstrijski	_	_	_	_	
+1-72	434-438	Porr	ORG	_	*->8-1	*[8]	
+1-73	439-440	,	_	_	_	_	
+1-74	441-443	ki	_	_	_	_	
+1-75	444-446	je	_	_	_	_	
+1-76	447-451	pred	_	_	_	_	
+1-77	452-459	kratkim	_	_	_	_	
+1-78	460-469	ustanovil	_	_	*->8-2	*[8]	
+1-79	470-476	skupno	_	_	_	_	
+1-80	477-485	podjetje	_	_	_	_	
+1-81	486-487	s	_	_	_	_	
+1-82	488-491	SCT	ORG[5]	_	*->9-1	*[9]	
+1-83	492-501	Holdingom	ORG[5]	_	*->9-1	*[9]	
+1-84	502-507	Ivana	PER[6]	_	*->5-1	*[5]	
+1-85	508-515	Zidarja	PER[6]	_	*->5-1	*[5]	
+1-86	516-517	.	_	_	_	_	
+1-87	518-520	Ta	_	_	*->5-2	*[5]	
+1-88	521-523	je	_	_	_	_	
+1-89	524-528	pred	_	_	_	_	
+1-90	529-534	dnevi	_	_	_	_	
+1-91	535-537	na	_	_	_	_	
+1-92	538-542	seji	_	_	_	_	
+1-93	543-552	upniškega	_	_	_	_	
+1-94	553-559	odbora	_	_	_	_	
+1-95	560-563	SCT	ORG	_	*->9-2	*[9]	
+1-96	564-573	napovedal	_	_	*->5-3	*[5]	
+1-97	574-575	,	_	_	_	_	
+1-98	576-578	da	_	_	_	_	
+1-99	579-581	bo	_	_	_	_	
+1-100	582-583	s	_	_	_	_	
+1-101	584-590	Porrom	ORG	3 - Nevtralno	*->8-3	*[8]	
+1-102	591-597	skupno	_	_	_	_	
+1-103	598-606	nastopal	_	_	*->5-4	*[5]	
+1-104	607-609	na	_	_	_	_	
+1-105	610-619	projektih	_	_	_	_	
+1-106	620-629	izgradnje	_	_	_	_	
+1-107	630-640	železniške	_	_	_	_	
+1-108	641-655	infrastrukture	_	_	_	_	
+1-109	656-657	.	_	_	_	_	
+1-110	658-660	Ob	_	_	_	_	
+1-111	661-664	tem	_	_	_	_	
+1-112	665-670	velja	_	_	_	_	
+1-113	671-679	spomniti	_	_	_	_	
+1-114	680-681	,	_	_	_	_	
+1-115	682-684	da	_	_	_	_	
+1-116	685-688	sta	_	_	_	_	
+1-117	689-691	se	_	_	_	_	
+1-118	692-701	Miklavčič	PER	3 - Nevtralno	*->10-2	*[10]	
+1-119	702-704	in	_	_	_	_	
+1-120	705-710	Zidar	PER	3 - Nevtralno	*->5-5	*[5]	
+1-121	711-713	za	_	_	_	_	
+1-122	714-719	delež	_	_	_	_	
+1-123	720-723	pri	_	_	_	_	
+1-124	724-731	delitvi	_	_	_	_	
+1-125	732-742	železniške	_	_	_	_	
+1-126	743-749	pogače	_	_	_	_	
+1-127	750-755	prvič	_	_	_	_	
+1-128	756-764	spopadla	_	_	_	_	
+1-129	765-767	že	_	_	_	_	
+1-130	768-773	sredi	_	_	_	_	
+1-131	774-778	leta	_	_	_	_	
+1-132	779-783	2008	_	_	_	_	
+1-133	784-785	.	_	_	_	_	
+1-134	786-792	Takrat	_	_	_	_	
+1-135	793-795	je	_	_	_	_	
+1-136	796-805	direkcija	_	_	_	_	
+1-137	806-808	za	_	_	_	_	
+1-138	809-816	vodenje	_	_	_	_	
+1-139	817-823	naložb	_	_	_	_	
+1-140	824-825	v	_	_	_	_	
+1-141	826-831	javno	_	_	_	_	
+1-142	832-842	železniško	_	_	_	_	
+1-143	843-857	infrastrukturo	_	_	_	_	
+1-144	858-860	na	_	_	_	_	
+1-145	861-868	razpisu	_	_	_	_	
+1-146	869-871	za	_	_	_	_	
+1-147	872-881	izvajalca	_	_	_	_	
+1-148	882-885	del	_	_	_	_	
+1-149	886-889	pri	_	_	_	_	
+1-150	890-903	modernizaciji	_	_	_	_	
+1-151	904-909	proge	_	_	_	_	
+1-152	910-916	Divača	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-153	917-918	-	_	_	_	_	
+1-154	919-924	Koper	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-155	925-930	sprva	_	_	_	_	
+1-156	931-938	izbrala	_	_	_	_	
+1-157	939-942	SCT	ORG	3 - Nevtralno	*->9-3	*[9]	
+1-158	943-944	,	_	_	_	_	
+1-159	945-950	njeno	_	_	_	_	
+1-160	951-960	odločitev	_	_	_	_	
+1-161	961-963	pa	_	_	_	_	
+1-162	964-966	je	_	_	_	_	
+1-163	967-979	razveljavila	_	_	_	_	
+1-164	980-987	državna	_	_	_	_	
+1-165	988-998	revizijska	_	_	_	_	
+1-166	999-1007	komisija	_	_	_	_	
+1-167	1008-1009	.	_	_	_	_	
+1-168	1010-1012	Po	_	_	_	_	
+1-169	1013-1021	ponovnem	_	_	_	_	
+1-170	1022-1030	pregledu	_	_	_	_	
+1-171	1031-1037	ponudb	_	_	_	_	
+1-172	1038-1040	je	_	_	_	_	
+1-173	1041-1050	direkcija	_	_	_	_	
+1-174	1051-1052	,	_	_	_	_	
+1-175	1053-1055	ki	_	_	_	_	
+1-176	1056-1058	je	_	_	_	_	
+1-177	1059-1063	pred	_	_	_	_	
+1-178	1064-1067	tem	_	_	_	_	
+1-179	1068-1075	ponudbo	_	_	_	_	
+1-180	1076-1078	GH	ORG[7]	_	*->4-2	*[4]	
+1-181	1079-1087	Holdinga	ORG[7]	_	*->4-2	*[4]	
+1-182	1088-1096	izločila	_	_	_	_	
+1-183	1097-1099	iz	_	_	_	_	
+1-184	1100-1111	ocenjevanja	_	_	_	_	
+1-185	1112-1115	kot	_	_	_	_	
+1-186	1116-1126	nepravilno	_	_	_	_	
+1-187	1127-1128	,	_	_	_	_	
+1-188	1129-1136	izbrala	_	_	_	_	
+1-189	1137-1144	ponudbo	_	_	_	_	
+1-190	1145-1147	za	_	_	_	_	
+1-191	1148-1150	65	_	_	_	_	
+1-192	1151-1160	milijonov	_	_	_	_	
+1-193	1161-1166	evrov	_	_	_	_	
+1-194	1167-1168	,	_	_	_	_	
+1-195	1169-1171	ki	_	_	_	_	
+1-196	1172-1175	sta	_	_	_	_	
+1-197	1176-1178	jo	_	_	_	_	
+1-198	1179-1185	skupaj	_	_	_	_	
+1-199	1186-1192	oddala	_	_	_	_	
+1-200	1193-1203	avstrijski	_	_	_	_	
+1-201	1204-1214	Swietelsky	ORG	3 - Nevtralno	*->13-1	*[13]	
+1-202	1215-1217	in	_	_	_	_	
+1-203	1218-1220	CM	ORG[8]	_	*->14-1	*[14]	
+1-204	1221-1226	Celje	ORG[8]|LOC[9]	_	*->14-1|*->15-1	*[14]|*[15]	
+1-205	1227-1228	.	_	_	_	_	
+1-206	1229-1234	Kljub	_	_	_	_	
+1-207	1235-1239	temu	_	_	_	_	
+1-208	1240-1242	je	_	_	_	_	
+1-209	1243-1245	GH	ORG[10]	_	*->4-3	*[4]	
+1-210	1246-1254	Holdingu	ORG[10]	_	*->4-3	*[4]	
+1-211	1255-1256	,	_	_	_	_	
+1-212	1257-1259	ki	_	_	_	_	
+1-213	1260-1262	so	_	_	_	_	
+1-214	1263-1265	ga	_	_	_	_	
+1-215	1266-1276	ustanovili	_	_	_	_	
+1-216	1277-1280	SGP	ORG[11]	3 - Nevtralno[26]	*->6-2	*[6]	
+1-217	1281-1288	Pomgrad	ORG[11]	3 - Nevtralno[26]	*->6-2	*[6]	
+1-218	1289-1290	,	_	_	_	_	
+1-219	1291-1297	Kraški	ORG[12]	3 - Nevtralno[27]	*->16-1	*[16]	
+1-220	1298-1303	zidar	ORG[12]	3 - Nevtralno[27]	*->16-1	*[16]	
+1-221	1304-1306	in	_	_	_	_	
+1-222	1307-1318	Konstruktor	ORG	3 - Nevtralno	*->17-1	*[17]	
+1-223	1319-1320	,	_	_	_	_	
+1-224	1321-1327	uspelo	_	_	_	_	
+1-225	1328-1333	priti	_	_	_	_	
+1-226	1334-1336	do	_	_	_	_	
+1-227	1337-1341	dela	_	_	_	_	
+1-228	1342-1347	posla	_	_	_	_	
+1-229	1348-1349	.	_	_	_	_	
+1-230	1350-1352	CM	ORG[13]	3 - Nevtralno[28]	*->14-2	*[14]	
+1-231	1353-1358	Celje	ORG[13]|LOC[14]	3 - Nevtralno[28]|3 - Nevtralno[29]	*->14-2|*->15-2	*[14]|*[15]	
+1-232	1359-1361	ga	_	_	_	_	
+1-233	1362-1364	je	_	_	_	_	
+1-234	1365-1371	namreč	_	_	_	_	
+1-235	1372-1379	oktobra	_	_	_	_	
+1-236	1380-1384	2009	_	_	_	_	
+1-237	1385-1386	,	_	_	_	_	
+1-238	1387-1392	torej	_	_	_	_	
+1-239	1393-1395	le	_	_	_	_	
+1-240	1396-1401	mesec	_	_	_	_	
+1-241	1402-1405	dni	_	_	_	_	
+1-242	1406-1408	po	_	_	_	_	
+1-243	1409-1418	odločitvi	_	_	_	_	
+1-244	1419-1428	direkcije	_	_	_	_	
+1-245	1429-1430	,	_	_	_	_	
+1-246	1431-1436	najel	_	_	_	_	
+1-247	1437-1439	za	_	_	_	_	
+1-248	1440-1452	podizvajalca	_	_	_	_	
+1-249	1453-1454	,	_	_	_	_	
+1-250	1455-1458	kar	_	_	_	_	
+1-251	1459-1461	je	_	_	_	_	
+1-252	1462-1470	holdingu	_	4 - Pozitivno	*->4-4	*[4]	
+1-253	1471-1479	prineslo	_	_	_	_	
+1-254	1480-1482	10	_	_	_	_	
+1-255	1483-1492	milijonov	_	_	_	_	
+1-256	1493-1498	evrov	_	_	_	_	
+1-257	1499-1500	.	_	_	_	_	
+1-258	1501-1504	Kot	_	_	_	_	
+1-259	1505-1511	tretji	_	_	_	_	
+1-260	1512-1520	ponudnik	_	_	_	_	
+1-261	1521-1523	se	_	_	_	_	
+1-262	1524-1526	je	_	_	_	_	
+1-263	1527-1529	na	_	_	_	_	
+1-264	1530-1536	razpis	_	_	_	_	
+1-265	1537-1539	za	_	_	_	_	
+1-266	1540-1550	nadgradnjo	_	_	_	_	
+1-267	1551-1556	proge	_	_	_	_	
+1-268	1557-1566	Pragersko	LOC	_	*->2-2	*[2]	
+1-269	1567-1568	-	_	_	_	_	
+1-270	1569-1575	Murska	LOC[15]	3 - Nevtralno[30]	*->3-2	*[3]	
+1-271	1576-1582	Sobota	LOC[15]	3 - Nevtralno[30]	*->3-2	*[3]	
+1-272	1583-1591	prijavil	_	_	_	_	
+1-273	1592-1601	konzorcij	_	_	_	_	
+1-274	1602-1603	,	_	_	_	_	
+1-275	1604-1606	ki	_	_	_	_	
+1-276	1607-1609	ga	_	_	_	_	
+1-277	1610-1614	vodi	_	_	_	_	
+1-278	1615-1617	SŽ	ORG[16]|ORG[17]	_	*->19-1|*->18-1	*[19]|*[18]	
+1-279	1618-1628	Železniško	ORG[16]	_	*->19-1	*[19]	
+1-280	1629-1637	gradbeno	ORG[16]	_	*->19-1	*[19]	
+1-281	1638-1646	podjetje	ORG[16]	_	*->19-1	*[19]	
+1-282	1647-1648	(	_	_	_	_	
+1-283	1649-1652	ŽGP	ORG	_	*->19-2	*[19]	
+1-284	1653-1654	)	_	_	_	_	
+1-285	1655-1656	.	_	_	_	_	
+1-286	1657-1659	To	_	_	*->19-3	*[19]	
+1-287	1660-1662	je	_	_	_	_	
+1-288	1663-1664	v	_	_	_	_	
+1-289	1665-1673	večinski	_	_	_	_	
+1-290	1674-1679	lasti	_	_	_	_	
+1-291	1680-1682	SŽ	ORG	_	*->18-2	*[18]	
+1-292	1683-1684	,	_	_	_	_	
+1-293	1685-1694	reference	_	_	_	_	
+1-294	1695-1697	pa	_	_	_	_	
+1-295	1698-1700	so	_	_	_	_	
+1-296	1701-1703	mu	_	_	*->19-4	*[19]	
+1-297	1704-1710	ostale	_	_	_	_	
+1-298	1711-1713	še	_	_	_	_	
+1-299	1714-1720	izpred	_	_	_	_	
+1-300	1721-1728	desetih	_	_	_	_	
+1-301	1729-1732	let	_	_	_	_	
+1-302	1733-1734	,	_	_	_	_	
+1-303	1735-1737	ko	_	_	_	_	
+1-304	1738-1740	je	_	_	_	_	
+1-305	1741-1745	naša	_	_	_	_	
+1-306	1746-1752	država	_	_	_	_	
+1-307	1753-1761	zgradila	_	_	_	_	
+1-308	1762-1768	zadnjo	_	_	_	_	
+1-309	1769-1773	novo	_	_	_	_	
+1-310	1774-1784	železniško	_	_	_	_	
+1-311	1785-1790	progo	_	_	_	_	
+1-312	1791-1792	(	_	_	_	_	
+1-313	1793-1795	do	_	_	_	_	
+1-314	1796-1805	Madžarske	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-315	1806-1807	)	_	_	_	_	
+1-316	1808-1809	.	_	_	_	_	
+1-317	1810-1811	V	_	_	_	_	
+1-318	1812-1822	konzorciju	_	_	_	_	
+1-319	1823-1824	s	_	_	_	_	
+1-320	1825-1827	SŽ	ORG[18]|ORG[19]	3 - Nevtralno[31]	*->19-5|*->18-3	*[19]|*[18]	
+1-321	1828-1831	ŽGP	ORG[18]	3 - Nevtralno[31]	*->19-5	*[19]	
+1-322	1832-1841	nastopata	_	_	_	_	
+1-323	1842-1844	še	_	_	_	_	
+1-324	1845-1847	SŽ	ORG[20]|ORG[21]	_	*->21-1|*->18-4	*[21]|*[18]	
+1-325	1848-1859	Projektivno	ORG[20]	_	*->21-1	*[21]	
+1-326	1860-1868	podjetje	ORG[20]	_	*->21-1	*[21]	
+1-327	1869-1870	,	_	_	_	_	
+1-328	1871-1873	ki	_	_	_	_	
+1-329	1874-1883	lastniško	_	_	_	_	
+1-330	1884-1886	ni	_	_	_	_	
+1-331	1887-1895	povezano	_	_	*->21-2	*[21]	
+1-332	1896-1897	s	_	_	_	_	
+1-333	1898-1900	SŽ	ORG	3 - Nevtralno	*->18-5	*[18]	
+1-334	1901-1902	,	_	_	_	_	
+1-335	1903-1905	in	_	_	_	_	
+1-336	1906-1912	Tegrad	ORG	_	*->22-1	*[22]	
+1-337	1913-1914	.	_	_	_	_	
+1-338	1915-1921	Medtem	_	_	_	_	
+1-339	1922-1924	ko	_	_	_	_	
+1-340	1925-1927	je	_	_	_	_	
+1-341	1928-1932	prvo	_	_	*->21-3	*[21]	
+1-342	1933-1935	že	_	_	_	_	
+1-343	1936-1940	pred	_	_	_	_	
+1-344	1941-1946	časom	_	_	_	_	
+1-345	1947-1950	kot	_	_	_	_	
+1-346	1951-1956	edini	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-347	1957-1965	ponudnik	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-348	1966-1972	dobilo	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-349	1973-1979	dobrih	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-350	1980-1982	11	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-351	1983-1992	milijonov	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-352	1993-1998	evrov	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-353	1999-2005	vredno	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-354	2006-2014	pripravo	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-355	2015-2024	projektov	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-356	2025-2028	pri	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-357	2029-2035	obnovi	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-358	2036-2038	in	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-359	2039-2054	elektrifikaciji	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-360	2055-2060	proge	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-361	2061-2070	Pragersko	LOC	4 - Pozitivno[32]|3 - Nevtralno[33]	*->21-4|*->2-3	*[21]|*[2]	
+1-362	2071-2072	-	_	4 - Pozitivno[32]	*->21-4	*[21]	
+1-363	2073-2078	Hodoš	LOC	4 - Pozitivno[32]|3 - Nevtralno[34]	*->21-4|*->23-1	*[21]|*[23]	
+1-364	2079-2080	,	_	_	_	_	
+1-365	2081-2083	je	_	_	_	_	
+1-366	2084-2090	družba	_	_	*->22-2	*[22]	
+1-367	2091-2097	Tegrad	ORG	_	*->22-2	*[22]	
+1-368	2098-2099	v	_	_	_	_	
+1-369	2100-2105	lasti	_	_	_	_	
+1-370	2106-2112	Janeza	PER[22]	_	*->24-1	*[24]	
+1-371	2113-2121	Javorška	PER[22]	_	*->24-1	*[24]	
+1-372	2122-2123	,	_	_	_	_	
+1-373	2124-2129	nekoč	_	_	_	_	
+1-374	2130-2140	zastopnika	_	_	_	_	
+1-375	2141-2150	sindikata	_	_	_	_	
+1-376	2151-2152	v	_	_	_	_	
+1-377	2153-2162	propadlem	_	_	_	_	
+1-378	2163-2170	Siteepu	ORG	2 - Negativno	*->25-1	*[25]	
+1-379	2171-2172	.	_	_	_	_	
+1-380	2173-2181	Javoršek	PER	3 - Nevtralno	*->24-2	*[24]	
+1-381	2182-2184	je	_	_	_	_	
+1-382	2185-2191	Tegrad	ORG	3 - Nevtralno	*->22-3	*[22]	
+1-383	2192-2197	kupil	_	_	_	_	
+1-384	2198-2202	lani	_	_	_	_	
+1-385	2203-2205	od	_	_	_	_	
+1-386	2206-2209	GPL	ORG[23]	3 - Nevtralno[35]	*->26-1	*[26]	
+1-387	2210-2217	Gradenj	ORG[23]	3 - Nevtralno[35]	*->26-1	*[26]	
+1-388	2218-2222	Boža	PER[24]	3 - Nevtralno[36]	*->27-1	*[27]	
+1-389	2223-2233	Lazarevića	PER[24]	3 - Nevtralno[36]	*->27-1	*[27]	
+1-390	2234-2235	.	_	_	_	_	
+1-391	2236-2239	Rok	_	_	_	_	
+1-392	2240-2242	za	_	_	_	_	
+1-393	2243-2249	oddajo	_	_	_	_	
+1-394	2250-2256	ponudb	_	_	_	_	
+1-395	2257-2259	se	_	_	_	_	
+1-396	2260-2262	je	_	_	_	_	
+1-397	2263-2268	sicer	_	_	_	_	
+1-398	2269-2276	iztekel	_	_	_	_	
+1-399	2277-2282	konec	_	_	_	_	
+1-400	2283-2293	prejšnjega	_	_	_	_	
+1-401	2294-2299	tedna	_	_	_	_	
+1-402	2300-2301	,	_	_	_	_	
+1-403	2302-2305	pri	_	_	_	_	
+1-404	2306-2311	čemer	_	_	_	_	
+1-405	2312-2314	še	_	_	_	_	
+1-406	2315-2317	ni	_	_	_	_	
+1-407	2318-2323	znano	_	_	_	_	
+1-408	2324-2325	,	_	_	_	_	
+1-409	2326-2329	ali	_	_	_	_	
+1-410	2330-2332	so	_	_	_	_	
+1-411	2333-2335	na	_	_	_	_	
+1-412	2336-2345	direkciji	_	_	_	_	
+1-413	2346-2348	za	_	_	_	_	
+1-414	2349-2356	vodenje	_	_	_	_	
+1-415	2357-2367	investicij	_	_	_	_	
+1-416	2368-2369	v	_	_	_	_	
+1-417	2370-2375	javno	_	_	_	_	
+1-418	2376-2386	železniško	_	_	_	_	
+1-419	2387-2401	infrastrukturo	_	_	_	_	
+1-420	2402-2403	,	_	_	_	_	
+1-421	2404-2406	ki	_	_	_	_	
+1-422	2407-2409	jo	_	_	_	_	
+1-423	2410-2414	vodi	_	_	_	_	
+1-424	2415-2421	Andrej	PER[25]	3 - Nevtralno[37]	*->28-1	*[28]	
+1-425	2422-2427	Godec	PER[25]	3 - Nevtralno[37]	*->28-1	*[28]	
+1-426	2428-2429	,	_	_	_	_	
+1-427	2430-2432	že	_	_	_	_	
+1-428	2433-2439	odprli	_	_	_	_	
+1-429	2440-2447	ponudbe	_	_	_	_	
+1-430	2448-2450	in	_	_	_	_	
+1-431	2451-2455	kdaj	_	_	_	_	
+1-432	2456-2460	bodo	_	_	_	_	
+1-433	2461-2468	izbrali	_	_	_	_	
+1-434	2469-2478	izvajalca	_	_	_	_	
+1-435	2479-2480	.	_	_	_	_	
+1-436	2481-2483	Ta	_	_	_	_	
+1-437	2484-2486	bo	_	_	_	_	
+1-438	2487-2492	moral	_	_	_	_	
+1-439	2493-2502	zamenjati	_	_	_	_	
+1-440	2503-2510	spodnji	_	_	_	_	
+1-441	2511-2517	ustroj	_	_	_	_	
+1-442	2518-2520	35	_	_	_	_	
+1-443	2521-2531	kilometrov	_	_	_	_	
+1-444	2532-2537	dolge	_	_	_	_	
+1-445	2538-2543	proge	_	_	_	_	
+1-446	2544-2545	,	_	_	_	_	
+1-447	2546-2556	zagotoviti	_	_	_	_	
+1-448	2557-2562	njeno	_	_	_	_	
+1-449	2563-2573	predvideno	_	_	_	_	
+1-450	2574-2578	osno	_	_	_	_	
+1-451	2579-2581	in	_	_	_	_	
+1-452	2582-2591	dolžinsko	_	_	_	_	
+1-453	2592-2603	obremenitev	_	_	_	_	
+1-454	2604-2607	ter	_	_	_	_	
+1-455	2608-2619	vzpostaviti	_	_	_	_	
+1-456	2620-2626	pogoje	_	_	_	_	
+1-457	2627-2629	za	_	_	_	_	
+1-458	2630-2634	dvig	_	_	_	_	
+1-459	2635-2643	hitrosti	_	_	_	_	
+1-460	2644-2650	vlakov	_	_	_	_	
+1-461	2651-2652	.	_	_	_	_	
+1-462	2653-2666	primoz.cirman	_	_	_	_	
+1-463	2667-2668	@	_	_	_	_	

@@ -1,0 +1,476 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Nekdanji predsednik uprave Istrabenza Igor Bavčar in nekdanji direktor Pivovarne Laško Boško Šrot nista prišla na današnji predobravnavni narok na ljubljansko okrožno sodišče v zadevi , kjer jima sodijo zaradi trgovanja z delnicami Istrabenza . Nekdanji predsednik uprave Istrabenza Igor Bavčar je danes povedal , da se predobravnavnega naroka na ljubljanskem okrožnem sodišču ni udeležil , ker bi bila njegova navzočnost potrebna le , če bi na naroku nameraval priznati krivdo . Kot je dejal , krivde ne misli priznati , ker očitanega kaznivega dejanja ni storil . " Zato bi bila moja navzočnost nepotrebna in nesmiselna , " je še pojasnil . Predobravnavni narok ne poteka samo za Bavčarja , temveč tudi za nekdanjega direktorja Pivovarne Laško Boška Šrota , ki se naroka prav tako ni udeležil . Kasneje je pojasnil , podobno kot Bavčar , da njegova navzočnost ni bila potrebna , saj da ni storil nobenega kaznivega dejanja . " Nisem zlorabil položaja , da bi Bavčarju pridobil premoženjsko korist in s tem oškodoval firmo oziroma sebe , " je dejal . Prav tako se naroka , kjer bi se izrekli o krivdi , ni udeležil nobeden od preostalih obtoženih . Nekdanjima šefoma Istrabenza in Pivovarne Laško bodo sicer začeli soditi 19 . marca . Obtožnica zaradi domnevno spornega lastninjenja Pivovarne Laško , v katerem so bile pivovarna in njene hčerinske družbe domnevno oškodovane za 109 milijonov evrov , in trgovanja z delnicami Istrabenza je bila vložena avgusta lani . Na zatožno klop naj bi jih sedlo sedem Zaradi domnevno spornega trgovanja z delnicami Istrabenza bi morali danes na zatožno klop sesti še predsednik uprave Maksime holdinga Nastja Sušinski , nekdanji svetovalec za finance v Istrabenzu Kristjan Sušinski , lastnik Sportine Bahtijar Bajrović , Kranjski odvetnik Branko Lipovec , nekdanja " slamnata " lastnica Šrotovega podjetja Kolonel Danijela Raković , Sportina Bled , Durox in Cogito . Vendar ni bilo nikogar . Obtožnico razdelili na dva dela Sodišče je nato na predlog tožilstva obstoječo obtožnico zoper sedmerico razdelilo na dva dela . Tako bodo obtoženim najprej sodili zaradi domnevno spornega trgovanja z delnicami , ki se nanaša na večkratno prodajo 7,3 - odstotnega deleža Istrabenza , pozneje pa še zaradi menedžerskega prevzema Pivovarne Laško . Razdelitev obtožnice je bila po mnenju tožilstva nujna zaradi skorajšnjega izteka dopustnega triletnega roka za zamrznitev premoženja . Naj vas spomnimo Kazniva dejanja naj bi se zgodila leta 2007 ob preprodaji 7,3 - odstotnega deleža Istrabenza , ki ga je Pivovarna Laško prodala najprej hčerinski družbi Plinfin ( za 23 milijonov evrov ) , nato je pivovarna prodala Plinfin za vsega 7.500 evrov Sportini , ta pa 1 . oktobra 2007 za 24,9 milijona evrov Microtrustu v lasti Nastje Sušinski . Istega dne je Microtrust prodal Istrabenzov paket Pom - Investu za 49,2 milijona in s tem zaslužil 24,3 milijona evrov
+1-1	0-8	Nekdanji	_	_	*->1-1	*[1]	
+1-2	9-19	predsednik	_	_	*->1-1	*[1]	
+1-3	20-26	uprave	_	_	*->1-1	*[1]	
+1-4	27-37	Istrabenza	ORG	_	*->1-1|*->15-1	*[1]|*[15]	
+1-5	38-42	Igor	PER[1]	_	*->1-1	*[1]	
+1-6	43-49	Bavčar	PER[1]	_	*->1-1	*[1]	
+1-7	50-52	in	_	_	_	_	
+1-8	53-61	nekdanji	_	_	*->6-1	*[6]	
+1-9	62-70	direktor	_	_	*->6-1	*[6]	
+1-10	71-80	Pivovarne	ORG[2]	_	*->6-1|*->11-1	*[6]|*[11]	
+1-11	81-86	Laško	ORG[2]|LOC[3]	_	*->6-1|*->11-1|*->18-1	*[6]|*[11]|*[18]	
+1-12	87-92	Boško	PER[4]	_	*->6-1	*[6]	
+1-13	93-97	Šrot	PER[4]	_	*->6-1	*[6]	
+1-14	98-103	nista	_	_	_	_	
+1-15	104-110	prišla	_	_	_	_	
+1-16	111-113	na	_	_	_	_	
+1-17	114-122	današnji	_	_	_	_	
+1-18	123-137	predobravnavni	_	_	_	_	
+1-19	138-143	narok	_	_	_	_	
+1-20	144-146	na	_	_	_	_	
+1-21	147-158	ljubljansko	_	_	_	_	
+1-22	159-166	okrožno	_	_	_	_	
+1-23	167-174	sodišče	_	_	_	_	
+1-24	175-176	v	_	_	_	_	
+1-25	177-183	zadevi	_	_	_	_	
+1-26	184-185	,	_	_	_	_	
+1-27	186-190	kjer	_	_	_	_	
+1-28	191-195	jima	_	_	_	_	
+1-29	196-202	sodijo	_	_	_	_	
+1-30	203-209	zaradi	_	_	_	_	
+1-31	210-219	trgovanja	_	_	_	_	
+1-32	220-221	z	_	_	_	_	
+1-33	222-231	delnicami	_	_	_	_	
+1-34	232-242	Istrabenza	ORG	_	*->15-2	*[15]	
+1-35	243-244	.	_	_	_	_	
+1-36	245-253	Nekdanji	_	_	*->1-2	*[1]	
+1-37	254-264	predsednik	_	_	*->1-2	*[1]	
+1-38	265-271	uprave	_	_	*->1-2	*[1]	
+1-39	272-282	Istrabenza	ORG	_	*->1-2|*->15-3	*[1]|*[15]	
+1-40	283-287	Igor	PER[5]	_	*->1-2	*[1]	
+1-41	288-294	Bavčar	PER[5]	_	*->1-2	*[1]	
+1-42	295-297	je	_	_	_	_	
+1-43	298-303	danes	_	_	_	_	
+1-44	304-311	povedal	_	_	_	_	
+1-45	312-313	,	_	_	_	_	
+1-46	314-316	da	_	_	_	_	
+1-47	317-319	se	_	_	_	_	
+1-48	320-336	predobravnavnega	_	_	_	_	
+1-49	337-343	naroka	_	_	_	_	
+1-50	344-346	na	_	_	_	_	
+1-51	347-359	ljubljanskem	_	_	_	_	
+1-52	360-368	okrožnem	_	_	_	_	
+1-53	369-376	sodišču	_	_	_	_	
+1-54	377-379	ni	_	_	_	_	
+1-55	380-388	udeležil	_	_	_	_	
+1-56	389-390	,	_	_	_	_	
+1-57	391-394	ker	_	_	_	_	
+1-58	395-397	bi	_	_	_	_	
+1-59	398-402	bila	_	_	_	_	
+1-60	403-410	njegova	_	_	_	_	
+1-61	411-421	navzočnost	_	_	_	_	
+1-62	422-430	potrebna	_	_	_	_	
+1-63	431-433	le	_	_	_	_	
+1-64	434-435	,	_	_	_	_	
+1-65	436-438	če	_	_	_	_	
+1-66	439-441	bi	_	_	_	_	
+1-67	442-444	na	_	_	_	_	
+1-68	445-451	naroku	_	_	_	_	
+1-69	452-461	nameraval	_	_	_	_	
+1-70	462-470	priznati	_	_	_	_	
+1-71	471-477	krivdo	_	_	_	_	
+1-72	478-479	.	_	_	_	_	
+1-73	480-483	Kot	_	_	_	_	
+1-74	484-486	je	_	_	*->1-3	*[1]	
+1-75	487-492	dejal	_	_	*->1-3	*[1]	
+1-76	493-494	,	_	_	_	_	
+1-77	495-501	krivde	_	_	_	_	
+1-78	502-504	ne	_	_	_	_	
+1-79	505-510	misli	_	_	_	_	
+1-80	511-519	priznati	_	_	_	_	
+1-81	520-521	,	_	_	_	_	
+1-82	522-525	ker	_	_	_	_	
+1-83	526-535	očitanega	_	_	_	_	
+1-84	536-545	kaznivega	_	_	_	_	
+1-85	546-553	dejanja	_	_	_	_	
+1-86	554-556	ni	_	_	_	_	
+1-87	557-563	storil	_	_	_	_	
+1-88	564-565	.	_	_	_	_	
+1-89	566-567	"	_	_	_	_	
+1-90	568-572	Zato	_	_	_	_	
+1-91	573-575	bi	_	_	_	_	
+1-92	576-580	bila	_	_	_	_	
+1-93	581-585	moja	_	_	*->1-4	*[1]	
+1-94	586-596	navzočnost	_	_	_	_	
+1-95	597-607	nepotrebna	_	_	_	_	
+1-96	608-610	in	_	_	_	_	
+1-97	611-621	nesmiselna	_	_	_	_	
+1-98	622-623	,	_	_	_	_	
+1-99	624-625	"	_	_	_	_	
+1-100	626-628	je	_	_	*->1-5	*[1]	
+1-101	629-631	še	_	_	*->1-5	*[1]	
+1-102	632-640	pojasnil	_	_	*->1-5	*[1]	
+1-103	641-642	.	_	_	_	_	
+1-104	643-657	Predobravnavni	_	_	_	_	
+1-105	658-663	narok	_	_	_	_	
+1-106	664-666	ne	_	_	_	_	
+1-107	667-673	poteka	_	_	_	_	
+1-108	674-678	samo	_	_	_	_	
+1-109	679-681	za	_	_	_	_	
+1-110	682-690	Bavčarja	PER	_	*->1-6	*[1]	
+1-111	691-692	,	_	_	_	_	
+1-112	693-699	temveč	_	_	_	_	
+1-113	700-704	tudi	_	_	_	_	
+1-114	705-707	za	_	_	_	_	
+1-115	708-718	nekdanjega	_	_	*->6-2	*[6]	
+1-116	719-729	direktorja	_	_	*->6-2	*[6]	
+1-117	730-739	Pivovarne	ORG[6]	_	*->6-2|*->11-2	*[6]|*[11]	
+1-118	740-745	Laško	ORG[6]|LOC[7]	_	*->6-2|*->11-2|*->18-2	*[6]|*[11]|*[18]	
+1-119	746-751	Boška	PER[8]	_	*->6-2	*[6]	
+1-120	752-757	Šrota	PER[8]	_	*->6-2	*[6]	
+1-121	758-759	,	_	_	_	_	
+1-122	760-762	ki	_	_	_	_	
+1-123	763-765	se	_	_	_	_	
+1-124	766-772	naroka	_	_	_	_	
+1-125	773-777	prav	_	_	_	_	
+1-126	778-782	tako	_	_	_	_	
+1-127	783-785	ni	_	_	_	_	
+1-128	786-794	udeležil	_	_	_	_	
+1-129	795-796	.	_	_	_	_	
+1-130	797-804	Kasneje	_	_	_	_	
+1-131	805-807	je	_	_	*->6-3	*[6]	
+1-132	808-816	pojasnil	_	_	*->6-3	*[6]	
+1-133	817-818	,	_	_	_	_	
+1-134	819-826	podobno	_	_	_	_	
+1-135	827-830	kot	_	_	_	_	
+1-136	831-837	Bavčar	PER	_	*->1-7	*[1]	
+1-137	838-839	,	_	_	_	_	
+1-138	840-842	da	_	_	_	_	
+1-139	843-850	njegova	_	_	_	_	
+1-140	851-861	navzočnost	_	_	_	_	
+1-141	862-864	ni	_	_	_	_	
+1-142	865-869	bila	_	_	_	_	
+1-143	870-878	potrebna	_	_	_	_	
+1-144	879-880	,	_	_	_	_	
+1-145	881-884	saj	_	_	_	_	
+1-146	885-887	da	_	_	_	_	
+1-147	888-890	ni	_	_	_	_	
+1-148	891-897	storil	_	_	_	_	
+1-149	898-906	nobenega	_	_	_	_	
+1-150	907-916	kaznivega	_	_	_	_	
+1-151	917-924	dejanja	_	_	_	_	
+1-152	925-926	.	_	_	_	_	
+1-153	927-928	"	_	_	_	_	
+1-154	929-934	Nisem	_	_	_	_	
+1-155	935-943	zlorabil	_	_	_	_	
+1-156	944-952	položaja	_	_	_	_	
+1-157	953-954	,	_	_	_	_	
+1-158	955-957	da	_	_	_	_	
+1-159	958-960	bi	_	_	_	_	
+1-160	961-969	Bavčarju	PER	3 - Nevtralno	*->1-8	*[1]	
+1-161	970-978	pridobil	_	_	_	_	
+1-162	979-991	premoženjsko	_	_	_	_	
+1-163	992-998	korist	_	_	_	_	
+1-164	999-1001	in	_	_	_	_	
+1-165	1002-1003	s	_	_	_	_	
+1-166	1004-1007	tem	_	_	_	_	
+1-167	1008-1017	oškodoval	_	_	_	_	
+1-168	1018-1023	firmo	_	_	_	_	
+1-169	1024-1031	oziroma	_	_	_	_	
+1-170	1032-1036	sebe	_	_	_	_	
+1-171	1037-1038	,	_	_	_	_	
+1-172	1039-1040	"	_	_	_	_	
+1-173	1041-1043	je	_	_	*->6-4	*[6]	
+1-174	1044-1049	dejal	_	_	*->6-4	*[6]	
+1-175	1050-1051	.	_	_	_	_	
+1-176	1052-1056	Prav	_	_	_	_	
+1-177	1057-1061	tako	_	_	_	_	
+1-178	1062-1064	se	_	_	_	_	
+1-179	1065-1071	naroka	_	_	_	_	
+1-180	1072-1073	,	_	_	_	_	
+1-181	1074-1078	kjer	_	_	_	_	
+1-182	1079-1081	bi	_	_	_	_	
+1-183	1082-1084	se	_	_	_	_	
+1-184	1085-1092	izrekli	_	_	_	_	
+1-185	1093-1094	o	_	_	_	_	
+1-186	1095-1101	krivdi	_	_	_	_	
+1-187	1102-1103	,	_	_	_	_	
+1-188	1104-1106	ni	_	_	_	_	
+1-189	1107-1115	udeležil	_	_	_	_	
+1-190	1116-1123	nobeden	_	_	_	_	
+1-191	1124-1126	od	_	_	_	_	
+1-192	1127-1137	preostalih	_	_	_	_	
+1-193	1138-1147	obtoženih	_	_	_	_	
+1-194	1148-1149	.	_	_	_	_	
+1-195	1150-1160	Nekdanjima	_	_	_	_	
+1-196	1161-1167	šefoma	_	_	_	_	
+1-197	1168-1178	Istrabenza	ORG	_	*->15-4	*[15]	
+1-198	1179-1181	in	_	_	_	_	
+1-199	1182-1191	Pivovarne	ORG[9]	_	*->11-3	*[11]	
+1-200	1192-1197	Laško	ORG[9]|LOC[10]	_	*->11-3|*->18-3	*[11]|*[18]	
+1-201	1198-1202	bodo	_	_	_	_	
+1-202	1203-1208	sicer	_	_	_	_	
+1-203	1209-1215	začeli	_	_	_	_	
+1-204	1216-1222	soditi	_	_	_	_	
+1-205	1223-1225	19	_	_	_	_	
+1-206	1226-1227	.	_	_	_	_	
+1-207	1228-1233	marca	_	_	_	_	
+1-208	1234-1235	.	_	_	_	_	
+1-209	1236-1245	Obtožnica	_	_	_	_	
+1-210	1246-1252	zaradi	_	_	_	_	
+1-211	1253-1261	domnevno	_	_	_	_	
+1-212	1262-1270	spornega	_	_	_	_	
+1-213	1271-1283	lastninjenja	_	_	_	_	
+1-214	1284-1293	Pivovarne	ORG[11]	_	*->11-4	*[11]	
+1-215	1294-1299	Laško	ORG[11]|LOC[12]	_	*->11-4|*->18-4	*[11]|*[18]	
+1-216	1300-1301	,	_	_	_	_	
+1-217	1302-1303	v	_	_	_	_	
+1-218	1304-1311	katerem	_	_	_	_	
+1-219	1312-1314	so	_	_	_	_	
+1-220	1315-1319	bile	_	_	_	_	
+1-221	1320-1329	pivovarna	_	_	*->11-5	*[11]	
+1-222	1330-1332	in	_	_	_	_	
+1-223	1333-1338	njene	_	_	_	_	
+1-224	1339-1348	hčerinske	_	_	_	_	
+1-225	1349-1355	družbe	_	_	_	_	
+1-226	1356-1364	domnevno	_	_	_	_	
+1-227	1365-1375	oškodovane	_	_	_	_	
+1-228	1376-1378	za	_	_	_	_	
+1-229	1379-1382	109	_	_	_	_	
+1-230	1383-1392	milijonov	_	_	_	_	
+1-231	1393-1398	evrov	_	_	_	_	
+1-232	1399-1400	,	_	_	_	_	
+1-233	1401-1403	in	_	_	_	_	
+1-234	1404-1413	trgovanja	_	_	_	_	
+1-235	1414-1415	z	_	_	_	_	
+1-236	1416-1425	delnicami	_	_	_	_	
+1-237	1426-1436	Istrabenza	ORG	_	*->15-5	*[15]	
+1-238	1437-1439	je	_	_	_	_	
+1-239	1440-1444	bila	_	_	_	_	
+1-240	1445-1452	vložena	_	_	_	_	
+1-241	1453-1460	avgusta	_	_	_	_	
+1-242	1461-1465	lani	_	_	_	_	
+1-243	1466-1467	.	_	_	_	_	
+1-244	1468-1470	Na	_	_	_	_	
+1-245	1471-1478	zatožno	_	_	_	_	
+1-246	1479-1483	klop	_	_	_	_	
+1-247	1484-1487	naj	_	_	_	_	
+1-248	1488-1490	bi	_	_	_	_	
+1-249	1491-1494	jih	_	_	_	_	
+1-250	1495-1500	sedlo	_	_	_	_	
+1-251	1501-1506	sedem	_	_	_	_	
+1-252	1507-1513	Zaradi	_	_	_	_	
+1-253	1514-1522	domnevno	_	_	_	_	
+1-254	1523-1531	spornega	_	_	_	_	
+1-255	1532-1541	trgovanja	_	_	_	_	
+1-256	1542-1543	z	_	_	_	_	
+1-257	1544-1553	delnicami	_	_	_	_	
+1-258	1554-1564	Istrabenza	ORG	_	*->15-6	*[15]	
+1-259	1565-1567	bi	_	_	_	_	
+1-260	1568-1574	morali	_	_	_	_	
+1-261	1575-1580	danes	_	_	_	_	
+1-262	1581-1583	na	_	_	_	_	
+1-263	1584-1591	zatožno	_	_	_	_	
+1-264	1592-1596	klop	_	_	_	_	
+1-265	1597-1602	sesti	_	_	_	_	
+1-266	1603-1605	še	_	_	_	_	
+1-267	1606-1616	predsednik	_	_	*->13-1	*[13]	
+1-268	1617-1623	uprave	_	_	*->13-1	*[13]	
+1-269	1624-1631	Maksime	ORG[13]	3 - Nevtralno[27]	*->13-1|*->2-1	*[13]|*[2]	
+1-270	1632-1640	holdinga	ORG[13]	3 - Nevtralno[27]	*->13-1|*->2-1	*[13]|*[2]	
+1-271	1641-1647	Nastja	PER[14]	_	*->13-1	*[13]	
+1-272	1648-1656	Sušinski	PER[14]	_	*->13-1	*[13]	
+1-273	1657-1658	,	_	_	_	_	
+1-274	1659-1667	nekdanji	_	2 - Negativno[28]	*->3-1	*[3]	
+1-275	1668-1678	svetovalec	_	2 - Negativno[28]	*->3-1	*[3]	
+1-276	1679-1681	za	_	2 - Negativno[28]	*->3-1	*[3]	
+1-277	1682-1689	finance	_	2 - Negativno[28]	*->3-1	*[3]	
+1-278	1690-1691	v	_	2 - Negativno[28]	*->3-1	*[3]	
+1-279	1692-1702	Istrabenzu	ORG	2 - Negativno[28]	*->3-1|*->15-7	*[3]|*[15]	
+1-280	1703-1711	Kristjan	PER[15]	2 - Negativno[28]	*->3-1	*[3]	
+1-281	1712-1720	Sušinski	PER[15]	2 - Negativno[28]	*->3-1	*[3]	
+1-282	1721-1722	,	_	_	_	_	
+1-283	1723-1730	lastnik	_	2 - Negativno[29]	*->4-1	*[4]	
+1-284	1731-1739	Sportine	ORG	2 - Negativno[29]	*->4-1|*->8-1	*[4]|*[8]	
+1-285	1740-1748	Bahtijar	PER[16]	2 - Negativno[29]	*->4-1	*[4]	
+1-286	1749-1757	Bajrović	PER[16]	2 - Negativno[29]	*->4-1	*[4]	
+1-287	1758-1759	,	_	_	_	_	
+1-288	1760-1768	Kranjski	_	2 - Negativno[30]	*->5-1	*[5]	
+1-289	1769-1777	odvetnik	_	2 - Negativno[30]	*->5-1	*[5]	
+1-290	1778-1784	Branko	PER[17]	2 - Negativno[30]	*->5-1	*[5]	
+1-291	1785-1792	Lipovec	PER[17]	2 - Negativno[30]	*->5-1	*[5]	
+1-292	1793-1794	,	_	_	_	_	
+1-293	1795-1803	nekdanja	_	2 - Negativno[31]	*->7-1	*[7]	
+1-294	1804-1805	"	_	2 - Negativno[31]	*->7-1	*[7]	
+1-295	1806-1814	slamnata	_	2 - Negativno[31]	*->7-1	*[7]	
+1-296	1815-1816	"	_	2 - Negativno[31]	*->7-1	*[7]	
+1-297	1817-1825	lastnica	_	2 - Negativno[31]	*->7-1	*[7]	
+1-298	1826-1835	Šrotovega	PER	2 - Negativno[31]|3 - Nevtralno[32]	*->7-1|*->19-1|*->6-5	*[7]|*[19]|*[6]	
+1-299	1836-1844	podjetja	_	2 - Negativno[31]|3 - Nevtralno[32]	*->7-1|*->19-1	*[7]|*[19]	
+1-300	1845-1852	Kolonel	ORG	2 - Negativno[31]|3 - Nevtralno[32]	*->7-1|*->19-1	*[7]|*[19]	
+1-301	1853-1861	Danijela	PER[18]	2 - Negativno[31]	*->7-1	*[7]	
+1-302	1862-1869	Raković	PER[18]	2 - Negativno[31]	*->7-1	*[7]	
+1-303	1870-1871	,	_	_	_	_	
+1-304	1872-1880	Sportina	ORG[19]	_	*->8-2	*[8]	
+1-305	1881-1885	Bled	ORG[19]|LOC[20]	3 - Nevtralno	*->8-2|*->17-1	*[8]|*[17]	
+1-306	1886-1887	,	_	_	_	_	
+1-307	1888-1893	Durox	ORG	3 - Nevtralno	*->9-1	*[9]	
+1-308	1894-1896	in	_	_	_	_	
+1-309	1897-1903	Cogito	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-310	1904-1905	.	_	_	_	_	
+1-311	1906-1912	Vendar	_	_	_	_	
+1-312	1913-1915	ni	_	_	_	_	
+1-313	1916-1920	bilo	_	_	_	_	
+1-314	1921-1928	nikogar	_	_	_	_	
+1-315	1929-1930	.	_	_	_	_	
+1-316	1931-1940	Obtožnico	_	_	_	_	
+1-317	1941-1950	razdelili	_	_	_	_	
+1-318	1951-1953	na	_	_	_	_	
+1-319	1954-1957	dva	_	_	_	_	
+1-320	1958-1962	dela	_	_	_	_	
+1-321	1963-1970	Sodišče	_	_	_	_	
+1-322	1971-1973	je	_	_	_	_	
+1-323	1974-1978	nato	_	_	_	_	
+1-324	1979-1981	na	_	_	_	_	
+1-325	1982-1989	predlog	_	_	_	_	
+1-326	1990-1999	tožilstva	_	_	_	_	
+1-327	2000-2009	obstoječo	_	_	_	_	
+1-328	2010-2019	obtožnico	_	_	_	_	
+1-329	2020-2025	zoper	_	_	_	_	
+1-330	2026-2035	sedmerico	_	_	_	_	
+1-331	2036-2045	razdelilo	_	_	_	_	
+1-332	2046-2048	na	_	_	_	_	
+1-333	2049-2052	dva	_	_	_	_	
+1-334	2053-2057	dela	_	_	_	_	
+1-335	2058-2059	.	_	_	_	_	
+1-336	2060-2064	Tako	_	_	_	_	
+1-337	2065-2069	bodo	_	_	_	_	
+1-338	2070-2079	obtoženim	_	_	_	_	
+1-339	2080-2087	najprej	_	_	_	_	
+1-340	2088-2094	sodili	_	_	_	_	
+1-341	2095-2101	zaradi	_	_	_	_	
+1-342	2102-2110	domnevno	_	_	_	_	
+1-343	2111-2119	spornega	_	_	_	_	
+1-344	2120-2129	trgovanja	_	_	_	_	
+1-345	2130-2131	z	_	_	_	_	
+1-346	2132-2141	delnicami	_	_	_	_	
+1-347	2142-2143	,	_	_	_	_	
+1-348	2144-2146	ki	_	_	_	_	
+1-349	2147-2149	se	_	_	_	_	
+1-350	2150-2156	nanaša	_	_	_	_	
+1-351	2157-2159	na	_	_	_	_	
+1-352	2160-2169	večkratno	_	_	_	_	
+1-353	2170-2177	prodajo	_	_	_	_	
+1-354	2178-2181	7,3	_	_	_	_	
+1-355	2182-2183	-	_	_	_	_	
+1-356	2184-2194	odstotnega	_	_	_	_	
+1-357	2195-2201	deleža	_	_	_	_	
+1-358	2202-2212	Istrabenza	ORG	_	*->15-8	*[15]	
+1-359	2213-2214	,	_	_	_	_	
+1-360	2215-2222	pozneje	_	_	_	_	
+1-361	2223-2225	pa	_	_	_	_	
+1-362	2226-2228	še	_	_	_	_	
+1-363	2229-2235	zaradi	_	_	_	_	
+1-364	2236-2249	menedžerskega	_	_	_	_	
+1-365	2250-2258	prevzema	_	_	_	_	
+1-366	2259-2268	Pivovarne	ORG[21]	_	*->11-6	*[11]	
+1-367	2269-2274	Laško	ORG[21]|LOC[22]	_	*->11-6|*->18-5	*[11]|*[18]	
+1-368	2275-2276	.	_	_	_	_	
+1-369	2277-2287	Razdelitev	_	_	_	_	
+1-370	2288-2297	obtožnice	_	_	_	_	
+1-371	2298-2300	je	_	_	_	_	
+1-372	2301-2305	bila	_	_	_	_	
+1-373	2306-2308	po	_	_	_	_	
+1-374	2309-2315	mnenju	_	_	_	_	
+1-375	2316-2325	tožilstva	_	_	_	_	
+1-376	2326-2331	nujna	_	_	_	_	
+1-377	2332-2338	zaradi	_	_	_	_	
+1-378	2339-2351	skorajšnjega	_	_	_	_	
+1-379	2352-2358	izteka	_	_	_	_	
+1-380	2359-2369	dopustnega	_	_	_	_	
+1-381	2370-2380	triletnega	_	_	_	_	
+1-382	2381-2385	roka	_	_	_	_	
+1-383	2386-2388	za	_	_	_	_	
+1-384	2389-2399	zamrznitev	_	_	_	_	
+1-385	2400-2410	premoženja	_	_	_	_	
+1-386	2411-2412	.	_	_	_	_	
+1-387	2413-2416	Naj	_	_	_	_	
+1-388	2417-2420	vas	_	_	_	_	
+1-389	2421-2429	spomnimo	_	_	_	_	
+1-390	2430-2437	Kazniva	_	_	_	_	
+1-391	2438-2445	dejanja	_	_	_	_	
+1-392	2446-2449	naj	_	_	_	_	
+1-393	2450-2452	bi	_	_	_	_	
+1-394	2453-2455	se	_	_	_	_	
+1-395	2456-2463	zgodila	_	_	_	_	
+1-396	2464-2468	leta	_	_	_	_	
+1-397	2469-2473	2007	_	_	_	_	
+1-398	2474-2476	ob	_	_	_	_	
+1-399	2477-2487	preprodaji	_	_	_	_	
+1-400	2488-2491	7,3	_	_	_	_	
+1-401	2492-2493	-	_	_	_	_	
+1-402	2494-2504	odstotnega	_	_	_	_	
+1-403	2505-2511	deleža	_	_	_	_	
+1-404	2512-2522	Istrabenza	ORG	_	*->15-9	*[15]	
+1-405	2523-2524	,	_	_	_	_	
+1-406	2525-2527	ki	_	_	_	_	
+1-407	2528-2530	ga	_	_	_	_	
+1-408	2531-2533	je	_	_	_	_	
+1-409	2534-2543	Pivovarna	ORG[23]	_	*->11-7	*[11]	
+1-410	2544-2549	Laško	ORG[23]|LOC[24]	3 - Nevtralno	*->11-7|*->18-6	*[11]|*[18]	
+1-411	2550-2557	prodala	_	_	_	_	
+1-412	2558-2565	najprej	_	_	_	_	
+1-413	2566-2575	hčerinski	_	_	*->12-1	*[12]	
+1-414	2576-2582	družbi	_	_	*->12-1	*[12]	
+1-415	2583-2590	Plinfin	ORG	_	*->12-1	*[12]	
+1-416	2591-2592	(	_	_	_	_	
+1-417	2593-2595	za	_	_	_	_	
+1-418	2596-2598	23	_	_	_	_	
+1-419	2599-2608	milijonov	_	_	_	_	
+1-420	2609-2614	evrov	_	_	_	_	
+1-421	2615-2616	)	_	_	_	_	
+1-422	2617-2618	,	_	_	_	_	
+1-423	2619-2623	nato	_	_	_	_	
+1-424	2624-2626	je	_	_	_	_	
+1-425	2627-2636	pivovarna	_	3 - Nevtralno	*->11-8	*[11]	
+1-426	2637-2644	prodala	_	_	_	_	
+1-427	2645-2652	Plinfin	ORG	3 - Nevtralno	*->12-2	*[12]	
+1-428	2653-2655	za	_	_	_	_	
+1-429	2656-2661	vsega	_	_	_	_	
+1-430	2662-2667	7.500	_	_	_	_	
+1-431	2668-2673	evrov	_	_	_	_	
+1-432	2674-2682	Sportini	ORG	3 - Nevtralno	*->8-3	*[8]	
+1-433	2683-2684	,	_	_	_	_	
+1-434	2685-2687	ta	_	_	_	_	
+1-435	2688-2690	pa	_	_	_	_	
+1-436	2691-2692	1	_	_	_	_	
+1-437	2693-2694	.	_	_	_	_	
+1-438	2695-2702	oktobra	_	_	_	_	
+1-439	2703-2707	2007	_	_	_	_	
+1-440	2708-2710	za	_	_	_	_	
+1-441	2711-2715	24,9	_	_	_	_	
+1-442	2716-2724	milijona	_	_	_	_	
+1-443	2725-2730	evrov	_	_	_	_	
+1-444	2731-2742	Microtrustu	ORG	_	*->14-1	*[14]	
+1-445	2743-2744	v	_	_	_	_	
+1-446	2745-2750	lasti	_	_	_	_	
+1-447	2751-2757	Nastje	PER[25]	2 - Negativno[33]	*->13-2	*[13]	
+1-448	2758-2766	Sušinski	PER[25]	2 - Negativno[33]	*->13-2	*[13]	
+1-449	2767-2768	.	_	_	_	_	
+1-450	2769-2775	Istega	_	_	_	_	
+1-451	2776-2779	dne	_	_	_	_	
+1-452	2780-2782	je	_	_	_	_	
+1-453	2783-2793	Microtrust	ORG	3 - Nevtralno	*->14-2	*[14]	
+1-454	2794-2800	prodal	_	_	_	_	
+1-455	2801-2812	Istrabenzov	ORG	3 - Nevtralno	*->15-10	*[15]	
+1-456	2813-2818	paket	_	_	_	_	
+1-457	2819-2822	Pom	ORG[26]	3 - Nevtralno[34]	*->16-1	*[16]	
+1-458	2823-2824	-	ORG[26]	3 - Nevtralno[34]	*->16-1	*[16]	
+1-459	2825-2832	Investu	ORG[26]	3 - Nevtralno[34]	*->16-1	*[16]	
+1-460	2833-2835	za	_	_	_	_	
+1-461	2836-2840	49,2	_	_	_	_	
+1-462	2841-2849	milijona	_	_	_	_	
+1-463	2850-2852	in	_	_	_	_	
+1-464	2853-2854	s	_	_	_	_	
+1-465	2855-2858	tem	_	_	_	_	
+1-466	2859-2867	zaslužil	_	_	_	_	
+1-467	2868-2872	24,3	_	_	_	_	
+1-468	2873-2881	milijona	_	_	_	_	
+1-469	2882-2887	evrov	_	_	_	_	

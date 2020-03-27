@@ -1,0 +1,337 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Zunanji minister Žbogar je gostil predstavnika kitajske komunistične partije . Slednji je izpostavil predvsem vlaganja v infrastrukturne projekte , ki bi bili v interesu obeh držav . Žbogar je na Brdu gostil visokega kitajskega gosta . Minister za zunanje zadeve Samuel Žbogar je danes na Brdu pri Kranju gostil člana stalnega odbora politbiroja centralnega komiteja kitajske komunistične partije Li Čang Čuna . Pogovarjala sta se o krepitvi dvostranskega sodelovanja in se strinjala , da je med državama še veliko neizkoriščenih možnosti , predvsem v gospodarstvu . Li Čang Čun , peti človek v hierarhiji kitajske komunistične partije , je v pogovorih z Žbogarjem izpostavil zlasti vlaganje v infrastrukturne projekte , ki bi bili v interesu obeh držav kot regije Zahodnega Balkana . Kot možno področje okrepitve sodelovanja pa je izpostavil tudi turizem , so sporočili z zunanjega ministrstva . Žbogar in Li sta se tudi strinjala , da je tudi kultura tisto področje , kjer ostaja še veliko neizkoriščenih možnosti sodelovanja . Ob tej priložnosti sta predstojnica katedre za sinologijo na oddelku za azijske in afriške študije Filozofske fakultete Univerze v Ljubljani Jana S . Rošker in dekan Ekonomske fakultete v Ljubljani Dušan Mramor kitajskemu sogovorniku predstavila posamezne predloge za izboljšanje znanstveno - izobraževalnega sodelovanja med državama . Kot je poudarila Roškerjeva , je temelj meddržavnega sodelovanja zagotovo gospodarstvo , a le - to ne more biti močno , če ni hkrati utemeljeno na medsebojnem poznavanju vrednot in kulture obeh narodov . Kot je dodal minister Žbogar , bi s tovrstnim okrepljenim sodelovanjem slovensko - kitajske prijateljske odnose tudi konkretno uspeli dvigniti na višjo raven , so še sporočili z MZZ . Li Čang Čun se v Sloveniji mudi na tridnevnem obisku . V petek sta ga sprejela predsednik republike Danilo Türk in predsednik vlade Borut Pahor . Slovenijo je obiskal v okviru turneje po Aziji , Evropi in Afriki , med katero je že obiskal Armenijo in Romunijo , na programu pa ima še obisk v Keniji in Mozambiku
+1-1	0-7	Zunanji	_	_	*->5-1	*[5]	
+1-2	8-16	minister	_	_	*->5-1	*[5]	
+1-3	17-23	Žbogar	PER	_	*->5-1	*[5]	
+1-4	24-26	je	_	_	_	_	
+1-5	27-33	gostil	_	_	_	_	
+1-6	34-46	predstavnika	_	_	*->7-1	*[7]	
+1-7	47-55	kitajske	_	_	*->7-1	*[7]	
+1-8	56-68	komunistične	_	_	*->7-1	*[7]	
+1-9	69-76	partije	_	_	*->7-1	*[7]	
+1-10	77-78	.	_	_	_	_	
+1-11	79-86	Slednji	_	_	*->7-2	*[7]	
+1-12	87-89	je	_	_	_	_	
+1-13	90-100	izpostavil	_	_	*->7-3	*[7]	
+1-14	101-109	predvsem	_	_	_	_	
+1-15	110-118	vlaganja	_	_	_	_	
+1-16	119-120	v	_	_	_	_	
+1-17	121-136	infrastrukturne	_	_	_	_	
+1-18	137-145	projekte	_	_	_	_	
+1-19	146-147	,	_	_	_	_	
+1-20	148-150	ki	_	_	_	_	
+1-21	151-153	bi	_	_	_	_	
+1-22	154-158	bili	_	_	_	_	
+1-23	159-160	v	_	_	_	_	
+1-24	161-169	interesu	_	_	_	_	
+1-25	170-174	obeh	_	_	_	_	
+1-26	175-180	držav	_	_	_	_	
+1-27	181-182	.	_	_	_	_	
+1-28	183-189	Žbogar	PER	_	*->5-2	*[5]	
+1-29	190-192	je	_	_	_	_	
+1-30	193-195	na	_	_	_	_	
+1-31	196-200	Brdu	LOC	_	*->1-1	*[1]	
+1-32	201-207	gostil	_	_	_	_	
+1-33	208-216	visokega	_	_	*->7-4	*[7]	
+1-34	217-227	kitajskega	_	_	*->7-4	*[7]	
+1-35	228-233	gosta	_	_	*->7-4	*[7]	
+1-36	234-235	.	_	_	_	_	
+1-37	236-244	Minister	_	_	*->5-3	*[5]	
+1-38	245-247	za	_	_	*->5-3	*[5]	
+1-39	248-255	zunanje	_	_	*->5-3	*[5]	
+1-40	256-262	zadeve	_	_	*->5-3	*[5]	
+1-41	263-269	Samuel	PER[1]	_	*->5-3	*[5]	
+1-42	270-276	Žbogar	PER[1]	_	*->5-3	*[5]	
+1-43	277-279	je	_	_	_	_	
+1-44	280-285	danes	_	_	_	_	
+1-45	286-288	na	_	_	_	_	
+1-46	289-293	Brdu	ORG[2]	3 - Nevtralno[16]	*->1-2	*[1]	
+1-47	294-297	pri	ORG[2]	3 - Nevtralno[16]	*->1-2	*[1]	
+1-48	298-304	Kranju	ORG[2]	3 - Nevtralno[16]	*->1-2	*[1]	
+1-49	305-311	gostil	_	_	_	_	
+1-50	312-317	člana	_	_	*->7-5	*[7]	
+1-51	318-326	stalnega	_	_	*->7-5	*[7]	
+1-52	327-333	odbora	_	_	*->7-5	*[7]	
+1-53	334-345	politbiroja	_	_	*->7-5	*[7]	
+1-54	346-357	centralnega	_	_	*->7-5	*[7]	
+1-55	358-366	komiteja	_	_	*->7-5	*[7]	
+1-56	367-375	kitajske	_	_	*->7-5	*[7]	
+1-57	376-388	komunistične	_	_	*->7-5	*[7]	
+1-58	389-396	partije	_	_	*->7-5	*[7]	
+1-59	397-399	Li	PER[3]	_	*->7-5	*[7]	
+1-60	400-404	Čang	PER[3]	_	*->7-5	*[7]	
+1-61	405-409	Čuna	PER[3]	_	*->7-5	*[7]	
+1-62	410-411	.	_	_	_	_	
+1-63	412-423	Pogovarjala	_	_	_	_	
+1-64	424-427	sta	_	_	_	_	
+1-65	428-430	se	_	_	_	_	
+1-66	431-432	o	_	_	_	_	
+1-67	433-441	krepitvi	_	_	_	_	
+1-68	442-455	dvostranskega	_	_	_	_	
+1-69	456-467	sodelovanja	_	_	_	_	
+1-70	468-470	in	_	_	_	_	
+1-71	471-473	se	_	_	_	_	
+1-72	474-483	strinjala	_	_	_	_	
+1-73	484-485	,	_	_	_	_	
+1-74	486-488	da	_	_	_	_	
+1-75	489-491	je	_	_	_	_	
+1-76	492-495	med	_	_	_	_	
+1-77	496-504	državama	_	_	_	_	
+1-78	505-507	še	_	_	_	_	
+1-79	508-514	veliko	_	_	_	_	
+1-80	515-529	neizkoriščenih	_	_	_	_	
+1-81	530-538	možnosti	_	_	_	_	
+1-82	539-540	,	_	_	_	_	
+1-83	541-549	predvsem	_	_	_	_	
+1-84	550-551	v	_	_	_	_	
+1-85	552-564	gospodarstvu	_	_	_	_	
+1-86	565-566	.	_	_	_	_	
+1-87	567-569	Li	PER[4]	_	*->7-6	*[7]	
+1-88	570-574	Čang	PER[4]	_	*->7-6	*[7]	
+1-89	575-578	Čun	PER[4]	_	*->7-6	*[7]	
+1-90	579-580	,	_	_	_	_	
+1-91	581-585	peti	_	_	*->7-7	*[7]	
+1-92	586-592	človek	_	_	*->7-7	*[7]	
+1-93	593-594	v	_	_	*->7-7	*[7]	
+1-94	595-605	hierarhiji	_	_	*->7-7	*[7]	
+1-95	606-614	kitajske	_	_	*->7-7	*[7]	
+1-96	615-627	komunistične	_	_	*->7-7	*[7]	
+1-97	628-635	partije	_	_	*->7-7	*[7]	
+1-98	636-637	,	_	_	_	_	
+1-99	638-640	je	_	_	_	_	
+1-100	641-642	v	_	_	_	_	
+1-101	643-652	pogovorih	_	_	_	_	
+1-102	653-654	z	_	_	_	_	
+1-103	655-664	Žbogarjem	PER	_	*->5-4	*[5]	
+1-104	665-675	izpostavil	_	_	_	_	
+1-105	676-682	zlasti	_	_	_	_	
+1-106	683-691	vlaganje	_	_	_	_	
+1-107	692-693	v	_	_	_	_	
+1-108	694-709	infrastrukturne	_	_	_	_	
+1-109	710-718	projekte	_	_	_	_	
+1-110	719-720	,	_	_	_	_	
+1-111	721-723	ki	_	_	_	_	
+1-112	724-726	bi	_	_	_	_	
+1-113	727-731	bili	_	_	_	_	
+1-114	732-733	v	_	_	_	_	
+1-115	734-742	interesu	_	_	_	_	
+1-116	743-747	obeh	_	_	_	_	
+1-117	748-753	držav	_	_	_	_	
+1-118	754-757	kot	_	_	_	_	
+1-119	758-764	regije	_	3 - Nevtralno[17]	*->2-1	*[2]	
+1-120	765-774	Zahodnega	LOC[5]	3 - Nevtralno[17]	*->2-1	*[2]	
+1-121	775-782	Balkana	LOC[5]	3 - Nevtralno[17]	*->2-1	*[2]	
+1-122	783-784	.	_	_	_	_	
+1-123	785-788	Kot	_	_	_	_	
+1-124	789-794	možno	_	_	_	_	
+1-125	795-803	področje	_	_	_	_	
+1-126	804-813	okrepitve	_	_	_	_	
+1-127	814-825	sodelovanja	_	_	_	_	
+1-128	826-828	pa	_	_	_	_	
+1-129	829-831	je	_	_	_	_	
+1-130	832-842	izpostavil	_	_	*->7-8	*[7]	
+1-131	843-847	tudi	_	_	_	_	
+1-132	848-855	turizem	_	_	_	_	
+1-133	856-857	,	_	_	_	_	
+1-134	858-860	so	_	_	_	_	
+1-135	861-870	sporočili	_	_	_	_	
+1-136	871-872	z	_	_	_	_	
+1-137	873-882	zunanjega	_	_	*->6-1	*[6]	
+1-138	883-894	ministrstva	_	_	*->6-1	*[6]	
+1-139	895-896	.	_	_	_	_	
+1-140	897-903	Žbogar	PER	_	*->5-5	*[5]	
+1-141	904-906	in	_	_	_	_	
+1-142	907-909	Li	PER	_	*->7-9	*[7]	
+1-143	910-913	sta	_	_	_	_	
+1-144	914-916	se	_	_	_	_	
+1-145	917-921	tudi	_	_	_	_	
+1-146	922-931	strinjala	_	_	_	_	
+1-147	932-933	,	_	_	_	_	
+1-148	934-936	da	_	_	_	_	
+1-149	937-939	je	_	_	_	_	
+1-150	940-944	tudi	_	_	_	_	
+1-151	945-952	kultura	_	_	_	_	
+1-152	953-958	tisto	_	_	_	_	
+1-153	959-967	področje	_	_	_	_	
+1-154	968-969	,	_	_	_	_	
+1-155	970-974	kjer	_	_	_	_	
+1-156	975-981	ostaja	_	_	_	_	
+1-157	982-984	še	_	_	_	_	
+1-158	985-991	veliko	_	_	_	_	
+1-159	992-1006	neizkoriščenih	_	_	_	_	
+1-160	1007-1015	možnosti	_	_	_	_	
+1-161	1016-1027	sodelovanja	_	_	_	_	
+1-162	1028-1029	.	_	_	_	_	
+1-163	1030-1032	Ob	_	_	_	_	
+1-164	1033-1036	tej	_	_	_	_	
+1-165	1037-1048	priložnosti	_	_	_	_	
+1-166	1049-1052	sta	_	_	_	_	
+1-167	1053-1065	predstojnica	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-168	1066-1073	katedre	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-169	1074-1076	za	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-170	1077-1087	sinologijo	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-171	1088-1090	na	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-172	1091-1098	oddelku	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-173	1099-1101	za	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-174	1102-1109	azijske	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-175	1110-1112	in	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-176	1113-1120	afriške	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-177	1121-1128	študije	_	3 - Nevtralno[18]	*->4-1	*[4]	
+1-178	1129-1139	Filozofske	ORG[6]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->4-1|*->10-1	*[4]|*[10]	
+1-179	1140-1149	fakultete	ORG[6]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->4-1|*->10-1	*[4]|*[10]	
+1-180	1150-1158	Univerze	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[20]	*->4-1|*->9-1	*[4]|*[9]	
+1-181	1159-1160	v	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[20]	*->4-1|*->9-1	*[4]|*[9]	
+1-182	1161-1170	Ljubljani	ORG[7]|LOC[8]	3 - Nevtralno[18]|3 - Nevtralno[20]	*->4-1|*->9-1|*->8-1	*[4]|*[9]|*[8]	
+1-183	1171-1175	Jana	PER[9]	3 - Nevtralno[18]	*->4-1	*[4]	
+1-184	1176-1177	S	PER[9]	3 - Nevtralno[18]	*->4-1	*[4]	
+1-185	1178-1179	.	PER[9]	3 - Nevtralno[18]	*->4-1	*[4]	
+1-186	1180-1186	Rošker	PER[9]	3 - Nevtralno[18]	*->4-1	*[4]	
+1-187	1187-1189	in	_	_	_	_	
+1-188	1190-1195	dekan	_	3 - Nevtralno[21]	*->3-1	*[3]	
+1-189	1196-1205	Ekonomske	ORG[10]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->3-1|*->21-1	*[3]|*[21]	
+1-190	1206-1215	fakultete	ORG[10]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->3-1|*->21-1	*[3]|*[21]	
+1-191	1216-1217	v	ORG[10]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->3-1|*->21-1	*[3]|*[21]	
+1-192	1218-1227	Ljubljani	ORG[10]|LOC[11]	3 - Nevtralno[21]|3 - Nevtralno[22]|3 - Nevtralno[23]	*->3-1|*->21-1|*->8-2	*[3]|*[21]|*[8]	
+1-193	1228-1233	Dušan	PER[12]	3 - Nevtralno[21]	*->3-1	*[3]	
+1-194	1234-1240	Mramor	PER[12]	3 - Nevtralno[21]	*->3-1	*[3]	
+1-195	1241-1251	kitajskemu	_	_	*->7-10	*[7]	
+1-196	1252-1263	sogovorniku	_	_	*->7-10	*[7]	
+1-197	1264-1275	predstavila	_	_	_	_	
+1-198	1276-1285	posamezne	_	_	_	_	
+1-199	1286-1294	predloge	_	_	_	_	
+1-200	1295-1297	za	_	_	_	_	
+1-201	1298-1309	izboljšanje	_	_	_	_	
+1-202	1310-1320	znanstveno	_	_	_	_	
+1-203	1321-1322	-	_	_	_	_	
+1-204	1323-1338	izobraževalnega	_	_	_	_	
+1-205	1339-1350	sodelovanja	_	_	_	_	
+1-206	1351-1354	med	_	_	_	_	
+1-207	1355-1363	državama	_	_	_	_	
+1-208	1364-1365	.	_	_	_	_	
+1-209	1366-1369	Kot	_	_	_	_	
+1-210	1370-1372	je	_	_	_	_	
+1-211	1373-1382	poudarila	_	_	_	_	
+1-212	1383-1393	Roškerjeva	PER	4 - Pozitivno	*->4-2	*[4]	
+1-213	1394-1395	,	_	_	_	_	
+1-214	1396-1398	je	_	_	_	_	
+1-215	1399-1405	temelj	_	_	_	_	
+1-216	1406-1418	meddržavnega	_	_	_	_	
+1-217	1419-1430	sodelovanja	_	_	_	_	
+1-218	1431-1439	zagotovo	_	_	_	_	
+1-219	1440-1452	gospodarstvo	_	_	_	_	
+1-220	1453-1454	,	_	_	_	_	
+1-221	1455-1456	a	_	_	_	_	
+1-222	1457-1459	le	_	_	_	_	
+1-223	1460-1461	-	_	_	_	_	
+1-224	1462-1464	to	_	_	_	_	
+1-225	1465-1467	ne	_	_	_	_	
+1-226	1468-1472	more	_	_	_	_	
+1-227	1473-1477	biti	_	_	_	_	
+1-228	1478-1483	močno	_	_	_	_	
+1-229	1484-1485	,	_	_	_	_	
+1-230	1486-1488	če	_	_	_	_	
+1-231	1489-1491	ni	_	_	_	_	
+1-232	1492-1498	hkrati	_	_	_	_	
+1-233	1499-1509	utemeljeno	_	_	_	_	
+1-234	1510-1512	na	_	_	_	_	
+1-235	1513-1524	medsebojnem	_	_	_	_	
+1-236	1525-1535	poznavanju	_	_	_	_	
+1-237	1536-1543	vrednot	_	_	_	_	
+1-238	1544-1546	in	_	_	_	_	
+1-239	1547-1554	kulture	_	_	_	_	
+1-240	1555-1559	obeh	_	_	_	_	
+1-241	1560-1567	narodov	_	_	_	_	
+1-242	1568-1569	.	_	_	_	_	
+1-243	1570-1573	Kot	_	_	_	_	
+1-244	1574-1576	je	_	_	_	_	
+1-245	1577-1582	dodal	_	_	_	_	
+1-246	1583-1591	minister	_	4 - Pozitivno[24]	*->5-6	*[5]	
+1-247	1592-1598	Žbogar	PER	4 - Pozitivno[24]	*->5-6	*[5]	
+1-248	1599-1600	,	_	_	_	_	
+1-249	1601-1603	bi	_	_	_	_	
+1-250	1604-1605	s	_	_	_	_	
+1-251	1606-1615	tovrstnim	_	_	_	_	
+1-252	1616-1627	okrepljenim	_	_	_	_	
+1-253	1628-1640	sodelovanjem	_	_	_	_	
+1-254	1641-1650	slovensko	_	_	_	_	
+1-255	1651-1652	-	_	_	_	_	
+1-256	1653-1661	kitajske	_	_	_	_	
+1-257	1662-1674	prijateljske	_	_	_	_	
+1-258	1675-1681	odnose	_	_	_	_	
+1-259	1682-1686	tudi	_	_	_	_	
+1-260	1687-1696	konkretno	_	_	_	_	
+1-261	1697-1703	uspeli	_	_	_	_	
+1-262	1704-1712	dvigniti	_	_	_	_	
+1-263	1713-1715	na	_	_	_	_	
+1-264	1716-1721	višjo	_	_	_	_	
+1-265	1722-1727	raven	_	_	_	_	
+1-266	1728-1729	,	_	_	_	_	
+1-267	1730-1732	so	_	_	_	_	
+1-268	1733-1735	še	_	_	_	_	
+1-269	1736-1745	sporočili	_	_	_	_	
+1-270	1746-1747	z	_	_	_	_	
+1-271	1748-1751	MZZ	ORG	3 - Nevtralno	*->6-2	*[6]	
+1-272	1752-1753	.	_	_	_	_	
+1-273	1754-1756	Li	PER[13]	_	*->7-11	*[7]	
+1-274	1757-1761	Čang	PER[13]	_	*->7-11	*[7]	
+1-275	1762-1765	Čun	PER[13]	_	*->7-11	*[7]	
+1-276	1766-1768	se	_	_	_	_	
+1-277	1769-1770	v	_	_	_	_	
+1-278	1771-1780	Sloveniji	LOC	_	*->13-1	*[13]	
+1-279	1781-1785	mudi	_	_	_	_	
+1-280	1786-1788	na	_	_	_	_	
+1-281	1789-1799	tridnevnem	_	_	_	_	
+1-282	1800-1806	obisku	_	_	_	_	
+1-283	1807-1808	.	_	_	_	_	
+1-284	1809-1810	V	_	_	_	_	
+1-285	1811-1816	petek	_	_	_	_	
+1-286	1817-1820	sta	_	_	_	_	
+1-287	1821-1823	ga	_	_	_	_	
+1-288	1824-1832	sprejela	_	_	_	_	
+1-289	1833-1843	predsednik	_	3 - Nevtralno[25]	*->11-1	*[11]	
+1-290	1844-1853	republike	_	3 - Nevtralno[25]	*->11-1	*[11]	
+1-291	1854-1860	Danilo	PER[14]	3 - Nevtralno[25]	*->11-1	*[11]	
+1-292	1861-1865	Türk	PER[14]	3 - Nevtralno[25]	*->11-1	*[11]	
+1-293	1866-1868	in	_	_	_	_	
+1-294	1869-1879	predsednik	_	3 - Nevtralno[26]	*->12-1	*[12]	
+1-295	1880-1885	vlade	_	3 - Nevtralno[26]	*->12-1	*[12]	
+1-296	1886-1891	Borut	PER[15]	3 - Nevtralno[26]	*->12-1	*[12]	
+1-297	1892-1897	Pahor	PER[15]	3 - Nevtralno[26]	*->12-1	*[12]	
+1-298	1898-1899	.	_	_	_	_	
+1-299	1900-1909	Slovenijo	LOC	3 - Nevtralno	*->13-2	*[13]	
+1-300	1910-1912	je	_	_	_	_	
+1-301	1913-1920	obiskal	_	_	*->7-12	*[7]	
+1-302	1921-1922	v	_	_	_	_	
+1-303	1923-1929	okviru	_	_	_	_	
+1-304	1930-1937	turneje	_	_	_	_	
+1-305	1938-1940	po	_	_	_	_	
+1-306	1941-1946	Aziji	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-307	1947-1948	,	_	_	_	_	
+1-308	1949-1955	Evropi	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-309	1956-1958	in	_	_	_	_	
+1-310	1959-1965	Afriki	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-311	1966-1967	,	_	_	_	_	
+1-312	1968-1971	med	_	_	_	_	
+1-313	1972-1978	katero	_	_	_	_	
+1-314	1979-1981	je	_	_	_	_	
+1-315	1982-1984	že	_	_	_	_	
+1-316	1985-1992	obiskal	_	_	*->7-13	*[7]	
+1-317	1993-2001	Armenijo	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-318	2002-2004	in	_	_	_	_	
+1-319	2005-2013	Romunijo	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-320	2014-2015	,	_	_	_	_	
+1-321	2016-2018	na	_	_	_	_	
+1-322	2019-2027	programu	_	_	_	_	
+1-323	2028-2030	pa	_	_	_	_	
+1-324	2031-2034	ima	_	4 - Pozitivno	*->7-14	*[7]	
+1-325	2035-2037	še	_	_	_	_	
+1-326	2038-2043	obisk	_	_	_	_	
+1-327	2044-2045	v	_	_	_	_	
+1-328	2046-2052	Keniji	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-329	2053-2055	in	_	_	_	_	
+1-330	2056-2065	Mozambiku	LOC	3 - Nevtralno	*->20-1	*[20]	

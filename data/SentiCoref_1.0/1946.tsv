@@ -1,0 +1,328 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Vlada je imenovala nove člane nadzornega sveta Slovenske odškodninske družbe . Seveda se že dlje časa ugiba , ali bo menjavi nadzornikov sledila še menjava uprave . Zoran Janković naj bi na čelu Soda želel Zdenko Grozde , direktorico Javnega holdinga Ljubljana . Člane nadzornega sveta Soda , ki do ustanovitve Slovenskega državnega holdinga upravlja s celotnim premoženjem države , v vlogi skupščine ustanoviteljice in edine delničarke države imenuje vlada . Vlada je odpoklicala člane nadzornega sveta Slovenske odškodninske družbe Sod ter imenovala nove . To so Otmar Zorn , Roman Dobnikar , Samo Lozej , Nives Cesar , Stane Seničar in Aleksander Mervar , je povedal v . d . direktorja urada vlade za komuniciranje Mitja Sevšek . Mediji že dlje časa ugibajo , ali bo menjavi nadzornikov Soda sledila še menjava uprave . To trenutno vodi začasna ekipa , sestavljena iz Petra Ješovnika , Iga Grudna in Nade Drobne Popovič , in sicer od februarja , ko je nadzorni svet razrešil takratno upravo pod vodstvom Tomaža Kuntariča , ker ni hotela mimo zakona preklicati skupščine Telekoma Slovenije . Janković bi na vrh Soda postavil Zdenko Grozde Janković naj bi prevzemal kadrovske vajeti v PS . V zadnjih dneh naj bi kadrovske zadeve v Pozitivni Sloveniji PS prevzel Zoran Janković , s čimer naj bi želel dati jasno vedeti , da ima v stranki še vedno glavno besedo , poroča Dnevnik . Med omenjenimi novimi nadzorniki sta Lozej in Cesarjeva tako ali drugače povezana z Mestno občino Ljubljana , poroča časnik Dnevnik . Lozej je direktor Te - Tola , Cesarjeva pa je mestna svetnica na Listi Zorana Jankovića . Zorn in Dobnikar prihajata iz kvote SD , Mervar iz Državljanske liste , Seničar pa iz DeSUS . Janković bi po poročanju časnika na čelo Soda postavil direktorico Javnega holdinga Ljubljana Zdenko Grozde . S to potezo bi se Jankovićev vpliv v Sodu in podjetjih v njegovi lasti močno okrepil
+1-1	0-5	Vlada	_	_	_	_	
+1-2	6-8	je	_	_	_	_	
+1-3	9-18	imenovala	_	_	_	_	
+1-4	19-23	nove	_	_	_	_	
+1-5	24-29	člane	_	_	_	_	
+1-6	30-40	nadzornega	_	_	_	_	
+1-7	41-46	sveta	_	_	_	_	
+1-8	47-56	Slovenske	ORG[1]	_	*->8-1	*[8]	
+1-9	57-69	odškodninske	ORG[1]	_	*->8-1	*[8]	
+1-10	70-76	družbe	ORG[1]	_	*->8-1	*[8]	
+1-11	77-78	.	_	_	_	_	
+1-12	79-85	Seveda	_	_	_	_	
+1-13	86-88	se	_	_	_	_	
+1-14	89-91	že	_	_	_	_	
+1-15	92-96	dlje	_	_	_	_	
+1-16	97-101	časa	_	_	_	_	
+1-17	102-107	ugiba	_	_	_	_	
+1-18	108-109	,	_	_	_	_	
+1-19	110-113	ali	_	_	_	_	
+1-20	114-116	bo	_	_	_	_	
+1-21	117-124	menjavi	_	_	_	_	
+1-22	125-136	nadzornikov	_	_	_	_	
+1-23	137-144	sledila	_	_	_	_	
+1-24	145-147	še	_	_	_	_	
+1-25	148-155	menjava	_	_	_	_	
+1-26	156-162	uprave	_	_	_	_	
+1-27	163-164	.	_	_	_	_	
+1-28	165-170	Zoran	PER[2]	_	*->1-1	*[1]	
+1-29	171-179	Janković	PER[2]	_	*->1-1	*[1]	
+1-30	180-183	naj	_	_	_	_	
+1-31	184-186	bi	_	_	_	_	
+1-32	187-189	na	_	_	_	_	
+1-33	190-194	čelu	_	_	_	_	
+1-34	195-199	Soda	ORG	_	*->8-2	*[8]	
+1-35	200-205	želel	_	_	_	_	
+1-36	206-212	Zdenko	PER[3]	_	*->24-1	*[24]	
+1-37	213-219	Grozde	PER[3]	_	*->24-1	*[24]	
+1-38	220-221	,	_	_	_	_	
+1-39	222-233	direktorico	_	_	*->24-2	*[24]	
+1-40	234-241	Javnega	ORG[4]	_	*->24-2|*->21-1	*[24]|*[21]	
+1-41	242-250	holdinga	ORG[4]	_	*->24-2|*->21-1	*[24]|*[21]	
+1-42	251-260	Ljubljana	ORG[4]|LOC[5]	_	*->24-2|*->21-1|*->3-1	*[24]|*[21]|*[3]	
+1-43	261-262	.	_	_	_	_	
+1-44	263-268	Člane	_	_	_	_	
+1-45	269-279	nadzornega	_	_	_	_	
+1-46	280-285	sveta	_	_	_	_	
+1-47	286-290	Soda	ORG	_	*->8-3	*[8]	
+1-48	291-292	,	_	_	_	_	
+1-49	293-295	ki	_	_	_	_	
+1-50	296-298	do	_	_	_	_	
+1-51	299-310	ustanovitve	_	_	_	_	
+1-52	311-322	Slovenskega	ORG[6]	_	*->15-1	*[15]	
+1-53	323-332	državnega	ORG[6]	_	*->15-1	*[15]	
+1-54	333-341	holdinga	ORG[6]	_	*->15-1	*[15]	
+1-55	342-350	upravlja	_	_	_	_	
+1-56	351-352	s	_	_	_	_	
+1-57	353-361	celotnim	_	_	_	_	
+1-58	362-373	premoženjem	_	_	_	_	
+1-59	374-380	države	_	_	*->6-1	*[6]	
+1-60	381-382	,	_	_	_	_	
+1-61	383-384	v	_	_	_	_	
+1-62	385-390	vlogi	_	_	_	_	
+1-63	391-400	skupščine	_	_	_	_	
+1-64	401-416	ustanoviteljice	_	_	_	_	
+1-65	417-419	in	_	_	_	_	
+1-66	420-425	edine	_	_	_	_	
+1-67	426-436	delničarke	_	_	_	_	
+1-68	437-443	države	_	_	*->6-2	*[6]	
+1-69	444-451	imenuje	_	_	_	_	
+1-70	452-457	vlada	_	_	_	_	
+1-71	458-459	.	_	_	_	_	
+1-72	460-465	Vlada	_	_	_	_	
+1-73	466-468	je	_	_	_	_	
+1-74	469-480	odpoklicala	_	_	_	_	
+1-75	481-486	člane	_	_	_	_	
+1-76	487-497	nadzornega	_	_	_	_	
+1-77	498-503	sveta	_	_	_	_	
+1-78	504-513	Slovenske	ORG[7]	_	*->8-4	*[8]	
+1-79	514-526	odškodninske	ORG[7]	_	*->8-4	*[8]	
+1-80	527-533	družbe	ORG[7]	_	*->8-4	*[8]	
+1-81	534-537	Sod	ORG[7]	_	*->8-4	*[8]	
+1-82	538-541	ter	_	_	_	_	
+1-83	542-551	imenovala	_	_	_	_	
+1-84	552-556	nove	_	_	_	_	
+1-85	557-558	.	_	_	_	_	
+1-86	559-561	To	_	_	_	_	
+1-87	562-564	so	_	_	_	_	
+1-88	565-570	Otmar	PER[8]	_	*->2-1	*[2]	
+1-89	571-575	Zorn	PER[8]	_	*->2-1	*[2]	
+1-90	576-577	,	_	_	_	_	
+1-91	578-583	Roman	PER[9]	_	*->13-1	*[13]	
+1-92	584-592	Dobnikar	PER[9]	_	*->13-1	*[13]	
+1-93	593-594	,	_	_	_	_	
+1-94	595-599	Samo	PER[10]	_	*->9-1	*[9]	
+1-95	600-605	Lozej	PER[10]	_	*->9-1	*[9]	
+1-96	606-607	,	_	_	_	_	
+1-97	608-613	Nives	PER[11]	_	*->12-1	*[12]	
+1-98	614-619	Cesar	PER[11]	_	*->12-1	*[12]	
+1-99	620-621	,	_	_	_	_	
+1-100	622-627	Stane	PER[12]	_	*->5-1	*[5]	
+1-101	628-635	Seničar	PER[12]	_	*->5-1	*[5]	
+1-102	636-638	in	_	_	_	_	
+1-103	639-649	Aleksander	PER[13]	_	*->22-1	*[22]	
+1-104	650-656	Mervar	PER[13]	_	*->22-1	*[22]	
+1-105	657-658	,	_	_	_	_	
+1-106	659-661	je	_	_	_	_	
+1-107	662-669	povedal	_	_	_	_	
+1-108	670-671	v	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-109	672-673	.	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-110	674-675	d	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-111	676-677	.	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-112	678-688	direktorja	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-113	689-694	urada	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-114	695-700	vlade	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-115	701-703	za	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-116	704-717	komuniciranje	_	3 - Nevtralno[34]	*->23-1	*[23]	
+1-117	718-723	Mitja	PER[14]	3 - Nevtralno[34]	*->23-1	*[23]	
+1-118	724-730	Sevšek	PER[14]	3 - Nevtralno[34]	*->23-1	*[23]	
+1-119	731-732	.	_	_	_	_	
+1-120	733-739	Mediji	_	_	_	_	
+1-121	740-742	že	_	_	_	_	
+1-122	743-747	dlje	_	_	_	_	
+1-123	748-752	časa	_	_	_	_	
+1-124	753-760	ugibajo	_	_	_	_	
+1-125	761-762	,	_	_	_	_	
+1-126	763-766	ali	_	_	_	_	
+1-127	767-769	bo	_	_	_	_	
+1-128	770-777	menjavi	_	_	_	_	
+1-129	778-789	nadzornikov	_	_	_	_	
+1-130	790-794	Soda	ORG	_	*->8-5	*[8]	
+1-131	795-802	sledila	_	_	_	_	
+1-132	803-805	še	_	_	_	_	
+1-133	806-813	menjava	_	_	_	_	
+1-134	814-820	uprave	_	_	_	_	
+1-135	821-822	.	_	_	_	_	
+1-136	823-825	To	_	_	_	_	
+1-137	826-834	trenutno	_	_	_	_	
+1-138	835-839	vodi	_	_	_	_	
+1-139	840-847	začasna	_	_	_	_	
+1-140	848-853	ekipa	_	_	_	_	
+1-141	854-855	,	_	_	_	_	
+1-142	856-867	sestavljena	_	_	_	_	
+1-143	868-870	iz	_	_	_	_	
+1-144	871-876	Petra	PER[15]	3 - Nevtralno[35]	*->25-1	*[25]	
+1-145	877-886	Ješovnika	PER[15]	3 - Nevtralno[35]	*->25-1	*[25]	
+1-146	887-888	,	_	_	_	_	
+1-147	889-892	Iga	PER[16]	3 - Nevtralno[36]	*->27-1	*[27]	
+1-148	893-899	Grudna	PER[16]	3 - Nevtralno[36]	*->27-1	*[27]	
+1-149	900-902	in	_	_	_	_	
+1-150	903-907	Nade	PER[17]	3 - Nevtralno[37]	*->26-1	*[26]	
+1-151	908-914	Drobne	PER[17]	3 - Nevtralno[37]	*->26-1	*[26]	
+1-152	915-922	Popovič	PER[17]	3 - Nevtralno[37]	*->26-1	*[26]	
+1-153	923-924	,	_	_	_	_	
+1-154	925-927	in	_	_	_	_	
+1-155	928-933	sicer	_	_	_	_	
+1-156	934-936	od	_	_	_	_	
+1-157	937-946	februarja	_	_	_	_	
+1-158	947-948	,	_	_	_	_	
+1-159	949-951	ko	_	_	_	_	
+1-160	952-954	je	_	_	_	_	
+1-161	955-963	nadzorni	_	_	_	_	
+1-162	964-968	svet	_	_	_	_	
+1-163	969-977	razrešil	_	_	_	_	
+1-164	978-986	takratno	_	_	_	_	
+1-165	987-993	upravo	_	_	_	_	
+1-166	994-997	pod	_	_	_	_	
+1-167	998-1006	vodstvom	_	_	_	_	
+1-168	1007-1013	Tomaža	PER[18]	3 - Nevtralno[38]	*->17-1	*[17]	
+1-169	1014-1023	Kuntariča	PER[18]	3 - Nevtralno[38]	*->17-1	*[17]	
+1-170	1024-1025	,	_	_	_	_	
+1-171	1026-1029	ker	_	_	_	_	
+1-172	1030-1032	ni	_	_	_	_	
+1-173	1033-1039	hotela	_	_	_	_	
+1-174	1040-1044	mimo	_	_	_	_	
+1-175	1045-1051	zakona	_	_	_	_	
+1-176	1052-1062	preklicati	_	_	_	_	
+1-177	1063-1072	skupščine	_	_	_	_	
+1-178	1073-1081	Telekoma	ORG[19]	3 - Nevtralno[39]	*->16-1	*[16]	
+1-179	1082-1091	Slovenije	ORG[19]|LOC[20]	3 - Nevtralno[39]	*->16-1|*->6-3	*[16]|*[6]	
+1-180	1092-1093	.	_	_	_	_	
+1-181	1094-1102	Janković	PER	_	*->1-2	*[1]	
+1-182	1103-1105	bi	_	_	_	_	
+1-183	1106-1108	na	_	_	_	_	
+1-184	1109-1112	vrh	_	_	_	_	
+1-185	1113-1117	Soda	ORG	_	*->8-6	*[8]	
+1-186	1118-1126	postavil	_	_	_	_	
+1-187	1127-1133	Zdenko	PER[21]	_	*->24-3	*[24]	
+1-188	1134-1140	Grozde	PER[21]	_	*->24-3	*[24]	
+1-189	1141-1149	Janković	PER	_	*->1-3	*[1]	
+1-190	1150-1153	naj	_	_	_	_	
+1-191	1154-1156	bi	_	_	_	_	
+1-192	1157-1166	prevzemal	_	_	_	_	
+1-193	1167-1176	kadrovske	_	_	_	_	
+1-194	1177-1183	vajeti	_	_	_	_	
+1-195	1184-1185	v	_	_	_	_	
+1-196	1186-1188	PS	ORG	_	*->4-1	*[4]	
+1-197	1189-1190	.	_	_	_	_	
+1-198	1191-1192	V	_	_	_	_	
+1-199	1193-1200	zadnjih	_	_	_	_	
+1-200	1201-1205	dneh	_	_	_	_	
+1-201	1206-1209	naj	_	_	_	_	
+1-202	1210-1212	bi	_	_	_	_	
+1-203	1213-1222	kadrovske	_	_	_	_	
+1-204	1223-1229	zadeve	_	_	_	_	
+1-205	1230-1231	v	_	_	_	_	
+1-206	1232-1241	Pozitivni	ORG[22]	_	*->4-2	*[4]	
+1-207	1242-1251	Sloveniji	ORG[22]|LOC[23]	_	*->4-2|*->6-4	*[4]|*[6]	
+1-208	1252-1254	PS	ORG[22]	_	*->4-2	*[4]	
+1-209	1255-1262	prevzel	_	_	_	_	
+1-210	1263-1268	Zoran	PER[24]	_	*->1-4	*[1]	
+1-211	1269-1277	Janković	PER[24]	_	*->1-4	*[1]	
+1-212	1278-1279	,	_	_	_	_	
+1-213	1280-1281	s	_	_	_	_	
+1-214	1282-1287	čimer	_	_	_	_	
+1-215	1288-1291	naj	_	_	_	_	
+1-216	1292-1294	bi	_	_	_	_	
+1-217	1295-1300	želel	_	_	*->1-5	*[1]	
+1-218	1301-1305	dati	_	_	_	_	
+1-219	1306-1311	jasno	_	_	_	_	
+1-220	1312-1318	vedeti	_	_	_	_	
+1-221	1319-1320	,	_	_	_	_	
+1-222	1321-1323	da	_	_	_	_	
+1-223	1324-1327	ima	_	_	*->1-6	*[1]	
+1-224	1328-1329	v	_	_	_	_	
+1-225	1330-1337	stranki	_	3 - Nevtralno	*->4-3	*[4]	
+1-226	1338-1340	še	_	_	_	_	
+1-227	1341-1346	vedno	_	_	_	_	
+1-228	1347-1353	glavno	_	_	_	_	
+1-229	1354-1360	besedo	_	_	_	_	
+1-230	1361-1362	,	_	_	_	_	
+1-231	1363-1369	poroča	_	_	_	_	
+1-232	1370-1377	Dnevnik	ORG	_	*->7-1	*[7]	
+1-233	1378-1379	.	_	_	_	_	
+1-234	1380-1383	Med	_	_	_	_	
+1-235	1384-1394	omenjenimi	_	_	_	_	
+1-236	1395-1401	novimi	_	_	_	_	
+1-237	1402-1412	nadzorniki	_	_	_	_	
+1-238	1413-1416	sta	_	_	_	_	
+1-239	1417-1422	Lozej	ORG	_	*->9-2	*[9]	
+1-240	1423-1425	in	_	_	_	_	
+1-241	1426-1435	Cesarjeva	ORG	_	*->12-2	*[12]	
+1-242	1436-1440	tako	_	_	_	_	
+1-243	1441-1444	ali	_	_	_	_	
+1-244	1445-1452	drugače	_	_	_	_	
+1-245	1453-1461	povezana	_	_	_	_	
+1-246	1462-1463	z	_	_	_	_	
+1-247	1464-1470	Mestno	ORG[25]	3 - Nevtralno[40]	*->18-1	*[18]	
+1-248	1471-1477	občino	ORG[25]	3 - Nevtralno[40]	*->18-1	*[18]	
+1-249	1478-1487	Ljubljana	ORG[25]|LOC[26]	3 - Nevtralno[40]	*->18-1|*->3-2	*[18]|*[3]	
+1-250	1488-1489	,	_	_	_	_	
+1-251	1490-1496	poroča	_	_	_	_	
+1-252	1497-1503	časnik	_	_	*->7-2	*[7]	
+1-253	1504-1511	Dnevnik	ORG	_	*->7-2	*[7]	
+1-254	1512-1513	.	_	_	_	_	
+1-255	1514-1519	Lozej	PER	_	*->9-3	*[9]	
+1-256	1520-1522	je	_	_	_	_	
+1-257	1523-1531	direktor	_	4 - Pozitivno[41]	*->9-4	*[9]	
+1-258	1532-1534	Te	ORG[27]	4 - Pozitivno[41]|3 - Nevtralno[42]	*->9-4|*->19-1	*[9]|*[19]	
+1-259	1535-1536	-	ORG[27]	4 - Pozitivno[41]|3 - Nevtralno[42]	*->9-4|*->19-1	*[9]|*[19]	
+1-260	1537-1541	Tola	ORG[27]	4 - Pozitivno[41]|3 - Nevtralno[42]	*->9-4|*->19-1	*[9]|*[19]	
+1-261	1542-1543	,	_	_	_	_	
+1-262	1544-1553	Cesarjeva	PER	_	*->12-3	*[12]	
+1-263	1554-1556	pa	_	_	_	_	
+1-264	1557-1559	je	_	_	_	_	
+1-265	1560-1566	mestna	_	4 - Pozitivno[43]	*->12-4	*[12]	
+1-266	1567-1575	svetnica	_	4 - Pozitivno[43]	*->12-4	*[12]	
+1-267	1576-1578	na	_	_	_	_	
+1-268	1579-1584	Listi	ORG[28]	3 - Nevtralno[44]	*->14-1	*[14]	
+1-269	1585-1591	Zorana	ORG[28]|PER[29]	3 - Nevtralno[44]	*->14-1|*->1-7	*[14]|*[1]	
+1-270	1592-1601	Jankovića	ORG[28]|PER[29]	3 - Nevtralno[44]	*->14-1|*->1-7	*[14]|*[1]	
+1-271	1602-1603	.	_	_	_	_	
+1-272	1604-1608	Zorn	PER	4 - Pozitivno	*->2-2	*[2]	
+1-273	1609-1611	in	_	_	_	_	
+1-274	1612-1620	Dobnikar	PER	4 - Pozitivno	*->13-2	*[13]	
+1-275	1621-1630	prihajata	_	_	_	_	
+1-276	1631-1633	iz	_	_	_	_	
+1-277	1634-1639	kvote	_	_	_	_	
+1-278	1640-1642	SD	ORG	3 - Nevtralno	*->11-1	*[11]	
+1-279	1643-1644	,	_	_	_	_	
+1-280	1645-1651	Mervar	PER	4 - Pozitivno	*->22-2	*[22]	
+1-281	1652-1654	iz	_	_	_	_	
+1-282	1655-1667	Državljanske	ORG[30]	3 - Nevtralno[45]	*->20-1	*[20]	
+1-283	1668-1673	liste	ORG[30]	3 - Nevtralno[45]	*->20-1	*[20]	
+1-284	1674-1675	,	_	_	_	_	
+1-285	1676-1683	Seničar	PER	4 - Pozitivno	*->5-2	*[5]	
+1-286	1684-1686	pa	_	_	_	_	
+1-287	1687-1689	iz	_	_	_	_	
+1-288	1690-1695	DeSUS	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-289	1696-1697	.	_	_	_	_	
+1-290	1698-1706	Janković	PER	_	*->1-8	*[1]	
+1-291	1707-1709	bi	_	_	_	_	
+1-292	1710-1712	po	_	_	_	_	
+1-293	1713-1722	poročanju	_	_	_	_	
+1-294	1723-1730	časnika	_	3 - Nevtralno	*->7-3	*[7]	
+1-295	1731-1733	na	_	_	_	_	
+1-296	1734-1738	čelo	_	_	_	_	
+1-297	1739-1743	Soda	ORG	_	*->8-7	*[8]	
+1-298	1744-1752	postavil	_	_	_	_	
+1-299	1753-1764	direktorico	_	4 - Pozitivno[46]	*->24-4	*[24]	
+1-300	1765-1772	Javnega	ORG[31]	4 - Pozitivno[46]|3 - Nevtralno[47]	*->24-4|*->21-2	*[24]|*[21]	
+1-301	1773-1781	holdinga	ORG[31]	4 - Pozitivno[46]|3 - Nevtralno[47]	*->24-4|*->21-2	*[24]|*[21]	
+1-302	1782-1791	Ljubljana	ORG[31]|LOC[32]	4 - Pozitivno[46]|3 - Nevtralno[47]|3 - Nevtralno[48]	*->24-4|*->21-2|*->3-3	*[24]|*[21]|*[3]	
+1-303	1792-1798	Zdenko	PER[33]	4 - Pozitivno[46]	*->24-4	*[24]	
+1-304	1799-1805	Grozde	PER[33]	4 - Pozitivno[46]	*->24-4	*[24]	
+1-305	1806-1807	.	_	_	_	_	
+1-306	1808-1809	S	_	_	_	_	
+1-307	1810-1812	to	_	_	_	_	
+1-308	1813-1819	potezo	_	_	_	_	
+1-309	1820-1822	bi	_	_	_	_	
+1-310	1823-1825	se	_	_	_	_	
+1-311	1826-1836	Jankovićev	_	_	*->1-9	*[1]	
+1-312	1837-1842	vpliv	_	_	_	_	
+1-313	1843-1844	v	_	_	_	_	
+1-314	1845-1849	Sodu	ORG	3 - Nevtralno	*->8-8	*[8]	
+1-315	1850-1852	in	_	_	_	_	
+1-316	1853-1862	podjetjih	_	_	_	_	
+1-317	1863-1864	v	_	_	_	_	
+1-318	1865-1872	njegovi	_	3 - Nevtralno	*->1-10	*[1]	
+1-319	1873-1878	lasti	_	_	_	_	
+1-320	1879-1884	močno	_	_	_	_	
+1-321	1885-1892	okrepil	_	_	_	_	

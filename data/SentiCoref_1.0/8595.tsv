@@ -1,0 +1,351 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Intenzivne padavine in močan veter so predvsem v zahodni Sloveniji povzročili številne nevšečnosti . V Bohinjski dolini se je na cesto podrl celo kozolec . Vreme.net Podrobno vremensko napoved za danes in prihodnje dni si lahko preberete na našem vremenskem portalu , dostopnem na tej povezavi . V noči s srede na četrtek se je zaradi povišanega plimovanja morja in okrepljenega jugovzhodnega vetra gladina morja dvignila do samega roba črte prelivanja , vendar je nato morje začelo upadati . V Kranjski Gori so gasilci iz prostorov stanovanjske hiše prečrpali meteorno vodo . Ta je zalila tudi zunanje površine podjetja Avtoprevoz Tolmin . Veter ruval drevesa Še več težav kot meteorne vode je povzročil močan veter , ki je v sunkih dosegel hitrost prek 100 kilometrov na uro . V naselju Parecag v Občini Piran je veter z drevesa odlomil vejo , ki je nato ovirala promet na cesti . Podrto drevo je oviralo promet tudi na cesti Šmarje – Koper in na cesti med Kranjsko Goro in Korenskim sedlom . V naselju Plužna pri Bovcu se je na cesto podrl telefonski drog . Zgodaj zjutraj v petek se je drevo podrlo še na cesto , ki pelje iz Javorniškega Rovta na Jesenicah . V Bohinju se je na cesto , ki vodi skozi Srednjo vas , podrl kozolec . O oviri na cesti poročajo še iz Trbovelj , kjer se je na cesto v bližini Bolnišnice Klek podrlo drevo . Vodotoki zelo visoko Agencija RS za okolje ( Arso ) poroča , da so v noči na četrtek povsod po državi narasle reke , še najbolj v zgornjem Posočju , Sava Bohinjka s pritoki ter nekateri hudourniki v dolini Planice in reka Drava . Opozorilne vrednosti pretokov so presegle : Soča v Logu Čezsoškem ( 320 kubičnih metrov na sekundo , še narašča ) , Sava Bohinjka pri Sv . Janezu ( kubičnih metrov na sekundo , še narašča ) in Sava v Radovljici ( kubičnih metrov na sekundo , še narašča ) , ter Drava v Dravogradu ( kubičnih metrov na sekundo )
+1-1	0-10	Intenzivne	_	_	_	_	
+1-2	11-19	padavine	_	_	_	_	
+1-3	20-22	in	_	_	_	_	
+1-4	23-28	močan	_	_	_	_	
+1-5	29-34	veter	_	_	_	_	
+1-6	35-37	so	_	_	_	_	
+1-7	38-46	predvsem	_	_	_	_	
+1-8	47-48	v	_	_	_	_	
+1-9	49-56	zahodni	_	_	_	_	
+1-10	57-66	Sloveniji	LOC	_	*->1-1	*[1]	
+1-11	67-77	povzročili	_	_	_	_	
+1-12	78-86	številne	_	_	_	_	
+1-13	87-98	nevšečnosti	_	_	_	_	
+1-14	99-100	.	_	_	_	_	
+1-15	101-102	V	_	_	_	_	
+1-16	103-112	Bohinjski	LOC[1]	3 - Nevtralno[18]	*->2-1	*[2]	
+1-17	113-119	dolini	LOC[1]	3 - Nevtralno[18]	*->2-1	*[2]	
+1-18	120-122	se	_	_	_	_	
+1-19	123-125	je	_	_	_	_	
+1-20	126-128	na	_	_	_	_	
+1-21	129-134	cesto	_	_	_	_	
+1-22	135-140	podrl	_	_	_	_	
+1-23	141-145	celo	_	_	_	_	
+1-24	146-153	kozolec	_	_	_	_	
+1-25	154-155	.	_	_	_	_	
+1-26	156-165	Vreme.net	_	_	_	_	
+1-27	166-174	Podrobno	_	_	_	_	
+1-28	175-184	vremensko	_	_	_	_	
+1-29	185-192	napoved	_	_	_	_	
+1-30	193-195	za	_	_	_	_	
+1-31	196-201	danes	_	_	_	_	
+1-32	202-204	in	_	_	_	_	
+1-33	205-214	prihodnje	_	_	_	_	
+1-34	215-218	dni	_	_	_	_	
+1-35	219-221	si	_	_	_	_	
+1-36	222-227	lahko	_	_	_	_	
+1-37	228-237	preberete	_	_	_	_	
+1-38	238-240	na	_	_	_	_	
+1-39	241-246	našem	_	_	_	_	
+1-40	247-257	vremenskem	_	_	_	_	
+1-41	258-265	portalu	_	_	_	_	
+1-42	266-267	,	_	_	_	_	
+1-43	268-277	dostopnem	_	_	_	_	
+1-44	278-280	na	_	_	_	_	
+1-45	281-284	tej	_	_	_	_	
+1-46	285-293	povezavi	_	_	_	_	
+1-47	294-295	.	_	_	_	_	
+1-48	296-297	V	_	_	_	_	
+1-49	298-302	noči	_	_	_	_	
+1-50	303-304	s	_	_	_	_	
+1-51	305-310	srede	_	_	_	_	
+1-52	311-313	na	_	_	_	_	
+1-53	314-321	četrtek	_	_	_	_	
+1-54	322-324	se	_	_	_	_	
+1-55	325-327	je	_	_	_	_	
+1-56	328-334	zaradi	_	_	_	_	
+1-57	335-345	povišanega	_	_	_	_	
+1-58	346-356	plimovanja	_	_	_	_	
+1-59	357-362	morja	_	_	_	_	
+1-60	363-365	in	_	_	_	_	
+1-61	366-378	okrepljenega	_	_	_	_	
+1-62	379-392	jugovzhodnega	_	_	_	_	
+1-63	393-398	vetra	_	_	_	_	
+1-64	399-406	gladina	_	_	_	_	
+1-65	407-412	morja	_	_	_	_	
+1-66	413-421	dvignila	_	_	_	_	
+1-67	422-424	do	_	_	_	_	
+1-68	425-431	samega	_	_	_	_	
+1-69	432-436	roba	_	_	_	_	
+1-70	437-441	črte	_	_	_	_	
+1-71	442-452	prelivanja	_	_	_	_	
+1-72	453-454	,	_	_	_	_	
+1-73	455-461	vendar	_	_	_	_	
+1-74	462-464	je	_	_	_	_	
+1-75	465-469	nato	_	_	_	_	
+1-76	470-475	morje	_	_	_	_	
+1-77	476-482	začelo	_	_	_	_	
+1-78	483-490	upadati	_	_	_	_	
+1-79	491-492	.	_	_	_	_	
+1-80	493-494	V	_	_	_	_	
+1-81	495-503	Kranjski	LOC[2]	_	*->3-1	*[3]	
+1-82	504-508	Gori	LOC[2]	_	*->3-1	*[3]	
+1-83	509-511	so	_	_	_	_	
+1-84	512-519	gasilci	_	_	_	_	
+1-85	520-522	iz	_	_	_	_	
+1-86	523-532	prostorov	_	_	_	_	
+1-87	533-545	stanovanjske	_	_	_	_	
+1-88	546-550	hiše	_	_	_	_	
+1-89	551-560	prečrpali	_	_	_	_	
+1-90	561-569	meteorno	_	_	_	_	
+1-91	570-574	vodo	_	_	_	_	
+1-92	575-576	.	_	_	_	_	
+1-93	577-579	Ta	_	_	_	_	
+1-94	580-582	je	_	_	_	_	
+1-95	583-589	zalila	_	_	_	_	
+1-96	590-594	tudi	_	_	_	_	
+1-97	595-602	zunanje	_	_	_	_	
+1-98	603-611	površine	_	_	_	_	
+1-99	612-620	podjetja	_	_	_	_	
+1-100	621-631	Avtoprevoz	ORG[3]	3 - Nevtralno[19]	*->4-1	*[4]	
+1-101	632-638	Tolmin	ORG[3]|LOC[4]	3 - Nevtralno[19]|3 - Nevtralno[20]	*->4-1|*->5-1	*[4]|*[5]	
+1-102	639-640	.	_	_	_	_	
+1-103	641-646	Veter	_	_	_	_	
+1-104	647-652	ruval	_	_	_	_	
+1-105	653-660	drevesa	_	_	_	_	
+1-106	661-663	Še	_	_	_	_	
+1-107	664-667	več	_	_	_	_	
+1-108	668-673	težav	_	_	_	_	
+1-109	674-677	kot	_	_	_	_	
+1-110	678-686	meteorne	_	_	_	_	
+1-111	687-691	vode	_	_	_	_	
+1-112	692-694	je	_	_	_	_	
+1-113	695-704	povzročil	_	_	_	_	
+1-114	705-710	močan	_	_	_	_	
+1-115	711-716	veter	_	_	_	_	
+1-116	717-718	,	_	_	_	_	
+1-117	719-721	ki	_	_	_	_	
+1-118	722-724	je	_	_	_	_	
+1-119	725-726	v	_	_	_	_	
+1-120	727-733	sunkih	_	_	_	_	
+1-121	734-741	dosegel	_	_	_	_	
+1-122	742-749	hitrost	_	_	_	_	
+1-123	750-754	prek	_	_	_	_	
+1-124	755-758	100	_	_	_	_	
+1-125	759-769	kilometrov	_	_	_	_	
+1-126	770-772	na	_	_	_	_	
+1-127	773-776	uro	_	_	_	_	
+1-128	777-778	.	_	_	_	_	
+1-129	779-780	V	_	_	_	_	
+1-130	781-788	naselju	_	_	_	_	
+1-131	789-796	Parecag	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-132	797-798	v	_	_	_	_	
+1-133	799-805	Občini	LOC[5]	3 - Nevtralno[21]	*->7-1	*[7]	
+1-134	806-811	Piran	LOC[5]	3 - Nevtralno[21]	*->7-1	*[7]	
+1-135	812-814	je	_	_	_	_	
+1-136	815-820	veter	_	_	_	_	
+1-137	821-822	z	_	_	_	_	
+1-138	823-830	drevesa	_	_	_	_	
+1-139	831-838	odlomil	_	_	_	_	
+1-140	839-843	vejo	_	_	_	_	
+1-141	844-845	,	_	_	_	_	
+1-142	846-848	ki	_	_	_	_	
+1-143	849-851	je	_	_	_	_	
+1-144	852-856	nato	_	_	_	_	
+1-145	857-864	ovirala	_	_	_	_	
+1-146	865-871	promet	_	_	_	_	
+1-147	872-874	na	_	_	_	_	
+1-148	875-880	cesti	_	_	_	_	
+1-149	881-882	.	_	_	_	_	
+1-150	883-889	Podrto	_	_	_	_	
+1-151	890-895	drevo	_	_	_	_	
+1-152	896-898	je	_	_	_	_	
+1-153	899-906	oviralo	_	_	_	_	
+1-154	907-913	promet	_	_	_	_	
+1-155	914-918	tudi	_	_	_	_	
+1-156	919-921	na	_	_	_	_	
+1-157	922-927	cesti	_	_	_	_	
+1-158	928-934	Šmarje	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-159	935-936	–	_	_	_	_	
+1-160	937-942	Koper	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-161	943-945	in	_	_	_	_	
+1-162	946-948	na	_	_	_	_	
+1-163	949-954	cesti	_	_	_	_	
+1-164	955-958	med	_	_	_	_	
+1-165	959-967	Kranjsko	LOC[6]	3 - Nevtralno[22]	*->3-2	*[3]	
+1-166	968-972	Goro	LOC[6]	3 - Nevtralno[22]	*->3-2	*[3]	
+1-167	973-975	in	_	_	_	_	
+1-168	976-985	Korenskim	LOC[7]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-169	986-992	sedlom	LOC[7]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-170	993-994	.	_	_	_	_	
+1-171	995-996	V	_	_	_	_	
+1-172	997-1004	naselju	_	_	_	_	
+1-173	1005-1011	Plužna	LOC[8]	3 - Nevtralno[24]	*->11-1	*[11]	
+1-174	1012-1015	pri	LOC[8]	3 - Nevtralno[24]	*->11-1	*[11]	
+1-175	1016-1021	Bovcu	LOC[8]|LOC[9]	3 - Nevtralno[24]|3 - Nevtralno[25]	*->11-1|*->12-1	*[11]|*[12]	
+1-176	1022-1024	se	_	_	_	_	
+1-177	1025-1027	je	_	_	_	_	
+1-178	1028-1030	na	_	_	_	_	
+1-179	1031-1036	cesto	_	_	_	_	
+1-180	1037-1042	podrl	_	_	_	_	
+1-181	1043-1053	telefonski	_	_	_	_	
+1-182	1054-1058	drog	_	_	_	_	
+1-183	1059-1060	.	_	_	_	_	
+1-184	1061-1067	Zgodaj	_	_	_	_	
+1-185	1068-1075	zjutraj	_	_	_	_	
+1-186	1076-1077	v	_	_	_	_	
+1-187	1078-1083	petek	_	_	_	_	
+1-188	1084-1086	se	_	_	_	_	
+1-189	1087-1089	je	_	_	_	_	
+1-190	1090-1095	drevo	_	_	_	_	
+1-191	1096-1102	podrlo	_	_	_	_	
+1-192	1103-1105	še	_	_	_	_	
+1-193	1106-1108	na	_	_	_	_	
+1-194	1109-1114	cesto	_	_	_	_	
+1-195	1115-1116	,	_	_	_	_	
+1-196	1117-1119	ki	_	_	_	_	
+1-197	1120-1125	pelje	_	_	_	_	
+1-198	1126-1128	iz	_	_	_	_	
+1-199	1129-1141	Javorniškega	LOC[10]	3 - Nevtralno[26]	*->13-1	*[13]	
+1-200	1142-1147	Rovta	LOC[10]	3 - Nevtralno[26]	*->13-1	*[13]	
+1-201	1148-1150	na	_	_	_	_	
+1-202	1151-1160	Jesenicah	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-203	1161-1162	.	_	_	_	_	
+1-204	1163-1164	V	_	_	_	_	
+1-205	1165-1172	Bohinju	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-206	1173-1175	se	_	_	_	_	
+1-207	1176-1178	je	_	_	_	_	
+1-208	1179-1181	na	_	_	_	_	
+1-209	1182-1187	cesto	_	_	_	_	
+1-210	1188-1189	,	_	_	_	_	
+1-211	1190-1192	ki	_	_	_	_	
+1-212	1193-1197	vodi	_	_	_	_	
+1-213	1198-1203	skozi	_	_	_	_	
+1-214	1204-1211	Srednjo	LOC[11]	3 - Nevtralno[27]	*->16-1	*[16]	
+1-215	1212-1215	vas	LOC[11]	3 - Nevtralno[27]	*->16-1	*[16]	
+1-216	1216-1217	,	_	_	_	_	
+1-217	1218-1223	podrl	_	_	_	_	
+1-218	1224-1231	kozolec	_	_	_	_	
+1-219	1232-1233	.	_	_	_	_	
+1-220	1234-1235	O	_	_	_	_	
+1-221	1236-1241	oviri	_	_	_	_	
+1-222	1242-1244	na	_	_	_	_	
+1-223	1245-1250	cesti	_	_	_	_	
+1-224	1251-1259	poročajo	_	_	_	_	
+1-225	1260-1262	še	_	_	_	_	
+1-226	1263-1265	iz	_	_	_	_	
+1-227	1266-1274	Trbovelj	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-228	1275-1276	,	_	_	_	_	
+1-229	1277-1281	kjer	_	_	_	_	
+1-230	1282-1284	se	_	_	_	_	
+1-231	1285-1287	je	_	_	_	_	
+1-232	1288-1290	na	_	_	_	_	
+1-233	1291-1296	cesto	_	_	_	_	
+1-234	1297-1298	v	_	_	_	_	
+1-235	1299-1306	bližini	_	_	_	_	
+1-236	1307-1317	Bolnišnice	ORG[12]	3 - Nevtralno[28]	*->18-1	*[18]	
+1-237	1318-1322	Klek	ORG[12]	3 - Nevtralno[28]	*->18-1	*[18]	
+1-238	1323-1329	podrlo	_	_	_	_	
+1-239	1330-1335	drevo	_	_	_	_	
+1-240	1336-1337	.	_	_	_	_	
+1-241	1338-1346	Vodotoki	_	_	_	_	
+1-242	1347-1351	zelo	_	_	_	_	
+1-243	1352-1358	visoko	_	_	_	_	
+1-244	1359-1367	Agencija	ORG[13]	_	*->19-1	*[19]	
+1-245	1368-1370	RS	ORG[13]	_	*->19-1	*[19]	
+1-246	1371-1373	za	ORG[13]	_	*->19-1	*[19]	
+1-247	1374-1380	okolje	ORG[13]	_	*->19-1	*[19]	
+1-248	1381-1382	(	_	_	_	_	
+1-249	1383-1387	Arso	ORG	3 - Nevtralno	*->19-2	*[19]	
+1-250	1388-1389	)	_	_	_	_	
+1-251	1390-1396	poroča	_	_	_	_	
+1-252	1397-1398	,	_	_	_	_	
+1-253	1399-1401	da	_	_	_	_	
+1-254	1402-1404	so	_	_	_	_	
+1-255	1405-1406	v	_	_	_	_	
+1-256	1407-1411	noči	_	_	_	_	
+1-257	1412-1414	na	_	_	_	_	
+1-258	1415-1422	četrtek	_	_	_	_	
+1-259	1423-1429	povsod	_	_	_	_	
+1-260	1430-1432	po	_	_	_	_	
+1-261	1433-1439	državi	_	3 - Nevtralno	*->1-2	*[1]	
+1-262	1440-1447	narasle	_	_	_	_	
+1-263	1448-1452	reke	_	_	_	_	
+1-264	1453-1454	,	_	_	_	_	
+1-265	1455-1457	še	_	_	_	_	
+1-266	1458-1465	najbolj	_	_	_	_	
+1-267	1466-1467	v	_	_	_	_	
+1-268	1468-1476	zgornjem	_	_	_	_	
+1-269	1477-1484	Posočju	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-270	1485-1486	,	_	_	_	_	
+1-271	1487-1491	Sava	LOC[14]	_	*->21-1	*[21]	
+1-272	1492-1500	Bohinjka	LOC[14]	_	*->21-1	*[21]	
+1-273	1501-1502	s	_	_	_	_	
+1-274	1503-1510	pritoki	_	_	_	_	
+1-275	1511-1514	ter	_	_	_	_	
+1-276	1515-1523	nekateri	_	_	_	_	
+1-277	1524-1534	hudourniki	_	_	_	_	
+1-278	1535-1536	v	_	_	_	_	
+1-279	1537-1543	dolini	_	_	_	_	
+1-280	1544-1551	Planice	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-281	1552-1554	in	_	_	_	_	
+1-282	1555-1559	reka	_	_	*->23-1	*[23]	
+1-283	1560-1565	Drava	LOC	_	*->23-1	*[23]	
+1-284	1566-1567	.	_	_	_	_	
+1-285	1568-1578	Opozorilne	_	_	_	_	
+1-286	1579-1588	vrednosti	_	_	_	_	
+1-287	1589-1597	pretokov	_	_	_	_	
+1-288	1598-1600	so	_	_	_	_	
+1-289	1601-1609	presegle	_	_	_	_	
+1-290	1610-1611	:	_	_	_	_	
+1-291	1612-1616	Soča	LOC	3 - Nevtralno	*->24-1	*[24]	
+1-292	1617-1618	v	_	_	_	_	
+1-293	1619-1623	Logu	LOC[15]	3 - Nevtralno[29]	*->25-1	*[25]	
+1-294	1624-1633	Čezsoškem	LOC[15]	3 - Nevtralno[29]	*->25-1	*[25]	
+1-295	1634-1635	(	_	_	_	_	
+1-296	1636-1639	320	_	_	_	_	
+1-297	1640-1648	kubičnih	_	_	_	_	
+1-298	1649-1655	metrov	_	_	_	_	
+1-299	1656-1658	na	_	_	_	_	
+1-300	1659-1666	sekundo	_	_	_	_	
+1-301	1667-1668	,	_	_	_	_	
+1-302	1669-1671	še	_	_	_	_	
+1-303	1672-1679	narašča	_	_	_	_	
+1-304	1680-1681	)	_	_	_	_	
+1-305	1682-1683	,	_	_	_	_	
+1-306	1684-1688	Sava	LOC[16]	3 - Nevtralno[30]	*->21-2	*[21]	
+1-307	1689-1697	Bohinjka	LOC[16]	3 - Nevtralno[30]	*->21-2	*[21]	
+1-308	1698-1701	pri	_	_	_	_	
+1-309	1702-1704	Sv	LOC[17]	3 - Nevtralno[31]	*->26-1	*[26]	
+1-310	1705-1706	.	LOC[17]	3 - Nevtralno[31]	*->26-1	*[26]	
+1-311	1707-1713	Janezu	LOC[17]	3 - Nevtralno[31]	*->26-1	*[26]	
+1-312	1714-1715	(	_	_	_	_	
+1-313	1716-1724	kubičnih	_	_	_	_	
+1-314	1725-1731	metrov	_	_	_	_	
+1-315	1732-1734	na	_	_	_	_	
+1-316	1735-1742	sekundo	_	_	_	_	
+1-317	1743-1744	,	_	_	_	_	
+1-318	1745-1747	še	_	_	_	_	
+1-319	1748-1755	narašča	_	_	_	_	
+1-320	1756-1757	)	_	_	_	_	
+1-321	1758-1760	in	_	_	_	_	
+1-322	1761-1765	Sava	LOC	3 - Nevtralno	*->27-1	*[27]	
+1-323	1766-1767	v	_	_	_	_	
+1-324	1768-1778	Radovljici	LOC	3 - Nevtralno	*->28-1	*[28]	
+1-325	1779-1780	(	_	_	_	_	
+1-326	1781-1789	kubičnih	_	_	_	_	
+1-327	1790-1796	metrov	_	_	_	_	
+1-328	1797-1799	na	_	_	_	_	
+1-329	1800-1807	sekundo	_	_	_	_	
+1-330	1808-1809	,	_	_	_	_	
+1-331	1810-1812	še	_	_	_	_	
+1-332	1813-1820	narašča	_	_	_	_	
+1-333	1821-1822	)	_	_	_	_	
+1-334	1823-1824	,	_	_	_	_	
+1-335	1825-1828	ter	_	_	_	_	
+1-336	1829-1834	Drava	LOC	3 - Nevtralno	*->23-2	*[23]	
+1-337	1835-1836	v	_	_	_	_	
+1-338	1837-1847	Dravogradu	LOC	3 - Nevtralno	*->29-1	*[29]	
+1-339	1848-1849	(	_	_	_	_	
+1-340	1850-1858	kubičnih	_	_	_	_	
+1-341	1859-1865	metrov	_	_	_	_	
+1-342	1866-1868	na	_	_	_	_	
+1-343	1869-1876	sekundo	_	_	_	_	
+1-344	1877-1878	)	_	_	_	_	

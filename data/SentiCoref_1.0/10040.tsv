@@ -1,0 +1,334 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Z inšpektorata sporočili , da bo rušenje domačije Marka Jakliča med prvimi 50 prioritetnimi izvršbami nelegalno zgrajenih objektov . Jaklič pa odhaja na jug . Rok , do katerega bi lahko Jaklič sam porušil svojo nelegalno gradnjo v Selu nad Polhovim Gradcem , je potekel že včeraj . " Ker po večkratnem pozivu lastnik objektov ni odstranil sam , bo potrebna izvršba po drugi osebi , stroške izvršilnega postopka pa bo inšpekcijski zavezanec nosil sam , " so danes sporočili z Inšpektorata Republike Slovenije za promet , energetiko in prostor . Jakličeva domačija bo , potem ko bo sklep postal pravnomočen , glede na kriterije uvrščena med prvih 50 prioritetnih zadev za rušenje . K temu , da bo tako visoko na seznamu , prispeva tudi dejstvo , da leži objekt v Krajinskem parku Polhograjski dolomiti . Jaklič odhaja na Balkan Danes pa je Jaklič potrdil , da zapušča vodilni stolček na Lekarnah Ljubljana , z njim pa bo odšla celotna vodilna ekipa družbe . Jaklič se je v sporočilu za javnost zahvalil sodelavcem v Lekarnah Ljubljana , še posebej pa se je zahvalil ljubljanskemu županu Zoranu Jankoviću , ki jim je vedno stal ob strani in jih podpiral . " Veselimo se novih izzivov , ki so pred nami . Hvaležni smo , da smo dobili priložnost , kjer bomo s svojim znanjem in izkušnjami lahko sodelovali pri ustvarjanju velike zgodbe na Balkanu , ki pa ni povezana z mediji , " so v sporočilu za javnost navedli Jaklič , namestnik direktorja Lekarne Ljubljana ( LL ) in direktor LL Grosist Marko Žnidaršič , pomočnica direktorja za kadre Spomenka Sluganović in skrbnica blagovne znamke LL Klavdija Verlak . Svetu Lekarn so predlagali sporazumno prekinitev pogodbe med 31 . januarjem in 31 . marcem prihodnje leto . Po poročanju spletnega portala Požareport naj bi Jaklič odhajal v Beograd , toda ne za direktorja Radia Index , katerega solastnik je , ampak v znano srbsko farmacevtsko podjetje Jugohemija
+1-1	0-1	Z	_	_	_	_	
+1-2	2-14	inšpektorata	_	_	*->1-1	*[1]	
+1-3	15-24	sporočili	_	_	_	_	
+1-4	25-26	,	_	_	_	_	
+1-5	27-29	da	_	_	_	_	
+1-6	30-32	bo	_	_	_	_	
+1-7	33-40	rušenje	_	_	_	_	
+1-8	41-49	domačije	_	_	_	_	
+1-9	50-55	Marka	PER[1]	_	*->11-1	*[11]	
+1-10	56-63	Jakliča	PER[1]	_	*->11-1	*[11]	
+1-11	64-67	med	_	_	_	_	
+1-12	68-74	prvimi	_	_	_	_	
+1-13	75-77	50	_	_	_	_	
+1-14	78-91	prioritetnimi	_	_	_	_	
+1-15	92-101	izvršbami	_	_	_	_	
+1-16	102-111	nelegalno	_	_	_	_	
+1-17	112-121	zgrajenih	_	_	_	_	
+1-18	122-130	objektov	_	_	_	_	
+1-19	131-132	.	_	_	_	_	
+1-20	133-139	Jaklič	PER	_	*->11-2	*[11]	
+1-21	140-142	pa	_	_	_	_	
+1-22	143-149	odhaja	_	_	_	_	
+1-23	150-152	na	_	_	_	_	
+1-24	153-156	jug	_	_	_	_	
+1-25	157-158	.	_	_	_	_	
+1-26	159-162	Rok	_	_	_	_	
+1-27	163-164	,	_	_	_	_	
+1-28	165-167	do	_	_	_	_	
+1-29	168-176	katerega	_	_	_	_	
+1-30	177-179	bi	_	_	_	_	
+1-31	180-185	lahko	_	_	_	_	
+1-32	186-192	Jaklič	PER	_	*->11-3	*[11]	
+1-33	193-196	sam	_	_	_	_	
+1-34	197-204	porušil	_	_	_	_	
+1-35	205-210	svojo	_	_	_	_	
+1-36	211-220	nelegalno	_	_	_	_	
+1-37	221-228	gradnjo	_	_	_	_	
+1-38	229-230	v	_	_	_	_	
+1-39	231-235	Selu	LOC[2]	3 - Nevtralno[17]	*->13-1	*[13]	
+1-40	236-239	nad	LOC[2]	3 - Nevtralno[17]	*->13-1	*[13]	
+1-41	240-248	Polhovim	LOC[2]	3 - Nevtralno[17]	*->13-1	*[13]	
+1-42	249-256	Gradcem	LOC[2]	3 - Nevtralno[17]	*->13-1	*[13]	
+1-43	257-258	,	_	_	_	_	
+1-44	259-261	je	_	_	_	_	
+1-45	262-269	potekel	_	_	_	_	
+1-46	270-272	že	_	_	_	_	
+1-47	273-279	včeraj	_	_	_	_	
+1-48	280-281	.	_	_	_	_	
+1-49	282-283	"	_	_	_	_	
+1-50	284-287	Ker	_	_	_	_	
+1-51	288-290	po	_	_	_	_	
+1-52	291-301	večkratnem	_	_	_	_	
+1-53	302-308	pozivu	_	_	_	_	
+1-54	309-316	lastnik	_	_	*->11-4	*[11]	
+1-55	317-325	objektov	_	_	_	_	
+1-56	326-328	ni	_	_	_	_	
+1-57	329-338	odstranil	_	_	_	_	
+1-58	339-342	sam	_	_	_	_	
+1-59	343-344	,	_	_	_	_	
+1-60	345-347	bo	_	_	_	_	
+1-61	348-356	potrebna	_	_	_	_	
+1-62	357-364	izvršba	_	_	_	_	
+1-63	365-367	po	_	_	_	_	
+1-64	368-373	drugi	_	_	_	_	
+1-65	374-379	osebi	_	_	_	_	
+1-66	380-381	,	_	_	_	_	
+1-67	382-389	stroške	_	_	_	_	
+1-68	390-401	izvršilnega	_	_	_	_	
+1-69	402-410	postopka	_	_	_	_	
+1-70	411-413	pa	_	_	_	_	
+1-71	414-416	bo	_	_	_	_	
+1-72	417-429	inšpekcijski	_	_	*->11-5	*[11]	
+1-73	430-439	zavezanec	_	_	*->11-5	*[11]	
+1-74	440-445	nosil	_	_	_	_	
+1-75	446-449	sam	_	_	_	_	
+1-76	450-451	,	_	_	_	_	
+1-77	452-453	"	_	_	_	_	
+1-78	454-456	so	_	_	_	_	
+1-79	457-462	danes	_	_	_	_	
+1-80	463-472	sporočili	_	_	_	_	
+1-81	473-474	z	_	_	_	_	
+1-82	475-487	Inšpektorata	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-83	488-497	Republike	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-84	498-507	Slovenije	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-85	508-510	za	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-86	511-517	promet	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-87	518-519	,	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-88	520-530	energetiko	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-89	531-533	in	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-90	534-541	prostor	ORG[3]	3 - Nevtralno[18]	*->1-2	*[1]	
+1-91	542-543	.	_	_	_	_	
+1-92	544-553	Jakličeva	PER	_	*->11-6	*[11]	
+1-93	554-562	domačija	_	_	_	_	
+1-94	563-565	bo	_	_	_	_	
+1-95	566-567	,	_	_	_	_	
+1-96	568-573	potem	_	_	_	_	
+1-97	574-576	ko	_	_	_	_	
+1-98	577-579	bo	_	_	_	_	
+1-99	580-585	sklep	_	_	_	_	
+1-100	586-592	postal	_	_	_	_	
+1-101	593-604	pravnomočen	_	_	_	_	
+1-102	605-606	,	_	_	_	_	
+1-103	607-612	glede	_	_	_	_	
+1-104	613-615	na	_	_	_	_	
+1-105	616-625	kriterije	_	_	_	_	
+1-106	626-634	uvrščena	_	_	_	_	
+1-107	635-638	med	_	_	_	_	
+1-108	639-644	prvih	_	_	_	_	
+1-109	645-647	50	_	_	_	_	
+1-110	648-660	prioritetnih	_	_	_	_	
+1-111	661-666	zadev	_	_	_	_	
+1-112	667-669	za	_	_	_	_	
+1-113	670-677	rušenje	_	_	_	_	
+1-114	678-679	.	_	_	_	_	
+1-115	680-681	K	_	_	_	_	
+1-116	682-686	temu	_	_	_	_	
+1-117	687-688	,	_	_	_	_	
+1-118	689-691	da	_	_	_	_	
+1-119	692-694	bo	_	_	_	_	
+1-120	695-699	tako	_	_	_	_	
+1-121	700-706	visoko	_	_	_	_	
+1-122	707-709	na	_	_	_	_	
+1-123	710-717	seznamu	_	_	_	_	
+1-124	718-719	,	_	_	_	_	
+1-125	720-728	prispeva	_	_	_	_	
+1-126	729-733	tudi	_	_	_	_	
+1-127	734-741	dejstvo	_	_	_	_	
+1-128	742-743	,	_	_	_	_	
+1-129	744-746	da	_	_	_	_	
+1-130	747-751	leži	_	_	_	_	
+1-131	752-758	objekt	_	_	_	_	
+1-132	759-760	v	_	_	_	_	
+1-133	761-771	Krajinskem	LOC[4]	3 - Nevtralno[19]	*->2-1	*[2]	
+1-134	772-777	parku	LOC[4]	3 - Nevtralno[19]	*->2-1	*[2]	
+1-135	778-790	Polhograjski	LOC[4]	3 - Nevtralno[19]	*->2-1	*[2]	
+1-136	791-799	dolomiti	LOC[4]	3 - Nevtralno[19]	*->2-1	*[2]	
+1-137	800-801	.	_	_	_	_	
+1-138	802-808	Jaklič	PER	_	*->11-7	*[11]	
+1-139	809-815	odhaja	_	_	_	_	
+1-140	816-818	na	_	_	_	_	
+1-141	819-825	Balkan	LOC	_	*->4-1	*[4]	
+1-142	826-831	Danes	_	_	_	_	
+1-143	832-834	pa	_	_	_	_	
+1-144	835-837	je	_	_	_	_	
+1-145	838-844	Jaklič	PER	_	*->11-8	*[11]	
+1-146	845-852	potrdil	_	_	_	_	
+1-147	853-854	,	_	_	_	_	
+1-148	855-857	da	_	_	_	_	
+1-149	858-865	zapušča	_	_	_	_	
+1-150	866-873	vodilni	_	_	_	_	
+1-151	874-881	stolček	_	_	_	_	
+1-152	882-884	na	_	_	_	_	
+1-153	885-893	Lekarnah	ORG[5]	_	*->15-1	*[15]	
+1-154	894-903	Ljubljana	ORG[5]|LOC[6]	_	*->15-1|*->14-1	*[15]|*[14]	
+1-155	904-905	,	_	_	_	_	
+1-156	906-907	z	_	_	_	_	
+1-157	908-912	njim	_	_	_	_	
+1-158	913-915	pa	_	_	_	_	
+1-159	916-918	bo	_	_	_	_	
+1-160	919-924	odšla	_	_	_	_	
+1-161	925-932	celotna	_	_	_	_	
+1-162	933-940	vodilna	_	_	_	_	
+1-163	941-946	ekipa	_	_	_	_	
+1-164	947-953	družbe	_	_	*->15-2	*[15]	
+1-165	954-955	.	_	_	_	_	
+1-166	956-962	Jaklič	PER	_	*->11-9	*[11]	
+1-167	963-965	se	_	_	_	_	
+1-168	966-968	je	_	_	_	_	
+1-169	969-970	v	_	_	_	_	
+1-170	971-980	sporočilu	_	_	_	_	
+1-171	981-983	za	_	_	_	_	
+1-172	984-991	javnost	_	_	_	_	
+1-173	992-1000	zahvalil	_	_	_	_	
+1-174	1001-1011	sodelavcem	_	_	_	_	
+1-175	1012-1013	v	_	_	_	_	
+1-176	1014-1022	Lekarnah	ORG[7]	_	*->15-3	*[15]	
+1-177	1023-1032	Ljubljana	ORG[7]|LOC[8]	_	*->15-3|*->14-2	*[15]|*[14]	
+1-178	1033-1034	,	_	_	_	_	
+1-179	1035-1037	še	_	_	_	_	
+1-180	1038-1045	posebej	_	_	_	_	
+1-181	1046-1048	pa	_	_	_	_	
+1-182	1049-1051	se	_	_	_	_	
+1-183	1052-1054	je	_	_	_	_	
+1-184	1055-1063	zahvalil	_	_	_	_	
+1-185	1064-1077	ljubljanskemu	_	_	*->3-1	*[3]	
+1-186	1078-1084	županu	_	_	*->3-1	*[3]	
+1-187	1085-1091	Zoranu	PER[9]	3 - Nevtralno[20]	*->3-1	*[3]	
+1-188	1092-1101	Jankoviću	PER[9]	3 - Nevtralno[20]	*->3-1	*[3]	
+1-189	1102-1103	,	_	_	_	_	
+1-190	1104-1106	ki	_	_	_	_	
+1-191	1107-1110	jim	_	_	*->15-4	*[15]	
+1-192	1111-1113	je	_	_	_	_	
+1-193	1114-1119	vedno	_	_	_	_	
+1-194	1120-1124	stal	_	_	_	_	
+1-195	1125-1127	ob	_	_	_	_	
+1-196	1128-1134	strani	_	_	_	_	
+1-197	1135-1137	in	_	_	*->15-5	*[15]	
+1-198	1138-1141	jih	_	_	_	_	
+1-199	1142-1150	podpiral	_	_	_	_	
+1-200	1151-1152	.	_	_	_	_	
+1-201	1153-1154	"	_	_	_	_	
+1-202	1155-1163	Veselimo	_	_	*->15-6	*[15]	
+1-203	1164-1166	se	_	_	*->15-6	*[15]	
+1-204	1167-1172	novih	_	_	_	_	
+1-205	1173-1180	izzivov	_	_	_	_	
+1-206	1181-1182	,	_	_	_	_	
+1-207	1183-1185	ki	_	_	_	_	
+1-208	1186-1188	so	_	_	_	_	
+1-209	1189-1193	pred	_	_	_	_	
+1-210	1194-1198	nami	_	_	_	_	
+1-211	1199-1200	.	_	_	_	_	
+1-212	1201-1209	Hvaležni	_	_	*->15-7	*[15]	
+1-213	1210-1213	smo	_	_	*->15-7	*[15]	
+1-214	1214-1215	,	_	_	_	_	
+1-215	1216-1218	da	_	_	_	_	
+1-216	1219-1222	smo	_	_	_	_	
+1-217	1223-1229	dobili	_	_	_	_	
+1-218	1230-1240	priložnost	_	_	_	_	
+1-219	1241-1242	,	_	_	_	_	
+1-220	1243-1247	kjer	_	_	_	_	
+1-221	1248-1252	bomo	_	_	_	_	
+1-222	1253-1254	s	_	_	_	_	
+1-223	1255-1261	svojim	_	_	_	_	
+1-224	1262-1269	znanjem	_	_	_	_	
+1-225	1270-1272	in	_	_	_	_	
+1-226	1273-1283	izkušnjami	_	_	_	_	
+1-227	1284-1289	lahko	_	_	_	_	
+1-228	1290-1300	sodelovali	_	_	_	_	
+1-229	1301-1304	pri	_	_	_	_	
+1-230	1305-1316	ustvarjanju	_	_	_	_	
+1-231	1317-1323	velike	_	_	_	_	
+1-232	1324-1330	zgodbe	_	_	_	_	
+1-233	1331-1333	na	_	_	_	_	
+1-234	1334-1341	Balkanu	LOC	3 - Nevtralno	*->4-2	*[4]	
+1-235	1342-1343	,	_	_	_	_	
+1-236	1344-1346	ki	_	_	_	_	
+1-237	1347-1349	pa	_	_	_	_	
+1-238	1350-1352	ni	_	_	_	_	
+1-239	1353-1361	povezana	_	_	_	_	
+1-240	1362-1363	z	_	_	_	_	
+1-241	1364-1370	mediji	_	_	_	_	
+1-242	1371-1372	,	_	_	_	_	
+1-243	1373-1374	"	_	_	_	_	
+1-244	1375-1377	so	_	_	_	_	
+1-245	1378-1379	v	_	_	_	_	
+1-246	1380-1389	sporočilu	_	_	_	_	
+1-247	1390-1392	za	_	_	_	_	
+1-248	1393-1400	javnost	_	_	_	_	
+1-249	1401-1408	navedli	_	_	_	_	
+1-250	1409-1415	Jaklič	PER	_	*->11-10	*[11]	
+1-251	1416-1417	,	_	_	_	_	
+1-252	1418-1427	namestnik	_	_	*->11-11	*[11]	
+1-253	1428-1438	direktorja	_	_	*->11-11	*[11]	
+1-254	1439-1446	Lekarne	ORG[10]	_	*->11-11|*->15-8	*[11]|*[15]	
+1-255	1447-1456	Ljubljana	ORG[10]|LOC[11]	3 - Nevtralno	*->11-11|*->15-8|*->14-3	*[11]|*[15]|*[14]	
+1-256	1457-1458	(	_	_	*->11-11	*[11]	
+1-257	1459-1461	LL	ORG	_	*->11-11|*->15-9	*[11]|*[15]	
+1-258	1462-1463	)	_	_	*->11-11	*[11]	
+1-259	1464-1466	in	_	_	_	_	
+1-260	1467-1475	direktor	_	3 - Nevtralno[21]	*->5-1	*[5]	
+1-261	1476-1478	LL	ORG[12]	3 - Nevtralno[21]	*->5-1|*->15-10	*[5]|*[15]	
+1-262	1479-1486	Grosist	ORG[12]	3 - Nevtralno[21]	*->5-1|*->15-10	*[5]|*[15]	
+1-263	1487-1492	Marko	PER[13]	3 - Nevtralno[21]	*->5-1	*[5]	
+1-264	1493-1502	Žnidaršič	PER[13]	3 - Nevtralno[21]	*->5-1	*[5]	
+1-265	1503-1504	,	_	_	_	_	
+1-266	1505-1514	pomočnica	_	3 - Nevtralno[22]	*->6-1	*[6]	
+1-267	1515-1525	direktorja	_	3 - Nevtralno[22]	*->6-1	*[6]	
+1-268	1526-1528	za	_	3 - Nevtralno[22]	*->6-1	*[6]	
+1-269	1529-1534	kadre	_	3 - Nevtralno[22]	*->6-1	*[6]	
+1-270	1535-1543	Spomenka	PER[14]	3 - Nevtralno[22]	*->6-1	*[6]	
+1-271	1544-1554	Sluganović	PER[14]	3 - Nevtralno[22]	*->6-1	*[6]	
+1-272	1555-1557	in	_	_	_	_	
+1-273	1558-1566	skrbnica	_	3 - Nevtralno[23]	*->7-1	*[7]	
+1-274	1567-1575	blagovne	_	3 - Nevtralno[23]	*->7-1	*[7]	
+1-275	1576-1582	znamke	_	3 - Nevtralno[23]	*->7-1	*[7]	
+1-276	1583-1585	LL	ORG	3 - Nevtralno[23]	*->7-1|*->15-11	*[7]|*[15]	
+1-277	1586-1594	Klavdija	PER[15]	3 - Nevtralno[23]	*->7-1	*[7]	
+1-278	1595-1601	Verlak	PER[15]	3 - Nevtralno[23]	*->7-1	*[7]	
+1-279	1602-1603	.	_	_	_	_	
+1-280	1604-1609	Svetu	_	3 - Nevtralno[24]	*->15-12	*[15]	
+1-281	1610-1616	Lekarn	_	3 - Nevtralno[24]	*->15-12	*[15]	
+1-282	1617-1619	so	_	_	_	_	
+1-283	1620-1630	predlagali	_	_	_	_	
+1-284	1631-1641	sporazumno	_	_	_	_	
+1-285	1642-1652	prekinitev	_	_	_	_	
+1-286	1653-1660	pogodbe	_	_	_	_	
+1-287	1661-1664	med	_	_	_	_	
+1-288	1665-1667	31	_	_	_	_	
+1-289	1668-1669	.	_	_	_	_	
+1-290	1670-1679	januarjem	_	_	_	_	
+1-291	1680-1682	in	_	_	_	_	
+1-292	1683-1685	31	_	_	_	_	
+1-293	1686-1687	.	_	_	_	_	
+1-294	1688-1694	marcem	_	_	_	_	
+1-295	1695-1704	prihodnje	_	_	_	_	
+1-296	1705-1709	leto	_	_	_	_	
+1-297	1710-1711	.	_	_	_	_	
+1-298	1712-1714	Po	_	_	_	_	
+1-299	1715-1724	poročanju	_	_	_	_	
+1-300	1725-1734	spletnega	_	_	_	_	
+1-301	1735-1742	portala	_	_	_	_	
+1-302	1743-1753	Požareport	ORG	3 - Nevtralno	*->8-1	*[8]	
+1-303	1754-1757	naj	_	_	_	_	
+1-304	1758-1760	bi	_	_	_	_	
+1-305	1761-1767	Jaklič	PER	2 - Negativno	*->11-12	*[11]	
+1-306	1768-1775	odhajal	_	_	_	_	
+1-307	1776-1777	v	_	_	_	_	
+1-308	1778-1785	Beograd	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-309	1786-1787	,	_	_	_	_	
+1-310	1788-1792	toda	_	_	_	_	
+1-311	1793-1795	ne	_	_	_	_	
+1-312	1796-1798	za	_	_	_	_	
+1-313	1799-1809	direktorja	_	_	_	_	
+1-314	1810-1815	Radia	ORG[16]	3 - Nevtralno[25]	*->10-1	*[10]	
+1-315	1816-1821	Index	ORG[16]	3 - Nevtralno[25]	*->10-1	*[10]	
+1-316	1822-1823	,	_	_	_	_	
+1-317	1824-1832	katerega	_	_	_	_	
+1-318	1833-1842	solastnik	_	_	_	_	
+1-319	1843-1845	je	_	_	_	_	
+1-320	1846-1847	,	_	_	_	_	
+1-321	1848-1853	ampak	_	_	_	_	
+1-322	1854-1855	v	_	_	_	_	
+1-323	1856-1861	znano	_	_	_	_	
+1-324	1862-1868	srbsko	_	_	_	_	
+1-325	1869-1881	farmacevtsko	_	_	_	_	
+1-326	1882-1890	podjetje	_	_	_	_	
+1-327	1891-1901	Jugohemija	ORG	3 - Nevtralno	*->12-1	*[12]	

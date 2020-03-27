@@ -1,0 +1,406 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Hrvaški sindikat spominja na Mercatorjeve prevzeme na Hrvaškem Hrvaški mediji glede Mercatorja pišejo , da so Američani v zadnjem trenutku ustavili poskus Agrokorja za prevzem slovenskega trgovca , zaradi česar bi se lahko prodaja zavlekla za najmanj mesec dni . V torek je ameriška družba Eatons Capital s sedežem v Las Vegasu objavila namero za nakup delnic Pivovarne Laško , zaradi česar družba po objavi namere za prevzem ne sme narediti zadev , ki bi otežile prevzem . Tako bi morala skladno z zakonom o prevzemih morebitno prodajo delnic Mercatorja v lasti Laškega - skupina ima skupno 23,34 - odstotni delež - potrditi še skupščina pivovarne . Skupno 52,10 - odstotni delež Mercatorja prodajajo NLB , NKBM , Abanka , Banka Celje , Banka Koper , Gorenjska banka , banka Hypo Alpe Adria , delniški investicijski sklad NFD 1 , NFD Holding ter Pivovarna Laško , Pivovarna Union in Radenska . Hrvaški časopis Večernji list piše , da so prodajalci upravi jasno in glasno sporočili , da Mercator prodajajo Agrokorju , vendar bi lahko nova ponudba za Laško proces prodaje ustavila za najmanj mesec , potem ko je z neba padla ponudba družbe Eatons Capital . Šampanjec in za jutri napovedano podpisovanje kupoprodajnega dogovora bo tako očitno počakal še nekaj časa , piše Večernji list in dodaja , pri čemer se sklicuje na vire blizu Agrokorja , da so zdaj na vrsti pravniki , ki morajo preučiti , ali bi lahko nova ponudba za Laško vplivala na prodajo . Agrokor ima najboljša priporočila Hrvaški časopis piše , da Laškemu gori pod nogami in da je vse bližje stečaju . Večernji list poroča tudi , da se je pred sedežem slovenske vlade v Ljubljani zbralo okoli 50 članov svobodnih sindikatov , ki so protestirali proti prodaji Merkatorja Agrokorju . Slovenskim sindikalistom je sindikat hrvaške trgovine sporočil , da je Agrokor eden izmed najboljših hrvaških delodajalcev in imajo od njega najboljša priporočila , kjer koli je vlagal . Hrvaški sindikat ob tem spomnil na dobro znane primere Mercatorjevih prevzemov Getroa , Slobode in Presoflexa , vendar jim ni padlo na pamet , da bi se lotili sindikalnih akcij , kot so se jih slovenski kolegi . Spomnijo tudi , da so z Mercatorjem - H trikrat poskušali podpisati kolektivno pogodbo , a jim tega še do danes ni uspelo , medtem ko Agrokor v vseh svojih podjetjih spoštuje dogovore s sindikati
+1-1	0-7	Hrvaški	_	_	_	_	
+1-2	8-16	sindikat	_	_	_	_	
+1-3	17-25	spominja	_	_	_	_	
+1-4	26-28	na	_	_	_	_	
+1-5	29-41	Mercatorjeve	ORG	_	*->1-1	*[1]	
+1-6	42-50	prevzeme	_	_	_	_	
+1-7	51-53	na	_	_	_	_	
+1-8	54-62	Hrvaškem	LOC	3 - Nevtralno	*->3-1	*[3]	
+1-9	63-70	Hrvaški	_	_	_	_	
+1-10	71-77	mediji	_	_	_	_	
+1-11	78-83	glede	_	_	_	_	
+1-12	84-94	Mercatorja	ORG	_	*->1-2	*[1]	
+1-13	95-101	pišejo	_	_	_	_	
+1-14	102-103	,	_	_	_	_	
+1-15	104-106	da	_	_	_	_	
+1-16	107-109	so	_	_	_	_	
+1-17	110-119	Američani	_	_	_	_	
+1-18	120-121	v	_	_	_	_	
+1-19	122-129	zadnjem	_	_	_	_	
+1-20	130-138	trenutku	_	_	_	_	
+1-21	139-147	ustavili	_	_	_	_	
+1-22	148-154	poskus	_	_	_	_	
+1-23	155-164	Agrokorja	ORG	_	*->23-1	*[23]	
+1-24	165-167	za	_	_	_	_	
+1-25	168-175	prevzem	_	_	_	_	
+1-26	176-187	slovenskega	_	_	*->1-3	*[1]	
+1-27	188-195	trgovca	_	_	*->1-3	*[1]	
+1-28	196-197	,	_	_	_	_	
+1-29	198-204	zaradi	_	_	_	_	
+1-30	205-210	česar	_	_	_	_	
+1-31	211-213	bi	_	_	_	_	
+1-32	214-216	se	_	_	_	_	
+1-33	217-222	lahko	_	_	_	_	
+1-34	223-230	prodaja	_	_	_	_	
+1-35	231-239	zavlekla	_	_	_	_	
+1-36	240-242	za	_	_	_	_	
+1-37	243-250	najmanj	_	_	_	_	
+1-38	251-256	mesec	_	_	_	_	
+1-39	257-260	dni	_	_	_	_	
+1-40	261-262	.	_	_	_	_	
+1-41	263-264	V	_	_	_	_	
+1-42	265-270	torek	_	_	_	_	
+1-43	271-273	je	_	_	_	_	
+1-44	274-282	ameriška	_	_	*->20-1	*[20]	
+1-45	283-289	družba	_	_	*->20-1	*[20]	
+1-46	290-296	Eatons	ORG[1]	_	*->20-1	*[20]	
+1-47	297-304	Capital	ORG[1]	_	*->20-1	*[20]	
+1-48	305-306	s	_	_	*->20-1	*[20]	
+1-49	307-314	sedežem	_	_	*->20-1	*[20]	
+1-50	315-316	v	_	_	*->20-1	*[20]	
+1-51	317-320	Las	LOC[2]	3 - Nevtralno[17]	*->20-1|*->4-1	*[20]|*[4]	
+1-52	321-327	Vegasu	LOC[2]	3 - Nevtralno[17]	*->20-1|*->4-1	*[20]|*[4]	
+1-53	328-336	objavila	_	_	_	_	
+1-54	337-343	namero	_	_	_	_	
+1-55	344-346	za	_	_	_	_	
+1-56	347-352	nakup	_	_	_	_	
+1-57	353-359	delnic	_	_	_	_	
+1-58	360-369	Pivovarne	ORG[3]	_	*->19-1	*[19]	
+1-59	370-375	Laško	ORG[3]|LOC[4]	_	*->19-1|*->2-1	*[19]|*[2]	
+1-60	376-377	,	_	_	_	_	
+1-61	378-384	zaradi	_	_	_	_	
+1-62	385-390	česar	_	_	_	_	
+1-63	391-397	družba	_	_	*->19-2	*[19]	
+1-64	398-400	po	_	_	_	_	
+1-65	401-407	objavi	_	_	_	_	
+1-66	408-414	namere	_	_	_	_	
+1-67	415-417	za	_	_	_	_	
+1-68	418-425	prevzem	_	_	_	_	
+1-69	426-428	ne	_	_	_	_	
+1-70	429-432	sme	_	_	_	_	
+1-71	433-441	narediti	_	_	_	_	
+1-72	442-447	zadev	_	_	_	_	
+1-73	448-449	,	_	_	_	_	
+1-74	450-452	ki	_	_	_	_	
+1-75	453-455	bi	_	_	_	_	
+1-76	456-463	otežile	_	_	_	_	
+1-77	464-471	prevzem	_	_	_	_	
+1-78	472-473	.	_	_	_	_	
+1-79	474-478	Tako	_	_	_	_	
+1-80	479-481	bi	_	_	_	_	
+1-81	482-488	morala	_	_	_	_	
+1-82	489-496	skladno	_	_	_	_	
+1-83	497-498	z	_	_	_	_	
+1-84	499-506	zakonom	_	_	_	_	
+1-85	507-508	o	_	_	_	_	
+1-86	509-518	prevzemih	_	_	_	_	
+1-87	519-528	morebitno	_	_	_	_	
+1-88	529-536	prodajo	_	_	_	_	
+1-89	537-543	delnic	_	_	_	_	
+1-90	544-554	Mercatorja	ORG	_	*->1-4	*[1]	
+1-91	555-556	v	_	_	_	_	
+1-92	557-562	lasti	_	_	_	_	
+1-93	563-570	Laškega	ORG	_	*->19-3	*[19]	
+1-94	571-572	-	_	_	_	_	
+1-95	573-580	skupina	_	_	_	_	
+1-96	581-584	ima	_	_	_	_	
+1-97	585-591	skupno	_	_	_	_	
+1-98	592-597	23,34	_	_	_	_	
+1-99	598-599	-	_	_	_	_	
+1-100	600-608	odstotni	_	_	_	_	
+1-101	609-614	delež	_	_	_	_	
+1-102	615-616	-	_	_	_	_	
+1-103	617-625	potrditi	_	_	_	_	
+1-104	626-628	še	_	_	_	_	
+1-105	629-638	skupščina	_	_	_	_	
+1-106	639-648	pivovarne	_	_	_	_	
+1-107	649-650	.	_	_	_	_	
+1-108	651-657	Skupno	_	_	_	_	
+1-109	658-663	52,10	_	_	_	_	
+1-110	664-665	-	_	_	_	_	
+1-111	666-674	odstotni	_	_	_	_	
+1-112	675-680	delež	_	_	_	_	
+1-113	681-691	Mercatorja	ORG	_	*->1-5	*[1]	
+1-114	692-701	prodajajo	_	_	_	_	
+1-115	702-705	NLB	ORG	3 - Nevtralno	*->5-1	*[5]	
+1-116	706-707	,	_	_	_	_	
+1-117	708-712	NKBM	ORG	3 - Nevtralno	*->6-1	*[6]	
+1-118	713-714	,	_	_	_	_	
+1-119	715-721	Abanka	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-120	722-723	,	_	_	_	_	
+1-121	724-729	Banka	ORG[5]	3 - Nevtralno[18]	*->8-1|*->10-1	*[8]|*[10]	
+1-122	730-735	Celje	ORG[5]|LOC[6]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->8-1|*->9-1	*[8]|*[9]	
+1-123	736-737	,	_	_	_	_	
+1-124	738-743	Banka	ORG[7]	3 - Nevtralno[20]	*->11-1|*->13-1	*[11]|*[13]	
+1-125	744-749	Koper	ORG[7]|LOC[8]	3 - Nevtralno[20]|3 - Nevtralno[21]	*->11-1|*->12-1	*[11]|*[12]	
+1-126	750-751	,	_	_	_	_	
+1-127	752-761	Gorenjska	ORG[9]	3 - Nevtralno[22]	*->14-1	*[14]	
+1-128	762-767	banka	ORG[9]	3 - Nevtralno[22]	*->14-1	*[14]	
+1-129	768-769	,	_	_	_	_	
+1-130	770-775	banka	_	3 - Nevtralno[23]	*->15-1	*[15]	
+1-131	776-780	Hypo	ORG[10]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-132	781-785	Alpe	ORG[10]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-133	786-791	Adria	ORG[10]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-134	792-793	,	_	_	_	_	
+1-135	794-802	delniški	_	3 - Nevtralno[24]	*->16-1	*[16]	
+1-136	803-816	investicijski	_	3 - Nevtralno[24]	*->16-1	*[16]	
+1-137	817-822	sklad	_	3 - Nevtralno[24]	*->16-1	*[16]	
+1-138	823-826	NFD	_	3 - Nevtralno[24]	*->16-1	*[16]	
+1-139	827-828	1	_	3 - Nevtralno[24]	*->16-1	*[16]	
+1-140	829-830	,	_	3 - Nevtralno[24]	*->16-1	*[16]	
+1-141	831-834	NFD	ORG[11]	3 - Nevtralno[24]	*->16-1	*[16]	
+1-142	835-842	Holding	ORG[11]	3 - Nevtralno[24]	*->16-1	*[16]	
+1-143	843-846	ter	_	_	_	_	
+1-144	847-856	Pivovarna	ORG[12]	_	*->19-4	*[19]	
+1-145	857-862	Laško	ORG[12]|LOC[13]	3 - Nevtralno	*->19-4|*->2-2	*[19]|*[2]	
+1-146	863-864	,	_	_	_	_	
+1-147	865-874	Pivovarna	ORG[14]	3 - Nevtralno[25]	*->17-1	*[17]	
+1-148	875-880	Union	ORG[14]	3 - Nevtralno[25]	*->17-1	*[17]	
+1-149	881-883	in	_	_	_	_	
+1-150	884-892	Radenska	ORG	3 - Nevtralno	*->18-1	*[18]	
+1-151	893-894	.	_	_	_	_	
+1-152	895-902	Hrvaški	_	_	*->21-1	*[21]	
+1-153	903-910	časopis	_	_	*->21-1	*[21]	
+1-154	911-919	Večernji	ORG[15]	_	*->21-1	*[21]	
+1-155	920-924	list	ORG[15]	_	*->21-1	*[21]	
+1-156	925-929	piše	_	_	_	_	
+1-157	930-931	,	_	_	_	_	
+1-158	932-934	da	_	_	_	_	
+1-159	935-937	so	_	_	_	_	
+1-160	938-948	prodajalci	_	_	_	_	
+1-161	949-955	upravi	_	_	_	_	
+1-162	956-961	jasno	_	_	_	_	
+1-163	962-964	in	_	_	_	_	
+1-164	965-971	glasno	_	_	_	_	
+1-165	972-981	sporočili	_	_	_	_	
+1-166	982-983	,	_	_	_	_	
+1-167	984-986	da	_	_	_	_	
+1-168	987-995	Mercator	ORG	_	*->1-6	*[1]	
+1-169	996-1005	prodajajo	_	_	_	_	
+1-170	1006-1015	Agrokorju	ORG	_	*->23-2	*[23]	
+1-171	1016-1017	,	_	_	_	_	
+1-172	1018-1024	vendar	_	_	_	_	
+1-173	1025-1027	bi	_	_	_	_	
+1-174	1028-1033	lahko	_	_	_	_	
+1-175	1034-1038	nova	_	_	_	_	
+1-176	1039-1046	ponudba	_	_	_	_	
+1-177	1047-1049	za	_	_	_	_	
+1-178	1050-1055	Laško	ORG	_	*->19-5	*[19]	
+1-179	1056-1062	proces	_	_	_	_	
+1-180	1063-1070	prodaje	_	_	_	_	
+1-181	1071-1079	ustavila	_	_	_	_	
+1-182	1080-1082	za	_	_	_	_	
+1-183	1083-1090	najmanj	_	_	_	_	
+1-184	1091-1096	mesec	_	_	_	_	
+1-185	1097-1098	,	_	_	_	_	
+1-186	1099-1104	potem	_	_	_	_	
+1-187	1105-1107	ko	_	_	_	_	
+1-188	1108-1110	je	_	_	_	_	
+1-189	1111-1112	z	_	_	_	_	
+1-190	1113-1117	neba	_	_	_	_	
+1-191	1118-1123	padla	_	_	_	_	
+1-192	1124-1131	ponudba	_	_	_	_	
+1-193	1132-1138	družbe	_	_	_	_	
+1-194	1139-1145	Eatons	ORG[16]	3 - Nevtralno[26]	*->20-2	*[20]	
+1-195	1146-1153	Capital	ORG[16]	3 - Nevtralno[26]	*->20-2	*[20]	
+1-196	1154-1155	.	_	_	_	_	
+1-197	1156-1165	Šampanjec	_	_	_	_	
+1-198	1166-1168	in	_	_	_	_	
+1-199	1169-1171	za	_	_	_	_	
+1-200	1172-1177	jutri	_	_	_	_	
+1-201	1178-1188	napovedano	_	_	_	_	
+1-202	1189-1201	podpisovanje	_	_	_	_	
+1-203	1202-1216	kupoprodajnega	_	_	_	_	
+1-204	1217-1225	dogovora	_	_	_	_	
+1-205	1226-1228	bo	_	_	_	_	
+1-206	1229-1233	tako	_	_	_	_	
+1-207	1234-1240	očitno	_	_	_	_	
+1-208	1241-1248	počakal	_	_	_	_	
+1-209	1249-1251	še	_	_	_	_	
+1-210	1252-1257	nekaj	_	_	_	_	
+1-211	1258-1262	časa	_	_	_	_	
+1-212	1263-1264	,	_	_	_	_	
+1-213	1265-1269	piše	_	_	_	_	
+1-214	1270-1278	Večernji	_	_	*->21-2	*[21]	
+1-215	1279-1283	list	_	_	*->21-2	*[21]	
+1-216	1284-1286	in	_	_	_	_	
+1-217	1287-1293	dodaja	_	_	*->21-3	*[21]	
+1-218	1294-1295	,	_	_	_	_	
+1-219	1296-1299	pri	_	_	_	_	
+1-220	1300-1305	čemer	_	_	_	_	
+1-221	1306-1308	se	_	_	_	_	
+1-222	1309-1317	sklicuje	_	_	*->21-4	*[21]	
+1-223	1318-1320	na	_	_	_	_	
+1-224	1321-1325	vire	_	_	_	_	
+1-225	1326-1331	blizu	_	_	_	_	
+1-226	1332-1341	Agrokorja	ORG	_	*->23-3	*[23]	
+1-227	1342-1343	,	_	_	_	_	
+1-228	1344-1346	da	_	_	_	_	
+1-229	1347-1349	so	_	_	_	_	
+1-230	1350-1354	zdaj	_	_	_	_	
+1-231	1355-1357	na	_	_	_	_	
+1-232	1358-1363	vrsti	_	_	_	_	
+1-233	1364-1372	pravniki	_	_	_	_	
+1-234	1373-1374	,	_	_	_	_	
+1-235	1375-1377	ki	_	_	_	_	
+1-236	1378-1384	morajo	_	_	_	_	
+1-237	1385-1393	preučiti	_	_	_	_	
+1-238	1394-1395	,	_	_	_	_	
+1-239	1396-1399	ali	_	_	_	_	
+1-240	1400-1402	bi	_	_	_	_	
+1-241	1403-1408	lahko	_	_	_	_	
+1-242	1409-1413	nova	_	_	_	_	
+1-243	1414-1421	ponudba	_	_	_	_	
+1-244	1422-1424	za	_	_	_	_	
+1-245	1425-1430	Laško	ORG	_	*->19-6	*[19]	
+1-246	1431-1439	vplivala	_	_	_	_	
+1-247	1440-1442	na	_	_	_	_	
+1-248	1443-1450	prodajo	_	_	_	_	
+1-249	1451-1452	.	_	_	_	_	
+1-250	1453-1460	Agrokor	ORG	_	*->23-4	*[23]	
+1-251	1461-1464	ima	_	_	_	_	
+1-252	1465-1474	najboljša	_	_	_	_	
+1-253	1475-1486	priporočila	_	_	_	_	
+1-254	1487-1494	Hrvaški	_	_	*->21-5	*[21]	
+1-255	1495-1502	časopis	_	_	*->21-5	*[21]	
+1-256	1503-1507	piše	_	_	_	_	
+1-257	1508-1509	,	_	_	_	_	
+1-258	1510-1512	da	_	_	_	_	
+1-259	1513-1520	Laškemu	ORG	_	*->19-7	*[19]	
+1-260	1521-1525	gori	_	_	_	_	
+1-261	1526-1529	pod	_	_	_	_	
+1-262	1530-1536	nogami	_	_	_	_	
+1-263	1537-1539	in	_	_	_	_	
+1-264	1540-1542	da	_	_	_	_	
+1-265	1543-1545	je	_	2 - Negativno	*->19-8	*[19]	
+1-266	1546-1549	vse	_	_	_	_	
+1-267	1550-1556	bližje	_	_	_	_	
+1-268	1557-1564	stečaju	_	_	_	_	
+1-269	1565-1566	.	_	_	_	_	
+1-270	1567-1575	Večernji	_	3 - Nevtralno[27]	*->21-6	*[21]	
+1-271	1576-1580	list	_	3 - Nevtralno[27]	*->21-6	*[21]	
+1-272	1581-1587	poroča	_	_	_	_	
+1-273	1588-1592	tudi	_	_	_	_	
+1-274	1593-1594	,	_	_	_	_	
+1-275	1595-1597	da	_	_	_	_	
+1-276	1598-1600	se	_	_	_	_	
+1-277	1601-1603	je	_	_	_	_	
+1-278	1604-1608	pred	_	_	_	_	
+1-279	1609-1616	sedežem	_	_	_	_	
+1-280	1617-1626	slovenske	_	_	_	_	
+1-281	1627-1632	vlade	_	_	_	_	
+1-282	1633-1634	v	_	_	_	_	
+1-283	1635-1644	Ljubljani	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-284	1645-1651	zbralo	_	_	_	_	
+1-285	1652-1657	okoli	_	_	_	_	
+1-286	1658-1660	50	_	_	_	_	
+1-287	1661-1667	članov	_	_	_	_	
+1-288	1668-1677	svobodnih	_	_	_	_	
+1-289	1678-1688	sindikatov	_	_	_	_	
+1-290	1689-1690	,	_	_	_	_	
+1-291	1691-1693	ki	_	_	_	_	
+1-292	1694-1696	so	_	_	_	_	
+1-293	1697-1709	protestirali	_	_	_	_	
+1-294	1710-1715	proti	_	_	_	_	
+1-295	1716-1723	prodaji	_	_	_	_	
+1-296	1724-1734	Merkatorja	ORG	_	*->1-7	*[1]	
+1-297	1735-1744	Agrokorju	ORG	_	*->23-5	*[23]	
+1-298	1745-1746	.	_	_	_	_	
+1-299	1747-1757	Slovenskim	_	_	_	_	
+1-300	1758-1771	sindikalistom	_	_	_	_	
+1-301	1772-1774	je	_	_	_	_	
+1-302	1775-1783	sindikat	_	_	_	_	
+1-303	1784-1791	hrvaške	_	_	*->23-6	*[23]	
+1-304	1792-1800	trgovine	_	_	*->23-6	*[23]	
+1-305	1801-1809	sporočil	_	_	_	_	
+1-306	1810-1811	,	_	_	_	_	
+1-307	1812-1814	da	_	_	_	_	
+1-308	1815-1817	je	_	_	_	_	
+1-309	1818-1825	Agrokor	ORG	_	*->23-7	*[23]	
+1-310	1826-1830	eden	_	_	*->23-8	*[23]	
+1-311	1831-1836	izmed	_	_	*->23-8	*[23]	
+1-312	1837-1847	najboljših	_	_	*->23-8	*[23]	
+1-313	1848-1856	hrvaških	_	_	*->23-8	*[23]	
+1-314	1857-1869	delodajalcev	_	_	*->23-8	*[23]	
+1-315	1870-1872	in	_	_	_	_	
+1-316	1873-1878	imajo	_	_	_	_	
+1-317	1879-1881	od	_	_	_	_	
+1-318	1882-1887	njega	_	_	*->23-9	*[23]	
+1-319	1888-1897	najboljša	_	_	_	_	
+1-320	1898-1909	priporočila	_	_	_	_	
+1-321	1910-1911	,	_	_	_	_	
+1-322	1912-1916	kjer	_	_	_	_	
+1-323	1917-1921	koli	_	_	_	_	
+1-324	1922-1924	je	_	_	_	_	
+1-325	1925-1931	vlagal	_	_	*->23-10	*[23]	
+1-326	1932-1933	.	_	_	_	_	
+1-327	1934-1941	Hrvaški	_	_	_	_	
+1-328	1942-1950	sindikat	_	_	_	_	
+1-329	1951-1953	ob	_	_	_	_	
+1-330	1954-1957	tem	_	_	_	_	
+1-331	1958-1965	spomnil	_	_	_	_	
+1-332	1966-1968	na	_	_	_	_	
+1-333	1969-1974	dobro	_	_	_	_	
+1-334	1975-1980	znane	_	_	_	_	
+1-335	1981-1988	primere	_	_	_	_	
+1-336	1989-2002	Mercatorjevih	ORG	_	*->1-8	*[1]	
+1-337	2003-2012	prevzemov	_	_	_	_	
+1-338	2013-2019	Getroa	ORG	3 - Nevtralno	*->24-1	*[24]	
+1-339	2020-2021	,	_	_	_	_	
+1-340	2022-2029	Slobode	ORG	3 - Nevtralno	*->25-1	*[25]	
+1-341	2030-2032	in	_	_	_	_	
+1-342	2033-2043	Presoflexa	ORG	3 - Nevtralno	*->26-1	*[26]	
+1-343	2044-2045	,	_	_	_	_	
+1-344	2046-2052	vendar	_	_	_	_	
+1-345	2053-2056	jim	_	_	_	_	
+1-346	2057-2059	ni	_	_	_	_	
+1-347	2060-2065	padlo	_	_	_	_	
+1-348	2066-2068	na	_	_	_	_	
+1-349	2069-2074	pamet	_	_	_	_	
+1-350	2075-2076	,	_	_	_	_	
+1-351	2077-2079	da	_	_	_	_	
+1-352	2080-2082	bi	_	_	_	_	
+1-353	2083-2085	se	_	_	_	_	
+1-354	2086-2092	lotili	_	_	_	_	
+1-355	2093-2104	sindikalnih	_	_	_	_	
+1-356	2105-2110	akcij	_	_	_	_	
+1-357	2111-2112	,	_	_	_	_	
+1-358	2113-2116	kot	_	_	_	_	
+1-359	2117-2119	so	_	_	_	_	
+1-360	2120-2122	se	_	_	_	_	
+1-361	2123-2126	jih	_	_	_	_	
+1-362	2127-2136	slovenski	_	_	_	_	
+1-363	2137-2143	kolegi	_	_	_	_	
+1-364	2144-2145	.	_	_	_	_	
+1-365	2146-2154	Spomnijo	_	_	_	_	
+1-366	2155-2159	tudi	_	_	_	_	
+1-367	2160-2161	,	_	_	_	_	
+1-368	2162-2164	da	_	_	_	_	
+1-369	2165-2167	so	_	_	_	_	
+1-370	2168-2169	z	_	_	_	_	
+1-371	2170-2181	Mercatorjem	ORG	3 - Nevtralno	*->1-9	*[1]	
+1-372	2182-2183	-	_	_	_	_	
+1-373	2184-2185	H	_	_	_	_	
+1-374	2186-2193	trikrat	_	_	_	_	
+1-375	2194-2203	poskušali	_	_	_	_	
+1-376	2204-2213	podpisati	_	_	_	_	
+1-377	2214-2224	kolektivno	_	_	_	_	
+1-378	2225-2232	pogodbo	_	_	_	_	
+1-379	2233-2234	,	_	_	_	_	
+1-380	2235-2236	a	_	_	_	_	
+1-381	2237-2240	jim	_	_	_	_	
+1-382	2241-2245	tega	_	_	_	_	
+1-383	2246-2248	še	_	_	_	_	
+1-384	2249-2251	do	_	_	_	_	
+1-385	2252-2257	danes	_	_	_	_	
+1-386	2258-2260	ni	_	_	_	_	
+1-387	2261-2267	uspelo	_	_	_	_	
+1-388	2268-2269	,	_	_	_	_	
+1-389	2270-2276	medtem	_	_	_	_	
+1-390	2277-2279	ko	_	_	_	_	
+1-391	2280-2287	Agrokor	ORG	_	*->23-11	*[23]	
+1-392	2288-2289	v	_	_	_	_	
+1-393	2290-2294	vseh	_	_	_	_	
+1-394	2295-2301	svojih	_	3 - Nevtralno	*->23-12	*[23]	
+1-395	2302-2311	podjetjih	_	_	_	_	
+1-396	2312-2320	spoštuje	_	_	_	_	
+1-397	2321-2329	dogovore	_	_	_	_	
+1-398	2330-2331	s	_	_	_	_	
+1-399	2332-2341	sindikati	_	_	_	_	

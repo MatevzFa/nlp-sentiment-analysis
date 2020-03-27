@@ -1,0 +1,301 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Stečajni upravitelj je na javni dražbi Rimske terme prodal ljubljanskemu podjetju Terme Resort , ki se je edino udeležilo dražbe . Za kupcem stoji češka družba Arsenij Plus , za katero pa je ruski poslovnež Valerij Arakelov . Stečajni upravitelj Rimskih term Boris Dolamič je na današnji javni dražbi Rimske terme po izklicni ceni 8,5 milijona evrov prodal ljubljanskemu podjetju Terme Resort . Dolamič je povedal , da se je družba Terme Resort edina udeležila dražbe . Zdravilišče Rimske Terme , ki je od marca v stečaju , je končno dobilo novega lastnika , ruskega poslovneža Valerija Arakelova . Po predlogu , s katerim je soglašal tudi upniški odbor , je bila družba Rimske terme , ki kljub stečaju obratuje , prodana kot poslovna celota . Terme Resort so registrirane za dejavnost zdravja in turizma , ustanovljene so z zasebnim kapitalom , zakoniti zastopnik pa je Marjan Kolar . Edini družbenik podjetja je po podatkih Ajpesa družba Arsenij Plus iz češkega zdraviliškega središča Karlovi Vari . Za češkim podjetjem stoji ruski poslovnež Valerij Arakelov . V stečaju Rimskih term je okoli 190 upnikov prijavilo za skupno 36,4 milijona evrov terjatev , stečajni upravitelj pa jih je priznal za nekaj manj kot 28 milijonov evrov . Dolamič je v zadnjem poročilu zapisal , da družba zaenkrat nima težav z likvidnostjo , obveznosti iz poslovanja pa plačujejo redno . Med največjimi upniki Rimskih term so Nova Ljubljanska banka z 8,3 milijona evrov priznanih terjatev , država s skoraj šestimi milijoni evrov , SID banka s 5,9 milijona evrov , Nova Kreditna banka Maribor s 4,1 milijona evrov , Gorenjska banka s tremi milijoni evrov , Banka Celje z 2,3 milijona evrov ter Davčna uprava RS in družba Prvi faktor s po 1,7 milijona evrov priznanih terjatev
+1-1	0-8	Stečajni	_	_	*->6-1	*[6]	
+1-2	9-19	upravitelj	_	_	*->6-1	*[6]	
+1-3	20-22	je	_	_	_	_	
+1-4	23-25	na	_	_	_	_	
+1-5	26-31	javni	_	_	_	_	
+1-6	32-38	dražbi	_	_	_	_	
+1-7	39-45	Rimske	ORG[1]	_	*->2-1	*[2]	
+1-8	46-51	terme	ORG[1]	_	*->2-1	*[2]	
+1-9	52-58	prodal	_	_	_	_	
+1-10	59-72	ljubljanskemu	_	_	*->3-1	*[3]	
+1-11	73-81	podjetju	_	_	*->3-1	*[3]	
+1-12	82-87	Terme	ORG[2]	_	*->3-1	*[3]	
+1-13	88-94	Resort	ORG[2]	_	*->3-1	*[3]	
+1-14	95-96	,	_	_	_	_	
+1-15	97-99	ki	_	_	_	_	
+1-16	100-102	se	_	_	_	_	
+1-17	103-105	je	_	_	_	_	
+1-18	106-111	edino	_	_	_	_	
+1-19	112-121	udeležilo	_	_	*->3-2	*[3]	
+1-20	122-128	dražbe	_	_	_	_	
+1-21	129-130	.	_	_	_	_	
+1-22	131-133	Za	_	_	_	_	
+1-23	134-140	kupcem	_	_	*->3-3	*[3]	
+1-24	141-146	stoji	_	_	_	_	
+1-25	147-152	češka	_	_	*->1-1	*[1]	
+1-26	153-159	družba	_	_	*->1-1	*[1]	
+1-27	160-167	Arsenij	ORG[3]	_	*->1-1	*[1]	
+1-28	168-172	Plus	ORG[3]	_	*->1-1	*[1]	
+1-29	173-174	,	_	_	_	_	
+1-30	175-177	za	_	_	_	_	
+1-31	178-184	katero	_	_	_	_	
+1-32	185-187	pa	_	_	_	_	
+1-33	188-190	je	_	_	_	_	
+1-34	191-196	ruski	_	_	*->5-1	*[5]	
+1-35	197-206	poslovnež	_	_	*->5-1	*[5]	
+1-36	207-214	Valerij	PER[4]	_	*->5-1	*[5]	
+1-37	215-223	Arakelov	PER[4]	_	*->5-1	*[5]	
+1-38	224-225	.	_	_	_	_	
+1-39	226-234	Stečajni	_	_	*->6-2	*[6]	
+1-40	235-245	upravitelj	_	_	*->6-2	*[6]	
+1-41	246-253	Rimskih	ORG[5]	_	*->6-2|*->2-2	*[6]|*[2]	
+1-42	254-258	term	ORG[5]	_	*->6-2|*->2-2	*[6]|*[2]	
+1-43	259-264	Boris	PER[6]	_	*->6-2	*[6]	
+1-44	265-272	Dolamič	PER[6]	_	*->6-2	*[6]	
+1-45	273-275	je	_	_	_	_	
+1-46	276-278	na	_	_	_	_	
+1-47	279-287	današnji	_	_	_	_	
+1-48	288-293	javni	_	_	_	_	
+1-49	294-300	dražbi	_	_	_	_	
+1-50	301-307	Rimske	ORG[7]	_	*->2-3	*[2]	
+1-51	308-313	terme	ORG[7]	_	*->2-3	*[2]	
+1-52	314-316	po	_	_	_	_	
+1-53	317-325	izklicni	_	_	_	_	
+1-54	326-330	ceni	_	_	_	_	
+1-55	331-334	8,5	_	_	_	_	
+1-56	335-343	milijona	_	_	_	_	
+1-57	344-349	evrov	_	_	_	_	
+1-58	350-356	prodal	_	_	_	_	
+1-59	357-370	ljubljanskemu	_	_	*->3-4	*[3]	
+1-60	371-379	podjetju	_	_	*->3-4	*[3]	
+1-61	380-385	Terme	ORG[8]	_	*->3-4	*[3]	
+1-62	386-392	Resort	ORG[8]	_	*->3-4	*[3]	
+1-63	393-394	.	_	_	_	_	
+1-64	395-402	Dolamič	PER	_	*->6-3	*[6]	
+1-65	403-405	je	_	_	_	_	
+1-66	406-413	povedal	_	_	_	_	
+1-67	414-415	,	_	_	_	_	
+1-68	416-418	da	_	_	_	_	
+1-69	419-421	se	_	_	_	_	
+1-70	422-424	je	_	_	_	_	
+1-71	425-431	družba	_	_	*->3-5	*[3]	
+1-72	432-437	Terme	ORG[9]	_	*->3-5	*[3]	
+1-73	438-444	Resort	ORG[9]	_	*->3-5	*[3]	
+1-74	445-450	edina	_	_	_	_	
+1-75	451-460	udeležila	_	_	_	_	
+1-76	461-467	dražbe	_	_	_	_	
+1-77	468-469	.	_	_	_	_	
+1-78	470-481	Zdravilišče	_	_	*->2-4	*[2]	
+1-79	482-488	Rimske	ORG[10]	_	*->2-4	*[2]	
+1-80	489-494	Terme	ORG[10]	_	*->2-4	*[2]	
+1-81	495-496	,	_	_	_	_	
+1-82	497-499	ki	_	_	_	_	
+1-83	500-502	je	_	_	*->2-5	*[2]	
+1-84	503-505	od	_	_	_	_	
+1-85	506-511	marca	_	_	_	_	
+1-86	512-513	v	_	_	_	_	
+1-87	514-521	stečaju	_	_	_	_	
+1-88	522-523	,	_	_	_	_	
+1-89	524-526	je	_	_	_	_	
+1-90	527-533	končno	_	_	_	_	
+1-91	534-540	dobilo	_	_	*->2-6	*[2]	
+1-92	541-547	novega	_	_	*->5-2	*[5]	
+1-93	548-556	lastnika	_	_	*->5-2	*[5]	
+1-94	557-558	,	_	_	_	_	
+1-95	559-566	ruskega	_	_	*->5-3	*[5]	
+1-96	567-577	poslovneža	_	_	*->5-3	*[5]	
+1-97	578-586	Valerija	PER[11]	_	*->5-3	*[5]	
+1-98	587-596	Arakelova	PER[11]	_	*->5-3	*[5]	
+1-99	597-598	.	_	_	_	_	
+1-100	599-601	Po	_	_	_	_	
+1-101	602-610	predlogu	_	_	_	_	
+1-102	611-612	,	_	_	_	_	
+1-103	613-614	s	_	_	_	_	
+1-104	615-622	katerim	_	_	_	_	
+1-105	623-625	je	_	_	_	_	
+1-106	626-634	soglašal	_	_	_	_	
+1-107	635-639	tudi	_	_	_	_	
+1-108	640-647	upniški	_	_	_	_	
+1-109	648-653	odbor	_	_	_	_	
+1-110	654-655	,	_	_	_	_	
+1-111	656-658	je	_	_	_	_	
+1-112	659-663	bila	_	_	_	_	
+1-113	664-670	družba	_	_	*->2-7	*[2]	
+1-114	671-677	Rimske	ORG[12]	_	*->2-7	*[2]	
+1-115	678-683	terme	ORG[12]	_	*->2-7	*[2]	
+1-116	684-685	,	_	_	_	_	
+1-117	686-688	ki	_	_	_	_	
+1-118	689-694	kljub	_	_	_	_	
+1-119	695-702	stečaju	_	_	_	_	
+1-120	703-711	obratuje	_	_	*->2-8	*[2]	
+1-121	712-713	,	_	_	_	_	
+1-122	714-721	prodana	_	_	_	_	
+1-123	722-725	kot	_	_	_	_	
+1-124	726-734	poslovna	_	_	_	_	
+1-125	735-741	celota	_	_	_	_	
+1-126	742-743	.	_	_	_	_	
+1-127	744-749	Terme	ORG[13]	_	*->3-6	*[3]	
+1-128	750-756	Resort	ORG[13]	_	*->3-6	*[3]	
+1-129	757-759	so	_	_	_	_	
+1-130	760-772	registrirane	_	_	_	_	
+1-131	773-775	za	_	_	_	_	
+1-132	776-785	dejavnost	_	_	_	_	
+1-133	786-793	zdravja	_	_	_	_	
+1-134	794-796	in	_	_	_	_	
+1-135	797-804	turizma	_	_	_	_	
+1-136	805-806	,	_	_	_	_	
+1-137	807-819	ustanovljene	_	_	_	_	
+1-138	820-822	so	_	_	*->3-7	*[3]	
+1-139	823-824	z	_	_	_	_	
+1-140	825-833	zasebnim	_	_	_	_	
+1-141	834-843	kapitalom	_	_	_	_	
+1-142	844-845	,	_	_	_	_	
+1-143	846-854	zakoniti	_	_	*->16-1	*[16]	
+1-144	855-864	zastopnik	_	_	*->16-1	*[16]	
+1-145	865-867	pa	_	_	_	_	
+1-146	868-870	je	_	_	_	_	
+1-147	871-877	Marjan	PER[14]	3 - Nevtralno[29]	*->16-2	*[16]	
+1-148	878-883	Kolar	PER[14]	3 - Nevtralno[29]	*->16-2	*[16]	
+1-149	884-885	.	_	_	_	_	
+1-150	886-891	Edini	_	_	_	_	
+1-151	892-901	družbenik	_	_	_	_	
+1-152	902-910	podjetja	_	4 - Pozitivno	*->3-8	*[3]	
+1-153	911-913	je	_	_	_	_	
+1-154	914-916	po	_	_	_	_	
+1-155	917-925	podatkih	_	_	_	_	
+1-156	926-932	Ajpesa	_	_	_	_	
+1-157	933-939	družba	_	_	*->1-2	*[1]	
+1-158	940-947	Arsenij	ORG[15]	_	*->1-2	*[1]	
+1-159	948-952	Plus	ORG[15]	_	*->1-2	*[1]	
+1-160	953-955	iz	_	_	_	_	
+1-161	956-963	češkega	_	3 - Nevtralno[30]	*->4-1	*[4]	
+1-162	964-977	zdraviliškega	_	3 - Nevtralno[30]	*->4-1	*[4]	
+1-163	978-986	središča	_	3 - Nevtralno[30]	*->4-1	*[4]	
+1-164	987-994	Karlovi	LOC[16]	3 - Nevtralno[30]	*->4-1	*[4]	
+1-165	995-999	Vari	LOC[16]	3 - Nevtralno[30]	*->4-1	*[4]	
+1-166	1000-1001	.	_	_	_	_	
+1-167	1002-1004	Za	_	_	_	_	
+1-168	1005-1011	češkim	_	3 - Nevtralno[31]	*->1-3	*[1]	
+1-169	1012-1021	podjetjem	_	3 - Nevtralno[31]	*->1-3	*[1]	
+1-170	1022-1027	stoji	_	_	_	_	
+1-171	1028-1033	ruski	_	3 - Nevtralno[32]	*->5-4	*[5]	
+1-172	1034-1043	poslovnež	_	3 - Nevtralno[32]	*->5-4	*[5]	
+1-173	1044-1051	Valerij	PER[17]	3 - Nevtralno[32]	*->5-4	*[5]	
+1-174	1052-1060	Arakelov	PER[17]	3 - Nevtralno[32]	*->5-4	*[5]	
+1-175	1061-1062	.	_	_	_	_	
+1-176	1063-1064	V	_	_	_	_	
+1-177	1065-1072	stečaju	_	_	_	_	
+1-178	1073-1080	Rimskih	ORG[18]	_	*->2-9	*[2]	
+1-179	1081-1085	term	ORG[18]	_	*->2-9	*[2]	
+1-180	1086-1088	je	_	_	_	_	
+1-181	1089-1094	okoli	_	_	_	_	
+1-182	1095-1098	190	_	_	_	_	
+1-183	1099-1106	upnikov	_	_	_	_	
+1-184	1107-1116	prijavilo	_	_	_	_	
+1-185	1117-1119	za	_	_	_	_	
+1-186	1120-1126	skupno	_	_	_	_	
+1-187	1127-1131	36,4	_	_	_	_	
+1-188	1132-1140	milijona	_	_	_	_	
+1-189	1141-1146	evrov	_	_	_	_	
+1-190	1147-1155	terjatev	_	_	_	_	
+1-191	1156-1157	,	_	_	_	_	
+1-192	1158-1166	stečajni	_	_	*->6-4	*[6]	
+1-193	1167-1177	upravitelj	_	_	*->6-4	*[6]	
+1-194	1178-1180	pa	_	_	_	_	
+1-195	1181-1184	jih	_	_	_	_	
+1-196	1185-1187	je	_	_	_	_	
+1-197	1188-1195	priznal	_	_	_	_	
+1-198	1196-1198	za	_	_	_	_	
+1-199	1199-1204	nekaj	_	_	_	_	
+1-200	1205-1209	manj	_	_	_	_	
+1-201	1210-1213	kot	_	_	_	_	
+1-202	1214-1216	28	_	_	_	_	
+1-203	1217-1226	milijonov	_	_	_	_	
+1-204	1227-1232	evrov	_	_	_	_	
+1-205	1233-1234	.	_	_	_	_	
+1-206	1235-1242	Dolamič	PER	3 - Nevtralno	*->6-5	*[6]	
+1-207	1243-1245	je	_	_	_	_	
+1-208	1246-1247	v	_	_	_	_	
+1-209	1248-1255	zadnjem	_	_	_	_	
+1-210	1256-1264	poročilu	_	_	_	_	
+1-211	1265-1272	zapisal	_	_	_	_	
+1-212	1273-1274	,	_	_	_	_	
+1-213	1275-1277	da	_	_	_	_	
+1-214	1278-1284	družba	_	_	*->2-10	*[2]	
+1-215	1285-1293	zaenkrat	_	_	_	_	
+1-216	1294-1298	nima	_	_	_	_	
+1-217	1299-1304	težav	_	_	_	_	
+1-218	1305-1306	z	_	_	_	_	
+1-219	1307-1319	likvidnostjo	_	_	_	_	
+1-220	1320-1321	,	_	_	_	_	
+1-221	1322-1332	obveznosti	_	_	_	_	
+1-222	1333-1335	iz	_	_	_	_	
+1-223	1336-1346	poslovanja	_	_	_	_	
+1-224	1347-1349	pa	_	_	_	_	
+1-225	1350-1359	plačujejo	_	_	_	_	
+1-226	1360-1365	redno	_	_	_	_	
+1-227	1366-1367	.	_	_	_	_	
+1-228	1368-1371	Med	_	_	_	_	
+1-229	1372-1382	največjimi	_	_	_	_	
+1-230	1383-1389	upniki	_	_	_	_	
+1-231	1390-1397	Rimskih	ORG[19]	4 - Pozitivno[33]	*->2-11	*[2]	
+1-232	1398-1402	term	ORG[19]	4 - Pozitivno[33]	*->2-11	*[2]	
+1-233	1403-1405	so	_	_	_	_	
+1-234	1406-1410	Nova	ORG[20]	3 - Nevtralno[34]	*->7-1	*[7]	
+1-235	1411-1422	Ljubljanska	ORG[20]	3 - Nevtralno[34]	*->7-1	*[7]	
+1-236	1423-1428	banka	ORG[20]	3 - Nevtralno[34]	*->7-1	*[7]	
+1-237	1429-1430	z	_	_	_	_	
+1-238	1431-1434	8,3	_	_	_	_	
+1-239	1435-1443	milijona	_	_	_	_	
+1-240	1444-1449	evrov	_	_	_	_	
+1-241	1450-1459	priznanih	_	_	_	_	
+1-242	1460-1468	terjatev	_	_	_	_	
+1-243	1469-1470	,	_	_	_	_	
+1-244	1471-1477	država	_	_	_	_	
+1-245	1478-1479	s	_	_	_	_	
+1-246	1480-1486	skoraj	_	_	_	_	
+1-247	1487-1494	šestimi	_	_	_	_	
+1-248	1495-1503	milijoni	_	_	_	_	
+1-249	1504-1509	evrov	_	_	_	_	
+1-250	1510-1511	,	_	_	_	_	
+1-251	1512-1515	SID	ORG[21]	3 - Nevtralno[35]	*->8-1	*[8]	
+1-252	1516-1521	banka	ORG[21]	3 - Nevtralno[35]	*->8-1	*[8]	
+1-253	1522-1523	s	_	_	_	_	
+1-254	1524-1527	5,9	_	_	_	_	
+1-255	1528-1536	milijona	_	_	_	_	
+1-256	1537-1542	evrov	_	_	_	_	
+1-257	1543-1544	,	_	_	_	_	
+1-258	1545-1549	Nova	ORG[22]	3 - Nevtralno[36]	*->9-1	*[9]	
+1-259	1550-1558	Kreditna	ORG[22]	3 - Nevtralno[36]	*->9-1	*[9]	
+1-260	1559-1564	banka	ORG[22]	3 - Nevtralno[36]	*->9-1	*[9]	
+1-261	1565-1572	Maribor	ORG[22]|LOC[23]	3 - Nevtralno[36]|3 - Nevtralno[37]	*->9-1|*->10-1	*[9]|*[10]	
+1-262	1573-1574	s	_	_	_	_	
+1-263	1575-1578	4,1	_	_	_	_	
+1-264	1579-1587	milijona	_	_	_	_	
+1-265	1588-1593	evrov	_	_	_	_	
+1-266	1594-1595	,	_	_	_	_	
+1-267	1596-1605	Gorenjska	ORG[24]	3 - Nevtralno[38]	*->11-1	*[11]	
+1-268	1606-1611	banka	ORG[24]	3 - Nevtralno[38]	*->11-1	*[11]	
+1-269	1612-1613	s	_	_	_	_	
+1-270	1614-1619	tremi	_	_	_	_	
+1-271	1620-1628	milijoni	_	_	_	_	
+1-272	1629-1634	evrov	_	_	_	_	
+1-273	1635-1636	,	_	_	_	_	
+1-274	1637-1642	Banka	ORG[25]	3 - Nevtralno[39]	*->12-1	*[12]	
+1-275	1643-1648	Celje	ORG[25]|LOC[26]	3 - Nevtralno[39]|3 - Nevtralno[40]	*->12-1|*->13-1	*[12]|*[13]	
+1-276	1649-1650	z	_	_	_	_	
+1-277	1651-1654	2,3	_	_	_	_	
+1-278	1655-1663	milijona	_	_	_	_	
+1-279	1664-1669	evrov	_	_	_	_	
+1-280	1670-1673	ter	_	_	_	_	
+1-281	1674-1680	Davčna	ORG[27]	3 - Nevtralno[41]	*->14-1	*[14]	
+1-282	1681-1687	uprava	ORG[27]	3 - Nevtralno[41]	*->14-1	*[14]	
+1-283	1688-1690	RS	ORG[27]	3 - Nevtralno[41]	*->14-1	*[14]	
+1-284	1691-1693	in	_	_	_	_	
+1-285	1694-1700	družba	_	3 - Nevtralno[42]	*->15-1	*[15]	
+1-286	1701-1705	Prvi	ORG[28]	3 - Nevtralno[42]	*->15-1	*[15]	
+1-287	1706-1712	faktor	ORG[28]	3 - Nevtralno[42]	*->15-1	*[15]	
+1-288	1713-1714	s	_	_	_	_	
+1-289	1715-1717	po	_	_	_	_	
+1-290	1718-1721	1,7	_	_	_	_	
+1-291	1722-1730	milijona	_	_	_	_	
+1-292	1731-1736	evrov	_	_	_	_	
+1-293	1737-1746	priznanih	_	_	_	_	
+1-294	1747-1755	terjatev	_	_	_	_	

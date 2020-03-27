@@ -1,0 +1,325 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Na primorski avtocesti pri Uncu je nastal devet kilometrov dolg zastoj v smeri Ljubljane . Priporoča se uporaba vzporedne regionalne ceste do Logatca . Na cestah bo več motoristov ! Policija opozarja na previdnost zaradi povečanega števila motoristov na cestah . Ta konec tedna bo namreč na dirkališču Grobnik na Hrvaškem potekala tradicionalna motoristična dirka , ki se je bo udeležilo veliko slovenskih motoristov . Motoriste , kot tudi vse druge udeležence v cestnem prometu , policija zato opozarja , naj bodo pri vožnji še previdnejši . Daljši zastoj nastaja na štajerski avtocesti pred predorom Pletovarje v smeri Maribora , priporočamo uporabo vzporedne regionalne ceste do Slovenskih Konjic . Na primorski avtocesti pri Uncu je nastal devet kilometrov dolg zastoj v smeri Ljubljane , priporočamo uporabo vzporedne regionalne ceste do Logatca . Občasni zastoj je na primorski avtocesti na izvozu Šmarje iz smeri Ljubljane , zgoščen promet pa je na glavni cesti od Kopra proti Izoli . Na mejnem prehodu Gruškovje je čakalna doba za tovorna vozila pri izstopu iz države tri ure , na Dobovcu eno uro in 30 minut , na Obrežju uro in 30 minut ter v Petišovcih eno uro . Zastoji zaradi obnovitvenih del Pričakovati je zastoje na avtocestnih odsekih , kjer potekajo dela oziroma povsod tam , kjer se promet preusmeri z dveh voznih pasov v enega , torej na koncu dolenjske avtoceste pri Trebnjem in na zoženju gorenjske avtoceste pri Podtaboru oziroma Peračici . Novo zgostitev prometa na teh cestah pričakujejo pred prvomajskimi prazniki , in sicer v četrtek , 30 . aprila . V ponedeljek , 27 . aprila , in v nedeljo , 3 . maja , bo promet predvidoma povečan v obratni smeri , torej predvsem s Primorske in Gorenjske proti Ljubljani . V teh dneh je pričakovati zastoje tudi na mejnih prehodih s Hrvaško pri vstopu v Slovenijo . Najbolj na mejnih prehodih Dragonja , Sečovlje in Gruškovje
+1-1	0-2	Na	_	_	_	_	
+1-2	3-12	primorski	_	_	_	_	
+1-3	13-22	avtocesti	_	_	_	_	
+1-4	23-26	pri	_	_	_	_	
+1-5	27-31	Uncu	LOC	_	*->1-1	*[1]	
+1-6	32-34	je	_	_	_	_	
+1-7	35-41	nastal	_	_	_	_	
+1-8	42-47	devet	_	_	_	_	
+1-9	48-58	kilometrov	_	_	_	_	
+1-10	59-63	dolg	_	_	_	_	
+1-11	64-70	zastoj	_	_	_	_	
+1-12	71-72	v	_	_	_	_	
+1-13	73-78	smeri	_	_	_	_	
+1-14	79-88	Ljubljane	LOC	_	*->2-1	*[2]	
+1-15	89-90	.	_	_	_	_	
+1-16	91-100	Priporoča	_	_	_	_	
+1-17	101-103	se	_	_	_	_	
+1-18	104-111	uporaba	_	_	_	_	
+1-19	112-121	vzporedne	_	_	_	_	
+1-20	122-132	regionalne	_	_	_	_	
+1-21	133-138	ceste	_	_	_	_	
+1-22	139-141	do	_	_	_	_	
+1-23	142-149	Logatca	LOC	_	*->3-1	*[3]	
+1-24	150-151	.	_	_	_	_	
+1-25	152-154	Na	_	_	_	_	
+1-26	155-161	cestah	_	_	_	_	
+1-27	162-164	bo	_	_	_	_	
+1-28	165-168	več	_	_	_	_	
+1-29	169-179	motoristov	_	_	_	_	
+1-30	180-181	!	_	_	_	_	
+1-31	182-190	Policija	ORG	_	*->4-1	*[4]	
+1-32	191-199	opozarja	_	_	_	_	
+1-33	200-202	na	_	_	_	_	
+1-34	203-213	previdnost	_	_	_	_	
+1-35	214-220	zaradi	_	_	_	_	
+1-36	221-231	povečanega	_	_	_	_	
+1-37	232-239	števila	_	_	_	_	
+1-38	240-250	motoristov	_	_	_	_	
+1-39	251-253	na	_	_	_	_	
+1-40	254-260	cestah	_	_	_	_	
+1-41	261-262	.	_	_	_	_	
+1-42	263-265	Ta	_	_	_	_	
+1-43	266-271	konec	_	_	_	_	
+1-44	272-277	tedna	_	_	_	_	
+1-45	278-280	bo	_	_	_	_	
+1-46	281-287	namreč	_	_	_	_	
+1-47	288-290	na	_	_	_	_	
+1-48	291-301	dirkališču	_	_	_	_	
+1-49	302-309	Grobnik	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-50	310-312	na	_	_	_	_	
+1-51	313-321	Hrvaškem	LOC	_	*->6-1	*[6]	
+1-52	322-330	potekala	_	_	_	_	
+1-53	331-344	tradicionalna	_	_	_	_	
+1-54	345-357	motoristična	_	_	_	_	
+1-55	358-363	dirka	_	_	_	_	
+1-56	364-365	,	_	_	_	_	
+1-57	366-368	ki	_	_	_	_	
+1-58	369-371	se	_	_	_	_	
+1-59	372-374	je	_	_	_	_	
+1-60	375-377	bo	_	_	_	_	
+1-61	378-387	udeležilo	_	_	_	_	
+1-62	388-394	veliko	_	_	_	_	
+1-63	395-405	slovenskih	_	_	_	_	
+1-64	406-416	motoristov	_	_	_	_	
+1-65	417-418	.	_	_	_	_	
+1-66	419-428	Motoriste	_	_	_	_	
+1-67	429-430	,	_	_	_	_	
+1-68	431-434	kot	_	_	_	_	
+1-69	435-439	tudi	_	_	_	_	
+1-70	440-443	vse	_	_	_	_	
+1-71	444-449	druge	_	_	_	_	
+1-72	450-460	udeležence	_	_	_	_	
+1-73	461-462	v	_	_	_	_	
+1-74	463-470	cestnem	_	_	_	_	
+1-75	471-478	prometu	_	_	_	_	
+1-76	479-480	,	_	_	_	_	
+1-77	481-489	policija	ORG	3 - Nevtralno	*->4-2	*[4]	
+1-78	490-494	zato	_	_	_	_	
+1-79	495-503	opozarja	_	_	_	_	
+1-80	504-505	,	_	_	_	_	
+1-81	506-509	naj	_	_	_	_	
+1-82	510-514	bodo	_	_	_	_	
+1-83	515-518	pri	_	_	_	_	
+1-84	519-525	vožnji	_	_	_	_	
+1-85	526-528	še	_	_	_	_	
+1-86	529-540	previdnejši	_	_	_	_	
+1-87	541-542	.	_	_	_	_	
+1-88	543-549	Daljši	_	_	_	_	
+1-89	550-556	zastoj	_	_	_	_	
+1-90	557-564	nastaja	_	_	_	_	
+1-91	565-567	na	_	_	_	_	
+1-92	568-577	štajerski	_	_	_	_	
+1-93	578-587	avtocesti	_	_	_	_	
+1-94	588-592	pred	_	_	_	_	
+1-95	593-601	predorom	_	_	_	_	
+1-96	602-612	Pletovarje	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-97	613-614	v	_	_	_	_	
+1-98	615-620	smeri	_	_	_	_	
+1-99	621-629	Maribora	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-100	630-631	,	_	_	_	_	
+1-101	632-643	priporočamo	_	_	_	_	
+1-102	644-651	uporabo	_	_	_	_	
+1-103	652-661	vzporedne	_	_	_	_	
+1-104	662-672	regionalne	_	_	_	_	
+1-105	673-678	ceste	_	_	_	_	
+1-106	679-681	do	_	_	_	_	
+1-107	682-692	Slovenskih	LOC[1]	3 - Nevtralno[2]	*->9-1	*[9]	
+1-108	693-699	Konjic	LOC[1]	3 - Nevtralno[2]	*->9-1	*[9]	
+1-109	700-701	.	_	_	_	_	
+1-110	702-704	Na	_	_	_	_	
+1-111	705-714	primorski	_	_	_	_	
+1-112	715-724	avtocesti	_	_	_	_	
+1-113	725-728	pri	_	_	_	_	
+1-114	729-733	Uncu	LOC	3 - Nevtralno	*->1-2	*[1]	
+1-115	734-736	je	_	_	_	_	
+1-116	737-743	nastal	_	_	_	_	
+1-117	744-749	devet	_	_	_	_	
+1-118	750-760	kilometrov	_	_	_	_	
+1-119	761-765	dolg	_	_	_	_	
+1-120	766-772	zastoj	_	_	_	_	
+1-121	773-774	v	_	_	_	_	
+1-122	775-780	smeri	_	_	_	_	
+1-123	781-790	Ljubljane	LOC	_	*->2-2	*[2]	
+1-124	791-792	,	_	_	_	_	
+1-125	793-804	priporočamo	_	_	_	_	
+1-126	805-812	uporabo	_	_	_	_	
+1-127	813-822	vzporedne	_	_	_	_	
+1-128	823-833	regionalne	_	_	_	_	
+1-129	834-839	ceste	_	_	_	_	
+1-130	840-842	do	_	_	_	_	
+1-131	843-850	Logatca	LOC	3 - Nevtralno	*->3-2	*[3]	
+1-132	851-852	.	_	_	_	_	
+1-133	853-860	Občasni	_	_	_	_	
+1-134	861-867	zastoj	_	_	_	_	
+1-135	868-870	je	_	_	_	_	
+1-136	871-873	na	_	_	_	_	
+1-137	874-883	primorski	_	_	_	_	
+1-138	884-893	avtocesti	_	_	_	_	
+1-139	894-896	na	_	_	_	_	
+1-140	897-903	izvozu	_	_	_	_	
+1-141	904-910	Šmarje	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-142	911-913	iz	_	_	_	_	
+1-143	914-919	smeri	_	_	_	_	
+1-144	920-929	Ljubljane	LOC	_	*->2-3	*[2]	
+1-145	930-931	,	_	_	_	_	
+1-146	932-939	zgoščen	_	_	_	_	
+1-147	940-946	promet	_	_	_	_	
+1-148	947-949	pa	_	_	_	_	
+1-149	950-952	je	_	_	_	_	
+1-150	953-955	na	_	_	_	_	
+1-151	956-962	glavni	_	_	_	_	
+1-152	963-968	cesti	_	_	_	_	
+1-153	969-971	od	_	_	_	_	
+1-154	972-977	Kopra	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-155	978-983	proti	_	_	_	_	
+1-156	984-989	Izoli	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-157	990-991	.	_	_	_	_	
+1-158	992-994	Na	_	_	_	_	
+1-159	995-1001	mejnem	_	_	_	_	
+1-160	1002-1009	prehodu	_	_	_	_	
+1-161	1010-1019	Gruškovje	LOC	_	*->13-1	*[13]	
+1-162	1020-1022	je	_	_	_	_	
+1-163	1023-1030	čakalna	_	_	_	_	
+1-164	1031-1035	doba	_	_	_	_	
+1-165	1036-1038	za	_	_	_	_	
+1-166	1039-1046	tovorna	_	_	_	_	
+1-167	1047-1053	vozila	_	_	_	_	
+1-168	1054-1057	pri	_	_	_	_	
+1-169	1058-1065	izstopu	_	_	_	_	
+1-170	1066-1068	iz	_	_	_	_	
+1-171	1069-1075	države	_	_	_	_	
+1-172	1076-1079	tri	_	_	_	_	
+1-173	1080-1083	ure	_	_	_	_	
+1-174	1084-1085	,	_	_	_	_	
+1-175	1086-1088	na	_	_	_	_	
+1-176	1089-1096	Dobovcu	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-177	1097-1100	eno	_	_	_	_	
+1-178	1101-1104	uro	_	_	_	_	
+1-179	1105-1107	in	_	_	_	_	
+1-180	1108-1110	30	_	_	_	_	
+1-181	1111-1116	minut	_	_	_	_	
+1-182	1117-1118	,	_	_	_	_	
+1-183	1119-1121	na	_	_	_	_	
+1-184	1122-1129	Obrežju	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-185	1130-1133	uro	_	_	_	_	
+1-186	1134-1136	in	_	_	_	_	
+1-187	1137-1139	30	_	_	_	_	
+1-188	1140-1145	minut	_	_	_	_	
+1-189	1146-1149	ter	_	_	_	_	
+1-190	1150-1151	v	_	_	_	_	
+1-191	1152-1162	Petišovcih	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-192	1163-1166	eno	_	_	_	_	
+1-193	1167-1170	uro	_	_	_	_	
+1-194	1171-1172	.	_	_	_	_	
+1-195	1173-1180	Zastoji	_	_	_	_	
+1-196	1181-1187	zaradi	_	_	_	_	
+1-197	1188-1200	obnovitvenih	_	_	_	_	
+1-198	1201-1204	del	_	_	_	_	
+1-199	1205-1216	Pričakovati	_	_	_	_	
+1-200	1217-1219	je	_	_	_	_	
+1-201	1220-1227	zastoje	_	_	_	_	
+1-202	1228-1230	na	_	_	_	_	
+1-203	1231-1242	avtocestnih	_	_	_	_	
+1-204	1243-1250	odsekih	_	_	_	_	
+1-205	1251-1252	,	_	_	_	_	
+1-206	1253-1257	kjer	_	_	_	_	
+1-207	1258-1266	potekajo	_	_	_	_	
+1-208	1267-1271	dela	_	_	_	_	
+1-209	1272-1279	oziroma	_	_	_	_	
+1-210	1280-1286	povsod	_	_	_	_	
+1-211	1287-1290	tam	_	_	_	_	
+1-212	1291-1292	,	_	_	_	_	
+1-213	1293-1297	kjer	_	_	_	_	
+1-214	1298-1300	se	_	_	_	_	
+1-215	1301-1307	promet	_	_	_	_	
+1-216	1308-1317	preusmeri	_	_	_	_	
+1-217	1318-1319	z	_	_	_	_	
+1-218	1320-1324	dveh	_	_	_	_	
+1-219	1325-1331	voznih	_	_	_	_	
+1-220	1332-1337	pasov	_	_	_	_	
+1-221	1338-1339	v	_	_	_	_	
+1-222	1340-1345	enega	_	_	_	_	
+1-223	1346-1347	,	_	_	_	_	
+1-224	1348-1353	torej	_	_	_	_	
+1-225	1354-1356	na	_	_	_	_	
+1-226	1357-1362	koncu	_	_	_	_	
+1-227	1363-1372	dolenjske	_	_	_	_	
+1-228	1373-1382	avtoceste	_	_	_	_	
+1-229	1383-1386	pri	_	_	_	_	
+1-230	1387-1395	Trebnjem	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-231	1396-1398	in	_	_	_	_	
+1-232	1399-1401	na	_	_	_	_	
+1-233	1402-1409	zoženju	_	_	_	_	
+1-234	1410-1419	gorenjske	_	_	_	_	
+1-235	1420-1429	avtoceste	_	_	_	_	
+1-236	1430-1433	pri	_	_	_	_	
+1-237	1434-1443	Podtaboru	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-238	1444-1451	oziroma	_	_	_	_	
+1-239	1452-1460	Peračici	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-240	1461-1462	.	_	_	_	_	
+1-241	1463-1467	Novo	_	_	_	_	
+1-242	1468-1477	zgostitev	_	_	_	_	
+1-243	1478-1485	prometa	_	_	_	_	
+1-244	1486-1488	na	_	_	_	_	
+1-245	1489-1492	teh	_	_	_	_	
+1-246	1493-1499	cestah	_	_	_	_	
+1-247	1500-1511	pričakujejo	_	_	_	_	
+1-248	1512-1516	pred	_	_	_	_	
+1-249	1517-1529	prvomajskimi	_	_	_	_	
+1-250	1530-1538	prazniki	_	_	_	_	
+1-251	1539-1540	,	_	_	_	_	
+1-252	1541-1543	in	_	_	_	_	
+1-253	1544-1549	sicer	_	_	_	_	
+1-254	1550-1551	v	_	_	_	_	
+1-255	1552-1559	četrtek	_	_	_	_	
+1-256	1560-1561	,	_	_	_	_	
+1-257	1562-1564	30	_	_	_	_	
+1-258	1565-1566	.	_	_	_	_	
+1-259	1567-1573	aprila	_	_	_	_	
+1-260	1574-1575	.	_	_	_	_	
+1-261	1576-1577	V	_	_	_	_	
+1-262	1578-1588	ponedeljek	_	_	_	_	
+1-263	1589-1590	,	_	_	_	_	
+1-264	1591-1593	27	_	_	_	_	
+1-265	1594-1595	.	_	_	_	_	
+1-266	1596-1602	aprila	_	_	_	_	
+1-267	1603-1604	,	_	_	_	_	
+1-268	1605-1607	in	_	_	_	_	
+1-269	1608-1609	v	_	_	_	_	
+1-270	1610-1617	nedeljo	_	_	_	_	
+1-271	1618-1619	,	_	_	_	_	
+1-272	1620-1621	3	_	_	_	_	
+1-273	1622-1623	.	_	_	_	_	
+1-274	1624-1628	maja	_	_	_	_	
+1-275	1629-1630	,	_	_	_	_	
+1-276	1631-1633	bo	_	_	_	_	
+1-277	1634-1640	promet	_	_	_	_	
+1-278	1641-1651	predvidoma	_	_	_	_	
+1-279	1652-1659	povečan	_	_	_	_	
+1-280	1660-1661	v	_	_	_	_	
+1-281	1662-1669	obratni	_	_	_	_	
+1-282	1670-1675	smeri	_	_	_	_	
+1-283	1676-1677	,	_	_	_	_	
+1-284	1678-1683	torej	_	_	_	_	
+1-285	1684-1692	predvsem	_	_	_	_	
+1-286	1693-1694	s	_	_	_	_	
+1-287	1695-1704	Primorske	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-288	1705-1707	in	_	_	_	_	
+1-289	1708-1717	Gorenjske	LOC	3 - Nevtralno	*->21-1	*[21]	
+1-290	1718-1723	proti	_	_	_	_	
+1-291	1724-1733	Ljubljani	LOC	3 - Nevtralno	*->2-4	*[2]	
+1-292	1734-1735	.	_	_	_	_	
+1-293	1736-1737	V	_	_	_	_	
+1-294	1738-1741	teh	_	_	_	_	
+1-295	1742-1746	dneh	_	_	_	_	
+1-296	1747-1749	je	_	_	_	_	
+1-297	1750-1761	pričakovati	_	_	_	_	
+1-298	1762-1769	zastoje	_	_	_	_	
+1-299	1770-1774	tudi	_	_	_	_	
+1-300	1775-1777	na	_	_	_	_	
+1-301	1778-1784	mejnih	_	_	_	_	
+1-302	1785-1793	prehodih	_	_	_	_	
+1-303	1794-1795	s	_	_	_	_	
+1-304	1796-1803	Hrvaško	LOC	3 - Nevtralno	*->6-2	*[6]	
+1-305	1804-1807	pri	_	_	_	_	
+1-306	1808-1814	vstopu	_	_	_	_	
+1-307	1815-1816	v	_	_	_	_	
+1-308	1817-1826	Slovenijo	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-309	1827-1828	.	_	_	_	_	
+1-310	1829-1836	Najbolj	_	_	_	_	
+1-311	1837-1839	na	_	_	_	_	
+1-312	1840-1846	mejnih	_	_	_	_	
+1-313	1847-1855	prehodih	_	_	_	_	
+1-314	1856-1864	Dragonja	LOC	3 - Nevtralno	*->23-1	*[23]	
+1-315	1865-1866	,	_	_	_	_	
+1-316	1867-1875	Sečovlje	LOC	3 - Nevtralno	*->24-1	*[24]	
+1-317	1876-1878	in	_	_	_	_	
+1-318	1879-1888	Gruškovje	LOC	3 - Nevtralno	*->13-2	*[13]	

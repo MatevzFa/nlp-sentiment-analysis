@@ -1,0 +1,437 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Kratke vestičke , ki jih pripravlja poslovna redakcija Dnevnika . Usoda Gratela v rokah izvedenca Podjetje Gratel se še naprej uspešno upira ugovoru zoper prisilno poravnavo , ki ga je kot ena največjih upnic vložila Nova Ljubljanska banka ( NLB ) . Sodišče se je v petek na naroku za obravnavo ugovora strinjalo z imenovanjem izvedenca ekonomsko - finančne stroke . Ta bo ocenil , ali je verjetnost za uspeh finančne sanacije višja od 50 odstotkov . S tem je sodišče do nadaljnjega preložilo narok . Koroške gradnje naposled v stečaju Družba Koroške gradnje iz Slovenj Gradca , ki je v lasti propadlega CM Celje ( CMC ) , gre vendarle v stečaj . Vodstvo je namreč 18 . junija vložilo zahtevo za začetek stečaja , ki ji je sodišče prejšnji teden tudi ugodilo . Spomnimo , da so bile Koroške gradnje že pred mesecem dni tik pred stečajem , vendar je vodstvo zadnji hip umaknilo zahtevo za stečaj . Zavrl prokurist družbe Pristop Media V vodstvu podjetja Pristop Media , ki je v lasti agencije Pristop , je prišlo do sprememb . Pred dnevi je mesto prokurista zasedel Franci Zavrl , soustanovitelj in partner v Pristopu . Podjetje Pristop Media je lani ustvarilo 16,3 milijona evrov prihodkov , kar je štiri odstotke manj kot leto prej , in okoli 362.000 evrov čistega dobička . Varnost Maribor brez dividend Tadeju Počivavšku , nekdanjemu izvršnemu direktorju Aktive Naložb , na skupščini družbe Varnost Maribor ni uspelo izboriti izplačila celotnega dva milijona evrov visokega bilančnega dobička . Varnost Maribor letos ne bo delila dividend , saj je velika večina delničarjev glasovala proti nasprotnemu predlogu podjetja Sortes Invest , ki ga je Počivavšek zastopal . Največji lastniki so sicer direktor družbe Marjan Pišek ( 37 odstotkov ) , Slavko Pernek ( 12,4 odstotka ) in Probanka ( 10,8 odstotka ) . Gimpex tudi uradno v stečaj Podjetje Gimpex iz Novega mesta , ki se je ukvarjalo s prodajo Renaultovih tovornjakov , je končalo v stečaju . Za spodletelo prisilno poravnavo ni bil kriv upravitelj , ki je dvomil o uspešnosti načrta sanacije podjetja , temveč upniki . Za prisilno poravnavo so glasovali upniki z le 46,6 odstotka terjatev . Menjave v vodstvu Johnson Controls Peter Jakšič je novi prokurist slovenjgraškega podjetja Johnson Controls , ki je v nemški lasti . Pred njim je ta položaj zasedal John Craig Howells . Podjetje je imelo lani malo več kot sto milijonov evrov prihodkov , kar 12 odstotkov manj v primerjavi z letom 2011 . Obenem je ustvarilo 1,76 milijona evrov čiste izgube . Pripravil Tomaž
+1-1	0-6	Kratke	_	_	_	_	
+1-2	7-15	vestičke	_	_	_	_	
+1-3	16-17	,	_	_	_	_	
+1-4	18-20	ki	_	_	_	_	
+1-5	21-24	jih	_	_	_	_	
+1-6	25-35	pripravlja	_	_	_	_	
+1-7	36-44	poslovna	_	3 - Nevtralno[28]	*->24-1	*[24]	
+1-8	45-54	redakcija	_	3 - Nevtralno[28]	*->24-1	*[24]	
+1-9	55-63	Dnevnika	ORG	3 - Nevtralno[28]	*->24-1	*[24]	
+1-10	64-65	.	_	_	_	_	
+1-11	66-71	Usoda	_	_	_	_	
+1-12	72-79	Gratela	ORG	_	*->1-1	*[1]	
+1-13	80-81	v	_	_	_	_	
+1-14	82-87	rokah	_	_	_	_	
+1-15	88-97	izvedenca	_	_	_	_	
+1-16	98-106	Podjetje	_	2 - Negativno[29]	*->1-2	*[1]	
+1-17	107-113	Gratel	ORG	2 - Negativno[29]	*->1-2	*[1]	
+1-18	114-116	se	_	_	_	_	
+1-19	117-119	še	_	_	_	_	
+1-20	120-126	naprej	_	_	_	_	
+1-21	127-134	uspešno	_	_	_	_	
+1-22	135-140	upira	_	_	_	_	
+1-23	141-148	ugovoru	_	_	_	_	
+1-24	149-154	zoper	_	_	_	_	
+1-25	155-163	prisilno	_	_	_	_	
+1-26	164-173	poravnavo	_	_	_	_	
+1-27	174-175	,	_	_	_	_	
+1-28	176-178	ki	_	_	_	_	
+1-29	179-181	ga	_	_	_	_	
+1-30	182-184	je	_	_	_	_	
+1-31	185-188	kot	_	_	_	_	
+1-32	189-192	ena	_	_	*->2-1	*[2]	
+1-33	193-202	največjih	_	_	*->2-1	*[2]	
+1-34	203-208	upnic	_	_	*->2-1	*[2]	
+1-35	209-216	vložila	_	_	_	_	
+1-36	217-221	Nova	ORG[1]	_	*->2-2	*[2]	
+1-37	222-233	Ljubljanska	ORG[1]	_	*->2-2	*[2]	
+1-38	234-239	banka	ORG[1]	_	*->2-2	*[2]	
+1-39	240-241	(	_	_	_	_	
+1-40	242-245	NLB	ORG	3 - Nevtralno	*->2-3	*[2]	
+1-41	246-247	)	_	_	_	_	
+1-42	248-249	.	_	_	_	_	
+1-43	250-257	Sodišče	_	_	_	_	
+1-44	258-260	se	_	_	_	_	
+1-45	261-263	je	_	_	_	_	
+1-46	264-265	v	_	_	_	_	
+1-47	266-271	petek	_	_	_	_	
+1-48	272-274	na	_	_	_	_	
+1-49	275-281	naroku	_	_	_	_	
+1-50	282-284	za	_	_	_	_	
+1-51	285-294	obravnavo	_	_	_	_	
+1-52	295-302	ugovora	_	_	_	_	
+1-53	303-312	strinjalo	_	_	_	_	
+1-54	313-314	z	_	_	_	_	
+1-55	315-326	imenovanjem	_	_	_	_	
+1-56	327-336	izvedenca	_	_	_	_	
+1-57	337-346	ekonomsko	_	_	_	_	
+1-58	347-348	-	_	_	_	_	
+1-59	349-357	finančne	_	_	_	_	
+1-60	358-364	stroke	_	_	_	_	
+1-61	365-366	.	_	_	_	_	
+1-62	367-369	Ta	_	_	_	_	
+1-63	370-372	bo	_	_	_	_	
+1-64	373-379	ocenil	_	_	_	_	
+1-65	380-381	,	_	_	_	_	
+1-66	382-385	ali	_	_	_	_	
+1-67	386-388	je	_	_	_	_	
+1-68	389-399	verjetnost	_	_	_	_	
+1-69	400-402	za	_	_	_	_	
+1-70	403-408	uspeh	_	_	_	_	
+1-71	409-417	finančne	_	_	_	_	
+1-72	418-426	sanacije	_	_	_	_	
+1-73	427-432	višja	_	_	_	_	
+1-74	433-435	od	_	_	_	_	
+1-75	436-438	50	_	_	_	_	
+1-76	439-448	odstotkov	_	_	_	_	
+1-77	449-450	.	_	_	_	_	
+1-78	451-452	S	_	_	_	_	
+1-79	453-456	tem	_	_	_	_	
+1-80	457-459	je	_	_	_	_	
+1-81	460-467	sodišče	_	_	_	_	
+1-82	468-470	do	_	_	_	_	
+1-83	471-482	nadaljnjega	_	_	_	_	
+1-84	483-492	preložilo	_	_	_	_	
+1-85	493-498	narok	_	_	_	_	
+1-86	499-500	.	_	_	_	_	
+1-87	501-508	Koroške	ORG[2]	_	*->3-1	*[3]	
+1-88	509-516	gradnje	ORG[2]	_	*->3-1	*[3]	
+1-89	517-525	naposled	_	_	_	_	
+1-90	526-527	v	_	_	_	_	
+1-91	528-535	stečaju	_	_	_	_	
+1-92	536-542	Družba	_	_	*->3-2	*[3]	
+1-93	543-550	Koroške	ORG[3]	_	*->3-2	*[3]	
+1-94	551-558	gradnje	ORG[3]	_	*->3-2	*[3]	
+1-95	559-561	iz	_	_	_	_	
+1-96	562-569	Slovenj	LOC[4]	3 - Nevtralno[30]	*->4-1	*[4]	
+1-97	570-576	Gradca	LOC[4]	3 - Nevtralno[30]	*->4-1	*[4]	
+1-98	577-578	,	_	_	_	_	
+1-99	579-581	ki	_	_	_	_	
+1-100	582-584	je	_	_	*->3-3	*[3]	
+1-101	585-586	v	_	_	_	_	
+1-102	587-592	lasti	_	2 - Negativno[31]	*->25-1	*[25]	
+1-103	593-603	propadlega	_	2 - Negativno[31]	*->25-1	*[25]	
+1-104	604-606	CM	ORG[5]	2 - Negativno[31]	*->25-1	*[25]	
+1-105	607-612	Celje	ORG[5]|LOC[6]	2 - Negativno[31]|3 - Nevtralno[32]	*->25-1|*->5-1	*[25]|*[5]	
+1-106	613-614	(	ORG[5]	2 - Negativno[31]	*->25-1	*[25]	
+1-107	615-618	CMC	ORG[5]	2 - Negativno[31]	*->25-1	*[25]	
+1-108	619-620	)	ORG[5]	2 - Negativno[31]	*->25-1	*[25]	
+1-109	621-622	,	_	_	_	_	
+1-110	623-626	gre	_	_	_	_	
+1-111	627-635	vendarle	_	_	_	_	
+1-112	636-637	v	_	_	_	_	
+1-113	638-644	stečaj	_	_	_	_	
+1-114	645-646	.	_	_	_	_	
+1-115	647-654	Vodstvo	_	_	_	_	
+1-116	655-657	je	_	_	_	_	
+1-117	658-664	namreč	_	_	_	_	
+1-118	665-667	18	_	_	_	_	
+1-119	668-669	.	_	_	_	_	
+1-120	670-676	junija	_	_	_	_	
+1-121	677-684	vložilo	_	_	_	_	
+1-122	685-692	zahtevo	_	_	_	_	
+1-123	693-695	za	_	_	_	_	
+1-124	696-703	začetek	_	_	_	_	
+1-125	704-711	stečaja	_	_	_	_	
+1-126	712-713	,	_	_	_	_	
+1-127	714-716	ki	_	_	_	_	
+1-128	717-719	ji	_	_	_	_	
+1-129	720-722	je	_	_	_	_	
+1-130	723-730	sodišče	_	_	_	_	
+1-131	731-739	prejšnji	_	_	_	_	
+1-132	740-745	teden	_	_	_	_	
+1-133	746-750	tudi	_	_	_	_	
+1-134	751-758	ugodilo	_	_	_	_	
+1-135	759-760	.	_	_	_	_	
+1-136	761-769	Spomnimo	_	_	_	_	
+1-137	770-771	,	_	_	_	_	
+1-138	772-774	da	_	_	_	_	
+1-139	775-777	so	_	_	_	_	
+1-140	778-782	bile	_	_	_	_	
+1-141	783-790	Koroške	ORG[7]	2 - Negativno[33]	*->3-4	*[3]	
+1-142	791-798	gradnje	ORG[7]	2 - Negativno[33]	*->3-4	*[3]	
+1-143	799-801	že	_	_	_	_	
+1-144	802-806	pred	_	_	_	_	
+1-145	807-814	mesecem	_	_	_	_	
+1-146	815-818	dni	_	_	_	_	
+1-147	819-822	tik	_	_	_	_	
+1-148	823-827	pred	_	_	_	_	
+1-149	828-836	stečajem	_	_	_	_	
+1-150	837-838	,	_	_	_	_	
+1-151	839-845	vendar	_	_	_	_	
+1-152	846-848	je	_	_	_	_	
+1-153	849-856	vodstvo	_	_	_	_	
+1-154	857-863	zadnji	_	_	_	_	
+1-155	864-867	hip	_	_	_	_	
+1-156	868-876	umaknilo	_	_	_	_	
+1-157	877-884	zahtevo	_	_	_	_	
+1-158	885-887	za	_	_	_	_	
+1-159	888-894	stečaj	_	_	_	_	
+1-160	895-896	.	_	_	_	_	
+1-161	897-902	Zavrl	PER	_	*->6-1	*[6]	
+1-162	903-912	prokurist	_	_	_	_	
+1-163	913-919	družbe	_	_	*->7-1	*[7]	
+1-164	920-927	Pristop	ORG[8]	_	*->7-1	*[7]	
+1-165	928-933	Media	ORG[8]	_	*->7-1	*[7]	
+1-166	934-935	V	_	_	_	_	
+1-167	936-943	vodstvu	_	_	_	_	
+1-168	944-952	podjetja	_	_	*->7-2	*[7]	
+1-169	953-960	Pristop	ORG[9]	_	*->7-2	*[7]	
+1-170	961-966	Media	ORG[9]	_	*->7-2	*[7]	
+1-171	967-968	,	_	_	_	_	
+1-172	969-971	ki	_	_	_	_	
+1-173	972-974	je	_	_	*->7-3	*[7]	
+1-174	975-976	v	_	_	_	_	
+1-175	977-982	lasti	_	_	_	_	
+1-176	983-991	agencije	_	_	*->8-1	*[8]	
+1-177	992-999	Pristop	ORG	_	*->8-1	*[8]	
+1-178	1000-1001	,	_	_	_	_	
+1-179	1002-1004	je	_	_	_	_	
+1-180	1005-1011	prišlo	_	_	_	_	
+1-181	1012-1014	do	_	_	_	_	
+1-182	1015-1023	sprememb	_	_	_	_	
+1-183	1024-1025	.	_	_	_	_	
+1-184	1026-1030	Pred	_	_	_	_	
+1-185	1031-1036	dnevi	_	_	_	_	
+1-186	1037-1039	je	_	_	_	_	
+1-187	1040-1045	mesto	_	_	_	_	
+1-188	1046-1056	prokurista	_	_	_	_	
+1-189	1057-1064	zasedel	_	_	_	_	
+1-190	1065-1071	Franci	PER[10]	_	*->6-2	*[6]	
+1-191	1072-1077	Zavrl	PER[10]	_	*->6-2	*[6]	
+1-192	1078-1079	,	_	_	_	_	
+1-193	1080-1094	soustanovitelj	_	3 - Nevtralno[34]	*->6-3	*[6]	
+1-194	1095-1097	in	_	3 - Nevtralno[34]	*->6-3	*[6]	
+1-195	1098-1105	partner	_	3 - Nevtralno[34]	*->6-3	*[6]	
+1-196	1106-1107	v	_	3 - Nevtralno[34]	*->6-3	*[6]	
+1-197	1108-1116	Pristopu	ORG	3 - Nevtralno[34]|3 - Nevtralno[35]	*->6-3|*->8-2	*[6]|*[8]	
+1-198	1117-1118	.	_	_	_	_	
+1-199	1119-1127	Podjetje	_	4 - Pozitivno[36]	*->7-4	*[7]	
+1-200	1128-1135	Pristop	ORG[11]	4 - Pozitivno[36]	*->7-4	*[7]	
+1-201	1136-1141	Media	ORG[11]	4 - Pozitivno[36]	*->7-4	*[7]	
+1-202	1142-1144	je	_	_	_	_	
+1-203	1145-1149	lani	_	_	_	_	
+1-204	1150-1159	ustvarilo	_	_	_	_	
+1-205	1160-1164	16,3	_	_	_	_	
+1-206	1165-1173	milijona	_	_	_	_	
+1-207	1174-1179	evrov	_	_	_	_	
+1-208	1180-1189	prihodkov	_	_	_	_	
+1-209	1190-1191	,	_	_	_	_	
+1-210	1192-1195	kar	_	_	_	_	
+1-211	1196-1198	je	_	_	_	_	
+1-212	1199-1204	štiri	_	_	_	_	
+1-213	1205-1213	odstotke	_	_	_	_	
+1-214	1214-1218	manj	_	_	_	_	
+1-215	1219-1222	kot	_	_	_	_	
+1-216	1223-1227	leto	_	_	_	_	
+1-217	1228-1232	prej	_	_	_	_	
+1-218	1233-1234	,	_	_	_	_	
+1-219	1235-1237	in	_	_	_	_	
+1-220	1238-1243	okoli	_	_	_	_	
+1-221	1244-1251	362.000	_	_	_	_	
+1-222	1252-1257	evrov	_	_	_	_	
+1-223	1258-1265	čistega	_	_	_	_	
+1-224	1266-1273	dobička	_	_	_	_	
+1-225	1274-1275	.	_	_	_	_	
+1-226	1276-1283	Varnost	ORG[12]	_	*->9-1	*[9]	
+1-227	1284-1291	Maribor	ORG[12]|LOC[13]	_	*->9-1|*->10-1	*[9]|*[10]	
+1-228	1292-1296	brez	_	_	_	_	
+1-229	1297-1305	dividend	_	_	_	_	
+1-230	1306-1312	Tadeju	PER[14]	_	*->11-1	*[11]	
+1-231	1313-1323	Počivavšku	PER[14]	_	*->11-1	*[11]	
+1-232	1324-1325	,	_	_	_	_	
+1-233	1326-1336	nekdanjemu	_	3 - Nevtralno[37]	*->11-2	*[11]	
+1-234	1337-1346	izvršnemu	_	3 - Nevtralno[37]	*->11-2	*[11]	
+1-235	1347-1357	direktorju	_	3 - Nevtralno[37]	*->11-2	*[11]	
+1-236	1358-1364	Aktive	ORG[15]	3 - Nevtralno[37]|3 - Nevtralno[38]	*->11-2|*->12-1	*[11]|*[12]	
+1-237	1365-1371	Naložb	ORG[15]	3 - Nevtralno[37]|3 - Nevtralno[38]	*->11-2|*->12-1	*[11]|*[12]	
+1-238	1372-1373	,	_	_	_	_	
+1-239	1374-1376	na	_	_	_	_	
+1-240	1377-1386	skupščini	_	_	_	_	
+1-241	1387-1393	družbe	_	_	*->9-2	*[9]	
+1-242	1394-1401	Varnost	ORG[16]	_	*->9-2	*[9]	
+1-243	1402-1409	Maribor	ORG[16]|LOC[17]	_	*->9-2|*->10-2	*[9]|*[10]	
+1-244	1410-1412	ni	_	_	_	_	
+1-245	1413-1419	uspelo	_	_	_	_	
+1-246	1420-1428	izboriti	_	_	_	_	
+1-247	1429-1438	izplačila	_	_	_	_	
+1-248	1439-1448	celotnega	_	_	_	_	
+1-249	1449-1452	dva	_	_	_	_	
+1-250	1453-1461	milijona	_	_	_	_	
+1-251	1462-1467	evrov	_	_	_	_	
+1-252	1468-1476	visokega	_	_	_	_	
+1-253	1477-1487	bilančnega	_	_	_	_	
+1-254	1488-1495	dobička	_	_	_	_	
+1-255	1496-1497	.	_	_	_	_	
+1-256	1498-1505	Varnost	ORG[18]	_	*->9-3	*[9]	
+1-257	1506-1513	Maribor	ORG[18]|LOC[19]	3 - Nevtralno	*->9-3|*->10-3	*[9]|*[10]	
+1-258	1514-1519	letos	_	_	_	_	
+1-259	1520-1522	ne	_	_	_	_	
+1-260	1523-1525	bo	_	_	_	_	
+1-261	1526-1532	delila	_	_	_	_	
+1-262	1533-1541	dividend	_	_	_	_	
+1-263	1542-1543	,	_	_	_	_	
+1-264	1544-1547	saj	_	_	_	_	
+1-265	1548-1550	je	_	_	_	_	
+1-266	1551-1557	velika	_	_	_	_	
+1-267	1558-1564	večina	_	_	_	_	
+1-268	1565-1576	delničarjev	_	_	_	_	
+1-269	1577-1586	glasovala	_	_	_	_	
+1-270	1587-1592	proti	_	_	_	_	
+1-271	1593-1604	nasprotnemu	_	_	_	_	
+1-272	1605-1613	predlogu	_	_	_	_	
+1-273	1614-1622	podjetja	_	_	*->13-1	*[13]	
+1-274	1623-1629	Sortes	ORG[20]	_	*->13-1	*[13]	
+1-275	1630-1636	Invest	ORG[20]	_	*->13-1	*[13]	
+1-276	1637-1638	,	_	_	_	_	
+1-277	1639-1641	ki	_	_	_	_	
+1-278	1642-1644	ga	_	3 - Nevtralno	*->13-2	*[13]	
+1-279	1645-1647	je	_	_	_	_	
+1-280	1648-1658	Počivavšek	PER	3 - Nevtralno	*->11-3	*[11]	
+1-281	1659-1667	zastopal	_	_	_	_	
+1-282	1668-1669	.	_	_	_	_	
+1-283	1670-1678	Največji	_	_	_	_	
+1-284	1679-1687	lastniki	_	_	_	_	
+1-285	1688-1690	so	_	_	_	_	
+1-286	1691-1696	sicer	_	_	_	_	
+1-287	1697-1705	direktor	_	3 - Nevtralno[39]	*->14-1	*[14]	
+1-288	1706-1712	družbe	_	3 - Nevtralno[39]|3 - Nevtralno[40]	*->14-1|*->9-4	*[14]|*[9]	
+1-289	1713-1719	Marjan	PER[21]	3 - Nevtralno[39]	*->14-1	*[14]	
+1-290	1720-1725	Pišek	PER[21]	3 - Nevtralno[39]	*->14-1	*[14]	
+1-291	1726-1727	(	_	_	_	_	
+1-292	1728-1730	37	_	_	_	_	
+1-293	1731-1740	odstotkov	_	_	_	_	
+1-294	1741-1742	)	_	_	_	_	
+1-295	1743-1744	,	_	_	_	_	
+1-296	1745-1751	Slavko	PER[22]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-297	1752-1758	Pernek	PER[22]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-298	1759-1760	(	_	_	_	_	
+1-299	1761-1765	12,4	_	_	_	_	
+1-300	1766-1774	odstotka	_	_	_	_	
+1-301	1775-1776	)	_	_	_	_	
+1-302	1777-1779	in	_	_	_	_	
+1-303	1780-1788	Probanka	ORG	3 - Nevtralno	*->16-1	*[16]	
+1-304	1789-1790	(	_	_	_	_	
+1-305	1791-1795	10,8	_	_	_	_	
+1-306	1796-1804	odstotka	_	_	_	_	
+1-307	1805-1806	)	_	_	_	_	
+1-308	1807-1808	.	_	_	_	_	
+1-309	1809-1815	Gimpex	ORG	_	*->17-1	*[17]	
+1-310	1816-1820	tudi	_	_	_	_	
+1-311	1821-1827	uradno	_	_	_	_	
+1-312	1828-1829	v	_	_	_	_	
+1-313	1830-1836	stečaj	_	_	_	_	
+1-314	1837-1845	Podjetje	_	_	*->17-2	*[17]	
+1-315	1846-1852	Gimpex	ORG	_	*->17-2	*[17]	
+1-316	1853-1855	iz	_	_	_	_	
+1-317	1856-1862	Novega	LOC[23]	3 - Nevtralno[42]	*->18-1	*[18]	
+1-318	1863-1868	mesta	LOC[23]	3 - Nevtralno[42]	*->18-1	*[18]	
+1-319	1869-1870	,	_	_	_	_	
+1-320	1871-1873	ki	_	_	_	_	
+1-321	1874-1876	se	_	_	_	_	
+1-322	1877-1879	je	_	_	_	_	
+1-323	1880-1889	ukvarjalo	_	_	*->17-3	*[17]	
+1-324	1890-1891	s	_	_	_	_	
+1-325	1892-1899	prodajo	_	_	_	_	
+1-326	1900-1911	Renaultovih	ORG	3 - Nevtralno	*->19-1	*[19]	
+1-327	1912-1923	tovornjakov	_	_	_	_	
+1-328	1924-1925	,	_	_	_	_	
+1-329	1926-1928	je	_	_	_	_	
+1-330	1929-1936	končalo	_	_	*->17-4	*[17]	
+1-331	1937-1938	v	_	_	_	_	
+1-332	1939-1946	stečaju	_	_	_	_	
+1-333	1947-1948	.	_	_	_	_	
+1-334	1949-1951	Za	_	_	_	_	
+1-335	1952-1962	spodletelo	_	_	_	_	
+1-336	1963-1971	prisilno	_	_	_	_	
+1-337	1972-1981	poravnavo	_	_	_	_	
+1-338	1982-1984	ni	_	_	_	_	
+1-339	1985-1988	bil	_	_	_	_	
+1-340	1989-1993	kriv	_	_	_	_	
+1-341	1994-2004	upravitelj	_	_	_	_	
+1-342	2005-2006	,	_	_	_	_	
+1-343	2007-2009	ki	_	_	_	_	
+1-344	2010-2012	je	_	_	_	_	
+1-345	2013-2019	dvomil	_	_	_	_	
+1-346	2020-2021	o	_	_	_	_	
+1-347	2022-2032	uspešnosti	_	_	_	_	
+1-348	2033-2039	načrta	_	_	_	_	
+1-349	2040-2048	sanacije	_	_	_	_	
+1-350	2049-2057	podjetja	_	2 - Negativno	*->17-5	*[17]	
+1-351	2058-2059	,	_	_	_	_	
+1-352	2060-2066	temveč	_	_	_	_	
+1-353	2067-2073	upniki	_	_	_	_	
+1-354	2074-2075	.	_	_	_	_	
+1-355	2076-2078	Za	_	_	_	_	
+1-356	2079-2087	prisilno	_	_	_	_	
+1-357	2088-2097	poravnavo	_	_	_	_	
+1-358	2098-2100	so	_	_	_	_	
+1-359	2101-2110	glasovali	_	_	_	_	
+1-360	2111-2117	upniki	_	_	_	_	
+1-361	2118-2119	z	_	_	_	_	
+1-362	2120-2122	le	_	_	_	_	
+1-363	2123-2127	46,6	_	_	_	_	
+1-364	2128-2136	odstotka	_	_	_	_	
+1-365	2137-2145	terjatev	_	_	_	_	
+1-366	2146-2147	.	_	_	_	_	
+1-367	2148-2155	Menjave	_	_	_	_	
+1-368	2156-2157	v	_	_	_	_	
+1-369	2158-2165	vodstvu	_	_	_	_	
+1-370	2166-2173	Johnson	ORG[24]	_	*->20-1	*[20]	
+1-371	2174-2182	Controls	ORG[24]	_	*->20-1	*[20]	
+1-372	2183-2188	Peter	PER[25]	_	*->21-1	*[21]	
+1-373	2189-2195	Jakšič	PER[25]	_	*->21-1	*[21]	
+1-374	2196-2198	je	_	_	_	_	
+1-375	2199-2203	novi	_	_	_	_	
+1-376	2204-2213	prokurist	_	_	_	_	
+1-377	2214-2229	slovenjgraškega	_	_	*->20-2	*[20]	
+1-378	2230-2238	podjetja	_	_	*->20-2	*[20]	
+1-379	2239-2246	Johnson	ORG[26]	_	*->20-2	*[20]	
+1-380	2247-2255	Controls	ORG[26]	_	*->20-2	*[20]	
+1-381	2256-2257	,	_	_	_	_	
+1-382	2258-2260	ki	_	_	_	_	
+1-383	2261-2263	je	_	_	*->20-3	*[20]	
+1-384	2264-2265	v	_	_	_	_	
+1-385	2266-2272	nemški	_	_	_	_	
+1-386	2273-2278	lasti	_	_	_	_	
+1-387	2279-2280	.	_	_	_	_	
+1-388	2281-2285	Pred	_	_	_	_	
+1-389	2286-2290	njim	_	4 - Pozitivno	*->21-2	*[21]	
+1-390	2291-2293	je	_	_	_	_	
+1-391	2294-2296	ta	_	_	_	_	
+1-392	2297-2304	položaj	_	_	_	_	
+1-393	2305-2312	zasedal	_	_	_	_	
+1-394	2313-2317	John	PER[27]	3 - Nevtralno[43]	*->22-1	*[22]	
+1-395	2318-2323	Craig	PER[27]	3 - Nevtralno[43]	*->22-1	*[22]	
+1-396	2324-2331	Howells	PER[27]	3 - Nevtralno[43]	*->22-1	*[22]	
+1-397	2332-2333	.	_	_	_	_	
+1-398	2334-2342	Podjetje	_	_	*->20-4	*[20]	
+1-399	2343-2345	je	_	_	_	_	
+1-400	2346-2351	imelo	_	_	_	_	
+1-401	2352-2356	lani	_	_	_	_	
+1-402	2357-2361	malo	_	_	_	_	
+1-403	2362-2365	več	_	_	_	_	
+1-404	2366-2369	kot	_	_	_	_	
+1-405	2370-2373	sto	_	_	_	_	
+1-406	2374-2383	milijonov	_	_	_	_	
+1-407	2384-2389	evrov	_	_	_	_	
+1-408	2390-2399	prihodkov	_	_	_	_	
+1-409	2400-2401	,	_	_	_	_	
+1-410	2402-2405	kar	_	_	_	_	
+1-411	2406-2408	12	_	_	_	_	
+1-412	2409-2418	odstotkov	_	_	_	_	
+1-413	2419-2423	manj	_	_	_	_	
+1-414	2424-2425	v	_	_	_	_	
+1-415	2426-2436	primerjavi	_	_	_	_	
+1-416	2437-2438	z	_	_	_	_	
+1-417	2439-2444	letom	_	_	_	_	
+1-418	2445-2449	2011	_	_	_	_	
+1-419	2450-2451	.	_	_	_	_	
+1-420	2452-2458	Obenem	_	_	_	_	
+1-421	2459-2461	je	_	_	_	_	
+1-422	2462-2471	ustvarilo	_	3 - Nevtralno	*->20-5	*[20]	
+1-423	2472-2476	1,76	_	_	_	_	
+1-424	2477-2485	milijona	_	_	_	_	
+1-425	2486-2491	evrov	_	_	_	_	
+1-426	2492-2497	čiste	_	_	_	_	
+1-427	2498-2504	izgube	_	_	_	_	
+1-428	2505-2506	.	_	_	_	_	
+1-429	2507-2516	Pripravil	_	_	_	_	
+1-430	2517-2522	Tomaž	PER	3 - Nevtralno	*->23-1	*[23]	

@@ -1,0 +1,304 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Dušan Kumer , vodja poslanske skupine SD in Borut Sajovic , vodja poslanskega kluba LDS sta kot kandidata za novega predsednika DZ predstavila poslanca Ljuba Germiča . Germič se je danes predstavil tudi kot ljubitelj športa in glasbe – med drugim igra saksofon v Parlament Dixie Bandu , ki ga sestavljajo aktualni in nekdanji poslanci , med njimi Rudi Moge , Geza Džuban , včasih pa zapojeta tudi Eva Irgl in Darja Lavtižar Bebler . S tem , ko že predstavljajo kandidata , želijo dati možnost drugim poslanskim skupinam , da se do seje izrečejo o kandidatu , so na tiskovni konferenci povedali poslanci . Želijo namreč , da bi lahko poslanci o novem predsedniku državnega zbora glasovali takoj po odstopu Pavla Gantarja . Podporo Ljubu Germiču za predsednika DZ so za zdaj napovedali poslanci SD in LDS , ki so ga tudi predlagali , pa tudi poslanci SNS , Zares in DeSUS . V SDS njegove izvolitve ne bodo podprli , nepovezani poslanci in poslanci SLS pa bodo o tem odločali v torek . Tako lahko Germič že sedaj računa na 50 glasov podpore , za izvolitev jih potrebuje 46 . ( STA ) Tako v SD kot LDS menijo , da so predlagali dobrega kandidata , ki bo kvalitetno vodil delo parlamenta . Borut Sajovic , vodja poslanske skupine LDS je dejal , da si odhoda aktualnega predsednika sicer niso želeli . Ljubo Germič sicer prihaja iz Ruš , po izobrazbi pa je univerzitetni diplomirani inženir kemije in kemijske tehnologije . Slovenijo je v EU zastopal pred vstopom v EU , kot opazovalec , po vstopu v EU mu je pripadla naloga prvega predsednika odbora za evropske zadeve v slovenskem parlamentu . Trenutno vodi odbor za zdravstvo in je tudi namestnik vodje poslanskega kluba LDS
+1-1	0-5	Dušan	PER[1]	_	*->1-1	*[1]	
+1-2	6-11	Kumer	PER[1]	_	*->1-1	*[1]	
+1-3	12-13	,	_	_	_	_	
+1-4	14-19	vodja	_	3 - Nevtralno[14]	*->1-2	*[1]	
+1-5	20-29	poslanske	_	3 - Nevtralno[14]	*->1-2|*->2-1	*[1]|*[2]	
+1-6	30-37	skupine	_	3 - Nevtralno[14]	*->1-2|*->2-1	*[1]|*[2]	
+1-7	38-40	SD	ORG	3 - Nevtralno[14]	*->1-2|*->2-1	*[1]|*[2]	
+1-8	41-43	in	_	_	_	_	
+1-9	44-49	Borut	PER[2]	_	*->3-1	*[3]	
+1-10	50-57	Sajovic	PER[2]	_	*->3-1	*[3]	
+1-11	58-59	,	_	_	_	_	
+1-12	60-65	vodja	_	3 - Nevtralno[15]	*->3-2	*[3]	
+1-13	66-77	poslanskega	_	3 - Nevtralno[15]	*->3-2|*->4-1	*[3]|*[4]	
+1-14	78-83	kluba	_	3 - Nevtralno[15]	*->3-2|*->4-1	*[3]|*[4]	
+1-15	84-87	LDS	ORG	3 - Nevtralno[15]	*->3-2|*->4-1	*[3]|*[4]	
+1-16	88-91	sta	_	_	_	_	
+1-17	92-95	kot	_	_	_	_	
+1-18	96-105	kandidata	_	_	_	_	
+1-19	106-108	za	_	_	_	_	
+1-20	109-115	novega	_	_	_	_	
+1-21	116-127	predsednika	_	_	_	_	
+1-22	128-130	DZ	ORG	_	*->5-1	*[5]	
+1-23	131-142	predstavila	_	_	_	_	
+1-24	143-151	poslanca	_	_	*->6-1	*[6]	
+1-25	152-157	Ljuba	PER[3]	_	*->6-1	*[6]	
+1-26	158-165	Germiča	PER[3]	_	*->6-1	*[6]	
+1-27	166-167	.	_	_	_	_	
+1-28	168-174	Germič	PER	_	*->6-2	*[6]	
+1-29	175-177	se	_	_	_	_	
+1-30	178-180	je	_	_	_	_	
+1-31	181-186	danes	_	_	_	_	
+1-32	187-197	predstavil	_	_	_	_	
+1-33	198-202	tudi	_	_	_	_	
+1-34	203-206	kot	_	_	_	_	
+1-35	207-216	ljubitelj	_	_	*->6-3	*[6]	
+1-36	217-223	športa	_	_	*->6-3	*[6]	
+1-37	224-226	in	_	_	*->6-3	*[6]	
+1-38	227-233	glasbe	_	_	*->6-3	*[6]	
+1-39	234-235	–	_	_	_	_	
+1-40	236-239	med	_	_	_	_	
+1-41	240-246	drugim	_	_	_	_	
+1-42	247-251	igra	_	_	*->6-4	*[6]	
+1-43	252-260	saksofon	_	_	_	_	
+1-44	261-262	v	_	_	_	_	
+1-45	263-272	Parlament	ORG[4]	3 - Nevtralno[16]	*->7-1	*[7]	
+1-46	273-278	Dixie	ORG[4]	3 - Nevtralno[16]	*->7-1	*[7]	
+1-47	279-284	Bandu	ORG[4]	3 - Nevtralno[16]	*->7-1	*[7]	
+1-48	285-286	,	_	_	_	_	
+1-49	287-289	ki	_	_	_	_	
+1-50	290-292	ga	_	_	_	_	
+1-51	293-304	sestavljajo	_	_	_	_	
+1-52	305-313	aktualni	_	_	_	_	
+1-53	314-316	in	_	_	_	_	
+1-54	317-325	nekdanji	_	_	_	_	
+1-55	326-334	poslanci	_	_	_	_	
+1-56	335-336	,	_	_	_	_	
+1-57	337-340	med	_	_	_	_	
+1-58	341-346	njimi	_	_	_	_	
+1-59	347-351	Rudi	PER[5]	3 - Nevtralno[17]	*->8-1	*[8]	
+1-60	352-356	Moge	PER[5]	3 - Nevtralno[17]	*->8-1	*[8]	
+1-61	357-358	,	_	_	_	_	
+1-62	359-363	Geza	PER[6]	3 - Nevtralno[18]	*->9-1	*[9]	
+1-63	364-370	Džuban	PER[6]	3 - Nevtralno[18]	*->9-1	*[9]	
+1-64	371-372	,	_	_	_	_	
+1-65	373-379	včasih	_	_	_	_	
+1-66	380-382	pa	_	_	_	_	
+1-67	383-391	zapojeta	_	_	_	_	
+1-68	392-396	tudi	_	_	_	_	
+1-69	397-400	Eva	PER[7]	3 - Nevtralno[19]	*->10-1	*[10]	
+1-70	401-405	Irgl	PER[7]	3 - Nevtralno[19]	*->10-1	*[10]	
+1-71	406-408	in	_	_	_	_	
+1-72	409-414	Darja	PER[8]	3 - Nevtralno[20]	*->11-1	*[11]	
+1-73	415-423	Lavtižar	PER[8]	3 - Nevtralno[20]	*->11-1	*[11]	
+1-74	424-430	Bebler	PER[8]	3 - Nevtralno[20]	*->11-1	*[11]	
+1-75	431-432	.	_	_	_	_	
+1-76	433-434	S	_	_	_	_	
+1-77	435-438	tem	_	_	_	_	
+1-78	439-440	,	_	_	_	_	
+1-79	441-443	ko	_	_	_	_	
+1-80	444-446	že	_	_	_	_	
+1-81	447-460	predstavljajo	_	_	_	_	
+1-82	461-470	kandidata	_	_	_	_	
+1-83	471-472	,	_	_	_	_	
+1-84	473-479	želijo	_	_	_	_	
+1-85	480-484	dati	_	_	_	_	
+1-86	485-492	možnost	_	_	_	_	
+1-87	493-499	drugim	_	_	_	_	
+1-88	500-510	poslanskim	_	_	_	_	
+1-89	511-519	skupinam	_	_	_	_	
+1-90	520-521	,	_	_	_	_	
+1-91	522-524	da	_	_	_	_	
+1-92	525-527	se	_	_	_	_	
+1-93	528-530	do	_	_	_	_	
+1-94	531-535	seje	_	_	_	_	
+1-95	536-544	izrečejo	_	_	_	_	
+1-96	545-546	o	_	_	_	_	
+1-97	547-556	kandidatu	_	_	_	_	
+1-98	557-558	,	_	_	_	_	
+1-99	559-561	so	_	_	_	_	
+1-100	562-564	na	_	_	_	_	
+1-101	565-573	tiskovni	_	_	_	_	
+1-102	574-584	konferenci	_	_	_	_	
+1-103	585-593	povedali	_	_	_	_	
+1-104	594-602	poslanci	_	_	_	_	
+1-105	603-604	.	_	_	_	_	
+1-106	605-611	Želijo	_	_	_	_	
+1-107	612-618	namreč	_	_	_	_	
+1-108	619-620	,	_	_	_	_	
+1-109	621-623	da	_	_	_	_	
+1-110	624-626	bi	_	_	_	_	
+1-111	627-632	lahko	_	_	_	_	
+1-112	633-641	poslanci	_	_	_	_	
+1-113	642-643	o	_	_	_	_	
+1-114	644-649	novem	_	_	_	_	
+1-115	650-661	predsedniku	_	_	_	_	
+1-116	662-671	državnega	ORG[9]	_	*->5-2	*[5]	
+1-117	672-677	zbora	ORG[9]	_	*->5-2	*[5]	
+1-118	678-687	glasovali	_	_	_	_	
+1-119	688-693	takoj	_	_	_	_	
+1-120	694-696	po	_	_	_	_	
+1-121	697-704	odstopu	_	_	_	_	
+1-122	705-710	Pavla	PER[10]	_	*->12-1	*[12]	
+1-123	711-719	Gantarja	PER[10]	_	*->12-1	*[12]	
+1-124	720-721	.	_	_	_	_	
+1-125	722-729	Podporo	_	_	_	_	
+1-126	730-735	Ljubu	PER[11]	_	*->6-5	*[6]	
+1-127	736-743	Germiču	PER[11]	_	*->6-5	*[6]	
+1-128	744-746	za	_	_	_	_	
+1-129	747-758	predsednika	_	_	_	_	
+1-130	759-761	DZ	ORG	3 - Nevtralno	*->5-3	*[5]	
+1-131	762-764	so	_	_	_	_	
+1-132	765-767	za	_	_	_	_	
+1-133	768-772	zdaj	_	_	_	_	
+1-134	773-783	napovedali	_	_	_	_	
+1-135	784-792	poslanci	_	_	_	_	
+1-136	793-795	SD	ORG	_	*->2-2	*[2]	
+1-137	796-798	in	_	_	_	_	
+1-138	799-802	LDS	ORG	_	*->4-2	*[4]	
+1-139	803-804	,	_	_	_	_	
+1-140	805-807	ki	_	_	_	_	
+1-141	808-810	so	_	_	_	_	
+1-142	811-813	ga	_	_	_	_	
+1-143	814-818	tudi	_	_	_	_	
+1-144	819-829	predlagali	_	_	_	_	
+1-145	830-831	,	_	_	_	_	
+1-146	832-834	pa	_	_	_	_	
+1-147	835-839	tudi	_	_	_	_	
+1-148	840-848	poslanci	_	_	_	_	
+1-149	849-852	SNS	ORG	3 - Nevtralno	*->13-1	*[13]	
+1-150	853-854	,	_	_	_	_	
+1-151	855-860	Zares	ORG	3 - Nevtralno	*->14-1	*[14]	
+1-152	861-863	in	_	_	_	_	
+1-153	864-869	DeSUS	ORG	3 - Nevtralno	*->15-1	*[15]	
+1-154	870-871	.	_	_	_	_	
+1-155	872-873	V	_	_	_	_	
+1-156	874-877	SDS	ORG	3 - Nevtralno	*->16-1	*[16]	
+1-157	878-885	njegove	_	_	_	_	
+1-158	886-895	izvolitve	_	_	_	_	
+1-159	896-898	ne	_	_	_	_	
+1-160	899-903	bodo	_	_	_	_	
+1-161	904-911	podprli	_	_	_	_	
+1-162	912-913	,	_	_	_	_	
+1-163	914-924	nepovezani	_	_	_	_	
+1-164	925-933	poslanci	_	_	_	_	
+1-165	934-936	in	_	_	_	_	
+1-166	937-945	poslanci	_	_	_	_	
+1-167	946-949	SLS	ORG	3 - Nevtralno	*->17-1	*[17]	
+1-168	950-952	pa	_	_	_	_	
+1-169	953-957	bodo	_	_	_	_	
+1-170	958-959	o	_	_	_	_	
+1-171	960-963	tem	_	_	_	_	
+1-172	964-972	odločali	_	_	_	_	
+1-173	973-974	v	_	_	_	_	
+1-174	975-980	torek	_	_	_	_	
+1-175	981-982	.	_	_	_	_	
+1-176	983-987	Tako	_	_	_	_	
+1-177	988-993	lahko	_	_	_	_	
+1-178	994-1000	Germič	PER	_	*->6-6	*[6]	
+1-179	1001-1003	že	_	_	_	_	
+1-180	1004-1009	sedaj	_	_	_	_	
+1-181	1010-1016	računa	_	_	_	_	
+1-182	1017-1019	na	_	_	_	_	
+1-183	1020-1022	50	_	_	_	_	
+1-184	1023-1029	glasov	_	_	_	_	
+1-185	1030-1037	podpore	_	_	_	_	
+1-186	1038-1039	,	_	_	_	_	
+1-187	1040-1042	za	_	_	_	_	
+1-188	1043-1052	izvolitev	_	_	_	_	
+1-189	1053-1056	jih	_	_	_	_	
+1-190	1057-1066	potrebuje	_	_	_	_	
+1-191	1067-1069	46	_	_	_	_	
+1-192	1070-1071	.	_	_	_	_	
+1-193	1072-1073	(	_	_	_	_	
+1-194	1074-1077	STA	ORG	3 - Nevtralno	*->18-1	*[18]	
+1-195	1078-1079	)	_	_	_	_	
+1-196	1080-1084	Tako	_	_	_	_	
+1-197	1085-1086	v	_	_	_	_	
+1-198	1087-1089	SD	ORG	3 - Nevtralno	*->2-3	*[2]	
+1-199	1090-1093	kot	_	_	_	_	
+1-200	1094-1097	LDS	ORG	_	*->4-3	*[4]	
+1-201	1098-1104	menijo	_	_	_	_	
+1-202	1105-1106	,	_	_	_	_	
+1-203	1107-1109	da	_	_	_	_	
+1-204	1110-1112	so	_	_	_	_	
+1-205	1113-1123	predlagali	_	_	_	_	
+1-206	1124-1131	dobrega	_	_	_	_	
+1-207	1132-1141	kandidata	_	_	_	_	
+1-208	1142-1143	,	_	_	_	_	
+1-209	1144-1146	ki	_	_	_	_	
+1-210	1147-1149	bo	_	_	_	_	
+1-211	1150-1160	kvalitetno	_	_	_	_	
+1-212	1161-1166	vodil	_	_	_	_	
+1-213	1167-1171	delo	_	_	_	_	
+1-214	1172-1182	parlamenta	ORG	_	*->19-1	*[19]	
+1-215	1183-1184	.	_	_	_	_	
+1-216	1185-1190	Borut	PER[12]	_	*->20-1	*[20]	
+1-217	1191-1198	Sajovic	PER[12]	_	*->20-1	*[20]	
+1-218	1199-1200	,	_	_	_	_	
+1-219	1201-1206	vodja	_	3 - Nevtralno[21]	*->20-2	*[20]	
+1-220	1207-1216	poslanske	_	3 - Nevtralno[21]	*->20-2|*->4-4	*[20]|*[4]	
+1-221	1217-1224	skupine	_	3 - Nevtralno[21]	*->20-2|*->4-4	*[20]|*[4]	
+1-222	1225-1228	LDS	ORG	3 - Nevtralno[21]	*->20-2|*->4-4	*[20]|*[4]	
+1-223	1229-1231	je	_	_	_	_	
+1-224	1232-1237	dejal	_	_	_	_	
+1-225	1238-1239	,	_	_	_	_	
+1-226	1240-1242	da	_	_	_	_	
+1-227	1243-1245	si	_	_	_	_	
+1-228	1246-1252	odhoda	_	_	_	_	
+1-229	1253-1263	aktualnega	_	_	*->12-2	*[12]	
+1-230	1264-1275	predsednika	_	_	*->12-2	*[12]	
+1-231	1276-1281	sicer	_	_	_	_	
+1-232	1282-1286	niso	_	_	_	_	
+1-233	1287-1293	želeli	_	_	_	_	
+1-234	1294-1295	.	_	_	_	_	
+1-235	1296-1301	Ljubo	PER[13]	_	*->6-7	*[6]	
+1-236	1302-1308	Germič	PER[13]	_	*->6-7	*[6]	
+1-237	1309-1314	sicer	_	_	_	_	
+1-238	1315-1322	prihaja	_	_	_	_	
+1-239	1323-1325	iz	_	_	_	_	
+1-240	1326-1329	Ruš	LOC	3 - Nevtralno	*->21-1	*[21]	
+1-241	1330-1331	,	_	_	_	_	
+1-242	1332-1334	po	_	_	_	_	
+1-243	1335-1344	izobrazbi	_	_	_	_	
+1-244	1345-1347	pa	_	_	_	_	
+1-245	1348-1350	je	_	_	_	_	
+1-246	1351-1364	univerzitetni	_	_	*->6-8	*[6]	
+1-247	1365-1376	diplomirani	_	_	*->6-8	*[6]	
+1-248	1377-1384	inženir	_	_	*->6-8	*[6]	
+1-249	1385-1391	kemije	_	_	*->6-8	*[6]	
+1-250	1392-1394	in	_	_	*->6-8	*[6]	
+1-251	1395-1403	kemijske	_	_	*->6-8	*[6]	
+1-252	1404-1415	tehnologije	_	_	*->6-8	*[6]	
+1-253	1416-1417	.	_	_	_	_	
+1-254	1418-1427	Slovenijo	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-255	1428-1430	je	_	_	*->6-9	*[6]	
+1-256	1431-1432	v	_	_	_	_	
+1-257	1433-1435	EU	LOC	_	*->23-1	*[23]	
+1-258	1436-1444	zastopal	_	_	_	_	
+1-259	1445-1449	pred	_	_	_	_	
+1-260	1450-1457	vstopom	_	_	_	_	
+1-261	1458-1459	v	_	_	_	_	
+1-262	1460-1462	EU	LOC	_	*->23-2	*[23]	
+1-263	1463-1464	,	_	_	_	_	
+1-264	1465-1468	kot	_	_	_	_	
+1-265	1469-1479	opazovalec	_	_	_	_	
+1-266	1480-1481	,	_	_	_	_	
+1-267	1482-1484	po	_	_	_	_	
+1-268	1485-1491	vstopu	_	_	_	_	
+1-269	1492-1493	v	_	_	_	_	
+1-270	1494-1496	EU	LOC	3 - Nevtralno	*->23-3	*[23]	
+1-271	1497-1499	mu	_	_	_	_	
+1-272	1500-1502	je	_	_	_	_	
+1-273	1503-1511	pripadla	_	_	_	_	
+1-274	1512-1518	naloga	_	_	_	_	
+1-275	1519-1525	prvega	_	_	*->6-10	*[6]	
+1-276	1526-1537	predsednika	_	_	*->6-10	*[6]	
+1-277	1538-1544	odbora	_	_	*->6-10	*[6]	
+1-278	1545-1547	za	_	_	*->6-10	*[6]	
+1-279	1548-1556	evropske	_	_	*->6-10	*[6]	
+1-280	1557-1563	zadeve	_	_	*->6-10	*[6]	
+1-281	1564-1565	v	_	_	*->6-10	*[6]	
+1-282	1566-1576	slovenskem	_	_	*->6-10	*[6]	
+1-283	1577-1587	parlamentu	ORG	3 - Nevtralno	*->6-10|*->19-2	*[6]|*[19]	
+1-284	1588-1589	.	_	_	_	_	
+1-285	1590-1598	Trenutno	_	_	_	_	
+1-286	1599-1603	vodi	_	_	*->6-11	*[6]	
+1-287	1604-1609	odbor	_	_	_	_	
+1-288	1610-1612	za	_	_	_	_	
+1-289	1613-1622	zdravstvo	_	_	_	_	
+1-290	1623-1625	in	_	_	_	_	
+1-291	1626-1628	je	_	_	_	_	
+1-292	1629-1633	tudi	_	_	_	_	
+1-293	1634-1643	namestnik	_	3 - Nevtralno[22]	*->6-12	*[6]	
+1-294	1644-1649	vodje	_	3 - Nevtralno[22]	*->6-12	*[6]	
+1-295	1650-1661	poslanskega	_	3 - Nevtralno[22]|3 - Nevtralno[23]	*->6-12|*->4-5	*[6]|*[4]	
+1-296	1662-1667	kluba	_	3 - Nevtralno[22]|3 - Nevtralno[23]	*->6-12|*->4-5	*[6]|*[4]	
+1-297	1668-1671	LDS	ORG	3 - Nevtralno[22]|3 - Nevtralno[23]	*->6-12|*->4-5	*[6]|*[4]	

@@ -1,0 +1,542 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Iskratel je včeraj objavil partnerstvo z ameriškim podjetjem Acme Packet . Iskratel bo tako z novim partnerstvom pridobil dostop do vrhunske telekomunikacijske opreme , kupcem in partnerjem pa bo tako lahko ponudil povezljive in celovite rešitve v omrežjih prihodnje generacije . S sklenitvijo partnerstva je Iskratel že začel intenzivno tržiti izdelke podjetja Acme Packet v okviru lastnih rešitev.Helios kupil podjetje Avrora Predsednik uprave Heliosa Domžale Uroš Slavinec je v torek v Ukrajini podpisal pogodbo , s katero je Helios postal lastnik tovarne premazov Avrora . Tako je Helios pridobil novo proizvodno lokacijo , in sicer poleg obstoječih v Sloveniji , na Hrvaškem , v Srbiji in Rusiji . Ocenjujemo , da bo podjetje Avrora letos ustvarilo 4,8 milijona evrov prihodka , Helios pa bo v vsej Ukrajini ustvaril prihodke v višini 10 milijonov evrov . Ljubljanska borza bo letos več kot podvojila dobiček Na včerajšnji seji nadzornega sveta Ljubljanske borze so člani poleg tekočih zadev obravnavali in sprejeli tudi oceno finančnega poslovanja v letošnjem letu . Celotni prihodki so se glede na lansko leto povečali za 31,6 odstotkov , in znašajo 4,76 milijona evrov . Največji delež predstavljajo prihodki iz naslova borznih provizij , ki so višji za 79,7 odstotkov glede na lansko leto . Letošnji bruto dobiček naj bi predvidoma znašal 1,88 milijona evrov , kar pomeni 127 - odstotno rast v primerjavi z lanskim.Adriatic Slovenica ustvaril 250 milijonov evrov premij Zavarovalnica Adriatic Slovenica je v prvih desetih mesecih zbrala 207 milijonov evrov premij , skupni znesek izplačanih zavarovalnin in odškodnin pa je znašal 141 milijonov evrov . Predsednik uprave koprske zavarovalnice Gabrijel Škof je včeraj na novinarski konferenci napovedal , da bodo v letošnjem letu , ki so ga zaznamovale nekatere večje škode , zagotovo dosegli cilj , ki je zbrati četrt milijarde evrov premij.Center Naložbe z novim članom v nadzornem svetu V Centru Naložbe so včeraj na skupščini delničarjev zaradi odstopa Janez Škoberneta s funkcije člana nadzornega sveta imenovali novega člana nadzornega sveta . Za člana nadzornega sveta so imenovali Marjana Kovača za mandatno obdobje od danes do vključno 30 . avgusta 2011 . Krka prejela priznanje za poslovno odličnost Krka je včeraj na slovesni podelitvi prejela priznanje Republike Slovenije ( RS ) za poslovno odličnost ( PRSPO ) v letošnjem letu . Najvišje državno priznanje RS na področju kakovosti je predsednik odbora za priznanja RS za poslovno odličnost in minister za gospodarstvo Andrej Vizjak v imenu predsednika vlade RS podelil predsedniku uprave in generalnemu direktorju Krke Jožetu Colariču.Največja slovenska sončna elektrarna včeraj začela z obratovanjem Z obratovanjem je včeraj začela največja fotonapetostna elektrarna v Sloveniji , nameščena na strehi Biotehniškega centra Strahinj . Elektrarno sestavlja 394 fotocelic , katerih skupna moč znaša 83 kilovatov . Predvidena letna proizvodnja električne energije naj bi znašala 85.000 kilovatnih ur , kar zadošča za potrebe približno 28 gospodinjstev.Veleposlanik BiH na obisku v Skupini Pantiva Na včerajšnjem delovnem srečanju sta veleposlanik BiH Izmir Talić in predsednik uprave Skupine Panvita Dejan Židan izmenjala informacije o dosedanjem delovanju skupine v BiH in o možnostih ter načrtih za prihodnje sodelovanje . V Panviti so izredno zadovoljni z rastjo prodaje svojih izdelkov na bosanskohercegovskem trgu , želijo pa si še tesnejšega sodelovanja z različnimi partnerji v BiH . Pripravila Irena
+1-1	0-8	Iskratel	ORG	_	*->11-1	*[11]	
+1-2	9-11	je	_	_	_	_	
+1-3	12-18	včeraj	_	_	_	_	
+1-4	19-26	objavil	_	_	_	_	
+1-5	27-38	partnerstvo	_	_	_	_	
+1-6	39-40	z	_	_	_	_	
+1-7	41-50	ameriškim	_	_	*->7-1	*[7]	
+1-8	51-60	podjetjem	_	_	*->7-1	*[7]	
+1-9	61-65	Acme	ORG[1]	_	*->7-1	*[7]	
+1-10	66-72	Packet	ORG[1]	_	*->7-1	*[7]	
+1-11	73-74	.	_	_	_	_	
+1-12	75-83	Iskratel	ORG	_	*->11-2	*[11]	
+1-13	84-86	bo	_	_	_	_	
+1-14	87-91	tako	_	_	_	_	
+1-15	92-93	z	_	_	_	_	
+1-16	94-99	novim	_	_	_	_	
+1-17	100-112	partnerstvom	_	_	_	_	
+1-18	113-121	pridobil	_	_	_	_	
+1-19	122-128	dostop	_	_	_	_	
+1-20	129-131	do	_	_	_	_	
+1-21	132-140	vrhunske	_	_	_	_	
+1-22	141-159	telekomunikacijske	_	_	_	_	
+1-23	160-166	opreme	_	_	_	_	
+1-24	167-168	,	_	_	_	_	
+1-25	169-175	kupcem	_	_	_	_	
+1-26	176-178	in	_	_	_	_	
+1-27	179-189	partnerjem	_	_	_	_	
+1-28	190-192	pa	_	_	_	_	
+1-29	193-195	bo	_	_	_	_	
+1-30	196-200	tako	_	_	_	_	
+1-31	201-206	lahko	_	_	_	_	
+1-32	207-214	ponudil	_	_	*->11-3	*[11]	
+1-33	215-225	povezljive	_	_	_	_	
+1-34	226-228	in	_	_	_	_	
+1-35	229-237	celovite	_	_	_	_	
+1-36	238-245	rešitve	_	_	_	_	
+1-37	246-247	v	_	_	_	_	
+1-38	248-256	omrežjih	_	_	_	_	
+1-39	257-266	prihodnje	_	_	_	_	
+1-40	267-277	generacije	_	_	_	_	
+1-41	278-279	.	_	_	_	_	
+1-42	280-281	S	_	_	_	_	
+1-43	282-293	sklenitvijo	_	_	_	_	
+1-44	294-305	partnerstva	_	_	_	_	
+1-45	306-308	je	_	_	_	_	
+1-46	309-317	Iskratel	ORG	4 - Pozitivno	*->11-4	*[11]	
+1-47	318-320	že	_	_	_	_	
+1-48	321-326	začel	_	_	_	_	
+1-49	327-337	intenzivno	_	_	_	_	
+1-50	338-344	tržiti	_	_	_	_	
+1-51	345-352	izdelke	_	_	_	_	
+1-52	353-361	podjetja	_	4 - Pozitivno[19]	*->7-2	*[7]	
+1-53	362-366	Acme	ORG[2]	4 - Pozitivno[19]	*->7-2	*[7]	
+1-54	367-373	Packet	ORG[2]	4 - Pozitivno[19]	*->7-2	*[7]	
+1-55	374-375	v	_	_	_	_	
+1-56	376-382	okviru	_	_	_	_	
+1-57	383-390	lastnih	_	_	_	_	
+1-58	391-405	rešitev.Helios	_	_	_	_	
+1-59	406-411	kupil	_	_	_	_	
+1-60	412-420	podjetje	_	_	*->6-1	*[6]	
+1-61	421-427	Avrora	ORG	_	*->6-1	*[6]	
+1-62	428-438	Predsednik	_	4 - Pozitivno[20]	*->20-1	*[20]	
+1-63	439-445	uprave	_	4 - Pozitivno[20]	*->20-1	*[20]	
+1-64	446-453	Heliosa	ORG[3]	4 - Pozitivno[20]|3 - Nevtralno[21]	*->20-1|*->9-1	*[20]|*[9]	
+1-65	454-461	Domžale	ORG[3]|LOC[4]	4 - Pozitivno[20]|3 - Nevtralno[21]|3 - Nevtralno[22]	*->20-1|*->9-1|*->22-1	*[20]|*[9]|*[22]	
+1-66	462-466	Uroš	PER[5]	4 - Pozitivno[20]	*->20-1	*[20]	
+1-67	467-475	Slavinec	PER[5]	4 - Pozitivno[20]	*->20-1	*[20]	
+1-68	476-478	je	_	_	_	_	
+1-69	479-480	v	_	_	_	_	
+1-70	481-486	torek	_	_	_	_	
+1-71	487-488	v	_	_	_	_	
+1-72	489-497	Ukrajini	LOC	_	*->27-1	*[27]	
+1-73	498-506	podpisal	_	_	_	_	
+1-74	507-514	pogodbo	_	_	_	_	
+1-75	515-516	,	_	_	_	_	
+1-76	517-518	s	_	_	_	_	
+1-77	519-525	katero	_	_	_	_	
+1-78	526-528	je	_	_	_	_	
+1-79	529-535	Helios	ORG	_	*->9-2	*[9]	
+1-80	536-542	postal	_	_	_	_	
+1-81	543-550	lastnik	_	_	*->9-3	*[9]	
+1-82	551-558	tovarne	_	_	*->9-3	*[9]	
+1-83	559-567	premazov	_	_	*->9-3	*[9]	
+1-84	568-574	Avrora	ORG	_	*->9-3|*->6-2	*[9]|*[6]	
+1-85	575-576	.	_	_	_	_	
+1-86	577-581	Tako	_	_	_	_	
+1-87	582-584	je	_	_	_	_	
+1-88	585-591	Helios	ORG	_	*->9-4	*[9]	
+1-89	592-600	pridobil	_	_	_	_	
+1-90	601-605	novo	_	_	_	_	
+1-91	606-616	proizvodno	_	_	_	_	
+1-92	617-625	lokacijo	_	_	_	_	
+1-93	626-627	,	_	_	_	_	
+1-94	628-630	in	_	_	_	_	
+1-95	631-636	sicer	_	_	_	_	
+1-96	637-642	poleg	_	_	_	_	
+1-97	643-653	obstoječih	_	_	_	_	
+1-98	654-655	v	_	_	_	_	
+1-99	656-665	Sloveniji	LOC	_	*->15-1	*[15]	
+1-100	666-667	,	_	_	_	_	
+1-101	668-670	na	_	_	_	_	
+1-102	671-679	Hrvaškem	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-103	680-681	,	_	_	_	_	
+1-104	682-683	v	_	_	_	_	
+1-105	684-690	Srbiji	LOC	3 - Nevtralno	*->23-1	*[23]	
+1-106	691-693	in	_	_	_	_	
+1-107	694-700	Rusiji	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-108	701-702	.	_	_	_	_	
+1-109	703-713	Ocenjujemo	_	_	_	_	
+1-110	714-715	,	_	_	_	_	
+1-111	716-718	da	_	_	_	_	
+1-112	719-721	bo	_	_	_	_	
+1-113	722-730	podjetje	_	4 - Pozitivno[23]	*->6-3	*[6]	
+1-114	731-737	Avrora	ORG	4 - Pozitivno[23]	*->6-3	*[6]	
+1-115	738-743	letos	_	_	_	_	
+1-116	744-753	ustvarilo	_	_	_	_	
+1-117	754-757	4,8	_	_	_	_	
+1-118	758-766	milijona	_	_	_	_	
+1-119	767-772	evrov	_	_	_	_	
+1-120	773-781	prihodka	_	_	_	_	
+1-121	782-783	,	_	_	_	_	
+1-122	784-790	Helios	ORG	4 - Pozitivno	*->9-5	*[9]	
+1-123	791-793	pa	_	_	_	_	
+1-124	794-796	bo	_	_	_	_	
+1-125	797-798	v	_	_	_	_	
+1-126	799-803	vsej	_	_	_	_	
+1-127	804-812	Ukrajini	LOC	3 - Nevtralno	*->27-2	*[27]	
+1-128	813-821	ustvaril	_	_	_	_	
+1-129	822-830	prihodke	_	_	_	_	
+1-130	831-832	v	_	_	_	_	
+1-131	833-839	višini	_	_	_	_	
+1-132	840-842	10	_	_	_	_	
+1-133	843-852	milijonov	_	_	_	_	
+1-134	853-858	evrov	_	_	_	_	
+1-135	859-860	.	_	_	_	_	
+1-136	861-872	Ljubljanska	ORG[6]	_	*->16-1	*[16]	
+1-137	873-878	borza	ORG[6]	_	*->16-1	*[16]	
+1-138	879-881	bo	_	_	_	_	
+1-139	882-887	letos	_	_	_	_	
+1-140	888-891	več	_	_	_	_	
+1-141	892-895	kot	_	_	_	_	
+1-142	896-905	podvojila	_	_	_	_	
+1-143	906-913	dobiček	_	_	_	_	
+1-144	914-916	Na	_	_	_	_	
+1-145	917-927	včerajšnji	_	_	_	_	
+1-146	928-932	seji	_	_	_	_	
+1-147	933-943	nadzornega	_	_	_	_	
+1-148	944-949	sveta	_	_	_	_	
+1-149	950-961	Ljubljanske	ORG[7]	4 - Pozitivno[24]	*->16-2	*[16]	
+1-150	962-967	borze	ORG[7]	4 - Pozitivno[24]	*->16-2	*[16]	
+1-151	968-970	so	_	_	_	_	
+1-152	971-976	člani	_	_	_	_	
+1-153	977-982	poleg	_	_	_	_	
+1-154	983-990	tekočih	_	_	_	_	
+1-155	991-996	zadev	_	_	_	_	
+1-156	997-1008	obravnavali	_	_	_	_	
+1-157	1009-1011	in	_	_	_	_	
+1-158	1012-1020	sprejeli	_	_	_	_	
+1-159	1021-1025	tudi	_	_	_	_	
+1-160	1026-1031	oceno	_	_	_	_	
+1-161	1032-1042	finančnega	_	_	_	_	
+1-162	1043-1053	poslovanja	_	_	_	_	
+1-163	1054-1055	v	_	_	_	_	
+1-164	1056-1065	letošnjem	_	_	_	_	
+1-165	1066-1070	letu	_	_	_	_	
+1-166	1071-1072	.	_	_	_	_	
+1-167	1073-1080	Celotni	_	_	_	_	
+1-168	1081-1089	prihodki	_	_	_	_	
+1-169	1090-1092	so	_	_	_	_	
+1-170	1093-1095	se	_	_	_	_	
+1-171	1096-1101	glede	_	_	_	_	
+1-172	1102-1104	na	_	_	_	_	
+1-173	1105-1111	lansko	_	_	_	_	
+1-174	1112-1116	leto	_	_	_	_	
+1-175	1117-1125	povečali	_	_	_	_	
+1-176	1126-1128	za	_	_	_	_	
+1-177	1129-1133	31,6	_	_	_	_	
+1-178	1134-1143	odstotkov	_	_	_	_	
+1-179	1144-1145	,	_	_	_	_	
+1-180	1146-1148	in	_	_	_	_	
+1-181	1149-1156	znašajo	_	_	_	_	
+1-182	1157-1161	4,76	_	_	_	_	
+1-183	1162-1170	milijona	_	_	_	_	
+1-184	1171-1176	evrov	_	_	_	_	
+1-185	1177-1178	.	_	_	_	_	
+1-186	1179-1187	Največji	_	_	_	_	
+1-187	1188-1193	delež	_	_	_	_	
+1-188	1194-1207	predstavljajo	_	_	_	_	
+1-189	1208-1216	prihodki	_	_	_	_	
+1-190	1217-1219	iz	_	_	_	_	
+1-191	1220-1227	naslova	_	_	_	_	
+1-192	1228-1235	borznih	_	_	_	_	
+1-193	1236-1244	provizij	_	_	_	_	
+1-194	1245-1246	,	_	_	_	_	
+1-195	1247-1249	ki	_	_	_	_	
+1-196	1250-1252	so	_	_	_	_	
+1-197	1253-1258	višji	_	_	_	_	
+1-198	1259-1261	za	_	_	_	_	
+1-199	1262-1266	79,7	_	_	_	_	
+1-200	1267-1276	odstotkov	_	_	_	_	
+1-201	1277-1282	glede	_	_	_	_	
+1-202	1283-1285	na	_	_	_	_	
+1-203	1286-1292	lansko	_	_	_	_	
+1-204	1293-1297	leto	_	_	_	_	
+1-205	1298-1299	.	_	_	_	_	
+1-206	1300-1308	Letošnji	_	_	_	_	
+1-207	1309-1314	bruto	_	_	_	_	
+1-208	1315-1322	dobiček	_	_	_	_	
+1-209	1323-1326	naj	_	_	_	_	
+1-210	1327-1329	bi	_	_	_	_	
+1-211	1330-1340	predvidoma	_	_	_	_	
+1-212	1341-1347	znašal	_	_	_	_	
+1-213	1348-1352	1,88	_	_	_	_	
+1-214	1353-1361	milijona	_	_	_	_	
+1-215	1362-1367	evrov	_	_	_	_	
+1-216	1368-1369	,	_	_	_	_	
+1-217	1370-1373	kar	_	_	_	_	
+1-218	1374-1380	pomeni	_	_	_	_	
+1-219	1381-1384	127	_	_	_	_	
+1-220	1385-1386	-	_	_	_	_	
+1-221	1387-1395	odstotno	_	_	_	_	
+1-222	1396-1400	rast	_	_	_	_	
+1-223	1401-1402	v	_	_	_	_	
+1-224	1403-1413	primerjavi	_	_	_	_	
+1-225	1414-1415	z	_	_	_	_	
+1-226	1416-1432	lanskim.Adriatic	_	_	_	_	
+1-227	1433-1442	Slovenica	ORG	_	*->2-1	*[2]	
+1-228	1443-1451	ustvaril	_	_	_	_	
+1-229	1452-1455	250	_	_	_	_	
+1-230	1456-1465	milijonov	_	_	_	_	
+1-231	1466-1471	evrov	_	_	_	_	
+1-232	1472-1478	premij	_	_	_	_	
+1-233	1479-1492	Zavarovalnica	_	_	*->2-2	*[2]	
+1-234	1493-1501	Adriatic	ORG[8]	_	*->2-2	*[2]	
+1-235	1502-1511	Slovenica	ORG[8]	_	*->2-2	*[2]	
+1-236	1512-1514	je	_	_	_	_	
+1-237	1515-1516	v	_	_	_	_	
+1-238	1517-1522	prvih	_	_	_	_	
+1-239	1523-1530	desetih	_	_	_	_	
+1-240	1531-1538	mesecih	_	_	_	_	
+1-241	1539-1545	zbrala	_	_	_	_	
+1-242	1546-1549	207	_	_	_	_	
+1-243	1550-1559	milijonov	_	_	_	_	
+1-244	1560-1565	evrov	_	_	_	_	
+1-245	1566-1572	premij	_	_	_	_	
+1-246	1573-1574	,	_	_	_	_	
+1-247	1575-1581	skupni	_	_	_	_	
+1-248	1582-1588	znesek	_	_	_	_	
+1-249	1589-1599	izplačanih	_	_	_	_	
+1-250	1600-1612	zavarovalnin	_	_	_	_	
+1-251	1613-1615	in	_	_	_	_	
+1-252	1616-1625	odškodnin	_	_	_	_	
+1-253	1626-1628	pa	_	_	_	_	
+1-254	1629-1631	je	_	_	_	_	
+1-255	1632-1638	znašal	_	_	_	_	
+1-256	1639-1642	141	_	_	_	_	
+1-257	1643-1652	milijonov	_	_	_	_	
+1-258	1653-1658	evrov	_	_	_	_	
+1-259	1659-1660	.	_	_	_	_	
+1-260	1661-1671	Predsednik	_	4 - Pozitivno[25]	*->8-1	*[8]	
+1-261	1672-1678	uprave	_	4 - Pozitivno[25]	*->8-1	*[8]	
+1-262	1679-1686	koprske	_	4 - Pozitivno[25]	*->8-1|*->2-3	*[8]|*[2]	
+1-263	1687-1700	zavarovalnice	_	4 - Pozitivno[25]	*->8-1|*->2-3	*[8]|*[2]	
+1-264	1701-1709	Gabrijel	PER[9]	4 - Pozitivno[25]	*->8-1	*[8]	
+1-265	1710-1714	Škof	PER[9]	4 - Pozitivno[25]	*->8-1	*[8]	
+1-266	1715-1717	je	_	_	_	_	
+1-267	1718-1724	včeraj	_	_	_	_	
+1-268	1725-1727	na	_	_	_	_	
+1-269	1728-1738	novinarski	_	_	_	_	
+1-270	1739-1749	konferenci	_	_	_	_	
+1-271	1750-1759	napovedal	_	_	_	_	
+1-272	1760-1761	,	_	_	_	_	
+1-273	1762-1764	da	_	_	_	_	
+1-274	1765-1769	bodo	_	_	*->2-4	*[2]	
+1-275	1770-1771	v	_	_	_	_	
+1-276	1772-1781	letošnjem	_	_	_	_	
+1-277	1782-1786	letu	_	_	_	_	
+1-278	1787-1788	,	_	_	_	_	
+1-279	1789-1791	ki	_	_	_	_	
+1-280	1792-1794	so	_	_	_	_	
+1-281	1795-1797	ga	_	_	_	_	
+1-282	1798-1809	zaznamovale	_	_	_	_	
+1-283	1810-1818	nekatere	_	_	_	_	
+1-284	1819-1824	večje	_	_	_	_	
+1-285	1825-1830	škode	_	_	_	_	
+1-286	1831-1832	,	_	_	_	_	
+1-287	1833-1841	zagotovo	_	_	_	_	
+1-288	1842-1849	dosegli	_	4 - Pozitivno	*->2-5	*[2]	
+1-289	1850-1854	cilj	_	_	_	_	
+1-290	1855-1856	,	_	_	_	_	
+1-291	1857-1859	ki	_	_	_	_	
+1-292	1860-1862	je	_	_	_	_	
+1-293	1863-1869	zbrati	_	_	_	_	
+1-294	1870-1875	četrt	_	_	_	_	
+1-295	1876-1885	milijarde	_	_	_	_	
+1-296	1886-1891	evrov	_	_	_	_	
+1-297	1892-1905	premij.Center	_	_	_	_	
+1-298	1906-1913	Naložbe	ORG	_	*->10-1	*[10]	
+1-299	1914-1915	z	_	_	_	_	
+1-300	1916-1921	novim	_	_	_	_	
+1-301	1922-1928	članom	_	_	_	_	
+1-302	1929-1930	v	_	_	_	_	
+1-303	1931-1940	nadzornem	_	_	_	_	
+1-304	1941-1946	svetu	_	_	_	_	
+1-305	1947-1948	V	_	_	_	_	
+1-306	1949-1955	Centru	ORG[10]	3 - Nevtralno[26]	*->10-2	*[10]	
+1-307	1956-1963	Naložbe	ORG[10]	3 - Nevtralno[26]	*->10-2	*[10]	
+1-308	1964-1966	so	_	_	_	_	
+1-309	1967-1973	včeraj	_	_	_	_	
+1-310	1974-1976	na	_	_	_	_	
+1-311	1977-1986	skupščini	_	_	_	_	
+1-312	1987-1998	delničarjev	_	_	_	_	
+1-313	1999-2005	zaradi	_	_	_	_	
+1-314	2006-2013	odstopa	_	_	_	_	
+1-315	2014-2019	Janez	PER[11]	_	*->21-1	*[21]	
+1-316	2020-2030	Škoberneta	PER[11]	_	*->21-1	*[21]	
+1-317	2031-2032	s	_	_	_	_	
+1-318	2033-2041	funkcije	_	_	_	_	
+1-319	2042-2047	člana	_	2 - Negativno[27]	*->21-2	*[21]	
+1-320	2048-2058	nadzornega	_	2 - Negativno[27]	*->21-2	*[21]	
+1-321	2059-2064	sveta	_	2 - Negativno[27]	*->21-2	*[21]	
+1-322	2065-2074	imenovali	_	_	_	_	
+1-323	2075-2081	novega	_	_	*->12-1	*[12]	
+1-324	2082-2087	člana	_	_	*->12-1	*[12]	
+1-325	2088-2098	nadzornega	_	_	*->12-1	*[12]	
+1-326	2099-2104	sveta	_	_	*->12-1	*[12]	
+1-327	2105-2106	.	_	_	_	_	
+1-328	2107-2109	Za	_	_	_	_	
+1-329	2110-2115	člana	_	_	*->12-2	*[12]	
+1-330	2116-2126	nadzornega	_	_	*->12-2	*[12]	
+1-331	2127-2132	sveta	_	_	*->12-2	*[12]	
+1-332	2133-2135	so	_	_	_	_	
+1-333	2136-2145	imenovali	_	_	_	_	
+1-334	2146-2153	Marjana	PER[12]	4 - Pozitivno[28]	*->12-3	*[12]	
+1-335	2154-2160	Kovača	PER[12]	4 - Pozitivno[28]	*->12-3	*[12]	
+1-336	2161-2163	za	_	_	_	_	
+1-337	2164-2172	mandatno	_	_	_	_	
+1-338	2173-2180	obdobje	_	_	_	_	
+1-339	2181-2183	od	_	_	_	_	
+1-340	2184-2189	danes	_	_	_	_	
+1-341	2190-2192	do	_	_	_	_	
+1-342	2193-2201	vključno	_	_	_	_	
+1-343	2202-2204	30	_	_	_	_	
+1-344	2205-2206	.	_	_	_	_	
+1-345	2207-2214	avgusta	_	_	_	_	
+1-346	2215-2219	2011	_	_	_	_	
+1-347	2220-2221	.	_	_	_	_	
+1-348	2222-2226	Krka	ORG	_	*->13-1	*[13]	
+1-349	2227-2234	prejela	_	_	_	_	
+1-350	2235-2244	priznanje	_	_	_	_	
+1-351	2245-2247	za	_	_	_	_	
+1-352	2248-2256	poslovno	_	_	_	_	
+1-353	2257-2266	odličnost	_	_	_	_	
+1-354	2267-2271	Krka	ORG	_	*->13-2	*[13]	
+1-355	2272-2274	je	_	_	_	_	
+1-356	2275-2281	včeraj	_	_	_	_	
+1-357	2282-2284	na	_	_	_	_	
+1-358	2285-2293	slovesni	_	_	_	_	
+1-359	2294-2303	podelitvi	_	_	_	_	
+1-360	2304-2311	prejela	_	_	_	_	
+1-361	2312-2321	priznanje	_	_	_	_	
+1-362	2322-2331	Republike	ORG[13]	_	*->15-2	*[15]	
+1-363	2332-2341	Slovenije	ORG[13]	_	*->15-2	*[15]	
+1-364	2342-2343	(	_	_	_	_	
+1-365	2344-2346	RS	LOC	_	*->15-3	*[15]	
+1-366	2347-2348	)	_	_	_	_	
+1-367	2349-2351	za	_	_	_	_	
+1-368	2352-2360	poslovno	_	_	_	_	
+1-369	2361-2370	odličnost	_	_	_	_	
+1-370	2371-2372	(	_	_	_	_	
+1-371	2373-2378	PRSPO	_	_	_	_	
+1-372	2379-2380	)	_	_	_	_	
+1-373	2381-2382	v	_	_	_	_	
+1-374	2383-2392	letošnjem	_	_	_	_	
+1-375	2393-2397	letu	_	_	_	_	
+1-376	2398-2399	.	_	_	_	_	
+1-377	2400-2408	Najvišje	_	_	_	_	
+1-378	2409-2416	državno	_	_	_	_	
+1-379	2417-2426	priznanje	_	_	_	_	
+1-380	2427-2429	RS	LOC	_	*->15-4	*[15]	
+1-381	2430-2432	na	_	_	_	_	
+1-382	2433-2441	področju	_	_	_	_	
+1-383	2442-2451	kakovosti	_	_	_	_	
+1-384	2452-2454	je	_	_	_	_	
+1-385	2455-2465	predsednik	_	_	*->24-1	*[24]	
+1-386	2466-2472	odbora	_	_	*->24-1	*[24]	
+1-387	2473-2475	za	_	_	*->24-1	*[24]	
+1-388	2476-2485	priznanja	_	_	*->24-1	*[24]	
+1-389	2486-2488	RS	LOC	_	*->24-1|*->15-5	*[24]|*[15]	
+1-390	2489-2491	za	_	_	*->24-1	*[24]	
+1-391	2492-2500	poslovno	_	_	*->24-1	*[24]	
+1-392	2501-2510	odličnost	_	_	*->24-1	*[24]	
+1-393	2511-2513	in	_	_	_	_	
+1-394	2514-2522	minister	_	3 - Nevtralno[29]	*->24-2	*[24]	
+1-395	2523-2525	za	_	3 - Nevtralno[29]	*->24-2	*[24]	
+1-396	2526-2538	gospodarstvo	_	3 - Nevtralno[29]	*->24-2	*[24]	
+1-397	2539-2545	Andrej	PER[14]	3 - Nevtralno[29]	*->24-2	*[24]	
+1-398	2546-2552	Vizjak	PER[14]	3 - Nevtralno[29]	*->24-2	*[24]	
+1-399	2553-2554	v	_	_	_	_	
+1-400	2555-2560	imenu	_	_	_	_	
+1-401	2561-2572	predsednika	_	_	_	_	
+1-402	2573-2578	vlade	_	_	_	_	
+1-403	2579-2581	RS	LOC	_	*->15-6	*[15]	
+1-404	2582-2589	podelil	_	_	_	_	
+1-405	2590-2601	predsedniku	_	_	*->26-1	*[26]	
+1-406	2602-2608	uprave	_	_	*->26-1	*[26]	
+1-407	2609-2611	in	_	_	_	_	
+1-408	2612-2623	generalnemu	_	5 - Zelo pozitivno[30]	*->26-2	*[26]	
+1-409	2624-2634	direktorju	_	5 - Zelo pozitivno[30]	*->26-2	*[26]	
+1-410	2635-2639	Krke	ORG	5 - Zelo pozitivno[30]|5 - Zelo pozitivno[31]	*->26-2|*->13-3	*[26]|*[13]	
+1-411	2640-2646	Jožetu	PER	5 - Zelo pozitivno[30]	*->26-2	*[26]	
+1-412	2647-2664	Colariču.Največja	_	_	_	_	
+1-413	2665-2674	slovenska	_	_	_	_	
+1-414	2675-2681	sončna	_	_	_	_	
+1-415	2682-2692	elektrarna	_	_	_	_	
+1-416	2693-2699	včeraj	_	_	_	_	
+1-417	2700-2706	začela	_	_	_	_	
+1-418	2707-2708	z	_	_	_	_	
+1-419	2709-2721	obratovanjem	_	_	_	_	
+1-420	2722-2723	Z	_	_	_	_	
+1-421	2724-2736	obratovanjem	_	_	_	_	
+1-422	2737-2739	je	_	_	_	_	
+1-423	2740-2746	včeraj	_	_	_	_	
+1-424	2747-2753	začela	_	_	_	_	
+1-425	2754-2762	največja	_	_	_	_	
+1-426	2763-2777	fotonapetostna	_	_	_	_	
+1-427	2778-2788	elektrarna	_	_	_	_	
+1-428	2789-2790	v	_	_	_	_	
+1-429	2791-2800	Sloveniji	LOC	3 - Nevtralno	*->15-7	*[15]	
+1-430	2801-2802	,	_	_	_	_	
+1-431	2803-2812	nameščena	_	_	_	_	
+1-432	2813-2815	na	_	_	_	_	
+1-433	2816-2822	strehi	_	_	_	_	
+1-434	2823-2836	Biotehniškega	ORG[15]	4 - Pozitivno[32]	*->14-1	*[14]	
+1-435	2837-2843	centra	ORG[15]	4 - Pozitivno[32]	*->14-1	*[14]	
+1-436	2844-2852	Strahinj	ORG[15]|LOC[16]	4 - Pozitivno[32]|3 - Nevtralno[33]	*->14-1|*->4-1	*[14]|*[4]	
+1-437	2853-2854	.	_	_	_	_	
+1-438	2855-2865	Elektrarno	_	_	_	_	
+1-439	2866-2875	sestavlja	_	_	_	_	
+1-440	2876-2879	394	_	_	_	_	
+1-441	2880-2889	fotocelic	_	_	_	_	
+1-442	2890-2891	,	_	_	_	_	
+1-443	2892-2899	katerih	_	_	_	_	
+1-444	2900-2906	skupna	_	_	_	_	
+1-445	2907-2910	moč	_	_	_	_	
+1-446	2911-2916	znaša	_	_	_	_	
+1-447	2917-2919	83	_	_	_	_	
+1-448	2920-2929	kilovatov	_	_	_	_	
+1-449	2930-2931	.	_	_	_	_	
+1-450	2932-2942	Predvidena	_	_	_	_	
+1-451	2943-2948	letna	_	_	_	_	
+1-452	2949-2960	proizvodnja	_	_	_	_	
+1-453	2961-2971	električne	_	_	_	_	
+1-454	2972-2980	energije	_	_	_	_	
+1-455	2981-2984	naj	_	_	_	_	
+1-456	2985-2987	bi	_	_	_	_	
+1-457	2988-2995	znašala	_	_	_	_	
+1-458	2996-3002	85.000	_	_	_	_	
+1-459	3003-3013	kilovatnih	_	_	_	_	
+1-460	3014-3016	ur	_	_	_	_	
+1-461	3017-3018	,	_	_	_	_	
+1-462	3019-3022	kar	_	_	_	_	
+1-463	3023-3030	zadošča	_	_	_	_	
+1-464	3031-3033	za	_	_	_	_	
+1-465	3034-3041	potrebe	_	_	_	_	
+1-466	3042-3051	približno	_	_	_	_	
+1-467	3052-3054	28	_	_	_	_	
+1-468	3055-3081	gospodinjstev.Veleposlanik	_	_	_	_	
+1-469	3082-3085	BiH	LOC	_	*->19-1	*[19]	
+1-470	3086-3088	na	_	_	_	_	
+1-471	3089-3095	obisku	_	_	_	_	
+1-472	3096-3097	v	_	_	_	_	
+1-473	3098-3105	Skupini	_	_	*->25-1	*[25]	
+1-474	3106-3113	Pantiva	ORG	_	*->25-1	*[25]	
+1-475	3114-3116	Na	_	_	_	_	
+1-476	3117-3128	včerajšnjem	_	_	_	_	
+1-477	3129-3137	delovnem	_	_	_	_	
+1-478	3138-3146	srečanju	_	_	_	_	
+1-479	3147-3150	sta	_	_	_	_	
+1-480	3151-3163	veleposlanik	_	3 - Nevtralno[34]	*->3-1	*[3]	
+1-481	3164-3167	BiH	LOC	3 - Nevtralno[34]	*->3-1|*->19-2	*[3]|*[19]	
+1-482	3168-3173	Izmir	PER[17]	3 - Nevtralno[34]	*->3-1	*[3]	
+1-483	3174-3179	Talić	PER[17]	3 - Nevtralno[34]	*->3-1	*[3]	
+1-484	3180-3182	in	_	_	_	_	
+1-485	3183-3193	predsednik	_	3 - Nevtralno[35]	*->17-1	*[17]	
+1-486	3194-3200	uprave	_	3 - Nevtralno[35]	*->17-1	*[17]	
+1-487	3201-3208	Skupine	_	3 - Nevtralno[35]	*->17-1|*->25-2	*[17]|*[25]	
+1-488	3209-3216	Panvita	ORG	3 - Nevtralno[35]	*->17-1|*->25-2	*[17]|*[25]	
+1-489	3217-3222	Dejan	PER[18]	3 - Nevtralno[35]	*->17-1	*[17]	
+1-490	3223-3228	Židan	PER[18]	3 - Nevtralno[35]	*->17-1	*[17]	
+1-491	3229-3238	izmenjala	_	_	_	_	
+1-492	3239-3250	informacije	_	_	_	_	
+1-493	3251-3252	o	_	_	_	_	
+1-494	3253-3263	dosedanjem	_	_	_	_	
+1-495	3264-3273	delovanju	_	_	_	_	
+1-496	3274-3281	skupine	_	_	*->25-3	*[25]	
+1-497	3282-3283	v	_	_	_	_	
+1-498	3284-3287	BiH	LOC	_	*->19-3	*[19]	
+1-499	3288-3290	in	_	_	_	_	
+1-500	3291-3292	o	_	_	_	_	
+1-501	3293-3302	možnostih	_	_	_	_	
+1-502	3303-3306	ter	_	_	_	_	
+1-503	3307-3314	načrtih	_	_	_	_	
+1-504	3315-3317	za	_	_	_	_	
+1-505	3318-3327	prihodnje	_	_	_	_	
+1-506	3328-3339	sodelovanje	_	_	_	_	
+1-507	3340-3341	.	_	_	_	_	
+1-508	3342-3343	V	_	_	_	_	
+1-509	3344-3351	Panviti	ORG	_	*->25-4	*[25]	
+1-510	3352-3354	so	_	_	_	_	
+1-511	3355-3362	izredno	_	_	_	_	
+1-512	3363-3373	zadovoljni	_	_	_	_	
+1-513	3374-3375	z	_	_	_	_	
+1-514	3376-3382	rastjo	_	_	_	_	
+1-515	3383-3390	prodaje	_	_	_	_	
+1-516	3391-3397	svojih	_	_	_	_	
+1-517	3398-3406	izdelkov	_	_	_	_	
+1-518	3407-3409	na	_	_	_	_	
+1-519	3410-3430	bosanskohercegovskem	_	_	_	_	
+1-520	3431-3435	trgu	_	_	_	_	
+1-521	3436-3437	,	_	_	_	_	
+1-522	3438-3444	želijo	_	4 - Pozitivno	*->25-5	*[25]	
+1-523	3445-3447	pa	_	_	_	_	
+1-524	3448-3450	si	_	_	_	_	
+1-525	3451-3453	še	_	_	_	_	
+1-526	3454-3464	tesnejšega	_	_	_	_	
+1-527	3465-3476	sodelovanja	_	_	_	_	
+1-528	3477-3478	z	_	_	_	_	
+1-529	3479-3489	različnimi	_	_	_	_	
+1-530	3490-3499	partnerji	_	_	_	_	
+1-531	3500-3501	v	_	_	_	_	
+1-532	3502-3505	BiH	LOC	4 - Pozitivno	*->19-4	*[19]	
+1-533	3506-3507	.	_	_	_	_	
+1-534	3508-3518	Pripravila	_	_	_	_	
+1-535	3519-3524	Irena	PER	3 - Nevtralno	*->18-1	*[18]	

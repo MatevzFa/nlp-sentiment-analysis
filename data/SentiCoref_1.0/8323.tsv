@@ -1,0 +1,213 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Zunanji minister Rupel na Brdu pri Kranju gosti zunanje ministre Velike Britanije , Francije , Nemčije in Italije . Preučili naj bi najnovejši razvoj v razpravi o Kosovu . Sestanka slovenskega predsedstva s člani kontaktne skupine iz EU se bodo udeležili zunanji ministri Velike Britanije , Francije , Nemčije in Italije , ki se jim bosta pridružila tudi komisar za širitev Olli Rehn in visoki zunanjepolitični predstavnik EU Javier Solana . Kot so sporočili z MZZ , bo slovenski zunanji minister in predsedujoči Svetu za splošne zadeve in zunanje odnose Dimitrij Rupel tako gostil zunanje ministre Velike Britanije Davida Millibanda , Francije Bernarda Kouchnerja , Nemčije Franka - Walterja Steinmeierja in Italije Massima D'Alemo . Srečanje bo potekalo za tesno zaprtimi vrati , predvidena pa nista niti čas za fotografiranje niti izjava za javnost . Prebojnih odločitev ni pričakovati Na srečanju bodo preučili najnovejši razvoj v razpravi o Kosovu , vendar prebojnih odločitev ni pričakovati , so pred dnevi pojasnili diplomatski viri v Bruslju . Po pričakovanjih naj bi ministri sicer govorili predvsem o tem , kdaj naj bi se EU odločila o napotitvi svoje civilne misije na Kosovo , ki pa ji Beograd ostro nasprotuje . Politično odločitev o tem je Unija sprejela decembra lani
+1-1	0-7	Zunanji	_	_	*->8-1	*[8]	
+1-2	8-16	minister	_	_	*->8-1	*[8]	
+1-3	17-22	Rupel	PER	_	*->8-1	*[8]	
+1-4	23-25	na	_	_	_	_	
+1-5	26-30	Brdu	LOC[1]	3 - Nevtralno[14]	*->1-1	*[1]	
+1-6	31-34	pri	LOC[1]	3 - Nevtralno[14]	*->1-1	*[1]	
+1-7	35-41	Kranju	LOC[1]|LOC[2]	3 - Nevtralno[14]|3 - Nevtralno[15]	*->1-1|*->2-1	*[1]|*[2]	
+1-8	42-47	gosti	_	_	_	_	
+1-9	48-55	zunanje	_	_	_	_	
+1-10	56-64	ministre	_	_	_	_	
+1-11	65-71	Velike	LOC[3]	_	*->10-1	*[10]	
+1-12	72-81	Britanije	LOC[3]	_	*->10-1	*[10]	
+1-13	82-83	,	_	_	_	_	
+1-14	84-92	Francije	LOC	_	*->11-1	*[11]	
+1-15	93-94	,	_	_	_	_	
+1-16	95-102	Nemčije	LOC	_	*->12-1	*[12]	
+1-17	103-105	in	_	_	_	_	
+1-18	106-113	Italije	LOC	_	*->3-1	*[3]	
+1-19	114-115	.	_	_	_	_	
+1-20	116-124	Preučili	_	_	_	_	
+1-21	125-128	naj	_	_	_	_	
+1-22	129-131	bi	_	_	_	_	
+1-23	132-142	najnovejši	_	_	_	_	
+1-24	143-149	razvoj	_	_	_	_	
+1-25	150-151	v	_	_	_	_	
+1-26	152-160	razpravi	_	_	_	_	
+1-27	161-162	o	_	_	_	_	
+1-28	163-169	Kosovu	LOC	_	*->4-1	*[4]	
+1-29	170-171	.	_	_	_	_	
+1-30	172-180	Sestanka	_	_	_	_	
+1-31	181-192	slovenskega	_	_	_	_	
+1-32	193-204	predsedstva	_	_	_	_	
+1-33	205-206	s	_	_	_	_	
+1-34	207-212	člani	_	_	_	_	
+1-35	213-222	kontaktne	_	_	_	_	
+1-36	223-230	skupine	_	_	_	_	
+1-37	231-233	iz	_	_	_	_	
+1-38	234-236	EU	LOC	_	*->19-1	*[19]	
+1-39	237-239	se	_	_	_	_	
+1-40	240-244	bodo	_	_	_	_	
+1-41	245-254	udeležili	_	_	_	_	
+1-42	255-262	zunanji	_	_	_	_	
+1-43	263-271	ministri	_	_	_	_	
+1-44	272-278	Velike	LOC[4]	_	*->10-2	*[10]	
+1-45	279-288	Britanije	LOC[4]	_	*->10-2	*[10]	
+1-46	289-290	,	_	_	_	_	
+1-47	291-299	Francije	LOC	_	*->11-2	*[11]	
+1-48	300-301	,	_	_	_	_	
+1-49	302-309	Nemčije	LOC	_	*->12-2	*[12]	
+1-50	310-312	in	_	_	_	_	
+1-51	313-320	Italije	LOC	_	*->3-2	*[3]	
+1-52	321-322	,	_	_	_	_	
+1-53	323-325	ki	_	_	_	_	
+1-54	326-328	se	_	_	_	_	
+1-55	329-332	jim	_	_	_	_	
+1-56	333-338	bosta	_	_	_	_	
+1-57	339-349	pridružila	_	_	_	_	
+1-58	350-354	tudi	_	_	_	_	
+1-59	355-362	komisar	_	3 - Nevtralno[16]	*->5-1	*[5]	
+1-60	363-365	za	_	3 - Nevtralno[16]	*->5-1	*[5]	
+1-61	366-373	širitev	_	3 - Nevtralno[16]	*->5-1	*[5]	
+1-62	374-378	Olli	PER[5]	3 - Nevtralno[16]	*->5-1	*[5]	
+1-63	379-383	Rehn	PER[5]	3 - Nevtralno[16]	*->5-1	*[5]	
+1-64	384-386	in	_	_	_	_	
+1-65	387-393	visoki	_	3 - Nevtralno[17]	*->6-1	*[6]	
+1-66	394-410	zunanjepolitični	_	3 - Nevtralno[17]	*->6-1	*[6]	
+1-67	411-422	predstavnik	_	3 - Nevtralno[17]	*->6-1	*[6]	
+1-68	423-425	EU	LOC	3 - Nevtralno[17]	*->6-1|*->19-2	*[6]|*[19]	
+1-69	426-432	Javier	PER[6]	3 - Nevtralno[17]	*->6-1	*[6]	
+1-70	433-439	Solana	PER[6]	3 - Nevtralno[17]	*->6-1	*[6]	
+1-71	440-441	.	_	_	_	_	
+1-72	442-445	Kot	_	_	_	_	
+1-73	446-448	so	_	_	_	_	
+1-74	449-458	sporočili	_	_	_	_	
+1-75	459-460	z	_	_	_	_	
+1-76	461-464	MZZ	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-77	465-466	,	_	_	_	_	
+1-78	467-469	bo	_	_	_	_	
+1-79	470-479	slovenski	_	3 - Nevtralno[18]	*->8-2	*[8]	
+1-80	480-487	zunanji	_	3 - Nevtralno[18]	*->8-2	*[8]	
+1-81	488-496	minister	_	3 - Nevtralno[18]	*->8-2	*[8]	
+1-82	497-499	in	_	3 - Nevtralno[18]	*->8-2	*[8]	
+1-83	500-512	predsedujoči	_	3 - Nevtralno[18]	*->8-2	*[8]	
+1-84	513-518	Svetu	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->8-2|*->9-1	*[8]|*[9]	
+1-85	519-521	za	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->8-2|*->9-1	*[8]|*[9]	
+1-86	522-529	splošne	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->8-2|*->9-1	*[8]|*[9]	
+1-87	530-536	zadeve	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->8-2|*->9-1	*[8]|*[9]	
+1-88	537-539	in	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->8-2|*->9-1	*[8]|*[9]	
+1-89	540-547	zunanje	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->8-2|*->9-1	*[8]|*[9]	
+1-90	548-554	odnose	ORG[7]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->8-2|*->9-1	*[8]|*[9]	
+1-91	555-563	Dimitrij	PER[8]	3 - Nevtralno[18]	*->8-2	*[8]	
+1-92	564-569	Rupel	PER[8]	3 - Nevtralno[18]	*->8-2	*[8]	
+1-93	570-574	tako	_	_	_	_	
+1-94	575-581	gostil	_	_	_	_	
+1-95	582-589	zunanje	_	_	_	_	
+1-96	590-598	ministre	_	_	_	_	
+1-97	599-605	Velike	LOC[9]	3 - Nevtralno[20]	*->10-3	*[10]	
+1-98	606-615	Britanije	LOC[9]	3 - Nevtralno[20]	*->10-3	*[10]	
+1-99	616-622	Davida	PER[10]	3 - Nevtralno[21]	*->13-1	*[13]	
+1-100	623-633	Millibanda	PER[10]	3 - Nevtralno[21]	*->13-1	*[13]	
+1-101	634-635	,	_	_	_	_	
+1-102	636-644	Francije	LOC	3 - Nevtralno	*->11-3	*[11]	
+1-103	645-653	Bernarda	PER[11]	3 - Nevtralno[22]	*->14-1	*[14]	
+1-104	654-664	Kouchnerja	PER[11]	3 - Nevtralno[22]	*->14-1	*[14]	
+1-105	665-666	,	_	_	_	_	
+1-106	667-674	Nemčije	LOC	3 - Nevtralno	*->12-3	*[12]	
+1-107	675-681	Franka	PER[12]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-108	682-683	-	PER[12]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-109	684-692	Walterja	PER[12]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-110	693-705	Steinmeierja	PER[12]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-111	706-708	in	_	_	_	_	
+1-112	709-716	Italije	LOC	3 - Nevtralno	*->3-3	*[3]	
+1-113	717-724	Massima	PER[13]	3 - Nevtralno[24]	*->16-1	*[16]	
+1-114	725-732	D'Alemo	PER[13]	3 - Nevtralno[24]	*->16-1	*[16]	
+1-115	733-734	.	_	_	_	_	
+1-116	735-743	Srečanje	_	_	_	_	
+1-117	744-746	bo	_	_	_	_	
+1-118	747-755	potekalo	_	_	_	_	
+1-119	756-758	za	_	_	_	_	
+1-120	759-764	tesno	_	_	_	_	
+1-121	765-773	zaprtimi	_	_	_	_	
+1-122	774-779	vrati	_	_	_	_	
+1-123	780-781	,	_	_	_	_	
+1-124	782-792	predvidena	_	_	_	_	
+1-125	793-795	pa	_	_	_	_	
+1-126	796-801	nista	_	_	_	_	
+1-127	802-806	niti	_	_	_	_	
+1-128	807-810	čas	_	_	_	_	
+1-129	811-813	za	_	_	_	_	
+1-130	814-828	fotografiranje	_	_	_	_	
+1-131	829-833	niti	_	_	_	_	
+1-132	834-840	izjava	_	_	_	_	
+1-133	841-843	za	_	_	_	_	
+1-134	844-851	javnost	_	_	_	_	
+1-135	852-853	.	_	_	_	_	
+1-136	854-863	Prebojnih	_	_	_	_	
+1-137	864-873	odločitev	_	_	_	_	
+1-138	874-876	ni	_	_	_	_	
+1-139	877-888	pričakovati	_	_	_	_	
+1-140	889-891	Na	_	_	_	_	
+1-141	892-900	srečanju	_	_	_	_	
+1-142	901-905	bodo	_	_	_	_	
+1-143	906-914	preučili	_	_	_	_	
+1-144	915-925	najnovejši	_	_	_	_	
+1-145	926-932	razvoj	_	_	_	_	
+1-146	933-934	v	_	_	_	_	
+1-147	935-943	razpravi	_	_	_	_	
+1-148	944-945	o	_	_	_	_	
+1-149	946-952	Kosovu	LOC	_	*->4-2	*[4]	
+1-150	953-954	,	_	_	_	_	
+1-151	955-961	vendar	_	_	_	_	
+1-152	962-971	prebojnih	_	_	_	_	
+1-153	972-981	odločitev	_	_	_	_	
+1-154	982-984	ni	_	_	_	_	
+1-155	985-996	pričakovati	_	_	_	_	
+1-156	997-998	,	_	_	_	_	
+1-157	999-1001	so	_	_	_	_	
+1-158	1002-1006	pred	_	_	_	_	
+1-159	1007-1012	dnevi	_	_	_	_	
+1-160	1013-1022	pojasnili	_	_	_	_	
+1-161	1023-1034	diplomatski	_	_	_	_	
+1-162	1035-1039	viri	_	_	_	_	
+1-163	1040-1041	v	_	_	_	_	
+1-164	1042-1049	Bruslju	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-165	1050-1051	.	_	_	_	_	
+1-166	1052-1054	Po	_	_	_	_	
+1-167	1055-1068	pričakovanjih	_	_	_	_	
+1-168	1069-1072	naj	_	_	_	_	
+1-169	1073-1075	bi	_	_	_	_	
+1-170	1076-1084	ministri	_	_	_	_	
+1-171	1085-1090	sicer	_	_	_	_	
+1-172	1091-1099	govorili	_	_	_	_	
+1-173	1100-1108	predvsem	_	_	_	_	
+1-174	1109-1110	o	_	_	_	_	
+1-175	1111-1114	tem	_	_	_	_	
+1-176	1115-1116	,	_	_	_	_	
+1-177	1117-1121	kdaj	_	_	_	_	
+1-178	1122-1125	naj	_	_	_	_	
+1-179	1126-1128	bi	_	_	_	_	
+1-180	1129-1131	se	_	_	_	_	
+1-181	1132-1134	EU	LOC	_	*->19-3	*[19]	
+1-182	1135-1143	odločila	_	_	_	_	
+1-183	1144-1145	o	_	_	_	_	
+1-184	1146-1155	napotitvi	_	_	_	_	
+1-185	1156-1161	svoje	_	_	_	_	
+1-186	1162-1169	civilne	_	_	_	_	
+1-187	1170-1176	misije	_	_	_	_	
+1-188	1177-1179	na	_	_	_	_	
+1-189	1180-1186	Kosovo	LOC	3 - Nevtralno	*->4-3	*[4]	
+1-190	1187-1188	,	_	_	_	_	
+1-191	1189-1191	ki	_	_	_	_	
+1-192	1192-1194	pa	_	_	_	_	
+1-193	1195-1197	ji	_	_	_	_	
+1-194	1198-1205	Beograd	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-195	1206-1211	ostro	_	_	_	_	
+1-196	1212-1222	nasprotuje	_	_	_	_	
+1-197	1223-1224	.	_	_	_	_	
+1-198	1225-1234	Politično	_	_	_	_	
+1-199	1235-1244	odločitev	_	_	_	_	
+1-200	1245-1246	o	_	_	_	_	
+1-201	1247-1250	tem	_	_	_	_	
+1-202	1251-1253	je	_	_	_	_	
+1-203	1254-1259	Unija	ORG	3 - Nevtralno	*->19-4	*[19]	
+1-204	1260-1268	sprejela	_	_	_	_	
+1-205	1269-1277	decembra	_	_	_	_	
+1-206	1278-1282	lani	_	_	_	_	

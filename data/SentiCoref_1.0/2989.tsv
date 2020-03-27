@@ -1,0 +1,290 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Hrvaški Agrokor Ivice Todorića se je v celoti umaknil iz lastništva Perutnine Ptuj in v več paketih prodal svoj 3,6 - odstotni delež družbe , ki jo vodi Roman Glaser . Manjši , 1,45 - odstotni delež je od Agrokorja kupila varaždinska družba Derma , ki jo lastniško obvladujeta Mladen Topolnjak in Josip Polančec , vrednost posla pa se ocenjuje na okoli 1,5 milijona evrov . Preostali 2,1 - odstotni delež je v dveh paketih kupila kar Perutnina Ptuj , ki je z nakupoma sklad lastnih delnic povečala na 3,3 odstotka . Koliko je Perutnina Ptuj odštela za Agrokorjev delež , ni znano , saj Perutnina Ptuj ne kotira na borzi , čeprav ima 10.000 malih delničarjev . Če je Perutnina Ptuj za delnico odštela 18 evrov , kolikor je v prevzemni ponudbi zanjo ponujal konzorcij lastnikov na čelu z družbo Holding PMP ( v lasti menedžerjev Perutnine Ptuj ) , je za celoten paket delnic odštela okoli 2,2 milijona evrov . V zadnjih mesecih je sicer Perutnina Ptuj od malih delničarjev občasno kupovala njihove delnice , prav sklad lastnih delnic pa je menedžerjem leta 2008 olajšal prevzem družbe . V Perutninin sklad lastnih delnic bi po nekaterih tolmačenjih lahko prišteli tudi 24,3 - odstotni delež Perutnine Ptuj , ki je v lasti Merkurja . Kot smo razkrili v Dnevniku , ima namreč Perutnina Ptuj predkupno pravico na Merkurjev delež v Perutnini Ptuj , Merkur pa predkupno pravico na delež Perutnine Ptuj v Merkurju . Z medsebojno lastniško povezavo obeh družb sta Glaser in predsednik uprave Merkurja Bine Kordež dejansko poskrbela , da bo menedžerski prevzem Merkurja delno financirala Perutnina Ptuj , delni menedžerski prevzem Perutnine pa Merkur . matjaz.polanic @
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-19	Hrvaški	_	_	_	_	
+1-4	20-27	Agrokor	ORG	_	*->12-1	*[12]	
+1-5	28-33	Ivice	PER[1]	3 - Nevtralno[31]	*->12-1|*->2-1	*[12]|*[2]	
+1-6	34-42	Todorića	PER[1]	3 - Nevtralno[31]	*->12-1|*->2-1	*[12]|*[2]	
+1-7	43-45	se	_	_	_	_	
+1-8	46-48	je	_	_	_	_	
+1-9	49-50	v	_	_	_	_	
+1-10	51-57	celoti	_	_	_	_	
+1-11	58-65	umaknil	_	_	_	_	
+1-12	66-68	iz	_	_	_	_	
+1-13	69-79	lastništva	_	_	_	_	
+1-14	80-89	Perutnine	ORG[2]	_	*->3-1	*[3]	
+1-15	90-94	Ptuj	ORG[2]|LOC[3]	_	*->3-1|*->4-1	*[3]|*[4]	
+1-16	95-97	in	_	_	_	_	
+1-17	98-99	v	_	_	_	_	
+1-18	100-103	več	_	_	_	_	
+1-19	104-111	paketih	_	_	_	_	
+1-20	112-118	prodal	_	_	_	_	
+1-21	119-123	svoj	_	_	*->12-2	*[12]	
+1-22	124-127	3,6	_	_	_	_	
+1-23	128-129	-	_	_	_	_	
+1-24	130-138	odstotni	_	_	_	_	
+1-25	139-144	delež	_	_	_	_	
+1-26	145-151	družbe	_	_	*->3-2	*[3]	
+1-27	152-153	,	_	_	_	_	
+1-28	154-156	ki	_	_	_	_	
+1-29	157-159	jo	_	_	*->3-3	*[3]	
+1-30	160-164	vodi	_	_	_	_	
+1-31	165-170	Roman	PER[4]	_	*->5-1	*[5]	
+1-32	171-177	Glaser	PER[4]	_	*->5-1	*[5]	
+1-33	178-179	.	_	_	_	_	
+1-34	180-186	Manjši	_	_	_	_	
+1-35	187-188	,	_	_	_	_	
+1-36	189-193	1,45	_	_	_	_	
+1-37	194-195	-	_	_	_	_	
+1-38	196-204	odstotni	_	_	_	_	
+1-39	205-210	delež	_	_	_	_	
+1-40	211-213	je	_	_	_	_	
+1-41	214-216	od	_	_	_	_	
+1-42	217-226	Agrokorja	ORG	_	*->12-3	*[12]	
+1-43	227-233	kupila	_	_	_	_	
+1-44	234-245	varaždinska	_	_	*->6-1	*[6]	
+1-45	246-252	družba	_	_	*->6-1	*[6]	
+1-46	253-258	Derma	ORG	_	*->6-1	*[6]	
+1-47	259-260	,	_	_	_	_	
+1-48	261-263	ki	_	_	_	_	
+1-49	264-266	jo	_	3 - Nevtralno	*->6-2	*[6]	
+1-50	267-276	lastniško	_	_	_	_	
+1-51	277-288	obvladujeta	_	_	_	_	
+1-52	289-295	Mladen	PER[5]	3 - Nevtralno[32]	*->7-1	*[7]	
+1-53	296-305	Topolnjak	PER[5]	3 - Nevtralno[32]	*->7-1	*[7]	
+1-54	306-308	in	_	_	_	_	
+1-55	309-314	Josip	PER[6]	3 - Nevtralno[33]	*->8-1	*[8]	
+1-56	315-323	Polančec	PER[6]	3 - Nevtralno[33]	*->8-1	*[8]	
+1-57	324-325	,	_	_	_	_	
+1-58	326-334	vrednost	_	_	_	_	
+1-59	335-340	posla	_	_	_	_	
+1-60	341-343	pa	_	_	_	_	
+1-61	344-346	se	_	_	_	_	
+1-62	347-355	ocenjuje	_	_	_	_	
+1-63	356-358	na	_	_	_	_	
+1-64	359-364	okoli	_	_	_	_	
+1-65	365-368	1,5	_	_	_	_	
+1-66	369-377	milijona	_	_	_	_	
+1-67	378-383	evrov	_	_	_	_	
+1-68	384-385	.	_	_	_	_	
+1-69	386-395	Preostali	_	_	_	_	
+1-70	396-399	2,1	_	_	_	_	
+1-71	400-401	-	_	_	_	_	
+1-72	402-410	odstotni	_	_	_	_	
+1-73	411-416	delež	_	_	_	_	
+1-74	417-419	je	_	_	_	_	
+1-75	420-421	v	_	_	_	_	
+1-76	422-426	dveh	_	_	_	_	
+1-77	427-434	paketih	_	_	_	_	
+1-78	435-441	kupila	_	_	_	_	
+1-79	442-445	kar	_	_	_	_	
+1-80	446-455	Perutnina	ORG[7]	_	*->3-4	*[3]	
+1-81	456-460	Ptuj	ORG[7]|LOC[8]	_	*->3-4|*->4-2	*[3]|*[4]	
+1-82	461-462	,	_	_	_	_	
+1-83	463-465	ki	_	_	_	_	
+1-84	466-468	je	_	_	_	_	
+1-85	469-470	z	_	_	_	_	
+1-86	471-479	nakupoma	_	_	_	_	
+1-87	480-485	sklad	_	_	_	_	
+1-88	486-493	lastnih	_	_	*->3-5	*[3]	
+1-89	494-500	delnic	_	_	_	_	
+1-90	501-509	povečala	_	_	*->3-6	*[3]	
+1-91	510-512	na	_	_	_	_	
+1-92	513-516	3,3	_	_	_	_	
+1-93	517-525	odstotka	_	_	_	_	
+1-94	526-527	.	_	_	_	_	
+1-95	528-534	Koliko	_	_	_	_	
+1-96	535-537	je	_	_	_	_	
+1-97	538-547	Perutnina	ORG[9]	_	*->3-7	*[3]	
+1-98	548-552	Ptuj	ORG[9]|LOC[10]	_	*->3-7|*->4-3	*[3]|*[4]	
+1-99	553-560	odštela	_	_	_	_	
+1-100	561-563	za	_	_	_	_	
+1-101	564-574	Agrokorjev	ORG	3 - Nevtralno	*->12-4	*[12]	
+1-102	575-580	delež	_	_	_	_	
+1-103	581-582	,	_	_	_	_	
+1-104	583-585	ni	_	_	_	_	
+1-105	586-591	znano	_	_	_	_	
+1-106	592-593	,	_	_	_	_	
+1-107	594-597	saj	_	_	_	_	
+1-108	598-607	Perutnina	ORG[11]	_	*->3-8	*[3]	
+1-109	608-612	Ptuj	ORG[11]|LOC[12]	_	*->3-8|*->4-4	*[3]|*[4]	
+1-110	613-615	ne	_	_	_	_	
+1-111	616-622	kotira	_	_	_	_	
+1-112	623-625	na	_	_	_	_	
+1-113	626-631	borzi	_	_	_	_	
+1-114	632-633	,	_	_	_	_	
+1-115	634-640	čeprav	_	_	_	_	
+1-116	641-644	ima	_	_	*->3-9	*[3]	
+1-117	645-651	10.000	_	_	_	_	
+1-118	652-657	malih	_	_	_	_	
+1-119	658-669	delničarjev	_	_	_	_	
+1-120	670-671	.	_	_	_	_	
+1-121	672-674	Če	_	_	_	_	
+1-122	675-677	je	_	_	_	_	
+1-123	678-687	Perutnina	ORG[13]	_	*->3-10	*[3]	
+1-124	688-692	Ptuj	ORG[13]|LOC[14]	_	*->3-10|*->4-5	*[3]|*[4]	
+1-125	693-695	za	_	_	_	_	
+1-126	696-703	delnico	_	_	_	_	
+1-127	704-711	odštela	_	_	_	_	
+1-128	712-714	18	_	_	_	_	
+1-129	715-720	evrov	_	_	_	_	
+1-130	721-722	,	_	_	_	_	
+1-131	723-730	kolikor	_	_	_	_	
+1-132	731-733	je	_	_	_	_	
+1-133	734-735	v	_	_	_	_	
+1-134	736-745	prevzemni	_	_	_	_	
+1-135	746-753	ponudbi	_	_	_	_	
+1-136	754-759	zanjo	_	_	_	_	
+1-137	760-767	ponujal	_	_	_	_	
+1-138	768-777	konzorcij	_	_	_	_	
+1-139	778-787	lastnikov	_	_	_	_	
+1-140	788-790	na	_	_	_	_	
+1-141	791-795	čelu	_	_	_	_	
+1-142	796-797	z	_	_	_	_	
+1-143	798-804	družbo	_	3 - Nevtralno[34]	*->9-1	*[9]	
+1-144	805-812	Holding	ORG[15]	3 - Nevtralno[34]	*->9-1	*[9]	
+1-145	813-816	PMP	ORG[15]	3 - Nevtralno[34]	*->9-1	*[9]	
+1-146	817-818	(	_	_	_	_	
+1-147	819-820	v	_	_	_	_	
+1-148	821-826	lasti	_	_	_	_	
+1-149	827-838	menedžerjev	_	_	_	_	
+1-150	839-848	Perutnine	ORG[16]	_	*->3-11	*[3]	
+1-151	849-853	Ptuj	ORG[16]|LOC[17]	_	*->3-11|*->4-6	*[3]|*[4]	
+1-152	854-855	)	_	_	_	_	
+1-153	856-857	,	_	_	_	_	
+1-154	858-860	je	_	_	_	_	
+1-155	861-863	za	_	_	_	_	
+1-156	864-871	celoten	_	_	_	_	
+1-157	872-877	paket	_	_	_	_	
+1-158	878-884	delnic	_	_	_	_	
+1-159	885-892	odštela	_	_	*->3-12	*[3]	
+1-160	893-898	okoli	_	_	_	_	
+1-161	899-902	2,2	_	_	_	_	
+1-162	903-911	milijona	_	_	_	_	
+1-163	912-917	evrov	_	_	_	_	
+1-164	918-919	.	_	_	_	_	
+1-165	920-921	V	_	_	_	_	
+1-166	922-929	zadnjih	_	_	_	_	
+1-167	930-937	mesecih	_	_	_	_	
+1-168	938-940	je	_	_	_	_	
+1-169	941-946	sicer	_	_	_	_	
+1-170	947-956	Perutnina	ORG[18]	_	*->3-13	*[3]	
+1-171	957-961	Ptuj	ORG[18]|LOC[19]	_	*->3-13|*->4-7	*[3]|*[4]	
+1-172	962-964	od	_	_	_	_	
+1-173	965-970	malih	_	_	_	_	
+1-174	971-982	delničarjev	_	_	_	_	
+1-175	983-990	občasno	_	_	_	_	
+1-176	991-999	kupovala	_	_	_	_	
+1-177	1000-1007	njihove	_	_	_	_	
+1-178	1008-1015	delnice	_	_	_	_	
+1-179	1016-1017	,	_	_	_	_	
+1-180	1018-1022	prav	_	_	_	_	
+1-181	1023-1028	sklad	_	_	_	_	
+1-182	1029-1036	lastnih	_	_	_	_	
+1-183	1037-1043	delnic	_	_	_	_	
+1-184	1044-1046	pa	_	_	_	_	
+1-185	1047-1049	je	_	_	_	_	
+1-186	1050-1061	menedžerjem	_	_	_	_	
+1-187	1062-1066	leta	_	_	_	_	
+1-188	1067-1071	2008	_	_	_	_	
+1-189	1072-1079	olajšal	_	_	_	_	
+1-190	1080-1087	prevzem	_	_	_	_	
+1-191	1088-1094	družbe	_	_	*->3-14	*[3]	
+1-192	1095-1096	.	_	_	_	_	
+1-193	1097-1098	V	_	_	_	_	
+1-194	1099-1109	Perutninin	ORG	_	*->3-15	*[3]	
+1-195	1110-1115	sklad	_	_	_	_	
+1-196	1116-1123	lastnih	_	_	_	_	
+1-197	1124-1130	delnic	_	_	_	_	
+1-198	1131-1133	bi	_	_	_	_	
+1-199	1134-1136	po	_	_	_	_	
+1-200	1137-1146	nekaterih	_	_	_	_	
+1-201	1147-1158	tolmačenjih	_	_	_	_	
+1-202	1159-1164	lahko	_	_	_	_	
+1-203	1165-1173	prišteli	_	_	_	_	
+1-204	1174-1178	tudi	_	_	_	_	
+1-205	1179-1183	24,3	_	_	_	_	
+1-206	1184-1185	-	_	_	_	_	
+1-207	1186-1194	odstotni	_	_	_	_	
+1-208	1195-1200	delež	_	_	_	_	
+1-209	1201-1210	Perutnine	ORG[20]	_	*->3-16	*[3]	
+1-210	1211-1215	Ptuj	ORG[20]|LOC[21]	_	*->3-16|*->4-8	*[3]|*[4]	
+1-211	1216-1217	,	_	_	_	_	
+1-212	1218-1220	ki	_	_	_	_	
+1-213	1221-1223	je	_	_	_	_	
+1-214	1224-1225	v	_	_	_	_	
+1-215	1226-1231	lasti	_	_	_	_	
+1-216	1232-1240	Merkurja	ORG	_	*->10-1	*[10]	
+1-217	1241-1242	.	_	_	_	_	
+1-218	1243-1246	Kot	_	_	_	_	
+1-219	1247-1250	smo	_	_	_	_	
+1-220	1251-1259	razkrili	_	_	_	_	
+1-221	1260-1261	v	_	_	_	_	
+1-222	1262-1270	Dnevniku	ORG	3 - Nevtralno	*->13-1	*[13]	
+1-223	1271-1272	,	_	_	_	_	
+1-224	1273-1276	ima	_	_	_	_	
+1-225	1277-1283	namreč	_	_	_	_	
+1-226	1284-1293	Perutnina	ORG[22]	_	*->3-17	*[3]	
+1-227	1294-1298	Ptuj	ORG[22]|LOC[23]	_	*->3-17|*->4-9	*[3]|*[4]	
+1-228	1299-1308	predkupno	_	_	_	_	
+1-229	1309-1316	pravico	_	_	_	_	
+1-230	1317-1319	na	_	_	_	_	
+1-231	1320-1329	Merkurjev	ORG	_	*->10-2	*[10]	
+1-232	1330-1335	delež	_	_	_	_	
+1-233	1336-1337	v	_	_	_	_	
+1-234	1338-1347	Perutnini	ORG[24]	_	*->3-18	*[3]	
+1-235	1348-1352	Ptuj	ORG[24]|LOC[25]	_	*->3-18|*->4-10	*[3]|*[4]	
+1-236	1353-1354	,	_	_	_	_	
+1-237	1355-1361	Merkur	ORG	_	*->10-3	*[10]	
+1-238	1362-1364	pa	_	_	_	_	
+1-239	1365-1374	predkupno	_	_	_	_	
+1-240	1375-1382	pravico	_	_	_	_	
+1-241	1383-1385	na	_	_	_	_	
+1-242	1386-1391	delež	_	_	_	_	
+1-243	1392-1401	Perutnine	ORG[26]	_	*->3-19	*[3]	
+1-244	1402-1406	Ptuj	ORG[26]|LOC[27]	_	*->3-19|*->4-11	*[3]|*[4]	
+1-245	1407-1408	v	_	_	_	_	
+1-246	1409-1417	Merkurju	ORG	_	*->10-4	*[10]	
+1-247	1418-1419	.	_	_	_	_	
+1-248	1420-1421	Z	_	_	_	_	
+1-249	1422-1432	medsebojno	_	_	_	_	
+1-250	1433-1442	lastniško	_	_	_	_	
+1-251	1443-1451	povezavo	_	_	_	_	
+1-252	1452-1456	obeh	_	_	_	_	
+1-253	1457-1462	družb	_	_	_	_	
+1-254	1463-1466	sta	_	_	_	_	
+1-255	1467-1473	Glaser	PER	3 - Nevtralno	*->5-2	*[5]	
+1-256	1474-1476	in	_	_	_	_	
+1-257	1477-1487	predsednik	_	3 - Nevtralno[35]	*->11-1	*[11]	
+1-258	1488-1494	uprave	_	3 - Nevtralno[35]	*->11-1	*[11]	
+1-259	1495-1503	Merkurja	ORG	3 - Nevtralno[35]	*->11-1|*->10-5	*[11]|*[10]	
+1-260	1504-1508	Bine	PER[28]	3 - Nevtralno[35]	*->11-1	*[11]	
+1-261	1509-1515	Kordež	PER[28]	3 - Nevtralno[35]	*->11-1	*[11]	
+1-262	1516-1524	dejansko	_	_	_	_	
+1-263	1525-1534	poskrbela	_	_	_	_	
+1-264	1535-1536	,	_	_	_	_	
+1-265	1537-1539	da	_	_	_	_	
+1-266	1540-1542	bo	_	_	_	_	
+1-267	1543-1554	menedžerski	_	_	_	_	
+1-268	1555-1562	prevzem	_	_	_	_	
+1-269	1563-1571	Merkurja	ORG	_	*->10-6	*[10]	
+1-270	1572-1577	delno	_	_	_	_	
+1-271	1578-1589	financirala	_	_	_	_	
+1-272	1590-1599	Perutnina	ORG[29]	_	*->3-20	*[3]	
+1-273	1600-1604	Ptuj	ORG[29]|LOC[30]	3 - Nevtralno	*->3-20|*->4-12	*[3]|*[4]	
+1-274	1605-1606	,	_	_	_	_	
+1-275	1607-1612	delni	_	_	_	_	
+1-276	1613-1624	menedžerski	_	_	_	_	
+1-277	1625-1632	prevzem	_	_	_	_	
+1-278	1633-1642	Perutnine	ORG	3 - Nevtralno	*->3-21	*[3]	
+1-279	1643-1645	pa	_	_	_	_	
+1-280	1646-1652	Merkur	ORG	3 - Nevtralno	*->10-7	*[10]	
+1-281	1653-1654	.	_	_	_	_	
+1-282	1655-1669	matjaz.polanic	_	_	_	_	
+1-283	1670-1671	@	_	_	_	_	

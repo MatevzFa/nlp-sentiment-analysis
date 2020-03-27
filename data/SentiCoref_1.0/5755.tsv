@@ -1,0 +1,298 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ob Himni svobodi Ivana Gundulića so včeraj zvečer v Dubrovniku na Orlandovem stolpu izobesili festivalsko zastavo Libertas in svečano odprli 63 . dubrovniške poletne igre Prireditev , ki že tradicionalno poteka med 10 . julijem in 25 . avgustom , bodo zaznamovali tudi slovenski filharmoniki in gledališka režiserja Tomaž Pandur ter Eduard Miler . Tomaž Dubrovnik bo tako od danes ponovno ponudil svoje odre in prizorišča v renesančnem mestnem jedru več kot 2000 umetnikom iz približno 20 držav z vsega sveta . Predvideno je več kot 70 dramskih , glasbenih , plesnih , folklornih in drugih prireditev . Pandur z Medejo Pandur se bo 3 . avgusta predstavil s premiero Evripidove Medeje , ki jo pripravlja v sodelovanju s Hrvaškim narodnim gledališčem ( HNK ) iz Zagreba . Medejo bodo uprizorili na znameniti dubrovniški trdnjavi Lovrijenac . Organizatorji so se odločili , da bodo letos ponovno na dramski program uvrstili uspešnico Kralj Ojdip v režiji Eduarda Milerja in izvedbi Festivalskega dramskega ansambla . Na odru velika imena Med večjimi poletnimi dogodki v Dubrovniku bo koncert Zagrebških filharmonikov , ki bodo nastopili s priznanim ruskim dirigentom Dmitrijem Kitajenkom in slavno hrvaško čelistko Moniko Leskovar . Posebno doživetje bo tudi nastop slavnega pianista in dirigenta Daniela Barenboima , ki bo izvedel skladbe Franza Schuberta . Filharmoniki Na programu bo znova tudi epsko vokalno - inštrumentalno delo Requiem Wolfganga Amadeusa Mozarta v izvedbi enega najbolj znanih angleških zborov The Choir of King's College Cambrdige in simfoničnega orkestra Hrvaške radio - televizije . Slovenskim filharmonikom pa je pripadla čast , da bodo ob dirigentu Ivanu Repušiću , skupaj z velikimi zvezdami klasične glasbe , sopranistko Invo Mulo in baritonistom Leom Nuccijem , 25 . avgusta sklenili letošnje igre . Soorganizator njihovega koncerta je Festival Ljubljana
+1-1	0-2	Ob	_	_	_	_	
+1-2	3-8	Himni	_	_	_	_	
+1-3	9-16	svobodi	_	_	_	_	
+1-4	17-22	Ivana	PER[1]	3 - Nevtralno[16]	*->4-1	*[4]	
+1-5	23-32	Gundulića	PER[1]	3 - Nevtralno[16]	*->4-1	*[4]	
+1-6	33-35	so	_	_	_	_	
+1-7	36-42	včeraj	_	_	_	_	
+1-8	43-49	zvečer	_	_	_	_	
+1-9	50-51	v	_	_	_	_	
+1-10	52-62	Dubrovniku	LOC	_	*->2-1	*[2]	
+1-11	63-65	na	_	_	_	_	
+1-12	66-76	Orlandovem	_	_	_	_	
+1-13	77-83	stolpu	_	_	_	_	
+1-14	84-93	izobesili	_	_	_	_	
+1-15	94-105	festivalsko	_	_	_	_	
+1-16	106-113	zastavo	_	_	_	_	
+1-17	114-122	Libertas	_	_	_	_	
+1-18	123-125	in	_	_	_	_	
+1-19	126-133	svečano	_	_	_	_	
+1-20	134-140	odprli	_	_	_	_	
+1-21	141-143	63	_	_	_	_	
+1-22	144-145	.	_	_	_	_	
+1-23	146-157	dubrovniške	_	_	_	_	
+1-24	158-165	poletne	_	_	_	_	
+1-25	166-170	igre	_	_	_	_	
+1-26	171-181	Prireditev	_	_	_	_	
+1-27	182-183	,	_	_	_	_	
+1-28	184-186	ki	_	_	_	_	
+1-29	187-189	že	_	_	_	_	
+1-30	190-203	tradicionalno	_	_	_	_	
+1-31	204-210	poteka	_	_	_	_	
+1-32	211-214	med	_	_	_	_	
+1-33	215-217	10	_	_	_	_	
+1-34	218-219	.	_	_	_	_	
+1-35	220-227	julijem	_	_	_	_	
+1-36	228-230	in	_	_	_	_	
+1-37	231-233	25	_	_	_	_	
+1-38	234-235	.	_	_	_	_	
+1-39	236-244	avgustom	_	_	_	_	
+1-40	245-246	,	_	_	_	_	
+1-41	247-251	bodo	_	_	_	_	
+1-42	252-263	zaznamovali	_	_	_	_	
+1-43	264-268	tudi	_	_	_	_	
+1-44	269-278	slovenski	_	_	_	_	
+1-45	279-291	filharmoniki	_	_	_	_	
+1-46	292-294	in	_	_	_	_	
+1-47	295-305	gledališka	_	_	_	_	
+1-48	306-315	režiserja	_	_	_	_	
+1-49	316-321	Tomaž	PER[2]	_	*->1-1	*[1]	
+1-50	322-328	Pandur	PER[2]	_	*->1-1	*[1]	
+1-51	329-332	ter	_	_	_	_	
+1-52	333-339	Eduard	PER[3]	_	*->3-1	*[3]	
+1-53	340-345	Miler	PER[3]	_	*->3-1	*[3]	
+1-54	346-347	.	_	_	_	_	
+1-55	348-353	Tomaž	PER	_	*->1-2	*[1]	
+1-56	354-363	Dubrovnik	ORG	_	*->2-2	*[2]	
+1-57	364-366	bo	_	_	_	_	
+1-58	367-371	tako	_	_	_	_	
+1-59	372-374	od	_	_	_	_	
+1-60	375-380	danes	_	_	_	_	
+1-61	381-388	ponovno	_	_	_	_	
+1-62	389-396	ponudil	_	_	_	_	
+1-63	397-402	svoje	_	_	_	_	
+1-64	403-407	odre	_	_	_	_	
+1-65	408-410	in	_	_	_	_	
+1-66	411-421	prizorišča	_	_	_	_	
+1-67	422-423	v	_	_	_	_	
+1-68	424-435	renesančnem	_	_	_	_	
+1-69	436-443	mestnem	_	_	_	_	
+1-70	444-449	jedru	_	_	_	_	
+1-71	450-453	več	_	_	_	_	
+1-72	454-457	kot	_	_	_	_	
+1-73	458-462	2000	_	_	_	_	
+1-74	463-472	umetnikom	_	_	_	_	
+1-75	473-475	iz	_	_	_	_	
+1-76	476-485	približno	_	_	_	_	
+1-77	486-488	20	_	_	_	_	
+1-78	489-494	držav	_	_	_	_	
+1-79	495-496	z	_	_	_	_	
+1-80	497-502	vsega	_	_	_	_	
+1-81	503-508	sveta	_	_	_	_	
+1-82	509-510	.	_	_	_	_	
+1-83	511-521	Predvideno	_	_	_	_	
+1-84	522-524	je	_	_	_	_	
+1-85	525-528	več	_	_	_	_	
+1-86	529-532	kot	_	_	_	_	
+1-87	533-535	70	_	_	_	_	
+1-88	536-544	dramskih	_	_	_	_	
+1-89	545-546	,	_	_	_	_	
+1-90	547-556	glasbenih	_	_	_	_	
+1-91	557-558	,	_	_	_	_	
+1-92	559-566	plesnih	_	_	_	_	
+1-93	567-568	,	_	_	_	_	
+1-94	569-579	folklornih	_	_	_	_	
+1-95	580-582	in	_	_	_	_	
+1-96	583-589	drugih	_	_	_	_	
+1-97	590-600	prireditev	_	_	_	_	
+1-98	601-602	.	_	_	_	_	
+1-99	603-609	Pandur	PER	_	*->1-3	*[1]	
+1-100	610-611	z	_	_	_	_	
+1-101	612-618	Medejo	_	_	_	_	
+1-102	619-625	Pandur	PER	_	*->1-4	*[1]	
+1-103	626-628	se	_	_	_	_	
+1-104	629-631	bo	_	_	_	_	
+1-105	632-633	3	_	_	_	_	
+1-106	634-635	.	_	_	_	_	
+1-107	636-643	avgusta	_	_	_	_	
+1-108	644-654	predstavil	_	_	_	_	
+1-109	655-656	s	_	_	_	_	
+1-110	657-665	premiero	_	_	_	_	
+1-111	666-676	Evripidove	_	_	_	_	
+1-112	677-683	Medeje	_	_	_	_	
+1-113	684-685	,	_	_	_	_	
+1-114	686-688	ki	_	_	_	_	
+1-115	689-691	jo	_	_	_	_	
+1-116	692-702	pripravlja	_	4 - Pozitivno	*->1-5	*[1]	
+1-117	703-704	v	_	_	_	_	
+1-118	705-716	sodelovanju	_	_	_	_	
+1-119	717-718	s	_	_	_	_	
+1-120	719-727	Hrvaškim	ORG[4]	4 - Pozitivno[17]	*->18-1	*[18]	
+1-121	728-736	narodnim	ORG[4]	4 - Pozitivno[17]	*->18-1	*[18]	
+1-122	737-748	gledališčem	ORG[4]	4 - Pozitivno[17]	*->18-1	*[18]	
+1-123	749-750	(	ORG[4]	4 - Pozitivno[17]	*->18-1	*[18]	
+1-124	751-754	HNK	ORG[4]	4 - Pozitivno[17]	*->18-1	*[18]	
+1-125	755-756	)	ORG[4]	4 - Pozitivno[17]	*->18-1	*[18]	
+1-126	757-759	iz	_	4 - Pozitivno[17]	*->18-1	*[18]	
+1-127	760-767	Zagreba	LOC	4 - Pozitivno[17]|3 - Nevtralno[18]	*->18-1|*->5-1	*[18]|*[5]	
+1-128	768-769	.	_	_	_	_	
+1-129	770-776	Medejo	_	_	_	_	
+1-130	777-781	bodo	_	_	_	_	
+1-131	782-792	uprizorili	_	_	_	_	
+1-132	793-795	na	_	_	_	_	
+1-133	796-805	znameniti	_	_	_	_	
+1-134	806-817	dubrovniški	_	_	_	_	
+1-135	818-826	trdnjavi	_	_	_	_	
+1-136	827-837	Lovrijenac	_	_	_	_	
+1-137	838-839	.	_	_	_	_	
+1-138	840-853	Organizatorji	_	_	_	_	
+1-139	854-856	so	_	_	_	_	
+1-140	857-859	se	_	_	_	_	
+1-141	860-868	odločili	_	_	_	_	
+1-142	869-870	,	_	_	_	_	
+1-143	871-873	da	_	_	_	_	
+1-144	874-878	bodo	_	_	_	_	
+1-145	879-884	letos	_	_	_	_	
+1-146	885-892	ponovno	_	_	_	_	
+1-147	893-895	na	_	_	_	_	
+1-148	896-903	dramski	_	_	_	_	
+1-149	904-911	program	_	_	_	_	
+1-150	912-920	uvrstili	_	_	_	_	
+1-151	921-930	uspešnico	_	_	_	_	
+1-152	931-936	Kralj	_	_	_	_	
+1-153	937-942	Ojdip	_	_	_	_	
+1-154	943-944	v	_	_	_	_	
+1-155	945-951	režiji	_	_	_	_	
+1-156	952-959	Eduarda	PER[5]	4 - Pozitivno[19]	*->3-2	*[3]	
+1-157	960-967	Milerja	PER[5]	4 - Pozitivno[19]	*->3-2	*[3]	
+1-158	968-970	in	_	_	_	_	
+1-159	971-978	izvedbi	_	_	_	_	
+1-160	979-992	Festivalskega	_	_	_	_	
+1-161	993-1002	dramskega	_	_	_	_	
+1-162	1003-1011	ansambla	_	_	_	_	
+1-163	1012-1013	.	_	_	_	_	
+1-164	1014-1016	Na	_	_	_	_	
+1-165	1017-1021	odru	_	_	_	_	
+1-166	1022-1028	velika	_	_	_	_	
+1-167	1029-1034	imena	_	_	_	_	
+1-168	1035-1038	Med	_	_	_	_	
+1-169	1039-1046	večjimi	_	_	_	_	
+1-170	1047-1056	poletnimi	_	_	_	_	
+1-171	1057-1064	dogodki	_	_	_	_	
+1-172	1065-1066	v	_	_	_	_	
+1-173	1067-1077	Dubrovniku	LOC	4 - Pozitivno	*->2-3	*[2]	
+1-174	1078-1080	bo	_	_	_	_	
+1-175	1081-1088	koncert	_	_	_	_	
+1-176	1089-1099	Zagrebških	_	_	_	_	
+1-177	1100-1113	filharmonikov	_	_	_	_	
+1-178	1114-1115	,	_	_	_	_	
+1-179	1116-1118	ki	_	_	_	_	
+1-180	1119-1123	bodo	_	_	_	_	
+1-181	1124-1133	nastopili	_	_	_	_	
+1-182	1134-1135	s	_	_	_	_	
+1-183	1136-1145	priznanim	_	4 - Pozitivno[20]	*->6-1	*[6]	
+1-184	1146-1152	ruskim	_	4 - Pozitivno[20]	*->6-1	*[6]	
+1-185	1153-1163	dirigentom	_	4 - Pozitivno[20]	*->6-1	*[6]	
+1-186	1164-1173	Dmitrijem	PER[6]	4 - Pozitivno[20]	*->6-1	*[6]	
+1-187	1174-1184	Kitajenkom	PER[6]	4 - Pozitivno[20]	*->6-1	*[6]	
+1-188	1185-1187	in	_	_	_	_	
+1-189	1188-1194	slavno	_	4 - Pozitivno[21]	*->7-1	*[7]	
+1-190	1195-1202	hrvaško	_	4 - Pozitivno[21]	*->7-1	*[7]	
+1-191	1203-1211	čelistko	_	4 - Pozitivno[21]	*->7-1	*[7]	
+1-192	1212-1218	Moniko	PER[7]	4 - Pozitivno[21]	*->7-1	*[7]	
+1-193	1219-1227	Leskovar	PER[7]	4 - Pozitivno[21]	*->7-1	*[7]	
+1-194	1228-1229	.	_	_	_	_	
+1-195	1230-1237	Posebno	_	_	_	_	
+1-196	1238-1247	doživetje	_	_	_	_	
+1-197	1248-1250	bo	_	_	_	_	
+1-198	1251-1255	tudi	_	_	_	_	
+1-199	1256-1262	nastop	_	_	_	_	
+1-200	1263-1271	slavnega	_	_	*->8-1	*[8]	
+1-201	1272-1280	pianista	_	_	*->8-1	*[8]	
+1-202	1281-1283	in	_	_	*->8-1	*[8]	
+1-203	1284-1293	dirigenta	_	_	*->8-1	*[8]	
+1-204	1294-1301	Daniela	PER[8]	_	*->8-1	*[8]	
+1-205	1302-1312	Barenboima	PER[8]	_	*->8-1	*[8]	
+1-206	1313-1314	,	_	_	_	_	
+1-207	1315-1317	ki	_	_	_	_	
+1-208	1318-1320	bo	_	_	_	_	
+1-209	1321-1328	izvedel	_	4 - Pozitivno	*->8-2	*[8]	
+1-210	1329-1336	skladbe	_	_	_	_	
+1-211	1337-1343	Franza	PER[9]	3 - Nevtralno[22]	*->9-1	*[9]	
+1-212	1344-1353	Schuberta	PER[9]	3 - Nevtralno[22]	*->9-1	*[9]	
+1-213	1354-1355	.	_	_	_	_	
+1-214	1356-1368	Filharmoniki	_	_	_	_	
+1-215	1369-1371	Na	_	_	_	_	
+1-216	1372-1380	programu	_	_	_	_	
+1-217	1381-1383	bo	_	_	_	_	
+1-218	1384-1389	znova	_	_	_	_	
+1-219	1390-1394	tudi	_	_	_	_	
+1-220	1395-1400	epsko	_	_	_	_	
+1-221	1401-1408	vokalno	_	_	_	_	
+1-222	1409-1410	-	_	_	_	_	
+1-223	1411-1425	inštrumentalno	_	_	_	_	
+1-224	1426-1430	delo	_	_	_	_	
+1-225	1431-1438	Requiem	_	_	_	_	
+1-226	1439-1448	Wolfganga	PER[10]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-227	1449-1457	Amadeusa	PER[10]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-228	1458-1465	Mozarta	PER[10]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-229	1466-1467	v	_	_	_	_	
+1-230	1468-1475	izvedbi	_	_	_	_	
+1-231	1476-1481	enega	_	4 - Pozitivno[24]	*->11-1	*[11]	
+1-232	1482-1489	najbolj	_	4 - Pozitivno[24]	*->11-1	*[11]	
+1-233	1490-1496	znanih	_	4 - Pozitivno[24]	*->11-1	*[11]	
+1-234	1497-1506	angleških	_	4 - Pozitivno[24]	*->11-1	*[11]	
+1-235	1507-1513	zborov	_	4 - Pozitivno[24]	*->11-1	*[11]	
+1-236	1514-1517	The	ORG[11]	4 - Pozitivno[24]	*->11-1	*[11]	
+1-237	1518-1523	Choir	ORG[11]	4 - Pozitivno[24]	*->11-1	*[11]	
+1-238	1524-1526	of	ORG[11]	4 - Pozitivno[24]	*->11-1	*[11]	
+1-239	1527-1533	King's	ORG[11]	4 - Pozitivno[24]	*->11-1	*[11]	
+1-240	1534-1541	College	ORG[11]	4 - Pozitivno[24]	*->11-1	*[11]	
+1-241	1542-1551	Cambrdige	ORG[11]	4 - Pozitivno[24]	*->11-1	*[11]	
+1-242	1552-1554	in	_	_	_	_	
+1-243	1555-1567	simfoničnega	_	4 - Pozitivno[25]	*->12-1	*[12]	
+1-244	1568-1576	orkestra	_	4 - Pozitivno[25]	*->12-1	*[12]	
+1-245	1577-1584	Hrvaške	ORG[12]	4 - Pozitivno[25]	*->12-1	*[12]	
+1-246	1585-1590	radio	ORG[12]	4 - Pozitivno[25]	*->12-1	*[12]	
+1-247	1591-1592	-	ORG[12]	4 - Pozitivno[25]	*->12-1	*[12]	
+1-248	1593-1603	televizije	ORG[12]	4 - Pozitivno[25]	*->12-1	*[12]	
+1-249	1604-1605	.	_	_	_	_	
+1-250	1606-1616	Slovenskim	_	_	_	_	
+1-251	1617-1630	filharmonikom	_	_	_	_	
+1-252	1631-1633	pa	_	_	_	_	
+1-253	1634-1636	je	_	_	_	_	
+1-254	1637-1645	pripadla	_	_	_	_	
+1-255	1646-1650	čast	_	_	_	_	
+1-256	1651-1652	,	_	_	_	_	
+1-257	1653-1655	da	_	_	_	_	
+1-258	1656-1660	bodo	_	_	_	_	
+1-259	1661-1663	ob	_	_	_	_	
+1-260	1664-1673	dirigentu	_	4 - Pozitivno[26]	*->13-1	*[13]	
+1-261	1674-1679	Ivanu	PER[13]	4 - Pozitivno[26]	*->13-1	*[13]	
+1-262	1680-1688	Repušiću	PER[13]	4 - Pozitivno[26]	*->13-1	*[13]	
+1-263	1689-1690	,	_	_	_	_	
+1-264	1691-1697	skupaj	_	_	_	_	
+1-265	1698-1699	z	_	_	_	_	
+1-266	1700-1708	velikimi	_	_	_	_	
+1-267	1709-1717	zvezdami	_	_	_	_	
+1-268	1718-1726	klasične	_	_	_	_	
+1-269	1727-1733	glasbe	_	_	_	_	
+1-270	1734-1735	,	_	_	_	_	
+1-271	1736-1747	sopranistko	_	4 - Pozitivno[27]	*->14-1	*[14]	
+1-272	1748-1752	Invo	PER[14]	4 - Pozitivno[27]	*->14-1	*[14]	
+1-273	1753-1757	Mulo	PER[14]	4 - Pozitivno[27]	*->14-1	*[14]	
+1-274	1758-1760	in	_	_	_	_	
+1-275	1761-1773	baritonistom	_	4 - Pozitivno[28]	*->15-1	*[15]	
+1-276	1774-1778	Leom	PER[15]	4 - Pozitivno[28]	*->15-1	*[15]	
+1-277	1779-1787	Nuccijem	PER[15]	4 - Pozitivno[28]	*->15-1	*[15]	
+1-278	1788-1789	,	_	_	_	_	
+1-279	1790-1792	25	_	_	_	_	
+1-280	1793-1794	.	_	_	_	_	
+1-281	1795-1802	avgusta	_	_	_	_	
+1-282	1803-1811	sklenili	_	_	_	_	
+1-283	1812-1820	letošnje	_	_	_	_	
+1-284	1821-1825	igre	_	_	_	_	
+1-285	1826-1827	.	_	_	_	_	
+1-286	1828-1841	Soorganizator	_	_	*->16-1	*[16]	
+1-287	1842-1851	njihovega	_	_	_	_	
+1-288	1852-1860	koncerta	_	_	_	_	
+1-289	1861-1863	je	_	_	_	_	
+1-290	1864-1872	Festival	_	4 - Pozitivno[29]	*->16-2	*[16]	
+1-291	1873-1882	Ljubljana	LOC	4 - Pozitivno[29]|3 - Nevtralno[30]	*->16-2|*->17-1	*[16]|*[17]	

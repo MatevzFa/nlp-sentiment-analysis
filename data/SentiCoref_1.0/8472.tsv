@@ -1,0 +1,284 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Vseh deset občin v prihodnji Savinjsko - šaleški pokrajini je enotnih , da zdaj še najbolj potrebujejo hitro cesto , ki bi jih še bolj povezala in ne ločevala . Sedež Savinjsko - šaleške ( SA - ŠA ) pokrajine bo v Velenju , a si ga delček želijo tudi Šoštanjčani . Enajsto referendumsko območje združuje deset občin iz Šaleške in Zgornje Savinjske doline . Tako naj bi se o vprašanju , ali so za to , da se ustanovi Savinjsko - šaleška pokrajina , 22 . junija na referendumu odločali prebivalci občin Gornji Grad , Ljubno , Luče , Mozirje , Nazarje , Rečica ob Savinji , Solčava , Šmartno ob Paki , Šoštanj in Velenje . Dvomov o potrebnosti pokrajine v teh občinah ni , prav vse pa še najbolj druži skupna skrb za čimprejšnjo umestitev tretje razvojne osi . " Zavedamo se , da je hitra cesta ta trenutek za vse nas nujna za nadaljnji razvoj prihodnje skupne pokrajine , " pravi velenjski župan Srečko Meh in poudarja , da so vsi župani , vse občine in vse uprave na območju Šaleške in Zgornje Savinjske pokrajine dobro sodelovali že doslej in bodo tudi v prihodnje . Sedež pokrajine naj bi bil v Velenju , s tem pa se še vedno niso povsem sprijaznili v Šoštanju . " Mi tega , da ne bomo imeli celotnega sedeža , nismo preboleli in si bomo še naprej prizadevali , da bi dobili vsaj delček pogače . Želeli bi , da bi imeli vsaj tako imenovan energetski sedež pokrajine , saj bi si zaradi termoelektrarne in premogovnika to tudi zaslužili , " pravi župan občine Šoštanj Darko Menih
+1-1	0-4	Vseh	_	_	_	_	
+1-2	5-10	deset	_	_	_	_	
+1-3	11-16	občin	_	_	_	_	
+1-4	17-18	v	_	_	_	_	
+1-5	19-28	prihodnji	_	_	_	_	
+1-6	29-38	Savinjsko	LOC[1]	_	*->1-1	*[1]	
+1-7	39-40	-	LOC[1]	_	*->1-1	*[1]	
+1-8	41-48	šaleški	LOC[1]	_	*->1-1	*[1]	
+1-9	49-58	pokrajini	LOC[1]	_	*->1-1	*[1]	
+1-10	59-61	je	_	_	_	_	
+1-11	62-69	enotnih	_	_	_	_	
+1-12	70-71	,	_	_	_	_	
+1-13	72-74	da	_	_	_	_	
+1-14	75-79	zdaj	_	_	_	_	
+1-15	80-82	še	_	_	_	_	
+1-16	83-90	najbolj	_	_	_	_	
+1-17	91-102	potrebujejo	_	_	_	_	
+1-18	103-108	hitro	_	_	_	_	
+1-19	109-114	cesto	_	_	_	_	
+1-20	115-116	,	_	_	_	_	
+1-21	117-119	ki	_	_	_	_	
+1-22	120-122	bi	_	_	_	_	
+1-23	123-126	jih	_	_	_	_	
+1-24	127-129	še	_	_	_	_	
+1-25	130-134	bolj	_	_	_	_	
+1-26	135-143	povezala	_	_	_	_	
+1-27	144-146	in	_	_	_	_	
+1-28	147-149	ne	_	_	_	_	
+1-29	150-158	ločevala	_	_	_	_	
+1-30	159-160	.	_	_	_	_	
+1-31	161-166	Sedež	_	_	_	_	
+1-32	167-176	Savinjsko	LOC[2]	_	*->1-2	*[1]	
+1-33	177-178	-	LOC[2]	_	*->1-2	*[1]	
+1-34	179-186	šaleške	LOC[2]	_	*->1-2	*[1]	
+1-35	187-188	(	_	_	_	_	
+1-36	189-191	SA	_	_	_	_	
+1-37	192-193	-	_	_	_	_	
+1-38	194-196	ŠA	_	_	_	_	
+1-39	197-198	)	_	_	_	_	
+1-40	199-208	pokrajine	_	_	_	_	
+1-41	209-211	bo	_	_	_	_	
+1-42	212-213	v	_	_	_	_	
+1-43	214-221	Velenju	LOC	_	*->2-1	*[2]	
+1-44	222-223	,	_	_	_	_	
+1-45	224-225	a	_	_	_	_	
+1-46	226-228	si	_	_	_	_	
+1-47	229-231	ga	_	_	_	_	
+1-48	232-238	delček	_	_	_	_	
+1-49	239-245	želijo	_	_	_	_	
+1-50	246-250	tudi	_	_	_	_	
+1-51	251-262	Šoštanjčani	PER	3 - Nevtralno	*->3-1	*[3]	
+1-52	263-264	.	_	_	_	_	
+1-53	265-272	Enajsto	_	_	_	_	
+1-54	273-286	referendumsko	_	_	_	_	
+1-55	287-294	območje	_	_	_	_	
+1-56	295-303	združuje	_	_	_	_	
+1-57	304-309	deset	_	_	_	_	
+1-58	310-315	občin	_	_	_	_	
+1-59	316-318	iz	_	_	_	_	
+1-60	319-326	Šaleške	LOC	_	*->4-1	*[4]	
+1-61	327-329	in	_	_	_	_	
+1-62	330-337	Zgornje	LOC[3]	_	*->5-1	*[5]	
+1-63	338-347	Savinjske	LOC[3]	_	*->5-1	*[5]	
+1-64	348-354	doline	LOC[3]	_	*->5-1	*[5]	
+1-65	355-356	.	_	_	_	_	
+1-66	357-361	Tako	_	_	_	_	
+1-67	362-365	naj	_	_	_	_	
+1-68	366-368	bi	_	_	_	_	
+1-69	369-371	se	_	_	_	_	
+1-70	372-373	o	_	_	_	_	
+1-71	374-383	vprašanju	_	_	_	_	
+1-72	384-385	,	_	_	_	_	
+1-73	386-389	ali	_	_	_	_	
+1-74	390-392	so	_	_	_	_	
+1-75	393-395	za	_	_	_	_	
+1-76	396-398	to	_	_	_	_	
+1-77	399-400	,	_	_	_	_	
+1-78	401-403	da	_	_	_	_	
+1-79	404-406	se	_	_	_	_	
+1-80	407-415	ustanovi	_	_	_	_	
+1-81	416-425	Savinjsko	LOC[4]	_	*->1-3	*[1]	
+1-82	426-427	-	LOC[4]	_	*->1-3	*[1]	
+1-83	428-435	šaleška	LOC[4]	_	*->1-3	*[1]	
+1-84	436-445	pokrajina	LOC[4]	_	*->1-3	*[1]	
+1-85	446-447	,	_	_	_	_	
+1-86	448-450	22	_	_	_	_	
+1-87	451-452	.	_	_	_	_	
+1-88	453-459	junija	_	_	_	_	
+1-89	460-462	na	_	_	_	_	
+1-90	463-474	referendumu	_	_	_	_	
+1-91	475-483	odločali	_	_	_	_	
+1-92	484-494	prebivalci	_	_	_	_	
+1-93	495-500	občin	_	_	_	_	
+1-94	501-507	Gornji	LOC[5]	3 - Nevtralno[11]	*->6-1	*[6]	
+1-95	508-512	Grad	LOC[5]	3 - Nevtralno[11]	*->6-1	*[6]	
+1-96	513-514	,	_	_	_	_	
+1-97	515-521	Ljubno	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-98	522-523	,	_	_	_	_	
+1-99	524-528	Luče	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-100	529-530	,	_	_	_	_	
+1-101	531-538	Mozirje	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-102	539-540	,	_	_	_	_	
+1-103	541-548	Nazarje	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-104	549-550	,	_	_	_	_	
+1-105	551-557	Rečica	LOC[6]	3 - Nevtralno[12]	*->11-1	*[11]	
+1-106	558-560	ob	LOC[6]	3 - Nevtralno[12]	*->11-1	*[11]	
+1-107	561-568	Savinji	LOC[6]	3 - Nevtralno[12]	*->11-1	*[11]	
+1-108	569-570	,	_	_	_	_	
+1-109	571-578	Solčava	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-110	579-580	,	_	_	_	_	
+1-111	581-588	Šmartno	LOC[7]	3 - Nevtralno[13]	*->13-1	*[13]	
+1-112	589-591	ob	LOC[7]	3 - Nevtralno[13]	*->13-1	*[13]	
+1-113	592-596	Paki	LOC[7]	3 - Nevtralno[13]	*->13-1	*[13]	
+1-114	597-598	,	_	_	_	_	
+1-115	599-606	Šoštanj	LOC	_	*->14-1	*[14]	
+1-116	607-609	in	_	_	_	_	
+1-117	610-617	Velenje	LOC	_	*->2-2	*[2]	
+1-118	618-619	.	_	_	_	_	
+1-119	620-626	Dvomov	_	_	_	_	
+1-120	627-628	o	_	_	_	_	
+1-121	629-640	potrebnosti	_	_	_	_	
+1-122	641-650	pokrajine	_	_	*->1-4	*[1]	
+1-123	651-652	v	_	_	_	_	
+1-124	653-656	teh	_	_	_	_	
+1-125	657-664	občinah	_	_	_	_	
+1-126	665-667	ni	_	_	_	_	
+1-127	668-669	,	_	_	_	_	
+1-128	670-674	prav	_	_	_	_	
+1-129	675-678	vse	_	_	_	_	
+1-130	679-681	pa	_	_	_	_	
+1-131	682-684	še	_	_	_	_	
+1-132	685-692	najbolj	_	_	_	_	
+1-133	693-698	druži	_	_	_	_	
+1-134	699-705	skupna	_	_	_	_	
+1-135	706-710	skrb	_	_	_	_	
+1-136	711-713	za	_	_	_	_	
+1-137	714-725	čimprejšnjo	_	_	_	_	
+1-138	726-735	umestitev	_	_	_	_	
+1-139	736-742	tretje	_	_	_	_	
+1-140	743-751	razvojne	_	_	_	_	
+1-141	752-755	osi	_	_	_	_	
+1-142	756-757	.	_	_	_	_	
+1-143	758-759	"	_	_	_	_	
+1-144	760-768	Zavedamo	_	_	_	_	
+1-145	769-771	se	_	_	_	_	
+1-146	772-773	,	_	_	_	_	
+1-147	774-776	da	_	_	_	_	
+1-148	777-779	je	_	_	_	_	
+1-149	780-785	hitra	_	_	_	_	
+1-150	786-791	cesta	_	_	_	_	
+1-151	792-794	ta	_	_	_	_	
+1-152	795-803	trenutek	_	_	_	_	
+1-153	804-806	za	_	_	_	_	
+1-154	807-810	vse	_	_	_	_	
+1-155	811-814	nas	_	_	_	_	
+1-156	815-820	nujna	_	_	_	_	
+1-157	821-823	za	_	_	_	_	
+1-158	824-833	nadaljnji	_	_	_	_	
+1-159	834-840	razvoj	_	_	_	_	
+1-160	841-850	prihodnje	_	_	*->1-5	*[1]	
+1-161	851-857	skupne	_	_	*->1-5	*[1]	
+1-162	858-867	pokrajine	_	_	*->1-5	*[1]	
+1-163	868-869	,	_	_	_	_	
+1-164	870-871	"	_	_	_	_	
+1-165	872-877	pravi	_	_	_	_	
+1-166	878-887	velenjski	_	3 - Nevtralno[14]	*->15-1	*[15]	
+1-167	888-893	župan	_	3 - Nevtralno[14]	*->15-1	*[15]	
+1-168	894-900	Srečko	PER[8]	3 - Nevtralno[14]	*->15-1	*[15]	
+1-169	901-904	Meh	PER[8]	3 - Nevtralno[14]	*->15-1	*[15]	
+1-170	905-907	in	_	_	_	_	
+1-171	908-916	poudarja	_	_	_	_	
+1-172	917-918	,	_	_	_	_	
+1-173	919-921	da	_	_	_	_	
+1-174	922-924	so	_	_	_	_	
+1-175	925-928	vsi	_	_	_	_	
+1-176	929-935	župani	_	_	_	_	
+1-177	936-937	,	_	_	_	_	
+1-178	938-941	vse	_	_	_	_	
+1-179	942-948	občine	_	_	_	_	
+1-180	949-951	in	_	_	_	_	
+1-181	952-955	vse	_	_	_	_	
+1-182	956-962	uprave	_	_	_	_	
+1-183	963-965	na	_	_	_	_	
+1-184	966-973	območju	_	_	_	_	
+1-185	974-981	Šaleške	LOC	3 - Nevtralno	*->4-2	*[4]	
+1-186	982-984	in	_	_	_	_	
+1-187	985-992	Zgornje	LOC[9]	3 - Nevtralno[15]	*->5-2	*[5]	
+1-188	993-1002	Savinjske	LOC[9]	3 - Nevtralno[15]	*->5-2	*[5]	
+1-189	1003-1012	pokrajine	LOC[9]	3 - Nevtralno[15]	*->5-2	*[5]	
+1-190	1013-1018	dobro	_	_	_	_	
+1-191	1019-1029	sodelovali	_	_	_	_	
+1-192	1030-1032	že	_	_	_	_	
+1-193	1033-1039	doslej	_	_	_	_	
+1-194	1040-1042	in	_	_	_	_	
+1-195	1043-1047	bodo	_	_	_	_	
+1-196	1048-1052	tudi	_	_	_	_	
+1-197	1053-1054	v	_	_	_	_	
+1-198	1055-1064	prihodnje	_	_	_	_	
+1-199	1065-1066	.	_	_	_	_	
+1-200	1067-1072	Sedež	_	_	_	_	
+1-201	1073-1082	pokrajine	_	3 - Nevtralno	*->1-6	*[1]	
+1-202	1083-1086	naj	_	_	_	_	
+1-203	1087-1089	bi	_	_	_	_	
+1-204	1090-1093	bil	_	_	_	_	
+1-205	1094-1095	v	_	_	_	_	
+1-206	1096-1103	Velenju	LOC	3 - Nevtralno	*->2-3	*[2]	
+1-207	1104-1105	,	_	_	_	_	
+1-208	1106-1107	s	_	_	_	_	
+1-209	1108-1111	tem	_	_	_	_	
+1-210	1112-1114	pa	_	_	_	_	
+1-211	1115-1117	se	_	_	_	_	
+1-212	1118-1120	še	_	_	_	_	
+1-213	1121-1126	vedno	_	_	_	_	
+1-214	1127-1131	niso	_	_	_	_	
+1-215	1132-1138	povsem	_	_	_	_	
+1-216	1139-1150	sprijaznili	_	_	_	_	
+1-217	1151-1152	v	_	_	_	_	
+1-218	1153-1161	Šoštanju	LOC	_	*->14-2	*[14]	
+1-219	1162-1163	.	_	_	_	_	
+1-220	1164-1165	"	_	_	_	_	
+1-221	1166-1168	Mi	_	_	_	_	
+1-222	1169-1173	tega	_	_	_	_	
+1-223	1174-1175	,	_	_	_	_	
+1-224	1176-1178	da	_	_	_	_	
+1-225	1179-1181	ne	_	_	_	_	
+1-226	1182-1186	bomo	_	_	_	_	
+1-227	1187-1192	imeli	_	_	_	_	
+1-228	1193-1202	celotnega	_	_	_	_	
+1-229	1203-1209	sedeža	_	_	_	_	
+1-230	1210-1211	,	_	_	_	_	
+1-231	1212-1217	nismo	_	_	_	_	
+1-232	1218-1227	preboleli	_	_	_	_	
+1-233	1228-1230	in	_	_	_	_	
+1-234	1231-1233	si	_	_	_	_	
+1-235	1234-1238	bomo	_	_	_	_	
+1-236	1239-1241	še	_	_	_	_	
+1-237	1242-1248	naprej	_	_	_	_	
+1-238	1249-1260	prizadevali	_	_	_	_	
+1-239	1261-1262	,	_	_	_	_	
+1-240	1263-1265	da	_	_	_	_	
+1-241	1266-1268	bi	_	_	_	_	
+1-242	1269-1275	dobili	_	_	_	_	
+1-243	1276-1280	vsaj	_	_	_	_	
+1-244	1281-1287	delček	_	_	_	_	
+1-245	1288-1294	pogače	_	_	_	_	
+1-246	1295-1296	.	_	_	_	_	
+1-247	1297-1303	Želeli	_	_	_	_	
+1-248	1304-1306	bi	_	_	_	_	
+1-249	1307-1308	,	_	_	_	_	
+1-250	1309-1311	da	_	_	_	_	
+1-251	1312-1314	bi	_	_	_	_	
+1-252	1315-1320	imeli	_	_	_	_	
+1-253	1321-1325	vsaj	_	_	_	_	
+1-254	1326-1330	tako	_	_	_	_	
+1-255	1331-1339	imenovan	_	_	_	_	
+1-256	1340-1350	energetski	_	_	_	_	
+1-257	1351-1356	sedež	_	_	_	_	
+1-258	1357-1366	pokrajine	_	_	_	_	
+1-259	1367-1368	,	_	_	_	_	
+1-260	1369-1372	saj	_	_	_	_	
+1-261	1373-1375	bi	_	_	_	_	
+1-262	1376-1378	si	_	_	_	_	
+1-263	1379-1385	zaradi	_	_	_	_	
+1-264	1386-1401	termoelektrarne	_	_	_	_	
+1-265	1402-1404	in	_	_	_	_	
+1-266	1405-1417	premogovnika	_	_	_	_	
+1-267	1418-1420	to	_	_	_	_	
+1-268	1421-1425	tudi	_	_	_	_	
+1-269	1426-1435	zaslužili	_	_	_	_	
+1-270	1436-1437	,	_	_	_	_	
+1-271	1438-1439	"	_	_	_	_	
+1-272	1440-1445	pravi	_	_	_	_	
+1-273	1446-1451	župan	_	3 - Nevtralno[16]	*->16-1	*[16]	
+1-274	1452-1458	občine	_	3 - Nevtralno[16]|3 - Nevtralno[17]	*->16-1|*->14-3	*[16]|*[14]	
+1-275	1459-1466	Šoštanj	LOC	3 - Nevtralno[16]|3 - Nevtralno[17]	*->16-1|*->14-3	*[16]|*[14]	
+1-276	1467-1472	Darko	PER[10]	3 - Nevtralno[16]	*->16-1	*[16]	
+1-277	1473-1478	Menih	PER[10]	3 - Nevtralno[16]	*->16-1	*[16]	

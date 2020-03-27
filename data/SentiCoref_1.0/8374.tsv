@@ -1,0 +1,160 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Predsednik Türk je za prosta mesta ustavnih sodnikov predlagal dr . Mitjo Deisingerja , Jasno Pogačar , Jana Zobca in prof . dr . Ernesta Petriča . Predsednik republike Danilo Türk je državnemu zboru posredoval predlog štirih kandidatov za štiri prosta mesta ustavnih sodnikov Ustavnega sodišča Republike Slovenije . Predlagani kandidati predsednika republike za ustavne sodnike so sodniki Vrhovnega sodišča Republike Slovenije dr . Mitja Deisinger , Jasna Pogačar in Jan Zobec ter veleposlanik Republike Slovenije v Republiki Avstriji prof . dr . Ernest Petrič . Kandidati kandidirajo za mesta prof . dr . Mirjam Marjete Škrk in prof . dr . Janeza Čebulja , ki jima je mandat potekel 30 . oktobra 2007 , prof . dr . Zvonka Fišerja , ki mu je mandat potekel 17 . decembra 2007 , ter prof . dr . Franca Grada , ki ga je na lastno zahtevo s 1 . februarjem 2008 razrešil parlament
+1-1	0-10	Predsednik	_	_	*->3-1	*[3]	
+1-2	11-15	Türk	PER	_	*->3-1	*[3]	
+1-3	16-18	je	_	_	_	_	
+1-4	19-21	za	_	_	_	_	
+1-5	22-28	prosta	_	_	_	_	
+1-6	29-34	mesta	_	_	_	_	
+1-7	35-43	ustavnih	_	_	_	_	
+1-8	44-52	sodnikov	_	_	_	_	
+1-9	53-62	predlagal	_	_	_	_	
+1-10	63-65	dr	_	_	*->5-1	*[5]	
+1-11	66-67	.	_	_	*->5-1	*[5]	
+1-12	68-73	Mitjo	PER[1]	_	*->5-1	*[5]	
+1-13	74-85	Deisingerja	PER[1]	_	*->5-1	*[5]	
+1-14	86-87	,	_	_	_	_	
+1-15	88-93	Jasno	PER[2]	_	*->6-1	*[6]	
+1-16	94-101	Pogačar	PER[2]	_	*->6-1	*[6]	
+1-17	102-103	,	_	_	_	_	
+1-18	104-108	Jana	PER[3]	_	*->7-1	*[7]	
+1-19	109-114	Zobca	PER[3]	_	*->7-1	*[7]	
+1-20	115-117	in	_	_	_	_	
+1-21	118-122	prof	_	_	*->8-1	*[8]	
+1-22	123-124	.	_	_	*->8-1	*[8]	
+1-23	125-127	dr	_	_	*->8-1	*[8]	
+1-24	128-129	.	_	_	*->8-1	*[8]	
+1-25	130-137	Ernesta	PER[4]	_	*->8-1	*[8]	
+1-26	138-145	Petriča	PER[4]	_	*->8-1	*[8]	
+1-27	146-147	.	_	_	_	_	
+1-28	148-158	Predsednik	_	_	*->3-2	*[3]	
+1-29	159-168	republike	_	_	*->3-2	*[3]	
+1-30	169-175	Danilo	PER[5]	_	*->3-2	*[3]	
+1-31	176-180	Türk	PER[5]	_	*->3-2	*[3]	
+1-32	181-183	je	_	_	_	_	
+1-33	184-193	državnemu	ORG[6]	3 - Nevtralno[21]	*->1-1	*[1]	
+1-34	194-199	zboru	ORG[6]	3 - Nevtralno[21]	*->1-1	*[1]	
+1-35	200-210	posredoval	_	_	_	_	
+1-36	211-218	predlog	_	_	_	_	
+1-37	219-225	štirih	_	_	_	_	
+1-38	226-236	kandidatov	_	_	_	_	
+1-39	237-239	za	_	_	_	_	
+1-40	240-245	štiri	_	_	_	_	
+1-41	246-252	prosta	_	_	_	_	
+1-42	253-258	mesta	_	_	_	_	
+1-43	259-267	ustavnih	_	_	_	_	
+1-44	268-276	sodnikov	_	_	_	_	
+1-45	277-286	Ustavnega	ORG[7]	3 - Nevtralno[22]	*->2-1	*[2]	
+1-46	287-294	sodišča	ORG[7]	3 - Nevtralno[22]	*->2-1	*[2]	
+1-47	295-304	Republike	ORG[7]|LOC[8]	3 - Nevtralno[22]	*->2-1|*->9-1	*[2]|*[9]	
+1-48	305-314	Slovenije	ORG[7]|LOC[8]	3 - Nevtralno[22]	*->2-1|*->9-1	*[2]|*[9]	
+1-49	315-316	.	_	_	_	_	
+1-50	317-327	Predlagani	_	_	_	_	
+1-51	328-337	kandidati	_	_	_	_	
+1-52	338-349	predsednika	_	3 - Nevtralno[23]	*->3-3	*[3]	
+1-53	350-359	republike	_	3 - Nevtralno[23]	*->3-3	*[3]	
+1-54	360-362	za	_	_	_	_	
+1-55	363-370	ustavne	_	_	_	_	
+1-56	371-378	sodnike	_	_	_	_	
+1-57	379-381	so	_	_	_	_	
+1-58	382-389	sodniki	_	_	_	_	
+1-59	390-399	Vrhovnega	ORG[9]	3 - Nevtralno[24]	*->4-1	*[4]	
+1-60	400-407	sodišča	ORG[9]	3 - Nevtralno[24]	*->4-1	*[4]	
+1-61	408-417	Republike	ORG[9]|LOC[10]	3 - Nevtralno[24]	*->4-1|*->9-2	*[4]|*[9]	
+1-62	418-427	Slovenije	ORG[9]|LOC[10]	3 - Nevtralno[24]	*->4-1|*->9-2	*[4]|*[9]	
+1-63	428-430	dr	_	3 - Nevtralno[25]	*->5-2	*[5]	
+1-64	431-432	.	_	3 - Nevtralno[25]	*->5-2	*[5]	
+1-65	433-438	Mitja	PER[11]	3 - Nevtralno[25]	*->5-2	*[5]	
+1-66	439-448	Deisinger	PER[11]	3 - Nevtralno[25]	*->5-2	*[5]	
+1-67	449-450	,	_	_	_	_	
+1-68	451-456	Jasna	PER[12]	3 - Nevtralno[26]	*->6-2	*[6]	
+1-69	457-464	Pogačar	PER[12]	3 - Nevtralno[26]	*->6-2	*[6]	
+1-70	465-467	in	_	_	_	_	
+1-71	468-471	Jan	PER[13]	3 - Nevtralno[27]	*->7-2	*[7]	
+1-72	472-477	Zobec	PER[13]	3 - Nevtralno[27]	*->7-2	*[7]	
+1-73	478-481	ter	_	_	_	_	
+1-74	482-494	veleposlanik	_	3 - Nevtralno[28]	*->8-2	*[8]	
+1-75	495-504	Republike	LOC[14]	3 - Nevtralno[28]|3 - Nevtralno[29]	*->8-2|*->9-3	*[8]|*[9]	
+1-76	505-514	Slovenije	LOC[14]	3 - Nevtralno[28]|3 - Nevtralno[29]	*->8-2|*->9-3	*[8]|*[9]	
+1-77	515-516	v	_	3 - Nevtralno[28]	*->8-2	*[8]	
+1-78	517-526	Republiki	LOC[15]	3 - Nevtralno[28]|3 - Nevtralno[30]	*->8-2|*->10-1	*[8]|*[10]	
+1-79	527-535	Avstriji	LOC[15]	3 - Nevtralno[28]|3 - Nevtralno[30]	*->8-2|*->10-1	*[8]|*[10]	
+1-80	536-540	prof	_	3 - Nevtralno[28]	*->8-2	*[8]	
+1-81	541-542	.	_	3 - Nevtralno[28]	*->8-2	*[8]	
+1-82	543-545	dr	_	3 - Nevtralno[28]	*->8-2	*[8]	
+1-83	546-547	.	_	3 - Nevtralno[28]	*->8-2	*[8]	
+1-84	548-554	Ernest	PER[16]	3 - Nevtralno[28]	*->8-2	*[8]	
+1-85	555-561	Petrič	PER[16]	3 - Nevtralno[28]	*->8-2	*[8]	
+1-86	562-563	.	_	_	_	_	
+1-87	564-573	Kandidati	_	_	_	_	
+1-88	574-585	kandidirajo	_	_	_	_	
+1-89	586-588	za	_	_	_	_	
+1-90	589-594	mesta	_	_	_	_	
+1-91	595-599	prof	_	3 - Nevtralno[31]	*->11-1	*[11]	
+1-92	600-601	.	_	3 - Nevtralno[31]	*->11-1	*[11]	
+1-93	602-604	dr	_	3 - Nevtralno[31]	*->11-1	*[11]	
+1-94	605-606	.	_	3 - Nevtralno[31]	*->11-1	*[11]	
+1-95	607-613	Mirjam	PER[17]	3 - Nevtralno[31]	*->11-1	*[11]	
+1-96	614-621	Marjete	PER[17]	3 - Nevtralno[31]	*->11-1	*[11]	
+1-97	622-626	Škrk	PER[17]	3 - Nevtralno[31]	*->11-1	*[11]	
+1-98	627-629	in	_	_	_	_	
+1-99	630-634	prof	_	3 - Nevtralno[32]	*->12-1	*[12]	
+1-100	635-636	.	_	3 - Nevtralno[32]	*->12-1	*[12]	
+1-101	637-639	dr	_	3 - Nevtralno[32]	*->12-1	*[12]	
+1-102	640-641	.	_	3 - Nevtralno[32]	*->12-1	*[12]	
+1-103	642-648	Janeza	PER[18]	3 - Nevtralno[32]	*->12-1	*[12]	
+1-104	649-656	Čebulja	PER[18]	3 - Nevtralno[32]	*->12-1	*[12]	
+1-105	657-658	,	_	_	_	_	
+1-106	659-661	ki	_	_	_	_	
+1-107	662-666	jima	_	_	_	_	
+1-108	667-669	je	_	_	_	_	
+1-109	670-676	mandat	_	_	_	_	
+1-110	677-684	potekel	_	_	_	_	
+1-111	685-687	30	_	_	_	_	
+1-112	688-689	.	_	_	_	_	
+1-113	690-697	oktobra	_	_	_	_	
+1-114	698-702	2007	_	_	_	_	
+1-115	703-704	,	_	_	_	_	
+1-116	705-709	prof	_	_	*->13-1	*[13]	
+1-117	710-711	.	_	_	*->13-1	*[13]	
+1-118	712-714	dr	_	_	*->13-1	*[13]	
+1-119	715-716	.	_	_	*->13-1	*[13]	
+1-120	717-723	Zvonka	PER[19]	_	*->13-1	*[13]	
+1-121	724-731	Fišerja	PER[19]	_	*->13-1	*[13]	
+1-122	732-733	,	_	_	_	_	
+1-123	734-736	ki	_	_	_	_	
+1-124	737-739	mu	_	3 - Nevtralno	*->13-2	*[13]	
+1-125	740-742	je	_	_	_	_	
+1-126	743-749	mandat	_	_	_	_	
+1-127	750-757	potekel	_	_	_	_	
+1-128	758-760	17	_	_	_	_	
+1-129	761-762	.	_	_	_	_	
+1-130	763-771	decembra	_	_	_	_	
+1-131	772-776	2007	_	_	_	_	
+1-132	777-778	,	_	_	_	_	
+1-133	779-782	ter	_	_	_	_	
+1-134	783-787	prof	_	_	*->14-1	*[14]	
+1-135	788-789	.	_	_	*->14-1	*[14]	
+1-136	790-792	dr	_	_	*->14-1	*[14]	
+1-137	793-794	.	_	_	*->14-1	*[14]	
+1-138	795-801	Franca	PER[20]	_	*->14-1	*[14]	
+1-139	802-807	Grada	PER[20]	_	*->14-1	*[14]	
+1-140	808-809	,	_	_	_	_	
+1-141	810-812	ki	_	_	_	_	
+1-142	813-815	ga	_	3 - Nevtralno	*->14-2	*[14]	
+1-143	816-818	je	_	_	_	_	
+1-144	819-821	na	_	_	_	_	
+1-145	822-828	lastno	_	_	_	_	
+1-146	829-836	zahtevo	_	_	_	_	
+1-147	837-838	s	_	_	_	_	
+1-148	839-840	1	_	_	_	_	
+1-149	841-842	.	_	_	_	_	
+1-150	843-853	februarjem	_	_	_	_	
+1-151	854-858	2008	_	_	_	_	
+1-152	859-867	razrešil	_	_	_	_	
+1-153	868-877	parlament	ORG	3 - Nevtralno	*->15-1	*[15]	

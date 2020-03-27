@@ -1,0 +1,297 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Gospodarska zbornica Slovenije je prejela štiri kandidature za novega predsednika , ki bo nasledil Zdenka Pavčka . Novega predsednika bo skupščina izvolila 2 . septembra . Zdenko Pavček je s položaja odstopil . Za to mesto predsednika bodo izvolili na skupščini Gospodarske zbornice Slovenije GZS se bodo potegovali Stojan Binder , Andrej Mate , Vasilij Prešern in Boštjan Šifrar . Novi predsednik GZS bo nasledil Zdenka Pavčka , ki je 14 . julija s položaja odstopil . Kot so sporočili z GZS , se je danes zaključil postopek predlaganja kandidatov za novega predsednika GZS . Vse štiri kandidature izpolnjujejo pogoje , določene v statutu zbornice in pravilniku o volitvah organov GZS . Binder je direktor družbe Sinet , Mate predsednik upravnega odbora Inlesa , Prešern izvršni direktor Sija in Šifrar direktor družbe Sibo G . Med omenjenimi bo skupščina zbornice 2 . septembra izvolila novega predsednika , ki bo na položaj izvoljen za čas do izteka štiriletnega mandata sedanje skupščine GZS in konstituiranja nove , torej najdlje do 29 . maja 2011 . Po preteku mandata je lahko ponovno izvoljen za predsednika GZS . Do volilne skupščine bo funkcijo predsednika GZS opravljal Pavček . Kandidati bodo po pojasnilih GZS pripravili program delovanja zbornice , ki ga bodo pred volitvami posredovali članom skupščine GZS . Nove kandidate lahko na volilno listo uvrstijo tudi na sami volilni skupščini , če novega kandidata predlaga vsaj deset članov skupščine . Predsednik skupščine GZS Uroš Slavinec je poziv za predlaganje kandidatov objavil 19 . julija . Pavček je z mesta predsednika GZS odstopil iz osebnih razlogov . Kot je dejal ob predaji odstopne izjave , odstopu ni botroval poziv upravnega odbora Združenja kemijske industrije pri GZS , saj je o odstopu razmišljal že nekaj časa
+1-1	0-11	Gospodarska	ORG[1]	_	*->7-1	*[7]	
+1-2	12-20	zbornica	ORG[1]	_	*->7-1	*[7]	
+1-3	21-30	Slovenije	ORG[1]|LOC[2]	_	*->7-1|*->9-1	*[7]|*[9]	
+1-4	31-33	je	_	_	_	_	
+1-5	34-41	prejela	_	_	_	_	
+1-6	42-47	štiri	_	_	_	_	
+1-7	48-59	kandidature	_	_	_	_	
+1-8	60-62	za	_	_	_	_	
+1-9	63-69	novega	_	_	_	_	
+1-10	70-81	predsednika	_	_	_	_	
+1-11	82-83	,	_	_	_	_	
+1-12	84-86	ki	_	_	_	_	
+1-13	87-89	bo	_	_	_	_	
+1-14	90-98	nasledil	_	_	_	_	
+1-15	99-105	Zdenka	PER[3]	_	*->13-1	*[13]	
+1-16	106-112	Pavčka	PER[3]	_	*->13-1	*[13]	
+1-17	113-114	.	_	_	_	_	
+1-18	115-121	Novega	_	_	_	_	
+1-19	122-133	predsednika	_	_	_	_	
+1-20	134-136	bo	_	_	_	_	
+1-21	137-146	skupščina	_	_	_	_	
+1-22	147-155	izvolila	_	_	_	_	
+1-23	156-157	2	_	_	_	_	
+1-24	158-159	.	_	_	_	_	
+1-25	160-169	septembra	_	_	_	_	
+1-26	170-171	.	_	_	_	_	
+1-27	172-178	Zdenko	PER[4]	_	*->13-2	*[13]	
+1-28	179-185	Pavček	PER[4]	_	*->13-2	*[13]	
+1-29	186-188	je	_	_	_	_	
+1-30	189-190	s	_	_	_	_	
+1-31	191-199	položaja	_	_	_	_	
+1-32	200-208	odstopil	_	_	_	_	
+1-33	209-210	.	_	_	_	_	
+1-34	211-213	Za	_	_	_	_	
+1-35	214-216	to	_	_	_	_	
+1-36	217-222	mesto	_	_	_	_	
+1-37	223-234	predsednika	_	_	_	_	
+1-38	235-239	bodo	_	_	_	_	
+1-39	240-248	izvolili	_	_	_	_	
+1-40	249-251	na	_	_	_	_	
+1-41	252-261	skupščini	_	_	_	_	
+1-42	262-273	Gospodarske	ORG[5]	_	*->7-2	*[7]	
+1-43	274-282	zbornice	ORG[5]	_	*->7-2	*[7]	
+1-44	283-292	Slovenije	ORG[5]|LOC[6]	3 - Nevtralno	*->7-2|*->9-2	*[7]|*[9]	
+1-45	293-296	GZS	ORG[5]	_	*->7-2	*[7]	
+1-46	297-299	se	_	_	_	_	
+1-47	300-304	bodo	_	_	_	_	
+1-48	305-315	potegovali	_	_	_	_	
+1-49	316-322	Stojan	PER[7]	_	*->1-1	*[1]	
+1-50	323-329	Binder	PER[7]	_	*->1-1	*[1]	
+1-51	330-331	,	_	_	_	_	
+1-52	332-338	Andrej	PER[8]	_	*->12-1	*[12]	
+1-53	339-343	Mate	PER[8]	_	*->12-1	*[12]	
+1-54	344-345	,	_	_	_	_	
+1-55	346-353	Vasilij	PER[9]	_	*->10-1	*[10]	
+1-56	354-361	Prešern	PER[9]	_	*->10-1	*[10]	
+1-57	362-364	in	_	_	_	_	
+1-58	365-372	Boštjan	PER[10]	_	*->11-1	*[11]	
+1-59	373-379	Šifrar	PER[10]	_	*->11-1	*[11]	
+1-60	380-381	.	_	_	_	_	
+1-61	382-386	Novi	_	_	_	_	
+1-62	387-397	predsednik	_	_	_	_	
+1-63	398-401	GZS	ORG	_	*->7-3	*[7]	
+1-64	402-404	bo	_	_	_	_	
+1-65	405-413	nasledil	_	_	_	_	
+1-66	414-420	Zdenka	PER[11]	_	*->13-3	*[13]	
+1-67	421-427	Pavčka	PER[11]	_	*->13-3	*[13]	
+1-68	428-429	,	_	_	_	_	
+1-69	430-432	ki	_	_	_	_	
+1-70	433-435	je	_	_	_	_	
+1-71	436-438	14	_	_	_	_	
+1-72	439-440	.	_	_	_	_	
+1-73	441-447	julija	_	_	_	_	
+1-74	448-449	s	_	_	_	_	
+1-75	450-458	položaja	_	_	_	_	
+1-76	459-467	odstopil	_	_	_	_	
+1-77	468-469	.	_	_	_	_	
+1-78	470-473	Kot	_	_	_	_	
+1-79	474-476	so	_	_	_	_	
+1-80	477-486	sporočili	_	_	_	_	
+1-81	487-488	z	_	_	_	_	
+1-82	489-492	GZS	ORG	_	*->7-4	*[7]	
+1-83	493-494	,	_	_	_	_	
+1-84	495-497	se	_	_	_	_	
+1-85	498-500	je	_	_	_	_	
+1-86	501-506	danes	_	_	_	_	
+1-87	507-516	zaključil	_	_	_	_	
+1-88	517-525	postopek	_	_	_	_	
+1-89	526-537	predlaganja	_	_	_	_	
+1-90	538-548	kandidatov	_	_	_	_	
+1-91	549-551	za	_	_	_	_	
+1-92	552-558	novega	_	_	_	_	
+1-93	559-570	predsednika	_	_	_	_	
+1-94	571-574	GZS	ORG	_	*->7-5	*[7]	
+1-95	575-576	.	_	_	_	_	
+1-96	577-580	Vse	_	_	_	_	
+1-97	581-586	štiri	_	_	_	_	
+1-98	587-598	kandidature	_	_	_	_	
+1-99	599-611	izpolnjujejo	_	_	_	_	
+1-100	612-618	pogoje	_	_	_	_	
+1-101	619-620	,	_	_	_	_	
+1-102	621-629	določene	_	_	_	_	
+1-103	630-631	v	_	_	_	_	
+1-104	632-639	statutu	_	_	_	_	
+1-105	640-648	zbornice	_	_	*->7-6	*[7]	
+1-106	649-651	in	_	_	_	_	
+1-107	652-662	pravilniku	_	_	_	_	
+1-108	663-664	o	_	_	_	_	
+1-109	665-673	volitvah	_	_	_	_	
+1-110	674-681	organov	_	_	_	_	
+1-111	682-685	GZS	ORG	_	*->7-7	*[7]	
+1-112	686-687	.	_	_	_	_	
+1-113	688-694	Binder	PER	_	*->1-2	*[1]	
+1-114	695-697	je	_	_	_	_	
+1-115	698-706	direktor	_	3 - Nevtralno[15]	*->1-3	*[1]	
+1-116	707-713	družbe	_	3 - Nevtralno[15]|3 - Nevtralno[16]	*->1-3|*->2-1	*[1]|*[2]	
+1-117	714-719	Sinet	ORG	3 - Nevtralno[15]|3 - Nevtralno[16]	*->1-3|*->2-1	*[1]|*[2]	
+1-118	720-721	,	_	_	_	_	
+1-119	722-726	Mate	PER	3 - Nevtralno[17]	*->12-2	*[12]	
+1-120	727-737	predsednik	_	3 - Nevtralno[17]	*->12-2	*[12]	
+1-121	738-747	upravnega	_	3 - Nevtralno[17]	*->12-2	*[12]	
+1-122	748-754	odbora	_	3 - Nevtralno[17]	*->12-2	*[12]	
+1-123	755-761	Inlesa	ORG	3 - Nevtralno[17]|3 - Nevtralno[18]	*->12-2|*->4-1	*[12]|*[4]	
+1-124	762-763	,	_	_	_	_	
+1-125	764-771	Prešern	PER	3 - Nevtralno[19]	*->10-2	*[10]	
+1-126	772-779	izvršni	_	3 - Nevtralno[19]	*->10-2	*[10]	
+1-127	780-788	direktor	_	3 - Nevtralno[19]	*->10-2	*[10]	
+1-128	789-793	Sija	ORG	3 - Nevtralno[19]|3 - Nevtralno[20]	*->10-2|*->3-1	*[10]|*[3]	
+1-129	794-796	in	_	_	_	_	
+1-130	797-803	Šifrar	PER	3 - Nevtralno[21]	*->11-2	*[11]	
+1-131	804-812	direktor	_	3 - Nevtralno[21]	*->11-2	*[11]	
+1-132	813-819	družbe	_	3 - Nevtralno[21]|3 - Nevtralno[22]	*->11-2|*->5-1	*[11]|*[5]	
+1-133	820-824	Sibo	ORG[12]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->11-2|*->5-1	*[11]|*[5]	
+1-134	825-826	G	ORG[12]	3 - Nevtralno[21]|3 - Nevtralno[22]	*->11-2|*->5-1	*[11]|*[5]	
+1-135	827-828	.	_	_	_	_	
+1-136	829-832	Med	_	_	_	_	
+1-137	833-843	omenjenimi	_	_	_	_	
+1-138	844-846	bo	_	_	_	_	
+1-139	847-856	skupščina	_	_	_	_	
+1-140	857-865	zbornice	_	_	*->7-8	*[7]	
+1-141	866-867	2	_	_	_	_	
+1-142	868-869	.	_	_	_	_	
+1-143	870-879	septembra	_	_	_	_	
+1-144	880-888	izvolila	_	_	_	_	
+1-145	889-895	novega	_	_	_	_	
+1-146	896-907	predsednika	_	_	_	_	
+1-147	908-909	,	_	_	_	_	
+1-148	910-912	ki	_	_	_	_	
+1-149	913-915	bo	_	_	_	_	
+1-150	916-918	na	_	_	_	_	
+1-151	919-926	položaj	_	_	_	_	
+1-152	927-935	izvoljen	_	_	_	_	
+1-153	936-938	za	_	_	_	_	
+1-154	939-942	čas	_	_	_	_	
+1-155	943-945	do	_	_	_	_	
+1-156	946-952	izteka	_	_	_	_	
+1-157	953-965	štiriletnega	_	_	_	_	
+1-158	966-973	mandata	_	_	_	_	
+1-159	974-981	sedanje	_	_	_	_	
+1-160	982-991	skupščine	_	_	_	_	
+1-161	992-995	GZS	ORG	_	*->7-9	*[7]	
+1-162	996-998	in	_	_	_	_	
+1-163	999-1013	konstituiranja	_	_	_	_	
+1-164	1014-1018	nove	_	_	_	_	
+1-165	1019-1020	,	_	_	_	_	
+1-166	1021-1026	torej	_	_	_	_	
+1-167	1027-1034	najdlje	_	_	_	_	
+1-168	1035-1037	do	_	_	_	_	
+1-169	1038-1040	29	_	_	_	_	
+1-170	1041-1042	.	_	_	_	_	
+1-171	1043-1047	maja	_	_	_	_	
+1-172	1048-1052	2011	_	_	_	_	
+1-173	1053-1054	.	_	_	_	_	
+1-174	1055-1057	Po	_	_	_	_	
+1-175	1058-1065	preteku	_	_	_	_	
+1-176	1066-1073	mandata	_	_	_	_	
+1-177	1074-1076	je	_	_	_	_	
+1-178	1077-1082	lahko	_	_	_	_	
+1-179	1083-1090	ponovno	_	_	_	_	
+1-180	1091-1099	izvoljen	_	_	_	_	
+1-181	1100-1102	za	_	_	_	_	
+1-182	1103-1114	predsednika	_	_	_	_	
+1-183	1115-1118	GZS	ORG	_	*->7-10	*[7]	
+1-184	1119-1120	.	_	_	_	_	
+1-185	1121-1123	Do	_	_	_	_	
+1-186	1124-1131	volilne	_	_	_	_	
+1-187	1132-1141	skupščine	_	_	_	_	
+1-188	1142-1144	bo	_	_	_	_	
+1-189	1145-1153	funkcijo	_	_	_	_	
+1-190	1154-1165	predsednika	_	_	_	_	
+1-191	1166-1169	GZS	ORG	_	*->7-11	*[7]	
+1-192	1170-1179	opravljal	_	_	_	_	
+1-193	1180-1186	Pavček	PER	_	*->13-4	*[13]	
+1-194	1187-1188	.	_	_	_	_	
+1-195	1189-1198	Kandidati	_	_	_	_	
+1-196	1199-1203	bodo	_	_	_	_	
+1-197	1204-1206	po	_	_	_	_	
+1-198	1207-1217	pojasnilih	_	_	_	_	
+1-199	1218-1221	GZS	ORG	_	*->7-12	*[7]	
+1-200	1222-1232	pripravili	_	_	_	_	
+1-201	1233-1240	program	_	_	_	_	
+1-202	1241-1250	delovanja	_	_	_	_	
+1-203	1251-1259	zbornice	_	_	*->7-13	*[7]	
+1-204	1260-1261	,	_	_	_	_	
+1-205	1262-1264	ki	_	_	_	_	
+1-206	1265-1267	ga	_	_	_	_	
+1-207	1268-1272	bodo	_	_	_	_	
+1-208	1273-1277	pred	_	_	_	_	
+1-209	1278-1287	volitvami	_	_	_	_	
+1-210	1288-1299	posredovali	_	_	_	_	
+1-211	1300-1306	članom	_	_	_	_	
+1-212	1307-1316	skupščine	_	_	_	_	
+1-213	1317-1320	GZS	ORG	_	*->7-14	*[7]	
+1-214	1321-1322	.	_	_	_	_	
+1-215	1323-1327	Nove	_	_	_	_	
+1-216	1328-1337	kandidate	_	_	_	_	
+1-217	1338-1343	lahko	_	_	_	_	
+1-218	1344-1346	na	_	_	_	_	
+1-219	1347-1354	volilno	_	_	_	_	
+1-220	1355-1360	listo	_	_	_	_	
+1-221	1361-1369	uvrstijo	_	_	_	_	
+1-222	1370-1374	tudi	_	_	_	_	
+1-223	1375-1377	na	_	_	_	_	
+1-224	1378-1382	sami	_	_	_	_	
+1-225	1383-1390	volilni	_	_	_	_	
+1-226	1391-1400	skupščini	_	_	_	_	
+1-227	1401-1402	,	_	_	_	_	
+1-228	1403-1405	če	_	_	_	_	
+1-229	1406-1412	novega	_	_	_	_	
+1-230	1413-1422	kandidata	_	_	_	_	
+1-231	1423-1431	predlaga	_	_	_	_	
+1-232	1432-1436	vsaj	_	_	_	_	
+1-233	1437-1442	deset	_	_	_	_	
+1-234	1443-1449	članov	_	_	_	_	
+1-235	1450-1459	skupščine	_	_	_	_	
+1-236	1460-1461	.	_	_	_	_	
+1-237	1462-1472	Predsednik	_	3 - Nevtralno[23]	*->6-1	*[6]	
+1-238	1473-1482	skupščine	_	3 - Nevtralno[23]	*->6-1	*[6]	
+1-239	1483-1486	GZS	ORG	3 - Nevtralno[23]	*->6-1|*->7-15	*[6]|*[7]	
+1-240	1487-1491	Uroš	PER[13]	3 - Nevtralno[23]	*->6-1	*[6]	
+1-241	1492-1500	Slavinec	PER[13]	3 - Nevtralno[23]	*->6-1	*[6]	
+1-242	1501-1503	je	_	_	_	_	
+1-243	1504-1509	poziv	_	_	_	_	
+1-244	1510-1512	za	_	_	_	_	
+1-245	1513-1524	predlaganje	_	_	_	_	
+1-246	1525-1535	kandidatov	_	_	_	_	
+1-247	1536-1543	objavil	_	_	_	_	
+1-248	1544-1546	19	_	_	_	_	
+1-249	1547-1548	.	_	_	_	_	
+1-250	1549-1555	julija	_	_	_	_	
+1-251	1556-1557	.	_	_	_	_	
+1-252	1558-1564	Pavček	PER	_	*->13-5	*[13]	
+1-253	1565-1567	je	_	_	_	_	
+1-254	1568-1569	z	_	_	_	_	
+1-255	1570-1575	mesta	_	_	_	_	
+1-256	1576-1587	predsednika	_	_	_	_	
+1-257	1588-1591	GZS	ORG	_	*->7-16	*[7]	
+1-258	1592-1600	odstopil	_	_	_	_	
+1-259	1601-1603	iz	_	_	_	_	
+1-260	1604-1611	osebnih	_	_	_	_	
+1-261	1612-1620	razlogov	_	_	_	_	
+1-262	1621-1622	.	_	_	_	_	
+1-263	1623-1626	Kot	_	_	_	_	
+1-264	1627-1629	je	_	_	*->13-6	*[13]	
+1-265	1630-1635	dejal	_	_	*->13-6	*[13]	
+1-266	1636-1638	ob	_	_	_	_	
+1-267	1639-1646	predaji	_	_	_	_	
+1-268	1647-1655	odstopne	_	_	_	_	
+1-269	1656-1662	izjave	_	_	_	_	
+1-270	1663-1664	,	_	_	_	_	
+1-271	1665-1672	odstopu	_	_	_	_	
+1-272	1673-1675	ni	_	_	_	_	
+1-273	1676-1684	botroval	_	_	_	_	
+1-274	1685-1690	poziv	_	_	_	_	
+1-275	1691-1700	upravnega	_	3 - Nevtralno[24]	*->8-1	*[8]	
+1-276	1701-1707	odbora	_	3 - Nevtralno[24]	*->8-1	*[8]	
+1-277	1708-1717	Združenja	ORG[14]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-278	1718-1726	kemijske	ORG[14]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-279	1727-1737	industrije	ORG[14]	3 - Nevtralno[24]	*->8-1	*[8]	
+1-280	1738-1741	pri	_	_	_	_	
+1-281	1742-1745	GZS	ORG	3 - Nevtralno	*->7-17	*[7]	
+1-282	1746-1747	,	_	_	_	_	
+1-283	1748-1751	saj	_	_	_	_	
+1-284	1752-1754	je	_	_	_	_	
+1-285	1755-1756	o	_	_	_	_	
+1-286	1757-1764	odstopu	_	_	_	_	
+1-287	1765-1775	razmišljal	_	3 - Nevtralno	*->13-7	*[13]	
+1-288	1776-1778	že	_	_	_	_	
+1-289	1779-1784	nekaj	_	_	_	_	
+1-290	1785-1789	časa	_	_	_	_	

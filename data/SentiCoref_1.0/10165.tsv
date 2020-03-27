@@ -1,0 +1,331 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Poleg Slovenije bo denar moralo vračati še 21 evropskih držav . Slovenija mora v proračun EU vrniti 286.000 evrov neupravičeno porabljenih sredstev v okviru skupne kmetijske politike , je danes sporočila Evropska komisija . Skupno je sicer Bruselj od članic unije v okviru postopka potrditve obračunov zahteval vračilo 414 milijonov evrov neupravičeno porabljenih kmetijskih sredstev . Slovenija bo morala v proračun EU vrniti 98.000 evrov iz sektorja premij za živali zaradi nedoseganja najmanjše stopnje pregledov na kraju samem za ovce in zaradi neizvajanja sankcij v primeru prepoznega označevanja goveda ter 188.000 evrov iz sektorja pomoči na površino zaradi pomanjkljivosti pri izračunavanju pravic . Članice unije so odgovorne za upravljanje večine izplačil v okviru skupne kmetijske politike , ki se opravijo v glavnem prek njihovih plačilnih agencij . Pristojne so tudi za nadzor , ki na primer vključuje preverjanje zahtevkov kmetov za neposredna plačila . Če denar ni ustrezno porabljen , da hočejo nazaj Komisija , ki bdi nad pravilno porabo sredstev , vsako leto izvede več kot 100 inšpekcij , s katerimi preverja , ali sta nadzor in odziv članic na pomanjkljivosti ustrezna . Ima tudi pravico , da naknadno zahteva vračilo sredstev EU , če inšpekcije pokažejo , da članice ne zagotavljajo ustrezne porabe . Omenjen znesek bodo morale članice vrniti v proračun EU zaradi nespoštovanja pravil EU ali neustreznih postopkov nadzora nad izdatki za kmetijstvo . Nekatere zneske je komisija že izterjala , zato bo uradno neto finančni učinek današnjega sklepa približno 393 milijonov evrov . Poleg Slovenije bo denar vračalo še 21 držav Z današnjim sklepom komisija povračilo sredstev zahteva od 22 članic unije . Poleg Slovenije so to še Belgija , Bolgarija , Češka , Danska , Nemčija , Irska , Grčija , Španija , Francija , Italija , Ciper , Litva , Madžarska , Malta , Nizozemska , Poljska , Romunija , Slovaška , Finska , Švedska in Velika Britanija . Največ morajo vrniti Britanci - 111,7 milijona evrov
+1-1	0-5	Poleg	_	_	_	_	
+1-2	6-15	Slovenije	LOC	_	*->25-1	*[25]	
+1-3	16-18	bo	_	_	_	_	
+1-4	19-24	denar	_	_	_	_	
+1-5	25-31	moralo	_	_	_	_	
+1-6	32-39	vračati	_	_	_	_	
+1-7	40-42	še	_	_	_	_	
+1-8	43-45	21	_	_	*->24-1	*[24]	
+1-9	46-55	evropskih	_	_	*->24-1	*[24]	
+1-10	56-61	držav	_	_	*->24-1	*[24]	
+1-11	62-63	.	_	_	_	_	
+1-12	64-73	Slovenija	LOC	_	*->25-2	*[25]	
+1-13	74-78	mora	_	_	_	_	
+1-14	79-80	v	_	_	_	_	
+1-15	81-89	proračun	_	_	_	_	
+1-16	90-92	EU	LOC	_	*->26-1	*[26]	
+1-17	93-99	vrniti	_	_	_	_	
+1-18	100-107	286.000	_	_	_	_	
+1-19	108-113	evrov	_	_	_	_	
+1-20	114-126	neupravičeno	_	_	_	_	
+1-21	127-138	porabljenih	_	_	_	_	
+1-22	139-147	sredstev	_	_	_	_	
+1-23	148-149	v	_	_	_	_	
+1-24	150-156	okviru	_	_	_	_	
+1-25	157-163	skupne	_	_	_	_	
+1-26	164-173	kmetijske	_	_	_	_	
+1-27	174-182	politike	_	_	_	_	
+1-28	183-184	,	_	_	_	_	
+1-29	185-187	je	_	_	_	_	
+1-30	188-193	danes	_	_	_	_	
+1-31	194-203	sporočila	_	_	_	_	
+1-32	204-212	Evropska	ORG[1]	_	*->2-1	*[2]	
+1-33	213-221	komisija	ORG[1]	_	*->2-1	*[2]	
+1-34	222-223	.	_	_	_	_	
+1-35	224-230	Skupno	_	_	_	_	
+1-36	231-233	je	_	_	_	_	
+1-37	234-239	sicer	_	_	_	_	
+1-38	240-247	Bruselj	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-39	248-250	od	_	_	_	_	
+1-40	251-257	članic	_	_	*->24-2	*[24]	
+1-41	258-263	unije	_	_	*->24-2|*->26-2	*[24]|*[26]	
+1-42	264-265	v	_	_	_	_	
+1-43	266-272	okviru	_	_	_	_	
+1-44	273-281	postopka	_	_	_	_	
+1-45	282-291	potrditve	_	_	_	_	
+1-46	292-301	obračunov	_	_	_	_	
+1-47	302-310	zahteval	_	_	_	_	
+1-48	311-318	vračilo	_	_	_	_	
+1-49	319-322	414	_	_	_	_	
+1-50	323-332	milijonov	_	_	_	_	
+1-51	333-338	evrov	_	_	_	_	
+1-52	339-351	neupravičeno	_	_	_	_	
+1-53	352-363	porabljenih	_	_	_	_	
+1-54	364-374	kmetijskih	_	_	_	_	
+1-55	375-383	sredstev	_	_	_	_	
+1-56	384-385	.	_	_	_	_	
+1-57	386-395	Slovenija	LOC	_	*->25-3	*[25]	
+1-58	396-398	bo	_	_	_	_	
+1-59	399-405	morala	_	_	_	_	
+1-60	406-407	v	_	_	_	_	
+1-61	408-416	proračun	_	_	_	_	
+1-62	417-419	EU	LOC	_	*->26-3	*[26]	
+1-63	420-426	vrniti	_	_	_	_	
+1-64	427-433	98.000	_	_	_	_	
+1-65	434-439	evrov	_	_	_	_	
+1-66	440-442	iz	_	_	_	_	
+1-67	443-451	sektorja	_	_	_	_	
+1-68	452-458	premij	_	_	_	_	
+1-69	459-461	za	_	_	_	_	
+1-70	462-468	živali	_	_	_	_	
+1-71	469-475	zaradi	_	_	_	_	
+1-72	476-487	nedoseganja	_	_	_	_	
+1-73	488-497	najmanjše	_	_	_	_	
+1-74	498-505	stopnje	_	_	_	_	
+1-75	506-515	pregledov	_	_	_	_	
+1-76	516-518	na	_	_	_	_	
+1-77	519-524	kraju	_	_	_	_	
+1-78	525-530	samem	_	_	_	_	
+1-79	531-533	za	_	_	_	_	
+1-80	534-538	ovce	_	_	_	_	
+1-81	539-541	in	_	_	_	_	
+1-82	542-548	zaradi	_	_	_	_	
+1-83	549-560	neizvajanja	_	_	_	_	
+1-84	561-568	sankcij	_	_	_	_	
+1-85	569-570	v	_	_	_	_	
+1-86	571-578	primeru	_	_	_	_	
+1-87	579-589	prepoznega	_	_	_	_	
+1-88	590-601	označevanja	_	_	_	_	
+1-89	602-608	goveda	_	_	_	_	
+1-90	609-612	ter	_	_	_	_	
+1-91	613-620	188.000	_	_	_	_	
+1-92	621-626	evrov	_	_	_	_	
+1-93	627-629	iz	_	_	_	_	
+1-94	630-638	sektorja	_	_	_	_	
+1-95	639-645	pomoči	_	_	_	_	
+1-96	646-648	na	_	_	_	_	
+1-97	649-657	površino	_	_	_	_	
+1-98	658-664	zaradi	_	_	_	_	
+1-99	665-680	pomanjkljivosti	_	_	_	_	
+1-100	681-684	pri	_	_	_	_	
+1-101	685-698	izračunavanju	_	_	_	_	
+1-102	699-705	pravic	_	_	_	_	
+1-103	706-707	.	_	_	_	_	
+1-104	708-715	Članice	_	_	*->24-3	*[24]	
+1-105	716-721	unije	_	_	*->24-3|*->26-4	*[24]|*[26]	
+1-106	722-724	so	_	_	_	_	
+1-107	725-734	odgovorne	_	_	_	_	
+1-108	735-737	za	_	_	_	_	
+1-109	738-749	upravljanje	_	_	_	_	
+1-110	750-756	večine	_	_	_	_	
+1-111	757-765	izplačil	_	_	_	_	
+1-112	766-767	v	_	_	_	_	
+1-113	768-774	okviru	_	_	_	_	
+1-114	775-781	skupne	_	_	_	_	
+1-115	782-791	kmetijske	_	_	_	_	
+1-116	792-800	politike	_	_	_	_	
+1-117	801-802	,	_	_	_	_	
+1-118	803-805	ki	_	_	_	_	
+1-119	806-808	se	_	_	_	_	
+1-120	809-817	opravijo	_	_	_	_	
+1-121	818-819	v	_	_	_	_	
+1-122	820-827	glavnem	_	_	_	_	
+1-123	828-832	prek	_	_	_	_	
+1-124	833-841	njihovih	_	_	_	_	
+1-125	842-851	plačilnih	_	_	_	_	
+1-126	852-859	agencij	_	_	_	_	
+1-127	860-861	.	_	_	_	_	
+1-128	862-871	Pristojne	_	_	_	_	
+1-129	872-874	so	_	_	_	_	
+1-130	875-879	tudi	_	_	_	_	
+1-131	880-882	za	_	_	_	_	
+1-132	883-889	nadzor	_	_	_	_	
+1-133	890-891	,	_	_	_	_	
+1-134	892-894	ki	_	_	_	_	
+1-135	895-897	na	_	_	_	_	
+1-136	898-904	primer	_	_	_	_	
+1-137	905-914	vključuje	_	_	_	_	
+1-138	915-926	preverjanje	_	_	_	_	
+1-139	927-936	zahtevkov	_	_	_	_	
+1-140	937-943	kmetov	_	_	_	_	
+1-141	944-946	za	_	_	_	_	
+1-142	947-957	neposredna	_	_	_	_	
+1-143	958-965	plačila	_	_	_	_	
+1-144	966-967	.	_	_	_	_	
+1-145	968-970	Če	_	_	_	_	
+1-146	971-976	denar	_	_	_	_	
+1-147	977-979	ni	_	_	_	_	
+1-148	980-988	ustrezno	_	_	_	_	
+1-149	989-998	porabljen	_	_	_	_	
+1-150	999-1000	,	_	_	_	_	
+1-151	1001-1003	da	_	_	_	_	
+1-152	1004-1010	hočejo	_	_	_	_	
+1-153	1011-1016	nazaj	_	_	_	_	
+1-154	1017-1025	Komisija	_	_	*->2-2	*[2]	
+1-155	1026-1027	,	_	_	_	_	
+1-156	1028-1030	ki	_	_	_	_	
+1-157	1031-1034	bdi	_	_	_	_	
+1-158	1035-1038	nad	_	_	_	_	
+1-159	1039-1047	pravilno	_	_	_	_	
+1-160	1048-1054	porabo	_	_	_	_	
+1-161	1055-1063	sredstev	_	_	_	_	
+1-162	1064-1065	,	_	_	_	_	
+1-163	1066-1071	vsako	_	_	_	_	
+1-164	1072-1076	leto	_	_	_	_	
+1-165	1077-1083	izvede	_	_	_	_	
+1-166	1084-1087	več	_	_	_	_	
+1-167	1088-1091	kot	_	_	_	_	
+1-168	1092-1095	100	_	_	_	_	
+1-169	1096-1105	inšpekcij	_	_	_	_	
+1-170	1106-1107	,	_	_	_	_	
+1-171	1108-1109	s	_	_	_	_	
+1-172	1110-1118	katerimi	_	_	_	_	
+1-173	1119-1127	preverja	_	_	_	_	
+1-174	1128-1129	,	_	_	_	_	
+1-175	1130-1133	ali	_	_	_	_	
+1-176	1134-1137	sta	_	_	_	_	
+1-177	1138-1144	nadzor	_	_	_	_	
+1-178	1145-1147	in	_	_	_	_	
+1-179	1148-1153	odziv	_	_	_	_	
+1-180	1154-1160	članic	_	_	*->24-4	*[24]	
+1-181	1161-1163	na	_	_	_	_	
+1-182	1164-1179	pomanjkljivosti	_	_	_	_	
+1-183	1180-1188	ustrezna	_	_	_	_	
+1-184	1189-1190	.	_	_	_	_	
+1-185	1191-1194	Ima	_	_	_	_	
+1-186	1195-1199	tudi	_	_	_	_	
+1-187	1200-1207	pravico	_	_	_	_	
+1-188	1208-1209	,	_	_	_	_	
+1-189	1210-1212	da	_	_	_	_	
+1-190	1213-1221	naknadno	_	_	_	_	
+1-191	1222-1229	zahteva	_	_	_	_	
+1-192	1230-1237	vračilo	_	_	_	_	
+1-193	1238-1246	sredstev	_	_	_	_	
+1-194	1247-1249	EU	LOC	_	*->26-5	*[26]	
+1-195	1250-1251	,	_	_	_	_	
+1-196	1252-1254	če	_	_	_	_	
+1-197	1255-1265	inšpekcije	_	_	_	_	
+1-198	1266-1274	pokažejo	_	_	_	_	
+1-199	1275-1276	,	_	_	_	_	
+1-200	1277-1279	da	_	_	_	_	
+1-201	1280-1287	članice	_	_	*->24-5	*[24]	
+1-202	1288-1290	ne	_	_	_	_	
+1-203	1291-1303	zagotavljajo	_	_	_	_	
+1-204	1304-1312	ustrezne	_	_	_	_	
+1-205	1313-1319	porabe	_	_	_	_	
+1-206	1320-1321	.	_	_	_	_	
+1-207	1322-1329	Omenjen	_	_	_	_	
+1-208	1330-1336	znesek	_	_	_	_	
+1-209	1337-1341	bodo	_	_	_	_	
+1-210	1342-1348	morale	_	_	_	_	
+1-211	1349-1356	članice	_	_	*->24-6	*[24]	
+1-212	1357-1363	vrniti	_	_	_	_	
+1-213	1364-1365	v	_	_	_	_	
+1-214	1366-1374	proračun	_	_	_	_	
+1-215	1375-1377	EU	LOC	_	*->26-6	*[26]	
+1-216	1378-1384	zaradi	_	_	_	_	
+1-217	1385-1398	nespoštovanja	_	_	_	_	
+1-218	1399-1405	pravil	_	_	_	_	
+1-219	1406-1408	EU	LOC	_	*->26-7	*[26]	
+1-220	1409-1412	ali	_	_	_	_	
+1-221	1413-1424	neustreznih	_	_	_	_	
+1-222	1425-1434	postopkov	_	_	_	_	
+1-223	1435-1442	nadzora	_	_	_	_	
+1-224	1443-1446	nad	_	_	_	_	
+1-225	1447-1454	izdatki	_	_	_	_	
+1-226	1455-1457	za	_	_	_	_	
+1-227	1458-1468	kmetijstvo	_	_	_	_	
+1-228	1469-1470	.	_	_	_	_	
+1-229	1471-1479	Nekatere	_	_	_	_	
+1-230	1480-1486	zneske	_	_	_	_	
+1-231	1487-1489	je	_	_	_	_	
+1-232	1490-1498	komisija	_	3 - Nevtralno	*->2-3	*[2]	
+1-233	1499-1501	že	_	_	_	_	
+1-234	1502-1511	izterjala	_	_	_	_	
+1-235	1512-1513	,	_	_	_	_	
+1-236	1514-1518	zato	_	_	_	_	
+1-237	1519-1521	bo	_	_	_	_	
+1-238	1522-1528	uradno	_	_	_	_	
+1-239	1529-1533	neto	_	_	_	_	
+1-240	1534-1542	finančni	_	_	_	_	
+1-241	1543-1549	učinek	_	_	_	_	
+1-242	1550-1560	današnjega	_	_	_	_	
+1-243	1561-1567	sklepa	_	_	_	_	
+1-244	1568-1577	približno	_	_	_	_	
+1-245	1578-1581	393	_	_	_	_	
+1-246	1582-1591	milijonov	_	_	_	_	
+1-247	1592-1597	evrov	_	_	_	_	
+1-248	1598-1599	.	_	_	_	_	
+1-249	1600-1605	Poleg	_	_	_	_	
+1-250	1606-1615	Slovenije	LOC	_	*->25-4	*[25]	
+1-251	1616-1618	bo	_	_	_	_	
+1-252	1619-1624	denar	_	_	_	_	
+1-253	1625-1632	vračalo	_	_	_	_	
+1-254	1633-1635	še	_	_	_	_	
+1-255	1636-1638	21	_	_	_	_	
+1-256	1639-1644	držav	_	_	_	_	
+1-257	1645-1646	Z	_	_	_	_	
+1-258	1647-1656	današnjim	_	_	_	_	
+1-259	1657-1664	sklepom	_	_	_	_	
+1-260	1665-1673	komisija	_	_	_	_	
+1-261	1674-1683	povračilo	_	_	_	_	
+1-262	1684-1692	sredstev	_	_	_	_	
+1-263	1693-1700	zahteva	_	_	_	_	
+1-264	1701-1703	od	_	_	_	_	
+1-265	1704-1706	22	_	_	_	_	
+1-266	1707-1713	članic	_	_	*->24-7	*[24]	
+1-267	1714-1719	unije	_	3 - Nevtralno	*->24-7|*->26-8	*[24]|*[26]	
+1-268	1720-1721	.	_	_	_	_	
+1-269	1722-1727	Poleg	_	_	_	_	
+1-270	1728-1737	Slovenije	LOC	3 - Nevtralno	*->25-5	*[25]	
+1-271	1738-1740	so	_	_	_	_	
+1-272	1741-1743	to	_	_	_	_	
+1-273	1744-1746	še	_	_	_	_	
+1-274	1747-1754	Belgija	LOC	3 - Nevtralno[3]|3 - Nevtralno[4]	*->24-8|*->5-1	*[24]|*[5]	
+1-275	1755-1756	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-276	1757-1766	Bolgarija	LOC	3 - Nevtralno[3]|3 - Nevtralno[5]	*->24-8|*->6-1	*[24]|*[6]	
+1-277	1767-1768	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-278	1769-1774	Češka	LOC	3 - Nevtralno[3]|3 - Nevtralno[6]	*->24-8|*->7-1	*[24]|*[7]	
+1-279	1775-1776	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-280	1777-1783	Danska	LOC	3 - Nevtralno[3]|3 - Nevtralno[7]	*->24-8|*->8-1	*[24]|*[8]	
+1-281	1784-1785	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-282	1786-1793	Nemčija	LOC	3 - Nevtralno[3]|3 - Nevtralno[8]	*->24-8|*->9-1	*[24]|*[9]	
+1-283	1794-1795	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-284	1796-1801	Irska	LOC	3 - Nevtralno[3]|3 - Nevtralno[9]	*->24-8|*->10-1	*[24]|*[10]	
+1-285	1802-1803	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-286	1804-1810	Grčija	LOC	3 - Nevtralno[3]|3 - Nevtralno[10]	*->24-8|*->11-1	*[24]|*[11]	
+1-287	1811-1812	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-288	1813-1820	Španija	LOC	3 - Nevtralno[3]|3 - Nevtralno[11]	*->24-8|*->12-1	*[24]|*[12]	
+1-289	1821-1822	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-290	1823-1831	Francija	LOC	3 - Nevtralno[3]|3 - Nevtralno[12]	*->24-8|*->13-1	*[24]|*[13]	
+1-291	1832-1833	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-292	1834-1841	Italija	LOC	3 - Nevtralno[3]|3 - Nevtralno[13]	*->24-8|*->14-1	*[24]|*[14]	
+1-293	1842-1843	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-294	1844-1849	Ciper	LOC	3 - Nevtralno[3]|3 - Nevtralno[14]	*->24-8|*->15-1	*[24]|*[15]	
+1-295	1850-1851	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-296	1852-1857	Litva	LOC	3 - Nevtralno[3]|3 - Nevtralno[15]	*->24-8|*->16-1	*[24]|*[16]	
+1-297	1858-1859	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-298	1860-1869	Madžarska	LOC	3 - Nevtralno[3]|3 - Nevtralno[16]	*->24-8|*->17-1	*[24]|*[17]	
+1-299	1870-1871	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-300	1872-1877	Malta	LOC	3 - Nevtralno[3]|3 - Nevtralno[17]	*->24-8|*->18-1	*[24]|*[18]	
+1-301	1878-1879	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-302	1880-1890	Nizozemska	LOC	3 - Nevtralno[3]|3 - Nevtralno[18]	*->24-8|*->19-1	*[24]|*[19]	
+1-303	1891-1892	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-304	1893-1900	Poljska	LOC	3 - Nevtralno[3]|3 - Nevtralno[19]	*->24-8|*->20-1	*[24]|*[20]	
+1-305	1901-1902	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-306	1903-1911	Romunija	LOC	3 - Nevtralno[3]|3 - Nevtralno[20]	*->24-8|*->21-1	*[24]|*[21]	
+1-307	1912-1913	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-308	1914-1922	Slovaška	LOC	3 - Nevtralno[3]|3 - Nevtralno[21]	*->24-8|*->22-1	*[24]|*[22]	
+1-309	1923-1924	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-310	1925-1931	Finska	LOC	3 - Nevtralno[3]|3 - Nevtralno[22]	*->24-8|*->23-1	*[24]|*[23]	
+1-311	1932-1933	,	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-312	1934-1941	Švedska	LOC	3 - Nevtralno[3]|3 - Nevtralno[23]	*->24-8|*->4-1	*[24]|*[4]	
+1-313	1942-1944	in	_	3 - Nevtralno[3]	*->24-8	*[24]	
+1-314	1945-1951	Velika	LOC[2]	3 - Nevtralno[3]	*->24-8|*->3-1	*[24]|*[3]	
+1-315	1952-1961	Britanija	LOC[2]	3 - Nevtralno[3]	*->24-8|*->3-1	*[24]|*[3]	
+1-316	1962-1963	.	_	_	_	_	
+1-317	1964-1970	Največ	_	_	_	_	
+1-318	1971-1977	morajo	_	_	_	_	
+1-319	1978-1984	vrniti	_	_	_	_	
+1-320	1985-1993	Britanci	PER	3 - Nevtralno	*->3-2	*[3]	
+1-321	1994-1995	-	_	_	_	_	
+1-322	1996-2001	111,7	_	_	_	_	
+1-323	2002-2010	milijona	_	_	_	_	
+1-324	2011-2016	evrov	_	_	_	_	

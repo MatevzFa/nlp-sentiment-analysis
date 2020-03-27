@@ -1,0 +1,407 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Srbska agencija za privatizacijo je odpovedala prodajo nepremičnin slovenskih podjetij . Zunanji minister Rupel je z njihovo odločitvijo zadovoljen . Srbski zunanji minister Vuk Jeremić in Dimitrij Rupel . Dražba nepremičnin slovenskih podjetij v Srbiji , ki jo je srbska agencija za privatizacijo sprva napovedala za september in zatem prestavila na oktober , je dokončno odpovedana , je danes novinarjem v Ljubljani povedal minister za zunanje zadeve Dimitrij Rupel . Na seznamu za prodajo je bilo premoženje približno 20 podjetij . Rupel je odločitev srbskih oblasti označil za pomemben prispevek k prizadevanjem za rešitev tega vprašanja . S tem se je rešil spor , ki je trajal kar nekaj tednov , je dejal ter spomnil , da je srbska agencija za privatizacijo želela prodati nepremičnine slovenskih podjetij na dražbah . To je v nasprotju z določili priloge G sporazuma o vprašanjih nasledstva , ki so ga vse države naslednice nekdanje Jugoslavije podpisale leta 2001 na Dunaju , je opozoril . Slovenska diplomacija je v obdobju od letošnjega marca večkrat protestirala proti nameri srbske agencije , med drugim je v Beograd poslala štiri protestne note , tudi Rupel je bil večkrat v stikih s srbskim kolegom Vukom Jeremićem . Srbska vlada je po intenzivnih prizadevanjih naše diplomacije razumela , da so naša stališča utemeljena , je danes komentiral Rupel . Foto Črt Butul Zunanji minister je napovedal , da bo omenjena problematika zdaj na dnevnem redu že napovedanega sestanka visokih predstavnikov za nasledstvo , ki bo predvidoma konec septembra . Slovenija bo na njem predlagala , naj v okviru odbora pride do sporazuma med slovensko in srbsko stranjo o tem , kako razumeti omenjeno prilogo sporazuma , je napovedal Rupel . Na zunanjem ministrstvu so že prejeli nekaj zahval v zvezi z odpovedjo dražbe . Med njimi so tudi tisti , ki so se v preteklosti kritično izražali do prizadevanj slovenske diplomacije za rešitev tega problema , je dejal Rupel ter kot primer navedel podjetji Iskra in Birostroj . Po nepopolnih podatkih zunanjega ministrstva so bila na seznamu srbske agencije za prodajo na preklicani dražbi tudi naslednja podjetja s slovenskim premoženjem Stogram s sedežem v Zrenjaninu , Inter - Konim , Beometalna , Isel , V & V Co , Drvokomerc , EI Era , Birostroj , Vektor in Iskra Commerce s sedežem v Beogradu , Frigo - Srem s sedežem v Irigu ter Interpan in Autotrading Pan iz Novega Sada
+1-1	0-6	Srbska	_	_	_	_	
+1-2	7-15	agencija	_	_	_	_	
+1-3	16-18	za	_	_	_	_	
+1-4	19-32	privatizacijo	_	_	_	_	
+1-5	33-35	je	_	_	_	_	
+1-6	36-46	odpovedala	_	_	_	_	
+1-7	47-54	prodajo	_	_	_	_	
+1-8	55-66	nepremičnin	_	_	_	_	
+1-9	67-77	slovenskih	_	_	_	_	
+1-10	78-86	podjetij	_	_	_	_	
+1-11	87-88	.	_	_	_	_	
+1-12	89-96	Zunanji	_	_	*->7-1	*[7]	
+1-13	97-105	minister	_	_	*->7-1	*[7]	
+1-14	106-111	Rupel	PER	_	*->7-1	*[7]	
+1-15	112-114	je	_	_	_	_	
+1-16	115-116	z	_	_	_	_	
+1-17	117-124	njihovo	_	_	_	_	
+1-18	125-136	odločitvijo	_	_	_	_	
+1-19	137-147	zadovoljen	_	_	_	_	
+1-20	148-149	.	_	_	_	_	
+1-21	150-156	Srbski	_	_	*->1-1	*[1]	
+1-22	157-164	zunanji	_	_	*->1-1	*[1]	
+1-23	165-173	minister	_	_	*->1-1	*[1]	
+1-24	174-177	Vuk	PER[1]	_	*->1-1	*[1]	
+1-25	178-185	Jeremić	PER[1]	_	*->1-1	*[1]	
+1-26	186-188	in	_	_	_	_	
+1-27	189-197	Dimitrij	PER[2]	_	*->7-2	*[7]	
+1-28	198-203	Rupel	PER[2]	_	*->7-2	*[7]	
+1-29	204-205	.	_	_	_	_	
+1-30	206-212	Dražba	_	_	_	_	
+1-31	213-224	nepremičnin	_	_	_	_	
+1-32	225-235	slovenskih	_	_	_	_	
+1-33	236-244	podjetij	_	_	_	_	
+1-34	245-246	v	_	_	_	_	
+1-35	247-253	Srbiji	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-36	254-255	,	_	_	_	_	
+1-37	256-258	ki	_	_	_	_	
+1-38	259-261	jo	_	_	_	_	
+1-39	262-264	je	_	_	_	_	
+1-40	265-271	srbska	_	_	_	_	
+1-41	272-280	agencija	_	_	_	_	
+1-42	281-283	za	_	_	_	_	
+1-43	284-297	privatizacijo	_	_	_	_	
+1-44	298-303	sprva	_	_	_	_	
+1-45	304-314	napovedala	_	_	_	_	
+1-46	315-317	za	_	_	_	_	
+1-47	318-327	september	_	_	_	_	
+1-48	328-330	in	_	_	_	_	
+1-49	331-336	zatem	_	_	_	_	
+1-50	337-347	prestavila	_	_	_	_	
+1-51	348-350	na	_	_	_	_	
+1-52	351-358	oktober	_	_	_	_	
+1-53	359-360	,	_	_	_	_	
+1-54	361-363	je	_	_	_	_	
+1-55	364-372	dokončno	_	_	_	_	
+1-56	373-383	odpovedana	_	_	_	_	
+1-57	384-385	,	_	_	_	_	
+1-58	386-388	je	_	_	_	_	
+1-59	389-394	danes	_	_	_	_	
+1-60	395-405	novinarjem	_	_	_	_	
+1-61	406-407	v	_	_	_	_	
+1-62	408-417	Ljubljani	LOC	3 - Nevtralno	*->3-1	*[3]	
+1-63	418-425	povedal	_	_	_	_	
+1-64	426-434	minister	_	_	*->7-3	*[7]	
+1-65	435-437	za	_	_	*->7-3	*[7]	
+1-66	438-445	zunanje	_	_	*->7-3	*[7]	
+1-67	446-452	zadeve	_	_	*->7-3	*[7]	
+1-68	453-461	Dimitrij	PER[3]	_	*->7-3	*[7]	
+1-69	462-467	Rupel	PER[3]	_	*->7-3	*[7]	
+1-70	468-469	.	_	_	_	_	
+1-71	470-472	Na	_	_	_	_	
+1-72	473-480	seznamu	_	_	_	_	
+1-73	481-483	za	_	_	_	_	
+1-74	484-491	prodajo	_	_	_	_	
+1-75	492-494	je	_	_	_	_	
+1-76	495-499	bilo	_	_	_	_	
+1-77	500-510	premoženje	_	_	_	_	
+1-78	511-520	približno	_	_	_	_	
+1-79	521-523	20	_	_	_	_	
+1-80	524-532	podjetij	_	_	_	_	
+1-81	533-534	.	_	_	_	_	
+1-82	535-540	Rupel	PER	_	*->7-4	*[7]	
+1-83	541-543	je	_	_	_	_	
+1-84	544-553	odločitev	_	_	_	_	
+1-85	554-561	srbskih	_	_	_	_	
+1-86	562-569	oblasti	_	_	_	_	
+1-87	570-577	označil	_	_	_	_	
+1-88	578-580	za	_	_	_	_	
+1-89	581-589	pomemben	_	_	_	_	
+1-90	590-599	prispevek	_	_	_	_	
+1-91	600-601	k	_	_	_	_	
+1-92	602-615	prizadevanjem	_	_	_	_	
+1-93	616-618	za	_	_	_	_	
+1-94	619-626	rešitev	_	_	_	_	
+1-95	627-631	tega	_	_	_	_	
+1-96	632-641	vprašanja	_	_	_	_	
+1-97	642-643	.	_	_	_	_	
+1-98	644-645	S	_	_	_	_	
+1-99	646-649	tem	_	_	_	_	
+1-100	650-652	se	_	_	_	_	
+1-101	653-655	je	_	_	_	_	
+1-102	656-661	rešil	_	_	_	_	
+1-103	662-666	spor	_	_	_	_	
+1-104	667-668	,	_	_	_	_	
+1-105	669-671	ki	_	_	_	_	
+1-106	672-674	je	_	_	_	_	
+1-107	675-681	trajal	_	_	_	_	
+1-108	682-685	kar	_	_	_	_	
+1-109	686-691	nekaj	_	_	_	_	
+1-110	692-698	tednov	_	_	_	_	
+1-111	699-700	,	_	_	_	_	
+1-112	701-703	je	_	_	*->7-5	*[7]	
+1-113	704-709	dejal	_	_	*->7-5	*[7]	
+1-114	710-713	ter	_	_	_	_	
+1-115	714-721	spomnil	_	_	*->7-6	*[7]	
+1-116	722-723	,	_	_	_	_	
+1-117	724-726	da	_	_	_	_	
+1-118	727-729	je	_	_	_	_	
+1-119	730-736	srbska	_	_	_	_	
+1-120	737-745	agencija	_	_	_	_	
+1-121	746-748	za	_	_	_	_	
+1-122	749-762	privatizacijo	_	_	_	_	
+1-123	763-769	želela	_	_	_	_	
+1-124	770-777	prodati	_	_	_	_	
+1-125	778-790	nepremičnine	_	_	_	_	
+1-126	791-801	slovenskih	_	_	_	_	
+1-127	802-810	podjetij	_	_	_	_	
+1-128	811-813	na	_	_	_	_	
+1-129	814-821	dražbah	_	_	_	_	
+1-130	822-823	.	_	_	_	_	
+1-131	824-826	To	_	_	_	_	
+1-132	827-829	je	_	_	_	_	
+1-133	830-831	v	_	_	_	_	
+1-134	832-841	nasprotju	_	_	_	_	
+1-135	842-843	z	_	_	_	_	
+1-136	844-852	določili	_	_	_	_	
+1-137	853-860	priloge	_	_	_	_	
+1-138	861-862	G	_	_	_	_	
+1-139	863-872	sporazuma	_	_	_	_	
+1-140	873-874	o	_	_	_	_	
+1-141	875-885	vprašanjih	_	_	_	_	
+1-142	886-896	nasledstva	_	_	_	_	
+1-143	897-898	,	_	_	_	_	
+1-144	899-901	ki	_	_	_	_	
+1-145	902-904	so	_	_	_	_	
+1-146	905-907	ga	_	_	_	_	
+1-147	908-911	vse	_	_	_	_	
+1-148	912-918	države	_	_	_	_	
+1-149	919-929	naslednice	_	_	_	_	
+1-150	930-938	nekdanje	_	_	_	_	
+1-151	939-950	Jugoslavije	LOC	3 - Nevtralno	*->4-1	*[4]	
+1-152	951-960	podpisale	_	_	_	_	
+1-153	961-965	leta	_	_	_	_	
+1-154	966-970	2001	_	_	_	_	
+1-155	971-973	na	_	_	_	_	
+1-156	974-980	Dunaju	LOC	3 - Nevtralno	*->5-1	*[5]	
+1-157	981-982	,	_	_	_	_	
+1-158	983-985	je	_	_	*->7-7	*[7]	
+1-159	986-994	opozoril	_	_	*->7-7	*[7]	
+1-160	995-996	.	_	_	_	_	
+1-161	997-1006	Slovenska	_	_	_	_	
+1-162	1007-1018	diplomacija	_	_	_	_	
+1-163	1019-1021	je	_	_	_	_	
+1-164	1022-1023	v	_	_	_	_	
+1-165	1024-1031	obdobju	_	_	_	_	
+1-166	1032-1034	od	_	_	_	_	
+1-167	1035-1045	letošnjega	_	_	_	_	
+1-168	1046-1051	marca	_	_	_	_	
+1-169	1052-1059	večkrat	_	_	_	_	
+1-170	1060-1072	protestirala	_	_	_	_	
+1-171	1073-1078	proti	_	_	_	_	
+1-172	1079-1085	nameri	_	_	_	_	
+1-173	1086-1092	srbske	_	_	_	_	
+1-174	1093-1101	agencije	_	_	_	_	
+1-175	1102-1103	,	_	_	_	_	
+1-176	1104-1107	med	_	_	_	_	
+1-177	1108-1114	drugim	_	_	_	_	
+1-178	1115-1117	je	_	_	_	_	
+1-179	1118-1119	v	_	_	_	_	
+1-180	1120-1127	Beograd	LOC	_	*->21-1	*[21]	
+1-181	1128-1135	poslala	_	_	_	_	
+1-182	1136-1141	štiri	_	_	_	_	
+1-183	1142-1151	protestne	_	_	_	_	
+1-184	1152-1156	note	_	_	_	_	
+1-185	1157-1158	,	_	_	_	_	
+1-186	1159-1163	tudi	_	_	_	_	
+1-187	1164-1169	Rupel	PER	_	*->7-8	*[7]	
+1-188	1170-1172	je	_	_	_	_	
+1-189	1173-1176	bil	_	_	_	_	
+1-190	1177-1184	večkrat	_	_	_	_	
+1-191	1185-1186	v	_	_	_	_	
+1-192	1187-1193	stikih	_	_	_	_	
+1-193	1194-1195	s	_	_	_	_	
+1-194	1196-1203	srbskim	_	4 - Pozitivno[13]	*->1-2	*[1]	
+1-195	1204-1211	kolegom	_	4 - Pozitivno[13]	*->1-2	*[1]	
+1-196	1212-1217	Vukom	PER[4]	4 - Pozitivno[13]	*->1-2	*[1]	
+1-197	1218-1227	Jeremićem	PER[4]	4 - Pozitivno[13]	*->1-2	*[1]	
+1-198	1228-1229	.	_	_	_	_	
+1-199	1230-1236	Srbska	_	_	_	_	
+1-200	1237-1242	vlada	_	_	_	_	
+1-201	1243-1245	je	_	_	_	_	
+1-202	1246-1248	po	_	_	_	_	
+1-203	1249-1260	intenzivnih	_	_	_	_	
+1-204	1261-1274	prizadevanjih	_	_	_	_	
+1-205	1275-1279	naše	_	_	_	_	
+1-206	1280-1291	diplomacije	_	_	_	_	
+1-207	1292-1300	razumela	_	_	_	_	
+1-208	1301-1302	,	_	_	_	_	
+1-209	1303-1305	da	_	_	_	_	
+1-210	1306-1308	so	_	_	_	_	
+1-211	1309-1313	naša	_	_	_	_	
+1-212	1314-1322	stališča	_	_	_	_	
+1-213	1323-1333	utemeljena	_	_	_	_	
+1-214	1334-1335	,	_	_	_	_	
+1-215	1336-1338	je	_	_	_	_	
+1-216	1339-1344	danes	_	_	_	_	
+1-217	1345-1355	komentiral	_	_	_	_	
+1-218	1356-1361	Rupel	PER	_	*->7-9	*[7]	
+1-219	1362-1363	.	_	_	_	_	
+1-220	1364-1368	Foto	_	_	_	_	
+1-221	1369-1372	Črt	PER[5]	3 - Nevtralno[14]	*->6-1	*[6]	
+1-222	1373-1378	Butul	PER[5]	3 - Nevtralno[14]	*->6-1	*[6]	
+1-223	1379-1386	Zunanji	_	_	*->7-10	*[7]	
+1-224	1387-1395	minister	_	_	*->7-10	*[7]	
+1-225	1396-1398	je	_	_	_	_	
+1-226	1399-1408	napovedal	_	_	_	_	
+1-227	1409-1410	,	_	_	_	_	
+1-228	1411-1413	da	_	_	_	_	
+1-229	1414-1416	bo	_	_	_	_	
+1-230	1417-1425	omenjena	_	_	_	_	
+1-231	1426-1438	problematika	_	_	_	_	
+1-232	1439-1443	zdaj	_	_	_	_	
+1-233	1444-1446	na	_	_	_	_	
+1-234	1447-1454	dnevnem	_	_	_	_	
+1-235	1455-1459	redu	_	_	_	_	
+1-236	1460-1462	že	_	_	_	_	
+1-237	1463-1475	napovedanega	_	_	_	_	
+1-238	1476-1484	sestanka	_	_	_	_	
+1-239	1485-1492	visokih	_	_	_	_	
+1-240	1493-1506	predstavnikov	_	_	_	_	
+1-241	1507-1509	za	_	_	_	_	
+1-242	1510-1520	nasledstvo	_	_	_	_	
+1-243	1521-1522	,	_	_	_	_	
+1-244	1523-1525	ki	_	_	_	_	
+1-245	1526-1528	bo	_	_	_	_	
+1-246	1529-1539	predvidoma	_	_	_	_	
+1-247	1540-1545	konec	_	_	_	_	
+1-248	1546-1555	septembra	_	_	_	_	
+1-249	1556-1557	.	_	_	_	_	
+1-250	1558-1567	Slovenija	ORG	3 - Nevtralno	*->8-1	*[8]	
+1-251	1568-1570	bo	_	_	_	_	
+1-252	1571-1573	na	_	_	_	_	
+1-253	1574-1578	njem	_	_	_	_	
+1-254	1579-1589	predlagala	_	_	_	_	
+1-255	1590-1591	,	_	_	_	_	
+1-256	1592-1595	naj	_	_	_	_	
+1-257	1596-1597	v	_	_	_	_	
+1-258	1598-1604	okviru	_	_	_	_	
+1-259	1605-1611	odbora	_	_	_	_	
+1-260	1612-1617	pride	_	_	_	_	
+1-261	1618-1620	do	_	_	_	_	
+1-262	1621-1630	sporazuma	_	_	_	_	
+1-263	1631-1634	med	_	_	_	_	
+1-264	1635-1644	slovensko	_	_	_	_	
+1-265	1645-1647	in	_	_	_	_	
+1-266	1648-1654	srbsko	_	_	_	_	
+1-267	1655-1662	stranjo	_	_	_	_	
+1-268	1663-1664	o	_	_	_	_	
+1-269	1665-1668	tem	_	_	_	_	
+1-270	1669-1670	,	_	_	_	_	
+1-271	1671-1675	kako	_	_	_	_	
+1-272	1676-1684	razumeti	_	_	_	_	
+1-273	1685-1693	omenjeno	_	_	_	_	
+1-274	1694-1701	prilogo	_	_	_	_	
+1-275	1702-1711	sporazuma	_	_	_	_	
+1-276	1712-1713	,	_	_	_	_	
+1-277	1714-1716	je	_	_	_	_	
+1-278	1717-1726	napovedal	_	_	_	_	
+1-279	1727-1732	Rupel	PER	_	*->7-11	*[7]	
+1-280	1733-1734	.	_	_	_	_	
+1-281	1735-1737	Na	_	_	_	_	
+1-282	1738-1746	zunanjem	_	_	_	_	
+1-283	1747-1758	ministrstvu	_	_	_	_	
+1-284	1759-1761	so	_	_	_	_	
+1-285	1762-1764	že	_	_	_	_	
+1-286	1765-1772	prejeli	_	_	_	_	
+1-287	1773-1778	nekaj	_	_	_	_	
+1-288	1779-1785	zahval	_	_	_	_	
+1-289	1786-1787	v	_	_	_	_	
+1-290	1788-1793	zvezi	_	_	_	_	
+1-291	1794-1795	z	_	_	_	_	
+1-292	1796-1805	odpovedjo	_	_	_	_	
+1-293	1806-1812	dražbe	_	_	_	_	
+1-294	1813-1814	.	_	_	_	_	
+1-295	1815-1818	Med	_	_	_	_	
+1-296	1819-1824	njimi	_	_	_	_	
+1-297	1825-1827	so	_	_	_	_	
+1-298	1828-1832	tudi	_	_	_	_	
+1-299	1833-1838	tisti	_	_	_	_	
+1-300	1839-1840	,	_	_	_	_	
+1-301	1841-1843	ki	_	_	_	_	
+1-302	1844-1846	so	_	_	_	_	
+1-303	1847-1849	se	_	_	_	_	
+1-304	1850-1851	v	_	_	_	_	
+1-305	1852-1863	preteklosti	_	_	_	_	
+1-306	1864-1872	kritično	_	_	_	_	
+1-307	1873-1881	izražali	_	_	_	_	
+1-308	1882-1884	do	_	_	_	_	
+1-309	1885-1896	prizadevanj	_	_	_	_	
+1-310	1897-1906	slovenske	_	_	_	_	
+1-311	1907-1918	diplomacije	_	_	_	_	
+1-312	1919-1921	za	_	_	_	_	
+1-313	1922-1929	rešitev	_	_	_	_	
+1-314	1930-1934	tega	_	_	_	_	
+1-315	1935-1943	problema	_	_	_	_	
+1-316	1944-1945	,	_	_	_	_	
+1-317	1946-1948	je	_	_	_	_	
+1-318	1949-1954	dejal	_	_	_	_	
+1-319	1955-1960	Rupel	PER	_	*->7-12	*[7]	
+1-320	1961-1964	ter	_	_	_	_	
+1-321	1965-1968	kot	_	_	_	_	
+1-322	1969-1975	primer	_	_	_	_	
+1-323	1976-1983	navedel	_	4 - Pozitivno	*->7-13	*[7]	
+1-324	1984-1992	podjetji	_	_	_	_	
+1-325	1993-1998	Iskra	ORG	3 - Nevtralno	*->9-1	*[9]	
+1-326	1999-2001	in	_	_	_	_	
+1-327	2002-2011	Birostroj	ORG	_	*->10-1	*[10]	
+1-328	2012-2013	.	_	_	_	_	
+1-329	2014-2016	Po	_	_	_	_	
+1-330	2017-2027	nepopolnih	_	_	_	_	
+1-331	2028-2036	podatkih	_	_	_	_	
+1-332	2037-2046	zunanjega	_	_	_	_	
+1-333	2047-2058	ministrstva	_	_	_	_	
+1-334	2059-2061	so	_	_	_	_	
+1-335	2062-2066	bila	_	_	_	_	
+1-336	2067-2069	na	_	_	_	_	
+1-337	2070-2077	seznamu	_	_	_	_	
+1-338	2078-2084	srbske	_	_	_	_	
+1-339	2085-2093	agencije	_	_	_	_	
+1-340	2094-2096	za	_	_	_	_	
+1-341	2097-2104	prodajo	_	_	_	_	
+1-342	2105-2107	na	_	_	_	_	
+1-343	2108-2118	preklicani	_	_	_	_	
+1-344	2119-2125	dražbi	_	_	_	_	
+1-345	2126-2130	tudi	_	_	_	_	
+1-346	2131-2140	naslednja	_	_	_	_	
+1-347	2141-2149	podjetja	_	_	_	_	
+1-348	2150-2151	s	_	_	_	_	
+1-349	2152-2162	slovenskim	_	_	_	_	
+1-350	2163-2174	premoženjem	_	_	_	_	
+1-351	2175-2182	Stogram	ORG	3 - Nevtralno	*->11-1	*[11]	
+1-352	2183-2184	s	_	_	_	_	
+1-353	2185-2192	sedežem	_	_	_	_	
+1-354	2193-2194	v	_	_	_	_	
+1-355	2195-2205	Zrenjaninu	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-356	2206-2207	,	_	_	_	_	
+1-357	2208-2213	Inter	ORG[6]	3 - Nevtralno[15]	*->13-1	*[13]	
+1-358	2214-2215	-	ORG[6]	3 - Nevtralno[15]	*->13-1	*[13]	
+1-359	2216-2221	Konim	ORG[6]	3 - Nevtralno[15]	*->13-1	*[13]	
+1-360	2222-2223	,	_	_	_	_	
+1-361	2224-2234	Beometalna	ORG	3 - Nevtralno	*->14-1	*[14]	
+1-362	2235-2236	,	_	_	_	_	
+1-363	2237-2241	Isel	ORG	3 - Nevtralno	*->15-1	*[15]	
+1-364	2242-2243	,	_	_	_	_	
+1-365	2244-2245	V	ORG[7]	3 - Nevtralno[16]	*->16-1	*[16]	
+1-366	2246-2247	&	ORG[7]	3 - Nevtralno[16]	*->16-1	*[16]	
+1-367	2248-2249	V	ORG[7]	3 - Nevtralno[16]	*->16-1	*[16]	
+1-368	2250-2252	Co	ORG[7]	3 - Nevtralno[16]	*->16-1	*[16]	
+1-369	2253-2254	,	_	_	_	_	
+1-370	2255-2265	Drvokomerc	ORG	3 - Nevtralno	*->17-1	*[17]	
+1-371	2266-2267	,	_	_	_	_	
+1-372	2268-2270	EI	ORG[8]	_	*->18-1	*[18]	
+1-373	2271-2274	Era	ORG[8]	_	*->18-1	*[18]	
+1-374	2275-2276	,	_	_	_	_	
+1-375	2277-2286	Birostroj	ORG	3 - Nevtralno	*->10-2	*[10]	
+1-376	2287-2288	,	_	_	_	_	
+1-377	2289-2295	Vektor	ORG	3 - Nevtralno	*->19-1	*[19]	
+1-378	2296-2298	in	_	_	_	_	
+1-379	2299-2304	Iskra	ORG[9]	3 - Nevtralno[17]	*->20-1	*[20]	
+1-380	2305-2313	Commerce	ORG[9]	3 - Nevtralno[17]	*->20-1	*[20]	
+1-381	2314-2315	s	_	_	_	_	
+1-382	2316-2323	sedežem	_	_	_	_	
+1-383	2324-2325	v	_	_	_	_	
+1-384	2326-2334	Beogradu	LOC	3 - Nevtralno	*->21-2	*[21]	
+1-385	2335-2336	,	_	_	_	_	
+1-386	2337-2342	Frigo	ORG[10]	3 - Nevtralno[18]	*->22-1	*[22]	
+1-387	2343-2344	-	ORG[10]	3 - Nevtralno[18]	*->22-1	*[22]	
+1-388	2345-2349	Srem	ORG[10]	3 - Nevtralno[18]	*->22-1	*[22]	
+1-389	2350-2351	s	_	_	_	_	
+1-390	2352-2359	sedežem	_	_	_	_	
+1-391	2360-2361	v	_	_	_	_	
+1-392	2362-2367	Irigu	LOC	3 - Nevtralno	*->23-1	*[23]	
+1-393	2368-2371	ter	_	_	_	_	
+1-394	2372-2380	Interpan	ORG	3 - Nevtralno	*->24-1	*[24]	
+1-395	2381-2383	in	_	_	_	_	
+1-396	2384-2395	Autotrading	ORG[11]	3 - Nevtralno[19]	*->25-1	*[25]	
+1-397	2396-2399	Pan	ORG[11]	3 - Nevtralno[19]	*->25-1	*[25]	
+1-398	2400-2402	iz	_	_	_	_	
+1-399	2403-2409	Novega	LOC[12]	3 - Nevtralno[20]	*->26-1	*[26]	
+1-400	2410-2414	Sada	LOC[12]	3 - Nevtralno[20]	*->26-1	*[26]	

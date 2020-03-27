@@ -1,0 +1,523 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=V Agrokorju se bodo odločili do konca dneva Do konca dne je čas za vložitev nezavezujočih ponudb za nakup več kot 50 odstotkov največjega slovenskega trgovca . Ponudbe naj bi do zdaj oddale le finančne družbe . Uradnih informacij o ponudbah ni . V londonski investicijski banki ING , ki svetuje pri prodaji večinskega deleža Mercatorja , zadeve ne komentirajo , molčijo pa tudi v hrvaškem Agrokorju , kjer naj bi odločitev o oddaji ponudbe sprejeli danes . Londonska investicijska banka ING še danes zbira nezavezujoče ponudbe . ING je povpraševanje posredoval vsem , ki so v preteklosti izkazali interes za najboljšega soseda , tudi hrvaškemu Agrokorju . Po nekaterih neuradnih informacijah so ponudbe do zdaj oddali samo finančni igralci , med njimi skladi Mid Europa , Warburg Pincus in TPG . Agrokor , ki je v lasti Ivice Todorića , naj bi bil edini strateški vlagatelj , ki še pripravlja ponudbo za slovenskega trgovca , nameravano koncentracijo z Mercatorjem pa je že priglasil tudi uradu za varstvo konkurence . Izvršni podpredsednik za izvozne trge v hrvaški skupini Agrokor Damir Kuštrak je v petek ob robu konference FDI Summit v Ljubljani zatrdil , da bodo v družbi odločitev , ali bodo oddali ponudbo , sprejeli zadnji dan . Zadevo seveda spremljamo , analiziramo , pripravljamo . Pred nami je dolg konec tedna , je poudaril . Ob tem je izrazil upanje , da se tokratni poskus prodaje Mercatorja ne bo izjalovil . Agrokor za delnico Mercatorja 221 evrov ? Lastnik Agrokorja Ivica Todorić je po poročanju hrvaški Poslovnega dnevnika pripravil ponudbo za Mercator , v kateri naj bi za delnico ponudil 221 evrov , čeprav naj se s tem ne bi strinjali lastniki in upniki družbe . To pomeni , da je Agrokor za prevzem Mercatorja zagotovil 832 milijonov evrov . V Todorićevem koncernu sicer računajo , da je prevzem celotnega Mercatorja , vključujoč dolg slovenskega trgovca , vreden okoli dve milijarde evrov . Po ocenah poznavalcev pa naj delnica Mercatorja ne bi bila vredna več kot 180 evrov , najverjetneje celo manj . Če naj bi Agrokor razmišljal o ponudbi v vrednosti 221 evrov za delnico , pa naj bi se ponudbe skladov občutno nižje , in sicer med 155 in 170 evrov . Za vstop v Mercator naj bi se po poročanju nekaterih medijev zanimal tudi francoski Leclerc , ki ima v Sloveniji dve nakupovalni središči , v Ljubljani in Mariboru . Predsednik nadzornega sveta Pivovarne Laško Vladimir Malenković pa je povedal , da se bodo nadzorniki o podanih nezavezujočih ponudbah za Mercator seznanili na seji , ki bo predvidoma 26 . oktobra . O ponudbah bo Malenković v prihodnjih dneh izmenjal informacije tudi z vodstvom Pivovarne Laško . Prodaja se 50,03 odstotka družbe Skupaj 50,03 odstotka Mercatorja prodajajo Abanka , Banka Celje , Gorenjska banka , banka Hypo Alpe Adria , delniški investicijski sklad NFD 1 , NFD Holding , NKBM , NLB , Pivovarna Laško , Pivovarna Union in Radenska . Omenjeni delničarji so junija letos podpisali sporazum o skupni prodaji trgovskega podjetja , prodajni postopek pa zaupali banki ING iz Londona
+1-1	0-1	V	_	_	_	_	
+1-2	2-11	Agrokorju	ORG	_	*->11-1	*[11]	
+1-3	12-14	se	_	_	_	_	
+1-4	15-19	bodo	_	_	_	_	
+1-5	20-28	odločili	_	_	_	_	
+1-6	29-31	do	_	_	_	_	
+1-7	32-37	konca	_	_	_	_	
+1-8	38-43	dneva	_	_	_	_	
+1-9	44-46	Do	_	_	_	_	
+1-10	47-52	konca	_	_	_	_	
+1-11	53-56	dne	_	_	_	_	
+1-12	57-59	je	_	_	_	_	
+1-13	60-63	čas	_	_	_	_	
+1-14	64-66	za	_	_	_	_	
+1-15	67-75	vložitev	_	_	_	_	
+1-16	76-89	nezavezujočih	_	_	_	_	
+1-17	90-96	ponudb	_	_	_	_	
+1-18	97-99	za	_	_	_	_	
+1-19	100-105	nakup	_	_	_	_	
+1-20	106-109	več	_	_	_	_	
+1-21	110-113	kot	_	_	_	_	
+1-22	114-116	50	_	_	_	_	
+1-23	117-126	odstotkov	_	_	_	_	
+1-24	127-137	največjega	_	_	*->25-1	*[25]	
+1-25	138-149	slovenskega	_	_	*->25-1	*[25]	
+1-26	150-157	trgovca	_	_	*->25-1	*[25]	
+1-27	158-159	.	_	_	_	_	
+1-28	160-167	Ponudbe	_	_	_	_	
+1-29	168-171	naj	_	_	_	_	
+1-30	172-174	bi	_	_	_	_	
+1-31	175-177	do	_	_	_	_	
+1-32	178-182	zdaj	_	_	_	_	
+1-33	183-189	oddale	_	_	_	_	
+1-34	190-192	le	_	_	_	_	
+1-35	193-201	finančne	_	_	_	_	
+1-36	202-208	družbe	_	_	_	_	
+1-37	209-210	.	_	_	_	_	
+1-38	211-218	Uradnih	_	_	_	_	
+1-39	219-229	informacij	_	_	_	_	
+1-40	230-231	o	_	_	_	_	
+1-41	232-240	ponudbah	_	_	_	_	
+1-42	241-243	ni	_	_	_	_	
+1-43	244-245	.	_	_	_	_	
+1-44	246-247	V	_	_	_	_	
+1-45	248-257	londonski	_	_	*->27-1	*[27]	
+1-46	258-271	investicijski	_	_	*->27-1	*[27]	
+1-47	272-277	banki	_	_	*->27-1	*[27]	
+1-48	278-281	ING	ORG	_	*->27-1	*[27]	
+1-49	282-283	,	_	_	_	_	
+1-50	284-286	ki	_	_	_	_	
+1-51	287-294	svetuje	_	_	*->27-2	*[27]	
+1-52	295-298	pri	_	_	_	_	
+1-53	299-306	prodaji	_	_	_	_	
+1-54	307-317	večinskega	_	_	_	_	
+1-55	318-324	deleža	_	_	_	_	
+1-56	325-335	Mercatorja	ORG	_	*->25-2	*[25]	
+1-57	336-337	,	_	_	_	_	
+1-58	338-344	zadeve	_	_	_	_	
+1-59	345-347	ne	_	_	_	_	
+1-60	348-359	komentirajo	_	_	*->27-3	*[27]	
+1-61	360-361	,	_	_	_	_	
+1-62	362-369	molčijo	_	_	_	_	
+1-63	370-372	pa	_	_	_	_	
+1-64	373-377	tudi	_	_	_	_	
+1-65	378-379	v	_	_	_	_	
+1-66	380-388	hrvaškem	_	_	*->11-2	*[11]	
+1-67	389-398	Agrokorju	ORG	_	*->11-2	*[11]	
+1-68	399-400	,	_	_	_	_	
+1-69	401-405	kjer	_	_	*->11-3	*[11]	
+1-70	406-409	naj	_	_	_	_	
+1-71	410-412	bi	_	_	_	_	
+1-72	413-422	odločitev	_	_	_	_	
+1-73	423-424	o	_	_	_	_	
+1-74	425-431	oddaji	_	_	_	_	
+1-75	432-439	ponudbe	_	_	_	_	
+1-76	440-448	sprejeli	_	_	_	_	
+1-77	449-454	danes	_	_	_	_	
+1-78	455-456	.	_	_	_	_	
+1-79	457-466	Londonska	_	_	*->27-4	*[27]	
+1-80	467-480	investicijska	_	_	*->27-4	*[27]	
+1-81	481-486	banka	_	_	*->27-4	*[27]	
+1-82	487-490	ING	ORG	_	*->27-4	*[27]	
+1-83	491-493	še	_	_	_	_	
+1-84	494-499	danes	_	_	_	_	
+1-85	500-505	zbira	_	_	_	_	
+1-86	506-518	nezavezujoče	_	_	_	_	
+1-87	519-526	ponudbe	_	_	_	_	
+1-88	527-528	.	_	_	_	_	
+1-89	529-532	ING	ORG	_	*->27-5	*[27]	
+1-90	533-535	je	_	_	_	_	
+1-91	536-549	povpraševanje	_	_	_	_	
+1-92	550-560	posredoval	_	_	_	_	
+1-93	561-565	vsem	_	_	_	_	
+1-94	566-567	,	_	_	_	_	
+1-95	568-570	ki	_	_	_	_	
+1-96	571-573	so	_	_	_	_	
+1-97	574-575	v	_	_	_	_	
+1-98	576-587	preteklosti	_	_	_	_	
+1-99	588-596	izkazali	_	_	_	_	
+1-100	597-604	interes	_	_	_	_	
+1-101	605-607	za	_	_	_	_	
+1-102	608-619	najboljšega	_	_	*->25-3	*[25]	
+1-103	620-626	soseda	_	_	*->25-3	*[25]	
+1-104	627-628	,	_	_	_	_	
+1-105	629-633	tudi	_	_	_	_	
+1-106	634-643	hrvaškemu	_	_	*->11-4	*[11]	
+1-107	644-653	Agrokorju	ORG	_	*->11-4	*[11]	
+1-108	654-655	.	_	_	_	_	
+1-109	656-658	Po	_	_	_	_	
+1-110	659-668	nekaterih	_	_	_	_	
+1-111	669-678	neuradnih	_	_	_	_	
+1-112	679-691	informacijah	_	_	_	_	
+1-113	692-694	so	_	_	_	_	
+1-114	695-702	ponudbe	_	_	_	_	
+1-115	703-705	do	_	_	_	_	
+1-116	706-710	zdaj	_	_	_	_	
+1-117	711-717	oddali	_	_	_	_	
+1-118	718-722	samo	_	_	_	_	
+1-119	723-731	finančni	_	_	_	_	
+1-120	732-739	igralci	_	_	_	_	
+1-121	740-741	,	_	_	_	_	
+1-122	742-745	med	_	_	_	_	
+1-123	746-751	njimi	_	_	_	_	
+1-124	752-758	skladi	_	_	_	_	
+1-125	759-762	Mid	ORG[1]	3 - Nevtralno[20]	*->6-1	*[6]	
+1-126	763-769	Europa	ORG[1]	3 - Nevtralno[20]	*->6-1	*[6]	
+1-127	770-771	,	_	_	_	_	
+1-128	772-779	Warburg	ORG[2]	3 - Nevtralno[21]	*->7-1	*[7]	
+1-129	780-786	Pincus	ORG[2]	3 - Nevtralno[21]	*->7-1	*[7]	
+1-130	787-789	in	_	_	_	_	
+1-131	790-793	TPG	ORG	3 - Nevtralno	*->8-1	*[8]	
+1-132	794-795	.	_	_	_	_	
+1-133	796-803	Agrokor	ORG	_	*->11-5	*[11]	
+1-134	804-805	,	_	_	_	_	
+1-135	806-808	ki	_	_	_	_	
+1-136	809-811	je	_	_	*->11-6	*[11]	
+1-137	812-813	v	_	_	_	_	
+1-138	814-819	lasti	_	_	_	_	
+1-139	820-825	Ivice	PER[3]	_	*->1-1	*[1]	
+1-140	826-834	Todorića	PER[3]	_	*->1-1	*[1]	
+1-141	835-836	,	_	_	_	_	
+1-142	837-840	naj	_	_	_	_	
+1-143	841-843	bi	_	_	_	_	
+1-144	844-847	bil	_	_	_	_	
+1-145	848-853	edini	_	_	*->11-7	*[11]	
+1-146	854-863	strateški	_	_	*->11-7	*[11]	
+1-147	864-873	vlagatelj	_	_	*->11-7	*[11]	
+1-148	874-875	,	_	_	_	_	
+1-149	876-878	ki	_	_	_	_	
+1-150	879-881	še	_	_	_	_	
+1-151	882-892	pripravlja	_	_	*->11-8	*[11]	
+1-152	893-900	ponudbo	_	_	_	_	
+1-153	901-903	za	_	_	_	_	
+1-154	904-915	slovenskega	_	_	*->25-4	*[25]	
+1-155	916-923	trgovca	_	_	*->25-4	*[25]	
+1-156	924-925	,	_	_	_	_	
+1-157	926-936	nameravano	_	_	_	_	
+1-158	937-950	koncentracijo	_	_	_	_	
+1-159	951-952	z	_	_	_	_	
+1-160	953-964	Mercatorjem	ORG	_	*->25-5	*[25]	
+1-161	965-967	pa	_	_	_	_	
+1-162	968-970	je	_	_	_	_	
+1-163	971-973	že	_	_	_	_	
+1-164	974-983	priglasil	_	_	_	_	
+1-165	984-988	tudi	_	_	_	_	
+1-166	989-994	uradu	_	_	_	_	
+1-167	995-997	za	_	_	_	_	
+1-168	998-1005	varstvo	_	_	_	_	
+1-169	1006-1016	konkurence	_	_	_	_	
+1-170	1017-1018	.	_	_	_	_	
+1-171	1019-1026	Izvršni	_	_	*->9-1	*[9]	
+1-172	1027-1040	podpredsednik	_	_	*->9-1	*[9]	
+1-173	1041-1043	za	_	_	*->9-1	*[9]	
+1-174	1044-1051	izvozne	_	_	*->9-1	*[9]	
+1-175	1052-1056	trge	_	_	*->9-1	*[9]	
+1-176	1057-1058	v	_	_	*->9-1	*[9]	
+1-177	1059-1066	hrvaški	_	_	*->9-1	*[9]	
+1-178	1067-1074	skupini	_	_	*->9-1	*[9]	
+1-179	1075-1082	Agrokor	ORG	_	*->9-1|*->11-9	*[9]|*[11]	
+1-180	1083-1088	Damir	PER[4]	_	*->9-1	*[9]	
+1-181	1089-1096	Kuštrak	PER[4]	_	*->9-1	*[9]	
+1-182	1097-1099	je	_	_	_	_	
+1-183	1100-1101	v	_	_	_	_	
+1-184	1102-1107	petek	_	_	_	_	
+1-185	1108-1110	ob	_	_	_	_	
+1-186	1111-1115	robu	_	_	_	_	
+1-187	1116-1126	konference	_	_	_	_	
+1-188	1127-1130	FDI	_	_	_	_	
+1-189	1131-1137	Summit	_	_	_	_	
+1-190	1138-1139	v	_	_	_	_	
+1-191	1140-1149	Ljubljani	LOC	_	*->2-1	*[2]	
+1-192	1150-1157	zatrdil	_	_	_	_	
+1-193	1158-1159	,	_	_	_	_	
+1-194	1160-1162	da	_	_	_	_	
+1-195	1163-1167	bodo	_	_	_	_	
+1-196	1168-1169	v	_	_	_	_	
+1-197	1170-1176	družbi	_	_	*->11-10	*[11]	
+1-198	1177-1186	odločitev	_	_	_	_	
+1-199	1187-1188	,	_	_	_	_	
+1-200	1189-1192	ali	_	_	_	_	
+1-201	1193-1197	bodo	_	_	_	_	
+1-202	1198-1204	oddali	_	_	_	_	
+1-203	1205-1212	ponudbo	_	_	_	_	
+1-204	1213-1214	,	_	_	_	_	
+1-205	1215-1223	sprejeli	_	_	*->11-11	*[11]	
+1-206	1224-1230	zadnji	_	_	_	_	
+1-207	1231-1234	dan	_	_	_	_	
+1-208	1235-1236	.	_	_	_	_	
+1-209	1237-1243	Zadevo	_	_	_	_	
+1-210	1244-1250	seveda	_	_	_	_	
+1-211	1251-1261	spremljamo	_	_	*->11-12	*[11]	
+1-212	1262-1263	,	_	_	_	_	
+1-213	1264-1275	analiziramo	_	_	*->11-13	*[11]	
+1-214	1276-1277	,	_	_	_	_	
+1-215	1278-1290	pripravljamo	_	_	*->11-14	*[11]	
+1-216	1291-1292	.	_	_	_	_	
+1-217	1293-1297	Pred	_	_	_	_	
+1-218	1298-1302	nami	_	_	*->11-15	*[11]	
+1-219	1303-1305	je	_	_	_	_	
+1-220	1306-1310	dolg	_	_	_	_	
+1-221	1311-1316	konec	_	_	_	_	
+1-222	1317-1322	tedna	_	_	_	_	
+1-223	1323-1324	,	_	_	_	_	
+1-224	1325-1327	je	_	_	*->9-2	*[9]	
+1-225	1328-1336	poudaril	_	_	*->9-2	*[9]	
+1-226	1337-1338	.	_	_	_	_	
+1-227	1339-1341	Ob	_	_	_	_	
+1-228	1342-1345	tem	_	_	_	_	
+1-229	1346-1348	je	_	3 - Nevtralno[22]	*->9-3	*[9]	
+1-230	1349-1356	izrazil	_	3 - Nevtralno[22]	*->9-3	*[9]	
+1-231	1357-1363	upanje	_	_	_	_	
+1-232	1364-1365	,	_	_	_	_	
+1-233	1366-1368	da	_	_	_	_	
+1-234	1369-1371	se	_	_	_	_	
+1-235	1372-1380	tokratni	_	_	_	_	
+1-236	1381-1387	poskus	_	_	_	_	
+1-237	1388-1395	prodaje	_	_	_	_	
+1-238	1396-1406	Mercatorja	ORG	_	*->25-6	*[25]	
+1-239	1407-1409	ne	_	_	_	_	
+1-240	1410-1412	bo	_	_	_	_	
+1-241	1413-1422	izjalovil	_	_	_	_	
+1-242	1423-1424	.	_	_	_	_	
+1-243	1425-1432	Agrokor	ORG	_	*->11-16	*[11]	
+1-244	1433-1435	za	_	_	_	_	
+1-245	1436-1443	delnico	_	_	_	_	
+1-246	1444-1454	Mercatorja	ORG	_	*->25-7	*[25]	
+1-247	1455-1458	221	_	_	_	_	
+1-248	1459-1464	evrov	_	_	_	_	
+1-249	1465-1466	?	_	_	_	_	
+1-250	1467-1474	Lastnik	_	_	_	_	
+1-251	1475-1484	Agrokorja	ORG	_	*->11-17	*[11]	
+1-252	1485-1490	Ivica	PER[5]	_	*->1-2	*[1]	
+1-253	1491-1498	Todorić	PER[5]	_	*->1-2	*[1]	
+1-254	1499-1501	je	_	_	_	_	
+1-255	1502-1504	po	_	_	_	_	
+1-256	1505-1514	poročanju	_	_	_	_	
+1-257	1515-1522	hrvaški	_	3 - Nevtralno[23]	*->10-1	*[10]	
+1-258	1523-1533	Poslovnega	ORG[6]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-259	1534-1542	dnevnika	ORG[6]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-260	1543-1552	pripravil	_	_	_	_	
+1-261	1553-1560	ponudbo	_	_	_	_	
+1-262	1561-1563	za	_	_	_	_	
+1-263	1564-1572	Mercator	ORG	_	*->25-8	*[25]	
+1-264	1573-1574	,	_	_	_	_	
+1-265	1575-1576	v	_	_	_	_	
+1-266	1577-1583	kateri	_	_	_	_	
+1-267	1584-1587	naj	_	_	_	_	
+1-268	1588-1590	bi	_	_	_	_	
+1-269	1591-1593	za	_	_	_	_	
+1-270	1594-1601	delnico	_	_	_	_	
+1-271	1602-1609	ponudil	_	_	_	_	
+1-272	1610-1613	221	_	_	_	_	
+1-273	1614-1619	evrov	_	_	_	_	
+1-274	1620-1621	,	_	_	_	_	
+1-275	1622-1628	čeprav	_	_	_	_	
+1-276	1629-1632	naj	_	_	_	_	
+1-277	1633-1635	se	_	_	_	_	
+1-278	1636-1637	s	_	_	_	_	
+1-279	1638-1641	tem	_	_	_	_	
+1-280	1642-1644	ne	_	_	_	_	
+1-281	1645-1647	bi	_	_	_	_	
+1-282	1648-1657	strinjali	_	_	_	_	
+1-283	1658-1666	lastniki	_	_	_	_	
+1-284	1667-1669	in	_	_	_	_	
+1-285	1670-1676	upniki	_	_	_	_	
+1-286	1677-1683	družbe	_	_	*->11-18	*[11]	
+1-287	1684-1685	.	_	_	_	_	
+1-288	1686-1688	To	_	_	_	_	
+1-289	1689-1695	pomeni	_	_	_	_	
+1-290	1696-1697	,	_	_	_	_	
+1-291	1698-1700	da	_	_	_	_	
+1-292	1701-1703	je	_	_	_	_	
+1-293	1704-1711	Agrokor	ORG	_	*->11-19	*[11]	
+1-294	1712-1714	za	_	_	_	_	
+1-295	1715-1722	prevzem	_	_	_	_	
+1-296	1723-1733	Mercatorja	ORG	_	*->25-9	*[25]	
+1-297	1734-1743	zagotovil	_	_	_	_	
+1-298	1744-1747	832	_	_	_	_	
+1-299	1748-1757	milijonov	_	_	_	_	
+1-300	1758-1763	evrov	_	_	_	_	
+1-301	1764-1765	.	_	_	_	_	
+1-302	1766-1767	V	_	_	_	_	
+1-303	1768-1779	Todorićevem	PER	3 - Nevtralno	*->11-20|*->1-3	*[11]|*[1]	
+1-304	1780-1788	koncernu	_	_	*->11-20	*[11]	
+1-305	1789-1794	sicer	_	_	_	_	
+1-306	1795-1803	računajo	_	_	_	_	
+1-307	1804-1805	,	_	_	_	_	
+1-308	1806-1808	da	_	_	_	_	
+1-309	1809-1811	je	_	_	_	_	
+1-310	1812-1819	prevzem	_	_	_	_	
+1-311	1820-1829	celotnega	_	_	_	_	
+1-312	1830-1840	Mercatorja	ORG	_	*->25-10	*[25]	
+1-313	1841-1842	,	_	_	_	_	
+1-314	1843-1853	vključujoč	_	_	_	_	
+1-315	1854-1858	dolg	_	_	_	_	
+1-316	1859-1870	slovenskega	_	_	*->25-11	*[25]	
+1-317	1871-1878	trgovca	_	_	*->25-11	*[25]	
+1-318	1879-1880	,	_	_	_	_	
+1-319	1881-1887	vreden	_	_	_	_	
+1-320	1888-1893	okoli	_	_	_	_	
+1-321	1894-1897	dve	_	_	_	_	
+1-322	1898-1907	milijarde	_	_	_	_	
+1-323	1908-1913	evrov	_	_	_	_	
+1-324	1914-1915	.	_	_	_	_	
+1-325	1916-1918	Po	_	_	_	_	
+1-326	1919-1925	ocenah	_	_	_	_	
+1-327	1926-1937	poznavalcev	_	_	_	_	
+1-328	1938-1940	pa	_	_	_	_	
+1-329	1941-1944	naj	_	_	_	_	
+1-330	1945-1952	delnica	_	_	_	_	
+1-331	1953-1963	Mercatorja	ORG	_	*->25-12	*[25]	
+1-332	1964-1966	ne	_	_	_	_	
+1-333	1967-1969	bi	_	_	_	_	
+1-334	1970-1974	bila	_	_	_	_	
+1-335	1975-1981	vredna	_	_	_	_	
+1-336	1982-1985	več	_	_	_	_	
+1-337	1986-1989	kot	_	_	_	_	
+1-338	1990-1993	180	_	_	_	_	
+1-339	1994-1999	evrov	_	_	_	_	
+1-340	2000-2001	,	_	_	_	_	
+1-341	2002-2015	najverjetneje	_	_	_	_	
+1-342	2016-2020	celo	_	_	_	_	
+1-343	2021-2025	manj	_	_	_	_	
+1-344	2026-2027	.	_	_	_	_	
+1-345	2028-2030	Če	_	_	_	_	
+1-346	2031-2034	naj	_	_	_	_	
+1-347	2035-2037	bi	_	_	_	_	
+1-348	2038-2045	Agrokor	ORG	3 - Nevtralno	*->11-21	*[11]	
+1-349	2046-2056	razmišljal	_	_	_	_	
+1-350	2057-2058	o	_	_	_	_	
+1-351	2059-2066	ponudbi	_	_	_	_	
+1-352	2067-2068	v	_	_	_	_	
+1-353	2069-2078	vrednosti	_	_	_	_	
+1-354	2079-2082	221	_	_	_	_	
+1-355	2083-2088	evrov	_	_	_	_	
+1-356	2089-2091	za	_	_	_	_	
+1-357	2092-2099	delnico	_	_	_	_	
+1-358	2100-2101	,	_	_	_	_	
+1-359	2102-2104	pa	_	_	_	_	
+1-360	2105-2108	naj	_	_	_	_	
+1-361	2109-2111	bi	_	_	_	_	
+1-362	2112-2114	se	_	_	_	_	
+1-363	2115-2122	ponudbe	_	_	_	_	
+1-364	2123-2130	skladov	_	_	_	_	
+1-365	2131-2138	občutno	_	_	_	_	
+1-366	2139-2144	nižje	_	_	_	_	
+1-367	2145-2146	,	_	_	_	_	
+1-368	2147-2149	in	_	_	_	_	
+1-369	2150-2155	sicer	_	_	_	_	
+1-370	2156-2159	med	_	_	_	_	
+1-371	2160-2163	155	_	_	_	_	
+1-372	2164-2166	in	_	_	_	_	
+1-373	2167-2170	170	_	_	_	_	
+1-374	2171-2176	evrov	_	_	_	_	
+1-375	2177-2178	.	_	_	_	_	
+1-376	2179-2181	Za	_	_	_	_	
+1-377	2182-2187	vstop	_	_	_	_	
+1-378	2188-2189	v	_	_	_	_	
+1-379	2190-2198	Mercator	ORG	_	*->25-13	*[25]	
+1-380	2199-2202	naj	_	_	_	_	
+1-381	2203-2205	bi	_	_	_	_	
+1-382	2206-2208	se	_	_	_	_	
+1-383	2209-2211	po	_	_	_	_	
+1-384	2212-2221	poročanju	_	_	_	_	
+1-385	2222-2231	nekaterih	_	_	_	_	
+1-386	2232-2239	medijev	_	_	_	_	
+1-387	2240-2247	zanimal	_	_	_	_	
+1-388	2248-2252	tudi	_	_	_	_	
+1-389	2253-2262	francoski	_	_	*->12-1	*[12]	
+1-390	2263-2270	Leclerc	ORG	_	*->12-1	*[12]	
+1-391	2271-2272	,	_	_	_	_	
+1-392	2273-2275	ki	_	_	_	_	
+1-393	2276-2279	ima	_	3 - Nevtralno	*->12-2	*[12]	
+1-394	2280-2281	v	_	_	_	_	
+1-395	2282-2291	Sloveniji	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-396	2292-2295	dve	_	_	_	_	
+1-397	2296-2307	nakupovalni	_	_	_	_	
+1-398	2308-2316	središči	_	_	_	_	
+1-399	2317-2318	,	_	_	_	_	
+1-400	2319-2320	v	_	_	_	_	
+1-401	2321-2330	Ljubljani	LOC	3 - Nevtralno	*->2-2	*[2]	
+1-402	2331-2333	in	_	_	_	_	
+1-403	2334-2342	Mariboru	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-404	2343-2344	.	_	_	_	_	
+1-405	2345-2355	Predsednik	_	_	*->4-1	*[4]	
+1-406	2356-2366	nadzornega	_	_	*->4-1	*[4]	
+1-407	2367-2372	sveta	_	_	*->4-1	*[4]	
+1-408	2373-2382	Pivovarne	ORG[7]	_	*->4-1|*->3-1	*[4]|*[3]	
+1-409	2383-2388	Laško	ORG[7]|LOC[8]	_	*->4-1|*->3-1|*->5-1	*[4]|*[3]|*[5]	
+1-410	2389-2397	Vladimir	PER[9]	_	*->4-1	*[4]	
+1-411	2398-2408	Malenković	PER[9]	_	*->4-1	*[4]	
+1-412	2409-2411	pa	_	_	_	_	
+1-413	2412-2414	je	_	_	_	_	
+1-414	2415-2422	povedal	_	_	_	_	
+1-415	2423-2424	,	_	_	_	_	
+1-416	2425-2427	da	_	_	_	_	
+1-417	2428-2430	se	_	_	_	_	
+1-418	2431-2435	bodo	_	_	_	_	
+1-419	2436-2446	nadzorniki	_	_	_	_	
+1-420	2447-2448	o	_	_	_	_	
+1-421	2449-2456	podanih	_	_	_	_	
+1-422	2457-2470	nezavezujočih	_	_	_	_	
+1-423	2471-2479	ponudbah	_	_	_	_	
+1-424	2480-2482	za	_	_	_	_	
+1-425	2483-2491	Mercator	ORG	_	*->25-14	*[25]	
+1-426	2492-2501	seznanili	_	_	_	_	
+1-427	2502-2504	na	_	_	_	_	
+1-428	2505-2509	seji	_	_	_	_	
+1-429	2510-2511	,	_	_	_	_	
+1-430	2512-2514	ki	_	_	_	_	
+1-431	2515-2517	bo	_	_	_	_	
+1-432	2518-2528	predvidoma	_	_	_	_	
+1-433	2529-2531	26	_	_	_	_	
+1-434	2532-2533	.	_	_	_	_	
+1-435	2534-2541	oktobra	_	_	_	_	
+1-436	2542-2543	.	_	_	_	_	
+1-437	2544-2545	O	_	_	_	_	
+1-438	2546-2554	ponudbah	_	_	_	_	
+1-439	2555-2557	bo	_	_	_	_	
+1-440	2558-2568	Malenković	PER	3 - Nevtralno	*->4-2	*[4]	
+1-441	2569-2570	v	_	_	_	_	
+1-442	2571-2581	prihodnjih	_	_	_	_	
+1-443	2582-2586	dneh	_	_	_	_	
+1-444	2587-2595	izmenjal	_	_	_	_	
+1-445	2596-2607	informacije	_	_	_	_	
+1-446	2608-2612	tudi	_	_	_	_	
+1-447	2613-2614	z	_	_	_	_	
+1-448	2615-2623	vodstvom	_	_	_	_	
+1-449	2624-2633	Pivovarne	ORG[10]	_	*->3-2	*[3]	
+1-450	2634-2639	Laško	ORG[10]|LOC[11]	_	*->3-2|*->5-2	*[3]|*[5]	
+1-451	2640-2641	.	_	_	_	_	
+1-452	2642-2649	Prodaja	_	_	_	_	
+1-453	2650-2652	se	_	_	_	_	
+1-454	2653-2658	50,03	_	_	_	_	
+1-455	2659-2667	odstotka	_	_	_	_	
+1-456	2668-2674	družbe	_	_	_	_	
+1-457	2675-2681	Skupaj	_	_	_	_	
+1-458	2682-2687	50,03	_	_	_	_	
+1-459	2688-2696	odstotka	_	_	_	_	
+1-460	2697-2707	Mercatorja	ORG	_	*->25-15	*[25]	
+1-461	2708-2717	prodajajo	_	_	_	_	
+1-462	2718-2724	Abanka	ORG	3 - Nevtralno	*->15-1	*[15]	
+1-463	2725-2726	,	_	_	_	_	
+1-464	2727-2732	Banka	ORG[12]	3 - Nevtralno[24]	*->17-1	*[17]	
+1-465	2733-2738	Celje	ORG[12]|LOC[13]	3 - Nevtralno[24]|3 - Nevtralno[25]	*->17-1|*->16-1	*[17]|*[16]	
+1-466	2739-2740	,	_	_	_	_	
+1-467	2741-2750	Gorenjska	ORG[14]	3 - Nevtralno[26]	*->18-1	*[18]	
+1-468	2751-2756	banka	ORG[14]	3 - Nevtralno[26]	*->18-1	*[18]	
+1-469	2757-2758	,	_	_	_	_	
+1-470	2759-2764	banka	_	3 - Nevtralno[27]	*->19-1	*[19]	
+1-471	2765-2769	Hypo	ORG[15]	3 - Nevtralno[27]	*->19-1	*[19]	
+1-472	2770-2774	Alpe	ORG[15]	3 - Nevtralno[27]	*->19-1	*[19]	
+1-473	2775-2780	Adria	ORG[15]	3 - Nevtralno[27]	*->19-1	*[19]	
+1-474	2781-2782	,	_	_	_	_	
+1-475	2783-2791	delniški	_	3 - Nevtralno[28]	*->20-1	*[20]	
+1-476	2792-2805	investicijski	_	3 - Nevtralno[28]	*->20-1	*[20]	
+1-477	2806-2811	sklad	_	3 - Nevtralno[28]	*->20-1	*[20]	
+1-478	2812-2815	NFD	_	3 - Nevtralno[28]	*->20-1	*[20]	
+1-479	2816-2817	1	_	3 - Nevtralno[28]	*->20-1	*[20]	
+1-480	2818-2819	,	_	3 - Nevtralno[28]	*->20-1	*[20]	
+1-481	2820-2823	NFD	ORG[16]	3 - Nevtralno[28]	*->20-1	*[20]	
+1-482	2824-2831	Holding	ORG[16]	3 - Nevtralno[28]	*->20-1	*[20]	
+1-483	2832-2833	,	_	_	_	_	
+1-484	2834-2838	NKBM	ORG	3 - Nevtralno	*->21-1	*[21]	
+1-485	2839-2840	,	_	_	_	_	
+1-486	2841-2844	NLB	ORG	3 - Nevtralno	*->22-1	*[22]	
+1-487	2845-2846	,	_	_	_	_	
+1-488	2847-2856	Pivovarna	ORG[17]	3 - Nevtralno[29]	*->3-3	*[3]	
+1-489	2857-2862	Laško	ORG[17]|LOC[18]	3 - Nevtralno[29]|2 - Negativno[30]	*->3-3|*->5-3	*[3]|*[5]	
+1-490	2863-2864	,	_	_	_	_	
+1-491	2865-2874	Pivovarna	ORG[19]	3 - Nevtralno[31]	*->23-1	*[23]	
+1-492	2875-2880	Union	ORG[19]	3 - Nevtralno[31]	*->23-1	*[23]	
+1-493	2881-2883	in	_	_	_	_	
+1-494	2884-2892	Radenska	ORG	3 - Nevtralno	*->24-1	*[24]	
+1-495	2893-2894	.	_	_	_	_	
+1-496	2895-2903	Omenjeni	_	_	_	_	
+1-497	2904-2914	delničarji	_	_	_	_	
+1-498	2915-2917	so	_	_	_	_	
+1-499	2918-2924	junija	_	_	_	_	
+1-500	2925-2930	letos	_	_	_	_	
+1-501	2931-2940	podpisali	_	_	_	_	
+1-502	2941-2949	sporazum	_	_	_	_	
+1-503	2950-2951	o	_	_	_	_	
+1-504	2952-2958	skupni	_	_	_	_	
+1-505	2959-2966	prodaji	_	_	_	_	
+1-506	2967-2977	trgovskega	_	3 - Nevtralno[32]	*->25-16	*[25]	
+1-507	2978-2986	podjetja	_	3 - Nevtralno[32]	*->25-16	*[25]	
+1-508	2987-2988	,	_	_	_	_	
+1-509	2989-2997	prodajni	_	_	_	_	
+1-510	2998-3006	postopek	_	_	_	_	
+1-511	3007-3009	pa	_	_	_	_	
+1-512	3010-3017	zaupali	_	_	_	_	
+1-513	3018-3023	banki	_	3 - Nevtralno[33]	*->27-6	*[27]	
+1-514	3024-3027	ING	ORG	3 - Nevtralno[33]	*->27-6	*[27]	
+1-515	3028-3030	iz	_	_	_	_	
+1-516	3031-3038	Londona	LOC	3 - Nevtralno	*->26-1	*[26]	

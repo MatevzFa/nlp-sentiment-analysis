@@ -1,0 +1,375 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Največ v Rusijo izvozi Krka Ruska politika in nedavne volitve ne bodo vplivale na poslovanje slovenskih podjetij s to državo , so za MMC povedali na GZS - ju . V Rusiji se kljub omejeni stopnji demokracije razvija dokaj stabilno gospodarsko in poslovno okolje . Rusija je v zadnjih osmih letih postala pomemben gospodarski partner Slovenije , za nadgradnjo že utečenega sodelovanja pa bo potreben še bolj premišljen pristop , meni Aleš Cantarutti iz Centra za konkurenčnost GZS - ja . Večina velikih slovenskih naložb v Ruski federaciji je zgoščena v njenem evropskem delu države . Največji slovenski naložbi v Rusiji sta Krkina tovarna zdravil v mestu Istra Podmoskovje in naložba podjetja Trimo v Vladimirovski pokrajini , ki je prav tako dokaj blizu Moskve . V Moskvi so tudi druga slovenska podjetja , ki delujejo v okviru mešanih podjetij proizvodnji in trgovini . Pet največjih izvoznikov 1 . Lek 2 . Krka 3 . Gorenje 4 . Iskratel 5 . Helios Pet največjih uvoznikov 1 . Petrol 2 . Geoplin 3 . Acroni 4 . Impol 5 . Metal Ravne Vir SURS , obdelava GZS Moskva postaja predraga Zaradi hude konkurence in vse večjih stroškov pa za slovenska podjetja postajajo zanimivi tudi drugi deli Ruske federacije . Med njimi je Tatarstan , kjer novo predstavništvo slovenskega gospodarstva odpira JAPTI . Po mnenju Gospodarske zbornice Slovenije so to območja , ki se zaradi naravnih bogastev hitro razvijajo in imajo zato tudi nadpovprečno rast investicijskih dejavnosti . Pet najpogostejših izvoznih artiklov 1 . Zdravila za prodajo na drobno 2 . Električni aparati za telefonijo 3 . Premazna sredstva 4 . Gospodinjski aparati 5 . Kri , protiserumi , cepiva , mikrobske kulture , toksini Pet najpogostejših uvoznih artiklov 1 . Bencin in druga olja 2 . Naftni plini 3 . Ferozlitine 4 . Aluminij , surov 5 . Grodelj in zrcalovina Vir SURS , obdelava GZS Več dejavnosti na področju energentov Gospodarska zbornica Slovenije pričakuje , da bodo proizvodi , ki obsegajo večinski delež slovenskega izvoza v Rusijo , tudi v prihodnje poglavitni izvozni artikli slovenskega gospodarstva , okrepile pa naj bi se dejavnosti na področju energentov in drugih surovin . Preberite tudi Slovenska podjetja v Srbiji Aleksandra K .
+1-1	0-6	Največ	_	_	_	_	
+1-2	7-8	v	_	_	_	_	
+1-3	9-15	Rusijo	ORG	_	*->1-1	*[1]	
+1-4	16-22	izvozi	_	_	_	_	
+1-5	23-27	Krka	ORG	_	*->2-1	*[2]	
+1-6	28-33	Ruska	_	_	_	_	
+1-7	34-42	politika	_	_	_	_	
+1-8	43-45	in	_	_	_	_	
+1-9	46-53	nedavne	_	_	_	_	
+1-10	54-61	volitve	_	_	_	_	
+1-11	62-64	ne	_	_	_	_	
+1-12	65-69	bodo	_	_	_	_	
+1-13	70-78	vplivale	_	_	_	_	
+1-14	79-81	na	_	_	_	_	
+1-15	82-92	poslovanje	_	_	_	_	
+1-16	93-103	slovenskih	_	_	_	_	
+1-17	104-112	podjetij	_	_	_	_	
+1-18	113-114	s	_	_	_	_	
+1-19	115-117	to	_	_	_	_	
+1-20	118-124	državo	_	_	_	_	
+1-21	125-126	,	_	_	_	_	
+1-22	127-129	so	_	_	_	_	
+1-23	130-132	za	_	_	_	_	
+1-24	133-136	MMC	_	_	_	_	
+1-25	137-145	povedali	_	_	_	_	
+1-26	146-148	na	_	_	_	_	
+1-27	149-152	GZS	ORG	_	*->3-1	*[3]	
+1-28	153-154	-	_	_	_	_	
+1-29	155-157	ju	_	_	_	_	
+1-30	158-159	.	_	_	_	_	
+1-31	160-161	V	_	_	_	_	
+1-32	162-168	Rusiji	ORG	_	*->1-2	*[1]	
+1-33	169-171	se	_	_	_	_	
+1-34	172-177	kljub	_	_	_	_	
+1-35	178-185	omejeni	_	_	_	_	
+1-36	186-193	stopnji	_	_	_	_	
+1-37	194-205	demokracije	_	_	_	_	
+1-38	206-213	razvija	_	_	_	_	
+1-39	214-219	dokaj	_	_	_	_	
+1-40	220-228	stabilno	_	_	_	_	
+1-41	229-240	gospodarsko	_	_	_	_	
+1-42	241-243	in	_	_	_	_	
+1-43	244-252	poslovno	_	_	_	_	
+1-44	253-259	okolje	_	_	_	_	
+1-45	260-261	.	_	_	_	_	
+1-46	262-268	Rusija	ORG	_	*->1-3	*[1]	
+1-47	269-271	je	_	_	_	_	
+1-48	272-273	v	_	_	_	_	
+1-49	274-281	zadnjih	_	_	_	_	
+1-50	282-287	osmih	_	_	_	_	
+1-51	288-293	letih	_	_	_	_	
+1-52	294-301	postala	_	_	_	_	
+1-53	302-310	pomemben	_	_	_	_	
+1-54	311-322	gospodarski	_	_	*->1-4	*[1]	
+1-55	323-330	partner	_	_	*->1-4	*[1]	
+1-56	331-340	Slovenije	ORG	_	*->1-4|*->4-1	*[1]|*[4]	
+1-57	341-342	,	_	_	_	_	
+1-58	343-345	za	_	_	_	_	
+1-59	346-356	nadgradnjo	_	_	_	_	
+1-60	357-359	že	_	_	_	_	
+1-61	360-369	utečenega	_	_	_	_	
+1-62	370-381	sodelovanja	_	_	_	_	
+1-63	382-384	pa	_	_	_	_	
+1-64	385-387	bo	_	_	_	_	
+1-65	388-396	potreben	_	_	_	_	
+1-66	397-399	še	_	_	_	_	
+1-67	400-404	bolj	_	_	_	_	
+1-68	405-415	premišljen	_	_	_	_	
+1-69	416-423	pristop	_	_	_	_	
+1-70	424-425	,	_	_	_	_	
+1-71	426-430	meni	_	_	_	_	
+1-72	431-435	Aleš	PER[1]	3 - Nevtralno[14]	*->7-1	*[7]	
+1-73	436-446	Cantarutti	PER[1]	3 - Nevtralno[14]	*->7-1	*[7]	
+1-74	447-449	iz	_	_	_	_	
+1-75	450-456	Centra	ORG[2]	3 - Nevtralno[15]	*->8-1	*[8]	
+1-76	457-459	za	ORG[2]	3 - Nevtralno[15]	*->8-1	*[8]	
+1-77	460-473	konkurenčnost	ORG[2]	3 - Nevtralno[15]	*->8-1	*[8]	
+1-78	474-477	GZS	ORG[2]|ORG[3]	3 - Nevtralno[15]	*->8-1|*->3-2	*[8]|*[3]	
+1-79	478-479	-	_	_	_	_	
+1-80	480-482	ja	_	_	_	_	
+1-81	483-484	.	_	_	_	_	
+1-82	485-491	Večina	_	_	_	_	
+1-83	492-499	velikih	_	_	_	_	
+1-84	500-510	slovenskih	_	_	_	_	
+1-85	511-517	naložb	_	_	_	_	
+1-86	518-519	v	_	_	_	_	
+1-87	520-525	Ruski	ORG[4]	_	*->1-5	*[1]	
+1-88	526-536	federaciji	ORG[4]	_	*->1-5	*[1]	
+1-89	537-539	je	_	_	_	_	
+1-90	540-548	zgoščena	_	_	_	_	
+1-91	549-550	v	_	_	_	_	
+1-92	551-557	njenem	_	_	_	_	
+1-93	558-567	evropskem	_	_	_	_	
+1-94	568-572	delu	_	_	_	_	
+1-95	573-579	države	_	_	_	_	
+1-96	580-581	.	_	_	_	_	
+1-97	582-590	Največji	_	_	_	_	
+1-98	591-600	slovenski	_	_	_	_	
+1-99	601-608	naložbi	_	_	_	_	
+1-100	609-610	v	_	_	_	_	
+1-101	611-617	Rusiji	ORG	_	*->1-6	*[1]	
+1-102	618-621	sta	_	_	_	_	
+1-103	622-628	Krkina	ORG	_	*->2-2	*[2]	
+1-104	629-636	tovarna	_	_	_	_	
+1-105	637-644	zdravil	_	_	_	_	
+1-106	645-646	v	_	_	_	_	
+1-107	647-652	mestu	_	_	_	_	
+1-108	653-658	Istra	LOC[5]	3 - Nevtralno[16]	*->9-1	*[9]	
+1-109	659-670	Podmoskovje	LOC[5]	3 - Nevtralno[16]	*->9-1	*[9]	
+1-110	671-673	in	_	_	_	_	
+1-111	674-681	naložba	_	_	_	_	
+1-112	682-690	podjetja	_	_	_	_	
+1-113	691-696	Trimo	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-114	697-698	v	_	_	_	_	
+1-115	699-712	Vladimirovski	LOC[6]	_	*->11-1	*[11]	
+1-116	713-722	pokrajini	LOC[6]	_	*->11-1	*[11]	
+1-117	723-724	,	_	_	_	_	
+1-118	725-727	ki	_	_	_	_	
+1-119	728-730	je	_	3 - Nevtralno	*->11-2	*[11]	
+1-120	731-735	prav	_	_	_	_	
+1-121	736-740	tako	_	_	_	_	
+1-122	741-746	dokaj	_	_	_	_	
+1-123	747-752	blizu	_	_	_	_	
+1-124	753-759	Moskve	LOC	_	*->5-1	*[5]	
+1-125	760-761	.	_	_	_	_	
+1-126	762-763	V	_	_	_	_	
+1-127	764-770	Moskvi	LOC	_	*->5-2	*[5]	
+1-128	771-773	so	_	_	_	_	
+1-129	774-778	tudi	_	_	_	_	
+1-130	779-784	druga	_	_	_	_	
+1-131	785-794	slovenska	_	_	_	_	
+1-132	795-803	podjetja	_	_	_	_	
+1-133	804-805	,	_	_	_	_	
+1-134	806-808	ki	_	_	_	_	
+1-135	809-817	delujejo	_	_	_	_	
+1-136	818-819	v	_	_	_	_	
+1-137	820-826	okviru	_	_	_	_	
+1-138	827-834	mešanih	_	_	_	_	
+1-139	835-843	podjetij	_	_	_	_	
+1-140	844-855	proizvodnji	_	_	_	_	
+1-141	856-858	in	_	_	_	_	
+1-142	859-867	trgovini	_	_	_	_	
+1-143	868-869	.	_	_	_	_	
+1-144	870-873	Pet	_	_	_	_	
+1-145	874-883	največjih	_	_	_	_	
+1-146	884-894	izvoznikov	_	_	_	_	
+1-147	895-896	1	_	_	_	_	
+1-148	897-898	.	_	_	_	_	
+1-149	899-902	Lek	ORG	4 - Pozitivno	*->12-1	*[12]	
+1-150	903-904	2	_	_	_	_	
+1-151	905-906	.	_	_	_	_	
+1-152	907-911	Krka	ORG	4 - Pozitivno	*->2-3	*[2]	
+1-153	912-913	3	_	_	_	_	
+1-154	914-915	.	_	_	_	_	
+1-155	916-923	Gorenje	ORG	4 - Pozitivno	*->13-1	*[13]	
+1-156	924-925	4	_	_	_	_	
+1-157	926-927	.	_	_	_	_	
+1-158	928-936	Iskratel	ORG	4 - Pozitivno	*->14-1	*[14]	
+1-159	937-938	5	_	_	_	_	
+1-160	939-940	.	_	_	_	_	
+1-161	941-947	Helios	ORG	4 - Pozitivno	*->15-1	*[15]	
+1-162	948-951	Pet	_	_	_	_	
+1-163	952-961	največjih	_	_	_	_	
+1-164	962-971	uvoznikov	_	_	_	_	
+1-165	972-973	1	_	_	_	_	
+1-166	974-975	.	_	_	_	_	
+1-167	976-982	Petrol	ORG	4 - Pozitivno	*->16-1	*[16]	
+1-168	983-984	2	_	_	_	_	
+1-169	985-986	.	_	_	_	_	
+1-170	987-994	Geoplin	ORG	4 - Pozitivno	*->17-1	*[17]	
+1-171	995-996	3	_	_	_	_	
+1-172	997-998	.	_	_	_	_	
+1-173	999-1005	Acroni	ORG	4 - Pozitivno	*->18-1	*[18]	
+1-174	1006-1007	4	_	_	_	_	
+1-175	1008-1009	.	_	_	_	_	
+1-176	1010-1015	Impol	ORG	4 - Pozitivno	*->19-1	*[19]	
+1-177	1016-1017	5	_	_	_	_	
+1-178	1018-1019	.	_	_	_	_	
+1-179	1020-1025	Metal	ORG[7]	4 - Pozitivno[17]	*->20-1	*[20]	
+1-180	1026-1031	Ravne	ORG[7]	4 - Pozitivno[17]	*->20-1	*[20]	
+1-181	1032-1035	Vir	_	_	_	_	
+1-182	1036-1040	SURS	ORG	_	*->6-1	*[6]	
+1-183	1041-1042	,	_	_	_	_	
+1-184	1043-1051	obdelava	_	_	_	_	
+1-185	1052-1055	GZS	ORG	_	*->3-3	*[3]	
+1-186	1056-1062	Moskva	LOC	3 - Nevtralno	*->5-3	*[5]	
+1-187	1063-1070	postaja	_	_	_	_	
+1-188	1071-1079	predraga	_	_	_	_	
+1-189	1080-1086	Zaradi	_	_	_	_	
+1-190	1087-1091	hude	_	_	_	_	
+1-191	1092-1102	konkurence	_	_	_	_	
+1-192	1103-1105	in	_	_	_	_	
+1-193	1106-1109	vse	_	_	_	_	
+1-194	1110-1116	večjih	_	_	_	_	
+1-195	1117-1125	stroškov	_	_	_	_	
+1-196	1126-1128	pa	_	_	_	_	
+1-197	1129-1131	za	_	_	_	_	
+1-198	1132-1141	slovenska	_	_	_	_	
+1-199	1142-1150	podjetja	_	_	_	_	
+1-200	1151-1160	postajajo	_	_	_	_	
+1-201	1161-1169	zanimivi	_	_	_	_	
+1-202	1170-1174	tudi	_	_	_	_	
+1-203	1175-1180	drugi	_	_	_	_	
+1-204	1181-1185	deli	_	_	_	_	
+1-205	1186-1191	Ruske	LOC[8]	_	*->1-7	*[1]	
+1-206	1192-1202	federacije	LOC[8]	_	*->1-7	*[1]	
+1-207	1203-1204	.	_	_	_	_	
+1-208	1205-1208	Med	_	_	_	_	
+1-209	1209-1214	njimi	_	_	_	_	
+1-210	1215-1217	je	_	_	_	_	
+1-211	1218-1227	Tatarstan	LOC	_	*->21-1	*[21]	
+1-212	1228-1229	,	_	_	_	_	
+1-213	1230-1234	kjer	_	3 - Nevtralno	*->21-2	*[21]	
+1-214	1235-1239	novo	_	_	_	_	
+1-215	1240-1254	predstavništvo	_	_	_	_	
+1-216	1255-1266	slovenskega	_	_	_	_	
+1-217	1267-1279	gospodarstva	_	_	_	_	
+1-218	1280-1286	odpira	_	_	_	_	
+1-219	1287-1292	JAPTI	ORG	3 - Nevtralno	*->22-1	*[22]	
+1-220	1293-1294	.	_	_	_	_	
+1-221	1295-1297	Po	_	_	_	_	
+1-222	1298-1304	mnenju	_	_	_	_	
+1-223	1305-1316	Gospodarske	ORG[9]	_	*->3-4	*[3]	
+1-224	1317-1325	zbornice	ORG[9]	_	*->3-4	*[3]	
+1-225	1326-1335	Slovenije	ORG[9]|LOC[10]	_	*->3-4|*->4-2	*[3]|*[4]	
+1-226	1336-1338	so	_	_	_	_	
+1-227	1339-1341	to	_	_	_	_	
+1-228	1342-1349	območja	_	_	_	_	
+1-229	1350-1351	,	_	_	_	_	
+1-230	1352-1354	ki	_	_	_	_	
+1-231	1355-1357	se	_	_	_	_	
+1-232	1358-1364	zaradi	_	_	_	_	
+1-233	1365-1373	naravnih	_	_	_	_	
+1-234	1374-1382	bogastev	_	_	_	_	
+1-235	1383-1388	hitro	_	_	_	_	
+1-236	1389-1398	razvijajo	_	_	_	_	
+1-237	1399-1401	in	_	_	_	_	
+1-238	1402-1407	imajo	_	_	_	_	
+1-239	1408-1412	zato	_	_	_	_	
+1-240	1413-1417	tudi	_	_	_	_	
+1-241	1418-1430	nadpovprečno	_	_	_	_	
+1-242	1431-1435	rast	_	_	_	_	
+1-243	1436-1450	investicijskih	_	_	_	_	
+1-244	1451-1461	dejavnosti	_	_	_	_	
+1-245	1462-1463	.	_	_	_	_	
+1-246	1464-1467	Pet	_	_	_	_	
+1-247	1468-1482	najpogostejših	_	_	_	_	
+1-248	1483-1491	izvoznih	_	_	_	_	
+1-249	1492-1500	artiklov	_	_	_	_	
+1-250	1501-1502	1	_	_	_	_	
+1-251	1503-1504	.	_	_	_	_	
+1-252	1505-1513	Zdravila	_	_	_	_	
+1-253	1514-1516	za	_	_	_	_	
+1-254	1517-1524	prodajo	_	_	_	_	
+1-255	1525-1527	na	_	_	_	_	
+1-256	1528-1534	drobno	_	_	_	_	
+1-257	1535-1536	2	_	_	_	_	
+1-258	1537-1538	.	_	_	_	_	
+1-259	1539-1549	Električni	_	_	_	_	
+1-260	1550-1557	aparati	_	_	_	_	
+1-261	1558-1560	za	_	_	_	_	
+1-262	1561-1571	telefonijo	_	_	_	_	
+1-263	1572-1573	3	_	_	_	_	
+1-264	1574-1575	.	_	_	_	_	
+1-265	1576-1584	Premazna	_	_	_	_	
+1-266	1585-1593	sredstva	_	_	_	_	
+1-267	1594-1595	4	_	_	_	_	
+1-268	1596-1597	.	_	_	_	_	
+1-269	1598-1610	Gospodinjski	_	_	_	_	
+1-270	1611-1618	aparati	_	_	_	_	
+1-271	1619-1620	5	_	_	_	_	
+1-272	1621-1622	.	_	_	_	_	
+1-273	1623-1626	Kri	_	_	_	_	
+1-274	1627-1628	,	_	_	_	_	
+1-275	1629-1640	protiserumi	_	_	_	_	
+1-276	1641-1642	,	_	_	_	_	
+1-277	1643-1649	cepiva	_	_	_	_	
+1-278	1650-1651	,	_	_	_	_	
+1-279	1652-1661	mikrobske	_	_	_	_	
+1-280	1662-1669	kulture	_	_	_	_	
+1-281	1670-1671	,	_	_	_	_	
+1-282	1672-1679	toksini	_	_	_	_	
+1-283	1680-1683	Pet	_	_	_	_	
+1-284	1684-1698	najpogostejših	_	_	_	_	
+1-285	1699-1706	uvoznih	_	_	_	_	
+1-286	1707-1715	artiklov	_	_	_	_	
+1-287	1716-1717	1	_	_	_	_	
+1-288	1718-1719	.	_	_	_	_	
+1-289	1720-1726	Bencin	_	_	_	_	
+1-290	1727-1729	in	_	_	_	_	
+1-291	1730-1735	druga	_	_	_	_	
+1-292	1736-1740	olja	_	_	_	_	
+1-293	1741-1742	2	_	_	_	_	
+1-294	1743-1744	.	_	_	_	_	
+1-295	1745-1751	Naftni	_	_	_	_	
+1-296	1752-1757	plini	_	_	_	_	
+1-297	1758-1759	3	_	_	_	_	
+1-298	1760-1761	.	_	_	_	_	
+1-299	1762-1773	Ferozlitine	_	_	_	_	
+1-300	1774-1775	4	_	_	_	_	
+1-301	1776-1777	.	_	_	_	_	
+1-302	1778-1786	Aluminij	_	_	_	_	
+1-303	1787-1788	,	_	_	_	_	
+1-304	1789-1794	surov	_	_	_	_	
+1-305	1795-1796	5	_	_	_	_	
+1-306	1797-1798	.	_	_	_	_	
+1-307	1799-1806	Grodelj	_	_	_	_	
+1-308	1807-1809	in	_	_	_	_	
+1-309	1810-1820	zrcalovina	_	_	_	_	
+1-310	1821-1824	Vir	_	_	_	_	
+1-311	1825-1829	SURS	ORG	3 - Nevtralno	*->6-2	*[6]	
+1-312	1830-1831	,	_	_	_	_	
+1-313	1832-1840	obdelava	_	_	_	_	
+1-314	1841-1844	GZS	ORG	_	*->3-5	*[3]	
+1-315	1845-1848	Več	_	_	_	_	
+1-316	1849-1859	dejavnosti	_	_	_	_	
+1-317	1860-1862	na	_	_	_	_	
+1-318	1863-1871	področju	_	_	_	_	
+1-319	1872-1882	energentov	_	_	_	_	
+1-320	1883-1894	Gospodarska	ORG[11]	3 - Nevtralno[18]	*->3-6	*[3]	
+1-321	1895-1903	zbornica	ORG[11]	3 - Nevtralno[18]	*->3-6	*[3]	
+1-322	1904-1913	Slovenije	ORG[11]|LOC[12]	3 - Nevtralno[18]|4 - Pozitivno[19]	*->3-6|*->4-3	*[3]|*[4]	
+1-323	1914-1923	pričakuje	_	_	_	_	
+1-324	1924-1925	,	_	_	_	_	
+1-325	1926-1928	da	_	_	_	_	
+1-326	1929-1933	bodo	_	_	_	_	
+1-327	1934-1943	proizvodi	_	_	_	_	
+1-328	1944-1945	,	_	_	_	_	
+1-329	1946-1948	ki	_	_	_	_	
+1-330	1949-1957	obsegajo	_	_	_	_	
+1-331	1958-1966	večinski	_	_	_	_	
+1-332	1967-1972	delež	_	_	_	_	
+1-333	1973-1984	slovenskega	_	_	_	_	
+1-334	1985-1991	izvoza	_	_	_	_	
+1-335	1992-1993	v	_	_	_	_	
+1-336	1994-2000	Rusijo	ORG	4 - Pozitivno	*->1-8	*[1]	
+1-337	2001-2002	,	_	_	_	_	
+1-338	2003-2007	tudi	_	_	_	_	
+1-339	2008-2009	v	_	_	_	_	
+1-340	2010-2019	prihodnje	_	_	_	_	
+1-341	2020-2030	poglavitni	_	_	_	_	
+1-342	2031-2038	izvozni	_	_	_	_	
+1-343	2039-2046	artikli	_	_	_	_	
+1-344	2047-2058	slovenskega	_	_	_	_	
+1-345	2059-2071	gospodarstva	_	_	_	_	
+1-346	2072-2073	,	_	_	_	_	
+1-347	2074-2082	okrepile	_	_	_	_	
+1-348	2083-2085	pa	_	_	_	_	
+1-349	2086-2089	naj	_	_	_	_	
+1-350	2090-2092	bi	_	_	_	_	
+1-351	2093-2095	se	_	_	_	_	
+1-352	2096-2106	dejavnosti	_	_	_	_	
+1-353	2107-2109	na	_	_	_	_	
+1-354	2110-2118	področju	_	_	_	_	
+1-355	2119-2129	energentov	_	_	_	_	
+1-356	2130-2132	in	_	_	_	_	
+1-357	2133-2139	drugih	_	_	_	_	
+1-358	2140-2147	surovin	_	_	_	_	
+1-359	2148-2149	.	_	_	_	_	
+1-360	2150-2159	Preberite	_	_	_	_	
+1-361	2160-2164	tudi	_	_	_	_	
+1-362	2165-2174	Slovenska	_	_	_	_	
+1-363	2175-2183	podjetja	_	_	_	_	
+1-364	2184-2185	v	_	_	_	_	
+1-365	2186-2192	Srbiji	LOC	3 - Nevtralno	*->23-1	*[23]	
+1-366	2193-2203	Aleksandra	PER[13]	3 - Nevtralno[20]	*->24-1	*[24]	
+1-367	2204-2205	K	PER[13]	3 - Nevtralno[20]	*->24-1	*[24]	
+1-368	2206-2207	.	_	_	_	_	

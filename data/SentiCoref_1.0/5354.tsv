@@ -1,0 +1,318 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Alžirija prejela pozive upornikov za vrnitev članov Gadafijeve družine v Libijo Foto : Bloomberg Član libijskega nacionalnega prehodnega sveta za pravosodje Mohamed al Alagi je potrdil , da so bili med ujetimi osebami v Tripoliju tudi plačanci iz tujine , med njimi 17 Hrvatov . Na odziv iz Libije so je odzvalo že hrvaško zunanje ministrstvo , ki je sporočilo , da niso prejeli nobene informacije o tem , da bi v Libiji priprli kakšnega hrvaškega državljana . Vse prijete so zaslišali in tiste , ki niso zagrešili zločinov izpustili na prostost . Preostalim so sodili . Hrvati nameravajo za dodatne informacije vprašati libijsko diplomatsko misijo v Zagrebu . Libijski uporniki zahtevajo izročitev Gadafijeve žene in treh otrok Uporniki od Alžirije zahtevajo izročitev članov družine libijskega samodržca Moamerja Gadafija . Kot smo poročali , naj bi se njegova žena včeraj skupaj s hčerko in dvema sinovoma zatekla v sosednjo državo . Alžirija je o tem obvestila generalnega sekretarja OZN Ban Ki Moona , Varnostni svet OZN in drugega človeka libijskega nacionalnega prehodnega sveta Mahmuda Džibrila . Alžir se sicer v libijskem konfliktu ni postavil na nobeno stran in ne priznava prehodnega sveta . Gadafi se še vedno skriva Gadafi in njegova sinova Sadi in Sejf al Islam bi se naj skrivali v kraju Bani Valid južno od Tripolija . Uporniki pa so medtem tudi sporočili , da je bil v ponedeljek ubit Gadafijev najmlajši sin Hamis . Od začetka konflikta v Libiji so sicer že večkrat objavili novico o njegovi smrti , vendar nikoli ni bila potrjena . Ofenziva na Sirto se nadaljuje Uporniki nadaljujejo tudi ofenzivo na Sirto . V ponedeljek so zavzeli puščavsko vasico Nofilija nedaleč od obalne ceste vzhodno od Sirte . Uporniki pričakujejo , da bodo danes napredovali proti mestu , hkrati pa še naprej potekajo tudi pogajanja z lokalnimi in plemenskimi voditelji o mirni vdaji Sirte
+1-1	0-8	Alžirija	ORG	_	*->1-1	*[1]	
+1-2	9-16	prejela	_	_	_	_	
+1-3	17-23	pozive	_	_	_	_	
+1-4	24-33	upornikov	_	_	_	_	
+1-5	34-36	za	_	_	_	_	
+1-6	37-44	vrnitev	_	_	_	_	
+1-7	45-51	članov	_	_	_	_	
+1-8	52-62	Gadafijeve	PER	_	*->2-1	*[2]	
+1-9	63-70	družine	_	_	_	_	
+1-10	71-72	v	_	_	_	_	
+1-11	73-79	Libijo	LOC	_	*->3-1	*[3]	
+1-12	80-84	Foto	_	_	_	_	
+1-13	85-86	:	_	_	_	_	
+1-14	87-96	Bloomberg	ORG	3 - Nevtralno	*->4-1	*[4]	
+1-15	97-101	Član	_	3 - Nevtralno[9]	*->5-1	*[5]	
+1-16	102-112	libijskega	_	3 - Nevtralno[9]	*->5-1	*[5]	
+1-17	113-125	nacionalnega	_	3 - Nevtralno[9]	*->5-1	*[5]	
+1-18	126-136	prehodnega	_	3 - Nevtralno[9]	*->5-1	*[5]	
+1-19	137-142	sveta	_	3 - Nevtralno[9]	*->5-1	*[5]	
+1-20	143-145	za	_	3 - Nevtralno[9]	*->5-1	*[5]	
+1-21	146-156	pravosodje	_	3 - Nevtralno[9]	*->5-1	*[5]	
+1-22	157-164	Mohamed	PER[1]	3 - Nevtralno[9]	*->5-1	*[5]	
+1-23	165-167	al	PER[1]	3 - Nevtralno[9]	*->5-1	*[5]	
+1-24	168-173	Alagi	PER[1]	3 - Nevtralno[9]	*->5-1	*[5]	
+1-25	174-176	je	_	_	_	_	
+1-26	177-184	potrdil	_	_	_	_	
+1-27	185-186	,	_	_	_	_	
+1-28	187-189	da	_	_	_	_	
+1-29	190-192	so	_	_	_	_	
+1-30	193-197	bili	_	_	_	_	
+1-31	198-201	med	_	_	_	_	
+1-32	202-209	ujetimi	_	_	_	_	
+1-33	210-217	osebami	_	_	_	_	
+1-34	218-219	v	_	_	_	_	
+1-35	220-229	Tripoliju	LOC	_	*->6-1	*[6]	
+1-36	230-234	tudi	_	_	_	_	
+1-37	235-243	plačanci	_	_	_	_	
+1-38	244-246	iz	_	_	_	_	
+1-39	247-253	tujine	_	_	_	_	
+1-40	254-255	,	_	_	_	_	
+1-41	256-259	med	_	_	_	_	
+1-42	260-265	njimi	_	_	_	_	
+1-43	266-268	17	_	_	_	_	
+1-44	269-276	Hrvatov	_	_	_	_	
+1-45	277-278	.	_	_	_	_	
+1-46	279-281	Na	_	_	_	_	
+1-47	282-287	odziv	_	_	_	_	
+1-48	288-290	iz	_	_	_	_	
+1-49	291-297	Libije	ORG	_	*->3-2	*[3]	
+1-50	298-300	so	_	_	_	_	
+1-51	301-303	je	_	_	_	_	
+1-52	304-311	odzvalo	_	_	_	_	
+1-53	312-314	že	_	_	_	_	
+1-54	315-322	hrvaško	_	_	_	_	
+1-55	323-330	zunanje	_	_	_	_	
+1-56	331-342	ministrstvo	_	_	_	_	
+1-57	343-344	,	_	_	_	_	
+1-58	345-347	ki	_	_	_	_	
+1-59	348-350	je	_	_	_	_	
+1-60	351-360	sporočilo	_	_	_	_	
+1-61	361-362	,	_	_	_	_	
+1-62	363-365	da	_	_	_	_	
+1-63	366-370	niso	_	_	_	_	
+1-64	371-378	prejeli	_	_	_	_	
+1-65	379-385	nobene	_	_	_	_	
+1-66	386-397	informacije	_	_	_	_	
+1-67	398-399	o	_	_	_	_	
+1-68	400-403	tem	_	_	_	_	
+1-69	404-405	,	_	_	_	_	
+1-70	406-408	da	_	_	_	_	
+1-71	409-411	bi	_	_	_	_	
+1-72	412-413	v	_	_	_	_	
+1-73	414-420	Libiji	LOC	_	*->3-3	*[3]	
+1-74	421-428	priprli	_	_	_	_	
+1-75	429-437	kakšnega	_	_	_	_	
+1-76	438-447	hrvaškega	_	_	_	_	
+1-77	448-458	državljana	_	_	_	_	
+1-78	459-460	.	_	_	_	_	
+1-79	461-464	Vse	_	_	_	_	
+1-80	465-472	prijete	_	_	_	_	
+1-81	473-475	so	_	_	_	_	
+1-82	476-485	zaslišali	_	_	_	_	
+1-83	486-488	in	_	_	_	_	
+1-84	489-494	tiste	_	_	_	_	
+1-85	495-496	,	_	_	_	_	
+1-86	497-499	ki	_	_	_	_	
+1-87	500-504	niso	_	_	_	_	
+1-88	505-514	zagrešili	_	_	_	_	
+1-89	515-523	zločinov	_	_	_	_	
+1-90	524-533	izpustili	_	_	_	_	
+1-91	534-536	na	_	_	_	_	
+1-92	537-545	prostost	_	_	_	_	
+1-93	546-547	.	_	_	_	_	
+1-94	548-558	Preostalim	_	_	_	_	
+1-95	559-561	so	_	_	_	_	
+1-96	562-568	sodili	_	_	_	_	
+1-97	569-570	.	_	_	_	_	
+1-98	571-577	Hrvati	_	_	_	_	
+1-99	578-588	nameravajo	_	_	_	_	
+1-100	589-591	za	_	_	_	_	
+1-101	592-599	dodatne	_	_	_	_	
+1-102	600-611	informacije	_	_	_	_	
+1-103	612-620	vprašati	_	_	_	_	
+1-104	621-629	libijsko	_	_	_	_	
+1-105	630-641	diplomatsko	_	_	_	_	
+1-106	642-648	misijo	_	_	_	_	
+1-107	649-650	v	_	_	_	_	
+1-108	651-658	Zagrebu	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-109	659-660	.	_	_	_	_	
+1-110	661-669	Libijski	_	_	_	_	
+1-111	670-678	uporniki	_	_	_	_	
+1-112	679-688	zahtevajo	_	_	_	_	
+1-113	689-698	izročitev	_	_	_	_	
+1-114	699-709	Gadafijeve	PER	_	*->2-2	*[2]	
+1-115	710-714	žene	_	_	_	_	
+1-116	715-717	in	_	_	_	_	
+1-117	718-722	treh	_	_	_	_	
+1-118	723-728	otrok	_	_	_	_	
+1-119	729-737	Uporniki	_	_	_	_	
+1-120	738-740	od	_	_	_	_	
+1-121	741-749	Alžirije	LOC	_	*->1-2	*[1]	
+1-122	750-759	zahtevajo	_	_	_	_	
+1-123	760-769	izročitev	_	_	_	_	
+1-124	770-776	članov	_	_	_	_	
+1-125	777-784	družine	_	_	_	_	
+1-126	785-795	libijskega	_	_	*->2-3	*[2]	
+1-127	796-805	samodržca	_	_	*->2-3	*[2]	
+1-128	806-814	Moamerja	PER[2]	_	*->2-3	*[2]	
+1-129	815-823	Gadafija	PER[2]	_	*->2-3	*[2]	
+1-130	824-825	.	_	_	_	_	
+1-131	826-829	Kot	_	_	_	_	
+1-132	830-833	smo	_	_	_	_	
+1-133	834-842	poročali	_	_	_	_	
+1-134	843-844	,	_	_	_	_	
+1-135	845-848	naj	_	_	_	_	
+1-136	849-851	bi	_	_	_	_	
+1-137	852-854	se	_	_	_	_	
+1-138	855-862	njegova	_	_	*->2-4	*[2]	
+1-139	863-867	žena	_	_	_	_	
+1-140	868-874	včeraj	_	_	_	_	
+1-141	875-881	skupaj	_	_	_	_	
+1-142	882-883	s	_	_	_	_	
+1-143	884-890	hčerko	_	_	_	_	
+1-144	891-893	in	_	_	_	_	
+1-145	894-899	dvema	_	_	_	_	
+1-146	900-908	sinovoma	_	_	_	_	
+1-147	909-916	zatekla	_	_	_	_	
+1-148	917-918	v	_	_	_	_	
+1-149	919-927	sosednjo	_	_	*->1-3	*[1]	
+1-150	928-934	državo	_	_	*->1-3	*[1]	
+1-151	935-936	.	_	_	_	_	
+1-152	937-945	Alžirija	LOC	3 - Nevtralno	*->1-4	*[1]	
+1-153	946-948	je	_	_	_	_	
+1-154	949-950	o	_	_	_	_	
+1-155	951-954	tem	_	_	_	_	
+1-156	955-964	obvestila	_	_	_	_	
+1-157	965-976	generalnega	_	_	*->8-1	*[8]	
+1-158	977-987	sekretarja	_	_	*->8-1	*[8]	
+1-159	988-991	OZN	ORG	_	*->8-1|*->17-1	*[8]|*[17]	
+1-160	992-995	Ban	PER[3]	_	*->8-1	*[8]	
+1-161	996-998	Ki	PER[3]	_	*->8-1	*[8]	
+1-162	999-1004	Moona	PER[3]	_	*->8-1	*[8]	
+1-163	1005-1006	,	_	_	_	_	
+1-164	1007-1016	Varnostni	ORG[4]	3 - Nevtralno[10]	*->9-1	*[9]	
+1-165	1017-1021	svet	ORG[4]	3 - Nevtralno[10]	*->9-1	*[9]	
+1-166	1022-1025	OZN	ORG[4]|ORG[5]	3 - Nevtralno[10]|3 - Nevtralno[11]	*->9-1|*->17-2	*[9]|*[17]	
+1-167	1026-1028	in	_	_	_	_	
+1-168	1029-1036	drugega	_	3 - Nevtralno[12]	*->10-1	*[10]	
+1-169	1037-1044	človeka	_	3 - Nevtralno[12]	*->10-1	*[10]	
+1-170	1045-1055	libijskega	_	3 - Nevtralno[12]	*->10-1	*[10]	
+1-171	1056-1068	nacionalnega	_	3 - Nevtralno[12]	*->10-1	*[10]	
+1-172	1069-1079	prehodnega	_	3 - Nevtralno[12]	*->10-1	*[10]	
+1-173	1080-1085	sveta	_	3 - Nevtralno[12]	*->10-1	*[10]	
+1-174	1086-1093	Mahmuda	PER[6]	3 - Nevtralno[12]	*->10-1	*[10]	
+1-175	1094-1102	Džibrila	PER[6]	3 - Nevtralno[12]	*->10-1	*[10]	
+1-176	1103-1104	.	_	_	_	_	
+1-177	1105-1110	Alžir	_	_	_	_	
+1-178	1111-1113	se	_	_	_	_	
+1-179	1114-1119	sicer	_	_	_	_	
+1-180	1120-1121	v	_	_	_	_	
+1-181	1122-1131	libijskem	_	_	_	_	
+1-182	1132-1141	konfliktu	_	_	_	_	
+1-183	1142-1144	ni	_	_	_	_	
+1-184	1145-1153	postavil	_	_	_	_	
+1-185	1154-1156	na	_	_	_	_	
+1-186	1157-1163	nobeno	_	_	_	_	
+1-187	1164-1169	stran	_	_	_	_	
+1-188	1170-1172	in	_	_	_	_	
+1-189	1173-1175	ne	_	_	_	_	
+1-190	1176-1184	priznava	_	_	_	_	
+1-191	1185-1195	prehodnega	_	_	_	_	
+1-192	1196-1201	sveta	_	_	_	_	
+1-193	1202-1203	.	_	_	_	_	
+1-194	1204-1210	Gadafi	PER	_	*->2-5	*[2]	
+1-195	1211-1213	se	_	_	_	_	
+1-196	1214-1216	še	_	_	_	_	
+1-197	1217-1222	vedno	_	_	_	_	
+1-198	1223-1229	skriva	_	_	_	_	
+1-199	1230-1236	Gadafi	PER	_	*->2-6	*[2]	
+1-200	1237-1239	in	_	_	_	_	
+1-201	1240-1247	njegova	_	_	*->2-7	*[2]	
+1-202	1248-1254	sinova	_	_	_	_	
+1-203	1255-1259	Sadi	PER	2 - Negativno	*->11-1	*[11]	
+1-204	1260-1262	in	_	_	_	_	
+1-205	1263-1267	Sejf	PER[7]	2 - Negativno[13]	*->12-1	*[12]	
+1-206	1268-1270	al	PER[7]	2 - Negativno[13]	*->12-1	*[12]	
+1-207	1271-1276	Islam	PER[7]	2 - Negativno[13]	*->12-1	*[12]	
+1-208	1277-1279	bi	_	_	_	_	
+1-209	1280-1282	se	_	_	_	_	
+1-210	1283-1286	naj	_	_	_	_	
+1-211	1287-1295	skrivali	_	_	_	_	
+1-212	1296-1297	v	_	_	_	_	
+1-213	1298-1303	kraju	_	_	_	_	
+1-214	1304-1308	Bani	LOC[8]	3 - Nevtralno[14]	*->13-1	*[13]	
+1-215	1309-1314	Valid	LOC[8]	3 - Nevtralno[14]	*->13-1	*[13]	
+1-216	1315-1320	južno	_	_	_	_	
+1-217	1321-1323	od	_	_	_	_	
+1-218	1324-1333	Tripolija	LOC	3 - Nevtralno	*->6-2	*[6]	
+1-219	1334-1335	.	_	_	_	_	
+1-220	1336-1344	Uporniki	_	_	_	_	
+1-221	1345-1347	pa	_	_	_	_	
+1-222	1348-1350	so	_	_	_	_	
+1-223	1351-1357	medtem	_	_	_	_	
+1-224	1358-1362	tudi	_	_	_	_	
+1-225	1363-1372	sporočili	_	_	_	_	
+1-226	1373-1374	,	_	_	_	_	
+1-227	1375-1377	da	_	_	_	_	
+1-228	1378-1380	je	_	_	_	_	
+1-229	1381-1384	bil	_	_	_	_	
+1-230	1385-1386	v	_	_	_	_	
+1-231	1387-1397	ponedeljek	_	_	_	_	
+1-232	1398-1402	ubit	_	_	_	_	
+1-233	1403-1412	Gadafijev	PER	2 - Negativno	*->2-8	*[2]	
+1-234	1413-1422	najmlajši	_	_	_	_	
+1-235	1423-1426	sin	_	_	_	_	
+1-236	1427-1432	Hamis	PER	_	*->14-1	*[14]	
+1-237	1433-1434	.	_	_	_	_	
+1-238	1435-1437	Od	_	_	_	_	
+1-239	1438-1445	začetka	_	_	_	_	
+1-240	1446-1455	konflikta	_	_	_	_	
+1-241	1456-1457	v	_	_	_	_	
+1-242	1458-1464	Libiji	ORG	2 - Negativno	*->3-4	*[3]	
+1-243	1465-1467	so	_	_	_	_	
+1-244	1468-1473	sicer	_	_	_	_	
+1-245	1474-1476	že	_	_	_	_	
+1-246	1477-1484	večkrat	_	_	_	_	
+1-247	1485-1493	objavili	_	_	_	_	
+1-248	1494-1500	novico	_	_	_	_	
+1-249	1501-1502	o	_	_	_	_	
+1-250	1503-1510	njegovi	_	2 - Negativno	*->14-2	*[14]	
+1-251	1511-1516	smrti	_	_	_	_	
+1-252	1517-1518	,	_	_	_	_	
+1-253	1519-1525	vendar	_	_	_	_	
+1-254	1526-1532	nikoli	_	_	_	_	
+1-255	1533-1535	ni	_	_	_	_	
+1-256	1536-1540	bila	_	_	_	_	
+1-257	1541-1549	potrjena	_	_	_	_	
+1-258	1550-1551	.	_	_	_	_	
+1-259	1552-1560	Ofenziva	_	_	_	_	
+1-260	1561-1563	na	_	_	_	_	
+1-261	1564-1569	Sirto	LOC	_	*->15-1	*[15]	
+1-262	1570-1572	se	_	_	_	_	
+1-263	1573-1582	nadaljuje	_	_	_	_	
+1-264	1583-1591	Uporniki	_	_	_	_	
+1-265	1592-1603	nadaljujejo	_	_	_	_	
+1-266	1604-1608	tudi	_	_	_	_	
+1-267	1609-1617	ofenzivo	_	_	_	_	
+1-268	1618-1620	na	_	_	_	_	
+1-269	1621-1626	Sirto	LOC	_	*->15-2	*[15]	
+1-270	1627-1628	.	_	_	_	_	
+1-271	1629-1630	V	_	_	_	_	
+1-272	1631-1641	ponedeljek	_	_	_	_	
+1-273	1642-1644	so	_	_	_	_	
+1-274	1645-1652	zavzeli	_	_	_	_	
+1-275	1653-1662	puščavsko	_	_	_	_	
+1-276	1663-1669	vasico	_	_	_	_	
+1-277	1670-1678	Nofilija	LOC	2 - Negativno	*->16-1	*[16]	
+1-278	1679-1686	nedaleč	_	_	_	_	
+1-279	1687-1689	od	_	_	_	_	
+1-280	1690-1696	obalne	_	_	_	_	
+1-281	1697-1702	ceste	_	_	_	_	
+1-282	1703-1710	vzhodno	_	_	_	_	
+1-283	1711-1713	od	_	_	_	_	
+1-284	1714-1719	Sirte	LOC	_	*->15-3	*[15]	
+1-285	1720-1721	.	_	_	_	_	
+1-286	1722-1730	Uporniki	_	_	_	_	
+1-287	1731-1742	pričakujejo	_	_	_	_	
+1-288	1743-1744	,	_	_	_	_	
+1-289	1745-1747	da	_	_	_	_	
+1-290	1748-1752	bodo	_	_	_	_	
+1-291	1753-1758	danes	_	_	_	_	
+1-292	1759-1770	napredovali	_	_	_	_	
+1-293	1771-1776	proti	_	_	_	_	
+1-294	1777-1782	mestu	_	_	*->15-4	*[15]	
+1-295	1783-1784	,	_	_	_	_	
+1-296	1785-1791	hkrati	_	_	_	_	
+1-297	1792-1794	pa	_	_	_	_	
+1-298	1795-1797	še	_	_	_	_	
+1-299	1798-1804	naprej	_	_	_	_	
+1-300	1805-1813	potekajo	_	_	_	_	
+1-301	1814-1818	tudi	_	_	_	_	
+1-302	1819-1828	pogajanja	_	_	_	_	
+1-303	1829-1830	z	_	_	_	_	
+1-304	1831-1840	lokalnimi	_	_	_	_	
+1-305	1841-1843	in	_	_	_	_	
+1-306	1844-1855	plemenskimi	_	_	_	_	
+1-307	1856-1865	voditelji	_	_	_	_	
+1-308	1866-1867	o	_	_	_	_	
+1-309	1868-1873	mirni	_	_	_	_	
+1-310	1874-1879	vdaji	_	_	_	_	
+1-311	1880-1885	Sirte	LOC	2 - Negativno	*->15-5	*[15]	

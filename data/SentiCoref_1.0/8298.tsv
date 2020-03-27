@@ -1,0 +1,276 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Znanih je že deset finalistov za ime leta , pridružila pa se jim bosta še izbranca mesecev novembra in decembra . Ime leta bo znano 17 . decembra . Finalisti so : - januar : Janez Janša , gostitelj slovesnosti ob uvedbi evra z uglednimi evropskimi gosti , - februar : Andrej Jerman , prvi slovenski smukaški zmagovalec v Svetovnem pokalu , - marec : Špela Veselič , strokovna sodelavka društva SOS telefon , ki je opozorila na prikrito nasilje v družinah , - april : Gregor Virant , minister , ki je uvedel sobotne uradne ure na upravnih enotah , - maj : Katarina Kresal , najresnejša kandidatka za predsednico stranke LDS , - junij : Marjan Pečan , 369 - kratni darovalec krvi , - julij : Janez Janša , premier , ki je zahteval opravičilo zaradi navedb v zvezi s Sovo , - avgust : Ivo Boscarol , dobitnik nagrade ameriške vesoljske agencije Nasa za model ultralahkega letala Virus , - september : Janez Janša , ker je sprejel odstop treh ministrov in rekonstruiral vlado , - oktober : Sandi Ritter , zagorski gostinec , ki se je z naselitvijo v svojem lokalu zoperstavil restriktivni prepovedi kajenja . Za finalista meseca novembra se bodo potegovali Peter Peterka , Memi Bečirovič , Janez Janša in Sašo Kragelj , decembrski kandidati pa so Pankrti in Andrej Bajuk . Letošnje ime leta , peto po vrsti , bo tako znano v ponedeljek , 17 . decembra , po 18 . uri , ko bodo sami finalisti med sabo izbrali tistega , ki je po njihovih mnenjih letos najbolj izstopal
+1-1	0-6	Znanih	_	_	_	_	
+1-2	7-9	je	_	_	_	_	
+1-3	10-12	že	_	_	_	_	
+1-4	13-18	deset	_	_	_	_	
+1-5	19-29	finalistov	_	_	_	_	
+1-6	30-32	za	_	_	_	_	
+1-7	33-36	ime	_	_	_	_	
+1-8	37-41	leta	_	_	_	_	
+1-9	42-43	,	_	_	_	_	
+1-10	44-54	pridružila	_	_	_	_	
+1-11	55-57	pa	_	_	_	_	
+1-12	58-60	se	_	_	_	_	
+1-13	61-64	jim	_	_	_	_	
+1-14	65-70	bosta	_	_	_	_	
+1-15	71-73	še	_	_	_	_	
+1-16	74-82	izbranca	_	_	_	_	
+1-17	83-90	mesecev	_	_	_	_	
+1-18	91-99	novembra	_	_	_	_	
+1-19	100-102	in	_	_	_	_	
+1-20	103-111	decembra	_	_	_	_	
+1-21	112-113	.	_	_	_	_	
+1-22	114-117	Ime	_	_	_	_	
+1-23	118-122	leta	_	_	_	_	
+1-24	123-125	bo	_	_	_	_	
+1-25	126-131	znano	_	_	_	_	
+1-26	132-134	17	_	_	_	_	
+1-27	135-136	.	_	_	_	_	
+1-28	137-145	decembra	_	_	_	_	
+1-29	146-147	.	_	_	_	_	
+1-30	148-157	Finalisti	_	_	_	_	
+1-31	158-160	so	_	_	_	_	
+1-32	161-162	:	_	_	_	_	
+1-33	163-164	-	_	_	_	_	
+1-34	165-171	januar	_	_	_	_	
+1-35	172-173	:	_	_	_	_	
+1-36	174-179	Janez	PER[1]	_	*->15-1	*[15]	
+1-37	180-185	Janša	PER[1]	_	*->15-1	*[15]	
+1-38	186-187	,	_	_	_	_	
+1-39	188-197	gostitelj	_	_	*->15-2	*[15]	
+1-40	198-209	slovesnosti	_	_	*->15-2	*[15]	
+1-41	210-212	ob	_	_	*->15-2	*[15]	
+1-42	213-219	uvedbi	_	_	*->15-2	*[15]	
+1-43	220-224	evra	_	_	*->15-2	*[15]	
+1-44	225-226	z	_	_	*->15-2	*[15]	
+1-45	227-236	uglednimi	_	_	*->15-2	*[15]	
+1-46	237-247	evropskimi	_	_	*->15-2	*[15]	
+1-47	248-253	gosti	_	_	*->15-2	*[15]	
+1-48	254-255	,	_	_	_	_	
+1-49	256-257	-	_	_	_	_	
+1-50	258-265	februar	_	_	_	_	
+1-51	266-267	:	_	_	_	_	
+1-52	268-274	Andrej	PER[2]	_	*->1-1	*[1]	
+1-53	275-281	Jerman	PER[2]	_	*->1-1	*[1]	
+1-54	282-283	,	_	_	_	_	
+1-55	284-288	prvi	_	3 - Nevtralno[17]	*->1-2	o[1]	
+1-56	289-298	slovenski	_	3 - Nevtralno[17]	*->1-2	o[1]	
+1-57	299-307	smukaški	_	3 - Nevtralno[17]	*->1-2	o[1]	
+1-58	308-318	zmagovalec	_	3 - Nevtralno[17]	*->1-2	o[1]	
+1-59	319-320	v	_	3 - Nevtralno[17]	*->1-2	o[1]	
+1-60	321-330	Svetovnem	_	3 - Nevtralno[17]	*->1-2	o[1]	
+1-61	331-337	pokalu	_	3 - Nevtralno[17]	*->1-2	o[1]	
+1-62	338-339	,	_	_	_	_	
+1-63	340-341	-	_	_	_	_	
+1-64	342-347	marec	_	_	_	_	
+1-65	348-349	:	_	_	_	_	
+1-66	350-355	Špela	PER[3]	_	*->2-1	*[2]	
+1-67	356-363	Veselič	PER[3]	_	*->2-1	*[2]	
+1-68	364-365	,	_	_	_	_	
+1-69	366-375	strokovna	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-70	376-385	sodelavka	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-71	386-393	društva	_	3 - Nevtralno[18]|3 - Nevtralno[19]	*->3-1|*->2-2	*[3]|*[2]	
+1-72	394-397	SOS	ORG[4]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->3-1|*->2-2	*[3]|*[2]	
+1-73	398-405	telefon	ORG[4]	3 - Nevtralno[18]|3 - Nevtralno[19]	*->3-1|*->2-2	*[3]|*[2]	
+1-74	406-407	,	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-75	408-410	ki	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-76	411-413	je	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-77	414-423	opozorila	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-78	424-426	na	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-79	427-435	prikrito	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-80	436-443	nasilje	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-81	444-445	v	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-82	446-454	družinah	_	3 - Nevtralno[18]	*->3-1	*[3]	
+1-83	455-456	,	_	_	_	_	
+1-84	457-458	-	_	_	_	_	
+1-85	459-464	april	_	_	_	_	
+1-86	465-466	:	_	_	_	_	
+1-87	467-473	Gregor	PER[5]	_	*->4-1	*[4]	
+1-88	474-480	Virant	PER[5]	_	*->4-1	*[4]	
+1-89	481-482	,	_	_	_	_	
+1-90	483-491	minister	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-91	492-493	,	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-92	494-496	ki	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-93	497-499	je	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-94	500-506	uvedel	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-95	507-514	sobotne	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-96	515-521	uradne	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-97	522-525	ure	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-98	526-528	na	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-99	529-537	upravnih	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-100	538-544	enotah	_	3 - Nevtralno[20]	*->4-2	*[4]	
+1-101	545-546	,	_	_	_	_	
+1-102	547-548	-	_	_	_	_	
+1-103	549-552	maj	_	_	_	_	
+1-104	553-554	:	_	_	_	_	
+1-105	555-563	Katarina	PER[6]	_	*->5-1	*[5]	
+1-106	564-570	Kresal	PER[6]	_	*->5-1	*[5]	
+1-107	571-572	,	_	_	_	_	
+1-108	573-584	najresnejša	_	3 - Nevtralno[21]	*->5-2	*[5]	
+1-109	585-595	kandidatka	_	3 - Nevtralno[21]	*->5-2	*[5]	
+1-110	596-598	za	_	3 - Nevtralno[21]	*->5-2	*[5]	
+1-111	599-610	predsednico	_	3 - Nevtralno[21]	*->5-2	*[5]	
+1-112	611-618	stranke	_	3 - Nevtralno[21]|3 - Nevtralno[22]	*->5-2|*->6-1	*[5]|*[6]	
+1-113	619-622	LDS	ORG	3 - Nevtralno[21]|3 - Nevtralno[22]	*->5-2|*->6-1	*[5]|*[6]	
+1-114	623-624	,	_	_	_	_	
+1-115	625-626	-	_	_	_	_	
+1-116	627-632	junij	_	_	_	_	
+1-117	633-634	:	_	_	_	_	
+1-118	635-641	Marjan	PER[7]	_	*->7-1	*[7]	
+1-119	642-647	Pečan	PER[7]	_	*->7-1	*[7]	
+1-120	648-649	,	_	_	_	_	
+1-121	650-653	369	_	3 - Nevtralno[23]	*->7-2	*[7]	
+1-122	654-655	-	_	3 - Nevtralno[23]	*->7-2	*[7]	
+1-123	656-662	kratni	_	3 - Nevtralno[23]	*->7-2	*[7]	
+1-124	663-672	darovalec	_	3 - Nevtralno[23]	*->7-2	*[7]	
+1-125	673-677	krvi	_	3 - Nevtralno[23]	*->7-2	*[7]	
+1-126	678-679	,	_	_	_	_	
+1-127	680-681	-	_	_	_	_	
+1-128	682-687	julij	_	_	_	_	
+1-129	688-689	:	_	_	_	_	
+1-130	690-695	Janez	PER[8]	_	*->15-3	*[15]	
+1-131	696-701	Janša	PER[8]	_	*->15-3	*[15]	
+1-132	702-703	,	_	_	_	_	
+1-133	704-711	premier	_	_	*->15-4	*[15]	
+1-134	712-713	,	_	_	*->15-4	*[15]	
+1-135	714-716	ki	_	_	*->15-4	*[15]	
+1-136	717-719	je	_	_	*->15-4	*[15]	
+1-137	720-728	zahteval	_	_	*->15-4	*[15]	
+1-138	729-739	opravičilo	_	_	*->15-4	*[15]	
+1-139	740-746	zaradi	_	_	*->15-4	*[15]	
+1-140	747-753	navedb	_	_	*->15-4	*[15]	
+1-141	754-755	v	_	_	*->15-4	*[15]	
+1-142	756-761	zvezi	_	_	*->15-4	*[15]	
+1-143	762-763	s	_	_	*->15-4	*[15]	
+1-144	764-768	Sovo	ORG	3 - Nevtralno	*->15-4|*->8-1	*[15]|*[8]	
+1-145	769-770	,	_	_	_	_	
+1-146	771-772	-	_	_	_	_	
+1-147	773-779	avgust	_	_	_	_	
+1-148	780-781	:	_	_	_	_	
+1-149	782-785	Ivo	PER[9]	_	*->10-1	*[10]	
+1-150	786-794	Boscarol	PER[9]	_	*->10-1	*[10]	
+1-151	795-796	,	_	_	_	_	
+1-152	797-805	dobitnik	_	3 - Nevtralno[24]	*->10-2	*[10]	
+1-153	806-813	nagrade	_	3 - Nevtralno[24]	*->10-2	*[10]	
+1-154	814-822	ameriške	_	3 - Nevtralno[24]|3 - Nevtralno[25]	*->10-2|*->9-1	*[10]|*[9]	
+1-155	823-832	vesoljske	_	3 - Nevtralno[24]|3 - Nevtralno[25]	*->10-2|*->9-1	*[10]|*[9]	
+1-156	833-841	agencije	_	3 - Nevtralno[24]|3 - Nevtralno[25]	*->10-2|*->9-1	*[10]|*[9]	
+1-157	842-846	Nasa	ORG	3 - Nevtralno[24]|3 - Nevtralno[25]	*->10-2|*->9-1	*[10]|*[9]	
+1-158	847-849	za	_	3 - Nevtralno[24]	*->10-2	*[10]	
+1-159	850-855	model	_	3 - Nevtralno[24]	*->10-2	*[10]	
+1-160	856-868	ultralahkega	_	3 - Nevtralno[24]	*->10-2	*[10]	
+1-161	869-875	letala	_	3 - Nevtralno[24]	*->10-2	*[10]	
+1-162	876-881	Virus	_	3 - Nevtralno[24]	*->10-2	*[10]	
+1-163	882-883	,	_	_	_	_	
+1-164	884-885	-	_	_	_	_	
+1-165	886-895	september	_	_	_	_	
+1-166	896-897	:	_	_	_	_	
+1-167	898-903	Janez	PER[10]	_	*->15-5	*[15]	
+1-168	904-909	Janša	PER[10]	_	*->15-5	*[15]	
+1-169	910-911	,	_	_	_	_	
+1-170	912-915	ker	_	_	_	_	
+1-171	916-918	je	_	_	_	_	
+1-172	919-926	sprejel	_	_	_	_	
+1-173	927-933	odstop	_	_	_	_	
+1-174	934-938	treh	_	_	_	_	
+1-175	939-948	ministrov	_	_	_	_	
+1-176	949-951	in	_	_	_	_	
+1-177	952-965	rekonstruiral	_	_	_	_	
+1-178	966-971	vlado	ORG	3 - Nevtralno	*->11-1	*[11]	
+1-179	972-973	,	_	_	_	_	
+1-180	974-975	-	_	_	_	_	
+1-181	976-983	oktober	_	_	_	_	
+1-182	984-985	:	_	_	_	_	
+1-183	986-991	Sandi	PER[11]	_	*->12-1	*[12]	
+1-184	992-998	Ritter	PER[11]	_	*->12-1	*[12]	
+1-185	999-1000	,	_	_	_	_	
+1-186	1001-1009	zagorski	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-187	1010-1018	gostinec	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-188	1019-1020	,	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-189	1021-1023	ki	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-190	1024-1026	se	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-191	1027-1029	je	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-192	1030-1031	z	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-193	1032-1043	naselitvijo	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-194	1044-1045	v	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-195	1046-1052	svojem	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-196	1053-1059	lokalu	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-197	1060-1071	zoperstavil	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-198	1072-1084	restriktivni	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-199	1085-1094	prepovedi	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-200	1095-1102	kajenja	_	3 - Nevtralno[26]	*->12-2	*[12]	
+1-201	1103-1104	.	_	_	_	_	
+1-202	1105-1107	Za	_	_	_	_	
+1-203	1108-1117	finalista	_	_	_	_	
+1-204	1118-1124	meseca	_	_	_	_	
+1-205	1125-1133	novembra	_	_	_	_	
+1-206	1134-1136	se	_	_	_	_	
+1-207	1137-1141	bodo	_	_	_	_	
+1-208	1142-1152	potegovali	_	_	_	_	
+1-209	1153-1158	Peter	PER[12]	3 - Nevtralno[27]	*->13-1	*[13]	
+1-210	1159-1166	Peterka	PER[12]	3 - Nevtralno[27]	*->13-1	*[13]	
+1-211	1167-1168	,	_	_	_	_	
+1-212	1169-1173	Memi	PER[13]	3 - Nevtralno[28]	*->14-1	*[14]	
+1-213	1174-1183	Bečirovič	PER[13]	3 - Nevtralno[28]	*->14-1	*[14]	
+1-214	1184-1185	,	_	_	_	_	
+1-215	1186-1191	Janez	PER[14]	3 - Nevtralno[29]	*->15-6	*[15]	
+1-216	1192-1197	Janša	PER[14]	3 - Nevtralno[29]	*->15-6	*[15]	
+1-217	1198-1200	in	_	_	_	_	
+1-218	1201-1205	Sašo	PER[15]	3 - Nevtralno[30]	*->16-1	*[16]	
+1-219	1206-1213	Kragelj	PER[15]	3 - Nevtralno[30]	*->16-1	*[16]	
+1-220	1214-1215	,	_	_	_	_	
+1-221	1216-1226	decembrski	_	_	_	_	
+1-222	1227-1236	kandidati	_	_	_	_	
+1-223	1237-1239	pa	_	_	_	_	
+1-224	1240-1242	so	_	_	_	_	
+1-225	1243-1250	Pankrti	ORG	3 - Nevtralno	*->17-1	*[17]	
+1-226	1251-1253	in	_	_	_	_	
+1-227	1254-1260	Andrej	PER[16]	3 - Nevtralno[31]	*->18-1	*[18]	
+1-228	1261-1266	Bajuk	PER[16]	3 - Nevtralno[31]	*->18-1	*[18]	
+1-229	1267-1268	.	_	_	_	_	
+1-230	1269-1277	Letošnje	_	_	_	_	
+1-231	1278-1281	ime	_	_	_	_	
+1-232	1282-1286	leta	_	_	_	_	
+1-233	1287-1288	,	_	_	_	_	
+1-234	1289-1293	peto	_	_	_	_	
+1-235	1294-1296	po	_	_	_	_	
+1-236	1297-1302	vrsti	_	_	_	_	
+1-237	1303-1304	,	_	_	_	_	
+1-238	1305-1307	bo	_	_	_	_	
+1-239	1308-1312	tako	_	_	_	_	
+1-240	1313-1318	znano	_	_	_	_	
+1-241	1319-1320	v	_	_	_	_	
+1-242	1321-1331	ponedeljek	_	_	_	_	
+1-243	1332-1333	,	_	_	_	_	
+1-244	1334-1336	17	_	_	_	_	
+1-245	1337-1338	.	_	_	_	_	
+1-246	1339-1347	decembra	_	_	_	_	
+1-247	1348-1349	,	_	_	_	_	
+1-248	1350-1352	po	_	_	_	_	
+1-249	1353-1355	18	_	_	_	_	
+1-250	1356-1357	.	_	_	_	_	
+1-251	1358-1361	uri	_	_	_	_	
+1-252	1362-1363	,	_	_	_	_	
+1-253	1364-1366	ko	_	_	_	_	
+1-254	1367-1371	bodo	_	_	_	_	
+1-255	1372-1376	sami	_	_	_	_	
+1-256	1377-1386	finalisti	_	_	_	_	
+1-257	1387-1390	med	_	_	_	_	
+1-258	1391-1395	sabo	_	_	_	_	
+1-259	1396-1403	izbrali	_	_	_	_	
+1-260	1404-1411	tistega	_	_	_	_	
+1-261	1412-1413	,	_	_	_	_	
+1-262	1414-1416	ki	_	_	_	_	
+1-263	1417-1419	je	_	_	_	_	
+1-264	1420-1422	po	_	_	_	_	
+1-265	1423-1431	njihovih	_	_	_	_	
+1-266	1432-1439	mnenjih	_	_	_	_	
+1-267	1440-1445	letos	_	_	_	_	
+1-268	1446-1453	najbolj	_	_	_	_	
+1-269	1454-1462	izstopal	_	_	_	_	

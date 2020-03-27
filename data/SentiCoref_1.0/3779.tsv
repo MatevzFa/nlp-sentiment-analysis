@@ -1,0 +1,205 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Mednarodna finančna revija Global Finance je za najboljšo banko v Sloveniji v letu 2012 izbrala Novo Ljubljansko banko ( NLB ) . S tem se je največja slovenska banka že petnajstič zapored uvrstila med najboljše banke na razvijajočih se trgih srednje in vzhodne Evrope , so sporočili iz NLB . Revija Global Finance vsako leto na podlagi analiz in ocen mednarodnih strokovnjakov s področja financ , vodilnih v podjetjih in bančnih svetovalcev prepozna najboljše banke v posameznih državah in regijah . Tokratno ocenjevanje so izvedli že 19 . leto zapored . Revija je , kot je objavljeno na njeni spletni strani , v regiji srednja in vzhodna Evropa izbirala najboljše banke v 22 državah . Kot najboljša v regiji je priznanje prejela banka Raiffeisen International , katere podružnice so bile za najboljše banke izbrane v Albaniji , Romuniji in Srbiji . Med kriteriji so bili rast premoženja , dobičkonosnost , strateški odnosi , storitve za uporabnike , konkurenčnost cen in inovativnost produktov . Raziskava bank na razvijajočih se trgih je bila poleg regije srednja in vzhodna Evropa razdeljena še na regije razvita Evropa , Bližnji vzhod , Afrika , Azija , Severna Amerika in Latinska Amerika
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-22	Mednarodna	_	_	*->13-1	*[13]	
+1-4	23-31	finančna	_	_	*->13-1	*[13]	
+1-5	32-38	revija	_	_	*->13-1	*[13]	
+1-6	39-45	Global	ORG[1]	_	*->13-1	*[13]	
+1-7	46-53	Finance	ORG[1]	_	*->13-1	*[13]	
+1-8	54-56	je	_	_	_	_	
+1-9	57-59	za	_	_	_	_	
+1-10	60-69	najboljšo	_	_	_	_	
+1-11	70-75	banko	_	_	_	_	
+1-12	76-77	v	_	_	_	_	
+1-13	78-87	Sloveniji	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-14	88-89	v	_	_	_	_	
+1-15	90-94	letu	_	_	_	_	
+1-16	95-99	2012	_	_	_	_	
+1-17	100-107	izbrala	_	_	_	_	
+1-18	108-112	Novo	ORG[2]	_	*->3-1	*[3]	
+1-19	113-124	Ljubljansko	ORG[2]	_	*->3-1	*[3]	
+1-20	125-130	banko	ORG[2]	_	*->3-1	*[3]	
+1-21	131-132	(	_	_	_	_	
+1-22	133-136	NLB	ORG	_	*->3-2	*[3]	
+1-23	137-138	)	_	_	_	_	
+1-24	139-140	.	_	_	_	_	
+1-25	141-142	S	_	_	_	_	
+1-26	143-146	tem	_	_	_	_	
+1-27	147-149	se	_	_	_	_	
+1-28	150-152	je	_	_	_	_	
+1-29	153-161	največja	_	_	*->3-3	*[3]	
+1-30	162-171	slovenska	_	_	*->3-3	*[3]	
+1-31	172-177	banka	_	_	*->3-3	*[3]	
+1-32	178-180	že	_	_	_	_	
+1-33	181-191	petnajstič	_	_	_	_	
+1-34	192-199	zapored	_	_	_	_	
+1-35	200-208	uvrstila	_	_	_	_	
+1-36	209-212	med	_	_	_	_	
+1-37	213-222	najboljše	_	_	_	_	
+1-38	223-228	banke	_	_	_	_	
+1-39	229-231	na	_	_	_	_	
+1-40	232-244	razvijajočih	_	_	_	_	
+1-41	245-247	se	_	_	_	_	
+1-42	248-253	trgih	_	_	_	_	
+1-43	254-261	srednje	_	_	_	_	
+1-44	262-264	in	_	_	_	_	
+1-45	265-272	vzhodne	_	_	_	_	
+1-46	273-279	Evrope	LOC	_	*->4-1	*[4]	
+1-47	280-281	,	_	_	_	_	
+1-48	282-284	so	_	_	_	_	
+1-49	285-294	sporočili	_	_	_	_	
+1-50	295-297	iz	_	_	_	_	
+1-51	298-301	NLB	ORG	4 - Pozitivno	*->3-4	*[3]	
+1-52	302-303	.	_	_	_	_	
+1-53	304-310	Revija	_	_	*->13-2	*[13]	
+1-54	311-317	Global	ORG[3]	_	*->13-2	*[13]	
+1-55	318-325	Finance	ORG[3]	_	*->13-2	*[13]	
+1-56	326-331	vsako	_	_	_	_	
+1-57	332-336	leto	_	_	_	_	
+1-58	337-339	na	_	_	_	_	
+1-59	340-347	podlagi	_	_	_	_	
+1-60	348-354	analiz	_	_	_	_	
+1-61	355-357	in	_	_	_	_	
+1-62	358-362	ocen	_	_	_	_	
+1-63	363-374	mednarodnih	_	_	_	_	
+1-64	375-388	strokovnjakov	_	_	_	_	
+1-65	389-390	s	_	_	_	_	
+1-66	391-399	področja	_	_	_	_	
+1-67	400-406	financ	_	_	_	_	
+1-68	407-408	,	_	_	_	_	
+1-69	409-417	vodilnih	_	_	_	_	
+1-70	418-419	v	_	_	_	_	
+1-71	420-429	podjetjih	_	_	_	_	
+1-72	430-432	in	_	_	_	_	
+1-73	433-440	bančnih	_	_	_	_	
+1-74	441-452	svetovalcev	_	_	_	_	
+1-75	453-461	prepozna	_	_	_	_	
+1-76	462-471	najboljše	_	_	_	_	
+1-77	472-477	banke	_	_	_	_	
+1-78	478-479	v	_	_	_	_	
+1-79	480-490	posameznih	_	_	_	_	
+1-80	491-498	državah	_	_	_	_	
+1-81	499-501	in	_	_	_	_	
+1-82	502-509	regijah	_	_	_	_	
+1-83	510-511	.	_	_	_	_	
+1-84	512-520	Tokratno	_	_	_	_	
+1-85	521-532	ocenjevanje	_	_	_	_	
+1-86	533-535	so	_	_	_	_	
+1-87	536-543	izvedli	_	_	*->13-3	*[13]	
+1-88	544-546	že	_	_	_	_	
+1-89	547-549	19	_	_	_	_	
+1-90	550-551	.	_	_	_	_	
+1-91	552-556	leto	_	_	_	_	
+1-92	557-564	zapored	_	_	_	_	
+1-93	565-566	.	_	_	_	_	
+1-94	567-573	Revija	_	_	*->13-4	*[13]	
+1-95	574-576	je	_	_	_	_	
+1-96	577-578	,	_	_	_	_	
+1-97	579-582	kot	_	_	_	_	
+1-98	583-585	je	_	_	_	_	
+1-99	586-596	objavljeno	_	_	_	_	
+1-100	597-599	na	_	_	_	_	
+1-101	600-605	njeni	_	3 - Nevtralno	*->13-5	*[13]	
+1-102	606-613	spletni	_	_	_	_	
+1-103	614-620	strani	_	_	_	_	
+1-104	621-622	,	_	_	_	_	
+1-105	623-624	v	_	_	_	_	
+1-106	625-631	regiji	_	_	_	_	
+1-107	632-639	srednja	_	_	_	_	
+1-108	640-642	in	_	_	_	_	
+1-109	643-650	vzhodna	_	_	_	_	
+1-110	651-657	Evropa	LOC	_	*->4-2	*[4]	
+1-111	658-666	izbirala	_	_	_	_	
+1-112	667-676	najboljše	_	_	_	_	
+1-113	677-682	banke	_	_	_	_	
+1-114	683-684	v	_	_	_	_	
+1-115	685-687	22	_	_	_	_	
+1-116	688-695	državah	_	_	_	_	
+1-117	696-697	.	_	_	_	_	
+1-118	698-701	Kot	_	_	_	_	
+1-119	702-711	najboljša	_	_	*->5-1	*[5]	
+1-120	712-713	v	_	_	*->5-1	*[5]	
+1-121	714-720	regiji	_	_	*->5-1	*[5]	
+1-122	721-723	je	_	_	_	_	
+1-123	724-733	priznanje	_	_	_	_	
+1-124	734-741	prejela	_	_	_	_	
+1-125	742-747	banka	_	4 - Pozitivno[8]	*->5-2	*[5]	
+1-126	748-758	Raiffeisen	ORG[4]	4 - Pozitivno[8]	*->5-2	*[5]	
+1-127	759-772	International	ORG[4]	4 - Pozitivno[8]	*->5-2	*[5]	
+1-128	773-774	,	_	_	_	_	
+1-129	775-781	katere	_	_	_	_	
+1-130	782-792	podružnice	_	_	_	_	
+1-131	793-795	so	_	_	_	_	
+1-132	796-800	bile	_	_	_	_	
+1-133	801-803	za	_	_	_	_	
+1-134	804-813	najboljše	_	_	_	_	
+1-135	814-819	banke	_	_	_	_	
+1-136	820-827	izbrane	_	_	_	_	
+1-137	828-829	v	_	_	_	_	
+1-138	830-838	Albaniji	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-139	839-840	,	_	_	_	_	
+1-140	841-849	Romuniji	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-141	850-852	in	_	_	_	_	
+1-142	853-859	Srbiji	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-143	860-861	.	_	_	_	_	
+1-144	862-865	Med	_	_	_	_	
+1-145	866-875	kriteriji	_	_	_	_	
+1-146	876-878	so	_	_	_	_	
+1-147	879-883	bili	_	_	_	_	
+1-148	884-888	rast	_	_	_	_	
+1-149	889-899	premoženja	_	_	_	_	
+1-150	900-901	,	_	_	_	_	
+1-151	902-916	dobičkonosnost	_	_	_	_	
+1-152	917-918	,	_	_	_	_	
+1-153	919-928	strateški	_	_	_	_	
+1-154	929-935	odnosi	_	_	_	_	
+1-155	936-937	,	_	_	_	_	
+1-156	938-946	storitve	_	_	_	_	
+1-157	947-949	za	_	_	_	_	
+1-158	950-960	uporabnike	_	_	_	_	
+1-159	961-962	,	_	_	_	_	
+1-160	963-976	konkurenčnost	_	_	_	_	
+1-161	977-980	cen	_	_	_	_	
+1-162	981-983	in	_	_	_	_	
+1-163	984-996	inovativnost	_	_	_	_	
+1-164	997-1006	produktov	_	_	_	_	
+1-165	1007-1008	.	_	_	_	_	
+1-166	1009-1018	Raziskava	_	_	_	_	
+1-167	1019-1023	bank	_	_	_	_	
+1-168	1024-1026	na	_	_	_	_	
+1-169	1027-1039	razvijajočih	_	_	_	_	
+1-170	1040-1042	se	_	_	_	_	
+1-171	1043-1048	trgih	_	_	_	_	
+1-172	1049-1051	je	_	_	_	_	
+1-173	1052-1056	bila	_	_	_	_	
+1-174	1057-1062	poleg	_	_	_	_	
+1-175	1063-1069	regije	_	_	_	_	
+1-176	1070-1077	srednja	_	_	_	_	
+1-177	1078-1080	in	_	_	_	_	
+1-178	1081-1088	vzhodna	_	_	_	_	
+1-179	1089-1095	Evropa	LOC	_	*->4-3	*[4]	
+1-180	1096-1106	razdeljena	_	_	_	_	
+1-181	1107-1109	še	_	_	_	_	
+1-182	1110-1112	na	_	_	_	_	
+1-183	1113-1119	regije	_	_	_	_	
+1-184	1120-1127	razvita	_	_	_	_	
+1-185	1128-1134	Evropa	LOC	3 - Nevtralno	*->4-4	*[4]	
+1-186	1135-1136	,	_	_	_	_	
+1-187	1137-1144	Bližnji	LOC[5]	3 - Nevtralno[9]	*->9-1	*[9]	
+1-188	1145-1150	vzhod	LOC[5]	3 - Nevtralno[9]	*->9-1	*[9]	
+1-189	1151-1152	,	_	_	_	_	
+1-190	1153-1159	Afrika	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-191	1160-1161	,	_	_	_	_	
+1-192	1162-1167	Azija	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-193	1168-1169	,	_	_	_	_	
+1-194	1170-1177	Severna	LOC[6]	3 - Nevtralno[10]	*->12-1	*[12]	
+1-195	1178-1185	Amerika	LOC[6]	3 - Nevtralno[10]	*->12-1	*[12]	
+1-196	1186-1188	in	_	_	_	_	
+1-197	1189-1197	Latinska	LOC[7]	3 - Nevtralno[11]	_	_	
+1-198	1198-1205	Amerika	LOC[7]	3 - Nevtralno[11]	_	_	

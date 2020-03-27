@@ -1,0 +1,384 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Nadzorniki Luke Koper so po treh urah soglasno sprejeli odločitev in razrešili predsednika nadzornega sveta Borisa Popoviča . Nova predsednica je Olga Franca . Olga Franca Od osmih članov nadzornega sveta jih je bilo na današnji seji prisotnih pet . Boris Popovič ni prišel , prav tako tudi ne predstavnika lastnikov Metod Mezek in Marko Valentinčič . Člani nadzornega sveta Popoviču nismo več zaupali . Olga Franca Na vprašanje , zakaj so se za razrešitev prvega nadzornika odločili slabe tri tedne pred skupščino , na kateri bodo v nadzorni svet imenovani novi člani , novoizvoljena predsednica nadzornikov Olga Franca odgovarja , da so se nadzorniki za sklic seje , na kateri bi razrešili Popoviča , odločili že 20 . maja . Člani nadzornega sveta Popoviču nismo več zaupali , je pojasnila . Zaradi procedur se je seja izvršila šele danes , je dejala Franca in poudarila , da mora nadzorni svet izvrševati nadziranje poslovanja ves čas do izteka mandata . Nadzorni svet se bo po njenih napovedih še pred skupščino 13 . julija sestal na novi seji , ki naj bi bila sklicana v petek ali soboto . Veliko časa je bilo namreč že zamujenega , nadzorni svet pa mora nadaljevati z delom in sprejemati sklepe , je odločna Franca . Nadzorniki so se sicer seznanili tudi s podpisom pogodbe predsednika uprave Gregorja Veselka z revizijsko hišo PricewaterhouseCoopers iz Ljubljane . Pričakujemo , da bodo pogodbo takoj podpisali tudi Kad , Sod in ministrstvo in da bi delo lahko steklo že v ponedeljek , je še dejala Franca . Franca na čelu do julijske skupščine Novoizvoljena predsednica bo nadzorni svet verjetno vodila le še do julijske skupščine , na kateri bodo delničarji med drugim glasovali tudi o njenem odpoklicu iz nadzornega sveta . Interese države v nadzornem svetu Luke naj bi poslej zastopali Janez Požar , Bojan Brank in Marko Simoneti , interese delničarjev pa na predlog Kada , Soda in Banke Koper Jordan Kocjančič in Tomaž Može . Popovičev pravni zastopnik Franci Matoz je sicer že v torek napovedal , da bo v primeru razrešitve koprskemu sodišču predlagal zadržanje in izpodbijanje sklepov , sprejetih na današnji seji . Sodišču je tudi predlagal , naj današnjo sejo z začasno odredbo prepove , kar pa je sodišče zavrnilo
+1-1	0-10	Nadzorniki	_	_	_	_	
+1-2	11-15	Luke	ORG[1]	_	*->1-1	*[1]	
+1-3	16-21	Koper	ORG[1]|LOC[2]	_	*->1-1|*->13-1	*[1]|*[13]	
+1-4	22-24	so	_	_	_	_	
+1-5	25-27	po	_	_	_	_	
+1-6	28-32	treh	_	_	_	_	
+1-7	33-37	urah	_	_	_	_	
+1-8	38-46	soglasno	_	_	_	_	
+1-9	47-55	sprejeli	_	_	_	_	
+1-10	56-65	odločitev	_	_	_	_	
+1-11	66-68	in	_	_	_	_	
+1-12	69-78	razrešili	_	_	_	_	
+1-13	79-90	predsednika	_	_	*->16-1	*[16]	
+1-14	91-101	nadzornega	_	_	*->16-1	*[16]	
+1-15	102-107	sveta	_	_	*->16-1	*[16]	
+1-16	108-114	Borisa	PER[3]	_	*->16-1	*[16]	
+1-17	115-123	Popoviča	PER[3]	_	*->16-1	*[16]	
+1-18	124-125	.	_	_	_	_	
+1-19	126-130	Nova	_	_	*->3-1	*[3]	
+1-20	131-142	predsednica	_	_	*->3-1	*[3]	
+1-21	143-145	je	_	_	_	_	
+1-22	146-150	Olga	PER[4]	_	*->3-2	*[3]	
+1-23	151-157	Franca	PER[4]	_	*->3-2	*[3]	
+1-24	158-159	.	_	_	_	_	
+1-25	160-164	Olga	PER[5]	_	*->3-3	*[3]	
+1-26	165-171	Franca	PER[5]	_	*->3-3	*[3]	
+1-27	172-174	Od	_	_	_	_	
+1-28	175-180	osmih	_	_	_	_	
+1-29	181-187	članov	_	_	_	_	
+1-30	188-198	nadzornega	_	_	_	_	
+1-31	199-204	sveta	_	_	_	_	
+1-32	205-208	jih	_	_	_	_	
+1-33	209-211	je	_	_	_	_	
+1-34	212-216	bilo	_	_	_	_	
+1-35	217-219	na	_	_	_	_	
+1-36	220-228	današnji	_	_	_	_	
+1-37	229-233	seji	_	_	_	_	
+1-38	234-243	prisotnih	_	_	_	_	
+1-39	244-247	pet	_	_	_	_	
+1-40	248-249	.	_	_	_	_	
+1-41	250-255	Boris	PER[6]	_	*->16-2	*[16]	
+1-42	256-263	Popovič	PER[6]	_	*->16-2	*[16]	
+1-43	264-266	ni	_	_	_	_	
+1-44	267-273	prišel	_	_	_	_	
+1-45	274-275	,	_	_	_	_	
+1-46	276-280	prav	_	_	_	_	
+1-47	281-285	tako	_	_	_	_	
+1-48	286-290	tudi	_	_	_	_	
+1-49	291-293	ne	_	_	_	_	
+1-50	294-306	predstavnika	_	_	_	_	
+1-51	307-316	lastnikov	_	_	_	_	
+1-52	317-322	Metod	PER[7]	2 - Negativno[20]	*->19-1	*[19]	
+1-53	323-328	Mezek	PER[7]	2 - Negativno[20]	*->19-1	*[19]	
+1-54	329-331	in	_	_	_	_	
+1-55	332-337	Marko	PER[8]	2 - Negativno[21]	*->2-1	*[2]	
+1-56	338-349	Valentinčič	PER[8]	2 - Negativno[21]	*->2-1	*[2]	
+1-57	350-351	.	_	_	_	_	
+1-58	352-357	Člani	_	_	_	_	
+1-59	358-368	nadzornega	_	_	_	_	
+1-60	369-374	sveta	_	_	_	_	
+1-61	375-383	Popoviču	PER	_	*->16-3	*[16]	
+1-62	384-389	nismo	_	_	_	_	
+1-63	390-393	več	_	_	_	_	
+1-64	394-401	zaupali	_	_	_	_	
+1-65	402-403	.	_	_	_	_	
+1-66	404-408	Olga	PER[9]	_	*->3-4	*[3]	
+1-67	409-415	Franca	PER[9]	_	*->3-4	*[3]	
+1-68	416-418	Na	_	_	_	_	
+1-69	419-428	vprašanje	_	_	_	_	
+1-70	429-430	,	_	_	_	_	
+1-71	431-436	zakaj	_	_	_	_	
+1-72	437-439	so	_	_	_	_	
+1-73	440-442	se	_	_	_	_	
+1-74	443-445	za	_	_	_	_	
+1-75	446-456	razrešitev	_	_	_	_	
+1-76	457-463	prvega	_	_	*->16-4	*[16]	
+1-77	464-474	nadzornika	_	_	*->16-4	*[16]	
+1-78	475-483	odločili	_	_	_	_	
+1-79	484-489	slabe	_	_	_	_	
+1-80	490-493	tri	_	_	_	_	
+1-81	494-499	tedne	_	_	_	_	
+1-82	500-504	pred	_	_	_	_	
+1-83	505-514	skupščino	_	_	_	_	
+1-84	515-516	,	_	_	_	_	
+1-85	517-519	na	_	_	_	_	
+1-86	520-526	kateri	_	_	_	_	
+1-87	527-531	bodo	_	_	_	_	
+1-88	532-533	v	_	_	_	_	
+1-89	534-542	nadzorni	_	_	_	_	
+1-90	543-547	svet	_	_	_	_	
+1-91	548-557	imenovani	_	_	_	_	
+1-92	558-562	novi	_	_	_	_	
+1-93	563-568	člani	_	_	_	_	
+1-94	569-570	,	_	_	_	_	
+1-95	571-584	novoizvoljena	_	_	*->3-5	*[3]	
+1-96	585-596	predsednica	_	_	*->3-5	*[3]	
+1-97	597-608	nadzornikov	_	_	*->3-5	*[3]	
+1-98	609-613	Olga	PER[10]	_	*->3-5	*[3]	
+1-99	614-620	Franca	PER[10]	_	*->3-5	*[3]	
+1-100	621-630	odgovarja	_	_	_	_	
+1-101	631-632	,	_	_	_	_	
+1-102	633-635	da	_	_	_	_	
+1-103	636-638	so	_	_	_	_	
+1-104	639-641	se	_	_	_	_	
+1-105	642-652	nadzorniki	_	_	_	_	
+1-106	653-655	za	_	_	_	_	
+1-107	656-661	sklic	_	_	_	_	
+1-108	662-666	seje	_	_	_	_	
+1-109	667-668	,	_	_	_	_	
+1-110	669-671	na	_	_	_	_	
+1-111	672-678	kateri	_	_	_	_	
+1-112	679-681	bi	_	_	_	_	
+1-113	682-691	razrešili	_	_	_	_	
+1-114	692-700	Popoviča	PER	_	*->16-5	*[16]	
+1-115	701-702	,	_	_	_	_	
+1-116	703-711	odločili	_	_	_	_	
+1-117	712-714	že	_	_	_	_	
+1-118	715-717	20	_	_	_	_	
+1-119	718-719	.	_	_	_	_	
+1-120	720-724	maja	_	_	_	_	
+1-121	725-726	.	_	_	_	_	
+1-122	727-732	Člani	_	_	_	_	
+1-123	733-743	nadzornega	_	_	_	_	
+1-124	744-749	sveta	_	_	_	_	
+1-125	750-758	Popoviču	PER	_	*->16-6	*[16]	
+1-126	759-764	nismo	_	_	_	_	
+1-127	765-768	več	_	_	_	_	
+1-128	769-776	zaupali	_	_	_	_	
+1-129	777-778	,	_	_	_	_	
+1-130	779-781	je	_	_	*->3-6	*[3]	
+1-131	782-791	pojasnila	_	_	*->3-6	*[3]	
+1-132	792-793	.	_	_	_	_	
+1-133	794-800	Zaradi	_	_	_	_	
+1-134	801-809	procedur	_	_	_	_	
+1-135	810-812	se	_	_	_	_	
+1-136	813-815	je	_	_	_	_	
+1-137	816-820	seja	_	_	_	_	
+1-138	821-829	izvršila	_	_	_	_	
+1-139	830-834	šele	_	_	_	_	
+1-140	835-840	danes	_	_	_	_	
+1-141	841-842	,	_	_	_	_	
+1-142	843-845	je	_	_	_	_	
+1-143	846-852	dejala	_	_	_	_	
+1-144	853-859	Franca	PER	_	*->3-7	*[3]	
+1-145	860-862	in	_	_	_	_	
+1-146	863-872	poudarila	_	_	*->3-8	*[3]	
+1-147	873-874	,	_	_	_	_	
+1-148	875-877	da	_	_	_	_	
+1-149	878-882	mora	_	_	_	_	
+1-150	883-891	nadzorni	_	_	_	_	
+1-151	892-896	svet	_	_	_	_	
+1-152	897-907	izvrševati	_	_	_	_	
+1-153	908-918	nadziranje	_	_	_	_	
+1-154	919-929	poslovanja	_	_	_	_	
+1-155	930-933	ves	_	_	_	_	
+1-156	934-937	čas	_	_	_	_	
+1-157	938-940	do	_	_	_	_	
+1-158	941-947	izteka	_	_	_	_	
+1-159	948-955	mandata	_	_	_	_	
+1-160	956-957	.	_	_	_	_	
+1-161	958-966	Nadzorni	_	_	_	_	
+1-162	967-971	svet	_	_	_	_	
+1-163	972-974	se	_	_	_	_	
+1-164	975-977	bo	_	_	_	_	
+1-165	978-980	po	_	_	_	_	
+1-166	981-987	njenih	_	_	*->3-9	*[3]	
+1-167	988-997	napovedih	_	_	_	_	
+1-168	998-1000	še	_	_	_	_	
+1-169	1001-1005	pred	_	_	_	_	
+1-170	1006-1015	skupščino	_	_	_	_	
+1-171	1016-1018	13	_	_	_	_	
+1-172	1019-1020	.	_	_	_	_	
+1-173	1021-1027	julija	_	_	_	_	
+1-174	1028-1034	sestal	_	_	_	_	
+1-175	1035-1037	na	_	_	_	_	
+1-176	1038-1042	novi	_	_	_	_	
+1-177	1043-1047	seji	_	_	_	_	
+1-178	1048-1049	,	_	_	_	_	
+1-179	1050-1052	ki	_	_	_	_	
+1-180	1053-1056	naj	_	_	_	_	
+1-181	1057-1059	bi	_	_	_	_	
+1-182	1060-1064	bila	_	_	_	_	
+1-183	1065-1073	sklicana	_	_	_	_	
+1-184	1074-1075	v	_	_	_	_	
+1-185	1076-1081	petek	_	_	_	_	
+1-186	1082-1085	ali	_	_	_	_	
+1-187	1086-1092	soboto	_	_	_	_	
+1-188	1093-1094	.	_	_	_	_	
+1-189	1095-1101	Veliko	_	_	_	_	
+1-190	1102-1106	časa	_	_	_	_	
+1-191	1107-1109	je	_	_	_	_	
+1-192	1110-1114	bilo	_	_	_	_	
+1-193	1115-1121	namreč	_	_	_	_	
+1-194	1122-1124	že	_	_	_	_	
+1-195	1125-1135	zamujenega	_	_	_	_	
+1-196	1136-1137	,	_	_	_	_	
+1-197	1138-1146	nadzorni	_	_	_	_	
+1-198	1147-1151	svet	_	_	_	_	
+1-199	1152-1154	pa	_	_	_	_	
+1-200	1155-1159	mora	_	_	_	_	
+1-201	1160-1171	nadaljevati	_	_	_	_	
+1-202	1172-1173	z	_	_	_	_	
+1-203	1174-1179	delom	_	_	_	_	
+1-204	1180-1182	in	_	_	_	_	
+1-205	1183-1193	sprejemati	_	_	_	_	
+1-206	1194-1200	sklepe	_	_	_	_	
+1-207	1201-1202	,	_	_	_	_	
+1-208	1203-1205	je	_	_	_	_	
+1-209	1206-1213	odločna	_	_	_	_	
+1-210	1214-1220	Franca	PER	_	*->3-10	*[3]	
+1-211	1221-1222	.	_	_	_	_	
+1-212	1223-1233	Nadzorniki	_	_	_	_	
+1-213	1234-1236	so	_	_	_	_	
+1-214	1237-1239	se	_	_	_	_	
+1-215	1240-1245	sicer	_	_	_	_	
+1-216	1246-1255	seznanili	_	_	_	_	
+1-217	1256-1260	tudi	_	_	_	_	
+1-218	1261-1262	s	_	_	_	_	
+1-219	1263-1271	podpisom	_	_	_	_	
+1-220	1272-1279	pogodbe	_	_	_	_	
+1-221	1280-1291	predsednika	_	3 - Nevtralno[22]	*->4-1	*[4]	
+1-222	1292-1298	uprave	_	3 - Nevtralno[22]	*->4-1	*[4]	
+1-223	1299-1307	Gregorja	PER[11]	3 - Nevtralno[22]	*->4-1	*[4]	
+1-224	1308-1315	Veselka	PER[11]	3 - Nevtralno[22]	*->4-1	*[4]	
+1-225	1316-1317	z	_	_	_	_	
+1-226	1318-1328	revizijsko	_	3 - Nevtralno[23]	*->18-1	*[18]	
+1-227	1329-1333	hišo	_	3 - Nevtralno[23]	*->18-1	*[18]	
+1-228	1334-1356	PricewaterhouseCoopers	_	3 - Nevtralno[23]	*->18-1|*->5-1	*[18]|*[5]	
+1-229	1357-1359	iz	_	_	_	_	
+1-230	1360-1369	Ljubljane	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-231	1370-1371	.	_	_	_	_	
+1-232	1372-1383	Pričakujemo	_	_	_	_	
+1-233	1384-1385	,	_	_	_	_	
+1-234	1386-1388	da	_	_	_	_	
+1-235	1389-1393	bodo	_	_	_	_	
+1-236	1394-1401	pogodbo	_	_	_	_	
+1-237	1402-1407	takoj	_	_	_	_	
+1-238	1408-1417	podpisali	_	_	_	_	
+1-239	1418-1422	tudi	_	_	_	_	
+1-240	1423-1426	Kad	ORG	_	*->7-1	*[7]	
+1-241	1427-1428	,	_	_	_	_	
+1-242	1429-1432	Sod	ORG	_	*->11-1	*[11]	
+1-243	1433-1435	in	_	_	_	_	
+1-244	1436-1447	ministrstvo	_	_	_	_	
+1-245	1448-1450	in	_	_	_	_	
+1-246	1451-1453	da	_	_	_	_	
+1-247	1454-1456	bi	_	_	_	_	
+1-248	1457-1461	delo	_	_	_	_	
+1-249	1462-1467	lahko	_	_	_	_	
+1-250	1468-1474	steklo	_	_	_	_	
+1-251	1475-1477	že	_	_	_	_	
+1-252	1478-1479	v	_	_	_	_	
+1-253	1480-1490	ponedeljek	_	_	_	_	
+1-254	1491-1492	,	_	_	_	_	
+1-255	1493-1495	je	_	_	_	_	
+1-256	1496-1498	še	_	_	_	_	
+1-257	1499-1505	dejala	_	_	_	_	
+1-258	1506-1512	Franca	PER	_	*->3-11	*[3]	
+1-259	1513-1514	.	_	_	_	_	
+1-260	1515-1521	Franca	PER	_	*->3-12	*[3]	
+1-261	1522-1524	na	_	_	_	_	
+1-262	1525-1529	čelu	_	_	_	_	
+1-263	1530-1532	do	_	_	_	_	
+1-264	1533-1541	julijske	_	_	_	_	
+1-265	1542-1551	skupščine	_	_	_	_	
+1-266	1552-1565	Novoizvoljena	_	_	*->3-13	*[3]	
+1-267	1566-1577	predsednica	_	_	*->3-13	*[3]	
+1-268	1578-1580	bo	_	_	_	_	
+1-269	1581-1589	nadzorni	_	_	_	_	
+1-270	1590-1594	svet	_	_	_	_	
+1-271	1595-1603	verjetno	_	_	_	_	
+1-272	1604-1610	vodila	_	_	_	_	
+1-273	1611-1613	le	_	_	_	_	
+1-274	1614-1616	še	_	_	_	_	
+1-275	1617-1619	do	_	_	_	_	
+1-276	1620-1628	julijske	_	_	_	_	
+1-277	1629-1638	skupščine	_	_	_	_	
+1-278	1639-1640	,	_	_	_	_	
+1-279	1641-1643	na	_	_	_	_	
+1-280	1644-1650	kateri	_	_	_	_	
+1-281	1651-1655	bodo	_	_	_	_	
+1-282	1656-1666	delničarji	_	_	_	_	
+1-283	1667-1670	med	_	_	_	_	
+1-284	1671-1677	drugim	_	_	_	_	
+1-285	1678-1687	glasovali	_	_	_	_	
+1-286	1688-1692	tudi	_	_	_	_	
+1-287	1693-1694	o	_	_	_	_	
+1-288	1695-1701	njenem	_	4 - Pozitivno	*->3-14	*[3]	
+1-289	1702-1711	odpoklicu	_	_	_	_	
+1-290	1712-1714	iz	_	_	_	_	
+1-291	1715-1725	nadzornega	_	_	_	_	
+1-292	1726-1731	sveta	_	_	_	_	
+1-293	1732-1733	.	_	_	_	_	
+1-294	1734-1742	Interese	_	_	_	_	
+1-295	1743-1749	države	_	_	_	_	
+1-296	1750-1751	v	_	_	_	_	
+1-297	1752-1761	nadzornem	_	_	_	_	
+1-298	1762-1767	svetu	_	_	_	_	
+1-299	1768-1772	Luke	ORG	3 - Nevtralno	*->1-2	*[1]	
+1-300	1773-1776	naj	_	_	_	_	
+1-301	1777-1779	bi	_	_	_	_	
+1-302	1780-1786	poslej	_	_	_	_	
+1-303	1787-1796	zastopali	_	_	_	_	
+1-304	1797-1802	Janez	PER[12]	4 - Pozitivno[24]	*->8-1	*[8]	
+1-305	1803-1808	Požar	PER[12]	4 - Pozitivno[24]	*->8-1	*[8]	
+1-306	1809-1810	,	_	_	_	_	
+1-307	1811-1816	Bojan	PER[13]	4 - Pozitivno[25]	*->9-1	*[9]	
+1-308	1817-1822	Brank	PER[13]	4 - Pozitivno[25]	*->9-1	*[9]	
+1-309	1823-1825	in	_	_	_	_	
+1-310	1826-1831	Marko	PER[14]	4 - Pozitivno[26]	*->10-1	*[10]	
+1-311	1832-1840	Simoneti	PER[14]	4 - Pozitivno[26]	*->10-1	*[10]	
+1-312	1841-1842	,	_	_	_	_	
+1-313	1843-1851	interese	_	_	_	_	
+1-314	1852-1863	delničarjev	_	_	_	_	
+1-315	1864-1866	pa	_	_	_	_	
+1-316	1867-1869	na	_	_	_	_	
+1-317	1870-1877	predlog	_	_	_	_	
+1-318	1878-1882	Kada	ORG	4 - Pozitivno	*->7-2	*[7]	
+1-319	1883-1884	,	_	_	_	_	
+1-320	1885-1889	Soda	ORG	4 - Pozitivno	*->11-2	*[11]	
+1-321	1890-1892	in	_	_	_	_	
+1-322	1893-1898	Banke	ORG[15]	4 - Pozitivno[27]	*->12-1	*[12]	
+1-323	1899-1904	Koper	ORG[15]|LOC[16]	4 - Pozitivno[27]|3 - Nevtralno[28]	*->12-1|*->13-2	*[12]|*[13]	
+1-324	1905-1911	Jordan	ORG[17]	4 - Pozitivno[29]	*->14-1	*[14]	
+1-325	1912-1921	Kocjančič	ORG[17]	4 - Pozitivno[29]	*->14-1	*[14]	
+1-326	1922-1924	in	_	_	_	_	
+1-327	1925-1930	Tomaž	ORG[18]	4 - Pozitivno[30]	*->15-1	*[15]	
+1-328	1931-1935	Može	ORG[18]	4 - Pozitivno[30]	*->15-1	*[15]	
+1-329	1936-1937	.	_	_	_	_	
+1-330	1938-1947	Popovičev	_	2 - Negativno	*->16-7	*[16]	
+1-331	1948-1954	pravni	_	_	*->17-1	*[17]	
+1-332	1955-1964	zastopnik	_	_	*->17-1	*[17]	
+1-333	1965-1971	Franci	PER[19]	_	*->17-1	*[17]	
+1-334	1972-1977	Matoz	PER[19]	_	*->17-1	*[17]	
+1-335	1978-1980	je	_	_	_	_	
+1-336	1981-1986	sicer	_	_	_	_	
+1-337	1987-1989	že	_	_	_	_	
+1-338	1990-1991	v	_	_	_	_	
+1-339	1992-1997	torek	_	_	_	_	
+1-340	1998-2007	napovedal	_	_	_	_	
+1-341	2008-2009	,	_	_	_	_	
+1-342	2010-2012	da	_	_	_	_	
+1-343	2013-2015	bo	_	_	_	_	
+1-344	2016-2017	v	_	_	_	_	
+1-345	2018-2025	primeru	_	_	_	_	
+1-346	2026-2036	razrešitve	_	_	_	_	
+1-347	2037-2046	koprskemu	_	_	_	_	
+1-348	2047-2054	sodišču	_	_	_	_	
+1-349	2055-2064	predlagal	_	_	*->17-2	*[17]	
+1-350	2065-2074	zadržanje	_	_	_	_	
+1-351	2075-2077	in	_	_	_	_	
+1-352	2078-2090	izpodbijanje	_	_	_	_	
+1-353	2091-2098	sklepov	_	_	_	_	
+1-354	2099-2100	,	_	_	_	_	
+1-355	2101-2110	sprejetih	_	_	_	_	
+1-356	2111-2113	na	_	_	_	_	
+1-357	2114-2122	današnji	_	_	_	_	
+1-358	2123-2127	seji	_	_	_	_	
+1-359	2128-2129	.	_	_	_	_	
+1-360	2130-2137	Sodišču	_	_	_	_	
+1-361	2138-2140	je	_	_	_	_	
+1-362	2141-2145	tudi	_	_	_	_	
+1-363	2146-2155	predlagal	_	3 - Nevtralno	*->17-3	*[17]	
+1-364	2156-2157	,	_	_	_	_	
+1-365	2158-2161	naj	_	_	_	_	
+1-366	2162-2170	današnjo	_	_	_	_	
+1-367	2171-2175	sejo	_	_	_	_	
+1-368	2176-2177	z	_	_	_	_	
+1-369	2178-2185	začasno	_	_	_	_	
+1-370	2186-2193	odredbo	_	_	_	_	
+1-371	2194-2201	prepove	_	_	_	_	
+1-372	2202-2203	,	_	_	_	_	
+1-373	2204-2207	kar	_	_	_	_	
+1-374	2208-2210	pa	_	_	_	_	
+1-375	2211-2213	je	_	_	_	_	
+1-376	2214-2221	sodišče	_	_	_	_	
+1-377	2222-2230	zavrnilo	_	_	_	_	

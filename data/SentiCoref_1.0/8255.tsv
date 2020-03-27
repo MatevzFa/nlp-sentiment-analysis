@@ -1,0 +1,517 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Lojze Peterle pričakovano in dr . Danilo Turk po tesnem boju z Mitjo Gasparijem bosta v drugem krogu odločala o novem predsedniku Slovenije . Lojze Peterle , ki je kandidaturo napovedal že pred letom dni , se je v drugi krog uvrstil brez težav . Predvolilne ankete so mu vseskozi napovedovale visoko podporo , nekateri pa so dolgo časa napovedovali , da bi mu lahko uspelo zmagati celo v prvem krogu . Peterletu se je zgodnja napoved kandidature močno obrestovala , že ob samem začetku pa je v šahovskem žargonu poudaril pomembnost ' ' otvoritve ' ' . Peterle je tudi edini med kandidati vsaj delno upošteval pravilo sodobne politike , da se predvolilna kampanja začne takoj po volitvah . Dr . Danilo Türk je na spolzka tla domače politične scene vstopil kot izkušen diplomat , ki nagovarja celotno volilno telo . V javnosti nastopa kot uglajen svetovljan , ki si je ime in ugled ustvaril na mednarodnem parketu in predvsem z delom v Združenih narodih . Njegova prednost pred Gasparijem je verjetno bila , da je v predsedniško tekmo vstopil brez pretiranega političnega predznaka , drugi krog pa bo pokazal , ali zmore v spopadu s Peterletom nagovoriti tudi tiste bolj desno orientirane volilce , ali pa bo postal zgolj simbol nove polarizacije med levico in desnico . Bodo orglice igrale tudi po drugem krogu ? Peterle je po končani gimnaziji v Novem mestu na Filozofski fakulteti v Ljubljani diplomiral iz geografije in zgodovine , na Ekonomski fakulteti pa še iz ekonomije . Marca 1989 je ustanovil Slovensko krščansko socialno gibanje , ki se je istega leta preoblikovalo v stranko Slovenskih krščanskih demokratov . Leta 1990 je bil na prvih demokratičnih volitvah izvoljen v državni zbor in postal predsednik prve demokratično izvoljene slovenske vlade . Med njegovim predsednikovanjem ( 1990 do 1992 ) se je Slovenija osamosvojila , pozneje je bil dvakratni zunanji minister , leta 2000 pa je skupaj z dr . Andrejem Bajukom ustanovil Novo Slovenijo - krščansko ljudsko stranko . Leta 2004 je bil izvoljen za evropskega poslanca . Kandidiral je s podporo volilcev , podprle pa so ga tudi pomladne stranke . Z orglicami je navdušil že marsikoga , bo v drugem krogu igral vesele poskočnice ? Po bogati mednarodni karieri še predsedniški stolček ? Dr . Danilo Türk je na ljubljanski pravni fakulteti diplomiral leta 1975 in čez sedem let uspešno zagovarjal doktorsko disertacijo . Leta 1992 je odšel v New York in tedanjemu generalnemu sekretarju Združenih narodov Butrosu Galiju predal poverilno pismo predsednika Slovenije ter tako postal prvi slovenski veleposlanik pri tej svetovni organizaciji ( 1992 – 2000 ) . Vodil je kampanjo za izvolitev Slovenije v Varnostni svet združenih narodov in mu v letih 1998 in 1999 tudi predsedoval . Leta 2000 mu je generalni sekretar Kofi Anan ponudil službo pomočnika za politične zadeve , ki jo je sprejel in opravljal do leta 2005 , ko je Združene narode zapustil . Od leta 2005 je predstojnik katedre za mednarodno pravo . in prodekan za študijske zadeve na Pravni fakulteti Univerze v Ljubljani
+1-1	0-5	Lojze	PER[1]	_	*->13-1	*[13]	
+1-2	6-13	Peterle	PER[1]	_	*->13-1	*[13]	
+1-3	14-25	pričakovano	_	_	_	_	
+1-4	26-28	in	_	_	_	_	
+1-5	29-31	dr	_	_	*->19-1	*[19]	
+1-6	32-33	.	_	_	*->19-1	*[19]	
+1-7	34-40	Danilo	PER[2]	_	*->19-1	*[19]	
+1-8	41-45	Turk	PER[2]	_	*->19-1	*[19]	
+1-9	46-48	po	_	_	_	_	
+1-10	49-55	tesnem	_	_	_	_	
+1-11	56-60	boju	_	_	_	_	
+1-12	61-62	z	_	_	_	_	
+1-13	63-68	Mitjo	PER[3]	_	*->2-1	*[2]	
+1-14	69-79	Gasparijem	PER[3]	_	*->2-1	*[2]	
+1-15	80-85	bosta	_	_	_	_	
+1-16	86-87	v	_	_	_	_	
+1-17	88-94	drugem	_	_	_	_	
+1-18	95-100	krogu	_	_	_	_	
+1-19	101-109	odločala	_	_	_	_	
+1-20	110-111	o	_	_	_	_	
+1-21	112-117	novem	_	_	_	_	
+1-22	118-129	predsedniku	_	_	_	_	
+1-23	130-139	Slovenije	LOC	_	*->1-1	*[1]	
+1-24	140-141	.	_	_	_	_	
+1-25	142-147	Lojze	PER[4]	_	*->13-2	*[13]	
+1-26	148-155	Peterle	PER[4]	_	*->13-2	*[13]	
+1-27	156-157	,	_	_	_	_	
+1-28	158-160	ki	_	_	_	_	
+1-29	161-163	je	_	_	_	_	
+1-30	164-175	kandidaturo	_	_	_	_	
+1-31	176-185	napovedal	_	_	_	_	
+1-32	186-188	že	_	_	_	_	
+1-33	189-193	pred	_	_	_	_	
+1-34	194-199	letom	_	_	_	_	
+1-35	200-203	dni	_	_	_	_	
+1-36	204-205	,	_	_	_	_	
+1-37	206-208	se	_	_	_	_	
+1-38	209-211	je	_	_	_	_	
+1-39	212-213	v	_	_	_	_	
+1-40	214-219	drugi	_	_	_	_	
+1-41	220-224	krog	_	_	_	_	
+1-42	225-232	uvrstil	_	_	_	_	
+1-43	233-237	brez	_	_	_	_	
+1-44	238-243	težav	_	_	_	_	
+1-45	244-245	.	_	_	_	_	
+1-46	246-257	Predvolilne	_	_	_	_	
+1-47	258-264	ankete	_	_	_	_	
+1-48	265-267	so	_	_	_	_	
+1-49	268-270	mu	_	_	*->13-3	*[13]	
+1-50	271-279	vseskozi	_	_	_	_	
+1-51	280-292	napovedovale	_	_	_	_	
+1-52	293-299	visoko	_	_	_	_	
+1-53	300-307	podporo	_	_	_	_	
+1-54	308-309	,	_	_	_	_	
+1-55	310-318	nekateri	_	_	_	_	
+1-56	319-321	pa	_	_	_	_	
+1-57	322-324	so	_	_	_	_	
+1-58	325-330	dolgo	_	_	_	_	
+1-59	331-335	časa	_	_	_	_	
+1-60	336-348	napovedovali	_	_	_	_	
+1-61	349-350	,	_	_	_	_	
+1-62	351-353	da	_	_	_	_	
+1-63	354-356	bi	_	_	_	_	
+1-64	357-359	mu	_	_	*->13-4	*[13]	
+1-65	360-365	lahko	_	_	_	_	
+1-66	366-372	uspelo	_	_	_	_	
+1-67	373-380	zmagati	_	_	_	_	
+1-68	381-385	celo	_	_	_	_	
+1-69	386-387	v	_	_	_	_	
+1-70	388-393	prvem	_	_	_	_	
+1-71	394-399	krogu	_	_	_	_	
+1-72	400-401	.	_	_	_	_	
+1-73	402-411	Peterletu	PER	_	*->13-5	*[13]	
+1-74	412-414	se	_	_	_	_	
+1-75	415-417	je	_	_	_	_	
+1-76	418-425	zgodnja	_	_	_	_	
+1-77	426-433	napoved	_	_	_	_	
+1-78	434-445	kandidature	_	_	_	_	
+1-79	446-451	močno	_	_	_	_	
+1-80	452-463	obrestovala	_	_	_	_	
+1-81	464-465	,	_	_	_	_	
+1-82	466-468	že	_	_	_	_	
+1-83	469-471	ob	_	_	_	_	
+1-84	472-477	samem	_	_	_	_	
+1-85	478-485	začetku	_	_	_	_	
+1-86	486-488	pa	_	_	_	_	
+1-87	489-491	je	_	_	_	_	
+1-88	492-493	v	_	_	_	_	
+1-89	494-503	šahovskem	_	_	_	_	
+1-90	504-511	žargonu	_	_	_	_	
+1-91	512-520	poudaril	_	_	_	_	
+1-92	521-531	pomembnost	_	_	_	_	
+1-93	532-533	'	_	_	_	_	
+1-94	534-535	'	_	_	_	_	
+1-95	536-545	otvoritve	_	_	_	_	
+1-96	546-547	'	_	_	_	_	
+1-97	548-549	'	_	_	_	_	
+1-98	550-551	.	_	_	_	_	
+1-99	552-559	Peterle	PER	_	*->13-6	*[13]	
+1-100	560-562	je	_	_	_	_	
+1-101	563-567	tudi	_	_	_	_	
+1-102	568-573	edini	_	_	_	_	
+1-103	574-577	med	_	_	_	_	
+1-104	578-587	kandidati	_	_	_	_	
+1-105	588-592	vsaj	_	_	_	_	
+1-106	593-598	delno	_	_	_	_	
+1-107	599-608	upošteval	_	_	_	_	
+1-108	609-616	pravilo	_	_	_	_	
+1-109	617-624	sodobne	_	_	_	_	
+1-110	625-633	politike	_	_	_	_	
+1-111	634-635	,	_	_	_	_	
+1-112	636-638	da	_	_	_	_	
+1-113	639-641	se	_	_	_	_	
+1-114	642-653	predvolilna	_	_	_	_	
+1-115	654-662	kampanja	_	_	_	_	
+1-116	663-668	začne	_	_	_	_	
+1-117	669-674	takoj	_	_	_	_	
+1-118	675-677	po	_	_	_	_	
+1-119	678-686	volitvah	_	_	_	_	
+1-120	687-688	.	_	_	_	_	
+1-121	689-691	Dr	_	_	*->19-2	*[19]	
+1-122	692-693	.	_	_	*->19-2	*[19]	
+1-123	694-700	Danilo	PER[5]	_	*->19-2	*[19]	
+1-124	701-705	Türk	PER[5]	_	*->19-2	*[19]	
+1-125	706-708	je	_	_	_	_	
+1-126	709-711	na	_	_	_	_	
+1-127	712-719	spolzka	_	_	_	_	
+1-128	720-723	tla	_	_	_	_	
+1-129	724-730	domače	_	_	_	_	
+1-130	731-740	politične	_	_	_	_	
+1-131	741-746	scene	_	_	_	_	
+1-132	747-754	vstopil	_	_	_	_	
+1-133	755-758	kot	_	_	_	_	
+1-134	759-766	izkušen	_	_	*->19-3	*[19]	
+1-135	767-775	diplomat	_	_	*->19-3	*[19]	
+1-136	776-777	,	_	_	_	_	
+1-137	778-780	ki	_	_	_	_	
+1-138	781-790	nagovarja	_	_	_	_	
+1-139	791-798	celotno	_	_	_	_	
+1-140	799-806	volilno	_	_	_	_	
+1-141	807-811	telo	_	_	_	_	
+1-142	812-813	.	_	_	_	_	
+1-143	814-815	V	_	_	_	_	
+1-144	816-824	javnosti	_	_	_	_	
+1-145	825-832	nastopa	_	_	_	_	
+1-146	833-836	kot	_	_	_	_	
+1-147	837-844	uglajen	_	_	*->19-4	*[19]	
+1-148	845-855	svetovljan	_	_	*->19-4	*[19]	
+1-149	856-857	,	_	_	_	_	
+1-150	858-860	ki	_	_	_	_	
+1-151	861-863	si	_	_	_	_	
+1-152	864-866	je	_	_	_	_	
+1-153	867-870	ime	_	_	_	_	
+1-154	871-873	in	_	_	_	_	
+1-155	874-879	ugled	_	_	_	_	
+1-156	880-888	ustvaril	_	_	_	_	
+1-157	889-891	na	_	_	_	_	
+1-158	892-903	mednarodnem	_	_	_	_	
+1-159	904-911	parketu	_	_	_	_	
+1-160	912-914	in	_	_	_	_	
+1-161	915-923	predvsem	_	_	_	_	
+1-162	924-925	z	_	_	_	_	
+1-163	926-931	delom	_	_	_	_	
+1-164	932-933	v	_	_	_	_	
+1-165	934-943	Združenih	ORG[6]	_	*->18-1	*[18]	
+1-166	944-951	narodih	ORG[6]	_	*->18-1	*[18]	
+1-167	952-953	.	_	_	_	_	
+1-168	954-961	Njegova	_	_	*->19-5	*[19]	
+1-169	962-970	prednost	_	_	_	_	
+1-170	971-975	pred	_	_	_	_	
+1-171	976-986	Gasparijem	PER	3 - Nevtralno	*->2-2	*[2]	
+1-172	987-989	je	_	_	_	_	
+1-173	990-998	verjetno	_	_	_	_	
+1-174	999-1003	bila	_	_	_	_	
+1-175	1004-1005	,	_	_	_	_	
+1-176	1006-1008	da	_	_	_	_	
+1-177	1009-1011	je	_	_	_	_	
+1-178	1012-1013	v	_	_	_	_	
+1-179	1014-1026	predsedniško	_	_	_	_	
+1-180	1027-1032	tekmo	_	_	_	_	
+1-181	1033-1040	vstopil	_	_	_	_	
+1-182	1041-1045	brez	_	_	_	_	
+1-183	1046-1057	pretiranega	_	_	_	_	
+1-184	1058-1069	političnega	_	_	_	_	
+1-185	1070-1079	predznaka	_	_	_	_	
+1-186	1080-1081	,	_	_	_	_	
+1-187	1082-1087	drugi	_	_	_	_	
+1-188	1088-1092	krog	_	_	_	_	
+1-189	1093-1095	pa	_	_	_	_	
+1-190	1096-1098	bo	_	_	_	_	
+1-191	1099-1106	pokazal	_	_	_	_	
+1-192	1107-1108	,	_	_	_	_	
+1-193	1109-1112	ali	_	_	_	_	
+1-194	1113-1118	zmore	_	_	*->19-6	*[19]	
+1-195	1119-1120	v	_	_	_	_	
+1-196	1121-1128	spopadu	_	_	_	_	
+1-197	1129-1130	s	_	_	_	_	
+1-198	1131-1141	Peterletom	PER	_	*->13-7	*[13]	
+1-199	1142-1152	nagovoriti	_	_	_	_	
+1-200	1153-1157	tudi	_	_	_	_	
+1-201	1158-1163	tiste	_	_	_	_	
+1-202	1164-1168	bolj	_	_	_	_	
+1-203	1169-1174	desno	_	_	_	_	
+1-204	1175-1186	orientirane	_	_	_	_	
+1-205	1187-1194	volilce	_	_	_	_	
+1-206	1195-1196	,	_	_	_	_	
+1-207	1197-1200	ali	_	_	_	_	
+1-208	1201-1203	pa	_	_	_	_	
+1-209	1204-1206	bo	_	_	_	_	
+1-210	1207-1213	postal	_	_	_	_	
+1-211	1214-1219	zgolj	_	_	_	_	
+1-212	1220-1226	simbol	_	_	_	_	
+1-213	1227-1231	nove	_	_	_	_	
+1-214	1232-1244	polarizacije	_	_	_	_	
+1-215	1245-1248	med	_	_	_	_	
+1-216	1249-1255	levico	_	_	_	_	
+1-217	1256-1258	in	_	_	_	_	
+1-218	1259-1266	desnico	_	_	_	_	
+1-219	1267-1268	.	_	_	_	_	
+1-220	1269-1273	Bodo	_	_	_	_	
+1-221	1274-1281	orglice	_	_	_	_	
+1-222	1282-1288	igrale	_	_	_	_	
+1-223	1289-1293	tudi	_	_	_	_	
+1-224	1294-1296	po	_	_	_	_	
+1-225	1297-1303	drugem	_	_	_	_	
+1-226	1304-1309	krogu	_	_	_	_	
+1-227	1310-1311	?	_	_	_	_	
+1-228	1312-1319	Peterle	PER	_	*->13-8	*[13]	
+1-229	1320-1322	je	_	_	_	_	
+1-230	1323-1325	po	_	_	_	_	
+1-231	1326-1333	končani	_	_	_	_	
+1-232	1334-1343	gimnaziji	_	_	_	_	
+1-233	1344-1345	v	_	_	_	_	
+1-234	1346-1351	Novem	LOC[7]	3 - Nevtralno[29]	*->3-1	*[3]	
+1-235	1352-1357	mestu	LOC[7]	3 - Nevtralno[29]	*->3-1	*[3]	
+1-236	1358-1360	na	_	_	_	_	
+1-237	1361-1371	Filozofski	ORG[8]	3 - Nevtralno[30]	*->4-1	*[4]	
+1-238	1372-1381	fakulteti	ORG[8]	3 - Nevtralno[30]	*->4-1	*[4]	
+1-239	1382-1383	v	ORG[8]	3 - Nevtralno[30]	*->4-1	*[4]	
+1-240	1384-1393	Ljubljani	ORG[8]|LOC[9]	3 - Nevtralno[30]	*->4-1|*->5-1	*[4]|*[5]	
+1-241	1394-1404	diplomiral	_	_	_	_	
+1-242	1405-1407	iz	_	_	_	_	
+1-243	1408-1418	geografije	_	_	_	_	
+1-244	1419-1421	in	_	_	_	_	
+1-245	1422-1431	zgodovine	_	_	_	_	
+1-246	1432-1433	,	_	_	_	_	
+1-247	1434-1436	na	_	_	_	_	
+1-248	1437-1446	Ekonomski	ORG[10]	3 - Nevtralno[31]	*->6-1	*[6]	
+1-249	1447-1456	fakulteti	ORG[10]	3 - Nevtralno[31]	*->6-1	*[6]	
+1-250	1457-1459	pa	_	_	_	_	
+1-251	1460-1462	še	_	_	_	_	
+1-252	1463-1465	iz	_	_	_	_	
+1-253	1466-1475	ekonomije	_	_	_	_	
+1-254	1476-1477	.	_	_	_	_	
+1-255	1478-1483	Marca	_	_	_	_	
+1-256	1484-1488	1989	_	_	_	_	
+1-257	1489-1491	je	_	_	_	_	
+1-258	1492-1501	ustanovil	_	_	_	_	
+1-259	1502-1511	Slovensko	ORG[11]	3 - Nevtralno[32]	*->7-1	*[7]	
+1-260	1512-1521	krščansko	ORG[11]	3 - Nevtralno[32]	*->7-1	*[7]	
+1-261	1522-1530	socialno	ORG[11]	3 - Nevtralno[32]	*->7-1	*[7]	
+1-262	1531-1538	gibanje	ORG[11]	3 - Nevtralno[32]	*->7-1	*[7]	
+1-263	1539-1540	,	_	_	_	_	
+1-264	1541-1543	ki	_	_	_	_	
+1-265	1544-1546	se	_	_	_	_	
+1-266	1547-1549	je	_	_	_	_	
+1-267	1550-1556	istega	_	_	_	_	
+1-268	1557-1561	leta	_	_	_	_	
+1-269	1562-1575	preoblikovalo	_	_	_	_	
+1-270	1576-1577	v	_	_	_	_	
+1-271	1578-1585	stranko	_	3 - Nevtralno[33]	*->8-1	*[8]	
+1-272	1586-1596	Slovenskih	ORG[12]	3 - Nevtralno[33]	*->8-1	*[8]	
+1-273	1597-1607	krščanskih	ORG[12]	3 - Nevtralno[33]	*->8-1	*[8]	
+1-274	1608-1618	demokratov	ORG[12]	3 - Nevtralno[33]	*->8-1	*[8]	
+1-275	1619-1620	.	_	_	_	_	
+1-276	1621-1625	Leta	_	_	_	_	
+1-277	1626-1630	1990	_	_	_	_	
+1-278	1631-1633	je	_	_	_	_	
+1-279	1634-1637	bil	_	_	_	_	
+1-280	1638-1640	na	_	_	_	_	
+1-281	1641-1646	prvih	_	_	_	_	
+1-282	1647-1660	demokratičnih	_	_	_	_	
+1-283	1661-1669	volitvah	_	_	_	_	
+1-284	1670-1678	izvoljen	_	_	_	_	
+1-285	1679-1680	v	_	_	_	_	
+1-286	1681-1688	državni	ORG[13]	3 - Nevtralno[34]	*->9-1	*[9]	
+1-287	1689-1693	zbor	ORG[13]	3 - Nevtralno[34]	*->9-1	*[9]	
+1-288	1694-1696	in	_	_	_	_	
+1-289	1697-1703	postal	_	_	_	_	
+1-290	1704-1714	predsednik	_	_	*->13-9	*[13]	
+1-291	1715-1719	prve	_	_	*->13-9	*[13]	
+1-292	1720-1732	demokratično	_	_	*->13-9	*[13]	
+1-293	1733-1742	izvoljene	_	_	*->13-9	*[13]	
+1-294	1743-1752	slovenske	_	3 - Nevtralno[35]	*->13-9|*->10-1	*[13]|*[10]	
+1-295	1753-1758	vlade	ORG	3 - Nevtralno[35]	*->13-9|*->10-1	*[13]|*[10]	
+1-296	1759-1760	.	_	_	_	_	
+1-297	1761-1764	Med	_	_	_	_	
+1-298	1765-1773	njegovim	_	_	*->13-10	*[13]	
+1-299	1774-1791	predsednikovanjem	_	_	_	_	
+1-300	1792-1793	(	_	_	_	_	
+1-301	1794-1798	1990	_	_	_	_	
+1-302	1799-1801	do	_	_	_	_	
+1-303	1802-1806	1992	_	_	_	_	
+1-304	1807-1808	)	_	_	_	_	
+1-305	1809-1811	se	_	_	_	_	
+1-306	1812-1814	je	_	_	_	_	
+1-307	1815-1824	Slovenija	LOC	_	*->1-2	*[1]	
+1-308	1825-1837	osamosvojila	_	_	_	_	
+1-309	1838-1839	,	_	_	_	_	
+1-310	1840-1847	pozneje	_	_	_	_	
+1-311	1848-1850	je	_	_	_	_	
+1-312	1851-1854	bil	_	_	_	_	
+1-313	1855-1864	dvakratni	_	_	*->13-11	*[13]	
+1-314	1865-1872	zunanji	_	_	*->13-11	*[13]	
+1-315	1873-1881	minister	_	_	*->13-11	*[13]	
+1-316	1882-1883	,	_	_	_	_	
+1-317	1884-1888	leta	_	_	_	_	
+1-318	1889-1893	2000	_	_	_	_	
+1-319	1894-1896	pa	_	_	_	_	
+1-320	1897-1899	je	_	_	*->13-12	*[13]	
+1-321	1900-1906	skupaj	_	_	_	_	
+1-322	1907-1908	z	_	_	_	_	
+1-323	1909-1911	dr	_	3 - Nevtralno[36]	*->11-1	*[11]	
+1-324	1912-1913	.	_	3 - Nevtralno[36]	*->11-1	*[11]	
+1-325	1914-1922	Andrejem	PER[14]	3 - Nevtralno[36]	*->11-1	*[11]	
+1-326	1923-1930	Bajukom	PER[14]	3 - Nevtralno[36]	*->11-1	*[11]	
+1-327	1931-1940	ustanovil	_	_	_	_	
+1-328	1941-1945	Novo	ORG[15]	_	*->12-1	*[12]	
+1-329	1946-1955	Slovenijo	ORG[15]|LOC[16]	_	*->12-1|*->1-3	*[12]|*[1]	
+1-330	1956-1957	-	_	_	_	_	
+1-331	1958-1967	krščansko	_	3 - Nevtralno[37]	*->12-2	*[12]	
+1-332	1968-1975	ljudsko	_	3 - Nevtralno[37]	*->12-2	*[12]	
+1-333	1976-1983	stranko	_	3 - Nevtralno[37]	*->12-2	*[12]	
+1-334	1984-1985	.	_	_	_	_	
+1-335	1986-1990	Leta	_	_	_	_	
+1-336	1991-1995	2004	_	_	_	_	
+1-337	1996-1998	je	_	_	*->13-13	*[13]	
+1-338	1999-2002	bil	_	_	*->13-13	*[13]	
+1-339	2003-2011	izvoljen	_	_	_	_	
+1-340	2012-2014	za	_	_	_	_	
+1-341	2015-2025	evropskega	_	_	_	_	
+1-342	2026-2034	poslanca	_	_	_	_	
+1-343	2035-2036	.	_	_	_	_	
+1-344	2037-2047	Kandidiral	_	_	*->13-14	*[13]	
+1-345	2048-2050	je	_	_	*->13-14	*[13]	
+1-346	2051-2052	s	_	_	_	_	
+1-347	2053-2060	podporo	_	_	_	_	
+1-348	2061-2069	volilcev	_	_	_	_	
+1-349	2070-2071	,	_	_	_	_	
+1-350	2072-2079	podprle	_	_	_	_	
+1-351	2080-2082	pa	_	_	_	_	
+1-352	2083-2085	so	_	_	_	_	
+1-353	2086-2088	ga	_	_	_	_	
+1-354	2089-2093	tudi	_	_	_	_	
+1-355	2094-2102	pomladne	_	_	_	_	
+1-356	2103-2110	stranke	_	_	_	_	
+1-357	2111-2112	.	_	_	_	_	
+1-358	2113-2114	Z	_	_	_	_	
+1-359	2115-2124	orglicami	_	_	_	_	
+1-360	2125-2127	je	_	3 - Nevtralno[38]	*->13-15	*[13]	
+1-361	2128-2136	navdušil	_	3 - Nevtralno[38]	*->13-15	*[13]	
+1-362	2137-2139	že	_	_	_	_	
+1-363	2140-2149	marsikoga	_	_	_	_	
+1-364	2150-2151	,	_	_	_	_	
+1-365	2152-2154	bo	_	_	_	_	
+1-366	2155-2156	v	_	_	_	_	
+1-367	2157-2163	drugem	_	_	_	_	
+1-368	2164-2169	krogu	_	_	_	_	
+1-369	2170-2175	igral	_	_	_	_	
+1-370	2176-2182	vesele	_	_	_	_	
+1-371	2183-2193	poskočnice	_	_	_	_	
+1-372	2194-2195	?	_	_	_	_	
+1-373	2196-2198	Po	_	_	_	_	
+1-374	2199-2205	bogati	_	_	_	_	
+1-375	2206-2216	mednarodni	_	_	_	_	
+1-376	2217-2224	karieri	_	_	_	_	
+1-377	2225-2227	še	_	_	_	_	
+1-378	2228-2240	predsedniški	_	_	_	_	
+1-379	2241-2248	stolček	_	_	_	_	
+1-380	2249-2250	?	_	_	_	_	
+1-381	2251-2253	Dr	_	_	*->19-7	*[19]	
+1-382	2254-2255	.	_	_	*->19-7	*[19]	
+1-383	2256-2262	Danilo	PER[17]	_	*->19-7	*[19]	
+1-384	2263-2267	Türk	PER[17]	_	*->19-7	*[19]	
+1-385	2268-2270	je	_	_	_	_	
+1-386	2271-2273	na	_	_	_	_	
+1-387	2274-2285	ljubljanski	ORG[18]	_	*->20-1	*[20]	
+1-388	2286-2292	pravni	ORG[18]	_	*->20-1	*[20]	
+1-389	2293-2302	fakulteti	ORG[18]	_	*->20-1	*[20]	
+1-390	2303-2313	diplomiral	_	_	_	_	
+1-391	2314-2318	leta	_	_	_	_	
+1-392	2319-2323	1975	_	_	_	_	
+1-393	2324-2326	in	_	_	_	_	
+1-394	2327-2330	čez	_	_	_	_	
+1-395	2331-2336	sedem	_	_	_	_	
+1-396	2337-2340	let	_	_	_	_	
+1-397	2341-2348	uspešno	_	_	_	_	
+1-398	2349-2359	zagovarjal	_	_	_	_	
+1-399	2360-2369	doktorsko	_	_	_	_	
+1-400	2370-2381	disertacijo	_	_	_	_	
+1-401	2382-2383	.	_	_	_	_	
+1-402	2384-2388	Leta	_	_	_	_	
+1-403	2389-2393	1992	_	_	_	_	
+1-404	2394-2396	je	_	_	*->19-8	*[19]	
+1-405	2397-2402	odšel	_	_	*->19-8	*[19]	
+1-406	2403-2404	v	_	_	_	_	
+1-407	2405-2408	New	LOC[19]	3 - Nevtralno[39]	*->14-1	*[14]	
+1-408	2409-2413	York	LOC[19]	3 - Nevtralno[39]	*->14-1	*[14]	
+1-409	2414-2416	in	_	_	_	_	
+1-410	2417-2426	tedanjemu	_	3 - Nevtralno[40]	*->15-1	*[15]	
+1-411	2427-2438	generalnemu	_	3 - Nevtralno[40]	*->15-1	*[15]	
+1-412	2439-2449	sekretarju	_	3 - Nevtralno[40]	*->15-1	*[15]	
+1-413	2450-2459	Združenih	ORG[20]	3 - Nevtralno[40]	*->15-1|*->18-2	*[15]|*[18]	
+1-414	2460-2467	narodov	ORG[20]	3 - Nevtralno[40]	*->15-1|*->18-2	*[15]|*[18]	
+1-415	2468-2475	Butrosu	PER[21]	3 - Nevtralno[40]	*->15-1	*[15]	
+1-416	2476-2482	Galiju	PER[21]	3 - Nevtralno[40]	*->15-1	*[15]	
+1-417	2483-2489	predal	_	_	_	_	
+1-418	2490-2499	poverilno	_	_	_	_	
+1-419	2500-2505	pismo	_	_	_	_	
+1-420	2506-2517	predsednika	_	_	_	_	
+1-421	2518-2527	Slovenije	LOC	_	*->1-4	*[1]	
+1-422	2528-2531	ter	_	_	_	_	
+1-423	2532-2536	tako	_	_	_	_	
+1-424	2537-2543	postal	_	_	_	_	
+1-425	2544-2548	prvi	_	_	*->19-9	*[19]	
+1-426	2549-2558	slovenski	_	_	*->19-9	*[19]	
+1-427	2559-2571	veleposlanik	_	_	*->19-9	*[19]	
+1-428	2572-2575	pri	_	_	*->19-9	*[19]	
+1-429	2576-2579	tej	_	_	*->19-9|*->18-3	*[19]|*[18]	
+1-430	2580-2588	svetovni	_	_	*->19-9|*->18-3	*[19]|*[18]	
+1-431	2589-2601	organizaciji	_	_	*->19-9|*->18-3	*[19]|*[18]	
+1-432	2602-2603	(	_	_	_	_	
+1-433	2604-2608	1992	_	_	_	_	
+1-434	2609-2610	–	_	_	_	_	
+1-435	2611-2615	2000	_	_	_	_	
+1-436	2616-2617	)	_	_	_	_	
+1-437	2618-2619	.	_	_	_	_	
+1-438	2620-2625	Vodil	_	_	*->19-10	*[19]	
+1-439	2626-2628	je	_	_	*->19-10	*[19]	
+1-440	2629-2637	kampanjo	_	_	_	_	
+1-441	2638-2640	za	_	_	_	_	
+1-442	2641-2650	izvolitev	_	_	_	_	
+1-443	2651-2660	Slovenije	LOC	3 - Nevtralno	*->1-5	*[1]	
+1-444	2661-2662	v	_	_	_	_	
+1-445	2663-2672	Varnostni	ORG[22]	_	*->16-1	*[16]	
+1-446	2673-2677	svet	ORG[22]	_	*->16-1	*[16]	
+1-447	2678-2687	združenih	ORG[22]|ORG[23]	_	*->16-1|*->18-4	*[16]|*[18]	
+1-448	2688-2695	narodov	ORG[22]|ORG[23]	_	*->16-1|*->18-4	*[16]|*[18]	
+1-449	2696-2698	in	_	_	_	_	
+1-450	2699-2701	mu	_	3 - Nevtralno	*->16-2	*[16]	
+1-451	2702-2703	v	_	_	_	_	
+1-452	2704-2709	letih	_	_	_	_	
+1-453	2710-2714	1998	_	_	_	_	
+1-454	2715-2717	in	_	_	_	_	
+1-455	2718-2722	1999	_	_	_	_	
+1-456	2723-2727	tudi	_	_	_	_	
+1-457	2728-2739	predsedoval	_	_	_	_	
+1-458	2740-2741	.	_	_	_	_	
+1-459	2742-2746	Leta	_	_	_	_	
+1-460	2747-2751	2000	_	_	_	_	
+1-461	2752-2754	mu	_	_	*->19-11	*[19]	
+1-462	2755-2757	je	_	_	_	_	
+1-463	2758-2767	generalni	_	3 - Nevtralno[41]	*->17-1	*[17]	
+1-464	2768-2776	sekretar	_	3 - Nevtralno[41]	*->17-1	*[17]	
+1-465	2777-2781	Kofi	PER[24]	3 - Nevtralno[41]	*->17-1	*[17]	
+1-466	2782-2786	Anan	PER[24]	3 - Nevtralno[41]	*->17-1	*[17]	
+1-467	2787-2794	ponudil	_	_	_	_	
+1-468	2795-2801	službo	_	_	_	_	
+1-469	2802-2811	pomočnika	_	_	_	_	
+1-470	2812-2814	za	_	_	_	_	
+1-471	2815-2824	politične	_	_	_	_	
+1-472	2825-2831	zadeve	_	_	_	_	
+1-473	2832-2833	,	_	_	_	_	
+1-474	2834-2836	ki	_	_	_	_	
+1-475	2837-2839	jo	_	_	_	_	
+1-476	2840-2842	je	_	_	_	_	
+1-477	2843-2850	sprejel	_	_	_	_	
+1-478	2851-2853	in	_	_	_	_	
+1-479	2854-2863	opravljal	_	_	_	_	
+1-480	2864-2866	do	_	_	_	_	
+1-481	2867-2871	leta	_	_	_	_	
+1-482	2872-2876	2005	_	_	_	_	
+1-483	2877-2878	,	_	_	_	_	
+1-484	2879-2881	ko	_	_	_	_	
+1-485	2882-2884	je	_	_	_	_	
+1-486	2885-2893	Združene	ORG[25]	3 - Nevtralno[42]	*->18-5	*[18]	
+1-487	2894-2900	narode	ORG[25]	3 - Nevtralno[42]	*->18-5	*[18]	
+1-488	2901-2909	zapustil	_	_	_	_	
+1-489	2910-2911	.	_	_	_	_	
+1-490	2912-2914	Od	_	_	_	_	
+1-491	2915-2919	leta	_	_	_	_	
+1-492	2920-2924	2005	_	_	_	_	
+1-493	2925-2927	je	_	_	_	_	
+1-494	2928-2939	predstojnik	_	_	*->19-12	*[19]	
+1-495	2940-2947	katedre	_	_	*->19-12	*[19]	
+1-496	2948-2950	za	_	_	*->19-12	*[19]	
+1-497	2951-2961	mednarodno	_	_	*->19-12	*[19]	
+1-498	2962-2967	pravo	_	_	*->19-12	*[19]	
+1-499	2968-2969	.	_	_	_	_	
+1-500	2970-2972	in	_	_	_	_	
+1-501	2973-2981	prodekan	_	3 - Nevtralno[43]	*->19-13	*[19]	
+1-502	2982-2984	za	_	3 - Nevtralno[43]	*->19-13	*[19]	
+1-503	2985-2994	študijske	_	3 - Nevtralno[43]	*->19-13	*[19]	
+1-504	2995-3001	zadeve	_	3 - Nevtralno[43]	*->19-13	*[19]	
+1-505	3002-3004	na	_	3 - Nevtralno[43]	*->19-13	*[19]	
+1-506	3005-3011	Pravni	ORG[26]	3 - Nevtralno[43]|3 - Nevtralno[44]	*->19-13|*->20-2	*[19]|*[20]	
+1-507	3012-3021	fakulteti	ORG[26]	3 - Nevtralno[43]|3 - Nevtralno[44]	*->19-13|*->20-2	*[19]|*[20]	
+1-508	3022-3030	Univerze	ORG[26]|ORG[27]	3 - Nevtralno[43]|3 - Nevtralno[44]|3 - Nevtralno[45]	*->19-13|*->20-2|*->21-1	*[19]|*[20]|*[21]	
+1-509	3031-3032	v	ORG[26]|ORG[27]	3 - Nevtralno[43]|3 - Nevtralno[44]|3 - Nevtralno[45]	*->19-13|*->20-2|*->21-1	*[19]|*[20]|*[21]	
+1-510	3033-3042	Ljubljani	ORG[26]|ORG[27]|LOC[28]	3 - Nevtralno[43]|3 - Nevtralno[44]|3 - Nevtralno[45]|3 - Nevtralno[46]	*->19-13|*->20-2|*->21-1|*->5-2	*[19]|*[20]|*[21]|*[5]	

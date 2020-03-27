@@ -1,0 +1,530 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Naraščanje cen hrane v nerazvitih državah bi lahko imelo grozljive posledice za ves svet , je opozoril generalni direktor IMF . Na srečanju Mednarodnega denarnega sklada IMF in Svetovne banke SB v Washingtonu je generalni direktor Dominque Strauss - Kahn opozoril Stotisoči bodo stradali , prišlo bo do razkroja gospodarskega okolja ter pozval k brzdanju cen hrane in inflacije . Razvojni dosežki iz zadnjih desetih let bi po njegovih besedah lahko bili povsem uničeni , socialni nemiri pa bi lahko privedli do vojn . Generalni direktor IMF Dominque Strauss - Kahn poziva k brzdanju cen in inflacije . Zadnje mesece so višje cene hrane že privedle do socialnih nemirov v več državah , med drugim na Haitiju , v Egiptu in na Filipinih . Na Haitiju , kjer večina ljudi živi z manj kot dvema dolarjema na dan , so tako zaradi nasilja , ki je pred tedni izbruhnilo zaradi visokih cen hrane in goriv , v soboto odstavili premierja . V Pakistanu in na Tajskem vojaki varujejo skladišča hrane , da jih prebivalci ne bi plenili . Po podatkih Svetovne organizacije za prehrano in kmetijstvo se kar 37 držav sooča s pomanjkanjem hrane . Mednarodni monetarni in finančni odbor IMF poudarja , da so izzivi , s katerimi se sooča svetovno gospodarstvo , globalne narave in zato zahtevajo odločno akcijo in tesno sodelovanje IMF , SB ter drugih organizacij , da bi državam v razvoju zagotovili finančno podporo in nasvete za rešitev . V Washingtonu se bodo sestali tudi predstavniki Svetovne banke . Tudi v središču te razprave bodo naraščajoče cene hrane , dogovorili pa naj bi se o velikem koordiniranem mednarodnem načrtu za zmanjšanje lakote . Predsednik SB Robert Zoellick je pred tedni že pozval k oblikovanju new deala glede globalne politike hrane , saj cene živil resno ogrožajo politično stabilnost v revnih državah . Spomladansko srečanje finančnih ministrov in guvernerjev centralnih bank 185 držav članic IMF in Svetovne banke , ki se ga udeležujeta tudi slovenski finančni minister Andrej Bajuk in guverner Banke Slovenije Marko Kranjec , se bo končalo s plenarnim zasedanjem skupnega razvojnega odbora IMF in Svetovne banke o boju proti revščini.Bajuk EU manj pesimistična kot IMF Minister za finance in predsednik Sveta za ekonomske in finančne zadeve Andrej Bajuk je poudaril , da je EU pri svojih napovedih manj pesimistična kot IMF , čeprav se tveganj zaveda , saj je prihodnost precej negotova . Napovedi IMF so preveč pod vplivom dogajanj v ameriškem gospodarstvu , tudi ko gre za napovedi za Evropo , je dejal . Evropsko gospodarstvo in finančni sistem se razlikujeta od ameriškega , saj evropsko gospodarstvo sloni na bolj trdnih makroekonomskih temeljih , zato pretrese lažje prenaša . Tudi realni sektor je zaradi tega manj prizadet kot ameriški , je poudaril . Glede inflacije v Sloveniji pričakuje , da se bo umirila Tudi Urad za makroekonomske analize in razvoj ter Banka Slovenije , ki sta tradicionalno konzervativnejša , to napovedujeta . Vendar pa rast plač v nobenem primeru ne sme preseči rasti produktivnosti , ker bi to imelo katastrofalne posledice na inflacijo , zato sem kot finančni minister v stalnem dialogu s socialnimi partnerji
+1-1	0-10	Naraščanje	_	_	_	_	
+1-2	11-14	cen	_	_	_	_	
+1-3	15-20	hrane	_	_	_	_	
+1-4	21-22	v	_	_	_	_	
+1-5	23-33	nerazvitih	_	_	_	_	
+1-6	34-41	državah	_	_	_	_	
+1-7	42-44	bi	_	_	_	_	
+1-8	45-50	lahko	_	_	_	_	
+1-9	51-56	imelo	_	_	_	_	
+1-10	57-66	grozljive	_	_	_	_	
+1-11	67-76	posledice	_	_	_	_	
+1-12	77-79	za	_	_	_	_	
+1-13	80-83	ves	_	_	_	_	
+1-14	84-88	svet	_	_	_	_	
+1-15	89-90	,	_	_	_	_	
+1-16	91-93	je	_	_	_	_	
+1-17	94-102	opozoril	_	_	_	_	
+1-18	103-112	generalni	_	_	*->15-1	*[15]	
+1-19	113-121	direktor	_	_	*->15-1	*[15]	
+1-20	122-125	IMF	ORG	_	*->15-1|*->19-1	*[15]|*[19]	
+1-21	126-127	.	_	_	_	_	
+1-22	128-130	Na	_	_	_	_	
+1-23	131-139	srečanju	_	_	_	_	
+1-24	140-152	Mednarodnega	ORG[1]	_	*->19-2	*[19]	
+1-25	153-162	denarnega	ORG[1]	_	*->19-2	*[19]	
+1-26	163-169	sklada	ORG[1]	_	*->19-2	*[19]	
+1-27	170-173	IMF	ORG[1]	_	*->19-2	*[19]	
+1-28	174-176	in	_	_	_	_	
+1-29	177-185	Svetovne	ORG[2]	_	*->4-1	*[4]	
+1-30	186-191	banke	ORG[2]	_	*->4-1	*[4]	
+1-31	192-194	SB	ORG[2]	_	*->4-1	*[4]	
+1-32	195-196	v	_	_	_	_	
+1-33	197-208	Washingtonu	LOC	_	*->2-1	*[2]	
+1-34	209-211	je	_	_	_	_	
+1-35	212-221	generalni	_	_	*->15-2	*[15]	
+1-36	222-230	direktor	_	_	*->15-2	*[15]	
+1-37	231-239	Dominque	PER[3]	_	*->15-2	*[15]	
+1-38	240-247	Strauss	PER[3]	_	*->15-2	*[15]	
+1-39	248-249	-	PER[3]	_	*->15-2	*[15]	
+1-40	250-254	Kahn	PER[3]	_	*->15-2	*[15]	
+1-41	255-263	opozoril	_	_	_	_	
+1-42	264-273	Stotisoči	_	_	_	_	
+1-43	274-278	bodo	_	_	_	_	
+1-44	279-287	stradali	_	_	_	_	
+1-45	288-289	,	_	_	_	_	
+1-46	290-296	prišlo	_	_	_	_	
+1-47	297-299	bo	_	_	_	_	
+1-48	300-302	do	_	_	_	_	
+1-49	303-311	razkroja	_	_	_	_	
+1-50	312-325	gospodarskega	_	_	_	_	
+1-51	326-332	okolja	_	_	_	_	
+1-52	333-336	ter	_	_	_	_	
+1-53	337-343	pozval	_	_	_	_	
+1-54	344-345	k	_	_	_	_	
+1-55	346-354	brzdanju	_	_	_	_	
+1-56	355-358	cen	_	_	_	_	
+1-57	359-364	hrane	_	_	_	_	
+1-58	365-367	in	_	_	_	_	
+1-59	368-377	inflacije	_	_	_	_	
+1-60	378-379	.	_	_	_	_	
+1-61	380-388	Razvojni	_	_	_	_	
+1-62	389-396	dosežki	_	_	_	_	
+1-63	397-399	iz	_	_	_	_	
+1-64	400-407	zadnjih	_	_	_	_	
+1-65	408-415	desetih	_	_	_	_	
+1-66	416-419	let	_	_	_	_	
+1-67	420-422	bi	_	_	_	_	
+1-68	423-425	po	_	_	_	_	
+1-69	426-434	njegovih	_	_	*->15-3	*[15]	
+1-70	435-442	besedah	_	_	_	_	
+1-71	443-448	lahko	_	_	_	_	
+1-72	449-453	bili	_	_	_	_	
+1-73	454-460	povsem	_	_	_	_	
+1-74	461-468	uničeni	_	_	_	_	
+1-75	469-470	,	_	_	_	_	
+1-76	471-479	socialni	_	_	_	_	
+1-77	480-486	nemiri	_	_	_	_	
+1-78	487-489	pa	_	_	_	_	
+1-79	490-492	bi	_	_	_	_	
+1-80	493-498	lahko	_	_	_	_	
+1-81	499-507	privedli	_	_	_	_	
+1-82	508-510	do	_	_	_	_	
+1-83	511-515	vojn	_	_	_	_	
+1-84	516-517	.	_	_	_	_	
+1-85	518-527	Generalni	_	3 - Nevtralno[21]	*->15-4	*[15]	
+1-86	528-536	direktor	_	3 - Nevtralno[21]	*->15-4	*[15]	
+1-87	537-540	IMF	ORG	3 - Nevtralno[21]	*->15-4|*->19-3	*[15]|*[19]	
+1-88	541-549	Dominque	PER[4]	3 - Nevtralno[21]	*->15-4	*[15]	
+1-89	550-557	Strauss	PER[4]	3 - Nevtralno[21]	*->15-4	*[15]	
+1-90	558-559	-	PER[4]	3 - Nevtralno[21]	*->15-4	*[15]	
+1-91	560-564	Kahn	PER[4]	3 - Nevtralno[21]	*->15-4	*[15]	
+1-92	565-571	poziva	_	_	_	_	
+1-93	572-573	k	_	_	_	_	
+1-94	574-582	brzdanju	_	_	_	_	
+1-95	583-586	cen	_	_	_	_	
+1-96	587-589	in	_	_	_	_	
+1-97	590-599	inflacije	_	_	_	_	
+1-98	600-601	.	_	_	_	_	
+1-99	602-608	Zadnje	_	_	_	_	
+1-100	609-615	mesece	_	_	_	_	
+1-101	616-618	so	_	_	_	_	
+1-102	619-624	višje	_	_	_	_	
+1-103	625-629	cene	_	_	_	_	
+1-104	630-635	hrane	_	_	_	_	
+1-105	636-638	že	_	_	_	_	
+1-106	639-647	privedle	_	_	_	_	
+1-107	648-650	do	_	_	_	_	
+1-108	651-660	socialnih	_	_	_	_	
+1-109	661-668	nemirov	_	_	_	_	
+1-110	669-670	v	_	_	_	_	
+1-111	671-674	več	_	_	_	_	
+1-112	675-682	državah	_	_	_	_	
+1-113	683-684	,	_	_	_	_	
+1-114	685-688	med	_	_	_	_	
+1-115	689-695	drugim	_	_	_	_	
+1-116	696-698	na	_	_	_	_	
+1-117	699-706	Haitiju	LOC	_	*->16-1	*[16]	
+1-118	707-708	,	_	_	_	_	
+1-119	709-710	v	_	_	_	_	
+1-120	711-717	Egiptu	LOC	2 - Negativno	*->13-1	*[13]	
+1-121	718-720	in	_	_	_	_	
+1-122	721-723	na	_	_	_	_	
+1-123	724-733	Filipinih	LOC	2 - Negativno	*->9-1	*[9]	
+1-124	734-735	.	_	_	_	_	
+1-125	736-738	Na	_	_	_	_	
+1-126	739-746	Haitiju	LOC	1 - Zelo negativno	*->16-2	*[16]	
+1-127	747-748	,	_	_	_	_	
+1-128	749-753	kjer	_	_	_	_	
+1-129	754-760	večina	_	_	_	_	
+1-130	761-766	ljudi	_	_	_	_	
+1-131	767-771	živi	_	_	_	_	
+1-132	772-773	z	_	_	_	_	
+1-133	774-778	manj	_	_	_	_	
+1-134	779-782	kot	_	_	_	_	
+1-135	783-788	dvema	_	_	_	_	
+1-136	789-798	dolarjema	_	_	_	_	
+1-137	799-801	na	_	_	_	_	
+1-138	802-805	dan	_	_	_	_	
+1-139	806-807	,	_	_	_	_	
+1-140	808-810	so	_	_	_	_	
+1-141	811-815	tako	_	_	_	_	
+1-142	816-822	zaradi	_	_	_	_	
+1-143	823-830	nasilja	_	_	_	_	
+1-144	831-832	,	_	_	_	_	
+1-145	833-835	ki	_	_	_	_	
+1-146	836-838	je	_	_	_	_	
+1-147	839-843	pred	_	_	_	_	
+1-148	844-849	tedni	_	_	_	_	
+1-149	850-860	izbruhnilo	_	_	_	_	
+1-150	861-867	zaradi	_	_	_	_	
+1-151	868-875	visokih	_	_	_	_	
+1-152	876-879	cen	_	_	_	_	
+1-153	880-885	hrane	_	_	_	_	
+1-154	886-888	in	_	_	_	_	
+1-155	889-894	goriv	_	_	_	_	
+1-156	895-896	,	_	_	_	_	
+1-157	897-898	v	_	_	_	_	
+1-158	899-905	soboto	_	_	_	_	
+1-159	906-915	odstavili	_	_	_	_	
+1-160	916-925	premierja	_	_	_	_	
+1-161	926-927	.	_	_	_	_	
+1-162	928-929	V	_	_	_	_	
+1-163	930-939	Pakistanu	LOC	2 - Negativno	*->1-1	*[1]	
+1-164	940-942	in	_	_	_	_	
+1-165	943-945	na	_	_	_	_	
+1-166	946-953	Tajskem	LOC	2 - Negativno	*->7-1	*[7]	
+1-167	954-960	vojaki	_	_	_	_	
+1-168	961-969	varujejo	_	_	_	_	
+1-169	970-979	skladišča	_	_	_	_	
+1-170	980-985	hrane	_	_	_	_	
+1-171	986-987	,	_	_	_	_	
+1-172	988-990	da	_	_	_	_	
+1-173	991-994	jih	_	_	_	_	
+1-174	995-1005	prebivalci	_	_	_	_	
+1-175	1006-1008	ne	_	_	_	_	
+1-176	1009-1011	bi	_	_	_	_	
+1-177	1012-1019	plenili	_	_	_	_	
+1-178	1020-1021	.	_	_	_	_	
+1-179	1022-1024	Po	_	_	_	_	
+1-180	1025-1033	podatkih	_	_	_	_	
+1-181	1034-1042	Svetovne	ORG[5]	3 - Nevtralno[22]	*->17-1	*[17]	
+1-182	1043-1055	organizacije	ORG[5]	3 - Nevtralno[22]	*->17-1	*[17]	
+1-183	1056-1058	za	ORG[5]	3 - Nevtralno[22]	*->17-1	*[17]	
+1-184	1059-1067	prehrano	ORG[5]	3 - Nevtralno[22]	*->17-1	*[17]	
+1-185	1068-1070	in	ORG[5]	3 - Nevtralno[22]	*->17-1	*[17]	
+1-186	1071-1081	kmetijstvo	ORG[5]	3 - Nevtralno[22]	*->17-1	*[17]	
+1-187	1082-1084	se	_	_	_	_	
+1-188	1085-1088	kar	_	_	_	_	
+1-189	1089-1091	37	_	_	_	_	
+1-190	1092-1097	držav	_	_	_	_	
+1-191	1098-1103	sooča	_	_	_	_	
+1-192	1104-1105	s	_	_	_	_	
+1-193	1106-1118	pomanjkanjem	_	_	_	_	
+1-194	1119-1124	hrane	_	_	_	_	
+1-195	1125-1126	.	_	_	_	_	
+1-196	1127-1137	Mednarodni	ORG[6]	_	*->6-1	*[6]	
+1-197	1138-1147	monetarni	ORG[6]	_	*->6-1	*[6]	
+1-198	1148-1150	in	ORG[6]	_	*->6-1	*[6]	
+1-199	1151-1159	finančni	ORG[6]	_	*->6-1	*[6]	
+1-200	1160-1165	odbor	ORG[6]	_	*->6-1	*[6]	
+1-201	1166-1169	IMF	ORG[6]|ORG[7]	_	*->6-1|*->19-4	*[6]|*[19]	
+1-202	1170-1178	poudarja	_	_	_	_	
+1-203	1179-1180	,	_	_	_	_	
+1-204	1181-1183	da	_	_	_	_	
+1-205	1184-1186	so	_	_	_	_	
+1-206	1187-1193	izzivi	_	_	_	_	
+1-207	1194-1195	,	_	_	_	_	
+1-208	1196-1197	s	_	_	_	_	
+1-209	1198-1206	katerimi	_	_	_	_	
+1-210	1207-1209	se	_	_	_	_	
+1-211	1210-1215	sooča	_	_	_	_	
+1-212	1216-1224	svetovno	_	_	_	_	
+1-213	1225-1237	gospodarstvo	_	_	_	_	
+1-214	1238-1239	,	_	_	_	_	
+1-215	1240-1248	globalne	_	_	_	_	
+1-216	1249-1255	narave	_	_	_	_	
+1-217	1256-1258	in	_	_	_	_	
+1-218	1259-1263	zato	_	_	_	_	
+1-219	1264-1273	zahtevajo	_	_	_	_	
+1-220	1274-1281	odločno	_	_	_	_	
+1-221	1282-1288	akcijo	_	_	_	_	
+1-222	1289-1291	in	_	_	_	_	
+1-223	1292-1297	tesno	_	_	_	_	
+1-224	1298-1309	sodelovanje	_	_	_	_	
+1-225	1310-1313	IMF	ORG	_	*->19-5	*[19]	
+1-226	1314-1315	,	_	_	_	_	
+1-227	1316-1318	SB	ORG	_	*->4-2	*[4]	
+1-228	1319-1322	ter	_	_	_	_	
+1-229	1323-1329	drugih	_	_	_	_	
+1-230	1330-1341	organizacij	_	_	_	_	
+1-231	1342-1343	,	_	_	_	_	
+1-232	1344-1346	da	_	_	_	_	
+1-233	1347-1349	bi	_	_	_	_	
+1-234	1350-1357	državam	_	_	_	_	
+1-235	1358-1359	v	_	_	_	_	
+1-236	1360-1367	razvoju	_	_	_	_	
+1-237	1368-1378	zagotovili	_	_	_	_	
+1-238	1379-1387	finančno	_	_	_	_	
+1-239	1388-1395	podporo	_	_	_	_	
+1-240	1396-1398	in	_	_	_	_	
+1-241	1399-1406	nasvete	_	_	_	_	
+1-242	1407-1409	za	_	_	_	_	
+1-243	1410-1417	rešitev	_	_	_	_	
+1-244	1418-1419	.	_	_	_	_	
+1-245	1420-1421	V	_	_	_	_	
+1-246	1422-1433	Washingtonu	LOC	3 - Nevtralno	*->2-2	*[2]	
+1-247	1434-1436	se	_	_	_	_	
+1-248	1437-1441	bodo	_	_	_	_	
+1-249	1442-1449	sestali	_	_	_	_	
+1-250	1450-1454	tudi	_	_	_	_	
+1-251	1455-1467	predstavniki	_	_	_	_	
+1-252	1468-1476	Svetovne	ORG[8]	_	*->4-3	*[4]	
+1-253	1477-1482	banke	ORG[8]	_	*->4-3	*[4]	
+1-254	1483-1484	.	_	_	_	_	
+1-255	1485-1489	Tudi	_	_	_	_	
+1-256	1490-1491	v	_	_	_	_	
+1-257	1492-1500	središču	_	_	_	_	
+1-258	1501-1503	te	_	_	_	_	
+1-259	1504-1512	razprave	_	_	_	_	
+1-260	1513-1517	bodo	_	_	_	_	
+1-261	1518-1529	naraščajoče	_	_	_	_	
+1-262	1530-1534	cene	_	_	_	_	
+1-263	1535-1540	hrane	_	_	_	_	
+1-264	1541-1542	,	_	_	_	_	
+1-265	1543-1553	dogovorili	_	_	_	_	
+1-266	1554-1556	pa	_	_	_	_	
+1-267	1557-1560	naj	_	_	_	_	
+1-268	1561-1563	bi	_	_	_	_	
+1-269	1564-1566	se	_	_	_	_	
+1-270	1567-1568	o	_	_	_	_	
+1-271	1569-1576	velikem	_	_	_	_	
+1-272	1577-1590	koordiniranem	_	_	_	_	
+1-273	1591-1602	mednarodnem	_	_	_	_	
+1-274	1603-1609	načrtu	_	_	_	_	
+1-275	1610-1612	za	_	_	_	_	
+1-276	1613-1623	zmanjšanje	_	_	_	_	
+1-277	1624-1630	lakote	_	_	_	_	
+1-278	1631-1632	.	_	_	_	_	
+1-279	1633-1643	Predsednik	_	3 - Nevtralno[23]	*->18-1	*[18]	
+1-280	1644-1646	SB	ORG	3 - Nevtralno[23]|3 - Nevtralno[24]	*->18-1|*->4-4	*[18]|*[4]	
+1-281	1647-1653	Robert	PER[9]	3 - Nevtralno[23]	*->18-1	*[18]	
+1-282	1654-1662	Zoellick	PER[9]	3 - Nevtralno[23]	*->18-1	*[18]	
+1-283	1663-1665	je	_	_	_	_	
+1-284	1666-1670	pred	_	_	_	_	
+1-285	1671-1676	tedni	_	_	_	_	
+1-286	1677-1679	že	_	_	_	_	
+1-287	1680-1686	pozval	_	_	_	_	
+1-288	1687-1688	k	_	_	_	_	
+1-289	1689-1700	oblikovanju	_	_	_	_	
+1-290	1701-1704	new	_	_	_	_	
+1-291	1705-1710	deala	_	_	_	_	
+1-292	1711-1716	glede	_	_	_	_	
+1-293	1717-1725	globalne	_	_	_	_	
+1-294	1726-1734	politike	_	_	_	_	
+1-295	1735-1740	hrane	_	_	_	_	
+1-296	1741-1742	,	_	_	_	_	
+1-297	1743-1746	saj	_	_	_	_	
+1-298	1747-1751	cene	_	_	_	_	
+1-299	1752-1757	živil	_	_	_	_	
+1-300	1758-1763	resno	_	_	_	_	
+1-301	1764-1772	ogrožajo	_	_	_	_	
+1-302	1773-1782	politično	_	_	_	_	
+1-303	1783-1793	stabilnost	_	_	_	_	
+1-304	1794-1795	v	_	_	_	_	
+1-305	1796-1802	revnih	_	_	_	_	
+1-306	1803-1810	državah	_	_	_	_	
+1-307	1811-1812	.	_	_	_	_	
+1-308	1813-1825	Spomladansko	_	_	_	_	
+1-309	1826-1834	srečanje	_	_	_	_	
+1-310	1835-1844	finančnih	_	_	_	_	
+1-311	1845-1854	ministrov	_	_	_	_	
+1-312	1855-1857	in	_	_	_	_	
+1-313	1858-1869	guvernerjev	_	_	_	_	
+1-314	1870-1880	centralnih	_	_	_	_	
+1-315	1881-1885	bank	_	_	_	_	
+1-316	1886-1889	185	_	_	_	_	
+1-317	1890-1895	držav	_	_	_	_	
+1-318	1896-1902	članic	_	_	_	_	
+1-319	1903-1906	IMF	ORG	_	*->19-6	*[19]	
+1-320	1907-1909	in	_	_	_	_	
+1-321	1910-1918	Svetovne	ORG[10]	_	*->4-5	*[4]	
+1-322	1919-1924	banke	ORG[10]	_	*->4-5	*[4]	
+1-323	1925-1926	,	_	_	_	_	
+1-324	1927-1929	ki	_	_	_	_	
+1-325	1930-1932	se	_	_	_	_	
+1-326	1933-1935	ga	_	_	_	_	
+1-327	1936-1947	udeležujeta	_	_	_	_	
+1-328	1948-1952	tudi	_	_	_	_	
+1-329	1953-1962	slovenski	_	_	*->11-1	*[11]	
+1-330	1963-1971	finančni	_	_	*->11-1	*[11]	
+1-331	1972-1980	minister	_	_	*->11-1	*[11]	
+1-332	1981-1987	Andrej	PER[11]	_	*->11-1	*[11]	
+1-333	1988-1993	Bajuk	PER[11]	_	*->11-1	*[11]	
+1-334	1994-1996	in	_	_	_	_	
+1-335	1997-2005	guverner	_	3 - Nevtralno[25]	*->5-1	*[5]	
+1-336	2006-2011	Banke	ORG[12]	3 - Nevtralno[25]	*->5-1|*->14-1	*[5]|*[14]	
+1-337	2012-2021	Slovenije	ORG[12]|LOC[13]	3 - Nevtralno[25]	*->5-1|*->14-1|*->3-1	*[5]|*[14]|*[3]	
+1-338	2022-2027	Marko	PER[14]	3 - Nevtralno[25]	*->5-1	*[5]	
+1-339	2028-2035	Kranjec	PER[14]	3 - Nevtralno[25]	*->5-1	*[5]	
+1-340	2036-2037	,	_	_	_	_	
+1-341	2038-2040	se	_	_	_	_	
+1-342	2041-2043	bo	_	_	_	_	
+1-343	2044-2051	končalo	_	_	_	_	
+1-344	2052-2053	s	_	_	_	_	
+1-345	2054-2063	plenarnim	_	_	_	_	
+1-346	2064-2074	zasedanjem	_	_	_	_	
+1-347	2075-2083	skupnega	_	_	_	_	
+1-348	2084-2094	razvojnega	_	_	_	_	
+1-349	2095-2101	odbora	_	3 - Nevtralno[26]	*->6-2	*[6]	
+1-350	2102-2105	IMF	ORG	3 - Nevtralno[26]	*->6-2|*->19-7	*[6]|*[19]	
+1-351	2106-2108	in	_	_	_	_	
+1-352	2109-2117	Svetovne	ORG[15]	3 - Nevtralno[27]	*->4-6	*[4]	
+1-353	2118-2123	banke	ORG[15]	3 - Nevtralno[27]	*->4-6	*[4]	
+1-354	2124-2125	o	_	_	_	_	
+1-355	2126-2130	boju	_	_	_	_	
+1-356	2131-2136	proti	_	_	_	_	
+1-357	2137-2151	revščini.Bajuk	_	_	_	_	
+1-358	2152-2154	EU	ORG	_	*->20-1	*[20]	
+1-359	2155-2159	manj	_	_	_	_	
+1-360	2160-2172	pesimistična	_	_	_	_	
+1-361	2173-2176	kot	_	_	_	_	
+1-362	2177-2180	IMF	ORG	_	*->19-8	*[19]	
+1-363	2181-2189	Minister	_	_	*->12-1	*[12]	
+1-364	2190-2192	za	_	_	*->12-1	*[12]	
+1-365	2193-2200	finance	_	_	*->12-1	*[12]	
+1-366	2201-2203	in	_	_	_	_	
+1-367	2204-2214	predsednik	_	_	*->12-2	*[12]	
+1-368	2215-2220	Sveta	ORG[16]	3 - Nevtralno[28]	*->12-2|*->10-1	*[12]|*[10]	
+1-369	2221-2223	za	ORG[16]	3 - Nevtralno[28]	*->12-2|*->10-1	*[12]|*[10]	
+1-370	2224-2233	ekonomske	ORG[16]	3 - Nevtralno[28]	*->12-2|*->10-1	*[12]|*[10]	
+1-371	2234-2236	in	ORG[16]	3 - Nevtralno[28]	*->12-2|*->10-1	*[12]|*[10]	
+1-372	2237-2245	finančne	ORG[16]	3 - Nevtralno[28]	*->12-2|*->10-1	*[12]|*[10]	
+1-373	2246-2252	zadeve	ORG[16]	3 - Nevtralno[28]	*->12-2|*->10-1	*[12]|*[10]	
+1-374	2253-2259	Andrej	PER[17]	_	*->12-2	*[12]	
+1-375	2260-2265	Bajuk	PER[17]	_	*->12-2	*[12]	
+1-376	2266-2268	je	_	_	_	_	
+1-377	2269-2277	poudaril	_	_	_	_	
+1-378	2278-2279	,	_	_	_	_	
+1-379	2280-2282	da	_	_	_	_	
+1-380	2283-2285	je	_	_	_	_	
+1-381	2286-2288	EU	ORG	_	*->20-2	*[20]	
+1-382	2289-2292	pri	_	_	_	_	
+1-383	2293-2299	svojih	_	_	*->20-3	*[20]	
+1-384	2300-2309	napovedih	_	_	_	_	
+1-385	2310-2314	manj	_	_	_	_	
+1-386	2315-2327	pesimistična	_	_	_	_	
+1-387	2328-2331	kot	_	_	_	_	
+1-388	2332-2335	IMF	ORG	_	*->19-9	*[19]	
+1-389	2336-2337	,	_	_	_	_	
+1-390	2338-2344	čeprav	_	_	_	_	
+1-391	2345-2347	se	_	_	_	_	
+1-392	2348-2355	tveganj	_	_	_	_	
+1-393	2356-2362	zaveda	_	_	*->20-4	*[20]	
+1-394	2363-2364	,	_	_	_	_	
+1-395	2365-2368	saj	_	_	_	_	
+1-396	2369-2371	je	_	_	_	_	
+1-397	2372-2382	prihodnost	_	_	_	_	
+1-398	2383-2389	precej	_	_	_	_	
+1-399	2390-2398	negotova	_	_	_	_	
+1-400	2399-2400	.	_	_	_	_	
+1-401	2401-2409	Napovedi	_	_	_	_	
+1-402	2410-2413	IMF	ORG	3 - Nevtralno	*->19-10	*[19]	
+1-403	2414-2416	so	_	_	_	_	
+1-404	2417-2423	preveč	_	_	_	_	
+1-405	2424-2427	pod	_	_	_	_	
+1-406	2428-2435	vplivom	_	_	_	_	
+1-407	2436-2444	dogajanj	_	_	_	_	
+1-408	2445-2446	v	_	_	_	_	
+1-409	2447-2456	ameriškem	_	_	_	_	
+1-410	2457-2469	gospodarstvu	_	_	_	_	
+1-411	2470-2471	,	_	_	_	_	
+1-412	2472-2476	tudi	_	_	_	_	
+1-413	2477-2479	ko	_	_	_	_	
+1-414	2480-2483	gre	_	_	_	_	
+1-415	2484-2486	za	_	_	_	_	
+1-416	2487-2495	napovedi	_	_	_	_	
+1-417	2496-2498	za	_	_	_	_	
+1-418	2499-2505	Evropo	ORG	3 - Nevtralno	*->20-5	*[20]	
+1-419	2506-2507	,	_	_	_	_	
+1-420	2508-2510	je	_	_	*->12-3	*[12]	
+1-421	2511-2516	dejal	_	_	*->12-3	*[12]	
+1-422	2517-2518	.	_	_	_	_	
+1-423	2519-2527	Evropsko	_	_	_	_	
+1-424	2528-2540	gospodarstvo	_	_	_	_	
+1-425	2541-2543	in	_	_	_	_	
+1-426	2544-2552	finančni	_	_	_	_	
+1-427	2553-2559	sistem	_	_	_	_	
+1-428	2560-2562	se	_	_	_	_	
+1-429	2563-2574	razlikujeta	_	_	_	_	
+1-430	2575-2577	od	_	_	_	_	
+1-431	2578-2588	ameriškega	_	_	_	_	
+1-432	2589-2590	,	_	_	_	_	
+1-433	2591-2594	saj	_	_	_	_	
+1-434	2595-2603	evropsko	_	_	_	_	
+1-435	2604-2616	gospodarstvo	_	_	_	_	
+1-436	2617-2622	sloni	_	_	_	_	
+1-437	2623-2625	na	_	_	_	_	
+1-438	2626-2630	bolj	_	_	_	_	
+1-439	2631-2637	trdnih	_	_	_	_	
+1-440	2638-2653	makroekonomskih	_	_	_	_	
+1-441	2654-2662	temeljih	_	_	_	_	
+1-442	2663-2664	,	_	_	_	_	
+1-443	2665-2669	zato	_	_	_	_	
+1-444	2670-2678	pretrese	_	_	_	_	
+1-445	2679-2684	lažje	_	_	_	_	
+1-446	2685-2692	prenaša	_	_	_	_	
+1-447	2693-2694	.	_	_	_	_	
+1-448	2695-2699	Tudi	_	_	_	_	
+1-449	2700-2706	realni	_	_	_	_	
+1-450	2707-2713	sektor	_	_	_	_	
+1-451	2714-2716	je	_	_	_	_	
+1-452	2717-2723	zaradi	_	_	_	_	
+1-453	2724-2728	tega	_	_	_	_	
+1-454	2729-2733	manj	_	_	_	_	
+1-455	2734-2742	prizadet	_	_	_	_	
+1-456	2743-2746	kot	_	_	_	_	
+1-457	2747-2755	ameriški	_	_	_	_	
+1-458	2756-2757	,	_	_	_	_	
+1-459	2758-2760	je	_	_	*->12-4	*[12]	
+1-460	2761-2769	poudaril	_	_	*->12-4	*[12]	
+1-461	2770-2771	.	_	_	_	_	
+1-462	2772-2777	Glede	_	_	_	_	
+1-463	2778-2787	inflacije	_	_	_	_	
+1-464	2788-2789	v	_	_	_	_	
+1-465	2790-2799	Sloveniji	LOC	_	*->3-2	*[3]	
+1-466	2800-2809	pričakuje	_	_	*->12-5	*[12]	
+1-467	2810-2811	,	_	_	_	_	
+1-468	2812-2814	da	_	_	_	_	
+1-469	2815-2817	se	_	_	_	_	
+1-470	2818-2820	bo	_	_	_	_	
+1-471	2821-2828	umirila	_	_	_	_	
+1-472	2829-2833	Tudi	_	_	_	_	
+1-473	2834-2838	Urad	ORG[18]	3 - Nevtralno[29]	*->8-1	*[8]	
+1-474	2839-2841	za	ORG[18]	3 - Nevtralno[29]	*->8-1	*[8]	
+1-475	2842-2856	makroekonomske	ORG[18]	3 - Nevtralno[29]	*->8-1	*[8]	
+1-476	2857-2864	analize	ORG[18]	3 - Nevtralno[29]	*->8-1	*[8]	
+1-477	2865-2867	in	ORG[18]	3 - Nevtralno[29]	*->8-1	*[8]	
+1-478	2868-2874	razvoj	ORG[18]	3 - Nevtralno[29]	*->8-1	*[8]	
+1-479	2875-2878	ter	_	_	_	_	
+1-480	2879-2884	Banka	ORG[19]	3 - Nevtralno[30]	*->14-2	*[14]	
+1-481	2885-2894	Slovenije	ORG[19]|LOC[20]	3 - Nevtralno[30]|2 - Negativno[31]	*->14-2|*->3-3	*[14]|*[3]	
+1-482	2895-2896	,	_	_	_	_	
+1-483	2897-2899	ki	_	_	_	_	
+1-484	2900-2903	sta	_	_	_	_	
+1-485	2904-2917	tradicionalno	_	_	_	_	
+1-486	2918-2934	konzervativnejša	_	_	_	_	
+1-487	2935-2936	,	_	_	_	_	
+1-488	2937-2939	to	_	_	_	_	
+1-489	2940-2952	napovedujeta	_	_	_	_	
+1-490	2953-2954	.	_	_	_	_	
+1-491	2955-2961	Vendar	_	_	_	_	
+1-492	2962-2964	pa	_	_	_	_	
+1-493	2965-2969	rast	_	_	_	_	
+1-494	2970-2974	plač	_	_	_	_	
+1-495	2975-2976	v	_	_	_	_	
+1-496	2977-2984	nobenem	_	_	_	_	
+1-497	2985-2992	primeru	_	_	_	_	
+1-498	2993-2995	ne	_	_	_	_	
+1-499	2996-2999	sme	_	_	_	_	
+1-500	3000-3007	preseči	_	_	_	_	
+1-501	3008-3013	rasti	_	_	_	_	
+1-502	3014-3028	produktivnosti	_	_	_	_	
+1-503	3029-3030	,	_	_	_	_	
+1-504	3031-3034	ker	_	_	_	_	
+1-505	3035-3037	bi	_	_	_	_	
+1-506	3038-3040	to	_	_	_	_	
+1-507	3041-3046	imelo	_	_	_	_	
+1-508	3047-3060	katastrofalne	_	_	_	_	
+1-509	3061-3070	posledice	_	_	_	_	
+1-510	3071-3073	na	_	_	_	_	
+1-511	3074-3083	inflacijo	_	_	_	_	
+1-512	3084-3085	,	_	_	_	_	
+1-513	3086-3090	zato	_	_	_	_	
+1-514	3091-3094	sem	_	_	_	_	
+1-515	3095-3098	kot	_	_	_	_	
+1-516	3099-3107	finančni	_	4 - Pozitivno[32]	*->12-6	*[12]	
+1-517	3108-3116	minister	_	4 - Pozitivno[32]	*->12-6	*[12]	
+1-518	3117-3118	v	_	_	_	_	
+1-519	3119-3126	stalnem	_	_	_	_	
+1-520	3127-3134	dialogu	_	_	_	_	
+1-521	3135-3136	s	_	_	_	_	
+1-522	3137-3147	socialnimi	_	_	_	_	
+1-523	3148-3157	partnerji	_	_	_	_	

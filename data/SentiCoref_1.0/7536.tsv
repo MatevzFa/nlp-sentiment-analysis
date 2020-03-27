@@ -1,0 +1,200 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=163 rednih tedenskih poletov Adria Airways bo povečala število poletov v Beograd , kamor bodo od 30 . oktobra leteli osemkrat tedensko . Sicer pa Adria iz Ljubljane tedensko leti na 15 destinacij . Konec oktobra Adria prehaja na zimski čas letenja , ki bo veljal do 24 . marca prihodnje leto . Slovenski letalski prevoznik bo iz Ljubljane v zimskem obdobju opravil 163 rednih tedenskih poletov na 15 destinacij - večinoma po Evropi . Večkrat dnevno v Frankfurt , München , Zürich Štirikrat dnevno bodo letala letela v Frankfurt , trikrat dnevno pa na Dunaj , v München in Zürich . Enajstkrat na teden bodo povezali Ljubljano in Skopje , osemkrat tedensko pa bo mogoče leteti v Beograd . Devetkrat tedensko bo polet v Moskvo , sedem poletov tedensko bodo opravili v Istanbul , Prištino in Tirano , šest v Sarajevo in pet v Amsterdam . Trikrat tedensko bo Adria letela v Podgorico , dvakrat na teden pa v Köbenhavn . Iz Prištine v Nemčijo Decembra lani je Adria Airways vzpostavila tudi redne povezave iz Prištine , od koder bo pozimi štirikrat tedensko letela v München , sedemkrat tedensko pa v Frankfurt
+1-1	0-3	163	_	_	_	_	
+1-2	4-10	rednih	_	_	_	_	
+1-3	11-20	tedenskih	_	_	_	_	
+1-4	21-28	poletov	_	_	_	_	
+1-5	29-34	Adria	ORG[1]	_	*->1-1	*[1]	
+1-6	35-42	Airways	ORG[1]	_	*->1-1	*[1]	
+1-7	43-45	bo	_	_	_	_	
+1-8	46-54	povečala	_	_	_	_	
+1-9	55-62	število	_	_	_	_	
+1-10	63-70	poletov	_	_	_	_	
+1-11	71-72	v	_	_	_	_	
+1-12	73-80	Beograd	LOC	_	*->2-1	*[2]	
+1-13	81-82	,	_	_	_	_	
+1-14	83-88	kamor	_	_	_	_	
+1-15	89-93	bodo	_	_	_	_	
+1-16	94-96	od	_	_	_	_	
+1-17	97-99	30	_	_	_	_	
+1-18	100-101	.	_	_	_	_	
+1-19	102-109	oktobra	_	_	_	_	
+1-20	110-116	leteli	_	_	_	_	
+1-21	117-125	osemkrat	_	_	_	_	
+1-22	126-134	tedensko	_	_	_	_	
+1-23	135-136	.	_	_	_	_	
+1-24	137-142	Sicer	_	_	_	_	
+1-25	143-145	pa	_	_	_	_	
+1-26	146-151	Adria	ORG	_	*->1-2	*[1]	
+1-27	152-154	iz	_	_	_	_	
+1-28	155-164	Ljubljane	LOC	_	*->3-1	*[3]	
+1-29	165-173	tedensko	_	_	_	_	
+1-30	174-178	leti	_	_	_	_	
+1-31	179-181	na	_	_	_	_	
+1-32	182-184	15	_	_	_	_	
+1-33	185-195	destinacij	_	_	_	_	
+1-34	196-197	.	_	_	_	_	
+1-35	198-203	Konec	_	_	_	_	
+1-36	204-211	oktobra	_	_	_	_	
+1-37	212-217	Adria	ORG	_	*->1-3	*[1]	
+1-38	218-225	prehaja	_	_	_	_	
+1-39	226-228	na	_	_	_	_	
+1-40	229-235	zimski	_	_	_	_	
+1-41	236-239	čas	_	_	_	_	
+1-42	240-247	letenja	_	_	_	_	
+1-43	248-249	,	_	_	_	_	
+1-44	250-252	ki	_	_	_	_	
+1-45	253-255	bo	_	_	_	_	
+1-46	256-262	veljal	_	_	_	_	
+1-47	263-265	do	_	_	_	_	
+1-48	266-268	24	_	_	_	_	
+1-49	269-270	.	_	_	_	_	
+1-50	271-276	marca	_	_	_	_	
+1-51	277-286	prihodnje	_	_	_	_	
+1-52	287-291	leto	_	_	_	_	
+1-53	292-293	.	_	_	_	_	
+1-54	294-303	Slovenski	_	_	*->1-4	*[1]	
+1-55	304-312	letalski	_	_	*->1-4	*[1]	
+1-56	313-322	prevoznik	_	_	*->1-4	*[1]	
+1-57	323-325	bo	_	_	_	_	
+1-58	326-328	iz	_	_	_	_	
+1-59	329-338	Ljubljane	LOC	_	*->3-2	*[3]	
+1-60	339-340	v	_	_	_	_	
+1-61	341-348	zimskem	_	_	_	_	
+1-62	349-356	obdobju	_	_	_	_	
+1-63	357-364	opravil	_	_	_	_	
+1-64	365-368	163	_	_	_	_	
+1-65	369-375	rednih	_	_	_	_	
+1-66	376-385	tedenskih	_	_	_	_	
+1-67	386-393	poletov	_	_	_	_	
+1-68	394-396	na	_	_	_	_	
+1-69	397-399	15	_	_	_	_	
+1-70	400-410	destinacij	_	_	_	_	
+1-71	411-412	-	_	_	_	_	
+1-72	413-421	večinoma	_	_	_	_	
+1-73	422-424	po	_	_	_	_	
+1-74	425-431	Evropi	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-75	432-433	.	_	_	_	_	
+1-76	434-441	Večkrat	_	_	_	_	
+1-77	442-448	dnevno	_	_	_	_	
+1-78	449-450	v	_	_	_	_	
+1-79	451-460	Frankfurt	LOC	_	*->4-1	*[4]	
+1-80	461-462	,	_	_	_	_	
+1-81	463-470	München	LOC	_	*->7-1	*[7]	
+1-82	471-472	,	_	_	_	_	
+1-83	473-479	Zürich	LOC	_	*->5-1	*[5]	
+1-84	480-489	Štirikrat	_	_	_	_	
+1-85	490-496	dnevno	_	_	_	_	
+1-86	497-501	bodo	_	_	_	_	
+1-87	502-508	letala	_	_	_	_	
+1-88	509-515	letela	_	_	_	_	
+1-89	516-517	v	_	_	_	_	
+1-90	518-527	Frankfurt	LOC	_	*->4-2	*[4]	
+1-91	528-529	,	_	_	_	_	
+1-92	530-537	trikrat	_	_	_	_	
+1-93	538-544	dnevno	_	_	_	_	
+1-94	545-547	pa	_	_	_	_	
+1-95	548-550	na	_	_	_	_	
+1-96	551-556	Dunaj	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-97	557-558	,	_	_	_	_	
+1-98	559-560	v	_	_	_	_	
+1-99	561-568	München	LOC	_	*->7-2	*[7]	
+1-100	569-571	in	_	_	_	_	
+1-101	572-578	Zürich	LOC	3 - Nevtralno	*->5-2	*[5]	
+1-102	579-580	.	_	_	_	_	
+1-103	581-591	Enajstkrat	_	_	_	_	
+1-104	592-594	na	_	_	_	_	
+1-105	595-600	teden	_	_	_	_	
+1-106	601-605	bodo	_	_	_	_	
+1-107	606-614	povezali	_	_	_	_	
+1-108	615-624	Ljubljano	LOC	3 - Nevtralno	*->3-3	*[3]	
+1-109	625-627	in	_	_	_	_	
+1-110	628-634	Skopje	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-111	635-636	,	_	_	_	_	
+1-112	637-645	osemkrat	_	_	_	_	
+1-113	646-654	tedensko	_	_	_	_	
+1-114	655-657	pa	_	_	_	_	
+1-115	658-660	bo	_	_	_	_	
+1-116	661-667	mogoče	_	_	_	_	
+1-117	668-674	leteti	_	_	_	_	
+1-118	675-676	v	_	_	_	_	
+1-119	677-684	Beograd	LOC	3 - Nevtralno	*->2-2	*[2]	
+1-120	685-686	.	_	_	_	_	
+1-121	687-696	Devetkrat	_	_	_	_	
+1-122	697-705	tedensko	_	_	_	_	
+1-123	706-708	bo	_	_	_	_	
+1-124	709-714	polet	_	_	_	_	
+1-125	715-716	v	_	_	_	_	
+1-126	717-723	Moskvo	LOC	3 - Nevtralno	*->11-1	*[11]	
+1-127	724-725	,	_	_	_	_	
+1-128	726-731	sedem	_	_	_	_	
+1-129	732-739	poletov	_	_	_	_	
+1-130	740-748	tedensko	_	_	_	_	
+1-131	749-753	bodo	_	_	_	_	
+1-132	754-762	opravili	_	_	_	_	
+1-133	763-764	v	_	_	_	_	
+1-134	765-773	Istanbul	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-135	774-775	,	_	_	_	_	
+1-136	776-784	Prištino	LOC	_	*->6-1	*[6]	
+1-137	785-787	in	_	_	_	_	
+1-138	788-794	Tirano	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-139	795-796	,	_	_	_	_	
+1-140	797-801	šest	_	_	_	_	
+1-141	802-803	v	_	_	_	_	
+1-142	804-812	Sarajevo	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-143	813-815	in	_	_	_	_	
+1-144	816-819	pet	_	_	_	_	
+1-145	820-821	v	_	_	_	_	
+1-146	822-831	Amsterdam	LOC	3 - Nevtralno	*->15-1	*[15]	
+1-147	832-833	.	_	_	_	_	
+1-148	834-841	Trikrat	_	_	_	_	
+1-149	842-850	tedensko	_	_	_	_	
+1-150	851-853	bo	_	_	_	_	
+1-151	854-859	Adria	ORG	_	*->1-5	*[1]	
+1-152	860-866	letela	_	_	_	_	
+1-153	867-868	v	_	_	_	_	
+1-154	869-878	Podgorico	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-155	879-880	,	_	_	_	_	
+1-156	881-888	dvakrat	_	_	_	_	
+1-157	889-891	na	_	_	_	_	
+1-158	892-897	teden	_	_	_	_	
+1-159	898-900	pa	_	_	_	_	
+1-160	901-902	v	_	_	_	_	
+1-161	903-912	Köbenhavn	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-162	913-914	.	_	_	_	_	
+1-163	915-917	Iz	_	_	_	_	
+1-164	918-926	Prištine	LOC	_	*->6-2	*[6]	
+1-165	927-928	v	_	_	_	_	
+1-166	929-936	Nemčijo	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-167	937-945	Decembra	_	_	_	_	
+1-168	946-950	lani	_	_	_	_	
+1-169	951-953	je	_	_	_	_	
+1-170	954-959	Adria	ORG[2]	_	*->1-6	*[1]	
+1-171	960-967	Airways	ORG[2]	_	*->1-6	*[1]	
+1-172	968-979	vzpostavila	_	_	_	_	
+1-173	980-984	tudi	_	_	_	_	
+1-174	985-990	redne	_	_	_	_	
+1-175	991-999	povezave	_	_	_	_	
+1-176	1000-1002	iz	_	_	_	_	
+1-177	1003-1011	Prištine	LOC	3 - Nevtralno	*->6-3	*[6]	
+1-178	1012-1013	,	_	_	_	_	
+1-179	1014-1016	od	_	_	_	_	
+1-180	1017-1022	koder	_	_	_	_	
+1-181	1023-1025	bo	_	_	_	_	
+1-182	1026-1032	pozimi	_	_	_	_	
+1-183	1033-1042	štirikrat	_	_	_	_	
+1-184	1043-1051	tedensko	_	_	_	_	
+1-185	1052-1058	letela	_	4 - Pozitivno	*->1-7	*[1]	
+1-186	1059-1060	v	_	_	_	_	
+1-187	1061-1068	München	LOC	3 - Nevtralno	*->7-3	*[7]	
+1-188	1069-1070	,	_	_	_	_	
+1-189	1071-1080	sedemkrat	_	_	_	_	
+1-190	1081-1089	tedensko	_	_	_	_	
+1-191	1090-1092	pa	_	_	_	_	
+1-192	1093-1094	v	_	_	_	_	
+1-193	1095-1104	Frankfurt	LOC	3 - Nevtralno	*->4-3	*[4]	

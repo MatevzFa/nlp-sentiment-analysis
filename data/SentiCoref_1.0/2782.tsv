@@ -1,0 +1,431 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Droga Kolinska spoštuje pridobljena certifikata halal , ki zagotavljata , da so testirani izdelki Argeta , med njimi tudi piščančja pašteta Argeta , izdelani v skladu s pravili in zahtevami halal standarda in torej ne vsebujejo svinjine . Certifikata sta izdali islamski skupnosti tako v Sloveniji kot tudi v BiH . Kot so sporočili iz Droge Kolinske , je 7 . avgusta letos neodvisni raziskovalni laboratorij Inštituta Gissel iz Hanovra opravil testiranja na piščančjih paštetah Argeta in ugotovil , da te ne vsebujejo svinjine . Slednji je testiranja izvedel po enaki metodologiji kot nemški inštitut za prehrano Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheit , ki je ugotovil , da piščančja pašteta Argeta vsebuje svinjsko meso in kosti . Analiza v inštitutu Gissel je bila opravljena na izdelkih Argeta iste ter tudi predhodne in naslednje serije , kot jih je v svojo analizo vključil tudi bavarski inštitut za prehrano . Inštitut Gissel je za svoje ugotovitve tudi izdal uradno potrdilo , poudarjajo v Drogi Kolinski . Ob tem dodajajo , da je tudi trgovska veriga Rewe , kamor družba prodaja svoje izdelke , neodvisno od Droge Kolinske izvedla testiranja , ki so potrdila , da izdelki Argeta ne vsebujejo svinjine . To testiranje je 4 . avgusta letos izvedla organizacija Lebensmittel Untersuchung iz Dunaja , ki je za rezultate testiranj tudi izdala uradno potrdilo.Pašteta Argeta ključni program družbe S tem so se v Drogi Kolinski odzvali na sredino vest STA , ki smo jo povzeli po srbski tiskovni agenciji Tanjug , da je bavarski inštitut za prehrano Bayerisches Landesamt für Gesundheit und Lebensmittelsicherheitt ugotovil , da so v piščančji pašteti Argeta proizvajalca Droga Kolinska uporabljali tudi svinjsko meso in kosti , kar je močno razburilo muslimane , predvsem turško skupnost v Nemčiji . Paštete s certifikatom halal ( v arabščini to pomeni dovoljeno oz . dobro ) Droga Kolinska proizvaja predvsem v svoji tovarni Argeta v Sarajevu , ki je z delom začela pred slabimi štirimi leti . Pašteta Argeta je ključni program družbe in je tudi najbolj prodajani namaz v Sloveniji , BiH , Makedoniji in na Kosovu , v Srbiji je po prodaji na drugem oz . tretjem mestu , v Švici in Avstriji pa na drugem . Največ namazov znamke Argeta je Droga Kolinska lani prodala v BiH , in sicer 31 odstotkov , sledijo Slovenija ( 13,6 odstotka ) , Srbija in Črna gora ( 13,1 odstotka ) , Makedonija ( 10,1 odstotka ) , Avstrija in Nemčija ( devet odstotkov ) , ter Kosovo ( 6,2 odstotka )
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-17	Droga	ORG[1]	_	*->2-1	*[2]	
+1-4	18-26	Kolinska	ORG[1]	_	*->2-1	*[2]	
+1-5	27-35	spoštuje	_	_	_	_	
+1-6	36-47	pridobljena	_	_	_	_	
+1-7	48-59	certifikata	_	_	_	_	
+1-8	60-65	halal	_	_	_	_	
+1-9	66-67	,	_	_	_	_	
+1-10	68-70	ki	_	_	_	_	
+1-11	71-83	zagotavljata	_	_	_	_	
+1-12	84-85	,	_	_	_	_	
+1-13	86-88	da	_	_	_	_	
+1-14	89-91	so	_	_	_	_	
+1-15	92-101	testirani	_	_	_	_	
+1-16	102-109	izdelki	_	_	_	_	
+1-17	110-116	Argeta	ORG	_	*->3-1	*[3]	
+1-18	117-118	,	_	_	_	_	
+1-19	119-122	med	_	_	_	_	
+1-20	123-128	njimi	_	_	_	_	
+1-21	129-133	tudi	_	_	_	_	
+1-22	134-143	piščančja	_	_	_	_	
+1-23	144-151	pašteta	_	_	_	_	
+1-24	152-158	Argeta	ORG	_	*->3-2	*[3]	
+1-25	159-160	,	_	_	_	_	
+1-26	161-169	izdelani	_	_	_	_	
+1-27	170-171	v	_	_	_	_	
+1-28	172-178	skladu	_	_	_	_	
+1-29	179-180	s	_	_	_	_	
+1-30	181-188	pravili	_	_	_	_	
+1-31	189-191	in	_	_	_	_	
+1-32	192-201	zahtevami	_	_	_	_	
+1-33	202-207	halal	_	_	_	_	
+1-34	208-217	standarda	_	_	_	_	
+1-35	218-220	in	_	_	_	_	
+1-36	221-226	torej	_	_	_	_	
+1-37	227-229	ne	_	_	_	_	
+1-38	230-239	vsebujejo	_	_	_	_	
+1-39	240-248	svinjine	_	_	_	_	
+1-40	249-250	.	_	_	_	_	
+1-41	251-262	Certifikata	_	_	_	_	
+1-42	263-266	sta	_	_	_	_	
+1-43	267-273	izdali	_	_	_	_	
+1-44	274-282	islamski	_	_	_	_	
+1-45	283-292	skupnosti	_	_	_	_	
+1-46	293-297	tako	_	_	_	_	
+1-47	298-299	v	_	_	_	_	
+1-48	300-309	Sloveniji	LOC	_	*->4-1	*[4]	
+1-49	310-313	kot	_	_	_	_	
+1-50	314-318	tudi	_	_	_	_	
+1-51	319-320	v	_	_	_	_	
+1-52	321-324	BiH	LOC	_	*->14-1	*[14]	
+1-53	325-326	.	_	_	_	_	
+1-54	327-330	Kot	_	_	_	_	
+1-55	331-333	so	_	_	_	_	
+1-56	334-343	sporočili	_	_	_	_	
+1-57	344-346	iz	_	_	_	_	
+1-58	347-352	Droge	ORG[2]	_	*->2-2	*[2]	
+1-59	353-361	Kolinske	ORG[2]	_	*->2-2	*[2]	
+1-60	362-363	,	_	_	_	_	
+1-61	364-366	je	_	_	_	_	
+1-62	367-368	7	_	_	_	_	
+1-63	369-370	.	_	_	_	_	
+1-64	371-378	avgusta	_	_	_	_	
+1-65	379-384	letos	_	_	_	_	
+1-66	385-394	neodvisni	_	_	_	_	
+1-67	395-407	raziskovalni	_	_	_	_	
+1-68	408-419	laboratorij	_	_	_	_	
+1-69	420-429	Inštituta	ORG[3]	_	*->5-1	*[5]	
+1-70	430-436	Gissel	ORG[3]	_	*->5-1	*[5]	
+1-71	437-439	iz	_	_	_	_	
+1-72	440-447	Hanovra	ORG	3 - Nevtralno	*->6-1	*[6]	
+1-73	448-455	opravil	_	_	_	_	
+1-74	456-466	testiranja	_	_	_	_	
+1-75	467-469	na	_	_	_	_	
+1-76	470-480	piščančjih	_	_	_	_	
+1-77	481-489	paštetah	_	_	_	_	
+1-78	490-496	Argeta	ORG	_	*->3-3	*[3]	
+1-79	497-499	in	_	_	_	_	
+1-80	500-508	ugotovil	_	_	*->5-2	*[5]	
+1-81	509-510	,	_	_	_	_	
+1-82	511-513	da	_	_	_	_	
+1-83	514-516	te	_	_	_	_	
+1-84	517-519	ne	_	_	_	_	
+1-85	520-529	vsebujejo	_	_	_	_	
+1-86	530-538	svinjine	_	_	_	_	
+1-87	539-540	.	_	_	_	_	
+1-88	541-548	Slednji	_	_	*->5-3	*[5]	
+1-89	549-551	je	_	_	_	_	
+1-90	552-562	testiranja	_	_	_	_	
+1-91	563-570	izvedel	_	_	_	_	
+1-92	571-573	po	_	_	_	_	
+1-93	574-579	enaki	_	_	_	_	
+1-94	580-592	metodologiji	_	_	_	_	
+1-95	593-596	kot	_	_	_	_	
+1-96	597-603	nemški	_	_	*->7-1	*[7]	
+1-97	604-612	inštitut	_	_	*->7-1	*[7]	
+1-98	613-615	za	_	_	*->7-1	*[7]	
+1-99	616-624	prehrano	_	_	*->7-1	*[7]	
+1-100	625-636	Bayerisches	ORG[4]	_	*->7-1	*[7]	
+1-101	637-646	Landesamt	ORG[4]	_	*->7-1	*[7]	
+1-102	647-650	für	ORG[4]	_	*->7-1	*[7]	
+1-103	651-661	Gesundheit	ORG[4]	_	*->7-1	*[7]	
+1-104	662-665	und	ORG[4]	_	*->7-1	*[7]	
+1-105	666-688	Lebensmittelsicherheit	ORG[4]	_	*->7-1	*[7]	
+1-106	689-690	,	_	_	_	_	
+1-107	691-693	ki	_	_	_	_	
+1-108	694-696	je	_	_	_	_	
+1-109	697-705	ugotovil	_	_	*->7-2	*[7]	
+1-110	706-707	,	_	_	_	_	
+1-111	708-710	da	_	_	_	_	
+1-112	711-720	piščančja	_	_	_	_	
+1-113	721-728	pašteta	_	_	_	_	
+1-114	729-735	Argeta	ORG	_	*->3-4	*[3]	
+1-115	736-743	vsebuje	_	_	_	_	
+1-116	744-752	svinjsko	_	_	_	_	
+1-117	753-757	meso	_	_	_	_	
+1-118	758-760	in	_	_	_	_	
+1-119	761-766	kosti	_	_	_	_	
+1-120	767-768	.	_	_	_	_	
+1-121	769-776	Analiza	_	_	_	_	
+1-122	777-778	v	_	_	_	_	
+1-123	779-788	inštitutu	_	_	*->5-4	*[5]	
+1-124	789-795	Gissel	ORG	_	*->5-4	*[5]	
+1-125	796-798	je	_	_	_	_	
+1-126	799-803	bila	_	_	_	_	
+1-127	804-814	opravljena	_	_	_	_	
+1-128	815-817	na	_	_	_	_	
+1-129	818-826	izdelkih	_	_	_	_	
+1-130	827-833	Argeta	ORG	_	*->3-5	*[3]	
+1-131	834-838	iste	_	_	_	_	
+1-132	839-842	ter	_	_	_	_	
+1-133	843-847	tudi	_	_	_	_	
+1-134	848-857	predhodne	_	_	_	_	
+1-135	858-860	in	_	_	_	_	
+1-136	861-870	naslednje	_	_	_	_	
+1-137	871-877	serije	_	_	_	_	
+1-138	878-879	,	_	_	_	_	
+1-139	880-883	kot	_	_	_	_	
+1-140	884-887	jih	_	_	_	_	
+1-141	888-890	je	_	_	_	_	
+1-142	891-892	v	_	_	_	_	
+1-143	893-898	svojo	_	_	_	_	
+1-144	899-906	analizo	_	_	_	_	
+1-145	907-915	vključil	_	_	_	_	
+1-146	916-920	tudi	_	_	_	_	
+1-147	921-929	bavarski	_	_	*->7-3	*[7]	
+1-148	930-938	inštitut	_	_	*->7-3	*[7]	
+1-149	939-941	za	_	_	*->7-3	*[7]	
+1-150	942-950	prehrano	_	_	*->7-3	*[7]	
+1-151	951-952	.	_	_	_	_	
+1-152	953-961	Inštitut	ORG[5]	3 - Nevtralno[15]	*->5-5	*[5]	
+1-153	962-968	Gissel	ORG[5]	3 - Nevtralno[15]	*->5-5	*[5]	
+1-154	969-971	je	_	_	_	_	
+1-155	972-974	za	_	_	_	_	
+1-156	975-980	svoje	_	_	_	_	
+1-157	981-991	ugotovitve	_	_	_	_	
+1-158	992-996	tudi	_	_	_	_	
+1-159	997-1002	izdal	_	_	_	_	
+1-160	1003-1009	uradno	_	_	_	_	
+1-161	1010-1018	potrdilo	_	_	_	_	
+1-162	1019-1020	,	_	_	_	_	
+1-163	1021-1031	poudarjajo	_	_	_	_	
+1-164	1032-1033	v	_	_	_	_	
+1-165	1034-1039	Drogi	ORG[6]	_	*->2-3	*[2]	
+1-166	1040-1048	Kolinski	ORG[6]	_	*->2-3	*[2]	
+1-167	1049-1050	.	_	_	_	_	
+1-168	1051-1053	Ob	_	_	_	_	
+1-169	1054-1057	tem	_	_	_	_	
+1-170	1058-1066	dodajajo	_	_	*->2-4	*[2]	
+1-171	1067-1068	,	_	_	_	_	
+1-172	1069-1071	da	_	_	_	_	
+1-173	1072-1074	je	_	_	_	_	
+1-174	1075-1079	tudi	_	_	_	_	
+1-175	1080-1088	trgovska	_	3 - Nevtralno[16]	*->8-1	*[8]	
+1-176	1089-1095	veriga	_	3 - Nevtralno[16]	*->8-1	*[8]	
+1-177	1096-1100	Rewe	ORG	3 - Nevtralno[16]	*->8-1	*[8]	
+1-178	1101-1102	,	_	_	_	_	
+1-179	1103-1108	kamor	_	_	_	_	
+1-180	1109-1115	družba	_	_	*->2-5	*[2]	
+1-181	1116-1123	prodaja	_	_	_	_	
+1-182	1124-1129	svoje	_	_	*->2-6	*[2]	
+1-183	1130-1137	izdelke	_	_	_	_	
+1-184	1138-1139	,	_	_	_	_	
+1-185	1140-1149	neodvisno	_	_	_	_	
+1-186	1150-1152	od	_	_	_	_	
+1-187	1153-1158	Droge	ORG[7]	_	*->2-7	*[2]	
+1-188	1159-1167	Kolinske	ORG[7]	_	*->2-7	*[2]	
+1-189	1168-1175	izvedla	_	_	_	_	
+1-190	1176-1186	testiranja	_	_	_	_	
+1-191	1187-1188	,	_	_	_	_	
+1-192	1189-1191	ki	_	_	_	_	
+1-193	1192-1194	so	_	_	_	_	
+1-194	1195-1203	potrdila	_	_	_	_	
+1-195	1204-1205	,	_	_	_	_	
+1-196	1206-1208	da	_	_	_	_	
+1-197	1209-1216	izdelki	_	_	_	_	
+1-198	1217-1223	Argeta	ORG	_	*->3-6	*[3]	
+1-199	1224-1226	ne	_	_	_	_	
+1-200	1227-1236	vsebujejo	_	_	_	_	
+1-201	1237-1245	svinjine	_	_	_	_	
+1-202	1246-1247	.	_	_	_	_	
+1-203	1248-1250	To	_	_	_	_	
+1-204	1251-1261	testiranje	_	_	_	_	
+1-205	1262-1264	je	_	_	_	_	
+1-206	1265-1266	4	_	_	_	_	
+1-207	1267-1268	.	_	_	_	_	
+1-208	1269-1276	avgusta	_	_	_	_	
+1-209	1277-1282	letos	_	_	_	_	
+1-210	1283-1290	izvedla	_	_	_	_	
+1-211	1291-1303	organizacija	_	_	*->21-1	*[21]	
+1-212	1304-1316	Lebensmittel	ORG[8]	_	*->21-1	*[21]	
+1-213	1317-1329	Untersuchung	ORG[8]	_	*->21-1	*[21]	
+1-214	1330-1332	iz	_	_	*->21-1	*[21]	
+1-215	1333-1339	Dunaja	LOC	3 - Nevtralno	*->21-1|*->9-1	*[21]|*[9]	
+1-216	1340-1341	,	_	_	_	_	
+1-217	1342-1344	ki	_	_	_	_	
+1-218	1345-1347	je	_	_	_	_	
+1-219	1348-1350	za	_	_	_	_	
+1-220	1351-1360	rezultate	_	_	_	_	
+1-221	1361-1370	testiranj	_	_	_	_	
+1-222	1371-1375	tudi	_	_	_	_	
+1-223	1376-1382	izdala	_	3 - Nevtralno	*->21-2	*[21]	
+1-224	1383-1389	uradno	_	_	_	_	
+1-225	1390-1406	potrdilo.Pašteta	_	_	_	_	
+1-226	1407-1413	Argeta	ORG	_	*->3-7	*[3]	
+1-227	1414-1421	ključni	_	_	_	_	
+1-228	1422-1429	program	_	_	_	_	
+1-229	1430-1436	družbe	_	_	_	_	
+1-230	1437-1438	S	_	_	_	_	
+1-231	1439-1442	tem	_	_	_	_	
+1-232	1443-1445	so	_	_	_	_	
+1-233	1446-1448	se	_	_	_	_	
+1-234	1449-1450	v	_	_	_	_	
+1-235	1451-1456	Drogi	ORG[9]	_	*->2-8	*[2]	
+1-236	1457-1465	Kolinski	ORG[9]	_	*->2-8	*[2]	
+1-237	1466-1473	odzvali	_	_	_	_	
+1-238	1474-1476	na	_	_	_	_	
+1-239	1477-1484	sredino	_	_	_	_	
+1-240	1485-1489	vest	_	_	_	_	
+1-241	1490-1493	STA	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-242	1494-1495	,	_	_	_	_	
+1-243	1496-1498	ki	_	_	_	_	
+1-244	1499-1502	smo	_	_	_	_	
+1-245	1503-1505	jo	_	_	_	_	
+1-246	1506-1513	povzeli	_	_	_	_	
+1-247	1514-1516	po	_	_	_	_	
+1-248	1517-1523	srbski	_	3 - Nevtralno[17]	*->11-1	*[11]	
+1-249	1524-1532	tiskovni	_	3 - Nevtralno[17]	*->11-1	*[11]	
+1-250	1533-1541	agenciji	_	3 - Nevtralno[17]	*->11-1	*[11]	
+1-251	1542-1548	Tanjug	ORG	3 - Nevtralno[17]	*->11-1	*[11]	
+1-252	1549-1550	,	_	_	_	_	
+1-253	1551-1553	da	_	_	_	_	
+1-254	1554-1556	je	_	_	_	_	
+1-255	1557-1565	bavarski	_	3 - Nevtralno[18]	*->7-4	*[7]	
+1-256	1566-1574	inštitut	_	3 - Nevtralno[18]	*->7-4	*[7]	
+1-257	1575-1577	za	_	3 - Nevtralno[18]	*->7-4	*[7]	
+1-258	1578-1586	prehrano	_	3 - Nevtralno[18]	*->7-4	*[7]	
+1-259	1587-1598	Bayerisches	ORG[10]	3 - Nevtralno[18]	*->7-4	*[7]	
+1-260	1599-1608	Landesamt	ORG[10]	3 - Nevtralno[18]	*->7-4	*[7]	
+1-261	1609-1612	für	ORG[10]	3 - Nevtralno[18]	*->7-4	*[7]	
+1-262	1613-1623	Gesundheit	ORG[10]	3 - Nevtralno[18]	*->7-4	*[7]	
+1-263	1624-1627	und	ORG[10]	3 - Nevtralno[18]	*->7-4	*[7]	
+1-264	1628-1651	Lebensmittelsicherheitt	ORG[10]	3 - Nevtralno[18]	*->7-4	*[7]	
+1-265	1652-1660	ugotovil	_	_	_	_	
+1-266	1661-1662	,	_	_	_	_	
+1-267	1663-1665	da	_	_	_	_	
+1-268	1666-1668	so	_	_	_	_	
+1-269	1669-1670	v	_	_	_	_	
+1-270	1671-1680	piščančji	_	_	_	_	
+1-271	1681-1688	pašteti	_	_	_	_	
+1-272	1689-1695	Argeta	_	_	_	_	
+1-273	1696-1708	proizvajalca	_	_	_	_	
+1-274	1709-1714	Droga	ORG[11]	_	*->2-9	*[2]	
+1-275	1715-1723	Kolinska	ORG[11]	_	*->2-9	*[2]	
+1-276	1724-1735	uporabljali	_	_	_	_	
+1-277	1736-1740	tudi	_	_	_	_	
+1-278	1741-1749	svinjsko	_	_	_	_	
+1-279	1750-1754	meso	_	_	_	_	
+1-280	1755-1757	in	_	_	_	_	
+1-281	1758-1763	kosti	_	_	_	_	
+1-282	1764-1765	,	_	_	_	_	
+1-283	1766-1769	kar	_	_	_	_	
+1-284	1770-1772	je	_	_	_	_	
+1-285	1773-1778	močno	_	_	_	_	
+1-286	1779-1788	razburilo	_	_	_	_	
+1-287	1789-1798	muslimane	_	_	_	_	
+1-288	1799-1800	,	_	_	_	_	
+1-289	1801-1809	predvsem	_	_	_	_	
+1-290	1810-1816	turško	_	_	_	_	
+1-291	1817-1825	skupnost	_	_	_	_	
+1-292	1826-1827	v	_	_	_	_	
+1-293	1828-1835	Nemčiji	LOC	_	*->12-1	*[12]	
+1-294	1836-1837	.	_	_	_	_	
+1-295	1838-1845	Paštete	_	_	_	_	
+1-296	1846-1847	s	_	_	_	_	
+1-297	1848-1860	certifikatom	_	_	_	_	
+1-298	1861-1866	halal	_	_	_	_	
+1-299	1867-1868	(	_	_	_	_	
+1-300	1869-1870	v	_	_	_	_	
+1-301	1871-1880	arabščini	_	_	_	_	
+1-302	1881-1883	to	_	_	_	_	
+1-303	1884-1890	pomeni	_	_	_	_	
+1-304	1891-1900	dovoljeno	_	_	_	_	
+1-305	1901-1903	oz	_	_	_	_	
+1-306	1904-1905	.	_	_	_	_	
+1-307	1906-1911	dobro	_	_	_	_	
+1-308	1912-1913	)	_	_	_	_	
+1-309	1914-1919	Droga	ORG[12]	_	*->2-10	*[2]	
+1-310	1920-1928	Kolinska	ORG[12]	_	*->2-10	*[2]	
+1-311	1929-1938	proizvaja	_	_	_	_	
+1-312	1939-1947	predvsem	_	_	_	_	
+1-313	1948-1949	v	_	_	_	_	
+1-314	1950-1955	svoji	_	_	_	_	
+1-315	1956-1963	tovarni	_	_	_	_	
+1-316	1964-1970	Argeta	ORG	_	*->3-8	*[3]	
+1-317	1971-1972	v	_	_	_	_	
+1-318	1973-1981	Sarajevu	LOC	3 - Nevtralno	*->13-1	*[13]	
+1-319	1982-1983	,	_	_	_	_	
+1-320	1984-1986	ki	_	_	_	_	
+1-321	1987-1989	je	_	_	_	_	
+1-322	1990-1991	z	_	_	_	_	
+1-323	1992-1997	delom	_	_	_	_	
+1-324	1998-2004	začela	_	_	_	_	
+1-325	2005-2009	pred	_	_	_	_	
+1-326	2010-2017	slabimi	_	_	_	_	
+1-327	2018-2025	štirimi	_	_	_	_	
+1-328	2026-2030	leti	_	_	_	_	
+1-329	2031-2032	.	_	_	_	_	
+1-330	2033-2040	Pašteta	_	_	_	_	
+1-331	2041-2047	Argeta	ORG	_	*->3-9	*[3]	
+1-332	2048-2050	je	_	_	_	_	
+1-333	2051-2058	ključni	_	_	_	_	
+1-334	2059-2066	program	_	_	_	_	
+1-335	2067-2073	družbe	_	_	_	_	
+1-336	2074-2076	in	_	_	_	_	
+1-337	2077-2079	je	_	_	_	_	
+1-338	2080-2084	tudi	_	_	_	_	
+1-339	2085-2092	najbolj	_	_	_	_	
+1-340	2093-2102	prodajani	_	_	_	_	
+1-341	2103-2108	namaz	_	_	_	_	
+1-342	2109-2110	v	_	_	_	_	
+1-343	2111-2120	Sloveniji	LOC	_	*->4-2	*[4]	
+1-344	2121-2122	,	_	_	_	_	
+1-345	2123-2126	BiH	LOC	_	*->14-2	*[14]	
+1-346	2127-2128	,	_	_	_	_	
+1-347	2129-2139	Makedoniji	LOC	_	*->15-1	*[15]	
+1-348	2140-2142	in	_	_	_	_	
+1-349	2143-2145	na	_	_	_	_	
+1-350	2146-2152	Kosovu	LOC	_	*->16-1	*[16]	
+1-351	2153-2154	,	_	_	_	_	
+1-352	2155-2156	v	_	_	_	_	
+1-353	2157-2163	Srbiji	LOC	_	*->17-1	*[17]	
+1-354	2164-2166	je	_	_	_	_	
+1-355	2167-2169	po	_	_	_	_	
+1-356	2170-2177	prodaji	_	_	_	_	
+1-357	2178-2180	na	_	_	_	_	
+1-358	2181-2187	drugem	_	_	_	_	
+1-359	2188-2190	oz	_	_	_	_	
+1-360	2191-2192	.	_	_	_	_	
+1-361	2193-2200	tretjem	_	_	_	_	
+1-362	2201-2206	mestu	_	_	_	_	
+1-363	2207-2208	,	_	_	_	_	
+1-364	2209-2210	v	_	_	_	_	
+1-365	2211-2216	Švici	LOC	_	*->18-1	*[18]	
+1-366	2217-2219	in	_	_	_	_	
+1-367	2220-2228	Avstriji	LOC	_	*->19-1	*[19]	
+1-368	2229-2231	pa	_	_	_	_	
+1-369	2232-2234	na	_	_	_	_	
+1-370	2235-2241	drugem	_	_	_	_	
+1-371	2242-2243	.	_	_	_	_	
+1-372	2244-2250	Največ	_	_	_	_	
+1-373	2251-2258	namazov	_	_	_	_	
+1-374	2259-2265	znamke	_	3 - Nevtralno[19]	*->3-10	*[3]	
+1-375	2266-2272	Argeta	LOC	3 - Nevtralno[19]	*->3-10	*[3]	
+1-376	2273-2275	je	_	_	_	_	
+1-377	2276-2281	Droga	ORG[13]	3 - Nevtralno[20]	*->2-11	*[2]	
+1-378	2282-2290	Kolinska	ORG[13]	3 - Nevtralno[20]	*->2-11	*[2]	
+1-379	2291-2295	lani	_	_	_	_	
+1-380	2296-2303	prodala	_	_	_	_	
+1-381	2304-2305	v	_	_	_	_	
+1-382	2306-2309	BiH	LOC	3 - Nevtralno	*->14-3	*[14]	
+1-383	2310-2311	,	_	_	_	_	
+1-384	2312-2314	in	_	_	_	_	
+1-385	2315-2320	sicer	_	_	_	_	
+1-386	2321-2323	31	_	_	_	_	
+1-387	2324-2333	odstotkov	_	_	_	_	
+1-388	2334-2335	,	_	_	_	_	
+1-389	2336-2343	sledijo	_	_	_	_	
+1-390	2344-2353	Slovenija	LOC	3 - Nevtralno	*->4-3	*[4]	
+1-391	2354-2355	(	_	_	_	_	
+1-392	2356-2360	13,6	_	_	_	_	
+1-393	2361-2369	odstotka	_	_	_	_	
+1-394	2370-2371	)	_	_	_	_	
+1-395	2372-2373	,	_	_	_	_	
+1-396	2374-2380	Srbija	LOC	3 - Nevtralno	*->17-2	*[17]	
+1-397	2381-2383	in	_	_	_	_	
+1-398	2384-2388	Črna	LOC[14]	3 - Nevtralno[21]	*->20-1	*[20]	
+1-399	2389-2393	gora	LOC[14]	3 - Nevtralno[21]	*->20-1	*[20]	
+1-400	2394-2395	(	_	_	_	_	
+1-401	2396-2400	13,1	_	_	_	_	
+1-402	2401-2409	odstotka	_	_	_	_	
+1-403	2410-2411	)	_	_	_	_	
+1-404	2412-2413	,	_	_	_	_	
+1-405	2414-2424	Makedonija	LOC	3 - Nevtralno	*->15-2	*[15]	
+1-406	2425-2426	(	_	_	_	_	
+1-407	2427-2431	10,1	_	_	_	_	
+1-408	2432-2440	odstotka	_	_	_	_	
+1-409	2441-2442	)	_	_	_	_	
+1-410	2443-2444	,	_	_	_	_	
+1-411	2445-2453	Avstrija	LOC	3 - Nevtralno	*->19-2	*[19]	
+1-412	2454-2456	in	_	_	_	_	
+1-413	2457-2464	Nemčija	LOC	3 - Nevtralno	*->12-2	*[12]	
+1-414	2465-2466	(	_	_	_	_	
+1-415	2467-2472	devet	_	_	_	_	
+1-416	2473-2482	odstotkov	_	_	_	_	
+1-417	2483-2484	)	_	_	_	_	
+1-418	2485-2486	,	_	_	_	_	
+1-419	2487-2490	ter	_	_	_	_	
+1-420	2491-2497	Kosovo	LOC	3 - Nevtralno	*->16-2	*[16]	
+1-421	2498-2499	(	_	_	_	_	
+1-422	2500-2503	6,2	_	_	_	_	
+1-423	2504-2512	odstotka	_	_	_	_	
+1-424	2513-2514	)	_	_	_	_	

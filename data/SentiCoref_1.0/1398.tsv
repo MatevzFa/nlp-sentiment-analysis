@@ -1,0 +1,339 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Avstrijci so zamenjali upravo slovenske Hypo banke in Hypo Leasinga pod vodstvom Antona Romiha . Vodenje družb so prevzeli kar sami Avstrijci . Banko bo vodil Alexander Picker , Leasing pa Danijel Novak . Nadzorna sveta banke Hypo Alpe Adria in družbe Hypo Leasing sta danes imenovala novi vodstvi . Novi predsednik Hypo banke bo Alexander Picker iz Salzburga , ki bo skupaj s Slovencem Matejem Falatovom vodil banko , direktor Hypo Leasinga pa je postal Danijel Novak iz Gradca . Imenovanja morajo potrditi še pristojni nadzorni organi . Naš jasen cilj je Hypo banko Slovenije , ki bo ostala pomemben del skupine Hypo Alpe Adria v regiji Alpe - Jadran , okrepiti , je , kot so sporočili iz banke Hypo , ob nastopu funkcije poudaril Picker . Avstrijci so zamenjali upravo slovenske Hypo banke . Picker na področju bančništva deluje že več kot 20 let . V preteklih sedmih letih je bil izvršni direktor hčerinskih družb skupine Unicredit v Srbiji in Kazahstanu . Kot predsednik uprave bo odgovoren tudi za področja financ , upravljanja s tveganji in splošnih zadev . Falatov je v Hypo banki Slovenija doslej vodil področje poslovanja s podjetji in javnim sektorjem , odslej pa bo kot član uprave zadolžen za področje poslovanja s pravnimi in fizičnimi osebami ter zakladništvo . Moj fokus je družbo Hypo Leasing Slovenije kot del skupine Hypo Alpe Adria na slovenskem trgu trajno krepiti , tako da bo tesneje sodelovala z banko kot doslej , pa je pojasnil Novak . Novak prinaša desetletja mednarodnih vodstvenih izkušenj s področja bančništva , zavarovalništva in lizinga na Hrvaškem in v Sloveniji . Nazadnje je delal za Sparkasse Leasing Slovenija . Novoimenovano vodstvo družb Hypo Slovenije uživa popolno zaupanje nadzornega sveta , da bo družbi skupaj z angažiranimi sodelavci popeljalo v dobro in uspešno prihodnost , ju s tem na slovenskem trgu trajno krepilo ter podprlo celotno skupino , pa je dejal predsednik nadzornega sveta Hypo banke in član uprave skupine Hypo Alpe Adria Johannes Proksch
+1-1	0-9	Avstrijci	_	_	_	_	
+1-2	10-12	so	_	_	_	_	
+1-3	13-22	zamenjali	_	_	_	_	
+1-4	23-29	upravo	_	_	_	_	
+1-5	30-39	slovenske	_	_	_	_	
+1-6	40-44	Hypo	ORG[1]	_	*->9-1	*[9]	
+1-7	45-50	banke	ORG[1]	_	*->9-1	*[9]	
+1-8	51-53	in	_	_	_	_	
+1-9	54-58	Hypo	ORG[2]	_	*->16-1	*[16]	
+1-10	59-67	Leasinga	ORG[2]	_	*->16-1	*[16]	
+1-11	68-71	pod	_	_	_	_	
+1-12	72-80	vodstvom	_	_	_	_	
+1-13	81-87	Antona	PER[3]	3 - Nevtralno[28]	*->15-1	*[15]	
+1-14	88-94	Romiha	PER[3]	3 - Nevtralno[28]	*->15-1	*[15]	
+1-15	95-96	.	_	_	_	_	
+1-16	97-104	Vodenje	_	_	_	_	
+1-17	105-110	družb	_	_	_	_	
+1-18	111-113	so	_	_	_	_	
+1-19	114-122	prevzeli	_	_	_	_	
+1-20	123-126	kar	_	_	_	_	
+1-21	127-131	sami	_	_	_	_	
+1-22	132-141	Avstrijci	_	_	_	_	
+1-23	142-143	.	_	_	_	_	
+1-24	144-149	Banko	_	_	*->9-2	*[9]	
+1-25	150-152	bo	_	_	_	_	
+1-26	153-158	vodil	_	_	_	_	
+1-27	159-168	Alexander	PER[4]	_	*->1-1	*[1]	
+1-28	169-175	Picker	PER[4]	_	*->1-1	*[1]	
+1-29	176-177	,	_	_	_	_	
+1-30	178-185	Leasing	ORG	_	*->16-2	*[16]	
+1-31	186-188	pa	_	_	_	_	
+1-32	189-196	Danijel	PER[5]	_	*->17-1	*[17]	
+1-33	197-202	Novak	PER[5]	_	*->17-1	*[17]	
+1-34	203-204	.	_	_	_	_	
+1-35	205-213	Nadzorna	_	_	_	_	
+1-36	214-219	sveta	_	_	_	_	
+1-37	220-225	banke	_	_	*->9-3	*[9]	
+1-38	226-230	Hypo	ORG[6]	_	*->9-3	*[9]	
+1-39	231-235	Alpe	ORG[6]	_	*->9-3	*[9]	
+1-40	236-241	Adria	ORG[6]	_	*->9-3	*[9]	
+1-41	242-244	in	_	_	_	_	
+1-42	245-251	družbe	_	_	*->16-3	*[16]	
+1-43	252-256	Hypo	ORG[7]	_	*->16-3	*[16]	
+1-44	257-264	Leasing	ORG[7]	_	*->16-3	*[16]	
+1-45	265-268	sta	_	_	_	_	
+1-46	269-274	danes	_	_	_	_	
+1-47	275-284	imenovala	_	_	_	_	
+1-48	285-289	novi	_	_	_	_	
+1-49	290-297	vodstvi	_	_	_	_	
+1-50	298-299	.	_	_	_	_	
+1-51	300-304	Novi	_	_	*->1-2	*[1]	
+1-52	305-315	predsednik	_	_	*->1-2	*[1]	
+1-53	316-320	Hypo	ORG[8]	_	*->1-2|*->9-4	*[1]|*[9]	
+1-54	321-326	banke	ORG[8]	_	*->1-2|*->9-4	*[1]|*[9]	
+1-55	327-329	bo	_	_	_	_	
+1-56	330-339	Alexander	PER[9]	_	*->1-3	*[1]	
+1-57	340-346	Picker	PER[9]	_	*->1-3	*[1]	
+1-58	347-349	iz	_	_	_	_	
+1-59	350-359	Salzburga	LOC	3 - Nevtralno	*->2-1	*[2]	
+1-60	360-361	,	_	_	_	_	
+1-61	362-364	ki	_	_	_	_	
+1-62	365-367	bo	_	_	_	_	
+1-63	368-374	skupaj	_	_	_	_	
+1-64	375-376	s	_	_	_	_	
+1-65	377-386	Slovencem	_	_	_	_	
+1-66	387-394	Matejem	PER[10]	_	*->3-1	*[3]	
+1-67	395-404	Falatovom	PER[10]	_	*->3-1	*[3]	
+1-68	405-410	vodil	_	_	*->1-4	*[1]	
+1-69	411-416	banko	_	_	*->9-5	*[9]	
+1-70	417-418	,	_	_	_	_	
+1-71	419-427	direktor	_	_	*->16-4	*[16]	
+1-72	428-432	Hypo	_	_	*->16-4|*->17-2	*[16]|*[17]	
+1-73	433-441	Leasinga	_	_	*->16-4|*->17-2	*[16]|*[17]	
+1-74	442-444	pa	_	_	_	_	
+1-75	445-447	je	_	_	_	_	
+1-76	448-454	postal	_	_	_	_	
+1-77	455-462	Danijel	PER[11]	_	*->16-5	*[16]	
+1-78	463-468	Novak	PER[11]	_	*->16-5	*[16]	
+1-79	469-471	iz	_	_	_	_	
+1-80	472-478	Gradca	LOC	3 - Nevtralno	*->4-1	*[4]	
+1-81	479-480	.	_	_	_	_	
+1-82	481-491	Imenovanja	_	_	_	_	
+1-83	492-498	morajo	_	_	_	_	
+1-84	499-507	potrditi	_	_	_	_	
+1-85	508-510	še	_	_	_	_	
+1-86	511-520	pristojni	_	_	_	_	
+1-87	521-529	nadzorni	_	_	_	_	
+1-88	530-536	organi	_	_	_	_	
+1-89	537-538	.	_	_	_	_	
+1-90	539-542	Naš	_	_	_	_	
+1-91	543-548	jasen	_	_	_	_	
+1-92	549-553	cilj	_	_	_	_	
+1-93	554-556	je	_	_	_	_	
+1-94	557-561	Hypo	ORG[12]	_	*->9-6	*[9]	
+1-95	562-567	banko	ORG[12]	_	*->9-6	*[9]	
+1-96	568-577	Slovenije	ORG[12]|LOC[13]	_	*->9-6|*->5-1	*[9]|*[5]	
+1-97	578-579	,	_	_	_	_	
+1-98	580-582	ki	_	_	_	_	
+1-99	583-585	bo	_	_	_	_	
+1-100	586-592	ostala	_	_	*->9-7	*[9]	
+1-101	593-601	pomemben	_	_	_	_	
+1-102	602-605	del	_	_	_	_	
+1-103	606-613	skupine	_	_	*->14-1	*[14]	
+1-104	614-618	Hypo	ORG[14]	_	*->14-1	*[14]	
+1-105	619-623	Alpe	ORG[14]	_	*->14-1	*[14]	
+1-106	624-629	Adria	ORG[14]	_	*->14-1	*[14]	
+1-107	630-631	v	_	_	_	_	
+1-108	632-638	regiji	_	_	_	_	
+1-109	639-643	Alpe	_	_	_	_	
+1-110	644-645	-	_	_	_	_	
+1-111	646-652	Jadran	_	_	_	_	
+1-112	653-654	,	_	_	_	_	
+1-113	655-663	okrepiti	_	_	_	_	
+1-114	664-665	,	_	_	_	_	
+1-115	666-668	je	_	_	_	_	
+1-116	669-670	,	_	_	_	_	
+1-117	671-674	kot	_	_	_	_	
+1-118	675-677	so	_	_	_	_	
+1-119	678-687	sporočili	_	_	_	_	
+1-120	688-690	iz	_	_	_	_	
+1-121	691-696	banke	_	_	*->9-8	*[9]	
+1-122	697-701	Hypo	ORG	_	*->9-8	*[9]	
+1-123	702-703	,	_	_	_	_	
+1-124	704-706	ob	_	_	_	_	
+1-125	707-714	nastopu	_	_	_	_	
+1-126	715-723	funkcije	_	_	_	_	
+1-127	724-732	poudaril	_	_	_	_	
+1-128	733-739	Picker	PER	_	*->1-5	*[1]	
+1-129	740-741	.	_	_	_	_	
+1-130	742-751	Avstrijci	_	_	_	_	
+1-131	752-754	so	_	_	_	_	
+1-132	755-764	zamenjali	_	_	_	_	
+1-133	765-771	upravo	_	_	_	_	
+1-134	772-781	slovenske	_	_	_	_	
+1-135	782-786	Hypo	ORG[15]	_	*->9-9	*[9]	
+1-136	787-792	banke	ORG[15]	_	*->9-9	*[9]	
+1-137	793-794	.	_	_	_	_	
+1-138	795-801	Picker	PER	_	*->1-6	*[1]	
+1-139	802-804	na	_	_	_	_	
+1-140	805-813	področju	_	_	_	_	
+1-141	814-824	bančništva	_	_	_	_	
+1-142	825-831	deluje	_	_	_	_	
+1-143	832-834	že	_	_	_	_	
+1-144	835-838	več	_	_	_	_	
+1-145	839-842	kot	_	_	_	_	
+1-146	843-845	20	_	_	_	_	
+1-147	846-849	let	_	_	_	_	
+1-148	850-851	.	_	_	_	_	
+1-149	852-853	V	_	_	_	_	
+1-150	854-863	preteklih	_	_	_	_	
+1-151	864-870	sedmih	_	_	_	_	
+1-152	871-876	letih	_	_	_	_	
+1-153	877-879	je	_	_	_	_	
+1-154	880-883	bil	_	_	_	_	
+1-155	884-891	izvršni	_	_	*->1-7	*[1]	
+1-156	892-900	direktor	_	_	*->1-7	*[1]	
+1-157	901-911	hčerinskih	_	_	_	_	
+1-158	912-917	družb	_	_	_	_	
+1-159	918-925	skupine	_	3 - Nevtralno[29]	*->6-1	*[6]	
+1-160	926-935	Unicredit	ORG	3 - Nevtralno[29]	*->6-1	*[6]	
+1-161	936-937	v	_	_	_	_	
+1-162	938-944	Srbiji	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-163	945-947	in	_	_	_	_	
+1-164	948-958	Kazahstanu	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-165	959-960	.	_	_	_	_	
+1-166	961-964	Kot	_	_	_	_	
+1-167	965-975	predsednik	_	4 - Pozitivno[30]	*->1-8	*[1]	
+1-168	976-982	uprave	_	4 - Pozitivno[30]	*->1-8	*[1]	
+1-169	983-985	bo	_	_	_	_	
+1-170	986-995	odgovoren	_	_	_	_	
+1-171	996-1000	tudi	_	_	_	_	
+1-172	1001-1003	za	_	_	_	_	
+1-173	1004-1012	področja	_	_	_	_	
+1-174	1013-1019	financ	_	_	_	_	
+1-175	1020-1021	,	_	_	_	_	
+1-176	1022-1033	upravljanja	_	_	_	_	
+1-177	1034-1035	s	_	_	_	_	
+1-178	1036-1044	tveganji	_	_	_	_	
+1-179	1045-1047	in	_	_	_	_	
+1-180	1048-1056	splošnih	_	_	_	_	
+1-181	1057-1062	zadev	_	_	_	_	
+1-182	1063-1064	.	_	_	_	_	
+1-183	1065-1072	Falatov	PER	_	*->3-2	*[3]	
+1-184	1073-1075	je	_	_	_	_	
+1-185	1076-1077	v	_	_	_	_	
+1-186	1078-1082	Hypo	ORG[16]	_	*->9-10	*[9]	
+1-187	1083-1088	banki	ORG[16]	_	*->9-10	*[9]	
+1-188	1089-1098	Slovenija	ORG[16]|LOC[17]	_	*->9-10|*->5-2	*[9]|*[5]	
+1-189	1099-1105	doslej	_	_	_	_	
+1-190	1106-1111	vodil	_	_	_	_	
+1-191	1112-1120	področje	_	_	_	_	
+1-192	1121-1131	poslovanja	_	_	_	_	
+1-193	1132-1133	s	_	_	_	_	
+1-194	1134-1142	podjetji	_	_	_	_	
+1-195	1143-1145	in	_	_	_	_	
+1-196	1146-1152	javnim	_	_	_	_	
+1-197	1153-1162	sektorjem	_	_	_	_	
+1-198	1163-1164	,	_	_	_	_	
+1-199	1165-1171	odslej	_	_	_	_	
+1-200	1172-1174	pa	_	_	_	_	
+1-201	1175-1177	bo	_	_	_	_	
+1-202	1178-1181	kot	_	_	_	_	
+1-203	1182-1186	član	_	4 - Pozitivno[31]	*->3-3	*[3]	
+1-204	1187-1193	uprave	_	4 - Pozitivno[31]	*->3-3	*[3]	
+1-205	1194-1202	zadolžen	_	_	_	_	
+1-206	1203-1205	za	_	_	_	_	
+1-207	1206-1214	področje	_	_	_	_	
+1-208	1215-1225	poslovanja	_	_	_	_	
+1-209	1226-1227	s	_	_	_	_	
+1-210	1228-1236	pravnimi	_	_	_	_	
+1-211	1237-1239	in	_	_	_	_	
+1-212	1240-1249	fizičnimi	_	_	_	_	
+1-213	1250-1257	osebami	_	_	_	_	
+1-214	1258-1261	ter	_	_	_	_	
+1-215	1262-1274	zakladništvo	_	_	_	_	
+1-216	1275-1276	.	_	_	_	_	
+1-217	1277-1280	Moj	_	_	_	_	
+1-218	1281-1286	fokus	_	_	_	_	
+1-219	1287-1289	je	_	_	_	_	
+1-220	1290-1296	družbo	_	_	*->17-3	*[17]	
+1-221	1297-1301	Hypo	ORG[18]	_	*->17-3	*[17]	
+1-222	1302-1309	Leasing	ORG[18]	_	*->17-3	*[17]	
+1-223	1310-1319	Slovenije	ORG[18]|LOC[19]	_	*->17-3|*->5-3	*[17]|*[5]	
+1-224	1320-1323	kot	_	_	_	_	
+1-225	1324-1327	del	_	_	_	_	
+1-226	1328-1335	skupine	_	_	*->14-2	*[14]	
+1-227	1336-1340	Hypo	ORG[20]	_	*->14-2	*[14]	
+1-228	1341-1345	Alpe	ORG[20]	_	*->14-2	*[14]	
+1-229	1346-1351	Adria	ORG[20]	_	*->14-2	*[14]	
+1-230	1352-1354	na	_	_	_	_	
+1-231	1355-1365	slovenskem	_	_	_	_	
+1-232	1366-1370	trgu	_	_	_	_	
+1-233	1371-1377	trajno	_	_	_	_	
+1-234	1378-1385	krepiti	_	_	_	_	
+1-235	1386-1387	,	_	_	_	_	
+1-236	1388-1392	tako	_	_	_	_	
+1-237	1393-1395	da	_	_	_	_	
+1-238	1396-1398	bo	_	_	_	_	
+1-239	1399-1406	tesneje	_	_	_	_	
+1-240	1407-1417	sodelovala	_	_	_	_	
+1-241	1418-1419	z	_	_	_	_	
+1-242	1420-1425	banko	_	_	*->9-11	*[9]	
+1-243	1426-1429	kot	_	_	_	_	
+1-244	1430-1436	doslej	_	_	_	_	
+1-245	1437-1438	,	_	_	_	_	
+1-246	1439-1441	pa	_	_	_	_	
+1-247	1442-1444	je	_	_	_	_	
+1-248	1445-1453	pojasnil	_	_	_	_	
+1-249	1454-1459	Novak	PER	_	*->16-6	*[16]	
+1-250	1460-1461	.	_	_	_	_	
+1-251	1462-1467	Novak	PER	_	*->16-7	*[16]	
+1-252	1468-1475	prinaša	_	_	_	_	
+1-253	1476-1486	desetletja	_	_	_	_	
+1-254	1487-1498	mednarodnih	_	_	_	_	
+1-255	1499-1509	vodstvenih	_	_	_	_	
+1-256	1510-1518	izkušenj	_	_	_	_	
+1-257	1519-1520	s	_	_	_	_	
+1-258	1521-1529	področja	_	_	_	_	
+1-259	1530-1540	bančništva	_	_	_	_	
+1-260	1541-1542	,	_	_	_	_	
+1-261	1543-1558	zavarovalništva	_	_	_	_	
+1-262	1559-1561	in	_	_	_	_	
+1-263	1562-1569	lizinga	_	_	_	_	
+1-264	1570-1572	na	_	_	_	_	
+1-265	1573-1581	Hrvaškem	LOC	3 - Nevtralno	*->10-1	*[10]	
+1-266	1582-1584	in	_	_	_	_	
+1-267	1585-1586	v	_	_	_	_	
+1-268	1587-1596	Sloveniji	LOC	_	*->5-4	*[5]	
+1-269	1597-1598	.	_	_	_	_	
+1-270	1599-1607	Nazadnje	_	_	_	_	
+1-271	1608-1610	je	_	4 - Pozitivno[32]	*->16-8	*[16]	
+1-272	1611-1616	delal	_	4 - Pozitivno[32]	*->16-8	*[16]	
+1-273	1617-1619	za	_	_	_	_	
+1-274	1620-1629	Sparkasse	ORG[21]	3 - Nevtralno[33]	*->11-1	*[11]	
+1-275	1630-1637	Leasing	ORG[21]	3 - Nevtralno[33]	*->11-1	*[11]	
+1-276	1638-1647	Slovenija	ORG[21]|LOC[22]	_	*->11-1|*->5-5	*[11]|*[5]	
+1-277	1648-1649	.	_	_	_	_	
+1-278	1650-1663	Novoimenovano	_	_	_	_	
+1-279	1664-1671	vodstvo	_	_	_	_	
+1-280	1672-1677	družb	_	_	*->14-3	*[14]	
+1-281	1678-1682	Hypo	ORG[23]	_	*->14-3	*[14]	
+1-282	1683-1692	Slovenije	ORG[23]|LOC[24]	3 - Nevtralno	*->14-3|*->5-6	*[14]|*[5]	
+1-283	1693-1698	uživa	_	_	_	_	
+1-284	1699-1706	popolno	_	_	_	_	
+1-285	1707-1715	zaupanje	_	_	_	_	
+1-286	1716-1726	nadzornega	_	_	_	_	
+1-287	1727-1732	sveta	_	_	_	_	
+1-288	1733-1734	,	_	_	_	_	
+1-289	1735-1737	da	_	_	_	_	
+1-290	1738-1740	bo	_	_	_	_	
+1-291	1741-1747	družbi	_	_	*->14-4	*[14]	
+1-292	1748-1754	skupaj	_	_	_	_	
+1-293	1755-1756	z	_	_	_	_	
+1-294	1757-1769	angažiranimi	_	_	_	_	
+1-295	1770-1779	sodelavci	_	_	_	_	
+1-296	1780-1789	popeljalo	_	_	_	_	
+1-297	1790-1791	v	_	_	_	_	
+1-298	1792-1797	dobro	_	_	_	_	
+1-299	1798-1800	in	_	_	_	_	
+1-300	1801-1808	uspešno	_	_	_	_	
+1-301	1809-1819	prihodnost	_	_	_	_	
+1-302	1820-1821	,	_	_	_	_	
+1-303	1822-1824	ju	_	_	_	_	
+1-304	1825-1826	s	_	_	_	_	
+1-305	1827-1830	tem	_	_	_	_	
+1-306	1831-1833	na	_	_	_	_	
+1-307	1834-1844	slovenskem	_	_	_	_	
+1-308	1845-1849	trgu	_	_	_	_	
+1-309	1850-1856	trajno	_	_	_	_	
+1-310	1857-1864	krepilo	_	_	_	_	
+1-311	1865-1868	ter	_	_	_	_	
+1-312	1869-1876	podprlo	_	_	_	_	
+1-313	1877-1884	celotno	_	_	_	_	
+1-314	1885-1892	skupino	_	_	_	_	
+1-315	1893-1894	,	_	_	_	_	
+1-316	1895-1897	pa	_	_	_	_	
+1-317	1898-1900	je	_	_	_	_	
+1-318	1901-1906	dejal	_	_	_	_	
+1-319	1907-1917	predsednik	_	_	*->12-1	*[12]	
+1-320	1918-1928	nadzornega	_	_	*->12-1	*[12]	
+1-321	1929-1934	sveta	_	_	*->12-1	*[12]	
+1-322	1935-1939	Hypo	ORG[25]	3 - Nevtralno[34]	*->12-1|*->9-12	*[12]|*[9]	
+1-323	1940-1945	banke	ORG[25]	3 - Nevtralno[34]	*->12-1|*->9-12	*[12]|*[9]	
+1-324	1946-1948	in	_	_	_	_	
+1-325	1949-1953	član	_	3 - Nevtralno[35]	*->12-2	*[12]	
+1-326	1954-1960	uprave	_	3 - Nevtralno[35]|3 - Nevtralno[36]	*->12-2|*->14-5	*[12]|*[14]	
+1-327	1961-1968	skupine	_	3 - Nevtralno[35]|3 - Nevtralno[36]	*->12-2|*->14-5	*[12]|*[14]	
+1-328	1969-1973	Hypo	ORG[26]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->12-2|*->14-5	*[12]|*[14]	
+1-329	1974-1978	Alpe	ORG[26]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->12-2|*->14-5	*[12]|*[14]	
+1-330	1979-1984	Adria	ORG[26]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->12-2|*->14-5	*[12]|*[14]	
+1-331	1985-1993	Johannes	PER[27]	3 - Nevtralno[35]|3 - Nevtralno[37]	*->12-2|*->13-1	*[12]|*[13]	
+1-332	1994-2001	Proksch	PER[27]	3 - Nevtralno[35]|3 - Nevtralno[37]	*->12-2|*->13-1	*[12]|*[13]	

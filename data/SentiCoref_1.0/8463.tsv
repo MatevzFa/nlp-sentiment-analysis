@@ -1,0 +1,432 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Gregor Golobič je na konvenciji stranke Zares opozoril , da je zamenjava oblasti na volitvah nujen pogoj , da bo prišlo do sprememb v politiki , ni pa edini in zadosten pogoj . Predsednik stranke Zares je poudaril , da je stranka končala ustanovitveno obdobje ter se enakopravno in samozavestno primerja z drugimi političnimi strankami . Zares ne bo delovala po starih pravilih Golobič je še napovedal , da Zares v predvolilni kampanji ne bo tekmovala v blatenju , prerivanju in diskvalifikacijah nasprotnikov , ampak bo po svojih močeh poskušala v tekmo vnesti čim več programskih vsebin in dilem o razvojnih vprašanjih prihodnosti Slovenije . Golobič je na konvenciji zavrnil pričakovanja , da se bodo ravnali po starih pravilih igre . " Smo stranka , ki stavi na novo politiko in jo jemlje resno , zato ne želimo postati talci pravil igre in že vnaprej nastopati izključevalno . " To po Golobičevih besedah ne pomeni , da bi želeli sklepati kakršnekoli nenačelne koalicije . Po volitvah ne izključujemo možnosti , da ostanemo v opoziciji " To pomeni le , da nimamo razloga , da ne bi verjeli , da bomo v razgovorih po volitvah na podlagi programov in vrednot suvereno stopili v razgovore z vsemi ter preverili njihovo pripravljenost , da to upoštevajo , in od tega bo odvisna naša prihodnja vloga . " Gregor Golobič meni , da bo takšna drža zelo verjetno za marsikoga nesprejemljiva , kar bi lahko pomenilo , da se bodo po volitvah znašli v opoziciji . Med kandidati že znana imena Na konvenciji , drugi po vrsti , so se članicam in članom stranke predstavili tudi kandidati , ki jo bodo zastopali na jesenskih državnozborskih volitvah . Uradno kandidatno listo Zaresa pa bo predvidoma avgusta potrdil svet stranke . Med kandidati , ki so že znani , je tudi predsednik stranke Gregor Golobič , ki bo kandidiral v Ljubljani . V prestolnici se bosta za poslansko mesto potegovala še sedanja poslanca stranke Majda Širca in Pavel Gantar . Poleg tega pa je znano , da bodo na listi Zaresa jeseni kandidirali še : podpredsednik Zaresa Branko Lobnikar ( Celje ) , podpredsednik stranke Franci Kek ( Novo mesto ) , Matej Lahovnik ( Velenje ) , Cveta Zalokar Oražem ( Domžale ) , Alojz Posedel ( Žalec ) ter Vili Trofenik ( Ormož ) , Ivo Vajgl , nekdanji zunanji minister in svetovalec predsednika republike ( Ljubljana ) , nekdanji predsednik uprave Hita Branko Tomažič ( Nova Gorica ) in nekdanja direktorica Primorskih novic Barbara Verdnik ( Koper )
+1-1	0-6	Gregor	PER[1]	_	*->1-1	*[1]	
+1-2	7-14	Golobič	PER[1]	_	*->1-1	*[1]	
+1-3	15-17	je	_	_	_	_	
+1-4	18-20	na	_	_	_	_	
+1-5	21-31	konvenciji	_	_	_	_	
+1-6	32-39	stranke	_	_	*->2-1	*[2]	
+1-7	40-45	Zares	ORG	_	*->2-1	*[2]	
+1-8	46-54	opozoril	_	_	_	_	
+1-9	55-56	,	_	_	_	_	
+1-10	57-59	da	_	_	_	_	
+1-11	60-62	je	_	_	_	_	
+1-12	63-72	zamenjava	_	_	_	_	
+1-13	73-80	oblasti	_	_	_	_	
+1-14	81-83	na	_	_	_	_	
+1-15	84-92	volitvah	_	_	_	_	
+1-16	93-98	nujen	_	_	_	_	
+1-17	99-104	pogoj	_	_	_	_	
+1-18	105-106	,	_	_	_	_	
+1-19	107-109	da	_	_	_	_	
+1-20	110-112	bo	_	_	_	_	
+1-21	113-119	prišlo	_	_	_	_	
+1-22	120-122	do	_	_	_	_	
+1-23	123-131	sprememb	_	_	_	_	
+1-24	132-133	v	_	_	_	_	
+1-25	134-142	politiki	_	_	_	_	
+1-26	143-144	,	_	_	_	_	
+1-27	145-147	ni	_	_	_	_	
+1-28	148-150	pa	_	_	_	_	
+1-29	151-156	edini	_	_	_	_	
+1-30	157-159	in	_	_	_	_	
+1-31	160-168	zadosten	_	_	_	_	
+1-32	169-174	pogoj	_	_	_	_	
+1-33	175-176	.	_	_	_	_	
+1-34	177-187	Predsednik	_	_	*->1-2	*[1]	
+1-35	188-195	stranke	_	_	*->1-2|*->2-2	*[1]|*[2]	
+1-36	196-201	Zares	ORG	_	*->1-2|*->2-2	*[1]|*[2]	
+1-37	202-204	je	_	_	_	_	
+1-38	205-213	poudaril	_	_	_	_	
+1-39	214-215	,	_	_	_	_	
+1-40	216-218	da	_	_	_	_	
+1-41	219-221	je	_	_	_	_	
+1-42	222-229	stranka	_	_	*->2-3	*[2]	
+1-43	230-237	končala	_	_	_	_	
+1-44	238-251	ustanovitveno	_	_	_	_	
+1-45	252-259	obdobje	_	_	_	_	
+1-46	260-263	ter	_	_	_	_	
+1-47	264-266	se	_	_	_	_	
+1-48	267-278	enakopravno	_	_	_	_	
+1-49	279-281	in	_	_	_	_	
+1-50	282-294	samozavestno	_	_	_	_	
+1-51	295-303	primerja	_	_	_	_	
+1-52	304-305	z	_	_	_	_	
+1-53	306-313	drugimi	_	_	_	_	
+1-54	314-325	političnimi	_	_	_	_	
+1-55	326-335	strankami	_	_	_	_	
+1-56	336-337	.	_	_	_	_	
+1-57	338-343	Zares	ORG	_	*->2-4	*[2]	
+1-58	344-346	ne	_	_	_	_	
+1-59	347-349	bo	_	_	_	_	
+1-60	350-358	delovala	_	_	_	_	
+1-61	359-361	po	_	_	_	_	
+1-62	362-368	starih	_	_	_	_	
+1-63	369-377	pravilih	_	_	_	_	
+1-64	378-385	Golobič	PER	_	*->1-3	*[1]	
+1-65	386-388	je	_	_	_	_	
+1-66	389-391	še	_	_	_	_	
+1-67	392-401	napovedal	_	_	_	_	
+1-68	402-403	,	_	_	_	_	
+1-69	404-406	da	_	_	_	_	
+1-70	407-412	Zares	ORG	_	*->2-5	*[2]	
+1-71	413-414	v	_	_	_	_	
+1-72	415-426	predvolilni	_	_	_	_	
+1-73	427-435	kampanji	_	_	_	_	
+1-74	436-438	ne	_	_	_	_	
+1-75	439-441	bo	_	_	_	_	
+1-76	442-451	tekmovala	_	_	_	_	
+1-77	452-453	v	_	_	_	_	
+1-78	454-462	blatenju	_	_	_	_	
+1-79	463-464	,	_	_	_	_	
+1-80	465-475	prerivanju	_	_	_	_	
+1-81	476-478	in	_	_	_	_	
+1-82	479-496	diskvalifikacijah	_	_	_	_	
+1-83	497-509	nasprotnikov	_	_	_	_	
+1-84	510-511	,	_	_	_	_	
+1-85	512-517	ampak	_	_	_	_	
+1-86	518-520	bo	_	_	_	_	
+1-87	521-523	po	_	_	_	_	
+1-88	524-530	svojih	_	_	_	_	
+1-89	531-536	močeh	_	_	_	_	
+1-90	537-546	poskušala	_	_	_	_	
+1-91	547-548	v	_	_	_	_	
+1-92	549-554	tekmo	_	_	_	_	
+1-93	555-561	vnesti	_	_	_	_	
+1-94	562-565	čim	_	_	_	_	
+1-95	566-569	več	_	_	_	_	
+1-96	570-581	programskih	_	_	_	_	
+1-97	582-588	vsebin	_	_	_	_	
+1-98	589-591	in	_	_	_	_	
+1-99	592-597	dilem	_	_	_	_	
+1-100	598-599	o	_	_	_	_	
+1-101	600-609	razvojnih	_	_	_	_	
+1-102	610-620	vprašanjih	_	_	_	_	
+1-103	621-632	prihodnosti	_	_	_	_	
+1-104	633-642	Slovenije	LOC	3 - Nevtralno	*->3-1	*[3]	
+1-105	643-644	.	_	_	_	_	
+1-106	645-652	Golobič	PER	_	*->1-4	*[1]	
+1-107	653-655	je	_	_	_	_	
+1-108	656-658	na	_	_	_	_	
+1-109	659-669	konvenciji	_	_	_	_	
+1-110	670-677	zavrnil	_	_	_	_	
+1-111	678-690	pričakovanja	_	_	_	_	
+1-112	691-692	,	_	_	_	_	
+1-113	693-695	da	_	_	_	_	
+1-114	696-698	se	_	_	_	_	
+1-115	699-703	bodo	_	_	_	_	
+1-116	704-711	ravnali	_	_	_	_	
+1-117	712-714	po	_	_	_	_	
+1-118	715-721	starih	_	_	_	_	
+1-119	722-730	pravilih	_	_	_	_	
+1-120	731-735	igre	_	_	_	_	
+1-121	736-737	.	_	_	_	_	
+1-122	738-739	"	_	_	_	_	
+1-123	740-743	Smo	_	_	_	_	
+1-124	744-751	stranka	_	_	*->2-6	*[2]	
+1-125	752-753	,	_	_	_	_	
+1-126	754-756	ki	_	_	_	_	
+1-127	757-762	stavi	_	_	_	_	
+1-128	763-765	na	_	_	_	_	
+1-129	766-770	novo	_	_	_	_	
+1-130	771-779	politiko	_	_	_	_	
+1-131	780-782	in	_	_	_	_	
+1-132	783-785	jo	_	_	_	_	
+1-133	786-792	jemlje	_	_	_	_	
+1-134	793-798	resno	_	_	_	_	
+1-135	799-800	,	_	_	_	_	
+1-136	801-805	zato	_	_	_	_	
+1-137	806-808	ne	_	_	_	_	
+1-138	809-815	želimo	_	_	_	_	
+1-139	816-823	postati	_	_	_	_	
+1-140	824-829	talci	_	_	_	_	
+1-141	830-836	pravil	_	_	_	_	
+1-142	837-841	igre	_	_	_	_	
+1-143	842-844	in	_	_	_	_	
+1-144	845-847	že	_	_	_	_	
+1-145	848-855	vnaprej	_	_	_	_	
+1-146	856-865	nastopati	_	_	_	_	
+1-147	866-879	izključevalno	_	_	_	_	
+1-148	880-881	.	_	_	_	_	
+1-149	882-883	"	_	_	_	_	
+1-150	884-886	To	_	_	_	_	
+1-151	887-889	po	_	_	_	_	
+1-152	890-901	Golobičevih	PER	_	*->1-5	*[1]	
+1-153	902-909	besedah	_	_	_	_	
+1-154	910-912	ne	_	_	_	_	
+1-155	913-919	pomeni	_	_	_	_	
+1-156	920-921	,	_	_	_	_	
+1-157	922-924	da	_	_	_	_	
+1-158	925-927	bi	_	_	_	_	
+1-159	928-934	želeli	_	_	_	_	
+1-160	935-943	sklepati	_	_	_	_	
+1-161	944-955	kakršnekoli	_	_	_	_	
+1-162	956-965	nenačelne	_	_	_	_	
+1-163	966-975	koalicije	_	_	_	_	
+1-164	976-977	.	_	_	_	_	
+1-165	978-980	Po	_	_	_	_	
+1-166	981-989	volitvah	_	_	_	_	
+1-167	990-992	ne	_	_	_	_	
+1-168	993-1005	izključujemo	_	_	_	_	
+1-169	1006-1014	možnosti	_	_	_	_	
+1-170	1015-1016	,	_	_	_	_	
+1-171	1017-1019	da	_	_	_	_	
+1-172	1020-1028	ostanemo	_	_	_	_	
+1-173	1029-1030	v	_	_	_	_	
+1-174	1031-1040	opoziciji	_	_	_	_	
+1-175	1041-1042	"	_	_	_	_	
+1-176	1043-1045	To	_	_	_	_	
+1-177	1046-1052	pomeni	_	_	_	_	
+1-178	1053-1055	le	_	_	_	_	
+1-179	1056-1057	,	_	_	_	_	
+1-180	1058-1060	da	_	_	_	_	
+1-181	1061-1067	nimamo	_	_	_	_	
+1-182	1068-1075	razloga	_	_	_	_	
+1-183	1076-1077	,	_	_	_	_	
+1-184	1078-1080	da	_	_	_	_	
+1-185	1081-1083	ne	_	_	_	_	
+1-186	1084-1086	bi	_	_	_	_	
+1-187	1087-1094	verjeli	_	_	_	_	
+1-188	1095-1096	,	_	_	_	_	
+1-189	1097-1099	da	_	_	_	_	
+1-190	1100-1104	bomo	_	_	_	_	
+1-191	1105-1106	v	_	_	_	_	
+1-192	1107-1117	razgovorih	_	_	_	_	
+1-193	1118-1120	po	_	_	_	_	
+1-194	1121-1129	volitvah	_	_	_	_	
+1-195	1130-1132	na	_	_	_	_	
+1-196	1133-1140	podlagi	_	_	_	_	
+1-197	1141-1150	programov	_	_	_	_	
+1-198	1151-1153	in	_	_	_	_	
+1-199	1154-1161	vrednot	_	_	_	_	
+1-200	1162-1170	suvereno	_	_	_	_	
+1-201	1171-1178	stopili	_	_	_	_	
+1-202	1179-1180	v	_	_	_	_	
+1-203	1181-1190	razgovore	_	_	_	_	
+1-204	1191-1192	z	_	_	_	_	
+1-205	1193-1198	vsemi	_	_	_	_	
+1-206	1199-1202	ter	_	_	_	_	
+1-207	1203-1212	preverili	_	_	_	_	
+1-208	1213-1220	njihovo	_	_	_	_	
+1-209	1221-1235	pripravljenost	_	_	_	_	
+1-210	1236-1237	,	_	_	_	_	
+1-211	1238-1240	da	_	_	_	_	
+1-212	1241-1243	to	_	_	_	_	
+1-213	1244-1254	upoštevajo	_	_	_	_	
+1-214	1255-1256	,	_	_	_	_	
+1-215	1257-1259	in	_	_	_	_	
+1-216	1260-1262	od	_	_	_	_	
+1-217	1263-1267	tega	_	_	_	_	
+1-218	1268-1270	bo	_	_	_	_	
+1-219	1271-1278	odvisna	_	_	_	_	
+1-220	1279-1283	naša	_	_	_	_	
+1-221	1284-1293	prihodnja	_	_	_	_	
+1-222	1294-1299	vloga	_	_	_	_	
+1-223	1300-1301	.	_	_	_	_	
+1-224	1302-1303	"	_	_	_	_	
+1-225	1304-1310	Gregor	PER[2]	_	*->1-6	*[1]	
+1-226	1311-1318	Golobič	PER[2]	_	*->1-6	*[1]	
+1-227	1319-1323	meni	_	_	_	_	
+1-228	1324-1325	,	_	_	_	_	
+1-229	1326-1328	da	_	_	_	_	
+1-230	1329-1331	bo	_	_	_	_	
+1-231	1332-1338	takšna	_	_	_	_	
+1-232	1339-1343	drža	_	_	_	_	
+1-233	1344-1348	zelo	_	_	_	_	
+1-234	1349-1357	verjetno	_	_	_	_	
+1-235	1358-1360	za	_	_	_	_	
+1-236	1361-1370	marsikoga	_	_	_	_	
+1-237	1371-1385	nesprejemljiva	_	_	_	_	
+1-238	1386-1387	,	_	_	_	_	
+1-239	1388-1391	kar	_	_	_	_	
+1-240	1392-1394	bi	_	_	_	_	
+1-241	1395-1400	lahko	_	_	_	_	
+1-242	1401-1409	pomenilo	_	_	_	_	
+1-243	1410-1411	,	_	_	_	_	
+1-244	1412-1414	da	_	_	_	_	
+1-245	1415-1417	se	_	_	_	_	
+1-246	1418-1422	bodo	_	_	_	_	
+1-247	1423-1425	po	_	_	_	_	
+1-248	1426-1434	volitvah	_	_	_	_	
+1-249	1435-1441	znašli	_	_	_	_	
+1-250	1442-1443	v	_	_	_	_	
+1-251	1444-1453	opoziciji	_	_	_	_	
+1-252	1454-1455	.	_	_	_	_	
+1-253	1456-1459	Med	_	_	_	_	
+1-254	1460-1469	kandidati	_	_	_	_	
+1-255	1470-1472	že	_	_	_	_	
+1-256	1473-1478	znana	_	_	_	_	
+1-257	1479-1484	imena	_	_	_	_	
+1-258	1485-1487	Na	_	_	_	_	
+1-259	1488-1498	konvenciji	_	_	_	_	
+1-260	1499-1500	,	_	_	_	_	
+1-261	1501-1506	drugi	_	_	_	_	
+1-262	1507-1509	po	_	_	_	_	
+1-263	1510-1515	vrsti	_	_	_	_	
+1-264	1516-1517	,	_	_	_	_	
+1-265	1518-1520	so	_	_	_	_	
+1-266	1521-1523	se	_	_	_	_	
+1-267	1524-1532	članicam	_	_	_	_	
+1-268	1533-1535	in	_	_	_	_	
+1-269	1536-1542	članom	_	_	_	_	
+1-270	1543-1550	stranke	_	_	*->2-7	*[2]	
+1-271	1551-1562	predstavili	_	_	_	_	
+1-272	1563-1567	tudi	_	_	_	_	
+1-273	1568-1577	kandidati	_	_	_	_	
+1-274	1578-1579	,	_	_	_	_	
+1-275	1580-1582	ki	_	_	_	_	
+1-276	1583-1585	jo	_	_	_	_	
+1-277	1586-1590	bodo	_	_	_	_	
+1-278	1591-1600	zastopali	_	_	_	_	
+1-279	1601-1603	na	_	_	_	_	
+1-280	1604-1613	jesenskih	_	_	_	_	
+1-281	1614-1629	državnozborskih	_	_	_	_	
+1-282	1630-1638	volitvah	_	_	_	_	
+1-283	1639-1640	.	_	_	_	_	
+1-284	1641-1647	Uradno	_	_	_	_	
+1-285	1648-1658	kandidatno	_	_	_	_	
+1-286	1659-1664	listo	_	_	_	_	
+1-287	1665-1671	Zaresa	ORG	_	*->2-8	*[2]	
+1-288	1672-1674	pa	_	_	_	_	
+1-289	1675-1677	bo	_	_	_	_	
+1-290	1678-1688	predvidoma	_	_	_	_	
+1-291	1689-1696	avgusta	_	_	_	_	
+1-292	1697-1704	potrdil	_	_	_	_	
+1-293	1705-1709	svet	_	_	_	_	
+1-294	1710-1717	stranke	_	_	_	_	
+1-295	1718-1719	.	_	_	_	_	
+1-296	1720-1723	Med	_	_	_	_	
+1-297	1724-1733	kandidati	_	_	_	_	
+1-298	1734-1735	,	_	_	_	_	
+1-299	1736-1738	ki	_	_	_	_	
+1-300	1739-1741	so	_	_	_	_	
+1-301	1742-1744	že	_	_	_	_	
+1-302	1745-1750	znani	_	_	_	_	
+1-303	1751-1752	,	_	_	_	_	
+1-304	1753-1755	je	_	_	_	_	
+1-305	1756-1760	tudi	_	_	_	_	
+1-306	1761-1771	predsednik	_	3 - Nevtralno[18]	*->1-7	*[1]	
+1-307	1772-1779	stranke	_	3 - Nevtralno[18]	*->1-7|*->2-9	*[1]|*[2]	
+1-308	1780-1786	Gregor	PER[3]	3 - Nevtralno[18]	*->1-7	*[1]	
+1-309	1787-1794	Golobič	PER[3]	3 - Nevtralno[18]	*->1-7	*[1]	
+1-310	1795-1796	,	_	_	_	_	
+1-311	1797-1799	ki	_	_	_	_	
+1-312	1800-1802	bo	_	_	_	_	
+1-313	1803-1813	kandidiral	_	_	_	_	
+1-314	1814-1815	v	_	_	_	_	
+1-315	1816-1825	Ljubljani	LOC	_	*->4-1	*[4]	
+1-316	1826-1827	.	_	_	_	_	
+1-317	1828-1829	V	_	_	_	_	
+1-318	1830-1841	prestolnici	_	_	*->4-2	*[4]	
+1-319	1842-1844	se	_	_	_	_	
+1-320	1845-1850	bosta	_	_	_	_	
+1-321	1851-1853	za	_	_	_	_	
+1-322	1854-1863	poslansko	_	_	_	_	
+1-323	1864-1869	mesto	_	_	_	_	
+1-324	1870-1880	potegovala	_	_	_	_	
+1-325	1881-1883	še	_	_	_	_	
+1-326	1884-1891	sedanja	_	_	_	_	
+1-327	1892-1900	poslanca	_	_	_	_	
+1-328	1901-1908	stranke	_	_	*->2-10	*[2]	
+1-329	1909-1914	Majda	PER[4]	3 - Nevtralno[19]	*->5-1	*[5]	
+1-330	1915-1920	Širca	PER[4]	3 - Nevtralno[19]	*->5-1	*[5]	
+1-331	1921-1923	in	_	_	_	_	
+1-332	1924-1929	Pavel	PER[5]	3 - Nevtralno[20]	*->6-1	*[6]	
+1-333	1930-1936	Gantar	PER[5]	3 - Nevtralno[20]	*->6-1	*[6]	
+1-334	1937-1938	.	_	_	_	_	
+1-335	1939-1944	Poleg	_	_	_	_	
+1-336	1945-1949	tega	_	_	_	_	
+1-337	1950-1952	pa	_	_	_	_	
+1-338	1953-1955	je	_	_	_	_	
+1-339	1956-1961	znano	_	_	_	_	
+1-340	1962-1963	,	_	_	_	_	
+1-341	1964-1966	da	_	_	_	_	
+1-342	1967-1971	bodo	_	_	_	_	
+1-343	1972-1974	na	_	_	_	_	
+1-344	1975-1980	listi	_	_	_	_	
+1-345	1981-1987	Zaresa	ORG	_	*->2-11	*[2]	
+1-346	1988-1994	jeseni	_	_	_	_	
+1-347	1995-2006	kandidirali	_	_	_	_	
+1-348	2007-2009	še	_	_	_	_	
+1-349	2010-2011	:	_	_	_	_	
+1-350	2012-2025	podpredsednik	_	3 - Nevtralno[21]	*->7-1	*[7]	
+1-351	2026-2032	Zaresa	ORG	3 - Nevtralno[21]	*->7-1|*->2-12	*[7]|*[2]	
+1-352	2033-2039	Branko	PER[6]	3 - Nevtralno[21]	*->7-1	*[7]	
+1-353	2040-2048	Lobnikar	PER[6]	3 - Nevtralno[21]	*->7-1	*[7]	
+1-354	2049-2050	(	_	_	_	_	
+1-355	2051-2056	Celje	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-356	2057-2058	)	_	_	_	_	
+1-357	2059-2060	,	_	_	_	_	
+1-358	2061-2074	podpredsednik	_	3 - Nevtralno[22]	*->9-1	*[9]	
+1-359	2075-2082	stranke	_	3 - Nevtralno[22]|3 - Nevtralno[23]	*->9-1|*->2-13	*[9]|*[2]	
+1-360	2083-2089	Franci	PER[7]	3 - Nevtralno[22]	*->9-1	*[9]	
+1-361	2090-2093	Kek	PER[7]	3 - Nevtralno[22]	*->9-1	*[9]	
+1-362	2094-2095	(	_	_	_	_	
+1-363	2096-2100	Novo	LOC[8]	3 - Nevtralno[24]	*->10-1	*[10]	
+1-364	2101-2106	mesto	LOC[8]	3 - Nevtralno[24]	*->10-1	*[10]	
+1-365	2107-2108	)	_	_	_	_	
+1-366	2109-2110	,	_	_	_	_	
+1-367	2111-2116	Matej	PER[9]	3 - Nevtralno[25]	*->11-1	*[11]	
+1-368	2117-2125	Lahovnik	PER[9]	3 - Nevtralno[25]	*->11-1	*[11]	
+1-369	2126-2127	(	_	_	_	_	
+1-370	2128-2135	Velenje	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-371	2136-2137	)	_	_	_	_	
+1-372	2138-2139	,	_	_	_	_	
+1-373	2140-2145	Cveta	PER[10]	3 - Nevtralno[26]	*->13-1	*[13]	
+1-374	2146-2153	Zalokar	PER[10]	3 - Nevtralno[26]	*->13-1	*[13]	
+1-375	2154-2160	Oražem	PER[10]	3 - Nevtralno[26]	*->13-1	*[13]	
+1-376	2161-2162	(	_	_	_	_	
+1-377	2163-2170	Domžale	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-378	2171-2172	)	_	_	_	_	
+1-379	2173-2174	,	_	_	_	_	
+1-380	2175-2180	Alojz	PER[11]	3 - Nevtralno[27]	*->15-1	*[15]	
+1-381	2181-2188	Posedel	PER[11]	3 - Nevtralno[27]	*->15-1	*[15]	
+1-382	2189-2190	(	_	_	_	_	
+1-383	2191-2196	Žalec	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-384	2197-2198	)	_	_	_	_	
+1-385	2199-2202	ter	_	_	_	_	
+1-386	2203-2207	Vili	PER[12]	3 - Nevtralno[28]	*->17-1	*[17]	
+1-387	2208-2216	Trofenik	PER[12]	3 - Nevtralno[28]	*->17-1	*[17]	
+1-388	2217-2218	(	_	_	_	_	
+1-389	2219-2224	Ormož	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-390	2225-2226	)	_	_	_	_	
+1-391	2227-2228	,	_	_	_	_	
+1-392	2229-2232	Ivo	PER[13]	_	*->19-1	*[19]	
+1-393	2233-2238	Vajgl	PER[13]	_	*->19-1	*[19]	
+1-394	2239-2240	,	_	_	_	_	
+1-395	2241-2249	nekdanji	_	3 - Nevtralno[29]	*->19-2	*[19]	
+1-396	2250-2257	zunanji	_	3 - Nevtralno[29]	*->19-2	*[19]	
+1-397	2258-2266	minister	_	3 - Nevtralno[29]	*->19-2	*[19]	
+1-398	2267-2269	in	_	3 - Nevtralno[29]	*->19-2	*[19]	
+1-399	2270-2280	svetovalec	_	3 - Nevtralno[29]	*->19-2	*[19]	
+1-400	2281-2292	predsednika	_	3 - Nevtralno[29]	*->19-2	*[19]	
+1-401	2293-2302	republike	_	3 - Nevtralno[29]	*->19-2	*[19]	
+1-402	2303-2304	(	_	_	_	_	
+1-403	2305-2314	Ljubljana	LOC	3 - Nevtralno	*->4-3	*[4]	
+1-404	2315-2316	)	_	_	_	_	
+1-405	2317-2318	,	_	_	_	_	
+1-406	2319-2327	nekdanji	_	3 - Nevtralno[30]	*->20-1	*[20]	
+1-407	2328-2338	predsednik	_	3 - Nevtralno[30]	*->20-1	*[20]	
+1-408	2339-2345	uprave	_	3 - Nevtralno[30]	*->20-1	*[20]	
+1-409	2346-2350	Hita	ORG	3 - Nevtralno[30]|3 - Nevtralno[31]	*->20-1|*->25-1	*[20]|*[25]	
+1-410	2351-2357	Branko	PER[14]	3 - Nevtralno[30]	*->20-1	*[20]	
+1-411	2358-2365	Tomažič	PER[14]	3 - Nevtralno[30]	*->20-1	*[20]	
+1-412	2366-2367	(	_	_	_	_	
+1-413	2368-2372	Nova	LOC[15]	3 - Nevtralno[32]	*->24-1	*[24]	
+1-414	2373-2379	Gorica	LOC[15]	3 - Nevtralno[32]	*->24-1	*[24]	
+1-415	2380-2381	)	_	_	_	_	
+1-416	2382-2384	in	_	_	_	_	
+1-417	2385-2393	nekdanja	_	3 - Nevtralno[33]	*->21-1	*[21]	
+1-418	2394-2405	direktorica	_	3 - Nevtralno[33]	*->21-1	*[21]	
+1-419	2406-2416	Primorskih	ORG[16]	3 - Nevtralno[33]|3 - Nevtralno[34]	*->21-1|*->23-1	*[21]|*[23]	
+1-420	2417-2422	novic	ORG[16]	3 - Nevtralno[33]|3 - Nevtralno[34]	*->21-1|*->23-1	*[21]|*[23]	
+1-421	2423-2430	Barbara	PER[17]	3 - Nevtralno[33]	*->21-1	*[21]	
+1-422	2431-2438	Verdnik	PER[17]	3 - Nevtralno[33]	*->21-1	*[21]	
+1-423	2439-2440	(	_	_	_	_	
+1-424	2441-2446	Koper	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-425	2447-2448	)	_	_	_	_	

@@ -1,0 +1,303 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Peter Stelzer je že oddal vzorec za analizo DNK . Franc Rode naj bi ga opravil konec tedna . Oba pa naj bi ga oddala v Münchnu . Po poročanju Dela je domnevni sin Franceta Rodeta Peter Stelzer že oddal DNK test . Še ta teden pa naj bi ga oddal tudi kardinal Franc Rode . Oba bosta test opravila na Inštitutu za sodno medicino v Münchnu . Ni pa še znano , kdaj bodo znani rezultati . Omenjene navedbe je potrdila tudi odvetnica Nina Zidar Klemenčič in dodala , da bi to lahko naredili že veliko prej , a sta bila oba zelo neodzivna . Naj vas spomnimo Konec avgusta je Delo poročalo , da naj bi imel Rode leta 1969 intimno razmerje s Tanjo Bredo S . , ki je leto pozneje v Nemčiji rodila otroka . Ta naj bi bil danes v Dubaju živeli Peter Stelzer , ki je za časnik , še isti dan pa tudi za nekatere druge medije , izrekel željo , da Rode opravi test očetovstva . Kardinal je še isti dan odločno zanikal , da bi prelomil celibat , in izrazil pripravljenost , da opravi omenjeni test . Predlagal je , da se ta opravi na Inštitutu za sodno medicino Medicinske fakultete Univerze v Ljubljani , ker pa se Stelzer s tem ni strinjal , je pristal tudi na test očetovstva na eni izmed nemških ustanov , ki jo je predlagal Steltzer . Petega septembra so tako v pisarni Zidar Klemenčičeve v izjavi za javnost zapisali , da so Stelzerjevemu nemškemu odvetniku sporočili , da je Rode pripravljen opraviti test v Nemčiji , obenem pa ga zaprosili , naj takoj posreduje termin , v katerem bi Rode in Stelzer po protokolu sodnih ugotavljanj očetovstva istočasno oddala vzorce DNK
+1-1	0-5	Peter	PER[1]	_	*->3-1	*[3]	
+1-2	6-13	Stelzer	PER[1]	_	*->3-1	*[3]	
+1-3	14-16	je	_	_	_	_	
+1-4	17-19	že	_	_	_	_	
+1-5	20-25	oddal	_	_	_	_	
+1-6	26-32	vzorec	_	_	_	_	
+1-7	33-35	za	_	_	_	_	
+1-8	36-43	analizo	_	_	_	_	
+1-9	44-47	DNK	_	_	_	_	
+1-10	48-49	.	_	_	_	_	
+1-11	50-55	Franc	PER[2]	_	*->8-1	*[8]	
+1-12	56-60	Rode	PER[2]	_	*->8-1	*[8]	
+1-13	61-64	naj	_	_	_	_	
+1-14	65-67	bi	_	_	_	_	
+1-15	68-70	ga	_	_	_	_	
+1-16	71-78	opravil	_	_	_	_	
+1-17	79-84	konec	_	_	_	_	
+1-18	85-90	tedna	_	_	_	_	
+1-19	91-92	.	_	_	_	_	
+1-20	93-96	Oba	_	_	_	_	
+1-21	97-99	pa	_	_	_	_	
+1-22	100-103	naj	_	_	_	_	
+1-23	104-106	bi	_	_	_	_	
+1-24	107-109	ga	_	_	_	_	
+1-25	110-116	oddala	_	_	_	_	
+1-26	117-118	v	_	_	_	_	
+1-27	119-126	Münchnu	LOC	_	*->4-1	*[4]	
+1-28	127-128	.	_	_	_	_	
+1-29	129-131	Po	_	_	_	_	
+1-30	132-141	poročanju	_	_	_	_	
+1-31	142-146	Dela	ORG	_	*->7-1	*[7]	
+1-32	147-149	je	_	_	_	_	
+1-33	150-158	domnevni	_	_	*->3-2	*[3]	
+1-34	159-162	sin	_	_	*->3-2	*[3]	
+1-35	163-171	Franceta	PER[3]	_	*->8-2	*[8]	
+1-36	172-178	Rodeta	PER[3]	_	*->8-2	*[8]	
+1-37	179-184	Peter	PER[4]	_	*->3-3	*[3]	
+1-38	185-192	Stelzer	PER[4]	_	*->3-3	*[3]	
+1-39	193-195	že	_	_	_	_	
+1-40	196-201	oddal	_	_	_	_	
+1-41	202-205	DNK	_	_	_	_	
+1-42	206-210	test	_	_	_	_	
+1-43	211-212	.	_	_	_	_	
+1-44	213-215	Še	_	_	_	_	
+1-45	216-218	ta	_	_	_	_	
+1-46	219-224	teden	_	_	_	_	
+1-47	225-227	pa	_	_	_	_	
+1-48	228-231	naj	_	_	_	_	
+1-49	232-234	bi	_	_	_	_	
+1-50	235-237	ga	_	_	_	_	
+1-51	238-243	oddal	_	_	_	_	
+1-52	244-248	tudi	_	_	_	_	
+1-53	249-257	kardinal	_	_	*->8-3	*[8]	
+1-54	258-263	Franc	PER[5]	_	*->8-3	*[8]	
+1-55	264-268	Rode	PER[5]	_	*->8-3	*[8]	
+1-56	269-270	.	_	_	_	_	
+1-57	271-274	Oba	_	_	_	_	
+1-58	275-280	bosta	_	_	_	_	
+1-59	281-285	test	_	_	_	_	
+1-60	286-294	opravila	_	_	_	_	
+1-61	295-297	na	_	_	_	_	
+1-62	298-307	Inštitutu	_	3 - Nevtralno[12]	*->1-1	*[1]	
+1-63	308-310	za	_	3 - Nevtralno[12]	*->1-1	*[1]	
+1-64	311-316	sodno	_	3 - Nevtralno[12]	*->1-1	*[1]	
+1-65	317-325	medicino	_	3 - Nevtralno[12]	*->1-1	*[1]	
+1-66	326-327	v	_	_	_	_	
+1-67	328-335	Münchnu	LOC	3 - Nevtralno	*->4-2	*[4]	
+1-68	336-337	.	_	_	_	_	
+1-69	338-340	Ni	_	_	_	_	
+1-70	341-343	pa	_	_	_	_	
+1-71	344-346	še	_	_	_	_	
+1-72	347-352	znano	_	_	_	_	
+1-73	353-354	,	_	_	_	_	
+1-74	355-359	kdaj	_	_	_	_	
+1-75	360-364	bodo	_	_	_	_	
+1-76	365-370	znani	_	_	_	_	
+1-77	371-380	rezultati	_	_	_	_	
+1-78	381-382	.	_	_	_	_	
+1-79	383-391	Omenjene	_	_	_	_	
+1-80	392-399	navedbe	_	_	_	_	
+1-81	400-402	je	_	_	_	_	
+1-82	403-411	potrdila	_	_	_	_	
+1-83	412-416	tudi	_	_	_	_	
+1-84	417-426	odvetnica	_	_	*->2-1	*[2]	
+1-85	427-431	Nina	PER[6]	_	*->2-1	*[2]	
+1-86	432-437	Zidar	PER[6]	_	*->2-1	*[2]	
+1-87	438-447	Klemenčič	PER[6]	_	*->2-1	*[2]	
+1-88	448-450	in	_	_	_	_	
+1-89	451-457	dodala	_	_	_	_	
+1-90	458-459	,	_	_	_	_	
+1-91	460-462	da	_	_	_	_	
+1-92	463-465	bi	_	_	_	_	
+1-93	466-468	to	_	_	_	_	
+1-94	469-474	lahko	_	_	_	_	
+1-95	475-483	naredili	_	_	_	_	
+1-96	484-486	že	_	_	_	_	
+1-97	487-493	veliko	_	_	_	_	
+1-98	494-498	prej	_	_	_	_	
+1-99	499-500	,	_	_	_	_	
+1-100	501-502	a	_	_	_	_	
+1-101	503-506	sta	_	_	_	_	
+1-102	507-511	bila	_	_	_	_	
+1-103	512-515	oba	_	_	_	_	
+1-104	516-520	zelo	_	_	_	_	
+1-105	521-530	neodzivna	_	_	_	_	
+1-106	531-532	.	_	_	_	_	
+1-107	533-536	Naj	_	_	_	_	
+1-108	537-540	vas	_	_	_	_	
+1-109	541-549	spomnimo	_	_	_	_	
+1-110	550-555	Konec	_	_	_	_	
+1-111	556-563	avgusta	_	_	_	_	
+1-112	564-566	je	_	_	_	_	
+1-113	567-571	Delo	ORG	_	*->7-2	*[7]	
+1-114	572-580	poročalo	_	_	_	_	
+1-115	581-582	,	_	_	_	_	
+1-116	583-585	da	_	_	_	_	
+1-117	586-589	naj	_	_	_	_	
+1-118	590-592	bi	_	_	_	_	
+1-119	593-597	imel	_	_	_	_	
+1-120	598-602	Rode	PER	_	*->8-4	*[8]	
+1-121	603-607	leta	_	_	_	_	
+1-122	608-612	1969	_	_	_	_	
+1-123	613-620	intimno	_	_	_	_	
+1-124	621-629	razmerje	_	_	_	_	
+1-125	630-631	s	_	_	_	_	
+1-126	632-637	Tanjo	PER[7]	3 - Nevtralno[13]	*->5-1	*[5]	
+1-127	638-643	Bredo	PER[7]	3 - Nevtralno[13]	*->5-1	*[5]	
+1-128	644-645	S	PER[7]	3 - Nevtralno[13]	*->5-1	*[5]	
+1-129	646-647	.	_	_	_	_	
+1-130	648-649	,	_	_	_	_	
+1-131	650-652	ki	_	_	_	_	
+1-132	653-655	je	_	_	_	_	
+1-133	656-660	leto	_	_	_	_	
+1-134	661-668	pozneje	_	_	_	_	
+1-135	669-670	v	_	_	_	_	
+1-136	671-678	Nemčiji	LOC	_	*->10-1	*[10]	
+1-137	679-685	rodila	_	_	_	_	
+1-138	686-692	otroka	_	_	*->3-4	*[3]	
+1-139	693-694	.	_	_	_	_	
+1-140	695-697	Ta	_	_	*->3-5	*[3]	
+1-141	698-701	naj	_	_	_	_	
+1-142	702-704	bi	_	_	_	_	
+1-143	705-708	bil	_	_	_	_	
+1-144	709-714	danes	_	_	_	_	
+1-145	715-716	v	_	_	_	_	
+1-146	717-723	Dubaju	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-147	724-730	živeli	_	_	_	_	
+1-148	731-736	Peter	PER[8]	_	*->3-6	*[3]	
+1-149	737-744	Stelzer	PER[8]	_	*->3-6	*[3]	
+1-150	745-746	,	_	_	_	_	
+1-151	747-749	ki	_	_	_	_	
+1-152	750-752	je	_	_	_	_	
+1-153	753-755	za	_	_	_	_	
+1-154	756-762	časnik	_	3 - Nevtralno	*->7-3	*[7]	
+1-155	763-764	,	_	_	_	_	
+1-156	765-767	še	_	_	_	_	
+1-157	768-772	isti	_	_	_	_	
+1-158	773-776	dan	_	_	_	_	
+1-159	777-779	pa	_	_	_	_	
+1-160	780-784	tudi	_	_	_	_	
+1-161	785-787	za	_	_	_	_	
+1-162	788-796	nekatere	_	_	_	_	
+1-163	797-802	druge	_	_	_	_	
+1-164	803-809	medije	_	_	_	_	
+1-165	810-811	,	_	_	_	_	
+1-166	812-819	izrekel	_	_	_	_	
+1-167	820-825	željo	_	_	_	_	
+1-168	826-827	,	_	_	_	_	
+1-169	828-830	da	_	_	_	_	
+1-170	831-835	Rode	PER	_	*->8-5	*[8]	
+1-171	836-842	opravi	_	_	_	_	
+1-172	843-847	test	_	_	_	_	
+1-173	848-858	očetovstva	_	_	_	_	
+1-174	859-860	.	_	_	_	_	
+1-175	861-869	Kardinal	_	_	*->8-6	*[8]	
+1-176	870-872	je	_	_	_	_	
+1-177	873-875	še	_	_	_	_	
+1-178	876-880	isti	_	_	_	_	
+1-179	881-884	dan	_	_	_	_	
+1-180	885-892	odločno	_	_	_	_	
+1-181	893-900	zanikal	_	_	_	_	
+1-182	901-902	,	_	_	_	_	
+1-183	903-905	da	_	_	_	_	
+1-184	906-908	bi	_	_	_	_	
+1-185	909-917	prelomil	_	_	_	_	
+1-186	918-925	celibat	_	_	_	_	
+1-187	926-927	,	_	_	_	_	
+1-188	928-930	in	_	_	_	_	
+1-189	931-938	izrazil	_	_	_	_	
+1-190	939-953	pripravljenost	_	_	_	_	
+1-191	954-955	,	_	_	_	_	
+1-192	956-958	da	_	_	_	_	
+1-193	959-965	opravi	_	_	_	_	
+1-194	966-974	omenjeni	_	_	_	_	
+1-195	975-979	test	_	_	_	_	
+1-196	980-981	.	_	_	_	_	
+1-197	982-991	Predlagal	_	_	*->8-7	*[8]	
+1-198	992-994	je	_	_	*->8-7	*[8]	
+1-199	995-996	,	_	_	_	_	
+1-200	997-999	da	_	_	_	_	
+1-201	1000-1002	se	_	_	_	_	
+1-202	1003-1005	ta	_	_	_	_	
+1-203	1006-1012	opravi	_	_	_	_	
+1-204	1013-1015	na	_	_	_	_	
+1-205	1016-1025	Inštitutu	ORG[9]	3 - Nevtralno[14]	*->9-1	*[9]	
+1-206	1026-1028	za	ORG[9]	3 - Nevtralno[14]	*->9-1	*[9]	
+1-207	1029-1034	sodno	ORG[9]	3 - Nevtralno[14]	*->9-1	*[9]	
+1-208	1035-1043	medicino	ORG[9]	3 - Nevtralno[14]	*->9-1	*[9]	
+1-209	1044-1054	Medicinske	ORG[9]	3 - Nevtralno[14]	*->9-1	*[9]	
+1-210	1055-1064	fakultete	ORG[9]	3 - Nevtralno[14]	*->9-1	*[9]	
+1-211	1065-1073	Univerze	ORG[9]	3 - Nevtralno[14]	*->9-1	*[9]	
+1-212	1074-1075	v	ORG[9]	3 - Nevtralno[14]	*->9-1	*[9]	
+1-213	1076-1085	Ljubljani	ORG[9]|LOC[10]	3 - Nevtralno[14]|3 - Nevtralno[15]	*->9-1|*->11-1	*[9]|*[11]	
+1-214	1086-1087	,	_	_	_	_	
+1-215	1088-1091	ker	_	_	_	_	
+1-216	1092-1094	pa	_	_	_	_	
+1-217	1095-1097	se	_	_	_	_	
+1-218	1098-1105	Stelzer	PER	_	*->3-7	*[3]	
+1-219	1106-1107	s	_	_	_	_	
+1-220	1108-1111	tem	_	_	_	_	
+1-221	1112-1114	ni	_	_	_	_	
+1-222	1115-1123	strinjal	_	_	_	_	
+1-223	1124-1125	,	_	_	_	_	
+1-224	1126-1128	je	_	_	*->8-8	*[8]	
+1-225	1129-1136	pristal	_	_	*->8-8	*[8]	
+1-226	1137-1141	tudi	_	_	_	_	
+1-227	1142-1144	na	_	_	_	_	
+1-228	1145-1149	test	_	_	_	_	
+1-229	1150-1160	očetovstva	_	_	_	_	
+1-230	1161-1163	na	_	_	_	_	
+1-231	1164-1167	eni	_	_	_	_	
+1-232	1168-1173	izmed	_	_	_	_	
+1-233	1174-1181	nemških	_	_	_	_	
+1-234	1182-1189	ustanov	_	_	_	_	
+1-235	1190-1191	,	_	_	_	_	
+1-236	1192-1194	ki	_	_	_	_	
+1-237	1195-1197	jo	_	_	_	_	
+1-238	1198-1200	je	_	_	_	_	
+1-239	1201-1210	predlagal	_	_	_	_	
+1-240	1211-1219	Steltzer	PER	_	*->3-8	*[3]	
+1-241	1220-1221	.	_	_	_	_	
+1-242	1222-1228	Petega	_	_	_	_	
+1-243	1229-1238	septembra	_	_	_	_	
+1-244	1239-1241	so	_	_	_	_	
+1-245	1242-1246	tako	_	_	_	_	
+1-246	1247-1248	v	_	_	_	_	
+1-247	1249-1256	pisarni	_	_	_	_	
+1-248	1257-1262	Zidar	PER[11]	3 - Nevtralno[16]	*->2-2	*[2]	
+1-249	1263-1275	Klemenčičeve	PER[11]	3 - Nevtralno[16]	*->2-2	*[2]	
+1-250	1276-1277	v	_	_	_	_	
+1-251	1278-1284	izjavi	_	_	_	_	
+1-252	1285-1287	za	_	_	_	_	
+1-253	1288-1295	javnost	_	_	_	_	
+1-254	1296-1304	zapisali	_	_	_	_	
+1-255	1305-1306	,	_	_	_	_	
+1-256	1307-1309	da	_	_	_	_	
+1-257	1310-1312	so	_	_	_	_	
+1-258	1313-1326	Stelzerjevemu	PER	_	*->3-9	*[3]	
+1-259	1327-1335	nemškemu	_	_	_	_	
+1-260	1336-1345	odvetniku	_	_	_	_	
+1-261	1346-1355	sporočili	_	_	_	_	
+1-262	1356-1357	,	_	_	_	_	
+1-263	1358-1360	da	_	_	_	_	
+1-264	1361-1363	je	_	_	_	_	
+1-265	1364-1368	Rode	PER	_	*->8-9	*[8]	
+1-266	1369-1380	pripravljen	_	_	_	_	
+1-267	1381-1389	opraviti	_	_	_	_	
+1-268	1390-1394	test	_	_	_	_	
+1-269	1395-1396	v	_	_	_	_	
+1-270	1397-1404	Nemčiji	LOC	3 - Nevtralno	*->10-2	*[10]	
+1-271	1405-1406	,	_	_	_	_	
+1-272	1407-1413	obenem	_	_	_	_	
+1-273	1414-1416	pa	_	_	_	_	
+1-274	1417-1419	ga	_	_	_	_	
+1-275	1420-1429	zaprosili	_	_	_	_	
+1-276	1430-1431	,	_	_	_	_	
+1-277	1432-1435	naj	_	_	_	_	
+1-278	1436-1441	takoj	_	_	_	_	
+1-279	1442-1451	posreduje	_	_	_	_	
+1-280	1452-1458	termin	_	_	_	_	
+1-281	1459-1460	,	_	_	_	_	
+1-282	1461-1462	v	_	_	_	_	
+1-283	1463-1470	katerem	_	_	_	_	
+1-284	1471-1473	bi	_	_	_	_	
+1-285	1474-1478	Rode	PER	3 - Nevtralno	*->8-10	*[8]	
+1-286	1479-1481	in	_	_	_	_	
+1-287	1482-1489	Stelzer	PER	3 - Nevtralno	*->3-10	*[3]	
+1-288	1490-1492	po	_	_	_	_	
+1-289	1493-1502	protokolu	_	_	_	_	
+1-290	1503-1509	sodnih	_	_	_	_	
+1-291	1510-1521	ugotavljanj	_	_	_	_	
+1-292	1522-1532	očetovstva	_	_	_	_	
+1-293	1533-1542	istočasno	_	_	_	_	
+1-294	1543-1549	oddala	_	_	_	_	
+1-295	1550-1556	vzorce	_	_	_	_	
+1-296	1557-1560	DNK	_	_	_	_	

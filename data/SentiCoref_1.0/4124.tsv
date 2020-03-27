@@ -1,0 +1,472 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Kratke vesti , ki jih pripravljajo v poslovni redakciji Dnevnika . Mervar na čelo Elesa Nadzorni svet Elesa je na včerajšnji seji za direktorja družbe imenoval Aleksandra Mervarja , sedanjega namestnika direktorja . Ta bo štiriletni mandat nastopil 26 . oktobra , ko bo tudi odstopil iz nadzornega sveta Slovenske odškodninske družbe . Alta svetovalka pri prodaji Cinkarne Celje Cinkarna Celje je za čas postopka prodaje skoraj 73 - odstotnega deleža sklenila pogodbo o svetovanju z Alto Skupino . Sporazum o skupnem nastopu pri prodaji Cinkarne Celje so julija podpisali NLB , Sod , Modra zavarovalnica , NKBM , NFD DZU , Banka Celje in KD Skladi . Sedem prijav za vodenje Košakov Tovarna mesnih izdelkov Košaki , ki jo je avgusta zapustil predsednik uprave Jure Bojnec , še ni dobila novega vodstva . Na objavljeni razpis je prispelo sedem prijav , a nadzorniki odločitve še niso sprejeli . Začasno zdaj vodi družbo dosedanja vodja prodaje Meta Lovše . Pörš bo bedel nad železniškim prometom Vlada je včeraj za največ pol leta imenovala vršilca dolžnosti direktorja Javne agencije za železniški promet . To je postal Alojz Pörš , ki je bil v Javni agenciji za železniški promet na različnih vodstvenih položajih zaposlen od leta 2006 . Vlada na pomoč Pomurskim mlekarnam Pomurske mlekarne bodo od vlade dobile pomoč » de minimis « v obliki reprogramiranja dolgoročnega posojila . Gre za dveletni moratorij za odplačilo glavnice , rok vračila celotnih obveznosti pa se podaljša za 24 mesecev . Neto državna pomoč de minimis znaša 42.981 evrov . Bruselj odobril poroštvo MLM Evropska komisija je odobrila državno poroštvo za državno pomoč Mariborski livarni Maribor ( MLM ) v višini 5,1 milijona evrov . Erste Card izdal 30.000 kartic diners V prvem mesecu po izpolnitvi vseh potrebnih tehničnih zahtev in ponovni vzpostavitvi mreže za delovanje kartice diners na prodajnih mestih je Erste Card , novi lastnik franšize Diners Cluba v Sloveniji , pridobil že 30.000 imetnikov novih kartic diners . V tem času je bil na prodajnih mestih v Sloveniji s karticami diners club ustvarjen promet v višini 1,3 milijona evrov . Terme Olimia z 10 milijoni evrov prihodkov Terme Olimia so ob polletju ustvarile 10 milijonov evrov prihodkov , kar je nekaj odstotkov več kot v enakem obdobju lani . Direktor Zdravko Počivalšek je ocenil , da je bil začetek leta zelo težak , vendar jim je čez polletje uspelo poslovne rezultate izboljšati . Veliko zanimanje za Novolesov kompleks Po več neuspelih dražbah za prodajo kompleksa straškega Novolesa , ki je od maja predlani v stečaju , je upraviteljica Romana Kruhar Puc julija razpisala dvomesečno prodajo s pomočjo nezavezujočih ponudb in zanjo dobila štiri ponudbe . Za nakup kompleksa se poteguje tudi delavska zadruga , ki so jo ustanovili nekdanji Novolesovi delavci . Pripravila Jan Bratanič in
+1-1	0-6	Kratke	_	_	_	_	
+1-2	7-12	vesti	_	_	_	_	
+1-3	13-14	,	_	_	_	_	
+1-4	15-17	ki	_	_	_	_	
+1-5	18-21	jih	_	_	_	_	
+1-6	22-34	pripravljajo	_	_	_	_	
+1-7	35-36	v	_	_	_	_	
+1-8	37-45	poslovni	_	_	_	_	
+1-9	46-55	redakciji	_	_	_	_	
+1-10	56-64	Dnevnika	ORG	3 - Nevtralno	*->29-1	*[29]	
+1-11	65-66	.	_	_	_	_	
+1-12	67-73	Mervar	PER	_	*->1-1	*[1]	
+1-13	74-76	na	_	_	_	_	
+1-14	77-81	čelo	_	_	_	_	
+1-15	82-87	Elesa	ORG	_	*->2-1	*[2]	
+1-16	88-96	Nadzorni	_	_	_	_	
+1-17	97-101	svet	_	_	_	_	
+1-18	102-107	Elesa	ORG	_	*->2-2	*[2]	
+1-19	108-110	je	_	_	_	_	
+1-20	111-113	na	_	_	_	_	
+1-21	114-124	včerajšnji	_	_	_	_	
+1-22	125-129	seji	_	_	_	_	
+1-23	130-132	za	_	_	_	_	
+1-24	133-143	direktorja	_	_	_	_	
+1-25	144-150	družbe	_	3 - Nevtralno	*->2-3	*[2]	
+1-26	151-159	imenoval	_	_	_	_	
+1-27	160-170	Aleksandra	PER[1]	_	*->1-2	*[1]	
+1-28	171-179	Mervarja	PER[1]	_	*->1-2	*[1]	
+1-29	180-181	,	_	_	_	_	
+1-30	182-191	sedanjega	_	_	*->1-3	*[1]	
+1-31	192-202	namestnika	_	_	*->1-3	*[1]	
+1-32	203-213	direktorja	_	_	*->1-3	*[1]	
+1-33	214-215	.	_	_	_	_	
+1-34	216-218	Ta	_	_	*->1-4	*[1]	
+1-35	219-221	bo	_	_	_	_	
+1-36	222-232	štiriletni	_	_	_	_	
+1-37	233-239	mandat	_	_	_	_	
+1-38	240-248	nastopil	_	_	_	_	
+1-39	249-251	26	_	_	_	_	
+1-40	252-253	.	_	_	_	_	
+1-41	254-261	oktobra	_	_	_	_	
+1-42	262-263	,	_	_	_	_	
+1-43	264-266	ko	_	_	_	_	
+1-44	267-269	bo	_	_	_	_	
+1-45	270-274	tudi	_	_	_	_	
+1-46	275-283	odstopil	_	3 - Nevtralno	*->1-5	*[1]	
+1-47	284-286	iz	_	_	_	_	
+1-48	287-297	nadzornega	_	_	_	_	
+1-49	298-303	sveta	_	_	_	_	
+1-50	304-313	Slovenske	ORG[2]	_	*->3-1	*[3]	
+1-51	314-326	odškodninske	ORG[2]	_	*->3-1	*[3]	
+1-52	327-333	družbe	ORG[2]	_	*->3-1	*[3]	
+1-53	334-335	.	_	_	_	_	
+1-54	336-340	Alta	ORG	_	*->4-1	*[4]	
+1-55	341-351	svetovalka	_	_	_	_	
+1-56	352-355	pri	_	_	_	_	
+1-57	356-363	prodaji	_	_	_	_	
+1-58	364-372	Cinkarne	ORG[3]	_	*->5-1	*[5]	
+1-59	373-378	Celje	ORG[3]|LOC[4]	_	*->5-1|*->6-1	*[5]|*[6]	
+1-60	379-387	Cinkarna	ORG[5]	_	*->5-2	*[5]	
+1-61	388-393	Celje	ORG[5]|LOC[6]	_	*->5-2|*->6-2	*[5]|*[6]	
+1-62	394-396	je	_	_	_	_	
+1-63	397-399	za	_	_	_	_	
+1-64	400-403	čas	_	_	_	_	
+1-65	404-412	postopka	_	_	_	_	
+1-66	413-420	prodaje	_	_	_	_	
+1-67	421-427	skoraj	_	_	_	_	
+1-68	428-430	73	_	_	_	_	
+1-69	431-432	-	_	_	_	_	
+1-70	433-443	odstotnega	_	_	_	_	
+1-71	444-450	deleža	_	_	_	_	
+1-72	451-459	sklenila	_	_	_	_	
+1-73	460-467	pogodbo	_	_	_	_	
+1-74	468-469	o	_	_	_	_	
+1-75	470-480	svetovanju	_	_	_	_	
+1-76	481-482	z	_	_	_	_	
+1-77	483-487	Alto	ORG[7]	3 - Nevtralno[33]	*->4-2	*[4]	
+1-78	488-495	Skupino	ORG[7]	3 - Nevtralno[33]	*->4-2	*[4]	
+1-79	496-497	.	_	_	_	_	
+1-80	498-506	Sporazum	_	_	_	_	
+1-81	507-508	o	_	_	_	_	
+1-82	509-516	skupnem	_	_	_	_	
+1-83	517-524	nastopu	_	_	_	_	
+1-84	525-528	pri	_	_	_	_	
+1-85	529-536	prodaji	_	_	_	_	
+1-86	537-545	Cinkarne	ORG[8]	3 - Nevtralno[34]	*->5-3	*[5]	
+1-87	546-551	Celje	ORG[8]|LOC[9]	3 - Nevtralno[34]	*->5-3|*->6-3	*[5]|*[6]	
+1-88	552-554	so	_	_	_	_	
+1-89	555-561	julija	_	_	_	_	
+1-90	562-571	podpisali	_	_	_	_	
+1-91	572-575	NLB	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-92	576-577	,	_	_	_	_	
+1-93	578-581	Sod	ORG	3 - Nevtralno	*->3-2	*[3]	
+1-94	582-583	,	_	_	_	_	
+1-95	584-589	Modra	ORG[10]	3 - Nevtralno[35]	*->8-1	*[8]	
+1-96	590-603	zavarovalnica	ORG[10]	3 - Nevtralno[35]	*->8-1	*[8]	
+1-97	604-605	,	_	_	_	_	
+1-98	606-610	NKBM	ORG	3 - Nevtralno	*->9-1	*[9]	
+1-99	611-612	,	_	_	_	_	
+1-100	613-616	NFD	ORG[11]	3 - Nevtralno[36]	*->10-1	*[10]	
+1-101	617-620	DZU	ORG[11]	3 - Nevtralno[36]	*->10-1	*[10]	
+1-102	621-622	,	_	_	_	_	
+1-103	623-628	Banka	ORG[12]	3 - Nevtralno[37]	*->11-1	*[11]	
+1-104	629-634	Celje	ORG[12]|LOC[13]	3 - Nevtralno[37]|3 - Nevtralno[38]	*->11-1|*->6-4	*[11]|*[6]	
+1-105	635-637	in	_	_	_	_	
+1-106	638-640	KD	ORG[14]	3 - Nevtralno[39]	*->12-1	*[12]	
+1-107	641-647	Skladi	ORG[14]	3 - Nevtralno[39]	*->12-1	*[12]	
+1-108	648-649	.	_	_	_	_	
+1-109	650-655	Sedem	_	_	_	_	
+1-110	656-662	prijav	_	_	_	_	
+1-111	663-665	za	_	_	_	_	
+1-112	666-673	vodenje	_	_	_	_	
+1-113	674-681	Košakov	ORG	_	*->13-1	*[13]	
+1-114	682-689	Tovarna	_	_	*->13-2	*[13]	
+1-115	690-696	mesnih	_	_	*->13-2	*[13]	
+1-116	697-705	izdelkov	_	_	*->13-2	*[13]	
+1-117	706-712	Košaki	ORG	_	*->13-2	*[13]	
+1-118	713-714	,	_	_	_	_	
+1-119	715-717	ki	_	_	_	_	
+1-120	718-720	jo	_	_	_	_	
+1-121	721-723	je	_	_	_	_	
+1-122	724-731	avgusta	_	_	_	_	
+1-123	732-740	zapustil	_	_	_	_	
+1-124	741-751	predsednik	_	3 - Nevtralno[40]	*->14-1	*[14]	
+1-125	752-758	uprave	_	3 - Nevtralno[40]	*->14-1	*[14]	
+1-126	759-763	Jure	PER[15]	3 - Nevtralno[40]	*->14-1	*[14]	
+1-127	764-770	Bojnec	PER[15]	3 - Nevtralno[40]	*->14-1	*[14]	
+1-128	771-772	,	_	_	_	_	
+1-129	773-775	še	_	_	_	_	
+1-130	776-778	ni	_	_	_	_	
+1-131	779-785	dobila	_	_	_	_	
+1-132	786-792	novega	_	_	_	_	
+1-133	793-800	vodstva	_	_	_	_	
+1-134	801-802	.	_	_	_	_	
+1-135	803-805	Na	_	_	_	_	
+1-136	806-816	objavljeni	_	_	_	_	
+1-137	817-823	razpis	_	_	_	_	
+1-138	824-826	je	_	_	_	_	
+1-139	827-835	prispelo	_	_	_	_	
+1-140	836-841	sedem	_	_	_	_	
+1-141	842-848	prijav	_	_	_	_	
+1-142	849-850	,	_	_	_	_	
+1-143	851-852	a	_	_	_	_	
+1-144	853-863	nadzorniki	_	_	_	_	
+1-145	864-873	odločitve	_	_	_	_	
+1-146	874-876	še	_	_	_	_	
+1-147	877-881	niso	_	_	_	_	
+1-148	882-890	sprejeli	_	_	_	_	
+1-149	891-892	.	_	_	_	_	
+1-150	893-900	Začasno	_	_	_	_	
+1-151	901-905	zdaj	_	_	_	_	
+1-152	906-910	vodi	_	_	_	_	
+1-153	911-917	družbo	_	3 - Nevtralno	*->13-3	*[13]	
+1-154	918-927	dosedanja	_	3 - Nevtralno[41]	*->15-1	*[15]	
+1-155	928-933	vodja	_	3 - Nevtralno[41]	*->15-1	*[15]	
+1-156	934-941	prodaje	_	3 - Nevtralno[41]	*->15-1	*[15]	
+1-157	942-946	Meta	PER[16]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-158	947-952	Lovše	PER[16]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-159	953-954	.	_	_	_	_	
+1-160	955-959	Pörš	PER	_	*->16-1	*[16]	
+1-161	960-962	bo	_	_	_	_	
+1-162	963-968	bedel	_	_	_	_	
+1-163	969-972	nad	_	_	_	_	
+1-164	973-984	železniškim	_	_	_	_	
+1-165	985-993	prometom	_	_	_	_	
+1-166	994-999	Vlada	_	_	_	_	
+1-167	1000-1002	je	_	_	_	_	
+1-168	1003-1009	včeraj	_	_	_	_	
+1-169	1010-1012	za	_	_	_	_	
+1-170	1013-1019	največ	_	_	_	_	
+1-171	1020-1023	pol	_	_	_	_	
+1-172	1024-1028	leta	_	_	_	_	
+1-173	1029-1038	imenovala	_	_	_	_	
+1-174	1039-1046	vršilca	_	_	*->16-2	*[16]	
+1-175	1047-1056	dolžnosti	_	_	*->16-2	*[16]	
+1-176	1057-1067	direktorja	_	_	*->16-2	*[16]	
+1-177	1068-1073	Javne	ORG[17]	_	*->16-2|*->17-1	*[16]|*[17]	
+1-178	1074-1082	agencije	ORG[17]	_	*->16-2|*->17-1	*[16]|*[17]	
+1-179	1083-1085	za	ORG[17]	_	*->16-2|*->17-1	*[16]|*[17]	
+1-180	1086-1096	železniški	ORG[17]	_	*->16-2|*->17-1	*[16]|*[17]	
+1-181	1097-1103	promet	ORG[17]	_	*->16-2|*->17-1	*[16]|*[17]	
+1-182	1104-1105	.	_	_	_	_	
+1-183	1106-1108	To	_	_	_	_	
+1-184	1109-1111	je	_	_	_	_	
+1-185	1112-1118	postal	_	_	_	_	
+1-186	1119-1124	Alojz	PER[18]	_	*->16-3	*[16]	
+1-187	1125-1129	Pörš	PER[18]	_	*->16-3	*[16]	
+1-188	1130-1131	,	_	_	_	_	
+1-189	1132-1134	ki	_	_	_	_	
+1-190	1135-1137	je	_	_	_	_	
+1-191	1138-1141	bil	_	_	_	_	
+1-192	1142-1143	v	_	_	_	_	
+1-193	1144-1149	Javni	ORG[19]	3 - Nevtralno[42]	*->17-2	*[17]	
+1-194	1150-1158	agenciji	ORG[19]	3 - Nevtralno[42]	*->17-2	*[17]	
+1-195	1159-1161	za	ORG[19]	3 - Nevtralno[42]	*->17-2	*[17]	
+1-196	1162-1172	železniški	ORG[19]	3 - Nevtralno[42]	*->17-2	*[17]	
+1-197	1173-1179	promet	ORG[19]	3 - Nevtralno[42]	*->17-2	*[17]	
+1-198	1180-1182	na	_	_	_	_	
+1-199	1183-1192	različnih	_	_	_	_	
+1-200	1193-1203	vodstvenih	_	_	_	_	
+1-201	1204-1213	položajih	_	_	_	_	
+1-202	1214-1222	zaposlen	_	4 - Pozitivno	*->16-4	*[16]	
+1-203	1223-1225	od	_	_	_	_	
+1-204	1226-1230	leta	_	_	_	_	
+1-205	1231-1235	2006	_	_	_	_	
+1-206	1236-1237	.	_	_	_	_	
+1-207	1238-1243	Vlada	_	_	_	_	
+1-208	1244-1246	na	_	_	_	_	
+1-209	1247-1252	pomoč	_	_	_	_	
+1-210	1253-1262	Pomurskim	ORG[20]	_	*->18-1	*[18]	
+1-211	1263-1272	mlekarnam	ORG[20]	_	*->18-1	*[18]	
+1-212	1273-1281	Pomurske	ORG[21]	3 - Nevtralno[43]	*->18-2	*[18]	
+1-213	1282-1290	mlekarne	ORG[21]	3 - Nevtralno[43]	*->18-2	*[18]	
+1-214	1291-1295	bodo	_	_	_	_	
+1-215	1296-1298	od	_	_	_	_	
+1-216	1299-1304	vlade	_	_	_	_	
+1-217	1305-1311	dobile	_	_	_	_	
+1-218	1312-1317	pomoč	_	_	_	_	
+1-219	1318-1319	»	_	_	_	_	
+1-220	1320-1322	de	_	_	_	_	
+1-221	1323-1330	minimis	_	_	_	_	
+1-222	1331-1332	«	_	_	_	_	
+1-223	1333-1334	v	_	_	_	_	
+1-224	1335-1341	obliki	_	_	_	_	
+1-225	1342-1357	reprogramiranja	_	_	_	_	
+1-226	1358-1370	dolgoročnega	_	_	_	_	
+1-227	1371-1379	posojila	_	_	_	_	
+1-228	1380-1381	.	_	_	_	_	
+1-229	1382-1385	Gre	_	_	_	_	
+1-230	1386-1388	za	_	_	_	_	
+1-231	1389-1397	dveletni	_	_	_	_	
+1-232	1398-1407	moratorij	_	_	_	_	
+1-233	1408-1410	za	_	_	_	_	
+1-234	1411-1420	odplačilo	_	_	_	_	
+1-235	1421-1429	glavnice	_	_	_	_	
+1-236	1430-1431	,	_	_	_	_	
+1-237	1432-1435	rok	_	_	_	_	
+1-238	1436-1443	vračila	_	_	_	_	
+1-239	1444-1452	celotnih	_	_	_	_	
+1-240	1453-1463	obveznosti	_	_	_	_	
+1-241	1464-1466	pa	_	_	_	_	
+1-242	1467-1469	se	_	_	_	_	
+1-243	1470-1478	podaljša	_	_	_	_	
+1-244	1479-1481	za	_	_	_	_	
+1-245	1482-1484	24	_	_	_	_	
+1-246	1485-1492	mesecev	_	_	_	_	
+1-247	1493-1494	.	_	_	_	_	
+1-248	1495-1499	Neto	_	_	_	_	
+1-249	1500-1507	državna	_	_	_	_	
+1-250	1508-1513	pomoč	_	_	_	_	
+1-251	1514-1516	de	_	_	_	_	
+1-252	1517-1524	minimis	_	_	_	_	
+1-253	1525-1530	znaša	_	_	_	_	
+1-254	1531-1537	42.981	_	_	_	_	
+1-255	1538-1543	evrov	_	_	_	_	
+1-256	1544-1545	.	_	_	_	_	
+1-257	1546-1553	Bruselj	ORG	3 - Nevtralno	*->19-1	*[19]	
+1-258	1554-1561	odobril	_	_	_	_	
+1-259	1562-1570	poroštvo	_	_	_	_	
+1-260	1571-1574	MLM	ORG	_	*->20-1	*[20]	
+1-261	1575-1583	Evropska	ORG[22]	4 - Pozitivno[44]	*->30-1	*[30]	
+1-262	1584-1592	komisija	ORG[22]	4 - Pozitivno[44]	*->30-1	*[30]	
+1-263	1593-1595	je	_	_	_	_	
+1-264	1596-1604	odobrila	_	_	_	_	
+1-265	1605-1612	državno	_	_	_	_	
+1-266	1613-1621	poroštvo	_	_	_	_	
+1-267	1622-1624	za	_	_	_	_	
+1-268	1625-1632	državno	_	_	_	_	
+1-269	1633-1638	pomoč	_	_	_	_	
+1-270	1639-1649	Mariborski	ORG[23]	_	*->20-2	*[20]	
+1-271	1650-1657	livarni	ORG[23]	_	*->20-2	*[20]	
+1-272	1658-1665	Maribor	ORG[23]|LOC[24]	_	*->20-2|*->21-1	*[20]|*[21]	
+1-273	1666-1667	(	_	_	_	_	
+1-274	1668-1671	MLM	ORG	3 - Nevtralno	*->20-3	*[20]	
+1-275	1672-1673	)	_	_	_	_	
+1-276	1674-1675	v	_	_	_	_	
+1-277	1676-1682	višini	_	_	_	_	
+1-278	1683-1686	5,1	_	_	_	_	
+1-279	1687-1695	milijona	_	_	_	_	
+1-280	1696-1701	evrov	_	_	_	_	
+1-281	1702-1703	.	_	_	_	_	
+1-282	1704-1709	Erste	ORG[25]	_	*->22-1	*[22]	
+1-283	1710-1714	Card	ORG[25]	_	*->22-1	*[22]	
+1-284	1715-1720	izdal	_	_	_	_	
+1-285	1721-1727	30.000	_	_	_	_	
+1-286	1728-1734	kartic	_	_	_	_	
+1-287	1735-1741	diners	_	_	_	_	
+1-288	1742-1743	V	_	_	_	_	
+1-289	1744-1749	prvem	_	_	_	_	
+1-290	1750-1756	mesecu	_	_	_	_	
+1-291	1757-1759	po	_	_	_	_	
+1-292	1760-1770	izpolnitvi	_	_	_	_	
+1-293	1771-1775	vseh	_	_	_	_	
+1-294	1776-1785	potrebnih	_	_	_	_	
+1-295	1786-1795	tehničnih	_	_	_	_	
+1-296	1796-1802	zahtev	_	_	_	_	
+1-297	1803-1805	in	_	_	_	_	
+1-298	1806-1813	ponovni	_	_	_	_	
+1-299	1814-1826	vzpostavitvi	_	_	_	_	
+1-300	1827-1832	mreže	_	_	_	_	
+1-301	1833-1835	za	_	_	_	_	
+1-302	1836-1845	delovanje	_	_	_	_	
+1-303	1846-1853	kartice	_	_	_	_	
+1-304	1854-1860	diners	_	_	_	_	
+1-305	1861-1863	na	_	_	_	_	
+1-306	1864-1873	prodajnih	_	_	_	_	
+1-307	1874-1880	mestih	_	_	_	_	
+1-308	1881-1883	je	_	_	_	_	
+1-309	1884-1889	Erste	ORG[26]	_	*->22-2	*[22]	
+1-310	1890-1894	Card	ORG[26]	_	*->22-2	*[22]	
+1-311	1895-1896	,	_	_	_	_	
+1-312	1897-1901	novi	_	_	*->22-3	*[22]	
+1-313	1902-1909	lastnik	_	_	*->22-3	*[22]	
+1-314	1910-1918	franšize	_	3 - Nevtralno[45]	*->22-3|*->23-1	*[22]|*[23]	
+1-315	1919-1925	Diners	ORG[27]	3 - Nevtralno[45]	*->22-3|*->23-1	*[22]|*[23]	
+1-316	1926-1931	Cluba	ORG[27]	3 - Nevtralno[45]	*->22-3|*->23-1	*[22]|*[23]	
+1-317	1932-1933	v	_	_	*->22-3	*[22]	
+1-318	1934-1943	Sloveniji	LOC	_	*->22-3|*->24-1	*[22]|*[24]	
+1-319	1944-1945	,	_	_	_	_	
+1-320	1946-1954	pridobil	_	4 - Pozitivno	*->22-4	*[22]	
+1-321	1955-1957	že	_	_	_	_	
+1-322	1958-1964	30.000	_	_	_	_	
+1-323	1965-1974	imetnikov	_	_	_	_	
+1-324	1975-1980	novih	_	_	_	_	
+1-325	1981-1987	kartic	_	_	_	_	
+1-326	1988-1994	diners	_	_	_	_	
+1-327	1995-1996	.	_	_	_	_	
+1-328	1997-1998	V	_	_	_	_	
+1-329	1999-2002	tem	_	_	_	_	
+1-330	2003-2007	času	_	_	_	_	
+1-331	2008-2010	je	_	_	_	_	
+1-332	2011-2014	bil	_	_	_	_	
+1-333	2015-2017	na	_	_	_	_	
+1-334	2018-2027	prodajnih	_	_	_	_	
+1-335	2028-2034	mestih	_	_	_	_	
+1-336	2035-2036	v	_	_	_	_	
+1-337	2037-2046	Sloveniji	LOC	3 - Nevtralno	*->24-2	*[24]	
+1-338	2047-2048	s	_	_	_	_	
+1-339	2049-2058	karticami	_	_	_	_	
+1-340	2059-2065	diners	_	_	_	_	
+1-341	2066-2070	club	_	_	_	_	
+1-342	2071-2080	ustvarjen	_	_	_	_	
+1-343	2081-2087	promet	_	_	_	_	
+1-344	2088-2089	v	_	_	_	_	
+1-345	2090-2096	višini	_	_	_	_	
+1-346	2097-2100	1,3	_	_	_	_	
+1-347	2101-2109	milijona	_	_	_	_	
+1-348	2110-2115	evrov	_	_	_	_	
+1-349	2116-2117	.	_	_	_	_	
+1-350	2118-2123	Terme	ORG[28]	_	*->25-1	*[25]	
+1-351	2124-2130	Olimia	ORG[28]	_	*->25-1	*[25]	
+1-352	2131-2132	z	_	_	_	_	
+1-353	2133-2135	10	_	_	_	_	
+1-354	2136-2144	milijoni	_	_	_	_	
+1-355	2145-2150	evrov	_	_	_	_	
+1-356	2151-2160	prihodkov	_	_	_	_	
+1-357	2161-2166	Terme	ORG[29]	_	*->25-2	*[25]	
+1-358	2167-2173	Olimia	ORG[29]	_	*->25-2	*[25]	
+1-359	2174-2176	so	_	_	_	_	
+1-360	2177-2179	ob	_	_	_	_	
+1-361	2180-2188	polletju	_	_	_	_	
+1-362	2189-2198	ustvarile	_	_	_	_	
+1-363	2199-2201	10	_	_	_	_	
+1-364	2202-2211	milijonov	_	_	_	_	
+1-365	2212-2217	evrov	_	_	_	_	
+1-366	2218-2227	prihodkov	_	_	_	_	
+1-367	2228-2229	,	_	_	_	_	
+1-368	2230-2233	kar	_	_	_	_	
+1-369	2234-2236	je	_	_	_	_	
+1-370	2237-2242	nekaj	_	_	_	_	
+1-371	2243-2252	odstotkov	_	_	_	_	
+1-372	2253-2256	več	_	_	_	_	
+1-373	2257-2260	kot	_	_	_	_	
+1-374	2261-2262	v	_	_	_	_	
+1-375	2263-2269	enakem	_	_	_	_	
+1-376	2270-2277	obdobju	_	_	_	_	
+1-377	2278-2282	lani	_	_	_	_	
+1-378	2283-2284	.	_	_	_	_	
+1-379	2285-2293	Direktor	_	3 - Nevtralno[46]	*->26-1	*[26]	
+1-380	2294-2301	Zdravko	PER[30]	3 - Nevtralno[46]	*->26-1	*[26]	
+1-381	2302-2312	Počivalšek	PER[30]	3 - Nevtralno[46]	*->26-1	*[26]	
+1-382	2313-2315	je	_	_	_	_	
+1-383	2316-2322	ocenil	_	_	_	_	
+1-384	2323-2324	,	_	_	_	_	
+1-385	2325-2327	da	_	_	_	_	
+1-386	2328-2330	je	_	_	_	_	
+1-387	2331-2334	bil	_	_	_	_	
+1-388	2335-2342	začetek	_	_	_	_	
+1-389	2343-2347	leta	_	_	_	_	
+1-390	2348-2352	zelo	_	_	_	_	
+1-391	2353-2358	težak	_	_	_	_	
+1-392	2359-2360	,	_	_	_	_	
+1-393	2361-2367	vendar	_	_	_	_	
+1-394	2368-2371	jim	_	_	_	_	
+1-395	2372-2374	je	_	_	_	_	
+1-396	2375-2378	čez	_	_	_	_	
+1-397	2379-2387	polletje	_	_	_	_	
+1-398	2388-2394	uspelo	_	4 - Pozitivno	*->25-3	*[25]	
+1-399	2395-2403	poslovne	_	_	_	_	
+1-400	2404-2413	rezultate	_	_	_	_	
+1-401	2414-2424	izboljšati	_	_	_	_	
+1-402	2425-2426	.	_	_	_	_	
+1-403	2427-2433	Veliko	_	_	_	_	
+1-404	2434-2443	zanimanje	_	_	_	_	
+1-405	2444-2446	za	_	_	_	_	
+1-406	2447-2456	Novolesov	ORG	_	*->31-1	*[31]	
+1-407	2457-2465	kompleks	_	_	*->31-1	*[31]	
+1-408	2466-2468	Po	_	_	_	_	
+1-409	2469-2472	več	_	_	_	_	
+1-410	2473-2482	neuspelih	_	_	_	_	
+1-411	2483-2490	dražbah	_	_	_	_	
+1-412	2491-2493	za	_	_	_	_	
+1-413	2494-2501	prodajo	_	_	_	_	
+1-414	2502-2511	kompleksa	_	_	*->31-2	*[31]	
+1-415	2512-2521	straškega	_	_	*->31-2	*[31]	
+1-416	2522-2530	Novolesa	ORG	_	*->31-2	*[31]	
+1-417	2531-2532	,	_	_	_	_	
+1-418	2533-2535	ki	_	_	_	_	
+1-419	2536-2538	je	_	_	*->31-3	*[31]	
+1-420	2539-2541	od	_	_	_	_	
+1-421	2542-2546	maja	_	_	_	_	
+1-422	2547-2555	predlani	_	_	_	_	
+1-423	2556-2557	v	_	_	_	_	
+1-424	2558-2565	stečaju	_	_	_	_	
+1-425	2566-2567	,	_	_	_	_	
+1-426	2568-2570	je	_	_	_	_	
+1-427	2571-2584	upraviteljica	_	3 - Nevtralno[47]	*->27-1	*[27]	
+1-428	2585-2591	Romana	PER[31]	3 - Nevtralno[47]	*->27-1	*[27]	
+1-429	2592-2598	Kruhar	PER[31]	3 - Nevtralno[47]	*->27-1	*[27]	
+1-430	2599-2602	Puc	PER[31]	3 - Nevtralno[47]	*->27-1	*[27]	
+1-431	2603-2609	julija	_	_	_	_	
+1-432	2610-2619	razpisala	_	_	_	_	
+1-433	2620-2630	dvomesečno	_	_	_	_	
+1-434	2631-2638	prodajo	_	_	_	_	
+1-435	2639-2640	s	_	_	_	_	
+1-436	2641-2648	pomočjo	_	_	_	_	
+1-437	2649-2662	nezavezujočih	_	_	_	_	
+1-438	2663-2669	ponudb	_	_	_	_	
+1-439	2670-2672	in	_	_	_	_	
+1-440	2673-2678	zanjo	_	_	_	_	
+1-441	2679-2685	dobila	_	_	_	_	
+1-442	2686-2691	štiri	_	_	_	_	
+1-443	2692-2699	ponudbe	_	_	_	_	
+1-444	2700-2701	.	_	_	_	_	
+1-445	2702-2704	Za	_	_	_	_	
+1-446	2705-2710	nakup	_	_	_	_	
+1-447	2711-2720	kompleksa	_	_	*->31-4	*[31]	
+1-448	2721-2723	se	_	_	_	_	
+1-449	2724-2732	poteguje	_	_	_	_	
+1-450	2733-2737	tudi	_	_	_	_	
+1-451	2738-2746	delavska	_	_	_	_	
+1-452	2747-2754	zadruga	_	_	_	_	
+1-453	2755-2756	,	_	_	_	_	
+1-454	2757-2759	ki	_	_	_	_	
+1-455	2760-2762	so	_	_	_	_	
+1-456	2763-2765	jo	_	_	_	_	
+1-457	2766-2776	ustanovili	_	_	_	_	
+1-458	2777-2785	nekdanji	_	_	_	_	
+1-459	2786-2796	Novolesovi	ORG	3 - Nevtralno	*->31-5	*[31]	
+1-460	2797-2804	delavci	_	_	_	_	
+1-461	2805-2806	.	_	_	_	_	
+1-462	2807-2817	Pripravila	_	_	_	_	
+1-463	2818-2821	Jan	PER[32]	3 - Nevtralno[48]	*->28-1	*[28]	
+1-464	2822-2830	Bratanič	PER[32]	3 - Nevtralno[48]	*->28-1	*[28]	
+1-465	2831-2833	in	_	_	_	_	

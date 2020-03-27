@@ -1,0 +1,278 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Na ljubljanskem okrožnem sodišču je razpisan narok za glavno obravnavo v tožbi koprskega župana Borisa Popoviča proti državi . Koprski župan Boris Popovič zahteva od države odškodnino v višini 16.667 evrov zaradi po njegovem nezakonitega pripora leta 2003 . Državna pravobranilka zavrača njegov zahtevek kot neutemeljen . Popovičev pripor Policisti so Borisa Popoviča 9 . septembra 2003 zaradi suma zlorabe uradnega položaja ali uradnih pravic , pranja denarja in neupravičenega dajanja daril priprli za skoraj en mesec . Razlog za to je bila nevarnost , da bo koprski župan vplival na priče . Iz pripora je bil izpuščen , ko je vrhovno sodišče presodilo , da pripor ni bil utemeljen . Povabljeni le ožji sorodniki Franci Matoz , Popovičev pravni zastopnik , je na prvem poravnalnem naroku konec marca predlagal , naj sodišče v sklopu glavne obravnave zasliši Popovičeve ožje sorodnike in nato določi višino odškodnine . Sodnica Katarina Parazajda se je z Matozovim predlogom strinjala , tako da bodo danes zaslišani Popovičeva žena Eva Popovič , njegova sestra Laura Ban in njegova mati Solza Popovič . Popovičev zagovornik je predlagal še zaslišanje tedanjega generalnega direktorja policije Marka Pogorevca , tedanje generalne državne tožilke Zdenke Cerar , poslanca SDS Pavla Ruparja in tedanjega državnozborskega poslanca Lojzeta Peterleta , ki naj bi po njegovih navedbah pred sodiščem pričali , da " je bil proces zoper Popoviča politično motiviran " . Sodnica se s predlogom ni strinjala . Matoz meni , da se je sodišče omejilo samo na zaslišanje Popovičevih ožjih sorodnikov zato , ker ne namerava odločati o tem , ali je bil Popovič nezakonito priprt , ampak le določiti višino odškodnine
+1-1	0-2	Na	_	_	_	_	
+1-2	3-15	ljubljanskem	_	_	_	_	
+1-3	16-24	okrožnem	_	_	_	_	
+1-4	25-32	sodišču	_	_	_	_	
+1-5	33-35	je	_	_	_	_	
+1-6	36-44	razpisan	_	_	_	_	
+1-7	45-50	narok	_	_	_	_	
+1-8	51-53	za	_	_	_	_	
+1-9	54-60	glavno	_	_	_	_	
+1-10	61-70	obravnavo	_	_	_	_	
+1-11	71-72	v	_	_	_	_	
+1-12	73-78	tožbi	_	_	_	_	
+1-13	79-88	koprskega	_	_	*->1-1	*[1]	
+1-14	89-95	župana	_	_	*->1-1	*[1]	
+1-15	96-102	Borisa	PER[1]	_	*->1-1	*[1]	
+1-16	103-111	Popoviča	PER[1]	_	*->1-1	*[1]	
+1-17	112-117	proti	_	_	_	_	
+1-18	118-124	državi	_	_	_	_	
+1-19	125-126	.	_	_	_	_	
+1-20	127-134	Koprski	_	_	*->1-2	*[1]	
+1-21	135-140	župan	_	_	*->1-2	*[1]	
+1-22	141-146	Boris	PER[2]	_	*->1-2	*[1]	
+1-23	147-154	Popovič	PER[2]	_	*->1-2	*[1]	
+1-24	155-162	zahteva	_	_	_	_	
+1-25	163-165	od	_	_	_	_	
+1-26	166-172	države	_	_	_	_	
+1-27	173-183	odškodnino	_	_	_	_	
+1-28	184-185	v	_	_	_	_	
+1-29	186-192	višini	_	_	_	_	
+1-30	193-199	16.667	_	_	_	_	
+1-31	200-205	evrov	_	_	_	_	
+1-32	206-212	zaradi	_	_	_	_	
+1-33	213-215	po	_	_	_	_	
+1-34	216-224	njegovem	_	_	_	_	
+1-35	225-237	nezakonitega	_	_	_	_	
+1-36	238-245	pripora	_	_	_	_	
+1-37	246-250	leta	_	_	_	_	
+1-38	251-255	2003	_	_	_	_	
+1-39	256-257	.	_	_	_	_	
+1-40	258-265	Državna	_	_	_	_	
+1-41	266-279	pravobranilka	_	_	_	_	
+1-42	280-287	zavrača	_	_	_	_	
+1-43	288-294	njegov	_	_	_	_	
+1-44	295-303	zahtevek	_	_	_	_	
+1-45	304-307	kot	_	_	_	_	
+1-46	308-319	neutemeljen	_	_	_	_	
+1-47	320-321	.	_	_	_	_	
+1-48	322-331	Popovičev	PER	_	*->1-3	*[1]	
+1-49	332-338	pripor	_	_	_	_	
+1-50	339-348	Policisti	_	_	_	_	
+1-51	349-351	so	_	_	_	_	
+1-52	352-358	Borisa	PER[3]	_	*->1-4	*[1]	
+1-53	359-367	Popoviča	PER[3]	_	*->1-4	*[1]	
+1-54	368-369	9	_	_	_	_	
+1-55	370-371	.	_	_	_	_	
+1-56	372-381	septembra	_	_	_	_	
+1-57	382-386	2003	_	_	_	_	
+1-58	387-393	zaradi	_	_	_	_	
+1-59	394-398	suma	_	_	_	_	
+1-60	399-406	zlorabe	_	_	_	_	
+1-61	407-415	uradnega	_	_	_	_	
+1-62	416-424	položaja	_	_	_	_	
+1-63	425-428	ali	_	_	_	_	
+1-64	429-436	uradnih	_	_	_	_	
+1-65	437-443	pravic	_	_	_	_	
+1-66	444-445	,	_	_	_	_	
+1-67	446-452	pranja	_	_	_	_	
+1-68	453-460	denarja	_	_	_	_	
+1-69	461-463	in	_	_	_	_	
+1-70	464-478	neupravičenega	_	_	_	_	
+1-71	479-486	dajanja	_	_	_	_	
+1-72	487-492	daril	_	_	_	_	
+1-73	493-500	priprli	_	_	_	_	
+1-74	501-503	za	_	_	_	_	
+1-75	504-510	skoraj	_	_	_	_	
+1-76	511-513	en	_	_	_	_	
+1-77	514-519	mesec	_	_	_	_	
+1-78	520-521	.	_	_	_	_	
+1-79	522-528	Razlog	_	_	_	_	
+1-80	529-531	za	_	_	_	_	
+1-81	532-534	to	_	_	_	_	
+1-82	535-537	je	_	_	_	_	
+1-83	538-542	bila	_	_	_	_	
+1-84	543-552	nevarnost	_	_	_	_	
+1-85	553-554	,	_	_	_	_	
+1-86	555-557	da	_	_	_	_	
+1-87	558-560	bo	_	_	_	_	
+1-88	561-568	koprski	_	_	*->1-5	*[1]	
+1-89	569-574	župan	_	_	*->1-5	*[1]	
+1-90	575-582	vplival	_	_	_	_	
+1-91	583-585	na	_	_	_	_	
+1-92	586-591	priče	_	_	_	_	
+1-93	592-593	.	_	_	_	_	
+1-94	594-596	Iz	_	_	_	_	
+1-95	597-604	pripora	_	_	_	_	
+1-96	605-607	je	_	_	*->1-6	*[1]	
+1-97	608-611	bil	_	_	*->1-6	*[1]	
+1-98	612-620	izpuščen	_	_	*->1-6	*[1]	
+1-99	621-622	,	_	_	_	_	
+1-100	623-625	ko	_	_	_	_	
+1-101	626-628	je	_	_	_	_	
+1-102	629-636	vrhovno	_	_	_	_	
+1-103	637-644	sodišče	_	_	_	_	
+1-104	645-654	presodilo	_	_	_	_	
+1-105	655-656	,	_	_	_	_	
+1-106	657-659	da	_	_	_	_	
+1-107	660-666	pripor	_	_	_	_	
+1-108	667-669	ni	_	_	_	_	
+1-109	670-673	bil	_	_	_	_	
+1-110	674-683	utemeljen	_	_	_	_	
+1-111	684-685	.	_	_	_	_	
+1-112	686-696	Povabljeni	_	_	_	_	
+1-113	697-699	le	_	_	_	_	
+1-114	700-704	ožji	_	_	_	_	
+1-115	705-714	sorodniki	_	_	_	_	
+1-116	715-721	Franci	PER[4]	_	*->2-1	*[2]	
+1-117	722-727	Matoz	PER[4]	_	*->2-1	*[2]	
+1-118	728-729	,	_	_	_	_	
+1-119	730-739	Popovičev	PER	_	*->2-2|*->1-7	*[2]|*[1]	
+1-120	740-746	pravni	_	_	*->2-2	*[2]	
+1-121	747-756	zastopnik	_	_	*->2-2	*[2]	
+1-122	757-758	,	_	_	_	_	
+1-123	759-761	je	_	_	_	_	
+1-124	762-764	na	_	_	_	_	
+1-125	765-770	prvem	_	_	_	_	
+1-126	771-782	poravnalnem	_	_	_	_	
+1-127	783-789	naroku	_	_	_	_	
+1-128	790-795	konec	_	_	_	_	
+1-129	796-801	marca	_	_	_	_	
+1-130	802-811	predlagal	_	_	_	_	
+1-131	812-813	,	_	_	_	_	
+1-132	814-817	naj	_	_	_	_	
+1-133	818-825	sodišče	_	_	_	_	
+1-134	826-827	v	_	_	_	_	
+1-135	828-834	sklopu	_	_	_	_	
+1-136	835-841	glavne	_	_	_	_	
+1-137	842-851	obravnave	_	_	_	_	
+1-138	852-859	zasliši	_	_	_	_	
+1-139	860-870	Popovičeve	PER	_	*->1-8	*[1]	
+1-140	871-875	ožje	_	_	_	_	
+1-141	876-885	sorodnike	_	_	_	_	
+1-142	886-888	in	_	_	_	_	
+1-143	889-893	nato	_	_	_	_	
+1-144	894-900	določi	_	_	_	_	
+1-145	901-907	višino	_	_	_	_	
+1-146	908-918	odškodnine	_	_	_	_	
+1-147	919-920	.	_	_	_	_	
+1-148	921-928	Sodnica	_	_	*->3-1	*[3]	
+1-149	929-937	Katarina	PER[5]	_	*->3-1	*[3]	
+1-150	938-947	Parazajda	PER[5]	_	*->3-1	*[3]	
+1-151	948-950	se	_	_	_	_	
+1-152	951-953	je	_	_	_	_	
+1-153	954-955	z	_	_	_	_	
+1-154	956-965	Matozovim	PER	_	*->2-3	*[2]	
+1-155	966-975	predlogom	_	_	_	_	
+1-156	976-985	strinjala	_	_	_	_	
+1-157	986-987	,	_	_	_	_	
+1-158	988-992	tako	_	_	_	_	
+1-159	993-995	da	_	_	_	_	
+1-160	996-1000	bodo	_	_	_	_	
+1-161	1001-1006	danes	_	_	_	_	
+1-162	1007-1016	zaslišani	_	_	_	_	
+1-163	1017-1027	Popovičeva	PER	3 - Nevtralno[13]	*->4-1|*->1-9	*[4]|*[1]	
+1-164	1028-1032	žena	_	3 - Nevtralno[13]	*->4-1	*[4]	
+1-165	1033-1036	Eva	PER[6]	3 - Nevtralno[13]	*->4-1	*[4]	
+1-166	1037-1044	Popovič	PER[6]	3 - Nevtralno[13]	*->4-1	*[4]	
+1-167	1045-1046	,	_	_	_	_	
+1-168	1047-1054	njegova	_	3 - Nevtralno[14]	*->5-1|*->1-10	*[5]|*[1]	
+1-169	1055-1061	sestra	_	3 - Nevtralno[14]	*->5-1	*[5]	
+1-170	1062-1067	Laura	PER[7]	3 - Nevtralno[14]	*->5-1	*[5]	
+1-171	1068-1071	Ban	PER[7]	3 - Nevtralno[14]	*->5-1	*[5]	
+1-172	1072-1074	in	_	_	_	_	
+1-173	1075-1082	njegova	_	3 - Nevtralno[15]	*->6-1|*->1-11	*[6]|*[1]	
+1-174	1083-1087	mati	_	3 - Nevtralno[15]	*->6-1	*[6]	
+1-175	1088-1093	Solza	PER[8]	3 - Nevtralno[15]	*->6-1	*[6]	
+1-176	1094-1101	Popovič	PER[8]	3 - Nevtralno[15]	*->6-1	*[6]	
+1-177	1102-1103	.	_	_	_	_	
+1-178	1104-1113	Popovičev	PER	_	*->2-4|*->1-12	*[2]|*[1]	
+1-179	1114-1124	zagovornik	_	_	*->2-4	*[2]	
+1-180	1125-1127	je	_	_	_	_	
+1-181	1128-1137	predlagal	_	_	_	_	
+1-182	1138-1140	še	_	_	_	_	
+1-183	1141-1151	zaslišanje	_	_	_	_	
+1-184	1152-1161	tedanjega	_	3 - Nevtralno[16]	*->7-1	*[7]	
+1-185	1162-1173	generalnega	_	3 - Nevtralno[16]	*->7-1	*[7]	
+1-186	1174-1184	direktorja	_	3 - Nevtralno[16]	*->7-1	*[7]	
+1-187	1185-1193	policije	ORG	3 - Nevtralno[16]|3 - Nevtralno[17]	*->7-1|*->8-1	*[7]|*[8]	
+1-188	1194-1199	Marka	PER[9]	3 - Nevtralno[16]	*->7-1	*[7]	
+1-189	1200-1209	Pogorevca	PER[9]	3 - Nevtralno[16]	*->7-1	*[7]	
+1-190	1210-1211	,	_	_	_	_	
+1-191	1212-1219	tedanje	_	3 - Nevtralno[18]	*->9-1	*[9]	
+1-192	1220-1229	generalne	_	3 - Nevtralno[18]	*->9-1	*[9]	
+1-193	1230-1237	državne	_	3 - Nevtralno[18]	*->9-1	*[9]	
+1-194	1238-1245	tožilke	_	3 - Nevtralno[18]	*->9-1	*[9]	
+1-195	1246-1252	Zdenke	PER[10]	3 - Nevtralno[18]	*->9-1	*[9]	
+1-196	1253-1258	Cerar	PER[10]	3 - Nevtralno[18]	*->9-1	*[9]	
+1-197	1259-1260	,	_	_	_	_	
+1-198	1261-1269	poslanca	_	3 - Nevtralno[19]	*->11-1	*[11]	
+1-199	1270-1273	SDS	ORG	3 - Nevtralno[19]|3 - Nevtralno[20]	*->11-1|*->10-1	*[11]|*[10]	
+1-200	1274-1279	Pavla	PER[11]	3 - Nevtralno[19]	*->11-1	*[11]	
+1-201	1280-1287	Ruparja	PER[11]	3 - Nevtralno[19]	*->11-1	*[11]	
+1-202	1288-1290	in	_	_	_	_	
+1-203	1291-1300	tedanjega	_	_	*->12-1	*[12]	
+1-204	1301-1317	državnozborskega	_	_	*->12-1	*[12]	
+1-205	1318-1326	poslanca	_	_	*->12-1	*[12]	
+1-206	1327-1334	Lojzeta	PER[12]	_	*->12-1	*[12]	
+1-207	1335-1344	Peterleta	PER[12]	_	*->12-1	*[12]	
+1-208	1345-1346	,	_	_	_	_	
+1-209	1347-1349	ki	_	_	_	_	
+1-210	1350-1353	naj	_	3 - Nevtralno[21]	*->12-2	*[12]	
+1-211	1354-1356	bi	_	3 - Nevtralno[21]	*->12-2	*[12]	
+1-212	1357-1359	po	_	_	_	_	
+1-213	1360-1368	njegovih	_	_	*->2-5	*[2]	
+1-214	1369-1377	navedbah	_	_	_	_	
+1-215	1378-1382	pred	_	_	_	_	
+1-216	1383-1391	sodiščem	_	_	_	_	
+1-217	1392-1399	pričali	_	_	_	_	
+1-218	1400-1401	,	_	_	_	_	
+1-219	1402-1404	da	_	_	_	_	
+1-220	1405-1406	"	_	_	_	_	
+1-221	1407-1409	je	_	_	_	_	
+1-222	1410-1413	bil	_	_	_	_	
+1-223	1414-1420	proces	_	_	_	_	
+1-224	1421-1426	zoper	_	_	_	_	
+1-225	1427-1435	Popoviča	PER	_	*->1-13	*[1]	
+1-226	1436-1445	politično	_	_	_	_	
+1-227	1446-1455	motiviran	_	_	_	_	
+1-228	1456-1457	"	_	_	_	_	
+1-229	1458-1459	.	_	_	_	_	
+1-230	1460-1467	Sodnica	_	3 - Nevtralno	*->3-2	*[3]	
+1-231	1468-1470	se	_	_	_	_	
+1-232	1471-1472	s	_	_	_	_	
+1-233	1473-1482	predlogom	_	_	_	_	
+1-234	1483-1485	ni	_	_	_	_	
+1-235	1486-1495	strinjala	_	_	_	_	
+1-236	1496-1497	.	_	_	_	_	
+1-237	1498-1503	Matoz	PER	3 - Nevtralno	*->2-6	*[2]	
+1-238	1504-1508	meni	_	_	_	_	
+1-239	1509-1510	,	_	_	_	_	
+1-240	1511-1513	da	_	_	_	_	
+1-241	1514-1516	se	_	_	_	_	
+1-242	1517-1519	je	_	_	_	_	
+1-243	1520-1527	sodišče	_	_	_	_	
+1-244	1528-1535	omejilo	_	_	_	_	
+1-245	1536-1540	samo	_	_	_	_	
+1-246	1541-1543	na	_	_	_	_	
+1-247	1544-1554	zaslišanje	_	_	_	_	
+1-248	1555-1566	Popovičevih	PER	_	*->1-14	*[1]	
+1-249	1567-1572	ožjih	_	_	_	_	
+1-250	1573-1583	sorodnikov	_	_	_	_	
+1-251	1584-1588	zato	_	_	_	_	
+1-252	1589-1590	,	_	_	_	_	
+1-253	1591-1594	ker	_	_	_	_	
+1-254	1595-1597	ne	_	_	_	_	
+1-255	1598-1606	namerava	_	_	_	_	
+1-256	1607-1615	odločati	_	_	_	_	
+1-257	1616-1617	o	_	_	_	_	
+1-258	1618-1621	tem	_	_	_	_	
+1-259	1622-1623	,	_	_	_	_	
+1-260	1624-1627	ali	_	_	_	_	
+1-261	1628-1630	je	_	_	_	_	
+1-262	1631-1634	bil	_	_	_	_	
+1-263	1635-1642	Popovič	PER	2 - Negativno	*->1-15	*[1]	
+1-264	1643-1653	nezakonito	_	_	_	_	
+1-265	1654-1660	priprt	_	_	_	_	
+1-266	1661-1662	,	_	_	_	_	
+1-267	1663-1668	ampak	_	_	_	_	
+1-268	1669-1671	le	_	_	_	_	
+1-269	1672-1680	določiti	_	_	_	_	
+1-270	1681-1687	višino	_	_	_	_	
+1-271	1688-1698	odškodnine	_	_	_	_	

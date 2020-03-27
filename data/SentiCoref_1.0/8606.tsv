@@ -1,0 +1,323 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Slovenski zdravstveni sistem je po prijaznosti uporabniku na dvajsetem mestu v Evropski uniji . Uvrstitev je za mesto boljša od lanskega leta . Slovenski zdravstveni sistem je po prijaznosti uporabniku na dvajsetem mestu v Evropski uniji , kaže evropski indeks uporabnikov zdravstvenega varstva ( EHCI ) . Uvrstitev Slovenije je za mesto boljša od lani , najviše pa se je med 31 . državami uvrstila Nizozemska . Sledijo ji Danska , Avstrija , ki je padla z lanskega prvega mesta , Luksemburg in Švedska . Deseterico zaključujejo Nemčija , Švica , Norveška , Finska in Francija . Prva Nizozemska , zadnja Latvija V raziskavi , ki jo pripravlja raziskovalna organizacija Health Consumer Powerhouse , so poleg članic Evropske unije sodelovale še državi kandidatki za članstvo v povezavi ( Hrvaška in Makedonija ) ter Norveška in Švica . Za Slovenijo se je uvrstila večina novih članic Unije , razen Cipra in Češke ( delita si 16 . mesto ) ter Estonije ( 11 . mesto ) , bolje pa se je odrezala tudi od Portugalske ( 26 . mesto ) . Hrvaška in Makedonija sta zasedli 29 . in30 . mesto , najslabše pa se je odrezala Latvija . Šest kategorij Snovalci indeksa EHCI vsako leto razvrščajo evropske nacionalne zdravstvene sisteme glede na šest ključnih področij : pravice in informiranost pacientov , razvitost e - zdravja , čakalni čas na zdravljenje , rezultati zdravstvenega sistema , razpon in dostopnost storitev ter farmacevtski izdelki . V šestih kategorijah , ki pokrivajo 34 kazalnikov uspešnosti , je Slovenija od možnih 1000dobila 582 točk . Najslabše se je odrezala na področju čakalnih dob , kjer si skupaj s Finsko , Portugalsko in Švedsko deli 27 . mesto . Na področju farmacevtskih izdelkov je bila uvrščena na 23 . mesto , precej boljšo uvrstitev pa je dosegla na področju rezultatov zdravstvenega sistema , kjer si s Švico deli 15 . mesto
+1-1	0-9	Slovenski	_	_	_	_	
+1-2	10-21	zdravstveni	_	_	_	_	
+1-3	22-28	sistem	_	_	_	_	
+1-4	29-31	je	_	_	_	_	
+1-5	32-34	po	_	_	_	_	
+1-6	35-46	prijaznosti	_	_	_	_	
+1-7	47-57	uporabniku	_	_	_	_	
+1-8	58-60	na	_	_	_	_	
+1-9	61-70	dvajsetem	_	_	_	_	
+1-10	71-76	mestu	_	_	_	_	
+1-11	77-78	v	_	_	_	_	
+1-12	79-87	Evropski	LOC[1]	_	*->1-1	*[1]	
+1-13	88-93	uniji	LOC[1]	_	*->1-1	*[1]	
+1-14	94-95	.	_	_	_	_	
+1-15	96-105	Uvrstitev	_	_	_	_	
+1-16	106-108	je	_	_	_	_	
+1-17	109-111	za	_	_	_	_	
+1-18	112-117	mesto	_	_	_	_	
+1-19	118-124	boljša	_	_	_	_	
+1-20	125-127	od	_	_	_	_	
+1-21	128-136	lanskega	_	_	_	_	
+1-22	137-141	leta	_	_	_	_	
+1-23	142-143	.	_	_	_	_	
+1-24	144-153	Slovenski	_	_	_	_	
+1-25	154-165	zdravstveni	_	_	_	_	
+1-26	166-172	sistem	_	_	_	_	
+1-27	173-175	je	_	_	_	_	
+1-28	176-178	po	_	_	_	_	
+1-29	179-190	prijaznosti	_	_	_	_	
+1-30	191-201	uporabniku	_	_	_	_	
+1-31	202-204	na	_	_	_	_	
+1-32	205-214	dvajsetem	_	_	_	_	
+1-33	215-220	mestu	_	_	_	_	
+1-34	221-222	v	_	_	_	_	
+1-35	223-231	Evropski	LOC[2]	_	*->1-2	*[1]	
+1-36	232-237	uniji	LOC[2]	_	*->1-2	*[1]	
+1-37	238-239	,	_	_	_	_	
+1-38	240-244	kaže	_	_	_	_	
+1-39	245-253	evropski	_	_	_	_	
+1-40	254-260	indeks	_	_	_	_	
+1-41	261-272	uporabnikov	_	_	_	_	
+1-42	273-286	zdravstvenega	_	_	_	_	
+1-43	287-294	varstva	_	_	_	_	
+1-44	295-296	(	_	_	_	_	
+1-45	297-301	EHCI	_	_	_	_	
+1-46	302-303	)	_	_	_	_	
+1-47	304-305	.	_	_	_	_	
+1-48	306-315	Uvrstitev	_	_	_	_	
+1-49	316-325	Slovenije	LOC	_	*->2-1	*[2]	
+1-50	326-328	je	_	_	_	_	
+1-51	329-331	za	_	_	_	_	
+1-52	332-337	mesto	_	_	_	_	
+1-53	338-344	boljša	_	_	_	_	
+1-54	345-347	od	_	_	_	_	
+1-55	348-352	lani	_	_	_	_	
+1-56	353-354	,	_	_	_	_	
+1-57	355-362	najviše	_	_	_	_	
+1-58	363-365	pa	_	_	_	_	
+1-59	366-368	se	_	_	_	_	
+1-60	369-371	je	_	_	_	_	
+1-61	372-375	med	_	_	_	_	
+1-62	376-378	31	_	_	_	_	
+1-63	379-380	.	_	_	_	_	
+1-64	381-389	državami	_	_	_	_	
+1-65	390-398	uvrstila	_	_	_	_	
+1-66	399-409	Nizozemska	LOC	_	*->3-1	*[3]	
+1-67	410-411	.	_	_	_	_	
+1-68	412-419	Sledijo	_	_	_	_	
+1-69	420-422	ji	_	_	_	_	
+1-70	423-429	Danska	LOC	3 - Nevtralno	*->4-1	*[4]	
+1-71	430-431	,	_	_	_	_	
+1-72	432-440	Avstrija	LOC	_	*->5-1	*[5]	
+1-73	441-442	,	_	_	_	_	
+1-74	443-445	ki	_	_	_	_	
+1-75	446-448	je	_	3 - Nevtralno[5]	*->5-2	*[5]	
+1-76	449-454	padla	_	3 - Nevtralno[5]	*->5-2	*[5]	
+1-77	455-456	z	_	_	_	_	
+1-78	457-465	lanskega	_	_	_	_	
+1-79	466-472	prvega	_	_	_	_	
+1-80	473-478	mesta	_	_	_	_	
+1-81	479-480	,	_	_	_	_	
+1-82	481-491	Luksemburg	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-83	492-494	in	_	_	_	_	
+1-84	495-502	Švedska	LOC	_	*->7-1	*[7]	
+1-85	503-504	.	_	_	_	_	
+1-86	505-515	Deseterico	_	_	_	_	
+1-87	516-528	zaključujejo	_	_	_	_	
+1-88	529-536	Nemčija	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-89	537-538	,	_	_	_	_	
+1-90	539-544	Švica	LOC	_	*->9-1	*[9]	
+1-91	545-546	,	_	_	_	_	
+1-92	547-555	Norveška	LOC	_	*->10-1	*[10]	
+1-93	556-557	,	_	_	_	_	
+1-94	558-564	Finska	LOC	_	*->11-1	*[11]	
+1-95	565-567	in	_	_	_	_	
+1-96	568-576	Francija	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-97	577-578	.	_	_	_	_	
+1-98	579-583	Prva	_	_	_	_	
+1-99	584-594	Nizozemska	LOC	4 - Pozitivno	*->3-2	*[3]	
+1-100	595-596	,	_	_	_	_	
+1-101	597-603	zadnja	_	_	_	_	
+1-102	604-611	Latvija	LOC	_	*->13-1	*[13]	
+1-103	612-613	V	_	_	_	_	
+1-104	614-623	raziskavi	_	_	_	_	
+1-105	624-625	,	_	_	_	_	
+1-106	626-628	ki	_	_	_	_	
+1-107	629-631	jo	_	_	_	_	
+1-108	632-642	pripravlja	_	_	_	_	
+1-109	643-655	raziskovalna	_	3 - Nevtralno[6]	*->14-1	*[14]	
+1-110	656-668	organizacija	_	3 - Nevtralno[6]	*->14-1	*[14]	
+1-111	669-675	Health	ORG[3]	3 - Nevtralno[6]	*->14-1	*[14]	
+1-112	676-684	Consumer	ORG[3]	3 - Nevtralno[6]	*->14-1	*[14]	
+1-113	685-695	Powerhouse	ORG[3]	3 - Nevtralno[6]	*->14-1	*[14]	
+1-114	696-697	,	_	_	_	_	
+1-115	698-700	so	_	_	_	_	
+1-116	701-706	poleg	_	_	_	_	
+1-117	707-713	članic	_	_	_	_	
+1-118	714-722	Evropske	LOC[4]	_	*->1-3	*[1]	
+1-119	723-728	unije	LOC[4]	_	*->1-3	*[1]	
+1-120	729-739	sodelovale	_	_	_	_	
+1-121	740-742	še	_	_	_	_	
+1-122	743-749	državi	_	_	_	_	
+1-123	750-760	kandidatki	_	_	_	_	
+1-124	761-763	za	_	_	_	_	
+1-125	764-772	članstvo	_	_	_	_	
+1-126	773-774	v	_	_	_	_	
+1-127	775-783	povezavi	_	_	_	_	
+1-128	784-785	(	_	_	_	_	
+1-129	786-793	Hrvaška	LOC	_	*->15-1	*[15]	
+1-130	794-796	in	_	_	_	_	
+1-131	797-807	Makedonija	LOC	_	*->16-1	*[16]	
+1-132	808-809	)	_	_	_	_	
+1-133	810-813	ter	_	_	_	_	
+1-134	814-822	Norveška	LOC	3 - Nevtralno	*->10-2	*[10]	
+1-135	823-825	in	_	_	_	_	
+1-136	826-831	Švica	LOC	_	*->9-2	*[9]	
+1-137	832-833	.	_	_	_	_	
+1-138	834-836	Za	_	_	_	_	
+1-139	837-846	Slovenijo	LOC	_	*->2-2	*[2]	
+1-140	847-849	se	_	_	_	_	
+1-141	850-852	je	_	_	_	_	
+1-142	853-861	uvrstila	_	_	_	_	
+1-143	862-868	večina	_	_	_	_	
+1-144	869-874	novih	_	_	_	_	
+1-145	875-881	članic	_	_	_	_	
+1-146	882-887	Unije	LOC	3 - Nevtralno	*->1-4	*[1]	
+1-147	888-889	,	_	_	_	_	
+1-148	890-895	razen	_	_	_	_	
+1-149	896-901	Cipra	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-150	902-904	in	_	_	_	_	
+1-151	905-910	Češke	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-152	911-912	(	_	_	_	_	
+1-153	913-919	delita	_	_	_	_	
+1-154	920-922	si	_	_	_	_	
+1-155	923-925	16	_	_	_	_	
+1-156	926-927	.	_	_	_	_	
+1-157	928-933	mesto	_	_	_	_	
+1-158	934-935	)	_	_	_	_	
+1-159	936-939	ter	_	_	_	_	
+1-160	940-948	Estonije	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-161	949-950	(	_	_	_	_	
+1-162	951-953	11	_	_	_	_	
+1-163	954-955	.	_	_	_	_	
+1-164	956-961	mesto	_	_	_	_	
+1-165	962-963	)	_	_	_	_	
+1-166	964-965	,	_	_	_	_	
+1-167	966-971	bolje	_	_	_	_	
+1-168	972-974	pa	_	_	_	_	
+1-169	975-977	se	_	_	_	_	
+1-170	978-980	je	_	_	_	_	
+1-171	981-989	odrezala	_	_	_	_	
+1-172	990-994	tudi	_	_	_	_	
+1-173	995-997	od	_	_	_	_	
+1-174	998-1009	Portugalske	LOC	_	*->20-1	*[20]	
+1-175	1010-1011	(	_	_	_	_	
+1-176	1012-1014	26	_	_	_	_	
+1-177	1015-1016	.	_	_	_	_	
+1-178	1017-1022	mesto	_	_	_	_	
+1-179	1023-1024	)	_	_	_	_	
+1-180	1025-1026	.	_	_	_	_	
+1-181	1027-1034	Hrvaška	LOC	3 - Nevtralno	*->15-2	*[15]	
+1-182	1035-1037	in	_	_	_	_	
+1-183	1038-1048	Makedonija	LOC	3 - Nevtralno	*->16-2	*[16]	
+1-184	1049-1052	sta	_	_	_	_	
+1-185	1053-1060	zasedli	_	_	_	_	
+1-186	1061-1063	29	_	_	_	_	
+1-187	1064-1065	.	_	_	_	_	
+1-188	1066-1070	in30	_	_	_	_	
+1-189	1071-1072	.	_	_	_	_	
+1-190	1073-1078	mesto	_	_	_	_	
+1-191	1079-1080	,	_	_	_	_	
+1-192	1081-1090	najslabše	_	_	_	_	
+1-193	1091-1093	pa	_	_	_	_	
+1-194	1094-1096	se	_	_	_	_	
+1-195	1097-1099	je	_	_	_	_	
+1-196	1100-1108	odrezala	_	_	_	_	
+1-197	1109-1116	Latvija	LOC	2 - Negativno	*->13-2	*[13]	
+1-198	1117-1118	.	_	_	_	_	
+1-199	1119-1123	Šest	_	_	_	_	
+1-200	1124-1133	kategorij	_	_	_	_	
+1-201	1134-1142	Snovalci	_	_	_	_	
+1-202	1143-1150	indeksa	_	_	_	_	
+1-203	1151-1155	EHCI	_	_	_	_	
+1-204	1156-1161	vsako	_	_	_	_	
+1-205	1162-1166	leto	_	_	_	_	
+1-206	1167-1177	razvrščajo	_	_	_	_	
+1-207	1178-1186	evropske	_	_	_	_	
+1-208	1187-1197	nacionalne	_	_	_	_	
+1-209	1198-1209	zdravstvene	_	_	_	_	
+1-210	1210-1217	sisteme	_	_	_	_	
+1-211	1218-1223	glede	_	_	_	_	
+1-212	1224-1226	na	_	_	_	_	
+1-213	1227-1231	šest	_	_	_	_	
+1-214	1232-1240	ključnih	_	_	_	_	
+1-215	1241-1249	področij	_	_	_	_	
+1-216	1250-1251	:	_	_	_	_	
+1-217	1252-1259	pravice	_	_	_	_	
+1-218	1260-1262	in	_	_	_	_	
+1-219	1263-1276	informiranost	_	_	_	_	
+1-220	1277-1286	pacientov	_	_	_	_	
+1-221	1287-1288	,	_	_	_	_	
+1-222	1289-1298	razvitost	_	_	_	_	
+1-223	1299-1300	e	_	_	_	_	
+1-224	1301-1302	-	_	_	_	_	
+1-225	1303-1310	zdravja	_	_	_	_	
+1-226	1311-1312	,	_	_	_	_	
+1-227	1313-1320	čakalni	_	_	_	_	
+1-228	1321-1324	čas	_	_	_	_	
+1-229	1325-1327	na	_	_	_	_	
+1-230	1328-1339	zdravljenje	_	_	_	_	
+1-231	1340-1341	,	_	_	_	_	
+1-232	1342-1351	rezultati	_	_	_	_	
+1-233	1352-1365	zdravstvenega	_	_	_	_	
+1-234	1366-1373	sistema	_	_	_	_	
+1-235	1374-1375	,	_	_	_	_	
+1-236	1376-1382	razpon	_	_	_	_	
+1-237	1383-1385	in	_	_	_	_	
+1-238	1386-1396	dostopnost	_	_	_	_	
+1-239	1397-1405	storitev	_	_	_	_	
+1-240	1406-1409	ter	_	_	_	_	
+1-241	1410-1422	farmacevtski	_	_	_	_	
+1-242	1423-1430	izdelki	_	_	_	_	
+1-243	1431-1432	.	_	_	_	_	
+1-244	1433-1434	V	_	_	_	_	
+1-245	1435-1441	šestih	_	_	_	_	
+1-246	1442-1453	kategorijah	_	_	_	_	
+1-247	1454-1455	,	_	_	_	_	
+1-248	1456-1458	ki	_	_	_	_	
+1-249	1459-1468	pokrivajo	_	_	_	_	
+1-250	1469-1471	34	_	_	_	_	
+1-251	1472-1482	kazalnikov	_	_	_	_	
+1-252	1483-1493	uspešnosti	_	_	_	_	
+1-253	1494-1495	,	_	_	_	_	
+1-254	1496-1498	je	_	_	_	_	
+1-255	1499-1508	Slovenija	LOC	_	*->2-3	*[2]	
+1-256	1509-1511	od	_	_	_	_	
+1-257	1512-1518	možnih	_	_	_	_	
+1-258	1519-1529	1000dobila	_	_	_	_	
+1-259	1530-1533	582	_	_	_	_	
+1-260	1534-1538	točk	_	_	_	_	
+1-261	1539-1540	.	_	_	_	_	
+1-262	1541-1550	Najslabše	_	_	_	_	
+1-263	1551-1553	se	_	_	*->2-4	*[2]	
+1-264	1554-1556	je	_	_	*->2-4	*[2]	
+1-265	1557-1565	odrezala	_	_	*->2-4	*[2]	
+1-266	1566-1568	na	_	_	_	_	
+1-267	1569-1577	področju	_	_	_	_	
+1-268	1578-1586	čakalnih	_	_	_	_	
+1-269	1587-1590	dob	_	_	_	_	
+1-270	1591-1592	,	_	_	_	_	
+1-271	1593-1597	kjer	_	_	_	_	
+1-272	1598-1600	si	_	_	_	_	
+1-273	1601-1607	skupaj	_	_	_	_	
+1-274	1608-1609	s	_	_	_	_	
+1-275	1610-1616	Finsko	LOC	3 - Nevtralno	*->11-2	*[11]	
+1-276	1617-1618	,	_	_	_	_	
+1-277	1619-1630	Portugalsko	LOC	3 - Nevtralno	*->20-2	*[20]	
+1-278	1631-1633	in	_	_	_	_	
+1-279	1634-1641	Švedsko	LOC	3 - Nevtralno	*->7-2	*[7]	
+1-280	1642-1646	deli	_	_	_	_	
+1-281	1647-1649	27	_	_	_	_	
+1-282	1650-1651	.	_	_	_	_	
+1-283	1652-1657	mesto	_	_	_	_	
+1-284	1658-1659	.	_	_	_	_	
+1-285	1660-1662	Na	_	_	_	_	
+1-286	1663-1671	področju	_	_	_	_	
+1-287	1672-1685	farmacevtskih	_	_	_	_	
+1-288	1686-1694	izdelkov	_	_	_	_	
+1-289	1695-1697	je	_	_	*->2-5	*[2]	
+1-290	1698-1702	bila	_	_	*->2-5	*[2]	
+1-291	1703-1711	uvrščena	_	_	*->2-5	*[2]	
+1-292	1712-1714	na	_	_	_	_	
+1-293	1715-1717	23	_	_	_	_	
+1-294	1718-1719	.	_	_	_	_	
+1-295	1720-1725	mesto	_	_	_	_	
+1-296	1726-1727	,	_	_	_	_	
+1-297	1728-1734	precej	_	_	_	_	
+1-298	1735-1741	boljšo	_	_	_	_	
+1-299	1742-1751	uvrstitev	_	_	_	_	
+1-300	1752-1754	pa	_	_	_	_	
+1-301	1755-1757	je	_	_	*->2-6	*[2]	
+1-302	1758-1765	dosegla	_	_	*->2-6	*[2]	
+1-303	1766-1768	na	_	_	_	_	
+1-304	1769-1777	področju	_	_	_	_	
+1-305	1778-1788	rezultatov	_	_	_	_	
+1-306	1789-1802	zdravstvenega	_	_	_	_	
+1-307	1803-1810	sistema	_	_	_	_	
+1-308	1811-1812	,	_	_	_	_	
+1-309	1813-1817	kjer	_	_	_	_	
+1-310	1818-1820	si	_	3 - Nevtralno	*->2-7	*[2]	
+1-311	1821-1822	s	_	_	_	_	
+1-312	1823-1828	Švico	LOC	3 - Nevtralno	*->9-3	*[9]	
+1-313	1829-1833	deli	_	_	_	_	
+1-314	1834-1836	15	_	_	_	_	
+1-315	1837-1838	.	_	_	_	_	
+1-316	1839-1844	mesto	_	_	_	_	

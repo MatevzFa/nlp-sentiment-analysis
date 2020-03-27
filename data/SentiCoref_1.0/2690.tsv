@@ -1,0 +1,541 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Britanski Vodafone je v poslovnem letu , ki se je končalo marca , ustvaril 3,5 milijarde evrov čistega dobička , kar je za 54 odstotkov manj kot v enakem obdobju lani . Zmanjšanje dobička pripisujejo v podjetju predvsem odpisu vrednosti premoženja v višini 6,7 milijarde evrov . Obseg družbinih prihodkov od prodaje se je povečal za 16 odstotkov , na 46,6 milijarde evrov , kar pa je posledica padca tečaja britanskega funta na tujih trgih . Tudi Norveška v recesiji Medtem ko se je bruto domači proizvod ( BDP ) Norveške v zadnjem četrtletju lani skrčil za 0,8 odstotka , se je v prvem letošnjem četrtletju skrčil za odstotek . Tako je tudi Norveška po dveh zaporednih četrtletnih padcih BDP zašla v recesijo . Obseg izvoza z nafto bogate države se je , brez upoštevanja izvoza nafte , v primerjavi s prejšnjim četrtletjem skrčil za 7,3 odstotka , z upoštevanjem izvoza nafte pa za 4,7 odstotka . Svetovno gospodarsko ozračje boljše prvič po jeseni 2007 Kazalec svetovnega gospodarskega ozračja se je v drugem letošnjem četrtletju v primerjavi s prvim zvišal s 50,1 na 64,4 točke , v lanskem drugem četrtletju pa je znašal 81,4 točke . Svetovno gospodarsko ozračje se je tako v letošnjem drugem četrtletju prvič po jeseni 2007 izboljšalo , ugotavlja münchenski inštitut za gospodarske raziskave Ifo . Gospodarska pričakovanja so se izboljšala v vseh glavnih regijah , še posebno pa v Severni Ameriki in Aziji , pa tudi v zahodni , srednji in vzhodni Evropi , Rusiji ter Latinski Ameriki . Time Warner 31 - odstotni lastnik CME Vodilna družba na področju medijev in zabave , Time Warner , je v ponedeljek objavila , da je dokončno realizirala 241,5 milijona dolarjev vredno naložbo v vodilno družbo na področju medijev v srednji in vzhodni Evropi , Central European Media Enterprises ( CME ) , pod katero spadata tudi slovenska POP TV in Kanal A . Družba Time Warner je tako postala 31 - odstotna lastnica omenjene družbe . Tri newyorške banke začele postopek odplačevanja posojila Ameriške banke Goldman Sachs , JP Morgan Chase in Morgan Stanely so vložile prijavo za vračilo 45 milijard dolarjev državnega posojila , kar je največje vračilo davkoplačevalcem , odkar je ameriška vlada oktobra lani začela s 700 milijard dolarjev vrednim programom TARP . Za vračilo davkoplačevalskega denarja potrebujejo le še potrditev svojega nadzornika - Zveznih rezerv ( Fed ) . Z vračilom državnega posojila naj bi se želele izogniti omejitvam , povezanim z denarnimi nagradami in zaposlovanjem , kar je ameriška vlada februarja postavila kot prvi pogoj za prejeto finančno pomoč . Berkshire Hataway začasno ustavila nakupe delnic Warren Buffettova družba Berkshire Hataway , ki je med drugim največji delničar Kraft Foods in Coca - Cole , je začasno ustavila nakupe delnic , saj so se denarna sredstva družbe zmanjšala za največ v zadnjih petih letih . Inflacija v Veliki Britaniji aprila nižja Inflacija v Veliki Britaniji se je z 2,9 odstotka v marcu znižala na 2,3 odstotka v aprilu , kar je posledica nižjih cen plina in elektrike . Indeks cen na drobno , ki vključuje tudi stroške stanovanjskih posojil , pa se je znižal za 0,4 odstotka , na - 1,2 odstotka . Pripravila Nuša
+1-1	0-9	Britanski	_	_	_	_	
+1-2	10-18	Vodafone	ORG	_	*->20-1	*[20]	
+1-3	19-21	je	_	_	_	_	
+1-4	22-23	v	_	_	_	_	
+1-5	24-33	poslovnem	_	_	_	_	
+1-6	34-38	letu	_	_	_	_	
+1-7	39-40	,	_	_	_	_	
+1-8	41-43	ki	_	_	_	_	
+1-9	44-46	se	_	_	_	_	
+1-10	47-49	je	_	_	_	_	
+1-11	50-57	končalo	_	_	_	_	
+1-12	58-63	marca	_	_	_	_	
+1-13	64-65	,	_	_	_	_	
+1-14	66-74	ustvaril	_	_	_	_	
+1-15	75-78	3,5	_	_	_	_	
+1-16	79-88	milijarde	_	_	_	_	
+1-17	89-94	evrov	_	_	_	_	
+1-18	95-102	čistega	_	_	_	_	
+1-19	103-110	dobička	_	_	_	_	
+1-20	111-112	,	_	_	_	_	
+1-21	113-116	kar	_	_	_	_	
+1-22	117-119	je	_	_	_	_	
+1-23	120-122	za	_	_	_	_	
+1-24	123-125	54	_	_	_	_	
+1-25	126-135	odstotkov	_	_	_	_	
+1-26	136-140	manj	_	_	_	_	
+1-27	141-144	kot	_	_	_	_	
+1-28	145-146	v	_	_	_	_	
+1-29	147-153	enakem	_	_	_	_	
+1-30	154-161	obdobju	_	_	_	_	
+1-31	162-166	lani	_	_	_	_	
+1-32	167-168	.	_	_	_	_	
+1-33	169-179	Zmanjšanje	_	_	_	_	
+1-34	180-187	dobička	_	_	_	_	
+1-35	188-199	pripisujejo	_	2 - Negativno	*->20-2	*[20]	
+1-36	200-201	v	_	_	_	_	
+1-37	202-210	podjetju	_	_	_	_	
+1-38	211-219	predvsem	_	_	_	_	
+1-39	220-226	odpisu	_	_	_	_	
+1-40	227-236	vrednosti	_	_	_	_	
+1-41	237-247	premoženja	_	_	_	_	
+1-42	248-249	v	_	_	_	_	
+1-43	250-256	višini	_	_	_	_	
+1-44	257-260	6,7	_	_	_	_	
+1-45	261-270	milijarde	_	_	_	_	
+1-46	271-276	evrov	_	_	_	_	
+1-47	277-278	.	_	_	_	_	
+1-48	279-284	Obseg	_	_	_	_	
+1-49	285-294	družbinih	_	_	_	_	
+1-50	295-304	prihodkov	_	_	_	_	
+1-51	305-307	od	_	_	_	_	
+1-52	308-315	prodaje	_	_	_	_	
+1-53	316-318	se	_	_	_	_	
+1-54	319-321	je	_	_	_	_	
+1-55	322-329	povečal	_	_	_	_	
+1-56	330-332	za	_	_	_	_	
+1-57	333-335	16	_	_	_	_	
+1-58	336-345	odstotkov	_	_	_	_	
+1-59	346-347	,	_	_	_	_	
+1-60	348-350	na	_	_	_	_	
+1-61	351-355	46,6	_	_	_	_	
+1-62	356-365	milijarde	_	_	_	_	
+1-63	366-371	evrov	_	_	_	_	
+1-64	372-373	,	_	_	_	_	
+1-65	374-377	kar	_	_	_	_	
+1-66	378-380	pa	_	_	_	_	
+1-67	381-383	je	_	_	_	_	
+1-68	384-393	posledica	_	_	_	_	
+1-69	394-399	padca	_	_	_	_	
+1-70	400-406	tečaja	_	_	_	_	
+1-71	407-418	britanskega	_	_	_	_	
+1-72	419-424	funta	_	_	_	_	
+1-73	425-427	na	_	_	_	_	
+1-74	428-433	tujih	_	_	_	_	
+1-75	434-439	trgih	_	_	_	_	
+1-76	440-441	.	_	_	_	_	
+1-77	442-446	Tudi	_	_	_	_	
+1-78	447-455	Norveška	ORG	_	*->1-1	*[1]	
+1-79	456-457	v	_	_	_	_	
+1-80	458-466	recesiji	_	_	_	_	
+1-81	467-473	Medtem	_	_	_	_	
+1-82	474-476	ko	_	_	_	_	
+1-83	477-479	se	_	_	_	_	
+1-84	480-482	je	_	_	_	_	
+1-85	483-488	bruto	_	_	_	_	
+1-86	489-495	domači	_	_	_	_	
+1-87	496-504	proizvod	_	_	_	_	
+1-88	505-506	(	_	_	_	_	
+1-89	507-510	BDP	_	_	_	_	
+1-90	511-512	)	_	_	_	_	
+1-91	513-521	Norveške	ORG	_	*->1-2	*[1]	
+1-92	522-523	v	_	_	_	_	
+1-93	524-531	zadnjem	_	_	_	_	
+1-94	532-542	četrtletju	_	_	_	_	
+1-95	543-547	lani	_	_	_	_	
+1-96	548-554	skrčil	_	_	_	_	
+1-97	555-557	za	_	_	_	_	
+1-98	558-561	0,8	_	_	_	_	
+1-99	562-570	odstotka	_	_	_	_	
+1-100	571-572	,	_	_	_	_	
+1-101	573-575	se	_	_	_	_	
+1-102	576-578	je	_	_	_	_	
+1-103	579-580	v	_	_	_	_	
+1-104	581-586	prvem	_	_	_	_	
+1-105	587-596	letošnjem	_	_	_	_	
+1-106	597-607	četrtletju	_	_	_	_	
+1-107	608-614	skrčil	_	_	_	_	
+1-108	615-617	za	_	_	_	_	
+1-109	618-626	odstotek	_	_	_	_	
+1-110	627-628	.	_	_	_	_	
+1-111	629-633	Tako	_	_	_	_	
+1-112	634-636	je	_	_	_	_	
+1-113	637-641	tudi	_	_	_	_	
+1-114	642-650	Norveška	LOC	_	*->1-3	*[1]	
+1-115	651-653	po	_	_	_	_	
+1-116	654-658	dveh	_	_	_	_	
+1-117	659-669	zaporednih	_	_	_	_	
+1-118	670-681	četrtletnih	_	_	_	_	
+1-119	682-688	padcih	_	_	_	_	
+1-120	689-692	BDP	_	_	_	_	
+1-121	693-698	zašla	_	_	_	_	
+1-122	699-700	v	_	_	_	_	
+1-123	701-709	recesijo	_	_	_	_	
+1-124	710-711	.	_	_	_	_	
+1-125	712-717	Obseg	_	_	_	_	
+1-126	718-724	izvoza	_	_	_	_	
+1-127	725-726	z	_	2 - Negativno[20]	*->1-4	*[1]	
+1-128	727-732	nafto	_	2 - Negativno[20]	*->1-4	*[1]	
+1-129	733-739	bogate	_	2 - Negativno[20]	*->1-4	*[1]	
+1-130	740-746	države	_	2 - Negativno[20]	*->1-4	*[1]	
+1-131	747-749	se	_	_	_	_	
+1-132	750-752	je	_	_	_	_	
+1-133	753-754	,	_	_	_	_	
+1-134	755-759	brez	_	_	_	_	
+1-135	760-771	upoštevanja	_	_	_	_	
+1-136	772-778	izvoza	_	_	_	_	
+1-137	779-784	nafte	_	_	_	_	
+1-138	785-786	,	_	_	_	_	
+1-139	787-788	v	_	_	_	_	
+1-140	789-799	primerjavi	_	_	_	_	
+1-141	800-801	s	_	_	_	_	
+1-142	802-811	prejšnjim	_	_	_	_	
+1-143	812-823	četrtletjem	_	_	_	_	
+1-144	824-830	skrčil	_	_	_	_	
+1-145	831-833	za	_	_	_	_	
+1-146	834-837	7,3	_	_	_	_	
+1-147	838-846	odstotka	_	_	_	_	
+1-148	847-848	,	_	_	_	_	
+1-149	849-850	z	_	_	_	_	
+1-150	851-863	upoštevanjem	_	_	_	_	
+1-151	864-870	izvoza	_	_	_	_	
+1-152	871-876	nafte	_	_	_	_	
+1-153	877-879	pa	_	_	_	_	
+1-154	880-882	za	_	_	_	_	
+1-155	883-886	4,7	_	_	_	_	
+1-156	887-895	odstotka	_	_	_	_	
+1-157	896-897	.	_	_	_	_	
+1-158	898-906	Svetovno	_	_	_	_	
+1-159	907-918	gospodarsko	_	_	_	_	
+1-160	919-926	ozračje	_	_	_	_	
+1-161	927-933	boljše	_	_	_	_	
+1-162	934-939	prvič	_	_	_	_	
+1-163	940-942	po	_	_	_	_	
+1-164	943-949	jeseni	_	_	_	_	
+1-165	950-954	2007	_	_	_	_	
+1-166	955-962	Kazalec	_	_	_	_	
+1-167	963-973	svetovnega	_	_	_	_	
+1-168	974-987	gospodarskega	_	_	_	_	
+1-169	988-995	ozračja	_	_	_	_	
+1-170	996-998	se	_	_	_	_	
+1-171	999-1001	je	_	_	_	_	
+1-172	1002-1003	v	_	_	_	_	
+1-173	1004-1010	drugem	_	_	_	_	
+1-174	1011-1020	letošnjem	_	_	_	_	
+1-175	1021-1031	četrtletju	_	_	_	_	
+1-176	1032-1033	v	_	_	_	_	
+1-177	1034-1044	primerjavi	_	_	_	_	
+1-178	1045-1046	s	_	_	_	_	
+1-179	1047-1052	prvim	_	_	_	_	
+1-180	1053-1059	zvišal	_	_	_	_	
+1-181	1060-1061	s	_	_	_	_	
+1-182	1062-1066	50,1	_	_	_	_	
+1-183	1067-1069	na	_	_	_	_	
+1-184	1070-1074	64,4	_	_	_	_	
+1-185	1075-1080	točke	_	_	_	_	
+1-186	1081-1082	,	_	_	_	_	
+1-187	1083-1084	v	_	_	_	_	
+1-188	1085-1092	lanskem	_	_	_	_	
+1-189	1093-1099	drugem	_	_	_	_	
+1-190	1100-1110	četrtletju	_	_	_	_	
+1-191	1111-1113	pa	_	_	_	_	
+1-192	1114-1116	je	_	_	_	_	
+1-193	1117-1123	znašal	_	_	_	_	
+1-194	1124-1128	81,4	_	_	_	_	
+1-195	1129-1134	točke	_	_	_	_	
+1-196	1135-1136	.	_	_	_	_	
+1-197	1137-1145	Svetovno	_	_	_	_	
+1-198	1146-1157	gospodarsko	_	_	_	_	
+1-199	1158-1165	ozračje	_	_	_	_	
+1-200	1166-1168	se	_	_	_	_	
+1-201	1169-1171	je	_	_	_	_	
+1-202	1172-1176	tako	_	_	_	_	
+1-203	1177-1178	v	_	_	_	_	
+1-204	1179-1188	letošnjem	_	_	_	_	
+1-205	1189-1195	drugem	_	_	_	_	
+1-206	1196-1206	četrtletju	_	_	_	_	
+1-207	1207-1212	prvič	_	_	_	_	
+1-208	1213-1215	po	_	_	_	_	
+1-209	1216-1222	jeseni	_	_	_	_	
+1-210	1223-1227	2007	_	_	_	_	
+1-211	1228-1238	izboljšalo	_	_	_	_	
+1-212	1239-1240	,	_	_	_	_	
+1-213	1241-1250	ugotavlja	_	_	_	_	
+1-214	1251-1261	münchenski	_	3 - Nevtralno[21]	*->21-1	*[21]	
+1-215	1262-1270	inštitut	_	3 - Nevtralno[21]	*->21-1	*[21]	
+1-216	1271-1273	za	_	3 - Nevtralno[21]	*->21-1	*[21]	
+1-217	1274-1285	gospodarske	_	3 - Nevtralno[21]	*->21-1	*[21]	
+1-218	1286-1295	raziskave	_	3 - Nevtralno[21]	*->21-1	*[21]	
+1-219	1296-1299	Ifo	ORG	3 - Nevtralno[21]	*->21-1	*[21]	
+1-220	1300-1301	.	_	_	_	_	
+1-221	1302-1313	Gospodarska	_	_	_	_	
+1-222	1314-1326	pričakovanja	_	_	_	_	
+1-223	1327-1329	so	_	_	_	_	
+1-224	1330-1332	se	_	_	_	_	
+1-225	1333-1343	izboljšala	_	_	_	_	
+1-226	1344-1345	v	_	_	_	_	
+1-227	1346-1350	vseh	_	_	_	_	
+1-228	1351-1358	glavnih	_	_	_	_	
+1-229	1359-1366	regijah	_	_	_	_	
+1-230	1367-1368	,	_	_	_	_	
+1-231	1369-1371	še	_	_	_	_	
+1-232	1372-1379	posebno	_	_	_	_	
+1-233	1380-1382	pa	_	_	_	_	
+1-234	1383-1384	v	_	_	_	_	
+1-235	1385-1392	Severni	LOC[1]	4 - Pozitivno[22]	*->23-1	*[23]	
+1-236	1393-1400	Ameriki	LOC[1]	4 - Pozitivno[22]	*->23-1	*[23]	
+1-237	1401-1403	in	_	_	_	_	
+1-238	1404-1409	Aziji	LOC	4 - Pozitivno	*->9-1	*[9]	
+1-239	1410-1411	,	_	_	_	_	
+1-240	1412-1414	pa	_	_	_	_	
+1-241	1415-1419	tudi	_	_	_	_	
+1-242	1420-1421	v	_	_	_	_	
+1-243	1422-1429	zahodni	_	_	_	_	
+1-244	1430-1431	,	_	_	_	_	
+1-245	1432-1439	srednji	_	_	_	_	
+1-246	1440-1442	in	_	_	_	_	
+1-247	1443-1450	vzhodni	_	_	_	_	
+1-248	1451-1457	Evropi	LOC	_	*->22-1	*[22]	
+1-249	1458-1459	,	_	_	_	_	
+1-250	1460-1466	Rusiji	LOC	4 - Pozitivno	*->24-1	*[24]	
+1-251	1467-1470	ter	_	_	_	_	
+1-252	1471-1479	Latinski	LOC[2]	4 - Pozitivno[23]	*->3-1	*[3]	
+1-253	1480-1487	Ameriki	LOC[2]	4 - Pozitivno[23]	*->3-1	*[3]	
+1-254	1488-1489	.	_	_	_	_	
+1-255	1490-1494	Time	ORG[3]	3 - Nevtralno[24]	*->7-1|*->10-1	*[7]|*[10]	
+1-256	1495-1501	Warner	ORG[3]	3 - Nevtralno[24]	*->7-1|*->10-1	*[7]|*[10]	
+1-257	1502-1504	31	_	3 - Nevtralno[24]	*->7-1	*[7]	
+1-258	1505-1506	-	_	3 - Nevtralno[24]	*->7-1	*[7]	
+1-259	1507-1515	odstotni	_	3 - Nevtralno[24]	*->7-1	*[7]	
+1-260	1516-1523	lastnik	_	3 - Nevtralno[24]	*->7-1	*[7]	
+1-261	1524-1527	CME	ORG	3 - Nevtralno[24]	*->7-1|*->16-1	*[7]|*[16]	
+1-262	1528-1535	Vodilna	_	_	*->10-2	*[10]	
+1-263	1536-1542	družba	_	_	*->10-2	*[10]	
+1-264	1543-1545	na	_	_	*->10-2	*[10]	
+1-265	1546-1554	področju	_	_	*->10-2	*[10]	
+1-266	1555-1562	medijev	_	_	*->10-2	*[10]	
+1-267	1563-1565	in	_	_	*->10-2	*[10]	
+1-268	1566-1572	zabave	_	_	*->10-2	*[10]	
+1-269	1573-1574	,	_	_	_	_	
+1-270	1575-1579	Time	ORG[4]	_	*->10-3	*[10]	
+1-271	1580-1586	Warner	ORG[4]	_	*->10-3	*[10]	
+1-272	1587-1588	,	_	_	_	_	
+1-273	1589-1591	je	_	_	_	_	
+1-274	1592-1593	v	_	_	_	_	
+1-275	1594-1604	ponedeljek	_	_	_	_	
+1-276	1605-1613	objavila	_	_	_	_	
+1-277	1614-1615	,	_	_	_	_	
+1-278	1616-1618	da	_	_	_	_	
+1-279	1619-1621	je	_	_	_	_	
+1-280	1622-1630	dokončno	_	_	_	_	
+1-281	1631-1642	realizirala	_	_	*->10-4	*[10]	
+1-282	1643-1648	241,5	_	_	_	_	
+1-283	1649-1657	milijona	_	_	_	_	
+1-284	1658-1666	dolarjev	_	_	_	_	
+1-285	1667-1673	vredno	_	_	_	_	
+1-286	1674-1681	naložbo	_	_	_	_	
+1-287	1682-1683	v	_	_	_	_	
+1-288	1684-1691	vodilno	_	_	*->16-2	*[16]	
+1-289	1692-1698	družbo	_	_	*->16-2	*[16]	
+1-290	1699-1701	na	_	_	*->16-2	*[16]	
+1-291	1702-1710	področju	_	_	*->16-2	*[16]	
+1-292	1711-1718	medijev	_	_	*->16-2	*[16]	
+1-293	1719-1720	v	_	_	*->16-2	*[16]	
+1-294	1721-1728	srednji	_	_	*->16-2	*[16]	
+1-295	1729-1731	in	_	_	*->16-2	*[16]	
+1-296	1732-1739	vzhodni	_	_	*->16-2	*[16]	
+1-297	1740-1746	Evropi	LOC	4 - Pozitivno	*->16-2|*->22-2	*[16]|*[22]	
+1-298	1747-1748	,	_	_	_	_	
+1-299	1749-1756	Central	ORG[5]	_	*->16-3	*[16]	
+1-300	1757-1765	European	ORG[5]	_	*->16-3	*[16]	
+1-301	1766-1771	Media	ORG[5]	_	*->16-3	*[16]	
+1-302	1772-1783	Enterprises	ORG[5]	_	*->16-3	*[16]	
+1-303	1784-1785	(	_	_	_	_	
+1-304	1786-1789	CME	ORG	_	*->16-4	*[16]	
+1-305	1790-1791	)	_	_	_	_	
+1-306	1792-1793	,	_	_	_	_	
+1-307	1794-1797	pod	_	_	_	_	
+1-308	1798-1804	katero	_	_	_	_	
+1-309	1805-1812	spadata	_	_	_	_	
+1-310	1813-1817	tudi	_	_	_	_	
+1-311	1818-1827	slovenska	_	_	_	_	
+1-312	1828-1831	POP	ORG[6]	3 - Nevtralno[25]	*->15-1	*[15]	
+1-313	1832-1834	TV	ORG[6]	3 - Nevtralno[25]	*->15-1	*[15]	
+1-314	1835-1837	in	_	_	_	_	
+1-315	1838-1843	Kanal	ORG[7]	3 - Nevtralno[26]	*->12-1	*[12]	
+1-316	1844-1845	A	ORG[7]	3 - Nevtralno[26]	_	_	
+1-317	1846-1847	.	_	_	_	_	
+1-318	1848-1854	Družba	_	_	*->10-5	*[10]	
+1-319	1855-1859	Time	ORG[8]	_	*->10-5	*[10]	
+1-320	1860-1866	Warner	ORG[8]	_	*->10-5	*[10]	
+1-321	1867-1869	je	_	_	_	_	
+1-322	1870-1874	tako	_	_	_	_	
+1-323	1875-1882	postala	_	_	_	_	
+1-324	1883-1885	31	_	4 - Pozitivno[27]	*->10-6	*[10]	
+1-325	1886-1887	-	_	4 - Pozitivno[27]	*->10-6	*[10]	
+1-326	1888-1896	odstotna	_	4 - Pozitivno[27]	*->10-6	*[10]	
+1-327	1897-1905	lastnica	_	4 - Pozitivno[27]	*->10-6	*[10]	
+1-328	1906-1914	omenjene	_	4 - Pozitivno[27]|4 - Pozitivno[28]	*->10-6|*->16-5	*[10]|*[16]	
+1-329	1915-1921	družbe	_	4 - Pozitivno[27]|4 - Pozitivno[28]	*->10-6|*->16-5	*[10]|*[16]	
+1-330	1922-1923	.	_	_	_	_	
+1-331	1924-1927	Tri	_	_	_	_	
+1-332	1928-1937	newyorške	_	_	_	_	
+1-333	1938-1943	banke	_	_	_	_	
+1-334	1944-1950	začele	_	_	_	_	
+1-335	1951-1959	postopek	_	_	_	_	
+1-336	1960-1972	odplačevanja	_	_	_	_	
+1-337	1973-1981	posojila	_	_	_	_	
+1-338	1982-1990	Ameriške	ORG[9]	3 - Nevtralno[29]	*->18-1	*[18]	
+1-339	1991-1996	banke	ORG[9]	3 - Nevtralno[29]	*->18-1	*[18]	
+1-340	1997-2004	Goldman	ORG[10]	3 - Nevtralno[30]	*->17-1	*[17]	
+1-341	2005-2010	Sachs	ORG[10]	3 - Nevtralno[30]	*->17-1	*[17]	
+1-342	2011-2012	,	_	_	_	_	
+1-343	2013-2015	JP	ORG[11]	3 - Nevtralno[31]	*->14-1	*[14]	
+1-344	2016-2022	Morgan	ORG[11]	3 - Nevtralno[31]	*->14-1	*[14]	
+1-345	2023-2028	Chase	ORG[11]	3 - Nevtralno[31]	*->14-1	*[14]	
+1-346	2029-2031	in	_	_	_	_	
+1-347	2032-2038	Morgan	ORG[12]	3 - Nevtralno[32]	*->4-1	*[4]	
+1-348	2039-2046	Stanely	ORG[12]	3 - Nevtralno[32]	*->4-1	*[4]	
+1-349	2047-2049	so	_	_	_	_	
+1-350	2050-2057	vložile	_	_	_	_	
+1-351	2058-2065	prijavo	_	_	_	_	
+1-352	2066-2068	za	_	_	_	_	
+1-353	2069-2076	vračilo	_	_	_	_	
+1-354	2077-2079	45	_	_	_	_	
+1-355	2080-2088	milijard	_	_	_	_	
+1-356	2089-2097	dolarjev	_	_	_	_	
+1-357	2098-2107	državnega	_	_	_	_	
+1-358	2108-2116	posojila	_	_	_	_	
+1-359	2117-2118	,	_	_	_	_	
+1-360	2119-2122	kar	_	_	_	_	
+1-361	2123-2125	je	_	_	_	_	
+1-362	2126-2134	največje	_	_	_	_	
+1-363	2135-2142	vračilo	_	_	_	_	
+1-364	2143-2159	davkoplačevalcem	_	_	_	_	
+1-365	2160-2161	,	_	_	_	_	
+1-366	2162-2167	odkar	_	_	_	_	
+1-367	2168-2170	je	_	_	_	_	
+1-368	2171-2179	ameriška	_	_	_	_	
+1-369	2180-2185	vlada	_	_	_	_	
+1-370	2186-2193	oktobra	_	_	_	_	
+1-371	2194-2198	lani	_	_	_	_	
+1-372	2199-2205	začela	_	_	_	_	
+1-373	2206-2207	s	_	_	_	_	
+1-374	2208-2211	700	_	_	_	_	
+1-375	2212-2220	milijard	_	_	_	_	
+1-376	2221-2229	dolarjev	_	_	_	_	
+1-377	2230-2237	vrednim	_	_	_	_	
+1-378	2238-2247	programom	_	_	_	_	
+1-379	2248-2252	TARP	_	_	_	_	
+1-380	2253-2254	.	_	_	_	_	
+1-381	2255-2257	Za	_	_	_	_	
+1-382	2258-2265	vračilo	_	_	_	_	
+1-383	2266-2284	davkoplačevalskega	_	_	_	_	
+1-384	2285-2292	denarja	_	_	_	_	
+1-385	2293-2304	potrebujejo	_	_	_	_	
+1-386	2305-2307	le	_	_	_	_	
+1-387	2308-2310	še	_	_	_	_	
+1-388	2311-2320	potrditev	_	_	_	_	
+1-389	2321-2328	svojega	_	_	_	_	
+1-390	2329-2339	nadzornika	_	_	_	_	
+1-391	2340-2341	-	_	_	_	_	
+1-392	2342-2349	Zveznih	_	_	*->2-1	*[2]	
+1-393	2350-2356	rezerv	_	_	*->2-1	*[2]	
+1-394	2357-2358	(	_	_	_	_	
+1-395	2359-2362	Fed	ORG	3 - Nevtralno	*->2-2	*[2]	
+1-396	2363-2364	)	_	_	_	_	
+1-397	2365-2366	.	_	_	_	_	
+1-398	2367-2368	Z	_	_	_	_	
+1-399	2369-2377	vračilom	_	_	_	_	
+1-400	2378-2387	državnega	_	_	_	_	
+1-401	2388-2396	posojila	_	_	_	_	
+1-402	2397-2400	naj	_	_	_	_	
+1-403	2401-2403	bi	_	_	_	_	
+1-404	2404-2406	se	_	_	_	_	
+1-405	2407-2413	želele	_	_	_	_	
+1-406	2414-2422	izogniti	_	_	_	_	
+1-407	2423-2432	omejitvam	_	_	_	_	
+1-408	2433-2434	,	_	_	_	_	
+1-409	2435-2444	povezanim	_	_	_	_	
+1-410	2445-2446	z	_	_	_	_	
+1-411	2447-2456	denarnimi	_	_	_	_	
+1-412	2457-2466	nagradami	_	_	_	_	
+1-413	2467-2469	in	_	_	_	_	
+1-414	2470-2483	zaposlovanjem	_	_	_	_	
+1-415	2484-2485	,	_	_	_	_	
+1-416	2486-2489	kar	_	_	_	_	
+1-417	2490-2492	je	_	_	_	_	
+1-418	2493-2501	ameriška	_	_	_	_	
+1-419	2502-2507	vlada	_	_	_	_	
+1-420	2508-2517	februarja	_	_	_	_	
+1-421	2518-2527	postavila	_	_	_	_	
+1-422	2528-2531	kot	_	_	_	_	
+1-423	2532-2536	prvi	_	_	_	_	
+1-424	2537-2542	pogoj	_	_	_	_	
+1-425	2543-2545	za	_	_	_	_	
+1-426	2546-2553	prejeto	_	_	_	_	
+1-427	2554-2562	finančno	_	_	_	_	
+1-428	2563-2568	pomoč	_	_	_	_	
+1-429	2569-2570	.	_	_	_	_	
+1-430	2571-2580	Berkshire	ORG[13]	_	*->19-1	*[19]	
+1-431	2581-2588	Hataway	ORG[13]	_	*->19-1	*[19]	
+1-432	2589-2596	začasno	_	_	_	_	
+1-433	2597-2605	ustavila	_	_	_	_	
+1-434	2606-2612	nakupe	_	_	_	_	
+1-435	2613-2619	delnic	_	_	_	_	
+1-436	2620-2626	Warren	PER[14]	3 - Nevtralno[33]	*->5-1	*[5]	
+1-437	2627-2637	Buffettova	PER[14]	3 - Nevtralno[33]	*->5-1	*[5]	
+1-438	2638-2644	družba	_	_	*->19-2	*[19]	
+1-439	2645-2654	Berkshire	ORG[15]	_	*->19-2	*[19]	
+1-440	2655-2662	Hataway	ORG[15]	_	*->19-2	*[19]	
+1-441	2663-2664	,	_	_	_	_	
+1-442	2665-2667	ki	_	_	_	_	
+1-443	2668-2670	je	_	_	_	_	
+1-444	2671-2674	med	_	_	_	_	
+1-445	2675-2681	drugim	_	_	_	_	
+1-446	2682-2690	največji	_	_	*->19-3	*[19]	
+1-447	2691-2699	delničar	_	_	*->19-3	*[19]	
+1-448	2700-2705	Kraft	ORG[16]	3 - Nevtralno[34]	*->19-3|*->13-1	*[19]|*[13]	
+1-449	2706-2711	Foods	ORG[16]	3 - Nevtralno[34]	*->19-3|*->13-1	*[19]|*[13]	
+1-450	2712-2714	in	_	_	*->19-3	*[19]	
+1-451	2715-2719	Coca	PER[17]	3 - Nevtralno[35]	*->19-3|*->8-1	*[19]|*[8]	
+1-452	2720-2721	-	PER[17]	3 - Nevtralno[35]	*->19-3|*->8-1	*[19]|*[8]	
+1-453	2722-2726	Cole	PER[17]	3 - Nevtralno[35]	*->19-3|*->8-1	*[19]|*[8]	
+1-454	2727-2728	,	_	_	_	_	
+1-455	2729-2731	je	_	_	_	_	
+1-456	2732-2739	začasno	_	_	_	_	
+1-457	2740-2748	ustavila	_	2 - Negativno	*->19-4	*[19]	
+1-458	2749-2755	nakupe	_	_	_	_	
+1-459	2756-2762	delnic	_	_	_	_	
+1-460	2763-2764	,	_	_	_	_	
+1-461	2765-2768	saj	_	_	_	_	
+1-462	2769-2771	so	_	_	_	_	
+1-463	2772-2774	se	_	_	_	_	
+1-464	2775-2782	denarna	_	_	_	_	
+1-465	2783-2791	sredstva	_	_	_	_	
+1-466	2792-2798	družbe	_	_	_	_	
+1-467	2799-2808	zmanjšala	_	_	_	_	
+1-468	2809-2811	za	_	_	_	_	
+1-469	2812-2818	največ	_	_	_	_	
+1-470	2819-2820	v	_	_	_	_	
+1-471	2821-2828	zadnjih	_	_	_	_	
+1-472	2829-2834	petih	_	_	_	_	
+1-473	2835-2840	letih	_	_	_	_	
+1-474	2841-2842	.	_	_	_	_	
+1-475	2843-2852	Inflacija	_	_	_	_	
+1-476	2853-2854	v	_	_	_	_	
+1-477	2855-2861	Veliki	LOC[18]	_	*->6-1	*[6]	
+1-478	2862-2871	Britaniji	LOC[18]	_	*->6-1	*[6]	
+1-479	2872-2878	aprila	_	_	_	_	
+1-480	2879-2884	nižja	_	_	_	_	
+1-481	2885-2894	Inflacija	_	_	_	_	
+1-482	2895-2896	v	_	_	_	_	
+1-483	2897-2903	Veliki	LOC[19]	3 - Nevtralno[36]	*->6-2	*[6]	
+1-484	2904-2913	Britaniji	LOC[19]	3 - Nevtralno[36]	*->6-2	*[6]	
+1-485	2914-2916	se	_	_	_	_	
+1-486	2917-2919	je	_	_	_	_	
+1-487	2920-2921	z	_	_	_	_	
+1-488	2922-2925	2,9	_	_	_	_	
+1-489	2926-2934	odstotka	_	_	_	_	
+1-490	2935-2936	v	_	_	_	_	
+1-491	2937-2942	marcu	_	_	_	_	
+1-492	2943-2950	znižala	_	_	_	_	
+1-493	2951-2953	na	_	_	_	_	
+1-494	2954-2957	2,3	_	_	_	_	
+1-495	2958-2966	odstotka	_	_	_	_	
+1-496	2967-2968	v	_	_	_	_	
+1-497	2969-2975	aprilu	_	_	_	_	
+1-498	2976-2977	,	_	_	_	_	
+1-499	2978-2981	kar	_	_	_	_	
+1-500	2982-2984	je	_	_	_	_	
+1-501	2985-2994	posledica	_	_	_	_	
+1-502	2995-3001	nižjih	_	_	_	_	
+1-503	3002-3005	cen	_	_	_	_	
+1-504	3006-3011	plina	_	_	_	_	
+1-505	3012-3014	in	_	_	_	_	
+1-506	3015-3024	elektrike	_	_	_	_	
+1-507	3025-3026	.	_	_	_	_	
+1-508	3027-3033	Indeks	_	_	_	_	
+1-509	3034-3037	cen	_	_	_	_	
+1-510	3038-3040	na	_	_	_	_	
+1-511	3041-3047	drobno	_	_	_	_	
+1-512	3048-3049	,	_	_	_	_	
+1-513	3050-3052	ki	_	_	_	_	
+1-514	3053-3062	vključuje	_	_	_	_	
+1-515	3063-3067	tudi	_	_	_	_	
+1-516	3068-3075	stroške	_	_	_	_	
+1-517	3076-3089	stanovanjskih	_	_	_	_	
+1-518	3090-3097	posojil	_	_	_	_	
+1-519	3098-3099	,	_	_	_	_	
+1-520	3100-3102	pa	_	_	_	_	
+1-521	3103-3105	se	_	_	_	_	
+1-522	3106-3108	je	_	_	_	_	
+1-523	3109-3115	znižal	_	_	_	_	
+1-524	3116-3118	za	_	_	_	_	
+1-525	3119-3122	0,4	_	_	_	_	
+1-526	3123-3131	odstotka	_	_	_	_	
+1-527	3132-3133	,	_	_	_	_	
+1-528	3134-3136	na	_	_	_	_	
+1-529	3137-3138	-	_	_	_	_	
+1-530	3139-3142	1,2	_	_	_	_	
+1-531	3143-3151	odstotka	_	_	_	_	
+1-532	3152-3153	.	_	_	_	_	
+1-533	3154-3164	Pripravila	_	_	_	_	
+1-534	3165-3169	Nuša	PER	3 - Nevtralno	*->11-1	*[11]	

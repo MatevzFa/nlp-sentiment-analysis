@@ -1,0 +1,466 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Balkan se vnovič pregreva in Evropa ga miri prek Ljubljane , trdijo neuradni viri . Obisk nemškega zunanjega ministra Guida Westerwelleja včeraj v Ljubljani ni bil zgolj naključje , kakor tudi ne dan prej obisk luksemburškega premierja Jean - Clauda Junckerja , trdijo viri blizu vrhovom slovenske diplomacije . Vroč balkanski kotel Balkanski kotel se vnovič pregreva , kar kažejo tudi odzivi , ki jih je prejšnji teden povzročilo Meddržavno sodišče v Haagu , ko je presodilo , da Kosovo z razglasitvijo neodvisnosti ni kršilo splošnega mednarodnega prava . Denimo izjava predsednika vlade Republike srbske Milorada Dodika , ki je napovedal odcepitev od BiH . EU je za posrednika pri miritvi vznemirjenega Balkana tokrat izbrala Ljubljano , pravijo dobro obveščeni . To je tudi osrednja naloga premierja Boruta Pahorja , ki je včeraj popoldne odpotoval v BiH . Kot so sporočili iz njegovega kabineta , se je na prijateljsko povabilo predsednika vlade BiH Nikole Špirića z njim sestal kar v njegovem domačem kraju Banjaluki . Zasebni in prijateljski obisk " Obisk je zasebne in prijateljske narave in pomeni poglobitev dialoga in dobrih odnosov , ki sta jih premierja vzpostavila na nedavnem obisku v Sarajevu in nato na konferenci na Brdu . Gre za neformalni obisk , na katerem se bosta predsednika vlad Slovenije in BiH posvetila predvsem izboljšanju sodelovanja med državama , s poudarkom na gospodarskem sodelovanju , " je uradni opis sinočnje večerje v Banjaluki . Pogovarjala sta se o razmerah v BiH in izzivih , s katerimi se le - ta sooča . Strinjala sta se , da je treba vnovič oživiti in konkretizirati evropsko perspektivo BiH , kjer je prvi korak takojšnja izvedba vizumske liberalizacije . Premier Pahor je ponovil podporo Slovenije na poti k evroatlantskim integracijam . Poudaril je pomen ustavne reforme , ki mora biti predvsem rezultat konsenza političnih vodij znotraj BiH , oblikovanega na podlagi političnega dialoga . Včeraj Špirić , danes Dodik , jutri Kosorjeva Sicer pa sta Pahor in Špirić ugotovila , da med državama ni odprtih političnih vprašanj , zavzela pa sta se za intenzivnejše iskanje rešitve regionalnih vprašanj , kot je vprašanje nasledstva SFRJ . Reševanje odprtih tem , ki jih je razdružitev SFRJ pustila , bo tudi osrednja tema sobotnega obiska hrvaške premierke Jadranke Kosor v Bohinju . Slovenija in BiH sta tudi pomembni gospodarski partnerici . Pahor in predsedujoči Svetu ministrov Nikola Špirić sta se na pogovorih zavzela za nadaljnjo poglobitev gospodarskih odnosov , predvsem na področju izvozne aktivnosti in spodbuditve izhodnih investicij . Premier Špirić je poudaril , da so slovenske investicije v BiH vedno dobrodošle , in upa , da bodo slovenska podjetja sodelovala pri izgradnji velikih načrtovanih infrastrukturnih projektov . Pahor se bo danes dopoldne sestal tudi s predsednikom Vlade Republike Srbske Miloradom Dodikom
+1-1	0-6	Balkan	LOC	_	*->1-1	*[1]	
+1-2	7-9	se	_	_	_	_	
+1-3	10-16	vnovič	_	_	_	_	
+1-4	17-25	pregreva	_	_	_	_	
+1-5	26-28	in	_	_	_	_	
+1-6	29-35	Evropa	LOC	_	*->2-1	*[2]	
+1-7	36-38	ga	_	_	_	_	
+1-8	39-43	miri	_	_	_	_	
+1-9	44-48	prek	_	_	_	_	
+1-10	49-58	Ljubljane	LOC	_	*->3-1	*[3]	
+1-11	59-60	,	_	_	_	_	
+1-12	61-67	trdijo	_	_	_	_	
+1-13	68-76	neuradni	_	_	_	_	
+1-14	77-81	viri	_	_	_	_	
+1-15	82-83	.	_	_	_	_	
+1-16	84-89	Obisk	_	_	_	_	
+1-17	90-98	nemškega	_	3 - Nevtralno[14]	*->4-1	*[4]	
+1-18	99-108	zunanjega	_	3 - Nevtralno[14]	*->4-1	*[4]	
+1-19	109-117	ministra	_	3 - Nevtralno[14]	*->4-1	*[4]	
+1-20	118-123	Guida	PER[1]	3 - Nevtralno[14]	*->4-1	*[4]	
+1-21	124-137	Westerwelleja	PER[1]	3 - Nevtralno[14]	*->4-1	*[4]	
+1-22	138-144	včeraj	_	_	_	_	
+1-23	145-146	v	_	_	_	_	
+1-24	147-156	Ljubljani	LOC	_	*->3-2	*[3]	
+1-25	157-159	ni	_	_	_	_	
+1-26	160-163	bil	_	_	_	_	
+1-27	164-169	zgolj	_	_	_	_	
+1-28	170-179	naključje	_	_	_	_	
+1-29	180-181	,	_	_	_	_	
+1-30	182-187	kakor	_	_	_	_	
+1-31	188-192	tudi	_	_	_	_	
+1-32	193-195	ne	_	_	_	_	
+1-33	196-199	dan	_	_	_	_	
+1-34	200-204	prej	_	_	_	_	
+1-35	205-210	obisk	_	_	_	_	
+1-36	211-225	luksemburškega	_	3 - Nevtralno[15]	*->5-1	*[5]	
+1-37	226-235	premierja	_	3 - Nevtralno[15]	*->5-1	*[5]	
+1-38	236-240	Jean	PER[2]	3 - Nevtralno[15]	*->5-1	*[5]	
+1-39	241-242	-	PER[2]	3 - Nevtralno[15]	*->5-1	*[5]	
+1-40	243-249	Clauda	PER[2]	3 - Nevtralno[15]	*->5-1	*[5]	
+1-41	250-259	Junckerja	PER[2]	3 - Nevtralno[15]	*->5-1	*[5]	
+1-42	260-261	,	_	_	_	_	
+1-43	262-268	trdijo	_	_	_	_	
+1-44	269-273	viri	_	_	_	_	
+1-45	274-279	blizu	_	_	_	_	
+1-46	280-287	vrhovom	_	_	_	_	
+1-47	288-297	slovenske	_	_	_	_	
+1-48	298-309	diplomacije	_	_	_	_	
+1-49	310-311	.	_	_	_	_	
+1-50	312-316	Vroč	_	_	_	_	
+1-51	317-326	balkanski	_	_	_	_	
+1-52	327-332	kotel	_	_	_	_	
+1-53	333-342	Balkanski	_	_	_	_	
+1-54	343-348	kotel	_	_	_	_	
+1-55	349-351	se	_	_	_	_	
+1-56	352-358	vnovič	_	_	_	_	
+1-57	359-367	pregreva	_	_	_	_	
+1-58	368-369	,	_	_	_	_	
+1-59	370-373	kar	_	_	_	_	
+1-60	374-380	kažejo	_	_	_	_	
+1-61	381-385	tudi	_	_	_	_	
+1-62	386-392	odzivi	_	_	_	_	
+1-63	393-394	,	_	_	_	_	
+1-64	395-397	ki	_	_	_	_	
+1-65	398-401	jih	_	_	_	_	
+1-66	402-404	je	_	_	_	_	
+1-67	405-413	prejšnji	_	_	_	_	
+1-68	414-419	teden	_	_	_	_	
+1-69	420-430	povzročilo	_	_	_	_	
+1-70	431-441	Meddržavno	ORG[3]	_	*->6-1	*[6]	
+1-71	442-449	sodišče	ORG[3]	_	*->6-1	*[6]	
+1-72	450-451	v	ORG[3]	_	*->6-1	*[6]	
+1-73	452-457	Haagu	ORG[3]|LOC[4]	3 - Nevtralno	*->6-1|*->7-1	*[6]|*[7]	
+1-74	458-459	,	_	_	_	_	
+1-75	460-462	ko	_	_	_	_	
+1-76	463-465	je	_	3 - Nevtralno[16]	*->6-2	*[6]	
+1-77	466-475	presodilo	_	3 - Nevtralno[16]	*->6-2	*[6]	
+1-78	476-477	,	_	_	_	_	
+1-79	478-480	da	_	_	_	_	
+1-80	481-487	Kosovo	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-81	488-489	z	_	_	_	_	
+1-82	490-503	razglasitvijo	_	_	_	_	
+1-83	504-516	neodvisnosti	_	_	_	_	
+1-84	517-519	ni	_	_	_	_	
+1-85	520-526	kršilo	_	_	_	_	
+1-86	527-536	splošnega	_	_	_	_	
+1-87	537-549	mednarodnega	_	_	_	_	
+1-88	550-555	prava	_	_	_	_	
+1-89	556-557	.	_	_	_	_	
+1-90	558-564	Denimo	_	_	_	_	
+1-91	565-571	izjava	_	_	_	_	
+1-92	572-583	predsednika	_	_	*->9-1	*[9]	
+1-93	584-589	vlade	ORG	_	*->9-1|*->10-1	*[9]|*[10]	
+1-94	590-599	Republike	LOC[5]	_	*->9-1|*->11-1	*[9]|*[11]	
+1-95	600-606	srbske	LOC[5]	_	*->9-1|*->11-1	*[9]|*[11]	
+1-96	607-615	Milorada	PER[6]	_	*->9-1	*[9]	
+1-97	616-622	Dodika	PER[6]	_	*->9-1	*[9]	
+1-98	623-624	,	_	_	_	_	
+1-99	625-627	ki	_	_	_	_	
+1-100	628-630	je	_	_	_	_	
+1-101	631-640	napovedal	_	_	_	_	
+1-102	641-650	odcepitev	_	_	_	_	
+1-103	651-653	od	_	_	_	_	
+1-104	654-657	BiH	LOC	_	*->12-1	*[12]	
+1-105	658-659	.	_	_	_	_	
+1-106	660-662	EU	LOC	3 - Nevtralno	*->2-2	*[2]	
+1-107	663-665	je	_	_	_	_	
+1-108	666-668	za	_	_	_	_	
+1-109	669-679	posrednika	_	_	_	_	
+1-110	680-683	pri	_	_	_	_	
+1-111	684-691	miritvi	_	_	_	_	
+1-112	692-705	vznemirjenega	_	_	_	_	
+1-113	706-713	Balkana	LOC	3 - Nevtralno	*->1-2	*[1]	
+1-114	714-720	tokrat	_	_	_	_	
+1-115	721-728	izbrala	_	_	_	_	
+1-116	729-738	Ljubljano	LOC	3 - Nevtralno	*->3-3	*[3]	
+1-117	739-740	,	_	_	_	_	
+1-118	741-748	pravijo	_	_	_	_	
+1-119	749-754	dobro	_	_	_	_	
+1-120	755-764	obveščeni	_	_	_	_	
+1-121	765-766	.	_	_	_	_	
+1-122	767-769	To	_	_	_	_	
+1-123	770-772	je	_	_	_	_	
+1-124	773-777	tudi	_	_	_	_	
+1-125	778-786	osrednja	_	_	_	_	
+1-126	787-793	naloga	_	_	_	_	
+1-127	794-803	premierja	_	_	*->13-1	*[13]	
+1-128	804-810	Boruta	PER[7]	_	*->13-1	*[13]	
+1-129	811-818	Pahorja	PER[7]	_	*->13-1	*[13]	
+1-130	819-820	,	_	_	_	_	
+1-131	821-823	ki	_	_	_	_	
+1-132	824-826	je	_	_	*->13-2	*[13]	
+1-133	827-833	včeraj	_	_	_	_	
+1-134	834-842	popoldne	_	_	_	_	
+1-135	843-852	odpotoval	_	_	_	_	
+1-136	853-854	v	_	_	_	_	
+1-137	855-858	BiH	LOC	_	*->12-2	*[12]	
+1-138	859-860	.	_	_	_	_	
+1-139	861-864	Kot	_	_	_	_	
+1-140	865-867	so	_	_	_	_	
+1-141	868-877	sporočili	_	_	_	_	
+1-142	878-880	iz	_	_	_	_	
+1-143	881-890	njegovega	_	_	*->13-3	*[13]	
+1-144	891-899	kabineta	_	_	_	_	
+1-145	900-901	,	_	_	_	_	
+1-146	902-904	se	_	_	*->13-4	*[13]	
+1-147	905-907	je	_	_	*->13-4	*[13]	
+1-148	908-910	na	_	_	_	_	
+1-149	911-923	prijateljsko	_	_	_	_	
+1-150	924-932	povabilo	_	_	_	_	
+1-151	933-944	predsednika	_	_	*->14-1	*[14]	
+1-152	945-950	vlade	ORG	3 - Nevtralno	*->14-1|*->15-1	*[14]|*[15]	
+1-153	951-954	BiH	LOC	_	*->14-1|*->12-3	*[14]|*[12]	
+1-154	955-961	Nikole	PER[8]	_	*->14-1	*[14]	
+1-155	962-969	Špirića	PER[8]	_	*->14-1	*[14]	
+1-156	970-971	z	_	_	_	_	
+1-157	972-976	njim	_	_	*->14-2	*[14]	
+1-158	977-983	sestal	_	_	_	_	
+1-159	984-987	kar	_	_	_	_	
+1-160	988-989	v	_	_	_	_	
+1-161	990-998	njegovem	_	_	*->14-3	*[14]	
+1-162	999-1006	domačem	_	_	_	_	
+1-163	1007-1012	kraju	_	_	_	_	
+1-164	1013-1022	Banjaluki	LOC	_	*->16-1	*[16]	
+1-165	1023-1024	.	_	_	_	_	
+1-166	1025-1032	Zasebni	_	_	_	_	
+1-167	1033-1035	in	_	_	_	_	
+1-168	1036-1048	prijateljski	_	_	_	_	
+1-169	1049-1054	obisk	_	_	_	_	
+1-170	1055-1056	"	_	_	_	_	
+1-171	1057-1062	Obisk	_	_	_	_	
+1-172	1063-1065	je	_	_	_	_	
+1-173	1066-1073	zasebne	_	_	_	_	
+1-174	1074-1076	in	_	_	_	_	
+1-175	1077-1089	prijateljske	_	_	_	_	
+1-176	1090-1096	narave	_	_	_	_	
+1-177	1097-1099	in	_	_	_	_	
+1-178	1100-1106	pomeni	_	_	_	_	
+1-179	1107-1117	poglobitev	_	_	_	_	
+1-180	1118-1125	dialoga	_	_	_	_	
+1-181	1126-1128	in	_	_	_	_	
+1-182	1129-1135	dobrih	_	_	_	_	
+1-183	1136-1143	odnosov	_	_	_	_	
+1-184	1144-1145	,	_	_	_	_	
+1-185	1146-1148	ki	_	_	_	_	
+1-186	1149-1152	sta	_	_	_	_	
+1-187	1153-1156	jih	_	_	_	_	
+1-188	1157-1166	premierja	_	_	_	_	
+1-189	1167-1178	vzpostavila	_	_	_	_	
+1-190	1179-1181	na	_	_	_	_	
+1-191	1182-1190	nedavnem	_	_	_	_	
+1-192	1191-1197	obisku	_	_	_	_	
+1-193	1198-1199	v	_	_	_	_	
+1-194	1200-1208	Sarajevu	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-195	1209-1211	in	_	_	_	_	
+1-196	1212-1216	nato	_	_	_	_	
+1-197	1217-1219	na	_	_	_	_	
+1-198	1220-1230	konferenci	_	_	_	_	
+1-199	1231-1233	na	_	_	_	_	
+1-200	1234-1238	Brdu	LOC	3 - Nevtralno	*->18-1	*[18]	
+1-201	1239-1240	.	_	_	_	_	
+1-202	1241-1244	Gre	_	_	_	_	
+1-203	1245-1247	za	_	_	_	_	
+1-204	1248-1258	neformalni	_	_	_	_	
+1-205	1259-1264	obisk	_	_	_	_	
+1-206	1265-1266	,	_	_	_	_	
+1-207	1267-1269	na	_	_	_	_	
+1-208	1270-1277	katerem	_	_	_	_	
+1-209	1278-1280	se	_	_	_	_	
+1-210	1281-1286	bosta	_	_	_	_	
+1-211	1287-1298	predsednika	_	_	_	_	
+1-212	1299-1303	vlad	_	_	_	_	
+1-213	1304-1313	Slovenije	LOC	_	*->19-1	*[19]	
+1-214	1314-1316	in	_	_	_	_	
+1-215	1317-1320	BiH	LOC	_	*->12-4	*[12]	
+1-216	1321-1330	posvetila	_	_	_	_	
+1-217	1331-1339	predvsem	_	_	_	_	
+1-218	1340-1351	izboljšanju	_	_	_	_	
+1-219	1352-1363	sodelovanja	_	_	_	_	
+1-220	1364-1367	med	_	_	_	_	
+1-221	1368-1376	državama	_	_	_	_	
+1-222	1377-1378	,	_	_	_	_	
+1-223	1379-1380	s	_	_	_	_	
+1-224	1381-1390	poudarkom	_	_	_	_	
+1-225	1391-1393	na	_	_	_	_	
+1-226	1394-1406	gospodarskem	_	_	_	_	
+1-227	1407-1418	sodelovanju	_	_	_	_	
+1-228	1419-1420	,	_	_	_	_	
+1-229	1421-1422	"	_	_	_	_	
+1-230	1423-1425	je	_	_	_	_	
+1-231	1426-1432	uradni	_	_	_	_	
+1-232	1433-1437	opis	_	_	_	_	
+1-233	1438-1446	sinočnje	_	_	_	_	
+1-234	1447-1454	večerje	_	_	_	_	
+1-235	1455-1456	v	_	_	_	_	
+1-236	1457-1466	Banjaluki	LOC	3 - Nevtralno	*->16-2	*[16]	
+1-237	1467-1468	.	_	_	_	_	
+1-238	1469-1480	Pogovarjala	_	_	_	_	
+1-239	1481-1484	sta	_	_	_	_	
+1-240	1485-1487	se	_	_	_	_	
+1-241	1488-1489	o	_	_	_	_	
+1-242	1490-1498	razmerah	_	_	_	_	
+1-243	1499-1500	v	_	_	_	_	
+1-244	1501-1504	BiH	LOC	_	*->12-5	*[12]	
+1-245	1505-1507	in	_	_	_	_	
+1-246	1508-1515	izzivih	_	_	_	_	
+1-247	1516-1517	,	_	_	_	_	
+1-248	1518-1519	s	_	_	_	_	
+1-249	1520-1528	katerimi	_	_	_	_	
+1-250	1529-1531	se	_	_	_	_	
+1-251	1532-1534	le	_	_	*->12-6	*[12]	
+1-252	1535-1536	-	_	_	*->12-6	*[12]	
+1-253	1537-1539	ta	_	_	*->12-6	*[12]	
+1-254	1540-1545	sooča	_	_	_	_	
+1-255	1546-1547	.	_	_	_	_	
+1-256	1548-1557	Strinjala	_	_	_	_	
+1-257	1558-1561	sta	_	_	_	_	
+1-258	1562-1564	se	_	_	_	_	
+1-259	1565-1566	,	_	_	_	_	
+1-260	1567-1569	da	_	_	_	_	
+1-261	1570-1572	je	_	_	_	_	
+1-262	1573-1578	treba	_	_	_	_	
+1-263	1579-1585	vnovič	_	_	_	_	
+1-264	1586-1593	oživiti	_	_	_	_	
+1-265	1594-1596	in	_	_	_	_	
+1-266	1597-1611	konkretizirati	_	_	_	_	
+1-267	1612-1620	evropsko	_	_	_	_	
+1-268	1621-1632	perspektivo	_	_	_	_	
+1-269	1633-1636	BiH	LOC	_	*->12-7	*[12]	
+1-270	1637-1638	,	_	_	_	_	
+1-271	1639-1643	kjer	_	_	_	_	
+1-272	1644-1646	je	_	_	_	_	
+1-273	1647-1651	prvi	_	_	_	_	
+1-274	1652-1657	korak	_	_	_	_	
+1-275	1658-1667	takojšnja	_	_	_	_	
+1-276	1668-1675	izvedba	_	_	_	_	
+1-277	1676-1684	vizumske	_	_	_	_	
+1-278	1685-1699	liberalizacije	_	_	_	_	
+1-279	1700-1701	.	_	_	_	_	
+1-280	1702-1709	Premier	_	_	*->13-5	*[13]	
+1-281	1710-1715	Pahor	PER	_	*->13-5	*[13]	
+1-282	1716-1718	je	_	_	_	_	
+1-283	1719-1726	ponovil	_	_	_	_	
+1-284	1727-1734	podporo	_	_	_	_	
+1-285	1735-1744	Slovenije	LOC	_	*->19-2	*[19]	
+1-286	1745-1747	na	_	_	_	_	
+1-287	1748-1752	poti	_	_	_	_	
+1-288	1753-1754	k	_	_	_	_	
+1-289	1755-1769	evroatlantskim	_	_	_	_	
+1-290	1770-1782	integracijam	_	_	_	_	
+1-291	1783-1784	.	_	_	_	_	
+1-292	1785-1793	Poudaril	_	_	*->13-6	*[13]	
+1-293	1794-1796	je	_	_	*->13-6	*[13]	
+1-294	1797-1802	pomen	_	_	_	_	
+1-295	1803-1810	ustavne	_	_	_	_	
+1-296	1811-1818	reforme	_	_	_	_	
+1-297	1819-1820	,	_	_	_	_	
+1-298	1821-1823	ki	_	_	_	_	
+1-299	1824-1828	mora	_	_	_	_	
+1-300	1829-1833	biti	_	_	_	_	
+1-301	1834-1842	predvsem	_	_	_	_	
+1-302	1843-1851	rezultat	_	_	_	_	
+1-303	1852-1860	konsenza	_	_	_	_	
+1-304	1861-1871	političnih	_	_	_	_	
+1-305	1872-1877	vodij	_	_	_	_	
+1-306	1878-1885	znotraj	_	_	_	_	
+1-307	1886-1889	BiH	LOC	_	*->12-8	*[12]	
+1-308	1890-1891	,	_	_	_	_	
+1-309	1892-1904	oblikovanega	_	_	_	_	
+1-310	1905-1907	na	_	_	_	_	
+1-311	1908-1915	podlagi	_	_	_	_	
+1-312	1916-1927	političnega	_	_	_	_	
+1-313	1928-1935	dialoga	_	_	_	_	
+1-314	1936-1937	.	_	_	_	_	
+1-315	1938-1944	Včeraj	_	_	_	_	
+1-316	1945-1951	Špirić	PER	_	*->14-4	*[14]	
+1-317	1952-1953	,	_	_	_	_	
+1-318	1954-1959	danes	_	_	_	_	
+1-319	1960-1965	Dodik	PER	_	*->9-2	*[9]	
+1-320	1966-1967	,	_	_	_	_	
+1-321	1968-1973	jutri	_	_	_	_	
+1-322	1974-1983	Kosorjeva	PER	_	*->20-1	*[20]	
+1-323	1984-1989	Sicer	_	_	_	_	
+1-324	1990-1992	pa	_	_	_	_	
+1-325	1993-1996	sta	_	_	_	_	
+1-326	1997-2002	Pahor	PER	_	*->13-7	*[13]	
+1-327	2003-2005	in	_	_	_	_	
+1-328	2006-2012	Špirić	PER	_	*->14-5	*[14]	
+1-329	2013-2022	ugotovila	_	_	_	_	
+1-330	2023-2024	,	_	_	_	_	
+1-331	2025-2027	da	_	_	_	_	
+1-332	2028-2031	med	_	_	_	_	
+1-333	2032-2040	državama	_	_	_	_	
+1-334	2041-2043	ni	_	_	_	_	
+1-335	2044-2051	odprtih	_	_	_	_	
+1-336	2052-2062	političnih	_	_	_	_	
+1-337	2063-2071	vprašanj	_	_	_	_	
+1-338	2072-2073	,	_	_	_	_	
+1-339	2074-2081	zavzela	_	_	_	_	
+1-340	2082-2084	pa	_	_	_	_	
+1-341	2085-2088	sta	_	_	_	_	
+1-342	2089-2091	se	_	_	_	_	
+1-343	2092-2094	za	_	_	_	_	
+1-344	2095-2108	intenzivnejše	_	_	_	_	
+1-345	2109-2116	iskanje	_	_	_	_	
+1-346	2117-2124	rešitve	_	_	_	_	
+1-347	2125-2136	regionalnih	_	_	_	_	
+1-348	2137-2145	vprašanj	_	_	_	_	
+1-349	2146-2147	,	_	_	_	_	
+1-350	2148-2151	kot	_	_	_	_	
+1-351	2152-2154	je	_	_	_	_	
+1-352	2155-2164	vprašanje	_	_	_	_	
+1-353	2165-2175	nasledstva	_	_	_	_	
+1-354	2176-2180	SFRJ	LOC	_	*->21-1	*[21]	
+1-355	2181-2182	.	_	_	_	_	
+1-356	2183-2192	Reševanje	_	_	_	_	
+1-357	2193-2200	odprtih	_	_	_	_	
+1-358	2201-2204	tem	_	_	_	_	
+1-359	2205-2206	,	_	_	_	_	
+1-360	2207-2209	ki	_	_	_	_	
+1-361	2210-2213	jih	_	_	_	_	
+1-362	2214-2216	je	_	_	_	_	
+1-363	2217-2228	razdružitev	_	_	_	_	
+1-364	2229-2233	SFRJ	LOC	3 - Nevtralno	*->21-2	*[21]	
+1-365	2234-2241	pustila	_	_	_	_	
+1-366	2242-2243	,	_	_	_	_	
+1-367	2244-2246	bo	_	_	_	_	
+1-368	2247-2251	tudi	_	_	_	_	
+1-369	2252-2260	osrednja	_	_	_	_	
+1-370	2261-2265	tema	_	_	_	_	
+1-371	2266-2275	sobotnega	_	_	_	_	
+1-372	2276-2282	obiska	_	_	_	_	
+1-373	2283-2290	hrvaške	_	3 - Nevtralno[17]	*->20-2	*[20]	
+1-374	2291-2300	premierke	_	3 - Nevtralno[17]	*->20-2	*[20]	
+1-375	2301-2309	Jadranke	PER[9]	3 - Nevtralno[17]	*->20-2	*[20]	
+1-376	2310-2315	Kosor	PER[9]	3 - Nevtralno[17]	*->20-2	*[20]	
+1-377	2316-2317	v	_	_	_	_	
+1-378	2318-2325	Bohinju	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-379	2326-2327	.	_	_	_	_	
+1-380	2328-2337	Slovenija	LOC	3 - Nevtralno	*->19-3	*[19]	
+1-381	2338-2340	in	_	_	_	_	
+1-382	2341-2344	BiH	LOC	_	*->12-9	*[12]	
+1-383	2345-2348	sta	_	_	_	_	
+1-384	2349-2353	tudi	_	_	_	_	
+1-385	2354-2362	pomembni	_	_	_	_	
+1-386	2363-2374	gospodarski	_	_	_	_	
+1-387	2375-2385	partnerici	_	_	_	_	
+1-388	2386-2387	.	_	_	_	_	
+1-389	2388-2393	Pahor	PER	_	*->13-8	*[13]	
+1-390	2394-2396	in	_	_	_	_	
+1-391	2397-2409	predsedujoči	_	_	*->14-6	*[14]	
+1-392	2410-2415	Svetu	ORG[10]	3 - Nevtralno[18]	*->14-6|*->23-1	*[14]|*[23]	
+1-393	2416-2425	ministrov	ORG[10]	3 - Nevtralno[18]	*->14-6|*->23-1	*[14]|*[23]	
+1-394	2426-2432	Nikola	PER[11]	_	*->14-6	*[14]	
+1-395	2433-2439	Špirić	PER[11]	_	*->14-6	*[14]	
+1-396	2440-2443	sta	_	_	_	_	
+1-397	2444-2446	se	_	_	_	_	
+1-398	2447-2449	na	_	_	_	_	
+1-399	2450-2459	pogovorih	_	_	_	_	
+1-400	2460-2467	zavzela	_	_	_	_	
+1-401	2468-2470	za	_	_	_	_	
+1-402	2471-2480	nadaljnjo	_	_	_	_	
+1-403	2481-2491	poglobitev	_	_	_	_	
+1-404	2492-2504	gospodarskih	_	_	_	_	
+1-405	2505-2512	odnosov	_	_	_	_	
+1-406	2513-2514	,	_	_	_	_	
+1-407	2515-2523	predvsem	_	_	_	_	
+1-408	2524-2526	na	_	_	_	_	
+1-409	2527-2535	področju	_	_	_	_	
+1-410	2536-2543	izvozne	_	_	_	_	
+1-411	2544-2554	aktivnosti	_	_	_	_	
+1-412	2555-2557	in	_	_	_	_	
+1-413	2558-2569	spodbuditve	_	_	_	_	
+1-414	2570-2578	izhodnih	_	_	_	_	
+1-415	2579-2589	investicij	_	_	_	_	
+1-416	2590-2591	.	_	_	_	_	
+1-417	2592-2599	Premier	_	_	*->14-7	*[14]	
+1-418	2600-2606	Špirić	PER	_	*->14-7	*[14]	
+1-419	2607-2609	je	_	_	_	_	
+1-420	2610-2618	poudaril	_	_	_	_	
+1-421	2619-2620	,	_	_	_	_	
+1-422	2621-2623	da	_	_	_	_	
+1-423	2624-2626	so	_	_	_	_	
+1-424	2627-2636	slovenske	_	_	_	_	
+1-425	2637-2648	investicije	_	_	_	_	
+1-426	2649-2650	v	_	_	_	_	
+1-427	2651-2654	BiH	LOC	3 - Nevtralno	*->12-10	*[12]	
+1-428	2655-2660	vedno	_	_	_	_	
+1-429	2661-2671	dobrodošle	_	_	_	_	
+1-430	2672-2673	,	_	_	_	_	
+1-431	2674-2676	in	_	_	_	_	
+1-432	2677-2680	upa	_	3 - Nevtralno	*->14-8	*[14]	
+1-433	2681-2682	,	_	_	_	_	
+1-434	2683-2685	da	_	_	_	_	
+1-435	2686-2690	bodo	_	_	_	_	
+1-436	2691-2700	slovenska	_	_	_	_	
+1-437	2701-2709	podjetja	_	_	_	_	
+1-438	2710-2720	sodelovala	_	_	_	_	
+1-439	2721-2724	pri	_	_	_	_	
+1-440	2725-2734	izgradnji	_	_	_	_	
+1-441	2735-2742	velikih	_	_	_	_	
+1-442	2743-2754	načrtovanih	_	_	_	_	
+1-443	2755-2771	infrastrukturnih	_	_	_	_	
+1-444	2772-2781	projektov	_	_	_	_	
+1-445	2782-2783	.	_	_	_	_	
+1-446	2784-2789	Pahor	PER	3 - Nevtralno	*->13-9	*[13]	
+1-447	2790-2792	se	_	_	_	_	
+1-448	2793-2795	bo	_	_	_	_	
+1-449	2796-2801	danes	_	_	_	_	
+1-450	2802-2810	dopoldne	_	_	_	_	
+1-451	2811-2817	sestal	_	_	_	_	
+1-452	2818-2822	tudi	_	_	_	_	
+1-453	2823-2824	s	_	_	_	_	
+1-454	2825-2837	predsednikom	_	3 - Nevtralno[19]	*->9-3	*[9]	
+1-455	2838-2843	Vlade	ORG	3 - Nevtralno[19]|3 - Nevtralno[20]	*->9-3|*->10-2	*[9]|*[10]	
+1-456	2844-2853	Republike	LOC[12]	3 - Nevtralno[19]|3 - Nevtralno[21]	*->9-3|*->11-2	*[9]|*[11]	
+1-457	2854-2860	Srbske	LOC[12]	3 - Nevtralno[19]|3 - Nevtralno[21]	*->9-3|*->11-2	*[9]|*[11]	
+1-458	2861-2870	Miloradom	PER[13]	3 - Nevtralno[19]	*->9-3	*[9]	
+1-459	2871-2878	Dodikom	PER[13]	3 - Nevtralno[19]	*->9-3	*[9]	

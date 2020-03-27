@@ -1,0 +1,162 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ameriški predsednik Barack Obama se je uvrstil na vrh lestvice najvplivnejših ljudi na svetu , ki jo je danes objavila znana ameriška revija Forbes Po lestvici , ki jo objavlja Forbes se je na drugo mesto uvrstila nemška kanclerka Angela Merkel , tretji pa je ruski predsednik Vladimir Putin . Bernanke na šestem mestu Na četrtem mestu je ustanovitelj Microsofta Bill Gates , na petem pa papež Benedikt XVI . Šesti je prvi mož ameriške centralne banke Ben Bernanke , sedmi pa savdski kralj Abdulah bin Abdulaziz al Saud . Osmi je Draghi Osmi je predsednik Evropske centralne banke Mario Draghi , deveti novi predsednik kitajske komunistične partije Xi Jinping , deseti pa britanski premier David Cameron . Najbogatejši Zemljan na 11 . mestu Na enajstem mestu je najbogatejši Zemljan , mehiški telekomunikacijski tajkun Carlos Slim Helu . Na dvanajsto mesto je uvrščena druga najvplivnejša ženska na svetu , voditeljica indijske vladajoče stranke Sonia Gandhi
+1-1	0-8	Ameriški	_	5 - Zelo pozitivno[14]	*->1-1	*[1]	
+1-2	9-19	predsednik	_	5 - Zelo pozitivno[14]	*->1-1	*[1]	
+1-3	20-26	Barack	PER[1]	5 - Zelo pozitivno[14]	*->1-1	*[1]	
+1-4	27-32	Obama	PER[1]	5 - Zelo pozitivno[14]	*->1-1	*[1]	
+1-5	33-35	se	_	_	_	_	
+1-6	36-38	je	_	_	_	_	
+1-7	39-46	uvrstil	_	_	_	_	
+1-8	47-49	na	_	_	_	_	
+1-9	50-53	vrh	_	_	_	_	
+1-10	54-62	lestvice	_	_	_	_	
+1-11	63-77	najvplivnejših	_	_	_	_	
+1-12	78-83	ljudi	_	_	_	_	
+1-13	84-86	na	_	_	_	_	
+1-14	87-92	svetu	_	_	_	_	
+1-15	93-94	,	_	_	_	_	
+1-16	95-97	ki	_	_	_	_	
+1-17	98-100	jo	_	_	_	_	
+1-18	101-103	je	_	_	_	_	
+1-19	104-109	danes	_	_	_	_	
+1-20	110-118	objavila	_	_	_	_	
+1-21	119-124	znana	_	_	_	_	
+1-22	125-133	ameriška	_	_	_	_	
+1-23	134-140	revija	_	_	_	_	
+1-24	141-147	Forbes	ORG	_	*->2-1	*[2]	
+1-25	148-150	Po	_	_	_	_	
+1-26	151-159	lestvici	_	_	_	_	
+1-27	160-161	,	_	_	_	_	
+1-28	162-164	ki	_	_	_	_	
+1-29	165-167	jo	_	_	_	_	
+1-30	168-176	objavlja	_	_	_	_	
+1-31	177-183	Forbes	ORG	3 - Nevtralno	*->2-2	*[2]	
+1-32	184-186	se	_	_	_	_	
+1-33	187-189	je	_	_	_	_	
+1-34	190-192	na	_	_	_	_	
+1-35	193-198	drugo	_	_	_	_	
+1-36	199-204	mesto	_	_	_	_	
+1-37	205-213	uvrstila	_	_	_	_	
+1-38	214-220	nemška	_	4 - Pozitivno[15]	*->3-1	*[3]	
+1-39	221-230	kanclerka	_	4 - Pozitivno[15]	*->3-1	*[3]	
+1-40	231-237	Angela	PER[2]	4 - Pozitivno[15]	*->3-1	*[3]	
+1-41	238-244	Merkel	PER[2]	4 - Pozitivno[15]	*->3-1	*[3]	
+1-42	245-246	,	_	_	_	_	
+1-43	247-253	tretji	_	_	*->4-1	*[4]	
+1-44	254-256	pa	_	_	_	_	
+1-45	257-259	je	_	_	_	_	
+1-46	260-265	ruski	_	4 - Pozitivno[16]	*->4-2	*[4]	
+1-47	266-276	predsednik	_	4 - Pozitivno[16]	*->4-2	*[4]	
+1-48	277-285	Vladimir	PER[3]	4 - Pozitivno[16]|3 - Nevtralno[17]	*->4-2	*[4]	
+1-49	286-291	Putin	PER[3]	4 - Pozitivno[16]|3 - Nevtralno[17]	*->4-2	*[4]	
+1-50	292-293	.	_	_	_	_	
+1-51	294-302	Bernanke	PER	_	*->8-1	*[8]	
+1-52	303-305	na	_	_	_	_	
+1-53	306-312	šestem	_	_	_	_	
+1-54	313-318	mestu	_	_	_	_	
+1-55	319-321	Na	_	_	_	_	
+1-56	322-329	četrtem	_	_	_	_	
+1-57	330-335	mestu	_	_	_	_	
+1-58	336-338	je	_	_	_	_	
+1-59	339-351	ustanovitelj	_	4 - Pozitivno[18]	*->5-1	*[5]	
+1-60	352-362	Microsofta	ORG	4 - Pozitivno[18]|3 - Nevtralno[19]	*->5-1|*->6-1	*[5]|*[6]	
+1-61	363-367	Bill	PER[4]	4 - Pozitivno[18]	*->5-1	*[5]	
+1-62	368-373	Gates	PER[4]	4 - Pozitivno[18]	*->5-1	*[5]	
+1-63	374-375	,	_	_	_	_	
+1-64	376-378	na	_	_	_	_	
+1-65	379-384	petem	_	_	_	_	
+1-66	385-387	pa	_	_	_	_	
+1-67	388-393	papež	_	4 - Pozitivno[20]	*->7-1	*[7]	
+1-68	394-402	Benedikt	PER[5]	4 - Pozitivno[20]	*->7-1	*[7]	
+1-69	403-406	XVI	PER[5]	4 - Pozitivno[20]	*->7-1	*[7]	
+1-70	407-408	.	_	_	_	_	
+1-71	409-414	Šesti	_	_	*->8-2	*[8]	
+1-72	415-417	je	_	_	_	_	
+1-73	418-422	prvi	_	4 - Pozitivno[21]	*->8-3	*[8]	
+1-74	423-426	mož	_	4 - Pozitivno[21]	*->8-3	*[8]	
+1-75	427-435	ameriške	_	4 - Pozitivno[21]	*->8-3	*[8]	
+1-76	436-445	centralne	_	4 - Pozitivno[21]	*->8-3	*[8]	
+1-77	446-451	banke	_	4 - Pozitivno[21]	*->8-3	*[8]	
+1-78	452-455	Ben	PER[6]	4 - Pozitivno[21]	*->8-3	*[8]	
+1-79	456-464	Bernanke	PER[6]	4 - Pozitivno[21]	*->8-3	*[8]	
+1-80	465-466	,	_	_	_	_	
+1-81	467-472	sedmi	_	_	*->9-1	*[9]	
+1-82	473-475	pa	_	_	_	_	
+1-83	476-483	savdski	_	4 - Pozitivno[22]	*->9-2	*[9]	
+1-84	484-489	kralj	_	4 - Pozitivno[22]	*->9-2	*[9]	
+1-85	490-497	Abdulah	PER[7]	4 - Pozitivno[22]	*->9-2	*[9]	
+1-86	498-501	bin	PER[7]	4 - Pozitivno[22]	*->9-2	*[9]	
+1-87	502-511	Abdulaziz	PER[7]	4 - Pozitivno[22]	*->9-2	*[9]	
+1-88	512-514	al	PER[7]	4 - Pozitivno[22]	*->9-2	*[9]	
+1-89	515-519	Saud	PER[7]	4 - Pozitivno[22]	*->9-2	*[9]	
+1-90	520-521	.	_	_	_	_	
+1-91	522-526	Osmi	_	_	*->10-1	*[10]	
+1-92	527-529	je	_	_	_	_	
+1-93	530-536	Draghi	PER	_	*->10-2	*[10]	
+1-94	537-541	Osmi	_	_	*->10-3	*[10]	
+1-95	542-544	je	_	_	_	_	
+1-96	545-555	predsednik	_	4 - Pozitivno[23]	*->10-4	*[10]	
+1-97	556-564	Evropske	ORG[8]	4 - Pozitivno[23]|3 - Nevtralno[24]	*->10-4|*->11-1	*[10]|*[11]	
+1-98	565-574	centralne	ORG[8]	4 - Pozitivno[23]|3 - Nevtralno[24]	*->10-4|*->11-1	*[10]|*[11]	
+1-99	575-580	banke	ORG[8]	4 - Pozitivno[23]|3 - Nevtralno[24]	*->10-4|*->11-1	*[10]|*[11]	
+1-100	581-586	Mario	PER[9]	4 - Pozitivno[23]	*->10-4	*[10]	
+1-101	587-593	Draghi	PER[9]	4 - Pozitivno[23]	*->10-4	*[10]	
+1-102	594-595	,	_	_	_	_	
+1-103	596-602	deveti	_	_	*->12-1	*[12]	
+1-104	603-607	novi	_	4 - Pozitivno[25]	*->12-2	*[12]	
+1-105	608-618	predsednik	_	4 - Pozitivno[25]	*->12-2	*[12]	
+1-106	619-627	kitajske	_	4 - Pozitivno[25]	*->12-2	*[12]	
+1-107	628-640	komunistične	_	4 - Pozitivno[25]	*->12-2	*[12]	
+1-108	641-648	partije	_	4 - Pozitivno[25]	*->12-2	*[12]	
+1-109	649-651	Xi	PER[10]	4 - Pozitivno[25]	*->12-2	*[12]	
+1-110	652-659	Jinping	PER[10]	4 - Pozitivno[25]	*->12-2	*[12]	
+1-111	660-661	,	_	_	_	_	
+1-112	662-668	deseti	_	_	*->13-1	*[13]	
+1-113	669-671	pa	_	_	_	_	
+1-114	672-681	britanski	_	4 - Pozitivno[26]	*->13-2	*[13]	
+1-115	682-689	premier	_	4 - Pozitivno[26]	*->13-2	*[13]	
+1-116	690-695	David	PER[11]	4 - Pozitivno[26]	*->13-2	*[13]	
+1-117	696-703	Cameron	PER[11]	4 - Pozitivno[26]	*->13-2	*[13]	
+1-118	704-705	.	_	_	_	_	
+1-119	706-718	Najbogatejši	_	_	*->14-1	*[14]	
+1-120	719-726	Zemljan	_	_	*->14-1	*[14]	
+1-121	727-729	na	_	_	_	_	
+1-122	730-732	11	_	_	_	_	
+1-123	733-734	.	_	_	_	_	
+1-124	735-740	mestu	_	_	_	_	
+1-125	741-743	Na	_	_	_	_	
+1-126	744-752	enajstem	_	_	_	_	
+1-127	753-758	mestu	_	_	_	_	
+1-128	759-761	je	_	_	_	_	
+1-129	762-774	najbogatejši	_	_	*->14-2	*[14]	
+1-130	775-782	Zemljan	_	_	*->14-2	*[14]	
+1-131	783-784	,	_	_	_	_	
+1-132	785-792	mehiški	_	4 - Pozitivno[27]	*->14-3	*[14]	
+1-133	793-811	telekomunikacijski	_	4 - Pozitivno[27]	*->14-3	*[14]	
+1-134	812-818	tajkun	_	4 - Pozitivno[27]	*->14-3	*[14]	
+1-135	819-825	Carlos	PER[12]	4 - Pozitivno[27]	*->14-3	*[14]	
+1-136	826-830	Slim	PER[12]	4 - Pozitivno[27]	*->14-3	*[14]	
+1-137	831-835	Helu	PER[12]	4 - Pozitivno[27]	*->14-3	*[14]	
+1-138	836-837	.	_	_	_	_	
+1-139	838-840	Na	_	_	_	_	
+1-140	841-850	dvanajsto	_	_	_	_	
+1-141	851-856	mesto	_	_	_	_	
+1-142	857-859	je	_	_	_	_	
+1-143	860-868	uvrščena	_	_	_	_	
+1-144	869-874	druga	_	_	*->15-1	*[15]	
+1-145	875-888	najvplivnejša	_	_	*->15-1	*[15]	
+1-146	889-895	ženska	_	_	*->15-1	*[15]	
+1-147	896-898	na	_	_	*->15-1	*[15]	
+1-148	899-904	svetu	_	_	*->15-1	*[15]	
+1-149	905-906	,	_	_	_	_	
+1-150	907-918	voditeljica	_	4 - Pozitivno[28]	*->15-2	*[15]	
+1-151	919-927	indijske	_	4 - Pozitivno[28]	*->15-2	*[15]	
+1-152	928-937	vladajoče	_	4 - Pozitivno[28]	*->15-2	*[15]	
+1-153	938-945	stranke	_	4 - Pozitivno[28]	*->15-2	*[15]	
+1-154	946-951	Sonia	PER[13]	4 - Pozitivno[28]	*->15-2	*[15]	
+1-155	952-958	Gandhi	PER[13]	4 - Pozitivno[28]	*->15-2	*[15]	

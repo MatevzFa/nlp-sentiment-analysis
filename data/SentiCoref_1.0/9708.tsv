@@ -1,0 +1,345 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=V Stični se začenja 12 . Festival Stična 2011 , ki je vrelec glasbe , gledališča in likovne umetnosti . Po besedah organizatorjev je spet pripravljena široka paleta dogodkov , ki vas ne bodo pustili hladnih . Stična bo znova prizorišče kulturne manifestacije z mednarodno udeležbo . Dogajalo se bo tri zaporedne vikende . Začetek se je zgodil že v petek , 18 . novembra , z Glasbenim maratonom in natečajem Festivala Stična v Baru Jama . V času festivala se bo Stična zibala še v ritmih skupine Dan D , Trio Sepki , B . T . K . , Zuf de Žur ( Italija ) in koncerta glasbe Akademskega pevskega zbora Obilić ( Beograd ) ter Zborallice . Stična : Jama Bar , Market Marinka Maver , Ivančna Gorica : Prince pub , Knjižnica Ivančna Gorica , Grosuplje : Mestna knjižnica Grosuplje , Šentvid pri Stični : Market Pipo . Letošnja novost je abonmajska vstopnica , s katero kupite vstopnice za vse priredite Festivala . Več informacij o njem najdete TUKAJLE . Uradna otovoritev festivala bo v soboto , 18 . novembra , v galeriji Muzeja Krščanstva na Slovenskem , in sicer z odprtjem fotografske razstave Nejca Puša . Istega dne bo v Kulturnem domu Stična tudi prva letošnja glasbeno – gledališka izvedba in sicer GodArt live ( Jure Godler in Tilen Artač ) . Vse ljubiteljem gledališča bosta na voljo še komediji To so Gadi in Iščem moža ( v sebi ) ter otroški Tinko polovinko in Huda mravljica . Na letošnjem festivalu bo tudi filmski večer ter pogovor z ustvarjalci in potopisni večeri . Festival Stična ni samo festival različnih kulturnih dogodkov . Festival Stična so ljudje . Mladi , ki festival ustvarjajo , z njim dihajo in živijo . Ljudje , katerim je mar in ki želijo , da se prav vsak gost v Stični dobro počuti . Zato je Festival Stična na nek način tudi festival prijetnega druženja in lepih prijateljstev . V Stični so vrata odprta prav vsem , sporočajo organizatorji
+1-1	0-1	V	_	_	_	_	
+1-2	2-8	Stični	LOC	_	*->1-1	*[1]	
+1-3	9-11	se	_	_	_	_	
+1-4	12-19	začenja	_	_	_	_	
+1-5	20-22	12	_	_	_	_	
+1-6	23-24	.	_	_	_	_	
+1-7	25-33	Festival	_	_	_	_	
+1-8	34-40	Stična	LOC	_	*->1-2	*[1]	
+1-9	41-45	2011	_	_	_	_	
+1-10	46-47	,	_	_	_	_	
+1-11	48-50	ki	_	_	_	_	
+1-12	51-53	je	_	_	_	_	
+1-13	54-60	vrelec	_	_	_	_	
+1-14	61-67	glasbe	_	_	_	_	
+1-15	68-69	,	_	_	_	_	
+1-16	70-80	gledališča	_	_	_	_	
+1-17	81-83	in	_	_	_	_	
+1-18	84-91	likovne	_	_	_	_	
+1-19	92-101	umetnosti	_	_	_	_	
+1-20	102-103	.	_	_	_	_	
+1-21	104-106	Po	_	_	_	_	
+1-22	107-114	besedah	_	_	_	_	
+1-23	115-129	organizatorjev	_	_	_	_	
+1-24	130-132	je	_	_	_	_	
+1-25	133-137	spet	_	_	_	_	
+1-26	138-150	pripravljena	_	_	_	_	
+1-27	151-157	široka	_	_	_	_	
+1-28	158-164	paleta	_	_	_	_	
+1-29	165-173	dogodkov	_	_	_	_	
+1-30	174-175	,	_	_	_	_	
+1-31	176-178	ki	_	_	_	_	
+1-32	179-182	vas	_	_	_	_	
+1-33	183-185	ne	_	_	_	_	
+1-34	186-190	bodo	_	_	_	_	
+1-35	191-198	pustili	_	_	_	_	
+1-36	199-206	hladnih	_	_	_	_	
+1-37	207-208	.	_	_	_	_	
+1-38	209-215	Stična	LOC	_	*->1-3	*[1]	
+1-39	216-218	bo	_	_	_	_	
+1-40	219-224	znova	_	_	_	_	
+1-41	225-235	prizorišče	_	_	_	_	
+1-42	236-244	kulturne	_	_	_	_	
+1-43	245-258	manifestacije	_	_	_	_	
+1-44	259-260	z	_	_	_	_	
+1-45	261-271	mednarodno	_	_	_	_	
+1-46	272-280	udeležbo	_	_	_	_	
+1-47	281-282	.	_	_	_	_	
+1-48	283-291	Dogajalo	_	_	_	_	
+1-49	292-294	se	_	_	_	_	
+1-50	295-297	bo	_	_	_	_	
+1-51	298-301	tri	_	_	_	_	
+1-52	302-311	zaporedne	_	_	_	_	
+1-53	312-319	vikende	_	_	_	_	
+1-54	320-321	.	_	_	_	_	
+1-55	322-329	Začetek	_	_	_	_	
+1-56	330-332	se	_	_	_	_	
+1-57	333-335	je	_	_	_	_	
+1-58	336-342	zgodil	_	_	_	_	
+1-59	343-345	že	_	_	_	_	
+1-60	346-347	v	_	_	_	_	
+1-61	348-353	petek	_	_	_	_	
+1-62	354-355	,	_	_	_	_	
+1-63	356-358	18	_	_	_	_	
+1-64	359-360	.	_	_	_	_	
+1-65	361-369	novembra	_	_	_	_	
+1-66	370-371	,	_	_	_	_	
+1-67	372-373	z	_	_	_	_	
+1-68	374-383	Glasbenim	_	_	_	_	
+1-69	384-393	maratonom	_	_	_	_	
+1-70	394-396	in	_	_	_	_	
+1-71	397-406	natečajem	_	_	_	_	
+1-72	407-416	Festivala	_	_	_	_	
+1-73	417-423	Stična	LOC	_	*->1-4	*[1]	
+1-74	424-425	v	_	_	_	_	
+1-75	426-430	Baru	ORG[1]	_	*->2-1	*[2]	
+1-76	431-435	Jama	ORG[1]	_	*->2-1	*[2]	
+1-77	436-437	.	_	_	_	_	
+1-78	438-439	V	_	_	_	_	
+1-79	440-444	času	_	_	_	_	
+1-80	445-454	festivala	_	_	_	_	
+1-81	455-457	se	_	_	_	_	
+1-82	458-460	bo	_	_	_	_	
+1-83	461-467	Stična	LOC	_	*->1-5	*[1]	
+1-84	468-474	zibala	_	_	_	_	
+1-85	475-477	še	_	_	_	_	
+1-86	478-479	v	_	_	_	_	
+1-87	480-486	ritmih	_	_	_	_	
+1-88	487-494	skupine	_	_	_	_	
+1-89	495-498	Dan	ORG[2]	3 - Nevtralno[26]	*->3-1	*[3]	
+1-90	499-500	D	ORG[2]	3 - Nevtralno[26]	*->3-1	*[3]	
+1-91	501-502	,	_	_	_	_	
+1-92	503-507	Trio	ORG[3]	3 - Nevtralno[27]	*->4-1	*[4]	
+1-93	508-513	Sepki	ORG[3]	3 - Nevtralno[27]	*->4-1	*[4]	
+1-94	514-515	,	_	_	_	_	
+1-95	516-517	B	ORG[4]	3 - Nevtralno[28]	*->5-1	*[5]	
+1-96	518-519	.	ORG[4]	3 - Nevtralno[28]	*->5-1	*[5]	
+1-97	520-521	T	ORG[4]	3 - Nevtralno[28]	*->5-1	*[5]	
+1-98	522-523	.	ORG[4]	3 - Nevtralno[28]	*->5-1	*[5]	
+1-99	524-525	K	ORG[4]	3 - Nevtralno[28]	*->5-1	*[5]	
+1-100	526-527	.	ORG[4]	3 - Nevtralno[28]	*->5-1	*[5]	
+1-101	528-529	,	_	_	_	_	
+1-102	530-533	Zuf	ORG[5]	3 - Nevtralno[29]	*->6-1	*[6]	
+1-103	534-536	de	ORG[5]	3 - Nevtralno[29]	*->6-1	*[6]	
+1-104	537-540	Žur	ORG[5]	3 - Nevtralno[29]	*->6-1	*[6]	
+1-105	541-542	(	_	_	_	_	
+1-106	543-550	Italija	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-107	551-552	)	_	_	_	_	
+1-108	553-555	in	_	_	_	_	
+1-109	556-564	koncerta	_	_	_	_	
+1-110	565-571	glasbe	_	_	_	_	
+1-111	572-583	Akademskega	ORG[6]	3 - Nevtralno[30]	*->8-1	*[8]	
+1-112	584-592	pevskega	ORG[6]	3 - Nevtralno[30]	*->8-1	*[8]	
+1-113	593-598	zbora	ORG[6]	3 - Nevtralno[30]	*->8-1	*[8]	
+1-114	599-605	Obilić	ORG[6]	3 - Nevtralno[30]	*->8-1	*[8]	
+1-115	606-607	(	_	_	_	_	
+1-116	608-615	Beograd	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-117	616-617	)	_	_	_	_	
+1-118	618-621	ter	_	_	_	_	
+1-119	622-632	Zborallice	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-120	633-634	.	_	_	_	_	
+1-121	635-641	Stična	LOC	_	*->1-6	*[1]	
+1-122	642-643	:	_	_	_	_	
+1-123	644-648	Jama	ORG[7]	3 - Nevtralno[31]	*->2-2	*[2]	
+1-124	649-652	Bar	ORG[7]	3 - Nevtralno[31]	*->2-2	*[2]	
+1-125	653-654	,	_	_	_	_	
+1-126	655-661	Market	ORG[8]	3 - Nevtralno[32]	*->11-1	*[11]	
+1-127	662-669	Marinka	ORG[8]|PER[9]	3 - Nevtralno[32]|3 - Nevtralno[33]	*->11-1|*->12-1	*[11]|*[12]	
+1-128	670-675	Maver	ORG[8]|PER[9]	3 - Nevtralno[32]|3 - Nevtralno[33]	*->11-1|*->12-1	*[11]|*[12]	
+1-129	676-677	,	_	_	_	_	
+1-130	678-685	Ivančna	LOC[10]	_	*->13-1	*[13]	
+1-131	686-692	Gorica	LOC[10]	_	*->13-1	*[13]	
+1-132	693-694	:	_	_	_	_	
+1-133	695-701	Prince	ORG[11]	3 - Nevtralno[34]	*->14-1	*[14]	
+1-134	702-705	pub	ORG[11]	3 - Nevtralno[34]	*->14-1	*[14]	
+1-135	706-707	,	_	_	_	_	
+1-136	708-717	Knjižnica	ORG[12]	3 - Nevtralno[35]	*->15-1	*[15]	
+1-137	718-725	Ivančna	ORG[12]|LOC[13]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->15-1|*->13-2	*[15]|*[13]	
+1-138	726-732	Gorica	ORG[12]|LOC[13]	3 - Nevtralno[35]|3 - Nevtralno[36]	*->15-1|*->13-2	*[15]|*[13]	
+1-139	733-734	,	_	_	_	_	
+1-140	735-744	Grosuplje	LOC	_	*->16-1	*[16]	
+1-141	745-746	:	_	_	_	_	
+1-142	747-753	Mestna	ORG[14]	3 - Nevtralno[37]	*->17-1	*[17]	
+1-143	754-763	knjižnica	ORG[14]	3 - Nevtralno[37]	*->17-1	*[17]	
+1-144	764-773	Grosuplje	ORG[14]|LOC[15]	3 - Nevtralno[37]|3 - Nevtralno[38]	*->17-1|*->16-2	*[17]|*[16]	
+1-145	774-775	,	_	_	_	_	
+1-146	776-783	Šentvid	LOC[16]	3 - Nevtralno[39]	*->18-1	*[18]	
+1-147	784-787	pri	LOC[16]	3 - Nevtralno[39]	*->18-1	*[18]	
+1-148	788-794	Stični	LOC[16]|LOC[17]	3 - Nevtralno[39]	*->18-1|*->1-7	*[18]|*[1]	
+1-149	795-796	:	_	_	_	_	
+1-150	797-803	Market	ORG[18]	3 - Nevtralno[40]	*->19-1	*[19]	
+1-151	804-808	Pipo	ORG[18]	3 - Nevtralno[40]	*->19-1	*[19]	
+1-152	809-810	.	_	_	_	_	
+1-153	811-819	Letošnja	_	_	_	_	
+1-154	820-826	novost	_	_	_	_	
+1-155	827-829	je	_	_	_	_	
+1-156	830-840	abonmajska	_	_	_	_	
+1-157	841-850	vstopnica	_	_	_	_	
+1-158	851-852	,	_	_	_	_	
+1-159	853-854	s	_	_	_	_	
+1-160	855-861	katero	_	_	_	_	
+1-161	862-868	kupite	_	_	_	_	
+1-162	869-878	vstopnice	_	_	_	_	
+1-163	879-881	za	_	_	_	_	
+1-164	882-885	vse	_	_	_	_	
+1-165	886-895	priredite	_	_	_	_	
+1-166	896-905	Festivala	_	_	_	_	
+1-167	906-907	.	_	_	_	_	
+1-168	908-911	Več	_	_	_	_	
+1-169	912-922	informacij	_	_	_	_	
+1-170	923-924	o	_	_	_	_	
+1-171	925-929	njem	_	_	_	_	
+1-172	930-937	najdete	_	_	_	_	
+1-173	938-945	TUKAJLE	_	_	_	_	
+1-174	946-947	.	_	_	_	_	
+1-175	948-954	Uradna	_	_	_	_	
+1-176	955-965	otovoritev	_	_	_	_	
+1-177	966-975	festivala	_	_	_	_	
+1-178	976-978	bo	_	_	_	_	
+1-179	979-980	v	_	_	_	_	
+1-180	981-987	soboto	_	_	_	_	
+1-181	988-989	,	_	_	_	_	
+1-182	990-992	18	_	_	_	_	
+1-183	993-994	.	_	_	_	_	
+1-184	995-1003	novembra	_	_	_	_	
+1-185	1004-1005	,	_	_	_	_	
+1-186	1006-1007	v	_	_	_	_	
+1-187	1008-1016	galeriji	_	_	_	_	
+1-188	1017-1023	Muzeja	ORG[19]	3 - Nevtralno[41]	*->20-1	*[20]	
+1-189	1024-1034	Krščanstva	ORG[19]	3 - Nevtralno[41]	*->20-1	*[20]	
+1-190	1035-1037	na	ORG[19]	3 - Nevtralno[41]	*->20-1	*[20]	
+1-191	1038-1048	Slovenskem	ORG[19]|LOC[20]	3 - Nevtralno[41]|3 - Nevtralno[42]	*->20-1|*->21-1	*[20]|*[21]	
+1-192	1049-1050	,	_	_	_	_	
+1-193	1051-1053	in	_	_	_	_	
+1-194	1054-1059	sicer	_	_	_	_	
+1-195	1060-1061	z	_	_	_	_	
+1-196	1062-1070	odprtjem	_	_	_	_	
+1-197	1071-1082	fotografske	_	_	_	_	
+1-198	1083-1091	razstave	_	_	_	_	
+1-199	1092-1097	Nejca	PER[21]	3 - Nevtralno[43]	*->22-1	*[22]	
+1-200	1098-1102	Puša	PER[21]	3 - Nevtralno[43]	*->22-1	*[22]	
+1-201	1103-1104	.	_	_	_	_	
+1-202	1105-1111	Istega	_	_	_	_	
+1-203	1112-1115	dne	_	_	_	_	
+1-204	1116-1118	bo	_	_	_	_	
+1-205	1119-1120	v	_	_	_	_	
+1-206	1121-1130	Kulturnem	ORG[22]	3 - Nevtralno[44]	*->23-1	*[23]	
+1-207	1131-1135	domu	ORG[22]	3 - Nevtralno[44]	*->23-1	*[23]	
+1-208	1136-1142	Stična	ORG[22]|LOC[23]	3 - Nevtralno[44]	*->23-1|*->1-8	*[23]|*[1]	
+1-209	1143-1147	tudi	_	_	_	_	
+1-210	1148-1152	prva	_	_	_	_	
+1-211	1153-1161	letošnja	_	_	_	_	
+1-212	1162-1170	glasbeno	_	_	_	_	
+1-213	1171-1172	–	_	_	_	_	
+1-214	1173-1183	gledališka	_	_	_	_	
+1-215	1184-1191	izvedba	_	_	_	_	
+1-216	1192-1194	in	_	_	_	_	
+1-217	1195-1200	sicer	_	_	_	_	
+1-218	1201-1207	GodArt	_	_	_	_	
+1-219	1208-1212	live	_	_	_	_	
+1-220	1213-1214	(	_	_	_	_	
+1-221	1215-1219	Jure	PER[24]	3 - Nevtralno[45]	*->24-1	*[24]	
+1-222	1220-1226	Godler	PER[24]	3 - Nevtralno[45]	*->24-1	*[24]	
+1-223	1227-1229	in	_	_	_	_	
+1-224	1230-1235	Tilen	PER[25]	3 - Nevtralno[46]	*->25-1	*[25]	
+1-225	1236-1241	Artač	PER[25]	3 - Nevtralno[46]	*->25-1	*[25]	
+1-226	1242-1243	)	_	_	_	_	
+1-227	1244-1245	.	_	_	_	_	
+1-228	1246-1249	Vse	_	_	_	_	
+1-229	1250-1261	ljubiteljem	_	_	_	_	
+1-230	1262-1272	gledališča	_	_	_	_	
+1-231	1273-1278	bosta	_	_	_	_	
+1-232	1279-1281	na	_	_	_	_	
+1-233	1282-1287	voljo	_	_	_	_	
+1-234	1288-1290	še	_	_	_	_	
+1-235	1291-1299	komediji	_	_	_	_	
+1-236	1300-1302	To	_	_	_	_	
+1-237	1303-1305	so	_	_	_	_	
+1-238	1306-1310	Gadi	_	_	_	_	
+1-239	1311-1313	in	_	_	_	_	
+1-240	1314-1319	Iščem	_	_	_	_	
+1-241	1320-1324	moža	_	_	_	_	
+1-242	1325-1326	(	_	_	_	_	
+1-243	1327-1328	v	_	_	_	_	
+1-244	1329-1333	sebi	_	_	_	_	
+1-245	1334-1335	)	_	_	_	_	
+1-246	1336-1339	ter	_	_	_	_	
+1-247	1340-1347	otroški	_	_	_	_	
+1-248	1348-1353	Tinko	_	_	_	_	
+1-249	1354-1363	polovinko	_	_	_	_	
+1-250	1364-1366	in	_	_	_	_	
+1-251	1367-1371	Huda	_	_	_	_	
+1-252	1372-1381	mravljica	_	_	_	_	
+1-253	1382-1383	.	_	_	_	_	
+1-254	1384-1386	Na	_	_	_	_	
+1-255	1387-1396	letošnjem	_	_	_	_	
+1-256	1397-1406	festivalu	_	_	_	_	
+1-257	1407-1409	bo	_	_	_	_	
+1-258	1410-1414	tudi	_	_	_	_	
+1-259	1415-1422	filmski	_	_	_	_	
+1-260	1423-1428	večer	_	_	_	_	
+1-261	1429-1432	ter	_	_	_	_	
+1-262	1433-1440	pogovor	_	_	_	_	
+1-263	1441-1442	z	_	_	_	_	
+1-264	1443-1454	ustvarjalci	_	_	_	_	
+1-265	1455-1457	in	_	_	_	_	
+1-266	1458-1467	potopisni	_	_	_	_	
+1-267	1468-1474	večeri	_	_	_	_	
+1-268	1475-1476	.	_	_	_	_	
+1-269	1477-1485	Festival	_	_	_	_	
+1-270	1486-1492	Stična	LOC	_	*->1-9	*[1]	
+1-271	1493-1495	ni	_	_	_	_	
+1-272	1496-1500	samo	_	_	_	_	
+1-273	1501-1509	festival	_	_	_	_	
+1-274	1510-1519	različnih	_	_	_	_	
+1-275	1520-1529	kulturnih	_	_	_	_	
+1-276	1530-1538	dogodkov	_	_	_	_	
+1-277	1539-1540	.	_	_	_	_	
+1-278	1541-1549	Festival	_	_	_	_	
+1-279	1550-1556	Stična	LOC	_	*->1-10	*[1]	
+1-280	1557-1559	so	_	_	_	_	
+1-281	1560-1566	ljudje	_	_	_	_	
+1-282	1567-1568	.	_	_	_	_	
+1-283	1569-1574	Mladi	_	_	_	_	
+1-284	1575-1576	,	_	_	_	_	
+1-285	1577-1579	ki	_	_	_	_	
+1-286	1580-1588	festival	_	_	_	_	
+1-287	1589-1599	ustvarjajo	_	_	_	_	
+1-288	1600-1601	,	_	_	_	_	
+1-289	1602-1603	z	_	_	_	_	
+1-290	1604-1608	njim	_	_	_	_	
+1-291	1609-1615	dihajo	_	_	_	_	
+1-292	1616-1618	in	_	_	_	_	
+1-293	1619-1625	živijo	_	_	_	_	
+1-294	1626-1627	.	_	_	_	_	
+1-295	1628-1634	Ljudje	_	_	_	_	
+1-296	1635-1636	,	_	_	_	_	
+1-297	1637-1644	katerim	_	_	_	_	
+1-298	1645-1647	je	_	_	_	_	
+1-299	1648-1651	mar	_	_	_	_	
+1-300	1652-1654	in	_	_	_	_	
+1-301	1655-1657	ki	_	_	_	_	
+1-302	1658-1664	želijo	_	_	_	_	
+1-303	1665-1666	,	_	_	_	_	
+1-304	1667-1669	da	_	_	_	_	
+1-305	1670-1672	se	_	_	_	_	
+1-306	1673-1677	prav	_	_	_	_	
+1-307	1678-1682	vsak	_	_	_	_	
+1-308	1683-1687	gost	_	_	_	_	
+1-309	1688-1689	v	_	_	_	_	
+1-310	1690-1696	Stični	LOC	_	*->1-11	*[1]	
+1-311	1697-1702	dobro	_	_	_	_	
+1-312	1703-1709	počuti	_	_	_	_	
+1-313	1710-1711	.	_	_	_	_	
+1-314	1712-1716	Zato	_	_	_	_	
+1-315	1717-1719	je	_	_	_	_	
+1-316	1720-1728	Festival	_	_	_	_	
+1-317	1729-1735	Stična	LOC	_	*->1-12	*[1]	
+1-318	1736-1738	na	_	_	_	_	
+1-319	1739-1742	nek	_	_	_	_	
+1-320	1743-1748	način	_	_	_	_	
+1-321	1749-1753	tudi	_	_	_	_	
+1-322	1754-1762	festival	_	_	_	_	
+1-323	1763-1773	prijetnega	_	_	_	_	
+1-324	1774-1782	druženja	_	_	_	_	
+1-325	1783-1785	in	_	_	_	_	
+1-326	1786-1791	lepih	_	_	_	_	
+1-327	1792-1805	prijateljstev	_	_	_	_	
+1-328	1806-1807	.	_	_	_	_	
+1-329	1808-1809	V	_	_	_	_	
+1-330	1810-1816	Stični	LOC	3 - Nevtralno	*->1-13	*[1]	
+1-331	1817-1819	so	_	_	_	_	
+1-332	1820-1825	vrata	_	_	_	_	
+1-333	1826-1832	odprta	_	_	_	_	
+1-334	1833-1837	prav	_	_	_	_	
+1-335	1838-1842	vsem	_	_	_	_	
+1-336	1843-1844	,	_	_	_	_	
+1-337	1845-1854	sporočajo	_	_	_	_	
+1-338	1855-1868	organizatorji	_	_	_	_	

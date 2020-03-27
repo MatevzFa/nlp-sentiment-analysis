@@ -1,0 +1,242 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Danes je premiera Janeza Janšo , na prvi dan obiska na Japonskem , v cesarski palači v Tokiu sprejel japonski cesar Akihito Janša je cesarju izročil tudi priložnostni darili , herbarij Froelichovega svišča , cvetlice , ki je endemična v Kamniško - Savinjskih Alpah in Karavankah , ter človeško ribico v bronu . Na prvi dan obiska na Japonskem je premiera Janeza Janšo danes v cesarski palači v Tokiu sprejel japonski cesar Akihito . Janšev obisk na Japonskem je prvi obisk kakšnega slovenskega premiera v deželi vzhajajočega sonca . Japonski cesar Akihito pa je že leta 1976 , tedaj še kot prestolonaslednik , obiskal Slovenijo . Obojestransko zanimanje za podnebne spremembe Premier Janša in cesar Akihito sta precej pozornosti namenila podnebnim spremembam , saj je cesar , kot je dejal premier , velik ljubitelj narave in ga zanimajo vsi napori za to , da se negativni učinki podnebnih sprememb ne bi odrazili na poslabšanju pogojev za življenje prihodnjih generacij . V sredo bo tudi vrhunsko srečanje EU in Japonske , v ospredju pozornosti pa naj bi bili ukrepi za boj proti podnebnim spremembam . Z Janšo tudi skupina poslovnežev Janšo na obisku spremlja minister za gospodarstvo Andrej Vizjak ter skupina 27 slovenskih poslovnežev . Ti bodo v torek sodelovali na slovensko - japonski poslovni konferenci oziroma predstavitvi slovenske avtomobilske industrije , s katero želijo spodbuditi sodelovanje med slovenskimi proizvajalci avtomobilskih delov in japonsko avtomobilsko industrijo
+1-1	0-5	Danes	_	_	_	_	
+1-2	6-8	je	_	_	_	_	
+1-3	9-17	premiera	_	_	*->1-1	*[1]	
+1-4	18-24	Janeza	PER[1]	_	*->1-1	*[1]	
+1-5	25-30	Janšo	PER[1]	_	*->1-1	*[1]	
+1-6	31-32	,	_	_	_	_	
+1-7	33-35	na	_	_	_	_	
+1-8	36-40	prvi	_	_	_	_	
+1-9	41-44	dan	_	_	_	_	
+1-10	45-51	obiska	_	_	_	_	
+1-11	52-54	na	_	_	_	_	
+1-12	55-64	Japonskem	LOC	_	*->2-1	*[2]	
+1-13	65-66	,	_	_	_	_	
+1-14	67-68	v	_	_	_	_	
+1-15	69-77	cesarski	_	_	_	_	
+1-16	78-84	palači	_	_	_	_	
+1-17	85-86	v	_	_	_	_	
+1-18	87-92	Tokiu	LOC	_	*->3-1	*[3]	
+1-19	93-100	sprejel	_	_	_	_	
+1-20	101-109	japonski	_	_	*->4-1	*[4]	
+1-21	110-115	cesar	_	_	*->4-1	*[4]	
+1-22	116-123	Akihito	PER	_	*->4-1	*[4]	
+1-23	124-129	Janša	PER	_	*->1-2	*[1]	
+1-24	130-132	je	_	_	_	_	
+1-25	133-140	cesarju	_	_	*->4-2	*[4]	
+1-26	141-148	izročil	_	_	_	_	
+1-27	149-153	tudi	_	_	_	_	
+1-28	154-166	priložnostni	_	_	_	_	
+1-29	167-173	darili	_	_	_	_	
+1-30	174-175	,	_	_	_	_	
+1-31	176-184	herbarij	_	_	_	_	
+1-32	185-198	Froelichovega	_	_	_	_	
+1-33	199-205	svišča	_	_	_	_	
+1-34	206-207	,	_	_	_	_	
+1-35	208-216	cvetlice	_	_	_	_	
+1-36	217-218	,	_	_	_	_	
+1-37	219-221	ki	_	_	_	_	
+1-38	222-224	je	_	_	_	_	
+1-39	225-234	endemična	_	_	_	_	
+1-40	235-236	v	_	_	_	_	
+1-41	237-245	Kamniško	LOC[2]	3 - Nevtralno[5]	*->5-1	*[5]	
+1-42	246-247	-	LOC[2]	3 - Nevtralno[5]	*->5-1	*[5]	
+1-43	248-258	Savinjskih	LOC[2]	3 - Nevtralno[5]	*->5-1	*[5]	
+1-44	259-264	Alpah	LOC[2]	3 - Nevtralno[5]	*->5-1	*[5]	
+1-45	265-267	in	_	_	_	_	
+1-46	268-278	Karavankah	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-47	279-280	,	_	_	_	_	
+1-48	281-284	ter	_	_	_	_	
+1-49	285-293	človeško	_	_	_	_	
+1-50	294-300	ribico	_	_	_	_	
+1-51	301-302	v	_	_	_	_	
+1-52	303-308	bronu	_	_	_	_	
+1-53	309-310	.	_	_	_	_	
+1-54	311-313	Na	_	_	_	_	
+1-55	314-318	prvi	_	_	_	_	
+1-56	319-322	dan	_	_	_	_	
+1-57	323-329	obiska	_	_	_	_	
+1-58	330-332	na	_	_	_	_	
+1-59	333-342	Japonskem	LOC	_	*->2-2	*[2]	
+1-60	343-345	je	_	_	_	_	
+1-61	346-354	premiera	_	_	*->1-3	*[1]	
+1-62	355-361	Janeza	PER[3]	_	*->1-3	*[1]	
+1-63	362-367	Janšo	PER[3]	_	*->1-3	*[1]	
+1-64	368-373	danes	_	_	_	_	
+1-65	374-375	v	_	_	_	_	
+1-66	376-384	cesarski	_	_	_	_	
+1-67	385-391	palači	_	_	_	_	
+1-68	392-393	v	_	_	_	_	
+1-69	394-399	Tokiu	LOC	3 - Nevtralno	*->3-2	*[3]	
+1-70	400-407	sprejel	_	_	_	_	
+1-71	408-416	japonski	_	_	*->4-3	*[4]	
+1-72	417-422	cesar	_	_	*->4-3	*[4]	
+1-73	423-430	Akihito	PER	_	*->4-3	*[4]	
+1-74	431-432	.	_	_	_	_	
+1-75	433-439	Janšev	PER	_	*->1-4	*[1]	
+1-76	440-445	obisk	_	_	_	_	
+1-77	446-448	na	_	_	_	_	
+1-78	449-458	Japonskem	LOC	_	*->2-3	*[2]	
+1-79	459-461	je	_	_	_	_	
+1-80	462-466	prvi	_	_	_	_	
+1-81	467-472	obisk	_	_	_	_	
+1-82	473-481	kakšnega	_	_	_	_	
+1-83	482-493	slovenskega	_	_	_	_	
+1-84	494-502	premiera	_	_	_	_	
+1-85	503-504	v	_	_	_	_	
+1-86	505-511	deželi	_	_	*->2-4	*[2]	
+1-87	512-524	vzhajajočega	_	_	*->2-4	*[2]	
+1-88	525-530	sonca	_	_	*->2-4	*[2]	
+1-89	531-532	.	_	_	_	_	
+1-90	533-541	Japonski	_	_	*->4-4	*[4]	
+1-91	542-547	cesar	_	_	*->4-4	*[4]	
+1-92	548-555	Akihito	PER	_	*->4-4	*[4]	
+1-93	556-558	pa	_	_	_	_	
+1-94	559-561	je	_	_	_	_	
+1-95	562-564	že	_	_	_	_	
+1-96	565-569	leta	_	_	_	_	
+1-97	570-574	1976	_	_	_	_	
+1-98	575-576	,	_	_	_	_	
+1-99	577-582	tedaj	_	_	_	_	
+1-100	583-585	še	_	_	_	_	
+1-101	586-589	kot	_	_	_	_	
+1-102	590-607	prestolonaslednik	_	_	*->4-5	*[4]	
+1-103	608-609	,	_	_	_	_	
+1-104	610-617	obiskal	_	_	_	_	
+1-105	618-627	Slovenijo	LOC	3 - Nevtralno	*->7-1	*[7]	
+1-106	628-629	.	_	_	_	_	
+1-107	630-643	Obojestransko	_	_	_	_	
+1-108	644-653	zanimanje	_	_	_	_	
+1-109	654-656	za	_	_	_	_	
+1-110	657-665	podnebne	_	_	_	_	
+1-111	666-675	spremembe	_	_	_	_	
+1-112	676-683	Premier	_	_	*->1-5	*[1]	
+1-113	684-689	Janša	PER	_	*->1-5	*[1]	
+1-114	690-692	in	_	_	_	_	
+1-115	693-698	cesar	_	_	*->4-6	*[4]	
+1-116	699-706	Akihito	PER	_	*->4-6	*[4]	
+1-117	707-710	sta	_	_	_	_	
+1-118	711-717	precej	_	_	_	_	
+1-119	718-728	pozornosti	_	_	_	_	
+1-120	729-737	namenila	_	_	_	_	
+1-121	738-747	podnebnim	_	_	_	_	
+1-122	748-758	spremembam	_	_	_	_	
+1-123	759-760	,	_	_	_	_	
+1-124	761-764	saj	_	_	_	_	
+1-125	765-767	je	_	_	_	_	
+1-126	768-773	cesar	_	_	*->4-7	*[4]	
+1-127	774-775	,	_	_	_	_	
+1-128	776-779	kot	_	_	_	_	
+1-129	780-782	je	_	_	_	_	
+1-130	783-788	dejal	_	_	_	_	
+1-131	789-796	premier	_	_	*->1-6	*[1]	
+1-132	797-798	,	_	_	_	_	
+1-133	799-804	velik	_	_	_	_	
+1-134	805-814	ljubitelj	_	_	*->4-8	*[4]	
+1-135	815-821	narave	_	_	*->4-8	*[4]	
+1-136	822-824	in	_	_	_	_	
+1-137	825-827	ga	_	4 - Pozitivno	*->4-9	*[4]	
+1-138	828-836	zanimajo	_	_	_	_	
+1-139	837-840	vsi	_	_	_	_	
+1-140	841-847	napori	_	_	_	_	
+1-141	848-850	za	_	_	_	_	
+1-142	851-853	to	_	_	_	_	
+1-143	854-855	,	_	_	_	_	
+1-144	856-858	da	_	_	_	_	
+1-145	859-861	se	_	_	_	_	
+1-146	862-871	negativni	_	_	_	_	
+1-147	872-878	učinki	_	_	_	_	
+1-148	879-888	podnebnih	_	_	_	_	
+1-149	889-897	sprememb	_	_	_	_	
+1-150	898-900	ne	_	_	_	_	
+1-151	901-903	bi	_	_	_	_	
+1-152	904-912	odrazili	_	_	_	_	
+1-153	913-915	na	_	_	_	_	
+1-154	916-927	poslabšanju	_	_	_	_	
+1-155	928-935	pogojev	_	_	_	_	
+1-156	936-938	za	_	_	_	_	
+1-157	939-948	življenje	_	_	_	_	
+1-158	949-959	prihodnjih	_	_	_	_	
+1-159	960-969	generacij	_	_	_	_	
+1-160	970-971	.	_	_	_	_	
+1-161	972-973	V	_	_	_	_	
+1-162	974-979	sredo	_	_	_	_	
+1-163	980-982	bo	_	_	_	_	
+1-164	983-987	tudi	_	_	_	_	
+1-165	988-996	vrhunsko	_	_	_	_	
+1-166	997-1005	srečanje	_	_	_	_	
+1-167	1006-1008	EU	ORG	3 - Nevtralno	*->8-1	*[8]	
+1-168	1009-1011	in	_	_	_	_	
+1-169	1012-1020	Japonske	ORG	3 - Nevtralno	*->2-5	*[2]	
+1-170	1021-1022	,	_	_	_	_	
+1-171	1023-1024	v	_	_	_	_	
+1-172	1025-1033	ospredju	_	_	_	_	
+1-173	1034-1044	pozornosti	_	_	_	_	
+1-174	1045-1047	pa	_	_	_	_	
+1-175	1048-1051	naj	_	_	_	_	
+1-176	1052-1054	bi	_	_	_	_	
+1-177	1055-1059	bili	_	_	_	_	
+1-178	1060-1066	ukrepi	_	_	_	_	
+1-179	1067-1069	za	_	_	_	_	
+1-180	1070-1073	boj	_	_	_	_	
+1-181	1074-1079	proti	_	_	_	_	
+1-182	1080-1089	podnebnim	_	_	_	_	
+1-183	1090-1100	spremembam	_	_	_	_	
+1-184	1101-1102	.	_	_	_	_	
+1-185	1103-1104	Z	_	_	_	_	
+1-186	1105-1110	Janšo	PER	_	*->1-7	*[1]	
+1-187	1111-1115	tudi	_	_	_	_	
+1-188	1116-1123	skupina	_	_	_	_	
+1-189	1124-1135	poslovnežev	_	_	_	_	
+1-190	1136-1141	Janšo	PER	4 - Pozitivno	*->1-8	*[1]	
+1-191	1142-1144	na	_	_	_	_	
+1-192	1145-1151	obisku	_	_	_	_	
+1-193	1152-1160	spremlja	_	_	_	_	
+1-194	1161-1169	minister	_	3 - Nevtralno[6]	*->9-1	*[9]	
+1-195	1170-1172	za	_	3 - Nevtralno[6]	*->9-1	*[9]	
+1-196	1173-1185	gospodarstvo	_	3 - Nevtralno[6]	*->9-1	*[9]	
+1-197	1186-1192	Andrej	PER[4]	3 - Nevtralno[6]	*->9-1	*[9]	
+1-198	1193-1199	Vizjak	PER[4]	3 - Nevtralno[6]	*->9-1	*[9]	
+1-199	1200-1203	ter	_	_	_	_	
+1-200	1204-1211	skupina	_	_	_	_	
+1-201	1212-1214	27	_	_	_	_	
+1-202	1215-1225	slovenskih	_	_	_	_	
+1-203	1226-1237	poslovnežev	_	_	_	_	
+1-204	1238-1239	.	_	_	_	_	
+1-205	1240-1242	Ti	_	_	_	_	
+1-206	1243-1247	bodo	_	_	_	_	
+1-207	1248-1249	v	_	_	_	_	
+1-208	1250-1255	torek	_	_	_	_	
+1-209	1256-1266	sodelovali	_	_	_	_	
+1-210	1267-1269	na	_	_	_	_	
+1-211	1270-1279	slovensko	_	_	_	_	
+1-212	1280-1281	-	_	_	_	_	
+1-213	1282-1290	japonski	_	_	_	_	
+1-214	1291-1299	poslovni	_	_	_	_	
+1-215	1300-1310	konferenci	_	_	_	_	
+1-216	1311-1318	oziroma	_	_	_	_	
+1-217	1319-1331	predstavitvi	_	_	_	_	
+1-218	1332-1341	slovenske	_	_	_	_	
+1-219	1342-1354	avtomobilske	_	_	_	_	
+1-220	1355-1365	industrije	_	_	_	_	
+1-221	1366-1367	,	_	_	_	_	
+1-222	1368-1369	s	_	_	_	_	
+1-223	1370-1376	katero	_	_	_	_	
+1-224	1377-1383	želijo	_	_	_	_	
+1-225	1384-1394	spodbuditi	_	_	_	_	
+1-226	1395-1406	sodelovanje	_	_	_	_	
+1-227	1407-1410	med	_	_	_	_	
+1-228	1411-1422	slovenskimi	_	_	_	_	
+1-229	1423-1435	proizvajalci	_	_	_	_	
+1-230	1436-1449	avtomobilskih	_	_	_	_	
+1-231	1450-1455	delov	_	_	_	_	
+1-232	1456-1458	in	_	_	_	_	
+1-233	1459-1467	japonsko	_	_	_	_	
+1-234	1468-1480	avtomobilsko	_	_	_	_	
+1-235	1481-1491	industrijo	_	_	_	_	

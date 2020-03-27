@@ -1,0 +1,457 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Luka Koper je v prvem polletju opravila za 9,037 milijona ton ladijskega pretovora , kar pomeni osemodstotno rast v letni primerjavi . Najkrepkeje se je povečal pretovor sipkega in razsutega tovora , in sicer kar za 18 odstotkov . Nekoliko skromnejša je bila rast poslovnih prihodkov , ki so bili pri 69 milijonih evrov za le tri odstotke nad lanskoletnimi . Paradajzov pohod po Prekmurju še ni končan Največji slovenski pridelovalec paradižnika s pomenljivim imenom Paradajz hitro širi svoj vpliv v Prekmurju . Potem ko je prevzel 50 - odstotni delež Panonskih elektrarn , je z dokapitalizacijo prišel do enakega deleža murskosoboškega Sončnega vrta , ki ima ambicije postati največji pridelovalec vrtnin v Sloveniji . Kljub smelim načrtom pa projekt gradnje rastlinjakov pri Beltincih stoji že leto in pol . Spori z nekdanjo večinsko lastnico Agrogorico , sedaj preimenovano v AG , ki jo je Sončni vrt neupravičeno razlastil , so bili medtem že rešeni . Factor banka prevzela upravljanje KD Banke Potem ko je Factor banka pred dobrim tednom tudi uradno postala 100 - odstotna lastnica KD Banke , je na torkovi skupščini zamenjala tudi upravni odbor banke . Nov upravni odbor bodo naslednjih pet let sestavljali predsednik uprave Factor banke Ciril Dragonja , član uprave Factor banke Dušan Valenčič , Polonca Čeč in Jerneja Orelj . Energoplan z visoko izgubo Gradbinec Energoplan , ki je nasedel v Stožicah in je zaradi tega od maja v prisilni poravnavi , je v juniju ustvaril 286.000 evrov čiste izgube , ki je nastala predvsem iz naslova financiranja . Studio Moderna pod hipoteko Najbogatejši Slovenec Sandi Češko je 85 - milijonsko posojilo , najeto pri Unicredit banki Slovenija , zavaroval s 100 - odstotnim deležem slovenske Studio Moderna , ki jo lastniško obvladuje . SID banka Iskratelu 15 milijonov evrov Iskratelu je SID Banka včeraj odobrila 15 milijonov vredno dolgoročno posojilo . S tem bodo v Iskratelu financirali projekt KPNG - Komunikacijska platforma nove generacije . " S tem financiranjem spodbujamo razvoj , raziskave in internacionalizacijo družbe Iskratel , " je pojasnil predsednik uprave SID banke Sibil Svilan . HSE z novima nadzornikoma V nadzorni svet HSE sta bila pred dobrim tednom imenovana Marjanca Molan in Stanislav Prevalnik , ki predstavljata zaposlene . Mesto med nadzorniki sta jima prepustila Mojca Turnšek in Rene Jeromel , ki je postal nov nadzornik v Dravskih elektrarnah Maribor . Krašovčeva zanikala krivdo Nekdanja Merkurjeva izvršna direktorica za finance Janja Krašovec je na včerajšnji obravnavi na ljubljanskem okrožnem sodišču dejala , da ni kriva očitanega dejanja pomoči pri oškodovanju Merkurja . Poudarila je , da je vedno delala le skladno s poslovno politiko Merkurja , prodaja trgovskega centra Primskovo pa zanjo ob podpisu pogodbe ni bila sporna
+1-1	0-4	Luka	ORG[1]	4 - Pozitivno[32]	*->1-1	*[1]	
+1-2	5-10	Koper	ORG[1]|LOC[2]	4 - Pozitivno[32]|3 - Nevtralno[33]	*->1-1|*->2-1	*[1]|*[2]	
+1-3	11-13	je	_	_	_	_	
+1-4	14-15	v	_	_	_	_	
+1-5	16-21	prvem	_	_	_	_	
+1-6	22-30	polletju	_	_	_	_	
+1-7	31-39	opravila	_	_	_	_	
+1-8	40-42	za	_	_	_	_	
+1-9	43-48	9,037	_	_	_	_	
+1-10	49-57	milijona	_	_	_	_	
+1-11	58-61	ton	_	_	_	_	
+1-12	62-72	ladijskega	_	_	_	_	
+1-13	73-82	pretovora	_	_	_	_	
+1-14	83-84	,	_	_	_	_	
+1-15	85-88	kar	_	_	_	_	
+1-16	89-95	pomeni	_	_	_	_	
+1-17	96-108	osemodstotno	_	_	_	_	
+1-18	109-113	rast	_	_	_	_	
+1-19	114-115	v	_	_	_	_	
+1-20	116-121	letni	_	_	_	_	
+1-21	122-132	primerjavi	_	_	_	_	
+1-22	133-134	.	_	_	_	_	
+1-23	135-146	Najkrepkeje	_	_	_	_	
+1-24	147-149	se	_	_	_	_	
+1-25	150-152	je	_	_	_	_	
+1-26	153-160	povečal	_	_	_	_	
+1-27	161-169	pretovor	_	_	_	_	
+1-28	170-177	sipkega	_	_	_	_	
+1-29	178-180	in	_	_	_	_	
+1-30	181-190	razsutega	_	_	_	_	
+1-31	191-197	tovora	_	_	_	_	
+1-32	198-199	,	_	_	_	_	
+1-33	200-202	in	_	_	_	_	
+1-34	203-208	sicer	_	_	_	_	
+1-35	209-212	kar	_	_	_	_	
+1-36	213-215	za	_	_	_	_	
+1-37	216-218	18	_	_	_	_	
+1-38	219-228	odstotkov	_	_	_	_	
+1-39	229-230	.	_	_	_	_	
+1-40	231-239	Nekoliko	_	_	_	_	
+1-41	240-250	skromnejša	_	_	_	_	
+1-42	251-253	je	_	_	_	_	
+1-43	254-258	bila	_	_	_	_	
+1-44	259-263	rast	_	_	_	_	
+1-45	264-273	poslovnih	_	_	_	_	
+1-46	274-283	prihodkov	_	_	_	_	
+1-47	284-285	,	_	_	_	_	
+1-48	286-288	ki	_	_	_	_	
+1-49	289-291	so	_	_	_	_	
+1-50	292-296	bili	_	_	_	_	
+1-51	297-300	pri	_	_	_	_	
+1-52	301-303	69	_	_	_	_	
+1-53	304-313	milijonih	_	_	_	_	
+1-54	314-319	evrov	_	_	_	_	
+1-55	320-322	za	_	_	_	_	
+1-56	323-325	le	_	_	_	_	
+1-57	326-329	tri	_	_	_	_	
+1-58	330-338	odstotke	_	_	_	_	
+1-59	339-342	nad	_	_	_	_	
+1-60	343-356	lanskoletnimi	_	_	_	_	
+1-61	357-358	.	_	_	_	_	
+1-62	359-369	Paradajzov	ORG	_	*->3-1	*[3]	
+1-63	370-375	pohod	_	_	_	_	
+1-64	376-378	po	_	_	_	_	
+1-65	379-388	Prekmurju	LOC	_	*->4-1	*[4]	
+1-66	389-391	še	_	_	_	_	
+1-67	392-394	ni	_	_	_	_	
+1-68	395-401	končan	_	_	_	_	
+1-69	402-410	Največji	_	_	*->3-2	*[3]	
+1-70	411-420	slovenski	_	_	*->3-2	*[3]	
+1-71	421-433	pridelovalec	_	_	*->3-2	*[3]	
+1-72	434-445	paradižnika	_	_	*->3-2	*[3]	
+1-73	446-447	s	_	_	*->3-2	*[3]	
+1-74	448-459	pomenljivim	_	_	*->3-2	*[3]	
+1-75	460-466	imenom	_	_	*->3-2	*[3]	
+1-76	467-475	Paradajz	ORG	_	*->3-2	*[3]	
+1-77	476-481	hitro	_	_	_	_	
+1-78	482-486	širi	_	_	_	_	
+1-79	487-491	svoj	_	_	*->3-3	*[3]	
+1-80	492-497	vpliv	_	_	_	_	
+1-81	498-499	v	_	_	_	_	
+1-82	500-509	Prekmurju	LOC	3 - Nevtralno	*->4-2	*[4]	
+1-83	510-511	.	_	_	_	_	
+1-84	512-517	Potem	_	_	_	_	
+1-85	518-520	ko	_	_	_	_	
+1-86	521-523	je	_	_	_	_	
+1-87	524-531	prevzel	_	_	*->3-4	*[3]	
+1-88	532-534	50	_	_	_	_	
+1-89	535-536	-	_	_	_	_	
+1-90	537-545	odstotni	_	_	_	_	
+1-91	546-551	delež	_	_	_	_	
+1-92	552-561	Panonskih	ORG[3]	3 - Nevtralno[34]	*->5-1	*[5]	
+1-93	562-571	elektrarn	ORG[3]	3 - Nevtralno[34]	*->5-1	*[5]	
+1-94	572-573	,	_	_	_	_	
+1-95	574-576	je	_	_	_	_	
+1-96	577-578	z	_	_	_	_	
+1-97	579-595	dokapitalizacijo	_	_	_	_	
+1-98	596-602	prišel	_	4 - Pozitivno	*->3-5	*[3]	
+1-99	603-605	do	_	_	_	_	
+1-100	606-613	enakega	_	_	_	_	
+1-101	614-620	deleža	_	_	_	_	
+1-102	621-636	murskosoboškega	_	_	_	_	
+1-103	637-645	Sončnega	ORG[4]	_	*->6-1	*[6]	
+1-104	646-650	vrta	ORG[4]	_	*->6-1	*[6]	
+1-105	651-652	,	_	_	_	_	
+1-106	653-655	ki	_	_	_	_	
+1-107	656-659	ima	_	_	*->6-2	*[6]	
+1-108	660-668	ambicije	_	_	_	_	
+1-109	669-676	postati	_	_	_	_	
+1-110	677-685	največji	_	_	*->6-3	*[6]	
+1-111	686-698	pridelovalec	_	_	*->6-3	*[6]	
+1-112	699-705	vrtnin	_	_	*->6-3	*[6]	
+1-113	706-707	v	_	_	*->6-3	*[6]	
+1-114	708-717	Sloveniji	LOC	_	*->6-3|*->7-1	*[6]|*[7]	
+1-115	718-719	.	_	_	_	_	
+1-116	720-725	Kljub	_	_	_	_	
+1-117	726-732	smelim	_	_	_	_	
+1-118	733-740	načrtom	_	_	_	_	
+1-119	741-743	pa	_	_	_	_	
+1-120	744-751	projekt	_	_	_	_	
+1-121	752-759	gradnje	_	_	_	_	
+1-122	760-772	rastlinjakov	_	_	_	_	
+1-123	773-776	pri	_	_	_	_	
+1-124	777-786	Beltincih	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-125	787-792	stoji	_	_	_	_	
+1-126	793-795	že	_	_	_	_	
+1-127	796-800	leto	_	_	_	_	
+1-128	801-803	in	_	_	_	_	
+1-129	804-807	pol	_	_	_	_	
+1-130	808-809	.	_	_	_	_	
+1-131	810-815	Spori	_	_	_	_	
+1-132	816-817	z	_	_	_	_	
+1-133	818-826	nekdanjo	_	_	_	_	
+1-134	827-835	večinsko	_	_	_	_	
+1-135	836-844	lastnico	_	_	_	_	
+1-136	845-855	Agrogorico	ORG	_	*->9-1	*[9]	
+1-137	856-857	,	_	_	_	_	
+1-138	858-863	sedaj	_	_	_	_	
+1-139	864-876	preimenovano	_	_	_	_	
+1-140	877-878	v	_	_	_	_	
+1-141	879-881	AG	ORG	3 - Nevtralno	*->9-2	*[9]	
+1-142	882-883	,	_	_	_	_	
+1-143	884-886	ki	_	_	_	_	
+1-144	887-889	jo	_	_	_	_	
+1-145	890-892	je	_	_	_	_	
+1-146	893-899	Sončni	ORG[5]	_	*->6-4	*[6]	
+1-147	900-903	vrt	ORG[5]	_	*->6-4	*[6]	
+1-148	904-916	neupravičeno	_	_	_	_	
+1-149	917-926	razlastil	_	3 - Nevtralno	*->6-5	*[6]	
+1-150	927-928	,	_	_	_	_	
+1-151	929-931	so	_	_	_	_	
+1-152	932-936	bili	_	_	_	_	
+1-153	937-943	medtem	_	_	_	_	
+1-154	944-946	že	_	_	_	_	
+1-155	947-953	rešeni	_	_	_	_	
+1-156	954-955	.	_	_	_	_	
+1-157	956-962	Factor	ORG[6]	_	*->10-1	*[10]	
+1-158	963-968	banka	ORG[6]	_	*->10-1	*[10]	
+1-159	969-977	prevzela	_	_	_	_	
+1-160	978-989	upravljanje	_	_	_	_	
+1-161	990-992	KD	ORG[7]	_	*->11-1	*[11]	
+1-162	993-998	Banke	ORG[7]	_	*->11-1	*[11]	
+1-163	999-1004	Potem	_	_	_	_	
+1-164	1005-1007	ko	_	_	_	_	
+1-165	1008-1010	je	_	_	_	_	
+1-166	1011-1017	Factor	ORG[8]	_	*->10-2	*[10]	
+1-167	1018-1023	banka	ORG[8]	_	*->10-2	*[10]	
+1-168	1024-1028	pred	_	_	_	_	
+1-169	1029-1035	dobrim	_	_	_	_	
+1-170	1036-1042	tednom	_	_	_	_	
+1-171	1043-1047	tudi	_	_	_	_	
+1-172	1048-1054	uradno	_	_	_	_	
+1-173	1055-1062	postala	_	_	_	_	
+1-174	1063-1066	100	_	_	*->10-3	*[10]	
+1-175	1067-1068	-	_	_	*->10-3	*[10]	
+1-176	1069-1077	odstotna	_	_	*->10-3	*[10]	
+1-177	1078-1086	lastnica	_	_	*->10-3	*[10]	
+1-178	1087-1089	KD	ORG[9]	3 - Nevtralno[35]	*->10-3|*->11-2	*[10]|*[11]	
+1-179	1090-1095	Banke	ORG[9]	3 - Nevtralno[35]	*->10-3|*->11-2	*[10]|*[11]	
+1-180	1096-1097	,	_	_	_	_	
+1-181	1098-1100	je	_	_	_	_	
+1-182	1101-1103	na	_	_	_	_	
+1-183	1104-1111	torkovi	_	_	_	_	
+1-184	1112-1121	skupščini	_	_	_	_	
+1-185	1122-1131	zamenjala	_	_	*->10-4	*[10]	
+1-186	1132-1136	tudi	_	_	_	_	
+1-187	1137-1144	upravni	_	_	_	_	
+1-188	1145-1150	odbor	_	_	_	_	
+1-189	1151-1156	banke	_	_	_	_	
+1-190	1157-1158	.	_	_	_	_	
+1-191	1159-1162	Nov	_	_	_	_	
+1-192	1163-1170	upravni	_	_	_	_	
+1-193	1171-1176	odbor	_	_	_	_	
+1-194	1177-1181	bodo	_	_	_	_	
+1-195	1182-1192	naslednjih	_	_	_	_	
+1-196	1193-1196	pet	_	_	_	_	
+1-197	1197-1200	let	_	_	_	_	
+1-198	1201-1212	sestavljali	_	_	_	_	
+1-199	1213-1223	predsednik	_	4 - Pozitivno[36]	*->12-1	*[12]	
+1-200	1224-1230	uprave	_	4 - Pozitivno[36]	*->12-1	*[12]	
+1-201	1231-1237	Factor	ORG[10]	4 - Pozitivno[36]	*->12-1|*->10-5	*[12]|*[10]	
+1-202	1238-1243	banke	ORG[10]	4 - Pozitivno[36]	*->12-1|*->10-5	*[12]|*[10]	
+1-203	1244-1249	Ciril	PER[11]	4 - Pozitivno[36]	*->12-1	*[12]	
+1-204	1250-1258	Dragonja	PER[11]	4 - Pozitivno[36]	*->12-1	*[12]	
+1-205	1259-1260	,	_	_	_	_	
+1-206	1261-1265	član	_	4 - Pozitivno[37]	*->13-1	*[13]	
+1-207	1266-1272	uprave	_	4 - Pozitivno[37]	*->13-1	*[13]	
+1-208	1273-1279	Factor	ORG[12]	4 - Pozitivno[37]|3 - Nevtralno[38]	*->13-1|*->10-6	*[13]|*[10]	
+1-209	1280-1285	banke	ORG[12]	4 - Pozitivno[37]|3 - Nevtralno[38]	*->13-1|*->10-6	*[13]|*[10]	
+1-210	1286-1291	Dušan	PER[13]	4 - Pozitivno[37]	*->13-1	*[13]	
+1-211	1292-1300	Valenčič	PER[13]	4 - Pozitivno[37]	*->13-1	*[13]	
+1-212	1301-1302	,	_	_	_	_	
+1-213	1303-1310	Polonca	PER[14]	4 - Pozitivno[39]	*->14-1	*[14]	
+1-214	1311-1314	Čeč	PER[14]	4 - Pozitivno[39]	*->14-1	*[14]	
+1-215	1315-1317	in	_	_	_	_	
+1-216	1318-1325	Jerneja	PER[15]	4 - Pozitivno[40]	*->15-1	*[15]	
+1-217	1326-1331	Orelj	PER[15]	4 - Pozitivno[40]	*->15-1	*[15]	
+1-218	1332-1333	.	_	_	_	_	
+1-219	1334-1344	Energoplan	ORG	_	*->16-1	*[16]	
+1-220	1345-1346	z	_	_	_	_	
+1-221	1347-1353	visoko	_	_	_	_	
+1-222	1354-1360	izgubo	_	_	_	_	
+1-223	1361-1370	Gradbinec	_	_	*->16-2	*[16]	
+1-224	1371-1381	Energoplan	ORG	_	*->16-2	*[16]	
+1-225	1382-1383	,	_	_	_	_	
+1-226	1384-1386	ki	_	_	_	_	
+1-227	1387-1389	je	_	_	_	_	
+1-228	1390-1397	nasedel	_	_	*->16-3	*[16]	
+1-229	1398-1399	v	_	_	_	_	
+1-230	1400-1408	Stožicah	LOC	3 - Nevtralno	*->17-1	*[17]	
+1-231	1409-1411	in	_	_	_	_	
+1-232	1412-1414	je	_	_	*->16-4	*[16]	
+1-233	1415-1421	zaradi	_	_	_	_	
+1-234	1422-1426	tega	_	_	_	_	
+1-235	1427-1429	od	_	_	_	_	
+1-236	1430-1434	maja	_	_	_	_	
+1-237	1435-1436	v	_	_	_	_	
+1-238	1437-1445	prisilni	_	_	_	_	
+1-239	1446-1455	poravnavi	_	_	_	_	
+1-240	1456-1457	,	_	_	_	_	
+1-241	1458-1460	je	_	_	_	_	
+1-242	1461-1462	v	_	_	_	_	
+1-243	1463-1469	juniju	_	_	_	_	
+1-244	1470-1478	ustvaril	_	2 - Negativno	*->16-5	*[16]	
+1-245	1479-1486	286.000	_	_	_	_	
+1-246	1487-1492	evrov	_	_	_	_	
+1-247	1493-1498	čiste	_	_	_	_	
+1-248	1499-1505	izgube	_	_	_	_	
+1-249	1506-1507	,	_	_	_	_	
+1-250	1508-1510	ki	_	_	_	_	
+1-251	1511-1513	je	_	_	_	_	
+1-252	1514-1521	nastala	_	_	_	_	
+1-253	1522-1530	predvsem	_	_	_	_	
+1-254	1531-1533	iz	_	_	_	_	
+1-255	1534-1541	naslova	_	_	_	_	
+1-256	1542-1554	financiranja	_	_	_	_	
+1-257	1555-1556	.	_	_	_	_	
+1-258	1557-1563	Studio	ORG[16]	_	*->18-1	*[18]	
+1-259	1564-1571	Moderna	ORG[16]	_	*->18-1	*[18]	
+1-260	1572-1575	pod	_	_	_	_	
+1-261	1576-1584	hipoteko	_	_	_	_	
+1-262	1585-1597	Najbogatejši	_	_	*->19-1	*[19]	
+1-263	1598-1606	Slovenec	PER	3 - Nevtralno	*->19-1|*->20-1	*[19]|*[20]	
+1-264	1607-1612	Sandi	PER[17]	_	*->19-1	*[19]	
+1-265	1613-1618	Češko	PER[17]	_	*->19-1	*[19]	
+1-266	1619-1621	je	_	_	_	_	
+1-267	1622-1624	85	_	_	_	_	
+1-268	1625-1626	-	_	_	_	_	
+1-269	1627-1637	milijonsko	_	_	_	_	
+1-270	1638-1646	posojilo	_	_	_	_	
+1-271	1647-1648	,	_	_	_	_	
+1-272	1649-1655	najeto	_	_	_	_	
+1-273	1656-1659	pri	_	_	_	_	
+1-274	1660-1669	Unicredit	ORG[18]	3 - Nevtralno[41]	*->21-1	*[21]	
+1-275	1670-1675	banki	ORG[18]	3 - Nevtralno[41]	*->21-1	*[21]	
+1-276	1676-1685	Slovenija	ORG[18]|LOC[19]	3 - Nevtralno[41]|3 - Nevtralno[42]	*->21-1|*->7-2	*[21]|*[7]	
+1-277	1686-1687	,	_	_	_	_	
+1-278	1688-1697	zavaroval	_	_	_	_	
+1-279	1698-1699	s	_	_	_	_	
+1-280	1700-1703	100	_	_	_	_	
+1-281	1704-1705	-	_	_	_	_	
+1-282	1706-1715	odstotnim	_	_	_	_	
+1-283	1716-1723	deležem	_	_	_	_	
+1-284	1724-1733	slovenske	_	_	_	_	
+1-285	1734-1740	Studio	ORG[20]	_	*->18-2	*[18]	
+1-286	1741-1748	Moderna	ORG[20]	_	*->18-2	*[18]	
+1-287	1749-1750	,	_	_	_	_	
+1-288	1751-1753	ki	_	_	_	_	
+1-289	1754-1756	jo	_	2 - Negativno	*->18-3	*[18]	
+1-290	1757-1766	lastniško	_	_	_	_	
+1-291	1767-1776	obvladuje	_	3 - Nevtralno	*->19-2	*[19]	
+1-292	1777-1778	.	_	_	_	_	
+1-293	1779-1782	SID	ORG[21]	_	*->22-1	*[22]	
+1-294	1783-1788	banka	ORG[21]	_	*->22-1	*[22]	
+1-295	1789-1798	Iskratelu	ORG	_	*->34-1	*[34]	
+1-296	1799-1801	15	_	_	_	_	
+1-297	1802-1811	milijonov	_	_	_	_	
+1-298	1812-1817	evrov	_	_	_	_	
+1-299	1818-1827	Iskratelu	ORG	_	*->34-2	*[34]	
+1-300	1828-1830	je	_	_	_	_	
+1-301	1831-1834	SID	ORG[22]	_	*->22-2	*[22]	
+1-302	1835-1840	Banka	ORG[22]	_	*->22-2	*[22]	
+1-303	1841-1847	včeraj	_	_	_	_	
+1-304	1848-1856	odobrila	_	_	_	_	
+1-305	1857-1859	15	_	_	_	_	
+1-306	1860-1869	milijonov	_	_	_	_	
+1-307	1870-1876	vredno	_	_	_	_	
+1-308	1877-1887	dolgoročno	_	_	_	_	
+1-309	1888-1896	posojilo	_	_	_	_	
+1-310	1897-1898	.	_	_	_	_	
+1-311	1899-1900	S	_	_	_	_	
+1-312	1901-1904	tem	_	_	_	_	
+1-313	1905-1909	bodo	_	_	_	_	
+1-314	1910-1911	v	_	_	_	_	
+1-315	1912-1921	Iskratelu	ORG	_	*->34-3	*[34]	
+1-316	1922-1933	financirali	_	_	_	_	
+1-317	1934-1941	projekt	_	_	_	_	
+1-318	1942-1946	KPNG	_	_	_	_	
+1-319	1947-1948	-	_	_	_	_	
+1-320	1949-1963	Komunikacijska	_	_	_	_	
+1-321	1964-1973	platforma	_	_	_	_	
+1-322	1974-1978	nove	_	_	_	_	
+1-323	1979-1989	generacije	_	_	_	_	
+1-324	1990-1991	.	_	_	_	_	
+1-325	1992-1993	"	_	_	_	_	
+1-326	1994-1995	S	_	_	_	_	
+1-327	1996-1999	tem	_	_	_	_	
+1-328	2000-2013	financiranjem	_	_	_	_	
+1-329	2014-2024	spodbujamo	_	_	*->34-4	*[34]	
+1-330	2025-2031	razvoj	_	_	_	_	
+1-331	2032-2033	,	_	_	_	_	
+1-332	2034-2043	raziskave	_	_	_	_	
+1-333	2044-2046	in	_	_	_	_	
+1-334	2047-2067	internacionalizacijo	_	_	_	_	
+1-335	2068-2074	družbe	_	4 - Pozitivno[43]	*->34-5	*[34]	
+1-336	2075-2083	Iskratel	ORG	4 - Pozitivno[43]	*->34-5	*[34]	
+1-337	2084-2085	,	_	_	_	_	
+1-338	2086-2087	"	_	_	_	_	
+1-339	2088-2090	je	_	_	_	_	
+1-340	2091-2099	pojasnil	_	_	_	_	
+1-341	2100-2110	predsednik	_	3 - Nevtralno[44]	*->23-1	*[23]	
+1-342	2111-2117	uprave	_	3 - Nevtralno[44]	*->23-1	*[23]	
+1-343	2118-2121	SID	ORG[23]	3 - Nevtralno[44]|3 - Nevtralno[45]	*->23-1|*->22-3	*[23]|*[22]	
+1-344	2122-2127	banke	ORG[23]	3 - Nevtralno[44]|3 - Nevtralno[45]	*->23-1|*->22-3	*[23]|*[22]	
+1-345	2128-2133	Sibil	PER[24]	3 - Nevtralno[44]	*->23-1	*[23]	
+1-346	2134-2140	Svilan	PER[24]	3 - Nevtralno[44]	*->23-1	*[23]	
+1-347	2141-2142	.	_	_	_	_	
+1-348	2143-2146	HSE	ORG	_	*->24-1	*[24]	
+1-349	2147-2148	z	_	_	_	_	
+1-350	2149-2155	novima	_	_	_	_	
+1-351	2156-2168	nadzornikoma	_	_	_	_	
+1-352	2169-2170	V	_	_	_	_	
+1-353	2171-2179	nadzorni	_	_	_	_	
+1-354	2180-2184	svet	_	_	_	_	
+1-355	2185-2188	HSE	ORG	3 - Nevtralno	*->24-2	*[24]	
+1-356	2189-2192	sta	_	_	_	_	
+1-357	2193-2197	bila	_	_	_	_	
+1-358	2198-2202	pred	_	_	_	_	
+1-359	2203-2209	dobrim	_	_	_	_	
+1-360	2210-2216	tednom	_	_	_	_	
+1-361	2217-2226	imenovana	_	_	_	_	
+1-362	2227-2235	Marjanca	PER[25]	4 - Pozitivno[46]	*->25-1	*[25]	
+1-363	2236-2241	Molan	PER[25]	4 - Pozitivno[46]	*->25-1	*[25]	
+1-364	2242-2244	in	_	_	_	_	
+1-365	2245-2254	Stanislav	PER[26]	4 - Pozitivno[47]	*->26-1	*[26]	
+1-366	2255-2264	Prevalnik	PER[26]	4 - Pozitivno[47]	*->26-1	*[26]	
+1-367	2265-2266	,	_	_	_	_	
+1-368	2267-2269	ki	_	_	_	_	
+1-369	2270-2283	predstavljata	_	_	_	_	
+1-370	2284-2293	zaposlene	_	_	_	_	
+1-371	2294-2295	.	_	_	_	_	
+1-372	2296-2301	Mesto	_	_	_	_	
+1-373	2302-2305	med	_	_	_	_	
+1-374	2306-2316	nadzorniki	_	_	_	_	
+1-375	2317-2320	sta	_	_	_	_	
+1-376	2321-2325	jima	_	_	_	_	
+1-377	2326-2336	prepustila	_	_	_	_	
+1-378	2337-2342	Mojca	PER[27]	3 - Nevtralno[48]	*->27-1	*[27]	
+1-379	2343-2350	Turnšek	PER[27]	3 - Nevtralno[48]	*->27-1	*[27]	
+1-380	2351-2353	in	_	_	_	_	
+1-381	2354-2358	Rene	PER[28]	_	*->28-1	*[28]	
+1-382	2359-2366	Jeromel	PER[28]	_	*->28-1	*[28]	
+1-383	2367-2368	,	_	_	_	_	
+1-384	2369-2371	ki	_	_	_	_	
+1-385	2372-2374	je	_	_	_	_	
+1-386	2375-2381	postal	_	_	_	_	
+1-387	2382-2385	nov	_	4 - Pozitivno[49]	*->28-2	*[28]	
+1-388	2386-2395	nadzornik	_	4 - Pozitivno[49]	*->28-2	*[28]	
+1-389	2396-2397	v	_	4 - Pozitivno[49]	*->28-2	*[28]	
+1-390	2398-2406	Dravskih	ORG[29]	4 - Pozitivno[49]|3 - Nevtralno[50]	*->28-2|*->29-1	*[28]|*[29]	
+1-391	2407-2418	elektrarnah	ORG[29]	4 - Pozitivno[49]|3 - Nevtralno[50]	*->28-2|*->29-1	*[28]|*[29]	
+1-392	2419-2426	Maribor	ORG[29]|LOC[30]	4 - Pozitivno[49]|3 - Nevtralno[50]|3 - Nevtralno[51]	*->28-2|*->29-1|*->30-1	*[28]|*[29]|*[30]	
+1-393	2427-2428	.	_	_	_	_	
+1-394	2429-2439	Krašovčeva	PER	_	*->31-1	*[31]	
+1-395	2440-2448	zanikala	_	_	_	_	
+1-396	2449-2455	krivdo	_	_	_	_	
+1-397	2456-2464	Nekdanja	_	_	*->31-2	*[31]	
+1-398	2465-2475	Merkurjeva	ORG	_	*->31-2|*->32-1	*[31]|*[32]	
+1-399	2476-2483	izvršna	_	_	*->31-2	*[31]	
+1-400	2484-2495	direktorica	_	_	*->31-2	*[31]	
+1-401	2496-2498	za	_	_	*->31-2	*[31]	
+1-402	2499-2506	finance	_	_	*->31-2	*[31]	
+1-403	2507-2512	Janja	PER[31]	_	*->31-2	*[31]	
+1-404	2513-2521	Krašovec	PER[31]	_	*->31-2	*[31]	
+1-405	2522-2524	je	_	_	_	_	
+1-406	2525-2527	na	_	_	_	_	
+1-407	2528-2538	včerajšnji	_	_	_	_	
+1-408	2539-2548	obravnavi	_	_	_	_	
+1-409	2549-2551	na	_	_	_	_	
+1-410	2552-2564	ljubljanskem	_	_	_	_	
+1-411	2565-2573	okrožnem	_	_	_	_	
+1-412	2574-2581	sodišču	_	_	_	_	
+1-413	2582-2588	dejala	_	_	_	_	
+1-414	2589-2590	,	_	_	_	_	
+1-415	2591-2593	da	_	_	_	_	
+1-416	2594-2596	ni	_	_	*->31-3	*[31]	
+1-417	2597-2602	kriva	_	_	_	_	
+1-418	2603-2612	očitanega	_	_	_	_	
+1-419	2613-2620	dejanja	_	_	_	_	
+1-420	2621-2627	pomoči	_	_	_	_	
+1-421	2628-2631	pri	_	_	_	_	
+1-422	2632-2643	oškodovanju	_	_	_	_	
+1-423	2644-2652	Merkurja	ORG	_	*->32-2	*[32]	
+1-424	2653-2654	.	_	_	_	_	
+1-425	2655-2664	Poudarila	_	_	*->31-4	*[31]	
+1-426	2665-2667	je	_	_	*->31-4	*[31]	
+1-427	2668-2669	,	_	_	_	_	
+1-428	2670-2672	da	_	_	_	_	
+1-429	2673-2675	je	_	_	_	_	
+1-430	2676-2681	vedno	_	_	_	_	
+1-431	2682-2688	delala	_	_	*->31-5	*[31]	
+1-432	2689-2691	le	_	_	_	_	
+1-433	2692-2699	skladno	_	_	_	_	
+1-434	2700-2701	s	_	_	_	_	
+1-435	2702-2710	poslovno	_	_	_	_	
+1-436	2711-2719	politiko	_	_	_	_	
+1-437	2720-2728	Merkurja	ORG	3 - Nevtralno	*->32-3	*[32]	
+1-438	2729-2730	,	_	_	_	_	
+1-439	2731-2738	prodaja	_	_	_	_	
+1-440	2739-2749	trgovskega	_	2 - Negativno[52]	*->33-1	*[33]	
+1-441	2750-2756	centra	_	2 - Negativno[52]	*->33-1	*[33]	
+1-442	2757-2766	Primskovo	ORG	2 - Negativno[52]	*->33-1	*[33]	
+1-443	2767-2769	pa	_	_	_	_	
+1-444	2770-2775	zanjo	_	2 - Negativno	*->31-6	*[31]	
+1-445	2776-2778	ob	_	_	_	_	
+1-446	2779-2786	podpisu	_	_	_	_	
+1-447	2787-2794	pogodbe	_	_	_	_	
+1-448	2795-2797	ni	_	_	_	_	
+1-449	2798-2802	bila	_	_	_	_	
+1-450	2803-2809	sporna	_	_	_	_	

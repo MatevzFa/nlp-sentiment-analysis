@@ -1,0 +1,434 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Nadzorni svet Telekoma Slovenije je v torek sprejel predlog uprave za znižanje plač vodilnih zaposlenih . Tako bo od 1 . aprila dalje plača predsednika uprave Telekoma Slovenije Bojana Dremlja nižja za 25 odstotkov , v skladu s tem pa bodo urejene tudi plače članov uprave in direktorjev oziroma direktoric hčerinskih družb . Iz Telekoma so še sporočili , da bodo predvidoma jutri objavili sklic skupščine delničarjev , ki bo zasedala 22 . aprila . V IUV vrednotijo nepremičnine in prodajajo zaloge V stečajnem postopku družbe Industrija usnja Vrhnika ( IUV ) trenutno poteka ocenjevanje nepremičnin in odprodaja zalog , je povedala stečajna upraviteljica Nataša Gibičar Toš . Terjatve je za zdaj prijavilo 740 upnikov , rok za prijavo pa se izteče 23 . marca . Največji upniki so delavci in banke . NKBM prodaja nepremičnine Nova Kreditna banka Maribor je objavila začetek zbiranja ponudb za nakup nepremičnin v Sloveniji in na Hrvaškem . Banka v Sloveniji prodaja štiri apartmaje , bungalov in garsonjero v skupni vrednosti slabih 365.000 evrov , na Hrvaškem pa 22 apartmajev , sedem garsonjer ter kontejner v skupni vrednosti dobra dva milijona evrov . Center Naložbe po nakupih lastnih delnic Center Naložbe , ki je prek verige podjetij v večinski lasti direktorja Pivovarne Laško Boška Šrota , je od več malih delničarjev kupil dobrih 1000 lastnih delnic , za katere je po dostopnih podatkih odštel nekaj več kot 4000 evrov . Finetol kuje posle s Probankinimi skladi Finetol , ki velja za enega izmed lastniških stebrov Skupine NFD , je minuli četrtek vzajemnemu skladu Probanka Globalni naložbeni prodal pol odstotka Maksime Invest . Finetol je za delnico Maksime Invest iztržil 5,15 evra , oziroma 6,2 odstotka nad tedanjo borzno ceno . V Elkroju 62 presežnih delavcev V nazarski modni hiši Elkroj , ki je od oktobra leta 2006 v lasti družine Rednak iz Šoštanja , je zaradi precejšnjega upada naročil iz Nemčije presežnih 62 delavcev . NLB z 99,55 - odstotnim deležem v banjaluški Razvojni banki Nova Ljubljanska banka je ta teden povečala lastniški delež v NLB Razvojni banki iz Banjaluke na 99,55 odstotka . Na javno ponudbo , objavljeno 3 . februarja , se je odzvalo 108 delničarjev s skupno 18,05 odstotka delnic . RTH bo ponovno odkopaval premog v Hrastniku Rudnik Trbovlje - Hrastnik bo ponovno odkopaval premog na območju Hrastnika , saj so nove raziskave pokazale , da so v jami Ojstro še vedno velike zaloge kakovostnega premoga , ki jih ocenjujejo na okoli 1,4 milijona ton odprtih zalog , so danes sporočili iz omenjenega rudnika . Pripravil Tomaž
+1-1	0-8	Nadzorni	_	_	_	_	
+1-2	9-13	svet	_	_	_	_	
+1-3	14-22	Telekoma	ORG[1]	_	*->1-1	*[1]	
+1-4	23-32	Slovenije	ORG[1]|LOC[2]	_	*->1-1|*->2-1	*[1]|*[2]	
+1-5	33-35	je	_	_	_	_	
+1-6	36-37	v	_	_	_	_	
+1-7	38-43	torek	_	_	_	_	
+1-8	44-51	sprejel	_	_	_	_	
+1-9	52-59	predlog	_	_	_	_	
+1-10	60-66	uprave	_	_	_	_	
+1-11	67-69	za	_	_	_	_	
+1-12	70-78	znižanje	_	_	_	_	
+1-13	79-83	plač	_	_	_	_	
+1-14	84-92	vodilnih	_	_	_	_	
+1-15	93-103	zaposlenih	_	_	_	_	
+1-16	104-105	.	_	_	_	_	
+1-17	106-110	Tako	_	_	_	_	
+1-18	111-113	bo	_	_	_	_	
+1-19	114-116	od	_	_	_	_	
+1-20	117-118	1	_	_	_	_	
+1-21	119-120	.	_	_	_	_	
+1-22	121-127	aprila	_	_	_	_	
+1-23	128-133	dalje	_	_	_	_	
+1-24	134-139	plača	_	_	_	_	
+1-25	140-151	predsednika	_	2 - Negativno[27]	*->3-1	*[3]	
+1-26	152-158	uprave	_	2 - Negativno[27]	*->3-1	*[3]	
+1-27	159-167	Telekoma	ORG[3]	2 - Negativno[27]	*->3-1|*->1-2	*[3]|*[1]	
+1-28	168-177	Slovenije	ORG[3]|LOC[4]	2 - Negativno[27]	*->3-1|*->1-2|*->2-2	*[3]|*[1]|*[2]	
+1-29	178-184	Bojana	PER[5]	2 - Negativno[27]	*->3-1	*[3]	
+1-30	185-192	Dremlja	PER[5]	2 - Negativno[27]	*->3-1	*[3]	
+1-31	193-198	nižja	_	_	_	_	
+1-32	199-201	za	_	_	_	_	
+1-33	202-204	25	_	_	_	_	
+1-34	205-214	odstotkov	_	_	_	_	
+1-35	215-216	,	_	_	_	_	
+1-36	217-218	v	_	_	_	_	
+1-37	219-225	skladu	_	_	_	_	
+1-38	226-227	s	_	_	_	_	
+1-39	228-231	tem	_	_	_	_	
+1-40	232-234	pa	_	_	_	_	
+1-41	235-239	bodo	_	_	_	_	
+1-42	240-247	urejene	_	_	_	_	
+1-43	248-252	tudi	_	_	_	_	
+1-44	253-258	plače	_	_	_	_	
+1-45	259-265	članov	_	_	_	_	
+1-46	266-272	uprave	_	_	_	_	
+1-47	273-275	in	_	_	_	_	
+1-48	276-287	direktorjev	_	_	_	_	
+1-49	288-295	oziroma	_	_	_	_	
+1-50	296-306	direktoric	_	_	_	_	
+1-51	307-317	hčerinskih	_	_	_	_	
+1-52	318-323	družb	_	_	_	_	
+1-53	324-325	.	_	_	_	_	
+1-54	326-328	Iz	_	_	_	_	
+1-55	329-337	Telekoma	ORG	3 - Nevtralno	*->1-3	*[1]	
+1-56	338-340	so	_	_	_	_	
+1-57	341-343	še	_	_	_	_	
+1-58	344-353	sporočili	_	_	_	_	
+1-59	354-355	,	_	_	_	_	
+1-60	356-358	da	_	_	_	_	
+1-61	359-363	bodo	_	_	_	_	
+1-62	364-374	predvidoma	_	_	_	_	
+1-63	375-380	jutri	_	_	_	_	
+1-64	381-389	objavili	_	_	_	_	
+1-65	390-395	sklic	_	_	_	_	
+1-66	396-405	skupščine	_	_	_	_	
+1-67	406-417	delničarjev	_	_	_	_	
+1-68	418-419	,	_	_	_	_	
+1-69	420-422	ki	_	_	_	_	
+1-70	423-425	bo	_	_	_	_	
+1-71	426-434	zasedala	_	_	_	_	
+1-72	435-437	22	_	_	_	_	
+1-73	438-439	.	_	_	_	_	
+1-74	440-446	aprila	_	_	_	_	
+1-75	447-448	.	_	_	_	_	
+1-76	449-450	V	_	_	_	_	
+1-77	451-454	IUV	ORG	_	*->4-1	*[4]	
+1-78	455-465	vrednotijo	_	_	_	_	
+1-79	466-478	nepremičnine	_	_	_	_	
+1-80	479-481	in	_	_	_	_	
+1-81	482-491	prodajajo	_	_	_	_	
+1-82	492-498	zaloge	_	_	_	_	
+1-83	499-500	V	_	_	_	_	
+1-84	501-510	stečajnem	_	_	_	_	
+1-85	511-519	postopku	_	_	_	_	
+1-86	520-526	družbe	_	_	*->4-2	*[4]	
+1-87	527-537	Industrija	ORG[6]	_	*->4-2	*[4]	
+1-88	538-543	usnja	ORG[6]	_	*->4-2	*[4]	
+1-89	544-551	Vrhnika	ORG[6]|LOC[7]	_	*->4-2|*->5-1	*[4]|*[5]	
+1-90	552-553	(	_	_	_	_	
+1-91	554-557	IUV	ORG	3 - Nevtralno	*->4-3	*[4]	
+1-92	558-559	)	_	_	_	_	
+1-93	560-568	trenutno	_	_	_	_	
+1-94	569-575	poteka	_	_	_	_	
+1-95	576-587	ocenjevanje	_	_	_	_	
+1-96	588-599	nepremičnin	_	_	_	_	
+1-97	600-602	in	_	_	_	_	
+1-98	603-612	odprodaja	_	_	_	_	
+1-99	613-618	zalog	_	_	_	_	
+1-100	619-620	,	_	_	_	_	
+1-101	621-623	je	_	_	_	_	
+1-102	624-632	povedala	_	_	_	_	
+1-103	633-641	stečajna	_	3 - Nevtralno[28]	*->6-1	*[6]	
+1-104	642-655	upraviteljica	_	3 - Nevtralno[28]	*->6-1	*[6]	
+1-105	656-662	Nataša	PER[8]	3 - Nevtralno[28]	*->6-1	*[6]	
+1-106	663-670	Gibičar	PER[8]	3 - Nevtralno[28]	*->6-1	*[6]	
+1-107	671-674	Toš	PER[8]	_	*->6-1	*[6]	
+1-108	675-676	.	_	_	_	_	
+1-109	677-685	Terjatve	_	_	_	_	
+1-110	686-688	je	_	_	_	_	
+1-111	689-691	za	_	_	_	_	
+1-112	692-696	zdaj	_	_	_	_	
+1-113	697-706	prijavilo	_	_	_	_	
+1-114	707-710	740	_	_	_	_	
+1-115	711-718	upnikov	_	_	_	_	
+1-116	719-720	,	_	_	_	_	
+1-117	721-724	rok	_	_	_	_	
+1-118	725-727	za	_	_	_	_	
+1-119	728-735	prijavo	_	_	_	_	
+1-120	736-738	pa	_	_	_	_	
+1-121	739-741	se	_	_	_	_	
+1-122	742-748	izteče	_	_	_	_	
+1-123	749-751	23	_	_	_	_	
+1-124	752-753	.	_	_	_	_	
+1-125	754-759	marca	_	_	_	_	
+1-126	760-761	.	_	_	_	_	
+1-127	762-770	Največji	_	_	_	_	
+1-128	771-777	upniki	_	_	_	_	
+1-129	778-780	so	_	_	_	_	
+1-130	781-788	delavci	_	_	_	_	
+1-131	789-791	in	_	_	_	_	
+1-132	792-797	banke	_	_	_	_	
+1-133	798-799	.	_	_	_	_	
+1-134	800-804	NKBM	ORG	_	*->7-1	*[7]	
+1-135	805-812	prodaja	_	_	_	_	
+1-136	813-825	nepremičnine	_	_	_	_	
+1-137	826-830	Nova	ORG[9]	_	*->7-2	*[7]	
+1-138	831-839	Kreditna	ORG[9]	_	*->7-2	*[7]	
+1-139	840-845	banka	ORG[9]	_	*->7-2	*[7]	
+1-140	846-853	Maribor	ORG[9]|LOC[10]	3 - Nevtralno	*->7-2|*->8-1	*[7]|*[8]	
+1-141	854-856	je	_	_	_	_	
+1-142	857-865	objavila	_	_	_	_	
+1-143	866-873	začetek	_	_	_	_	
+1-144	874-882	zbiranja	_	_	_	_	
+1-145	883-889	ponudb	_	_	_	_	
+1-146	890-892	za	_	_	_	_	
+1-147	893-898	nakup	_	_	_	_	
+1-148	899-910	nepremičnin	_	_	_	_	
+1-149	911-912	v	_	_	_	_	
+1-150	913-922	Sloveniji	LOC	_	*->2-3	*[2]	
+1-151	923-925	in	_	_	_	_	
+1-152	926-928	na	_	_	_	_	
+1-153	929-937	Hrvaškem	LOC	_	*->9-1	*[9]	
+1-154	938-939	.	_	_	_	_	
+1-155	940-945	Banka	_	3 - Nevtralno	*->7-3	*[7]	
+1-156	946-947	v	_	_	_	_	
+1-157	948-957	Sloveniji	LOC	3 - Nevtralno	*->2-4	*[2]	
+1-158	958-965	prodaja	_	_	_	_	
+1-159	966-971	štiri	_	_	_	_	
+1-160	972-981	apartmaje	_	_	_	_	
+1-161	982-983	,	_	_	_	_	
+1-162	984-992	bungalov	_	_	_	_	
+1-163	993-995	in	_	_	_	_	
+1-164	996-1006	garsonjero	_	_	_	_	
+1-165	1007-1008	v	_	_	_	_	
+1-166	1009-1015	skupni	_	_	_	_	
+1-167	1016-1025	vrednosti	_	_	_	_	
+1-168	1026-1032	slabih	_	_	_	_	
+1-169	1033-1040	365.000	_	_	_	_	
+1-170	1041-1046	evrov	_	_	_	_	
+1-171	1047-1048	,	_	_	_	_	
+1-172	1049-1051	na	_	_	_	_	
+1-173	1052-1060	Hrvaškem	LOC	3 - Nevtralno	*->9-2	*[9]	
+1-174	1061-1063	pa	_	_	_	_	
+1-175	1064-1066	22	_	_	_	_	
+1-176	1067-1077	apartmajev	_	_	_	_	
+1-177	1078-1079	,	_	_	_	_	
+1-178	1080-1085	sedem	_	_	_	_	
+1-179	1086-1095	garsonjer	_	_	_	_	
+1-180	1096-1099	ter	_	_	_	_	
+1-181	1100-1109	kontejner	_	_	_	_	
+1-182	1110-1111	v	_	_	_	_	
+1-183	1112-1118	skupni	_	_	_	_	
+1-184	1119-1128	vrednosti	_	_	_	_	
+1-185	1129-1134	dobra	_	_	_	_	
+1-186	1135-1138	dva	_	_	_	_	
+1-187	1139-1147	milijona	_	_	_	_	
+1-188	1148-1153	evrov	_	_	_	_	
+1-189	1154-1155	.	_	_	_	_	
+1-190	1156-1162	Center	ORG[11]	_	*->10-1	*[10]	
+1-191	1163-1170	Naložbe	ORG[11]	_	*->10-1	*[10]	
+1-192	1171-1173	po	_	_	_	_	
+1-193	1174-1181	nakupih	_	_	_	_	
+1-194	1182-1189	lastnih	_	_	_	_	
+1-195	1190-1196	delnic	_	_	_	_	
+1-196	1197-1203	Center	ORG[12]	_	*->10-2	*[10]	
+1-197	1204-1211	Naložbe	ORG[12]	_	*->10-2	*[10]	
+1-198	1212-1213	,	_	_	_	_	
+1-199	1214-1216	ki	_	_	_	_	
+1-200	1217-1219	je	_	_	*->10-3	*[10]	
+1-201	1220-1224	prek	_	_	_	_	
+1-202	1225-1231	verige	_	_	_	_	
+1-203	1232-1240	podjetij	_	_	_	_	
+1-204	1241-1242	v	_	_	_	_	
+1-205	1243-1251	večinski	_	_	_	_	
+1-206	1252-1257	lasti	_	_	_	_	
+1-207	1258-1268	direktorja	_	3 - Nevtralno[29]	*->26-1	*[26]	
+1-208	1269-1278	Pivovarne	ORG[13]	3 - Nevtralno[29]	*->26-1|*->11-1	*[26]|*[11]	
+1-209	1279-1284	Laško	ORG[13]|LOC[14]	3 - Nevtralno[29]|3 - Nevtralno[30]	*->26-1|*->11-1|*->12-1	*[26]|*[11]|*[12]	
+1-210	1285-1290	Boška	PER[15]	3 - Nevtralno[29]	*->26-1	*[26]	
+1-211	1291-1296	Šrota	PER[15]	3 - Nevtralno[29]	*->26-1	*[26]	
+1-212	1297-1298	,	_	_	_	_	
+1-213	1299-1301	je	_	_	_	_	
+1-214	1302-1304	od	_	_	_	_	
+1-215	1305-1308	več	_	_	_	_	
+1-216	1309-1314	malih	_	_	_	_	
+1-217	1315-1326	delničarjev	_	_	_	_	
+1-218	1327-1332	kupil	_	_	_	_	
+1-219	1333-1339	dobrih	_	_	_	_	
+1-220	1340-1344	1000	_	_	_	_	
+1-221	1345-1352	lastnih	_	_	_	_	
+1-222	1353-1359	delnic	_	_	_	_	
+1-223	1360-1361	,	_	_	_	_	
+1-224	1362-1364	za	_	_	_	_	
+1-225	1365-1371	katere	_	_	_	_	
+1-226	1372-1374	je	_	_	_	_	
+1-227	1375-1377	po	_	_	_	_	
+1-228	1378-1387	dostopnih	_	_	_	_	
+1-229	1388-1396	podatkih	_	_	_	_	
+1-230	1397-1403	odštel	_	3 - Nevtralno	*->10-4	*[10]	
+1-231	1404-1409	nekaj	_	_	_	_	
+1-232	1410-1413	več	_	_	_	_	
+1-233	1414-1417	kot	_	_	_	_	
+1-234	1418-1422	4000	_	_	_	_	
+1-235	1423-1428	evrov	_	_	_	_	
+1-236	1429-1430	.	_	_	_	_	
+1-237	1431-1438	Finetol	ORG	_	*->13-1	*[13]	
+1-238	1439-1443	kuje	_	_	_	_	
+1-239	1444-1449	posle	_	_	_	_	
+1-240	1450-1451	s	_	_	_	_	
+1-241	1452-1464	Probankinimi	ORG[16]	_	*->14-1	*[14]	
+1-242	1465-1471	skladi	ORG[16]	_	*->14-1	*[14]	
+1-243	1472-1479	Finetol	ORG	_	*->13-2	*[13]	
+1-244	1480-1481	,	_	_	_	_	
+1-245	1482-1484	ki	_	_	_	_	
+1-246	1485-1490	velja	_	_	_	_	
+1-247	1491-1493	za	_	_	_	_	
+1-248	1494-1499	enega	_	_	*->13-3	*[13]	
+1-249	1500-1505	izmed	_	_	*->13-3	*[13]	
+1-250	1506-1516	lastniških	_	_	*->13-3	*[13]	
+1-251	1517-1524	stebrov	_	_	*->13-3	*[13]	
+1-252	1525-1532	Skupine	ORG[17]	3 - Nevtralno[31]	*->13-3|*->15-1	*[13]|*[15]	
+1-253	1533-1536	NFD	ORG[17]	3 - Nevtralno[31]	*->13-3|*->15-1	*[13]|*[15]	
+1-254	1537-1538	,	_	_	_	_	
+1-255	1539-1541	je	_	_	_	_	
+1-256	1542-1548	minuli	_	_	_	_	
+1-257	1549-1556	četrtek	_	_	_	_	
+1-258	1557-1567	vzajemnemu	_	3 - Nevtralno[32]	*->14-2	*[14]	
+1-259	1568-1574	skladu	_	3 - Nevtralno[32]	*->14-2	*[14]	
+1-260	1575-1583	Probanka	ORG[18]	3 - Nevtralno[32]	*->14-2	*[14]	
+1-261	1584-1592	Globalni	ORG[18]	3 - Nevtralno[32]	*->14-2	*[14]	
+1-262	1593-1602	naložbeni	ORG[18]	_	*->14-2	*[14]	
+1-263	1603-1609	prodal	_	_	_	_	
+1-264	1610-1613	pol	_	_	_	_	
+1-265	1614-1622	odstotka	_	_	_	_	
+1-266	1623-1630	Maksime	ORG[19]	_	*->16-1	*[16]	
+1-267	1631-1637	Invest	ORG[19]	_	*->16-1	*[16]	
+1-268	1638-1639	.	_	_	_	_	
+1-269	1640-1647	Finetol	PER	3 - Nevtralno	*->13-4	*[13]	
+1-270	1648-1650	je	_	_	_	_	
+1-271	1651-1653	za	_	_	_	_	
+1-272	1654-1661	delnico	_	_	_	_	
+1-273	1662-1669	Maksime	ORG[20]	3 - Nevtralno[33]	*->16-2	*[16]	
+1-274	1670-1676	Invest	ORG[20]	3 - Nevtralno[33]	*->16-2	*[16]	
+1-275	1677-1684	iztržil	_	_	_	_	
+1-276	1685-1689	5,15	_	_	_	_	
+1-277	1690-1694	evra	_	_	_	_	
+1-278	1695-1696	,	_	_	_	_	
+1-279	1697-1704	oziroma	_	_	_	_	
+1-280	1705-1708	6,2	_	_	_	_	
+1-281	1709-1717	odstotka	_	_	_	_	
+1-282	1718-1721	nad	_	_	_	_	
+1-283	1722-1729	tedanjo	_	_	_	_	
+1-284	1730-1736	borzno	_	_	_	_	
+1-285	1737-1741	ceno	_	_	_	_	
+1-286	1742-1743	.	_	_	_	_	
+1-287	1744-1745	V	_	_	_	_	
+1-288	1746-1753	Elkroju	ORG	_	*->17-1	*[17]	
+1-289	1754-1756	62	_	_	_	_	
+1-290	1757-1766	presežnih	_	_	_	_	
+1-291	1767-1775	delavcev	_	_	_	_	
+1-292	1776-1777	V	_	_	_	_	
+1-293	1778-1786	nazarski	_	_	*->17-2	*[17]	
+1-294	1787-1792	modni	_	_	*->17-2	*[17]	
+1-295	1793-1797	hiši	_	_	*->17-2	*[17]	
+1-296	1798-1804	Elkroj	ORG	_	*->17-2	*[17]	
+1-297	1805-1806	,	_	_	_	_	
+1-298	1807-1809	ki	_	_	_	_	
+1-299	1810-1812	je	_	2 - Negativno	*->17-3	*[17]	
+1-300	1813-1815	od	_	_	_	_	
+1-301	1816-1823	oktobra	_	_	_	_	
+1-302	1824-1828	leta	_	_	_	_	
+1-303	1829-1833	2006	_	_	_	_	
+1-304	1834-1835	v	_	_	_	_	
+1-305	1836-1841	lasti	_	_	_	_	
+1-306	1842-1849	družine	_	3 - Nevtralno[34]	*->27-1	*[27]	
+1-307	1850-1856	Rednak	PER	3 - Nevtralno[34]	*->27-1	*[27]	
+1-308	1857-1859	iz	_	3 - Nevtralno[34]	*->27-1	*[27]	
+1-309	1860-1868	Šoštanja	LOC	3 - Nevtralno[34]|3 - Nevtralno[35]	*->27-1|*->18-1	*[27]|*[18]	
+1-310	1869-1870	,	_	_	_	_	
+1-311	1871-1873	je	_	_	_	_	
+1-312	1874-1880	zaradi	_	_	_	_	
+1-313	1881-1893	precejšnjega	_	_	_	_	
+1-314	1894-1899	upada	_	_	_	_	
+1-315	1900-1907	naročil	_	_	_	_	
+1-316	1908-1910	iz	_	_	_	_	
+1-317	1911-1918	Nemčije	LOC	3 - Nevtralno	*->19-1	*[19]	
+1-318	1919-1928	presežnih	_	_	_	_	
+1-319	1929-1931	62	_	_	_	_	
+1-320	1932-1940	delavcev	_	_	_	_	
+1-321	1941-1942	.	_	_	_	_	
+1-322	1943-1946	NLB	ORG	_	*->20-1	*[20]	
+1-323	1947-1948	z	_	_	_	_	
+1-324	1949-1954	99,55	_	_	_	_	
+1-325	1955-1956	-	_	_	_	_	
+1-326	1957-1966	odstotnim	_	_	_	_	
+1-327	1967-1974	deležem	_	_	_	_	
+1-328	1975-1976	v	_	_	_	_	
+1-329	1977-1987	banjaluški	_	_	_	_	
+1-330	1988-1996	Razvojni	ORG[21]	_	*->21-1	*[21]	
+1-331	1997-2002	banki	ORG[21]	_	*->21-1	*[21]	
+1-332	2003-2007	Nova	ORG[22]	3 - Nevtralno[36]	*->20-2	*[20]	
+1-333	2008-2019	Ljubljanska	ORG[22]	3 - Nevtralno[36]	*->20-2	*[20]	
+1-334	2020-2025	banka	ORG[22]	3 - Nevtralno[36]	*->20-2	*[20]	
+1-335	2026-2028	je	_	_	_	_	
+1-336	2029-2031	ta	_	_	_	_	
+1-337	2032-2037	teden	_	_	_	_	
+1-338	2038-2046	povečala	_	_	_	_	
+1-339	2047-2056	lastniški	_	_	_	_	
+1-340	2057-2062	delež	_	_	_	_	
+1-341	2063-2064	v	_	_	_	_	
+1-342	2065-2068	NLB	ORG[23]	3 - Nevtralno[37]	*->21-2	*[21]	
+1-343	2069-2077	Razvojni	ORG[23]	3 - Nevtralno[37]	*->21-2	*[21]	
+1-344	2078-2083	banki	ORG[23]	3 - Nevtralno[37]	*->21-2	*[21]	
+1-345	2084-2086	iz	_	_	_	_	
+1-346	2087-2096	Banjaluke	LOC	3 - Nevtralno	*->22-1	*[22]	
+1-347	2097-2099	na	_	_	_	_	
+1-348	2100-2105	99,55	_	_	_	_	
+1-349	2106-2114	odstotka	_	_	_	_	
+1-350	2115-2116	.	_	_	_	_	
+1-351	2117-2119	Na	_	_	_	_	
+1-352	2120-2125	javno	_	_	_	_	
+1-353	2126-2133	ponudbo	_	_	_	_	
+1-354	2134-2135	,	_	_	_	_	
+1-355	2136-2146	objavljeno	_	_	_	_	
+1-356	2147-2148	3	_	_	_	_	
+1-357	2149-2150	.	_	_	_	_	
+1-358	2151-2160	februarja	_	_	_	_	
+1-359	2161-2162	,	_	_	_	_	
+1-360	2163-2165	se	_	_	_	_	
+1-361	2166-2168	je	_	_	_	_	
+1-362	2169-2176	odzvalo	_	_	_	_	
+1-363	2177-2180	108	_	_	_	_	
+1-364	2181-2192	delničarjev	_	_	_	_	
+1-365	2193-2194	s	_	_	_	_	
+1-366	2195-2201	skupno	_	_	_	_	
+1-367	2202-2207	18,05	_	_	_	_	
+1-368	2208-2216	odstotka	_	_	_	_	
+1-369	2217-2223	delnic	_	_	_	_	
+1-370	2224-2225	.	_	_	_	_	
+1-371	2226-2229	RTH	ORG	_	*->23-1	*[23]	
+1-372	2230-2232	bo	_	_	_	_	
+1-373	2233-2240	ponovno	_	_	_	_	
+1-374	2241-2250	odkopaval	_	_	_	_	
+1-375	2251-2257	premog	_	_	_	_	
+1-376	2258-2259	v	_	_	_	_	
+1-377	2260-2269	Hrastniku	LOC	_	*->24-1	*[24]	
+1-378	2270-2276	Rudnik	ORG[24]	_	*->23-2	*[23]	
+1-379	2277-2285	Trbovlje	ORG[24]|LOC[25]	_	*->23-2	*[23]	
+1-380	2286-2287	-	ORG[24]	_	*->23-2	*[23]	
+1-381	2288-2296	Hrastnik	ORG[24]|LOC[26]	_	*->23-2|*->24-2	*[23]|*[24]	
+1-382	2297-2299	bo	_	_	_	_	
+1-383	2300-2307	ponovno	_	_	_	_	
+1-384	2308-2317	odkopaval	_	_	_	_	
+1-385	2318-2324	premog	_	_	_	_	
+1-386	2325-2327	na	_	_	_	_	
+1-387	2328-2335	območju	_	_	_	_	
+1-388	2336-2345	Hrastnika	LOC	3 - Nevtralno	*->24-3	*[24]	
+1-389	2346-2347	,	_	_	_	_	
+1-390	2348-2351	saj	_	_	_	_	
+1-391	2352-2354	so	_	_	_	_	
+1-392	2355-2359	nove	_	_	_	_	
+1-393	2360-2369	raziskave	_	_	_	_	
+1-394	2370-2378	pokazale	_	_	_	_	
+1-395	2379-2380	,	_	_	_	_	
+1-396	2381-2383	da	_	_	_	_	
+1-397	2384-2386	so	_	_	_	_	
+1-398	2387-2388	v	_	_	_	_	
+1-399	2389-2393	jami	_	_	_	_	
+1-400	2394-2400	Ojstro	_	_	_	_	
+1-401	2401-2403	še	_	_	_	_	
+1-402	2404-2409	vedno	_	_	_	_	
+1-403	2410-2416	velike	_	_	_	_	
+1-404	2417-2423	zaloge	_	_	_	_	
+1-405	2424-2436	kakovostnega	_	_	_	_	
+1-406	2437-2444	premoga	_	_	_	_	
+1-407	2445-2446	,	_	_	_	_	
+1-408	2447-2449	ki	_	_	_	_	
+1-409	2450-2453	jih	_	_	_	_	
+1-410	2454-2464	ocenjujejo	_	_	_	_	
+1-411	2465-2467	na	_	_	_	_	
+1-412	2468-2473	okoli	_	_	_	_	
+1-413	2474-2477	1,4	_	_	_	_	
+1-414	2478-2486	milijona	_	_	_	_	
+1-415	2487-2490	ton	_	_	_	_	
+1-416	2491-2498	odprtih	_	_	_	_	
+1-417	2499-2504	zalog	_	_	_	_	
+1-418	2505-2506	,	_	_	_	_	
+1-419	2507-2509	so	_	_	_	_	
+1-420	2510-2515	danes	_	_	_	_	
+1-421	2516-2525	sporočili	_	_	_	_	
+1-422	2526-2528	iz	_	_	_	_	
+1-423	2529-2539	omenjenega	_	4 - Pozitivno[38]	*->23-3	*[23]	
+1-424	2540-2547	rudnika	_	4 - Pozitivno[38]	*->23-3	*[23]	
+1-425	2548-2549	.	_	_	_	_	
+1-426	2550-2559	Pripravil	_	_	_	_	
+1-427	2560-2565	Tomaž	PER	3 - Nevtralno	*->25-1	*[25]	

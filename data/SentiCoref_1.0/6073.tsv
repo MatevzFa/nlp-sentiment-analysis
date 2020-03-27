@@ -1,0 +1,387 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Anton Stres , nekdanji slovenski nadškof , je bil opažen v obmorski rezidenci družine Čerček v Lovrečici pri Umagu . V ljubljanski nadškofiji koledarja obiskov Antona Stresa ne vodijo več Viri so nas obvestili , da je bil nekdanji nadškof Anton Stres danes na obisku v obmorski rezidenci vplivne mariborske družine Čerček v obmorskem naselju Lovrečica ob severozahodni obali Istre . Kakšen je bil namen obiska nekdanjega nadškofa pri Čerčkovih , preverjamo . Poklicali smo službo za odnose z javnostmi pri Slovenski škofovski konferenci ( SŠK ) , kjer pravijo , da o trenutnih dejavnostih Antona Stresa ne vedno nič . Z vprašanji so nas napotili na ljubljansko nadškofijo . Tam so nam povedali , da informacije , kje je nekdanji nadškof , nimajo , saj je v začetku avgusta zapustil nadškofijo . Kot dodajajo , Stres od takrat deluje samostojno , vendar v skladu z navodili Vatikana . Slike rezidence družine Čerček v Lovrečici si lahko ogledate v članku časnika Dnevnik . Nekdanji slovenski nadškof Anton Stres , ki je pred nedavnim prevzel objektivno odgovornost za zlom mariborske nadškofije in odstopil , se menda hladi v senci večmilijonske obmorske vile družine Čerček . Poslovne vezi Emanuela Čerčka in Antona Stresa Spomnimo , Emanuel Čerček je nekdanji sodelavec Antona Stresa . Bil je namreč zadnji šef nadzornega sveta propadlega Zvona Ena in ravnatelj Zavoda Martina Slomška , ki je v lasti mariborske nadškofije . Čerček je sicer v zadnjih letih zamenjal več služb in položajev . Nazadnje ga je za svojega svetovalca zaposlil nekdanji minister za infrastrukturo Zvonko Černač , pred tem pa je bil svetovalec nekdanjega mariborskega župana Franca Kanglerja . V prvi vladi Janeza Janše je Čerček vodil službo za investicije pri ministru za šolstvo in šport Milanu Zveru . Kot je tedaj poročal Dnevnik , je v tistem času pri več naložbah , ki jih je sofinanciralo šolsko ministrstvo , kot podizvajalec nastopalo podjetje Elektro Tabga , ki je v lasti Ivana Čerčka , ki je Emanuelov oče . Tudi Elektro Tagba je danes v stečaju . Emanuel Čerček je danes namestnik predsednika nadzornega sveta v Stanovanjskem skladu RS . Pred tem je bil do marca član nadzornega sveta Družbe za razvoj infrastrukture ( DRI ) , bil pa je tudi predsednik nadzornikov Steklarske nove v stečaju
+1-1	0-5	Anton	PER[1]	_	*->1-1	*[1]	
+1-2	6-11	Stres	PER[1]	_	*->1-1	*[1]	
+1-3	12-13	,	_	_	_	_	
+1-4	14-22	nekdanji	_	_	*->1-2	*[1]	
+1-5	23-32	slovenski	_	_	*->1-2	*[1]	
+1-6	33-40	nadškof	_	_	*->1-2	*[1]	
+1-7	41-42	,	_	_	_	_	
+1-8	43-45	je	_	_	_	_	
+1-9	46-49	bil	_	_	_	_	
+1-10	50-56	opažen	_	_	_	_	
+1-11	57-58	v	_	_	_	_	
+1-12	59-67	obmorski	_	_	_	_	
+1-13	68-77	rezidenci	_	_	_	_	
+1-14	78-85	družine	_	_	*->5-1	*[5]	
+1-15	86-92	Čerček	PER	_	*->5-1	*[5]	
+1-16	93-94	v	_	_	_	_	
+1-17	95-104	Lovrečici	LOC	_	*->3-1	*[3]	
+1-18	105-108	pri	_	_	*->3-1	*[3]	
+1-19	109-114	Umagu	LOC	3 - Nevtralno	*->3-1|*->4-1	*[3]|*[4]	
+1-20	115-116	.	_	_	_	_	
+1-21	117-118	V	_	_	_	_	
+1-22	119-130	ljubljanski	_	_	_	_	
+1-23	131-141	nadškofiji	_	_	_	_	
+1-24	142-151	koledarja	_	_	_	_	
+1-25	152-159	obiskov	_	_	_	_	
+1-26	160-166	Antona	PER[2]	_	*->1-3	*[1]	
+1-27	167-173	Stresa	PER[2]	_	*->1-3	*[1]	
+1-28	174-176	ne	_	_	_	_	
+1-29	177-183	vodijo	_	_	_	_	
+1-30	184-187	več	_	_	_	_	
+1-31	188-192	Viri	_	_	_	_	
+1-32	193-195	so	_	_	_	_	
+1-33	196-199	nas	_	_	_	_	
+1-34	200-209	obvestili	_	_	_	_	
+1-35	210-211	,	_	_	_	_	
+1-36	212-214	da	_	_	_	_	
+1-37	215-217	je	_	_	_	_	
+1-38	218-221	bil	_	_	_	_	
+1-39	222-230	nekdanji	_	_	*->1-4	*[1]	
+1-40	231-238	nadškof	_	_	*->1-4	*[1]	
+1-41	239-244	Anton	PER[3]	_	*->1-4	*[1]	
+1-42	245-250	Stres	PER[3]	_	*->1-4	*[1]	
+1-43	251-256	danes	_	_	_	_	
+1-44	257-259	na	_	_	_	_	
+1-45	260-266	obisku	_	_	_	_	
+1-46	267-268	v	_	_	_	_	
+1-47	269-277	obmorski	_	_	_	_	
+1-48	278-287	rezidenci	_	_	_	_	
+1-49	288-295	vplivne	_	_	*->5-2	*[5]	
+1-50	296-306	mariborske	_	_	*->5-2	*[5]	
+1-51	307-314	družine	_	_	*->5-2	*[5]	
+1-52	315-321	Čerček	PER	_	*->5-2	*[5]	
+1-53	322-323	v	_	_	_	_	
+1-54	324-333	obmorskem	_	_	*->3-2	*[3]	
+1-55	334-341	naselju	_	_	*->3-2	*[3]	
+1-56	342-351	Lovrečica	LOC	_	*->3-2	*[3]	
+1-57	352-354	ob	_	_	_	_	
+1-58	355-368	severozahodni	_	_	_	_	
+1-59	369-374	obali	_	_	_	_	
+1-60	375-380	Istre	LOC	3 - Nevtralno	*->6-1	*[6]	
+1-61	381-382	.	_	_	_	_	
+1-62	383-389	Kakšen	_	_	_	_	
+1-63	390-392	je	_	_	_	_	
+1-64	393-396	bil	_	_	_	_	
+1-65	397-402	namen	_	_	_	_	
+1-66	403-409	obiska	_	_	_	_	
+1-67	410-420	nekdanjega	_	_	*->1-5	*[1]	
+1-68	421-429	nadškofa	_	_	*->1-5	*[1]	
+1-69	430-433	pri	_	_	_	_	
+1-70	434-443	Čerčkovih	PER	_	*->5-3	*[5]	
+1-71	444-445	,	_	_	_	_	
+1-72	446-456	preverjamo	_	_	_	_	
+1-73	457-458	.	_	_	_	_	
+1-74	459-468	Poklicali	_	_	_	_	
+1-75	469-472	smo	_	_	_	_	
+1-76	473-479	službo	_	_	_	_	
+1-77	480-482	za	_	_	_	_	
+1-78	483-489	odnose	_	_	_	_	
+1-79	490-491	z	_	_	_	_	
+1-80	492-501	javnostmi	_	_	_	_	
+1-81	502-505	pri	_	_	_	_	
+1-82	506-515	Slovenski	ORG[4]	_	*->7-1	*[7]	
+1-83	516-525	škofovski	ORG[4]	_	*->7-1	*[7]	
+1-84	526-536	konferenci	ORG[4]	_	*->7-1	*[7]	
+1-85	537-538	(	_	_	_	_	
+1-86	539-542	SŠK	ORG	_	*->7-2	*[7]	
+1-87	543-544	)	_	_	_	_	
+1-88	545-546	,	_	_	_	_	
+1-89	547-551	kjer	_	_	*->7-3	*[7]	
+1-90	552-559	pravijo	_	_	_	_	
+1-91	560-561	,	_	_	_	_	
+1-92	562-564	da	_	_	_	_	
+1-93	565-566	o	_	_	_	_	
+1-94	567-576	trenutnih	_	_	_	_	
+1-95	577-588	dejavnostih	_	_	_	_	
+1-96	589-595	Antona	PER[5]	_	*->1-6	*[1]	
+1-97	596-602	Stresa	PER[5]	_	*->1-6	*[1]	
+1-98	603-605	ne	_	_	_	_	
+1-99	606-611	vedno	_	_	_	_	
+1-100	612-615	nič	_	_	_	_	
+1-101	616-617	.	_	_	_	_	
+1-102	618-619	Z	_	_	_	_	
+1-103	620-629	vprašanji	_	_	_	_	
+1-104	630-632	so	_	_	_	_	
+1-105	633-636	nas	_	_	_	_	
+1-106	637-645	napotili	_	3 - Nevtralno	*->7-4	*[7]	
+1-107	646-648	na	_	_	_	_	
+1-108	649-660	ljubljansko	_	_	_	_	
+1-109	661-671	nadškofijo	_	_	_	_	
+1-110	672-673	.	_	_	_	_	
+1-111	674-677	Tam	_	_	_	_	
+1-112	678-680	so	_	_	_	_	
+1-113	681-684	nam	_	_	_	_	
+1-114	685-693	povedali	_	_	_	_	
+1-115	694-695	,	_	_	_	_	
+1-116	696-698	da	_	_	_	_	
+1-117	699-710	informacije	_	_	_	_	
+1-118	711-712	,	_	_	_	_	
+1-119	713-716	kje	_	_	_	_	
+1-120	717-719	je	_	_	_	_	
+1-121	720-728	nekdanji	_	_	*->1-7	*[1]	
+1-122	729-736	nadškof	_	_	*->1-7	*[1]	
+1-123	737-738	,	_	_	_	_	
+1-124	739-745	nimajo	_	_	_	_	
+1-125	746-747	,	_	_	_	_	
+1-126	748-751	saj	_	_	_	_	
+1-127	752-754	je	_	_	_	_	
+1-128	755-756	v	_	_	_	_	
+1-129	757-764	začetku	_	_	_	_	
+1-130	765-772	avgusta	_	_	_	_	
+1-131	773-781	zapustil	_	_	*->1-8	*[1]	
+1-132	782-792	nadškofijo	_	_	_	_	
+1-133	793-794	.	_	_	_	_	
+1-134	795-798	Kot	_	_	_	_	
+1-135	799-807	dodajajo	_	_	_	_	
+1-136	808-809	,	_	_	_	_	
+1-137	810-815	Stres	PER	_	*->1-9	*[1]	
+1-138	816-818	od	_	_	_	_	
+1-139	819-825	takrat	_	_	_	_	
+1-140	826-832	deluje	_	_	_	_	
+1-141	833-843	samostojno	_	_	_	_	
+1-142	844-845	,	_	_	_	_	
+1-143	846-852	vendar	_	_	_	_	
+1-144	853-854	v	_	_	_	_	
+1-145	855-861	skladu	_	_	_	_	
+1-146	862-863	z	_	_	_	_	
+1-147	864-872	navodili	_	_	_	_	
+1-148	873-881	Vatikana	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-149	882-883	.	_	_	_	_	
+1-150	884-889	Slike	_	_	_	_	
+1-151	890-899	rezidence	_	_	_	_	
+1-152	900-907	družine	_	_	*->5-4	*[5]	
+1-153	908-914	Čerček	PER	_	*->5-4	*[5]	
+1-154	915-916	v	_	_	_	_	
+1-155	917-926	Lovrečici	LOC	3 - Nevtralno	*->3-3	*[3]	
+1-156	927-929	si	_	_	_	_	
+1-157	930-935	lahko	_	_	_	_	
+1-158	936-944	ogledate	_	_	_	_	
+1-159	945-946	v	_	_	_	_	
+1-160	947-953	članku	_	_	_	_	
+1-161	954-961	časnika	_	_	*->16-1	*[16]	
+1-162	962-969	Dnevnik	ORG	_	*->16-1	*[16]	
+1-163	970-971	.	_	_	_	_	
+1-164	972-980	Nekdanji	_	_	*->1-10	*[1]	
+1-165	981-990	slovenski	_	_	*->1-10	*[1]	
+1-166	991-998	nadškof	_	_	*->1-10	*[1]	
+1-167	999-1004	Anton	PER[6]	_	*->1-10	*[1]	
+1-168	1005-1010	Stres	PER[6]	_	*->1-10	*[1]	
+1-169	1011-1012	,	_	_	_	_	
+1-170	1013-1015	ki	_	_	_	_	
+1-171	1016-1018	je	_	_	_	_	
+1-172	1019-1023	pred	_	_	_	_	
+1-173	1024-1032	nedavnim	_	_	_	_	
+1-174	1033-1040	prevzel	_	_	*->1-11	*[1]	
+1-175	1041-1051	objektivno	_	_	_	_	
+1-176	1052-1063	odgovornost	_	_	_	_	
+1-177	1064-1066	za	_	_	_	_	
+1-178	1067-1071	zlom	_	_	_	_	
+1-179	1072-1082	mariborske	_	_	_	_	
+1-180	1083-1093	nadškofije	_	_	_	_	
+1-181	1094-1096	in	_	_	_	_	
+1-182	1097-1105	odstopil	_	_	*->1-12	*[1]	
+1-183	1106-1107	,	_	_	_	_	
+1-184	1108-1110	se	_	_	_	_	
+1-185	1111-1116	menda	_	_	_	_	
+1-186	1117-1122	hladi	_	_	_	_	
+1-187	1123-1124	v	_	_	_	_	
+1-188	1125-1130	senci	_	_	_	_	
+1-189	1131-1144	večmilijonske	_	_	_	_	
+1-190	1145-1153	obmorske	_	_	_	_	
+1-191	1154-1158	vile	_	_	_	_	
+1-192	1159-1166	družine	_	3 - Nevtralno[26]	*->5-5	*[5]	
+1-193	1167-1173	Čerček	PER	3 - Nevtralno[26]	*->5-5	*[5]	
+1-194	1174-1175	.	_	_	_	_	
+1-195	1176-1184	Poslovne	_	_	_	_	
+1-196	1185-1189	vezi	_	_	_	_	
+1-197	1190-1198	Emanuela	PER[7]	_	*->2-1	*[2]	
+1-198	1199-1205	Čerčka	PER[7]	_	*->2-1	*[2]	
+1-199	1206-1208	in	_	_	_	_	
+1-200	1209-1215	Antona	PER[8]	_	*->1-13	*[1]	
+1-201	1216-1222	Stresa	PER[8]	_	*->1-13	*[1]	
+1-202	1223-1231	Spomnimo	_	_	_	_	
+1-203	1232-1233	,	_	_	_	_	
+1-204	1234-1241	Emanuel	PER[9]	_	*->2-2	*[2]	
+1-205	1242-1248	Čerček	PER[9]	_	*->2-2	*[2]	
+1-206	1249-1251	je	_	_	_	_	
+1-207	1252-1260	nekdanji	_	_	*->2-3	*[2]	
+1-208	1261-1270	sodelavec	_	_	*->2-3	*[2]	
+1-209	1271-1277	Antona	PER[10]	2 - Negativno[27]	*->2-3|*->1-14	*[2]|*[1]	
+1-210	1278-1284	Stresa	PER[10]	2 - Negativno[27]	*->2-3|*->1-14	*[2]|*[1]	
+1-211	1285-1286	.	_	_	_	_	
+1-212	1287-1290	Bil	_	_	*->2-4	*[2]	
+1-213	1291-1293	je	_	_	_	_	
+1-214	1294-1300	namreč	_	_	_	_	
+1-215	1301-1307	zadnji	_	_	*->2-5	*[2]	
+1-216	1308-1311	šef	_	_	*->2-5	*[2]	
+1-217	1312-1322	nadzornega	_	_	*->2-5	*[2]	
+1-218	1323-1328	sveta	_	_	*->2-5	*[2]	
+1-219	1329-1339	propadlega	_	_	*->2-5	*[2]	
+1-220	1340-1345	Zvona	ORG[11]	2 - Negativno[28]	*->2-5|*->9-1	*[2]|*[9]	
+1-221	1346-1349	Ena	ORG[11]	2 - Negativno[28]	*->2-5|*->9-1	*[2]|*[9]	
+1-222	1350-1352	in	_	_	_	_	
+1-223	1353-1362	ravnatelj	_	_	*->2-6	*[2]	
+1-224	1363-1369	Zavoda	ORG[12]	_	*->2-6|*->10-1	*[2]|*[10]	
+1-225	1370-1377	Martina	ORG[12]|PER[13]	3 - Nevtralno[29]	*->2-6|*->10-1|*->11-1	*[2]|*[10]|*[11]	
+1-226	1378-1385	Slomška	ORG[12]|PER[13]	3 - Nevtralno[29]	*->2-6|*->10-1|*->11-1	*[2]|*[10]|*[11]	
+1-227	1386-1387	,	_	_	_	_	
+1-228	1388-1390	ki	_	_	_	_	
+1-229	1391-1393	je	_	3 - Nevtralno	*->10-2	*[10]	
+1-230	1394-1395	v	_	_	_	_	
+1-231	1396-1401	lasti	_	_	_	_	
+1-232	1402-1412	mariborske	_	_	_	_	
+1-233	1413-1423	nadškofije	_	_	_	_	
+1-234	1424-1425	.	_	_	_	_	
+1-235	1426-1432	Čerček	PER	_	*->2-7	*[2]	
+1-236	1433-1435	je	_	_	_	_	
+1-237	1436-1441	sicer	_	_	_	_	
+1-238	1442-1443	v	_	_	_	_	
+1-239	1444-1451	zadnjih	_	_	_	_	
+1-240	1452-1457	letih	_	_	_	_	
+1-241	1458-1466	zamenjal	_	_	_	_	
+1-242	1467-1470	več	_	_	_	_	
+1-243	1471-1476	služb	_	_	_	_	
+1-244	1477-1479	in	_	_	_	_	
+1-245	1480-1489	položajev	_	_	_	_	
+1-246	1490-1491	.	_	_	_	_	
+1-247	1492-1500	Nazadnje	_	_	_	_	
+1-248	1501-1503	ga	_	_	*->2-8	*[2]	
+1-249	1504-1506	je	_	_	_	_	
+1-250	1507-1509	za	_	_	_	_	
+1-251	1510-1517	svojega	_	_	_	_	
+1-252	1518-1528	svetovalca	_	_	_	_	
+1-253	1529-1537	zaposlil	_	_	_	_	
+1-254	1538-1546	nekdanji	_	3 - Nevtralno[30]	*->12-1	*[12]	
+1-255	1547-1555	minister	_	3 - Nevtralno[30]	*->12-1	*[12]	
+1-256	1556-1558	za	_	3 - Nevtralno[30]	*->12-1	*[12]	
+1-257	1559-1573	infrastrukturo	_	3 - Nevtralno[30]	*->12-1	*[12]	
+1-258	1574-1580	Zvonko	PER[14]	3 - Nevtralno[30]	*->12-1	*[12]	
+1-259	1581-1587	Černač	PER[14]	3 - Nevtralno[30]	*->12-1	*[12]	
+1-260	1588-1589	,	_	_	_	_	
+1-261	1590-1594	pred	_	_	_	_	
+1-262	1595-1598	tem	_	_	_	_	
+1-263	1599-1601	pa	_	_	_	_	
+1-264	1602-1604	je	_	_	_	_	
+1-265	1605-1608	bil	_	_	_	_	
+1-266	1609-1619	svetovalec	_	_	*->2-9	*[2]	
+1-267	1620-1630	nekdanjega	_	3 - Nevtralno[31]	*->2-9|*->13-1	*[2]|*[13]	
+1-268	1631-1643	mariborskega	_	3 - Nevtralno[31]	*->2-9|*->13-1	*[2]|*[13]	
+1-269	1644-1650	župana	_	3 - Nevtralno[31]	*->2-9|*->13-1	*[2]|*[13]	
+1-270	1651-1657	Franca	PER[15]	3 - Nevtralno[31]	*->2-9|*->13-1	*[2]|*[13]	
+1-271	1658-1667	Kanglerja	PER[15]	3 - Nevtralno[31]	*->2-9|*->13-1	*[2]|*[13]	
+1-272	1668-1669	.	_	_	_	_	
+1-273	1670-1671	V	_	_	_	_	
+1-274	1672-1676	prvi	_	_	_	_	
+1-275	1677-1682	vladi	_	_	_	_	
+1-276	1683-1689	Janeza	PER[16]	3 - Nevtralno[32]	*->14-1	*[14]	
+1-277	1690-1695	Janše	PER[16]	3 - Nevtralno[32]	*->14-1	*[14]	
+1-278	1696-1698	je	_	_	_	_	
+1-279	1699-1705	Čerček	PER	_	*->2-10	*[2]	
+1-280	1706-1711	vodil	_	_	_	_	
+1-281	1712-1718	službo	_	_	_	_	
+1-282	1719-1721	za	_	_	_	_	
+1-283	1722-1733	investicije	_	_	_	_	
+1-284	1734-1737	pri	_	_	_	_	
+1-285	1738-1746	ministru	_	3 - Nevtralno[33]	*->15-1	*[15]	
+1-286	1747-1749	za	_	3 - Nevtralno[33]	*->15-1	*[15]	
+1-287	1750-1757	šolstvo	_	3 - Nevtralno[33]	*->15-1	*[15]	
+1-288	1758-1760	in	_	3 - Nevtralno[33]	*->15-1	*[15]	
+1-289	1761-1766	šport	_	3 - Nevtralno[33]	*->15-1	*[15]	
+1-290	1767-1773	Milanu	PER[17]	3 - Nevtralno[33]	*->15-1	*[15]	
+1-291	1774-1779	Zveru	PER[17]	3 - Nevtralno[33]	*->15-1	*[15]	
+1-292	1780-1781	.	_	_	_	_	
+1-293	1782-1785	Kot	_	_	_	_	
+1-294	1786-1788	je	_	_	_	_	
+1-295	1789-1794	tedaj	_	_	_	_	
+1-296	1795-1802	poročal	_	_	_	_	
+1-297	1803-1810	Dnevnik	ORG	3 - Nevtralno	*->16-2	*[16]	
+1-298	1811-1812	,	_	_	_	_	
+1-299	1813-1815	je	_	_	_	_	
+1-300	1816-1817	v	_	_	_	_	
+1-301	1818-1824	tistem	_	_	_	_	
+1-302	1825-1829	času	_	_	_	_	
+1-303	1830-1833	pri	_	_	_	_	
+1-304	1834-1837	več	_	_	_	_	
+1-305	1838-1846	naložbah	_	_	_	_	
+1-306	1847-1848	,	_	_	_	_	
+1-307	1849-1851	ki	_	_	_	_	
+1-308	1852-1855	jih	_	_	_	_	
+1-309	1856-1858	je	_	_	_	_	
+1-310	1859-1872	sofinanciralo	_	_	_	_	
+1-311	1873-1879	šolsko	_	_	_	_	
+1-312	1880-1891	ministrstvo	_	_	_	_	
+1-313	1892-1893	,	_	_	_	_	
+1-314	1894-1897	kot	_	_	_	_	
+1-315	1898-1910	podizvajalec	_	_	_	_	
+1-316	1911-1920	nastopalo	_	_	_	_	
+1-317	1921-1929	podjetje	_	_	*->17-1	*[17]	
+1-318	1930-1937	Elektro	ORG[18]	_	*->17-1	*[17]	
+1-319	1938-1943	Tabga	ORG[18]	_	*->17-1	*[17]	
+1-320	1944-1945	,	_	_	_	_	
+1-321	1946-1948	ki	_	_	_	_	
+1-322	1949-1951	je	_	_	*->17-2	*[17]	
+1-323	1952-1953	v	_	_	_	_	
+1-324	1954-1959	lasti	_	_	_	_	
+1-325	1960-1965	Ivana	PER[19]	_	*->18-1	*[18]	
+1-326	1966-1972	Čerčka	PER[19]	_	*->18-1	*[18]	
+1-327	1973-1974	,	_	_	_	_	
+1-328	1975-1977	ki	_	_	_	_	
+1-329	1978-1980	je	_	_	_	_	
+1-330	1981-1990	Emanuelov	PER	3 - Nevtralno[34]	*->18-2|*->2-11	*[18]|*[2]	
+1-331	1991-1994	oče	_	3 - Nevtralno[34]	*->18-2	*[18]	
+1-332	1995-1996	.	_	_	_	_	
+1-333	1997-2001	Tudi	_	_	_	_	
+1-334	2002-2009	Elektro	ORG[20]	2 - Negativno[35]	*->17-3	*[17]	
+1-335	2010-2015	Tagba	ORG[20]	2 - Negativno[35]	*->17-3	*[17]	
+1-336	2016-2018	je	_	_	_	_	
+1-337	2019-2024	danes	_	_	_	_	
+1-338	2025-2026	v	_	_	_	_	
+1-339	2027-2034	stečaju	_	_	_	_	
+1-340	2035-2036	.	_	_	_	_	
+1-341	2037-2044	Emanuel	PER[21]	_	*->2-12	*[2]	
+1-342	2045-2051	Čerček	PER[21]	_	*->2-12	*[2]	
+1-343	2052-2054	je	_	_	_	_	
+1-344	2055-2060	danes	_	_	_	_	
+1-345	2061-2070	namestnik	_	_	*->2-13	*[2]	
+1-346	2071-2082	predsednika	_	_	*->2-13	*[2]	
+1-347	2083-2093	nadzornega	_	_	*->2-13	*[2]	
+1-348	2094-2099	sveta	_	_	*->2-13	*[2]	
+1-349	2100-2101	v	_	_	*->2-13	*[2]	
+1-350	2102-2115	Stanovanjskem	ORG[22]	3 - Nevtralno[36]	*->2-13|*->23-1	*[2]|*[23]	
+1-351	2116-2122	skladu	ORG[22]	3 - Nevtralno[36]	*->2-13|*->23-1	*[2]|*[23]	
+1-352	2123-2125	RS	ORG[22]|ORG[23]	3 - Nevtralno[36]|3 - Nevtralno[37]	*->2-13|*->23-1|*->22-1	*[2]|*[23]|*[22]	
+1-353	2126-2127	.	_	_	_	_	
+1-354	2128-2132	Pred	_	_	_	_	
+1-355	2133-2136	tem	_	_	_	_	
+1-356	2137-2139	je	_	_	_	_	
+1-357	2140-2143	bil	_	_	_	_	
+1-358	2144-2146	do	_	_	_	_	
+1-359	2147-2152	marca	_	_	_	_	
+1-360	2153-2157	član	_	_	*->19-1	*[19]	
+1-361	2158-2168	nadzornega	_	_	*->19-1	*[19]	
+1-362	2169-2174	sveta	_	_	*->19-1	*[19]	
+1-363	2175-2181	Družbe	ORG[24]	_	*->19-1|*->20-1	*[19]|*[20]	
+1-364	2182-2184	za	ORG[24]	_	*->19-1|*->20-1	*[19]|*[20]	
+1-365	2185-2191	razvoj	ORG[24]	_	*->19-1|*->20-1	*[19]|*[20]	
+1-366	2192-2206	infrastrukture	ORG[24]	_	*->19-1|*->20-1	*[19]|*[20]	
+1-367	2207-2208	(	_	_	*->19-1	*[19]	
+1-368	2209-2212	DRI	ORG	3 - Nevtralno	*->19-1|*->20-2	*[19]|*[20]	
+1-369	2213-2214	)	_	_	*->19-1	*[19]	
+1-370	2215-2216	,	_	_	_	_	
+1-371	2217-2220	bil	_	_	_	_	
+1-372	2221-2223	pa	_	_	_	_	
+1-373	2224-2226	je	_	_	_	_	
+1-374	2227-2231	tudi	_	_	_	_	
+1-375	2232-2242	predsednik	_	2 - Negativno[38]	*->2-14	*[2]	
+1-376	2243-2254	nadzornikov	_	2 - Negativno[38]	*->2-14	*[2]	
+1-377	2255-2265	Steklarske	ORG[25]	2 - Negativno[38]|3 - Nevtralno[39]	*->2-14|*->21-1	*[2]|*[21]	
+1-378	2266-2270	nove	ORG[25]	2 - Negativno[38]|3 - Nevtralno[39]	*->2-14|*->21-1	*[2]|*[21]	
+1-379	2271-2272	v	_	2 - Negativno[38]|3 - Nevtralno[39]	*->2-14|*->21-1	*[2]|*[21]	
+1-380	2273-2280	stečaju	_	2 - Negativno[38]|3 - Nevtralno[39]	*->2-14|*->21-1	*[2]|*[21]	

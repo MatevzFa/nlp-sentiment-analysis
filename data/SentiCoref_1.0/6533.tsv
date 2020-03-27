@@ -1,0 +1,525 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Tako v NKBM - ju kot v Telekomu bi ohranili četrtinski delež Vlada je skupaj s predlogom proračuna v državni zbor poslala tudi predlog programa prodaje državnega finančnega premoženja za leti 2009 in 2010 . Poleg deležev v nekaterih gospodarskih družbah napoveduje tudi prodajo kapitalskih naložb . Sam načrt prodaje utemeljujejo z namenom povečanja blaginje v okviru gospodarskih in socilanih reform ter tako s postopnim umikom države iz gospodarstva in posledično usklajeno privatizacijo največjih gospodarskih družb . K temu na vladi dodajajo , da je iz proračunskega vidika namen prodaje kapitalskih naložb zagotovitev likvidnih , torej denarnih , prejemkov . Cilj je čimvečja kupnina Cilj pri tem je doseči čim večjo kupnino , a kljub temu opozarjajo , da je treba zagotavljati tudi širše makroekonomske interese države , in sicer trajno in stabilno rast gospodarstva , izboljšanje kakovosti javnih storitev in nenazadnje tudi zagotavljanje konkurenčnejšega gospodarskega sistema . Naložbe in družbe , namenjene prodaji , so razdelili v dve skupini . V prvi gre za kapitalske naložbe , katerih kupnina je prejemek proračuna , v drugi pa za posredne naložbe države , katerih kupnina ne bo prejemek proračuna . Predlog programa prodaje državnega finančnega premoženja za leti 2009 in 2010 Najbolj opazni NKBM in Telekom V prvi skupini sta seveda najbolj opazni Nova kreditna banka Maribor in pa Telekom . V NKBM - ju ima država 41,5 - odstotni delež , s predvideno prodajo 16,3 odstotkov pa bi še vedno ohranila 25 - odstotni lastninski delež , kar bi ji omogočalo vplivanje na ključne strateške odločitve . Prav tako 25 - odstotna lastnica namerava po prodaji 27,53 - odstotnega deleža ostati v Telekomu . Kot cilje prodaje opredeljuejo vzpostavitev lastniške strukture , ki bi dolgoročno zagotavljala učinkovito upravljanje , konkurenčnost ter uspešen razvoj družbe Telekom in njenih hčerinskih družb . Celotna odprodaja Nafte Lendava Kar 100 - odstotno prodajo načrtujejo za Nafto Lendava , pri Peku pa 82 - odstotno . Ostale družbe , v katerih se načrtuje prodaja , so še Snežnik , Inkos , Inles , Glin IPP , Podjetje za urejanje hudournikov , Teroelektrarna Toplarna , Energetika Projekt , Javno komunalno podjetje Komunala Kočevje , RRA Mura , BSC , Regionalni center za razvoj , RRA Celje , Mura VGP , Drava VGP , VGP Kranj ter VGP Novo mesto . Za prodajo , katerih kupnina bo prejemek v proračun , pa so predvideni Talum , ki je hčerinska družba Elesa , in hčerinske družbe Rudnika Trbovlje - Hrastnik Fortuna - PIL , Spekter , Domex , Rudar Senovo , M & P in Gratex . V vseh družbah želi prodati celoten delež . Za vsako prodajo posebna komisija Za vsako naložbo , za katero se bo začel postopek prodaje , bo imenovana posebna komisija , ki bo pripravila program prodaje , v katerem bo opredelila tudi razloge za prodajo in cilje , saj so ti zdaj podani le okvirno . A ker so po mnenju pripravljavcev programa postopki prodaje zahtevni in dolgotrajni ter odvisni od razmer na trgu , poudarjajo , da ni nujno , da se bo realizacija zgodila v tem proračunskem obdobju
+1-1	0-4	Tako	_	_	_	_	
+1-2	5-6	v	_	_	_	_	
+1-3	7-11	NKBM	ORG	_	*->2-1	*[2]	
+1-4	12-13	-	_	_	_	_	
+1-5	14-16	ju	_	_	_	_	
+1-6	17-20	kot	_	_	_	_	
+1-7	21-22	v	_	_	_	_	
+1-8	23-31	Telekomu	ORG	_	*->1-1	*[1]	
+1-9	32-34	bi	_	_	_	_	
+1-10	35-43	ohranili	_	_	_	_	
+1-11	44-54	četrtinski	_	_	_	_	
+1-12	55-60	delež	_	_	_	_	
+1-13	61-66	Vlada	_	_	_	_	
+1-14	67-69	je	_	_	_	_	
+1-15	70-76	skupaj	_	_	_	_	
+1-16	77-78	s	_	_	_	_	
+1-17	79-88	predlogom	_	_	_	_	
+1-18	89-98	proračuna	_	_	_	_	
+1-19	99-100	v	_	_	_	_	
+1-20	101-108	državni	_	_	_	_	
+1-21	109-113	zbor	_	_	_	_	
+1-22	114-121	poslala	_	_	_	_	
+1-23	122-126	tudi	_	_	_	_	
+1-24	127-134	predlog	_	_	_	_	
+1-25	135-143	programa	_	_	_	_	
+1-26	144-151	prodaje	_	_	_	_	
+1-27	152-161	državnega	_	_	_	_	
+1-28	162-172	finančnega	_	_	_	_	
+1-29	173-183	premoženja	_	_	_	_	
+1-30	184-186	za	_	_	_	_	
+1-31	187-191	leti	_	_	_	_	
+1-32	192-196	2009	_	_	_	_	
+1-33	197-199	in	_	_	_	_	
+1-34	200-204	2010	_	_	_	_	
+1-35	205-206	.	_	_	_	_	
+1-36	207-212	Poleg	_	_	_	_	
+1-37	213-220	deležev	_	_	_	_	
+1-38	221-222	v	_	_	_	_	
+1-39	223-232	nekaterih	_	_	_	_	
+1-40	233-245	gospodarskih	_	_	_	_	
+1-41	246-253	družbah	_	_	_	_	
+1-42	254-264	napoveduje	_	_	_	_	
+1-43	265-269	tudi	_	_	_	_	
+1-44	270-277	prodajo	_	_	_	_	
+1-45	278-289	kapitalskih	_	_	_	_	
+1-46	290-296	naložb	_	_	_	_	
+1-47	297-298	.	_	_	_	_	
+1-48	299-302	Sam	_	_	_	_	
+1-49	303-308	načrt	_	_	_	_	
+1-50	309-316	prodaje	_	_	_	_	
+1-51	317-329	utemeljujejo	_	_	_	_	
+1-52	330-331	z	_	_	_	_	
+1-53	332-339	namenom	_	_	_	_	
+1-54	340-349	povečanja	_	_	_	_	
+1-55	350-358	blaginje	_	_	_	_	
+1-56	359-360	v	_	_	_	_	
+1-57	361-367	okviru	_	_	_	_	
+1-58	368-380	gospodarskih	_	_	_	_	
+1-59	381-383	in	_	_	_	_	
+1-60	384-393	socilanih	_	_	_	_	
+1-61	394-400	reform	_	_	_	_	
+1-62	401-404	ter	_	_	_	_	
+1-63	405-409	tako	_	_	_	_	
+1-64	410-411	s	_	_	_	_	
+1-65	412-421	postopnim	_	_	_	_	
+1-66	422-428	umikom	_	_	_	_	
+1-67	429-435	države	_	_	_	_	
+1-68	436-438	iz	_	_	_	_	
+1-69	439-451	gospodarstva	_	_	_	_	
+1-70	452-454	in	_	_	_	_	
+1-71	455-465	posledično	_	_	_	_	
+1-72	466-475	usklajeno	_	_	_	_	
+1-73	476-489	privatizacijo	_	_	_	_	
+1-74	490-499	največjih	_	_	_	_	
+1-75	500-512	gospodarskih	_	_	_	_	
+1-76	513-518	družb	_	_	_	_	
+1-77	519-520	.	_	_	_	_	
+1-78	521-522	K	_	_	_	_	
+1-79	523-527	temu	_	_	_	_	
+1-80	528-530	na	_	_	_	_	
+1-81	531-536	vladi	_	_	_	_	
+1-82	537-545	dodajajo	_	_	_	_	
+1-83	546-547	,	_	_	_	_	
+1-84	548-550	da	_	_	_	_	
+1-85	551-553	je	_	_	_	_	
+1-86	554-556	iz	_	_	_	_	
+1-87	557-570	proračunskega	_	_	_	_	
+1-88	571-577	vidika	_	_	_	_	
+1-89	578-583	namen	_	_	_	_	
+1-90	584-591	prodaje	_	_	_	_	
+1-91	592-603	kapitalskih	_	_	_	_	
+1-92	604-610	naložb	_	_	_	_	
+1-93	611-622	zagotovitev	_	_	_	_	
+1-94	623-632	likvidnih	_	_	_	_	
+1-95	633-634	,	_	_	_	_	
+1-96	635-640	torej	_	_	_	_	
+1-97	641-649	denarnih	_	_	_	_	
+1-98	650-651	,	_	_	_	_	
+1-99	652-661	prejemkov	_	_	_	_	
+1-100	662-663	.	_	_	_	_	
+1-101	664-668	Cilj	_	_	_	_	
+1-102	669-671	je	_	_	_	_	
+1-103	672-680	čimvečja	_	_	_	_	
+1-104	681-688	kupnina	_	_	_	_	
+1-105	689-693	Cilj	_	_	_	_	
+1-106	694-697	pri	_	_	_	_	
+1-107	698-701	tem	_	_	_	_	
+1-108	702-704	je	_	_	_	_	
+1-109	705-711	doseči	_	_	_	_	
+1-110	712-715	čim	_	_	_	_	
+1-111	716-721	večjo	_	_	_	_	
+1-112	722-729	kupnino	_	_	_	_	
+1-113	730-731	,	_	_	_	_	
+1-114	732-733	a	_	_	_	_	
+1-115	734-739	kljub	_	_	_	_	
+1-116	740-744	temu	_	_	_	_	
+1-117	745-755	opozarjajo	_	_	_	_	
+1-118	756-757	,	_	_	_	_	
+1-119	758-760	da	_	_	_	_	
+1-120	761-763	je	_	_	_	_	
+1-121	764-769	treba	_	_	_	_	
+1-122	770-782	zagotavljati	_	_	_	_	
+1-123	783-787	tudi	_	_	_	_	
+1-124	788-793	širše	_	_	_	_	
+1-125	794-808	makroekonomske	_	_	_	_	
+1-126	809-817	interese	_	_	_	_	
+1-127	818-824	države	_	_	_	_	
+1-128	825-826	,	_	_	_	_	
+1-129	827-829	in	_	_	_	_	
+1-130	830-835	sicer	_	_	_	_	
+1-131	836-842	trajno	_	_	_	_	
+1-132	843-845	in	_	_	_	_	
+1-133	846-854	stabilno	_	_	_	_	
+1-134	855-859	rast	_	_	_	_	
+1-135	860-872	gospodarstva	_	_	_	_	
+1-136	873-874	,	_	_	_	_	
+1-137	875-886	izboljšanje	_	_	_	_	
+1-138	887-896	kakovosti	_	_	_	_	
+1-139	897-903	javnih	_	_	_	_	
+1-140	904-912	storitev	_	_	_	_	
+1-141	913-915	in	_	_	_	_	
+1-142	916-926	nenazadnje	_	_	_	_	
+1-143	927-931	tudi	_	_	_	_	
+1-144	932-945	zagotavljanje	_	_	_	_	
+1-145	946-962	konkurenčnejšega	_	_	_	_	
+1-146	963-976	gospodarskega	_	_	_	_	
+1-147	977-984	sistema	_	_	_	_	
+1-148	985-986	.	_	_	_	_	
+1-149	987-994	Naložbe	_	_	_	_	
+1-150	995-997	in	_	_	_	_	
+1-151	998-1004	družbe	_	_	_	_	
+1-152	1005-1006	,	_	_	_	_	
+1-153	1007-1016	namenjene	_	_	_	_	
+1-154	1017-1024	prodaji	_	_	_	_	
+1-155	1025-1026	,	_	_	_	_	
+1-156	1027-1029	so	_	_	_	_	
+1-157	1030-1039	razdelili	_	_	_	_	
+1-158	1040-1041	v	_	_	_	_	
+1-159	1042-1045	dve	_	_	_	_	
+1-160	1046-1053	skupini	_	_	_	_	
+1-161	1054-1055	.	_	_	_	_	
+1-162	1056-1057	V	_	_	_	_	
+1-163	1058-1062	prvi	_	_	_	_	
+1-164	1063-1066	gre	_	_	_	_	
+1-165	1067-1069	za	_	_	_	_	
+1-166	1070-1080	kapitalske	_	_	_	_	
+1-167	1081-1088	naložbe	_	_	_	_	
+1-168	1089-1090	,	_	_	_	_	
+1-169	1091-1098	katerih	_	_	_	_	
+1-170	1099-1106	kupnina	_	_	_	_	
+1-171	1107-1109	je	_	_	_	_	
+1-172	1110-1118	prejemek	_	_	_	_	
+1-173	1119-1128	proračuna	_	_	_	_	
+1-174	1129-1130	,	_	_	_	_	
+1-175	1131-1132	v	_	_	_	_	
+1-176	1133-1138	drugi	_	_	_	_	
+1-177	1139-1141	pa	_	_	_	_	
+1-178	1142-1144	za	_	_	_	_	
+1-179	1145-1153	posredne	_	_	_	_	
+1-180	1154-1161	naložbe	_	_	_	_	
+1-181	1162-1168	države	_	_	_	_	
+1-182	1169-1170	,	_	_	_	_	
+1-183	1171-1178	katerih	_	_	_	_	
+1-184	1179-1186	kupnina	_	_	_	_	
+1-185	1187-1189	ne	_	_	_	_	
+1-186	1190-1192	bo	_	_	_	_	
+1-187	1193-1201	prejemek	_	_	_	_	
+1-188	1202-1211	proračuna	_	_	_	_	
+1-189	1212-1213	.	_	_	_	_	
+1-190	1214-1221	Predlog	_	_	_	_	
+1-191	1222-1230	programa	_	_	_	_	
+1-192	1231-1238	prodaje	_	_	_	_	
+1-193	1239-1248	državnega	_	_	_	_	
+1-194	1249-1259	finančnega	_	_	_	_	
+1-195	1260-1270	premoženja	_	_	_	_	
+1-196	1271-1273	za	_	_	_	_	
+1-197	1274-1278	leti	_	_	_	_	
+1-198	1279-1283	2009	_	_	_	_	
+1-199	1284-1286	in	_	_	_	_	
+1-200	1287-1291	2010	_	_	_	_	
+1-201	1292-1299	Najbolj	_	_	_	_	
+1-202	1300-1306	opazni	_	_	_	_	
+1-203	1307-1311	NKBM	ORG	_	*->2-2	*[2]	
+1-204	1312-1314	in	_	_	_	_	
+1-205	1315-1322	Telekom	ORG	_	*->1-2	*[1]	
+1-206	1323-1324	V	_	_	_	_	
+1-207	1325-1329	prvi	_	_	_	_	
+1-208	1330-1337	skupini	_	_	_	_	
+1-209	1338-1341	sta	_	_	_	_	
+1-210	1342-1348	seveda	_	_	_	_	
+1-211	1349-1356	najbolj	_	_	_	_	
+1-212	1357-1363	opazni	_	_	_	_	
+1-213	1364-1368	Nova	ORG[1]	_	*->2-3	*[2]	
+1-214	1369-1377	kreditna	ORG[1]	_	*->2-3	*[2]	
+1-215	1378-1383	banka	ORG[1]	_	*->2-3	*[2]	
+1-216	1384-1391	Maribor	ORG[1]|LOC[2]	3 - Nevtralno	*->2-3|*->4-1	*[2]|*[4]	
+1-217	1392-1394	in	_	_	_	_	
+1-218	1395-1397	pa	_	_	_	_	
+1-219	1398-1405	Telekom	ORG	_	*->1-3	*[1]	
+1-220	1406-1407	.	_	_	_	_	
+1-221	1408-1409	V	_	_	_	_	
+1-222	1410-1414	NKBM	ORG	3 - Nevtralno	*->2-4	*[2]	
+1-223	1415-1416	-	_	_	_	_	
+1-224	1417-1419	ju	_	_	_	_	
+1-225	1420-1423	ima	_	_	_	_	
+1-226	1424-1430	država	_	_	_	_	
+1-227	1431-1435	41,5	_	_	_	_	
+1-228	1436-1437	-	_	_	_	_	
+1-229	1438-1446	odstotni	_	_	_	_	
+1-230	1447-1452	delež	_	_	_	_	
+1-231	1453-1454	,	_	_	_	_	
+1-232	1455-1456	s	_	_	_	_	
+1-233	1457-1467	predvideno	_	_	_	_	
+1-234	1468-1475	prodajo	_	_	_	_	
+1-235	1476-1480	16,3	_	_	_	_	
+1-236	1481-1490	odstotkov	_	_	_	_	
+1-237	1491-1493	pa	_	_	_	_	
+1-238	1494-1496	bi	_	_	_	_	
+1-239	1497-1499	še	_	_	_	_	
+1-240	1500-1505	vedno	_	_	_	_	
+1-241	1506-1514	ohranila	_	_	_	_	
+1-242	1515-1517	25	_	_	_	_	
+1-243	1518-1519	-	_	_	_	_	
+1-244	1520-1528	odstotni	_	_	_	_	
+1-245	1529-1539	lastninski	_	_	_	_	
+1-246	1540-1545	delež	_	_	_	_	
+1-247	1546-1547	,	_	_	_	_	
+1-248	1548-1551	kar	_	_	_	_	
+1-249	1552-1554	bi	_	_	_	_	
+1-250	1555-1557	ji	_	_	_	_	
+1-251	1558-1567	omogočalo	_	_	_	_	
+1-252	1568-1577	vplivanje	_	_	_	_	
+1-253	1578-1580	na	_	_	_	_	
+1-254	1581-1588	ključne	_	_	_	_	
+1-255	1589-1598	strateške	_	_	_	_	
+1-256	1599-1608	odločitve	_	_	_	_	
+1-257	1609-1610	.	_	_	_	_	
+1-258	1611-1615	Prav	_	_	_	_	
+1-259	1616-1620	tako	_	_	_	_	
+1-260	1621-1623	25	_	_	_	_	
+1-261	1624-1625	-	_	_	_	_	
+1-262	1626-1634	odstotna	_	_	_	_	
+1-263	1635-1643	lastnica	_	_	_	_	
+1-264	1644-1652	namerava	_	_	_	_	
+1-265	1653-1655	po	_	_	_	_	
+1-266	1656-1663	prodaji	_	_	_	_	
+1-267	1664-1669	27,53	_	_	_	_	
+1-268	1670-1671	-	_	_	_	_	
+1-269	1672-1682	odstotnega	_	_	_	_	
+1-270	1683-1689	deleža	_	_	_	_	
+1-271	1690-1696	ostati	_	_	_	_	
+1-272	1697-1698	v	_	_	_	_	
+1-273	1699-1707	Telekomu	ORG	_	*->1-4	*[1]	
+1-274	1708-1709	.	_	_	_	_	
+1-275	1710-1713	Kot	_	_	_	_	
+1-276	1714-1719	cilje	_	_	_	_	
+1-277	1720-1727	prodaje	_	_	_	_	
+1-278	1728-1740	opredeljuejo	_	_	_	_	
+1-279	1741-1753	vzpostavitev	_	_	_	_	
+1-280	1754-1763	lastniške	_	_	_	_	
+1-281	1764-1773	strukture	_	_	_	_	
+1-282	1774-1775	,	_	_	_	_	
+1-283	1776-1778	ki	_	_	_	_	
+1-284	1779-1781	bi	_	_	_	_	
+1-285	1782-1792	dolgoročno	_	_	_	_	
+1-286	1793-1805	zagotavljala	_	_	_	_	
+1-287	1806-1816	učinkovito	_	_	_	_	
+1-288	1817-1828	upravljanje	_	_	_	_	
+1-289	1829-1830	,	_	_	_	_	
+1-290	1831-1844	konkurenčnost	_	_	_	_	
+1-291	1845-1848	ter	_	_	_	_	
+1-292	1849-1856	uspešen	_	_	_	_	
+1-293	1857-1863	razvoj	_	_	_	_	
+1-294	1864-1870	družbe	_	_	*->1-5	*[1]	
+1-295	1871-1878	Telekom	ORG	_	*->1-5	*[1]	
+1-296	1879-1881	in	_	_	_	_	
+1-297	1882-1888	njenih	_	3 - Nevtralno	*->1-6	*[1]	
+1-298	1889-1899	hčerinskih	_	_	_	_	
+1-299	1900-1905	družb	_	_	_	_	
+1-300	1906-1907	.	_	_	_	_	
+1-301	1908-1915	Celotna	_	_	_	_	
+1-302	1916-1925	odprodaja	_	_	_	_	
+1-303	1926-1931	Nafte	ORG[3]	_	*->3-1	*[3]	
+1-304	1932-1939	Lendava	ORG[3]|LOC[4]	_	*->3-1	*[3]	
+1-305	1940-1943	Kar	_	_	_	_	
+1-306	1944-1947	100	_	_	_	_	
+1-307	1948-1949	-	_	_	_	_	
+1-308	1950-1958	odstotno	_	_	_	_	
+1-309	1959-1966	prodajo	_	_	_	_	
+1-310	1967-1977	načrtujejo	_	_	_	_	
+1-311	1978-1980	za	_	_	_	_	
+1-312	1981-1986	Nafto	ORG[5]	3 - Nevtralno[33]	*->3-2	*[3]	
+1-313	1987-1994	Lendava	ORG[5]|LOC[6]	3 - Nevtralno[33]|3 - Nevtralno[34]	*->3-2	*[3]	
+1-314	1995-1996	,	_	_	_	_	
+1-315	1997-2000	pri	_	_	_	_	
+1-316	2001-2005	Peku	ORG	3 - Nevtralno	*->5-1	*[5]	
+1-317	2006-2008	pa	_	_	_	_	
+1-318	2009-2011	82	_	_	_	_	
+1-319	2012-2013	-	_	_	_	_	
+1-320	2014-2022	odstotno	_	_	_	_	
+1-321	2023-2024	.	_	_	_	_	
+1-322	2025-2031	Ostale	_	_	_	_	
+1-323	2032-2038	družbe	_	_	_	_	
+1-324	2039-2040	,	_	_	_	_	
+1-325	2041-2042	v	_	_	_	_	
+1-326	2043-2050	katerih	_	_	_	_	
+1-327	2051-2053	se	_	_	_	_	
+1-328	2054-2062	načrtuje	_	_	_	_	
+1-329	2063-2070	prodaja	_	_	_	_	
+1-330	2071-2072	,	_	_	_	_	
+1-331	2073-2075	so	_	_	_	_	
+1-332	2076-2078	še	_	_	_	_	
+1-333	2079-2086	Snežnik	ORG	3 - Nevtralno	*->6-1	*[6]	
+1-334	2087-2088	,	_	_	_	_	
+1-335	2089-2094	Inkos	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-336	2095-2096	,	_	_	_	_	
+1-337	2097-2102	Inles	ORG	3 - Nevtralno	*->8-1	*[8]	
+1-338	2103-2104	,	_	_	_	_	
+1-339	2105-2109	Glin	ORG[7]	3 - Nevtralno[35]	*->9-1	*[9]	
+1-340	2110-2113	IPP	ORG[7]	3 - Nevtralno[35]	*->9-1	*[9]	
+1-341	2114-2115	,	_	_	_	_	
+1-342	2116-2124	Podjetje	ORG[8]	3 - Nevtralno[36]	*->10-1	*[10]	
+1-343	2125-2127	za	ORG[8]	3 - Nevtralno[36]	*->10-1	*[10]	
+1-344	2128-2136	urejanje	ORG[8]	3 - Nevtralno[36]	*->10-1	*[10]	
+1-345	2137-2148	hudournikov	ORG[8]	3 - Nevtralno[36]	*->10-1	*[10]	
+1-346	2149-2150	,	_	_	_	_	
+1-347	2151-2165	Teroelektrarna	ORG[9]	3 - Nevtralno[37]	*->11-1	*[11]	
+1-348	2166-2174	Toplarna	ORG[9]	3 - Nevtralno[37]	*->11-1	*[11]	
+1-349	2175-2176	,	_	_	_	_	
+1-350	2177-2187	Energetika	ORG[10]	3 - Nevtralno[38]	*->12-1	*[12]	
+1-351	2188-2195	Projekt	ORG[10]	3 - Nevtralno[38]	*->12-1	*[12]	
+1-352	2196-2197	,	_	_	_	_	
+1-353	2198-2203	Javno	ORG[11]	3 - Nevtralno[39]	*->13-1	*[13]	
+1-354	2204-2213	komunalno	ORG[11]	3 - Nevtralno[39]	*->13-1	*[13]	
+1-355	2214-2222	podjetje	ORG[11]	3 - Nevtralno[39]	*->13-1	*[13]	
+1-356	2223-2231	Komunala	ORG[11]	3 - Nevtralno[39]	*->13-1	*[13]	
+1-357	2232-2239	Kočevje	ORG[11]|LOC[12]	3 - Nevtralno[39]|3 - Nevtralno[40]	*->13-1|*->14-1	*[13]|*[14]	
+1-358	2240-2241	,	_	_	_	_	
+1-359	2242-2245	RRA	ORG[13]	3 - Nevtralno[41]	*->15-1	*[15]	
+1-360	2246-2250	Mura	ORG[13]|ORG[14]	3 - Nevtralno[41]|3 - Nevtralno[42]	*->15-1|*->16-1	*[15]|*[16]	
+1-361	2251-2252	,	_	_	_	_	
+1-362	2253-2256	BSC	ORG	3 - Nevtralno	*->17-1	*[17]	
+1-363	2257-2258	,	_	_	_	_	
+1-364	2259-2269	Regionalni	ORG[15]	3 - Nevtralno[43]	*->18-1	*[18]	
+1-365	2270-2276	center	ORG[15]	3 - Nevtralno[43]	*->18-1	*[18]	
+1-366	2277-2279	za	ORG[15]	3 - Nevtralno[43]	*->18-1	*[18]	
+1-367	2280-2286	razvoj	ORG[15]	3 - Nevtralno[43]	*->18-1	*[18]	
+1-368	2287-2288	,	_	_	_	_	
+1-369	2289-2292	RRA	ORG[16]	3 - Nevtralno[44]	*->19-1	*[19]	
+1-370	2293-2298	Celje	ORG[16]|LOC[17]	3 - Nevtralno[44]|3 - Nevtralno[45]	*->19-1|*->20-1	*[19]|*[20]	
+1-371	2299-2300	,	_	_	_	_	
+1-372	2301-2305	Mura	ORG[18]|LOC[19]	3 - Nevtralno[46]|3 - Nevtralno[47]	*->21-1|*->22-1	*[21]|*[22]	
+1-373	2306-2309	VGP	ORG[18]	3 - Nevtralno[46]	*->21-1	*[21]	
+1-374	2310-2311	,	_	_	_	_	
+1-375	2312-2317	Drava	ORG[20]|LOC[21]	3 - Nevtralno[48]|3 - Nevtralno[49]	*->23-1|*->25-1	*[23]|*[25]	
+1-376	2318-2321	VGP	ORG[20]	3 - Nevtralno[48]	*->23-1	*[23]	
+1-377	2322-2323	,	_	_	_	_	
+1-378	2324-2327	VGP	ORG[22]	3 - Nevtralno[50]	*->24-1	*[24]	
+1-379	2328-2333	Kranj	ORG[22]|LOC[23]	3 - Nevtralno[50]|3 - Nevtralno[51]	*->24-1|*->26-1	*[24]|*[26]	
+1-380	2334-2337	ter	_	_	_	_	
+1-381	2338-2341	VGP	ORG[24]	3 - Nevtralno[52]	*->27-1	*[27]	
+1-382	2342-2346	Novo	ORG[24]|LOC[25]	3 - Nevtralno[52]|3 - Nevtralno[53]	*->27-1|*->28-1	*[27]|*[28]	
+1-383	2347-2352	mesto	ORG[24]|LOC[25]	3 - Nevtralno[52]|3 - Nevtralno[53]	*->27-1|*->28-1	*[27]|*[28]	
+1-384	2353-2354	.	_	_	_	_	
+1-385	2355-2357	Za	_	_	_	_	
+1-386	2358-2365	prodajo	_	_	_	_	
+1-387	2366-2367	,	_	_	_	_	
+1-388	2368-2375	katerih	_	_	_	_	
+1-389	2376-2383	kupnina	_	_	_	_	
+1-390	2384-2386	bo	_	_	_	_	
+1-391	2387-2395	prejemek	_	_	_	_	
+1-392	2396-2397	v	_	_	_	_	
+1-393	2398-2406	proračun	_	_	_	_	
+1-394	2407-2408	,	_	_	_	_	
+1-395	2409-2411	pa	_	_	_	_	
+1-396	2412-2414	so	_	_	_	_	
+1-397	2415-2425	predvideni	_	_	_	_	
+1-398	2426-2431	Talum	ORG	_	*->29-1	*[29]	
+1-399	2432-2433	,	_	_	_	_	
+1-400	2434-2436	ki	_	_	_	_	
+1-401	2437-2439	je	_	_	_	_	
+1-402	2440-2449	hčerinska	_	3 - Nevtralno[54]	*->29-2	*[29]	
+1-403	2450-2456	družba	_	3 - Nevtralno[54]	*->29-2	*[29]	
+1-404	2457-2462	Elesa	ORG	3 - Nevtralno[54]|3 - Nevtralno[55]	*->29-2|*->30-1	*[29]|*[30]	
+1-405	2463-2464	,	_	_	_	_	
+1-406	2465-2467	in	_	_	_	_	
+1-407	2468-2477	hčerinske	_	_	*->31-1	*[31]	
+1-408	2478-2484	družbe	_	_	*->31-1	*[31]	
+1-409	2485-2492	Rudnika	ORG[26]	3 - Nevtralno[56]	*->31-1|*->33-1	*[31]|*[33]	
+1-410	2493-2501	Trbovlje	ORG[26]|LOC[27]	3 - Nevtralno[56]|3 - Nevtralno[57]	*->31-1|*->33-1|*->32-1	*[31]|*[33]|*[32]	
+1-411	2502-2503	-	_	_	_	_	
+1-412	2504-2512	Hrastnik	ORG[28]|LOC[29]	3 - Nevtralno[58]|3 - Nevtralno[59]	*->31-2|*->34-1	*[31]|*[34]	
+1-413	2513-2520	Fortuna	ORG[28]	3 - Nevtralno[58]	*->31-2	*[31]	
+1-414	2521-2522	-	_	_	_	_	
+1-415	2523-2526	PIL	ORG	3 - Nevtralno	*->35-1	*[35]	
+1-416	2527-2528	,	_	_	_	_	
+1-417	2529-2536	Spekter	ORG	3 - Nevtralno	*->36-1	*[36]	
+1-418	2537-2538	,	_	_	_	_	
+1-419	2539-2544	Domex	ORG	3 - Nevtralno	*->37-1	*[37]	
+1-420	2545-2546	,	_	_	_	_	
+1-421	2547-2552	Rudar	ORG[30]	3 - Nevtralno[60]	*->38-1	*[38]	
+1-422	2553-2559	Senovo	ORG[30]|LOC[31]	3 - Nevtralno[60]|3 - Nevtralno[61]	*->38-1|*->39-1	*[38]|*[39]	
+1-423	2560-2561	,	_	_	_	_	
+1-424	2562-2563	M	ORG[32]	3 - Nevtralno[62]	*->40-1	*[40]	
+1-425	2564-2565	&	ORG[32]	3 - Nevtralno[62]	*->40-1	*[40]	
+1-426	2566-2567	P	ORG[32]	3 - Nevtralno[62]	*->40-1	*[40]	
+1-427	2568-2570	in	_	_	_	_	
+1-428	2571-2577	Gratex	ORG	3 - Nevtralno	*->41-1	*[41]	
+1-429	2578-2579	.	_	_	_	_	
+1-430	2580-2581	V	_	_	_	_	
+1-431	2582-2586	vseh	_	_	_	_	
+1-432	2587-2594	družbah	_	_	_	_	
+1-433	2595-2599	želi	_	_	_	_	
+1-434	2600-2607	prodati	_	_	_	_	
+1-435	2608-2615	celoten	_	_	_	_	
+1-436	2616-2621	delež	_	_	_	_	
+1-437	2622-2623	.	_	_	_	_	
+1-438	2624-2626	Za	_	_	_	_	
+1-439	2627-2632	vsako	_	_	_	_	
+1-440	2633-2640	prodajo	_	_	_	_	
+1-441	2641-2648	posebna	_	_	_	_	
+1-442	2649-2657	komisija	_	_	_	_	
+1-443	2658-2660	Za	_	_	_	_	
+1-444	2661-2666	vsako	_	_	_	_	
+1-445	2667-2674	naložbo	_	_	_	_	
+1-446	2675-2676	,	_	_	_	_	
+1-447	2677-2679	za	_	_	_	_	
+1-448	2680-2686	katero	_	_	_	_	
+1-449	2687-2689	se	_	_	_	_	
+1-450	2690-2692	bo	_	_	_	_	
+1-451	2693-2698	začel	_	_	_	_	
+1-452	2699-2707	postopek	_	_	_	_	
+1-453	2708-2715	prodaje	_	_	_	_	
+1-454	2716-2717	,	_	_	_	_	
+1-455	2718-2720	bo	_	_	_	_	
+1-456	2721-2730	imenovana	_	_	_	_	
+1-457	2731-2738	posebna	_	_	_	_	
+1-458	2739-2747	komisija	_	_	_	_	
+1-459	2748-2749	,	_	_	_	_	
+1-460	2750-2752	ki	_	_	_	_	
+1-461	2753-2755	bo	_	_	_	_	
+1-462	2756-2766	pripravila	_	_	_	_	
+1-463	2767-2774	program	_	_	_	_	
+1-464	2775-2782	prodaje	_	_	_	_	
+1-465	2783-2784	,	_	_	_	_	
+1-466	2785-2786	v	_	_	_	_	
+1-467	2787-2794	katerem	_	_	_	_	
+1-468	2795-2797	bo	_	_	_	_	
+1-469	2798-2808	opredelila	_	_	_	_	
+1-470	2809-2813	tudi	_	_	_	_	
+1-471	2814-2821	razloge	_	_	_	_	
+1-472	2822-2824	za	_	_	_	_	
+1-473	2825-2832	prodajo	_	_	_	_	
+1-474	2833-2835	in	_	_	_	_	
+1-475	2836-2841	cilje	_	_	_	_	
+1-476	2842-2843	,	_	_	_	_	
+1-477	2844-2847	saj	_	_	_	_	
+1-478	2848-2850	so	_	_	_	_	
+1-479	2851-2853	ti	_	_	_	_	
+1-480	2854-2858	zdaj	_	_	_	_	
+1-481	2859-2865	podani	_	_	_	_	
+1-482	2866-2868	le	_	_	_	_	
+1-483	2869-2876	okvirno	_	_	_	_	
+1-484	2877-2878	.	_	_	_	_	
+1-485	2879-2880	A	_	_	_	_	
+1-486	2881-2884	ker	_	_	_	_	
+1-487	2885-2887	so	_	_	_	_	
+1-488	2888-2890	po	_	_	_	_	
+1-489	2891-2897	mnenju	_	_	_	_	
+1-490	2898-2912	pripravljavcev	_	_	_	_	
+1-491	2913-2921	programa	_	_	_	_	
+1-492	2922-2930	postopki	_	_	_	_	
+1-493	2931-2938	prodaje	_	_	_	_	
+1-494	2939-2947	zahtevni	_	_	_	_	
+1-495	2948-2950	in	_	_	_	_	
+1-496	2951-2962	dolgotrajni	_	_	_	_	
+1-497	2963-2966	ter	_	_	_	_	
+1-498	2967-2974	odvisni	_	_	_	_	
+1-499	2975-2977	od	_	_	_	_	
+1-500	2978-2984	razmer	_	_	_	_	
+1-501	2985-2987	na	_	_	_	_	
+1-502	2988-2992	trgu	_	_	_	_	
+1-503	2993-2994	,	_	_	_	_	
+1-504	2995-3005	poudarjajo	_	_	_	_	
+1-505	3006-3007	,	_	_	_	_	
+1-506	3008-3010	da	_	_	_	_	
+1-507	3011-3013	ni	_	_	_	_	
+1-508	3014-3019	nujno	_	_	_	_	
+1-509	3020-3021	,	_	_	_	_	
+1-510	3022-3024	da	_	_	_	_	
+1-511	3025-3027	se	_	_	_	_	
+1-512	3028-3030	bo	_	_	_	_	
+1-513	3031-3042	realizacija	_	_	_	_	
+1-514	3043-3050	zgodila	_	_	_	_	
+1-515	3051-3052	v	_	_	_	_	
+1-516	3053-3056	tem	_	_	_	_	
+1-517	3057-3069	proračunskem	_	_	_	_	
+1-518	3070-3077	obdobju	_	_	_	_	

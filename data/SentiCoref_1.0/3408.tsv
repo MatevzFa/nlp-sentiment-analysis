@@ -1,0 +1,229 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Upravi trgovske družbe Mercator se je z letom 2010 iztekel mandat in s 1 . januarjem je nov petletni mandat nastopila nova uprava , v kateri sta se dosedanjim štirim članom Žigi Debeljaku , Veri Aljančič Falež , Mateji Jesenek in Petru Zavrlu pridružili dve novi članici : Melita Kolbezen in Stanka Čurović . Novo Mercatorjevo upravo je nadzorni svet družbe imenoval konec lanskega marca , ko so pojasnili , da število članov uprave in razdelitev delovnih področij ustreza novi makro - organizacijski strukturi skupine Mercator , ki je bila uveljavljena v začetku leta 2010 . Upravo tako sestavljajo predsednik Žiga Debeljak ter članica uprave za strateško trženje in globalno nabavo Mateja Jesenek , članica uprave za strateške finance in informatiko Melita Kolbezen , članica uprave za strateški razvoj kadrov in organizacijo Vera Aljančič Falež , član uprave za poslovno področje Mercator trgovina Slovenija Peter Zavrl in članica uprave za poslovno področje Mercator trgovina jugovzhodna Evropa Stanka Čurović . Nepremičninsko dejavnost bo v upravi neposredno pokrival predsednik uprave skupaj s pomočnikom predsednika uprave za poslovno področje Mercator nepremičnine Alešem Resnikom , so danes sporočili iz Mercatorja . Dosedanji pomočnik predsednika uprave Stanislav Brodnjak je s 1 . januarjem 2011 prevzel funkcijo predsednika uprave družbe Mercator - H , hkrati pa bo opravljal tudi funkcijo svetovalca predsednika uprave za mednarodne zadeve
+1-1	0-9	Ljubljana	LOC	3 - Nevtralno	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-18	Upravi	_	_	_	_	
+1-4	19-27	trgovske	_	_	*->2-1	*[2]	
+1-5	28-34	družbe	_	_	*->2-1	*[2]	
+1-6	35-43	Mercator	LOC	_	*->2-1	*[2]	
+1-7	44-46	se	_	_	_	_	
+1-8	47-49	je	_	_	_	_	
+1-9	50-51	z	_	_	_	_	
+1-10	52-57	letom	_	_	_	_	
+1-11	58-62	2010	_	_	_	_	
+1-12	63-70	iztekel	_	_	_	_	
+1-13	71-77	mandat	_	_	_	_	
+1-14	78-80	in	_	_	_	_	
+1-15	81-82	s	_	_	_	_	
+1-16	83-84	1	_	_	_	_	
+1-17	85-86	.	_	_	_	_	
+1-18	87-96	januarjem	_	_	_	_	
+1-19	97-99	je	_	_	_	_	
+1-20	100-103	nov	_	_	_	_	
+1-21	104-112	petletni	_	_	_	_	
+1-22	113-119	mandat	_	_	_	_	
+1-23	120-129	nastopila	_	_	_	_	
+1-24	130-134	nova	_	_	_	_	
+1-25	135-141	uprava	_	_	_	_	
+1-26	142-143	,	_	_	_	_	
+1-27	144-145	v	_	_	_	_	
+1-28	146-152	kateri	_	_	_	_	
+1-29	153-156	sta	_	_	_	_	
+1-30	157-159	se	_	_	_	_	
+1-31	160-170	dosedanjim	_	_	_	_	
+1-32	171-177	štirim	_	_	_	_	
+1-33	178-184	članom	_	_	_	_	
+1-34	185-189	Žigi	PER[1]	_	*->3-1	*[3]	
+1-35	190-199	Debeljaku	PER[1]	_	*->3-1	*[3]	
+1-36	200-201	,	_	_	_	_	
+1-37	202-206	Veri	PER[2]	_	*->4-1	*[4]	
+1-38	207-215	Aljančič	PER[2]	_	*->4-1	*[4]	
+1-39	216-221	Falež	PER[2]	_	*->4-1	*[4]	
+1-40	222-223	,	_	_	_	_	
+1-41	224-230	Mateji	PER[3]	_	*->5-1	*[5]	
+1-42	231-238	Jesenek	PER[3]	_	*->5-1	*[5]	
+1-43	239-241	in	_	_	_	_	
+1-44	242-247	Petru	PER[4]	_	*->6-1	*[6]	
+1-45	248-254	Zavrlu	PER[4]	_	*->6-1	*[6]	
+1-46	255-265	pridružili	_	_	_	_	
+1-47	266-269	dve	_	_	_	_	
+1-48	270-274	novi	_	_	_	_	
+1-49	275-282	članici	_	_	_	_	
+1-50	283-284	:	_	_	_	_	
+1-51	285-291	Melita	PER[5]	_	*->7-1	*[7]	
+1-52	292-300	Kolbezen	PER[5]	_	*->7-1	*[7]	
+1-53	301-303	in	_	_	_	_	
+1-54	304-310	Stanka	PER[6]	_	*->8-1	*[8]	
+1-55	311-318	Čurović	PER[6]	_	*->8-1	*[8]	
+1-56	319-320	.	_	_	_	_	
+1-57	321-325	Novo	_	_	_	_	
+1-58	326-338	Mercatorjevo	ORG	_	*->2-2	*[2]	
+1-59	339-345	upravo	_	_	_	_	
+1-60	346-348	je	_	_	_	_	
+1-61	349-357	nadzorni	_	_	_	_	
+1-62	358-362	svet	_	_	_	_	
+1-63	363-369	družbe	_	_	_	_	
+1-64	370-378	imenoval	_	_	_	_	
+1-65	379-384	konec	_	_	_	_	
+1-66	385-393	lanskega	_	_	_	_	
+1-67	394-399	marca	_	_	_	_	
+1-68	400-401	,	_	_	_	_	
+1-69	402-404	ko	_	_	_	_	
+1-70	405-407	so	_	_	_	_	
+1-71	408-417	pojasnili	_	_	_	_	
+1-72	418-419	,	_	_	_	_	
+1-73	420-422	da	_	_	_	_	
+1-74	423-430	število	_	_	_	_	
+1-75	431-437	članov	_	_	_	_	
+1-76	438-444	uprave	_	_	_	_	
+1-77	445-447	in	_	_	_	_	
+1-78	448-458	razdelitev	_	_	_	_	
+1-79	459-467	delovnih	_	_	_	_	
+1-80	468-476	področij	_	_	_	_	
+1-81	477-484	ustreza	_	_	_	_	
+1-82	485-489	novi	_	_	_	_	
+1-83	490-495	makro	_	_	_	_	
+1-84	496-497	-	_	_	_	_	
+1-85	498-512	organizacijski	_	_	_	_	
+1-86	513-522	strukturi	_	_	_	_	
+1-87	523-530	skupine	_	_	_	_	
+1-88	531-539	Mercator	ORG	_	*->2-3	*[2]	
+1-89	540-541	,	_	_	_	_	
+1-90	542-544	ki	_	_	_	_	
+1-91	545-547	je	_	_	_	_	
+1-92	548-552	bila	_	_	_	_	
+1-93	553-565	uveljavljena	_	_	_	_	
+1-94	566-567	v	_	_	_	_	
+1-95	568-575	začetku	_	_	_	_	
+1-96	576-580	leta	_	_	_	_	
+1-97	581-585	2010	_	_	_	_	
+1-98	586-587	.	_	_	_	_	
+1-99	588-594	Upravo	_	_	_	_	
+1-100	595-599	tako	_	_	_	_	
+1-101	600-611	sestavljajo	_	_	_	_	
+1-102	612-622	predsednik	_	4 - Pozitivno[25]	*->3-2	*[3]	
+1-103	623-627	Žiga	PER[7]	4 - Pozitivno[25]	*->3-2	*[3]	
+1-104	628-636	Debeljak	PER[7]	4 - Pozitivno[25]	*->3-2	*[3]	
+1-105	637-640	ter	_	_	_	_	
+1-106	641-648	članica	_	4 - Pozitivno[26]	*->5-2	*[5]	
+1-107	649-655	uprave	_	4 - Pozitivno[26]	*->5-2	*[5]	
+1-108	656-658	za	_	4 - Pozitivno[26]	*->5-2	*[5]	
+1-109	659-668	strateško	_	4 - Pozitivno[26]	*->5-2	*[5]	
+1-110	669-676	trženje	_	4 - Pozitivno[26]	*->5-2	*[5]	
+1-111	677-679	in	_	4 - Pozitivno[26]	*->5-2	*[5]	
+1-112	680-688	globalno	_	4 - Pozitivno[26]	*->5-2	*[5]	
+1-113	689-695	nabavo	_	4 - Pozitivno[26]	*->5-2	*[5]	
+1-114	696-702	Mateja	PER[8]	4 - Pozitivno[26]	*->5-2	*[5]	
+1-115	703-710	Jesenek	PER[8]	4 - Pozitivno[26]	*->5-2	*[5]	
+1-116	711-712	,	_	_	_	_	
+1-117	713-720	članica	_	4 - Pozitivno[27]	*->7-2	*[7]	
+1-118	721-727	uprave	_	4 - Pozitivno[27]	*->7-2	*[7]	
+1-119	728-730	za	_	4 - Pozitivno[27]	*->7-2	*[7]	
+1-120	731-740	strateške	_	4 - Pozitivno[27]	*->7-2	*[7]	
+1-121	741-748	finance	_	4 - Pozitivno[27]	*->7-2	*[7]	
+1-122	749-751	in	_	4 - Pozitivno[27]	*->7-2	*[7]	
+1-123	752-763	informatiko	_	4 - Pozitivno[27]	*->7-2	*[7]	
+1-124	764-770	Melita	PER[9]	4 - Pozitivno[27]	*->7-2	*[7]	
+1-125	771-779	Kolbezen	PER[9]	4 - Pozitivno[27]	*->7-2	*[7]	
+1-126	780-781	,	_	_	_	_	
+1-127	782-789	članica	_	4 - Pozitivno[28]	*->4-2	*[4]	
+1-128	790-796	uprave	_	4 - Pozitivno[28]	*->4-2	*[4]	
+1-129	797-799	za	_	4 - Pozitivno[28]	*->4-2	*[4]	
+1-130	800-809	strateški	_	4 - Pozitivno[28]	*->4-2	*[4]	
+1-131	810-816	razvoj	_	4 - Pozitivno[28]	*->4-2	*[4]	
+1-132	817-823	kadrov	_	4 - Pozitivno[28]	*->4-2	*[4]	
+1-133	824-826	in	_	4 - Pozitivno[28]	*->4-2	*[4]	
+1-134	827-839	organizacijo	_	4 - Pozitivno[28]	*->4-2	*[4]	
+1-135	840-844	Vera	PER[10]	4 - Pozitivno[28]	*->4-2	*[4]	
+1-136	845-853	Aljančič	PER[10]	4 - Pozitivno[28]	*->4-2	*[4]	
+1-137	854-859	Falež	PER[10]	4 - Pozitivno[28]	*->4-2	*[4]	
+1-138	860-861	,	_	_	_	_	
+1-139	862-866	član	_	4 - Pozitivno[29]	*->6-2	*[6]	
+1-140	867-873	uprave	_	4 - Pozitivno[29]	*->6-2	*[6]	
+1-141	874-876	za	_	4 - Pozitivno[29]	*->6-2	*[6]	
+1-142	877-885	poslovno	_	4 - Pozitivno[29]	*->6-2	*[6]	
+1-143	886-894	področje	_	4 - Pozitivno[29]	*->6-2	*[6]	
+1-144	895-903	Mercator	ORG[11]|ORG[12]	4 - Pozitivno[29]|3 - Nevtralno[30]	*->6-2|*->9-1|*->2-4	*[6]|*[9]|*[2]	
+1-145	904-912	trgovina	ORG[11]	4 - Pozitivno[29]|3 - Nevtralno[30]	*->6-2|*->9-1	*[6]|*[9]	
+1-146	913-922	Slovenija	ORG[11]|LOC[13]	4 - Pozitivno[29]|3 - Nevtralno[30]|3 - Nevtralno[31]	*->6-2|*->9-1|*->10-1	*[6]|*[9]|*[10]	
+1-147	923-928	Peter	PER[14]	4 - Pozitivno[29]	*->6-2	*[6]	
+1-148	929-934	Zavrl	PER[14]	4 - Pozitivno[29]	*->6-2	*[6]	
+1-149	935-937	in	_	_	_	_	
+1-150	938-945	članica	_	4 - Pozitivno[32]	*->8-2	*[8]	
+1-151	946-952	uprave	_	4 - Pozitivno[32]	*->8-2	*[8]	
+1-152	953-955	za	_	4 - Pozitivno[32]	*->8-2	*[8]	
+1-153	956-964	poslovno	_	4 - Pozitivno[32]	*->8-2	*[8]	
+1-154	965-973	področje	_	4 - Pozitivno[32]	*->8-2	*[8]	
+1-155	974-982	Mercator	ORG[15]|ORG[16]	4 - Pozitivno[32]|3 - Nevtralno[33]	*->8-2|*->11-1|*->2-5	*[8]|*[11]|*[2]	
+1-156	983-991	trgovina	ORG[15]	4 - Pozitivno[32]|3 - Nevtralno[33]	*->8-2|*->11-1	*[8]|*[11]	
+1-157	992-1003	jugovzhodna	ORG[15]	4 - Pozitivno[32]|3 - Nevtralno[33]	*->8-2|*->11-1	*[8]|*[11]	
+1-158	1004-1010	Evropa	ORG[15]|LOC[17]	4 - Pozitivno[32]|3 - Nevtralno[33]|3 - Nevtralno[34]	*->8-2|*->11-1|*->12-1	*[8]|*[11]|*[12]	
+1-159	1011-1017	Stanka	PER[18]	4 - Pozitivno[32]	*->8-2	*[8]	
+1-160	1018-1025	Čurović	PER[18]	4 - Pozitivno[32]	*->8-2	*[8]	
+1-161	1026-1027	.	_	_	_	_	
+1-162	1028-1042	Nepremičninsko	_	_	_	_	
+1-163	1043-1052	dejavnost	_	_	_	_	
+1-164	1053-1055	bo	_	_	_	_	
+1-165	1056-1057	v	_	_	_	_	
+1-166	1058-1064	upravi	_	_	_	_	
+1-167	1065-1075	neposredno	_	_	_	_	
+1-168	1076-1084	pokrival	_	_	_	_	
+1-169	1085-1095	predsednik	_	_	_	_	
+1-170	1096-1102	uprave	_	_	_	_	
+1-171	1103-1109	skupaj	_	_	_	_	
+1-172	1110-1111	s	_	_	_	_	
+1-173	1112-1122	pomočnikom	_	4 - Pozitivno[35]	*->14-1	*[14]	
+1-174	1123-1134	predsednika	_	4 - Pozitivno[35]	*->14-1	*[14]	
+1-175	1135-1141	uprave	_	4 - Pozitivno[35]	*->14-1	*[14]	
+1-176	1142-1144	za	_	4 - Pozitivno[35]	*->14-1	*[14]	
+1-177	1145-1153	poslovno	_	4 - Pozitivno[35]	*->14-1	*[14]	
+1-178	1154-1162	področje	_	4 - Pozitivno[35]	*->14-1	*[14]	
+1-179	1163-1171	Mercator	ORG[19]|ORG[20]	4 - Pozitivno[35]	*->14-1|*->13-1|*->2-6	*[14]|*[13]|*[2]	
+1-180	1172-1184	nepremičnine	ORG[19]	4 - Pozitivno[35]	*->14-1|*->13-1	*[14]|*[13]	
+1-181	1185-1191	Alešem	PER[21]	4 - Pozitivno[35]	*->14-1	*[14]	
+1-182	1192-1200	Resnikom	PER[21]	4 - Pozitivno[35]	*->14-1	*[14]	
+1-183	1201-1202	,	_	_	_	_	
+1-184	1203-1205	so	_	_	_	_	
+1-185	1206-1211	danes	_	_	_	_	
+1-186	1212-1221	sporočili	_	_	_	_	
+1-187	1222-1224	iz	_	_	_	_	
+1-188	1225-1235	Mercatorja	ORG	_	*->2-7	*[2]	
+1-189	1236-1237	.	_	_	_	_	
+1-190	1238-1247	Dosedanji	_	_	*->15-1	*[15]	
+1-191	1248-1256	pomočnik	_	_	*->15-1	*[15]	
+1-192	1257-1268	predsednika	_	_	*->15-1	*[15]	
+1-193	1269-1275	uprave	_	_	*->15-1	*[15]	
+1-194	1276-1285	Stanislav	PER[22]	_	*->15-1	*[15]	
+1-195	1286-1294	Brodnjak	PER[22]	_	*->15-1	*[15]	
+1-196	1295-1297	je	_	_	_	_	
+1-197	1298-1299	s	_	_	_	_	
+1-198	1300-1301	1	_	_	_	_	
+1-199	1302-1303	.	_	_	_	_	
+1-200	1304-1313	januarjem	_	_	_	_	
+1-201	1314-1318	2011	_	_	_	_	
+1-202	1319-1326	prevzel	_	_	_	_	
+1-203	1327-1335	funkcijo	_	_	_	_	
+1-204	1336-1347	predsednika	_	_	*->15-2	*[15]	
+1-205	1348-1354	uprave	_	_	*->15-2	*[15]	
+1-206	1355-1361	družbe	_	_	*->15-2	*[15]	
+1-207	1362-1370	Mercator	ORG[23]|ORG[24]	3 - Nevtralno	*->15-2|*->16-1|*->2-8	*[15]|*[16]|*[2]	
+1-208	1371-1372	-	ORG[23]	_	*->15-2|*->16-1	*[15]|*[16]	
+1-209	1373-1374	H	ORG[23]	_	*->15-2|*->16-1	*[15]|*[16]	
+1-210	1375-1376	,	_	_	_	_	
+1-211	1377-1383	hkrati	_	_	_	_	
+1-212	1384-1386	pa	_	_	_	_	
+1-213	1387-1389	bo	_	_	_	_	
+1-214	1390-1399	opravljal	_	4 - Pozitivno	*->15-3	*[15]	
+1-215	1400-1404	tudi	_	_	_	_	
+1-216	1405-1413	funkcijo	_	_	_	_	
+1-217	1414-1424	svetovalca	_	_	_	_	
+1-218	1425-1436	predsednika	_	_	_	_	
+1-219	1437-1443	uprave	_	_	_	_	
+1-220	1444-1446	za	_	_	_	_	
+1-221	1447-1457	mednarodne	_	_	_	_	
+1-222	1458-1464	zadeve	_	_	_	_	

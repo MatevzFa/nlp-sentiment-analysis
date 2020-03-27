@@ -1,0 +1,192 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Bo upodobitev Alfreda Hitchcocka najboljša vloga Anthonyja Hopkinsa ? Britanski igralec Anthony Hopkins slovi po vlogah v srhljivkah , kot je Ko jagenjčki obmolknejo ( 1991 ) , toda njegova najboljša vloga utegne postati upodobitev samega mojstra suspenza - Alfreda Hitchcocka . Vsaj tako je soditi po fotografijah s prizorišča snemanja filma , poroča nemška tiskovna agencija dpa . Alfred Hitchcock ali Anthony Hopkins ? Anthony Hopkins . Na fotografiji , ki jo je ta teden objavila ameriška revija People , je Hopkins osupljivo podoben režiserju legendarnega Psiha ( 1960 ) . Film s preprostim naslovom Hitchcock so začeli snemati minuli teden , posveča pa se zgodbi v ozadju snemanja omenjene srhljivke . V filmu tudi " kraljica " V filmu bo v vlogi režiserjeve žene Alme nastopila Helen Mirren , ki je navdušila z upodobitvijo britanske kraljice Elizabete II v filmu Kraljica ( 2006 ) . Scarlett Johansson bo Janet Leigh , dama v legendarni sceni s tušem , Jessica Biel bo nastopila kot igralka Vera Miles , ki v Psihu igra sestro Leighove , James D'Arcy pa kot glavni igralec Psiha Anthony Perkins
+1-1	0-2	Bo	_	_	_	_	
+1-2	3-13	upodobitev	_	_	_	_	
+1-3	14-21	Alfreda	PER[1]	_	*->2-1	*[2]	
+1-4	22-32	Hitchcocka	PER[1]	_	*->2-1	*[2]	
+1-5	33-42	najboljša	_	_	_	_	
+1-6	43-48	vloga	_	_	_	_	
+1-7	49-58	Anthonyja	PER[2]	_	*->1-1	*[1]	
+1-8	59-67	Hopkinsa	PER[2]	_	*->1-1	*[1]	
+1-9	68-69	?	_	_	_	_	
+1-10	70-79	Britanski	_	_	*->1-2	*[1]	
+1-11	80-87	igralec	_	_	*->1-2	*[1]	
+1-12	88-95	Anthony	PER[3]	_	*->1-2	*[1]	
+1-13	96-103	Hopkins	PER[3]	_	*->1-2	*[1]	
+1-14	104-109	slovi	_	_	_	_	
+1-15	110-112	po	_	_	_	_	
+1-16	113-119	vlogah	_	_	_	_	
+1-17	120-121	v	_	_	_	_	
+1-18	122-132	srhljivkah	_	_	_	_	
+1-19	133-134	,	_	_	_	_	
+1-20	135-138	kot	_	_	_	_	
+1-21	139-141	je	_	_	_	_	
+1-22	142-144	Ko	_	_	_	_	
+1-23	145-154	jagenjčki	_	_	_	_	
+1-24	155-165	obmolknejo	_	_	_	_	
+1-25	166-167	(	_	_	_	_	
+1-26	168-172	1991	_	_	_	_	
+1-27	173-174	)	_	_	_	_	
+1-28	175-176	,	_	_	_	_	
+1-29	177-181	toda	_	_	_	_	
+1-30	182-189	njegova	_	_	*->1-3	*[1]	
+1-31	190-199	najboljša	_	_	_	_	
+1-32	200-205	vloga	_	_	_	_	
+1-33	206-212	utegne	_	_	_	_	
+1-34	213-220	postati	_	_	_	_	
+1-35	221-231	upodobitev	_	_	_	_	
+1-36	232-238	samega	_	_	*->2-2	*[2]	
+1-37	239-246	mojstra	_	_	*->2-2	*[2]	
+1-38	247-255	suspenza	_	_	*->2-2	*[2]	
+1-39	256-257	-	_	_	*->2-2	*[2]	
+1-40	258-265	Alfreda	PER[4]	_	*->2-2	*[2]	
+1-41	266-276	Hitchcocka	PER[4]	_	*->2-2	*[2]	
+1-42	277-278	.	_	_	_	_	
+1-43	279-283	Vsaj	_	_	_	_	
+1-44	284-288	tako	_	_	_	_	
+1-45	289-291	je	_	_	_	_	
+1-46	292-298	soditi	_	_	_	_	
+1-47	299-301	po	_	_	_	_	
+1-48	302-314	fotografijah	_	_	_	_	
+1-49	315-316	s	_	_	_	_	
+1-50	317-327	prizorišča	_	_	_	_	
+1-51	328-336	snemanja	_	_	_	_	
+1-52	337-342	filma	_	_	_	_	
+1-53	343-344	,	_	_	_	_	
+1-54	345-351	poroča	_	_	_	_	
+1-55	352-358	nemška	_	3 - Nevtralno[16]	*->4-1	*[4]	
+1-56	359-367	tiskovna	_	3 - Nevtralno[16]	*->4-1	*[4]	
+1-57	368-376	agencija	_	3 - Nevtralno[16]	*->4-1	*[4]	
+1-58	377-380	dpa	ORG	3 - Nevtralno[16]	*->4-1	*[4]	
+1-59	381-382	.	_	_	_	_	
+1-60	383-389	Alfred	PER[5]	3 - Nevtralno[17]	*->2-3	*[2]	
+1-61	390-399	Hitchcock	PER[5]	3 - Nevtralno[17]	*->2-3	*[2]	
+1-62	400-403	ali	_	_	_	_	
+1-63	404-411	Anthony	PER[6]	_	*->1-4	*[1]	
+1-64	412-419	Hopkins	PER[6]	_	*->1-4	*[1]	
+1-65	420-421	?	_	_	_	_	
+1-66	422-429	Anthony	PER[7]	_	*->1-5	*[1]	
+1-67	430-437	Hopkins	PER[7]	_	*->1-5	*[1]	
+1-68	438-439	.	_	_	_	_	
+1-69	440-442	Na	_	_	_	_	
+1-70	443-454	fotografiji	_	_	_	_	
+1-71	455-456	,	_	_	_	_	
+1-72	457-459	ki	_	_	_	_	
+1-73	460-462	jo	_	_	_	_	
+1-74	463-465	je	_	_	_	_	
+1-75	466-468	ta	_	_	_	_	
+1-76	469-474	teden	_	_	_	_	
+1-77	475-483	objavila	_	_	_	_	
+1-78	484-492	ameriška	_	3 - Nevtralno[18]	*->5-1	*[5]	
+1-79	493-499	revija	_	3 - Nevtralno[18]	*->5-1	*[5]	
+1-80	500-506	People	ORG	3 - Nevtralno[18]	*->5-1	*[5]	
+1-81	507-508	,	_	_	_	_	
+1-82	509-511	je	_	_	_	_	
+1-83	512-519	Hopkins	PER	4 - Pozitivno	*->1-6	*[1]	
+1-84	520-529	osupljivo	_	_	_	_	
+1-85	530-537	podoben	_	_	_	_	
+1-86	538-547	režiserju	_	_	*->2-4	*[2]	
+1-87	548-560	legendarnega	_	_	*->2-4	*[2]	
+1-88	561-566	Psiha	_	_	*->2-4	*[2]	
+1-89	567-568	(	_	_	*->2-4	*[2]	
+1-90	569-573	1960	_	_	*->2-4	*[2]	
+1-91	574-575	)	_	_	*->2-4	*[2]	
+1-92	576-577	.	_	_	_	_	
+1-93	578-582	Film	_	_	_	_	
+1-94	583-584	s	_	_	_	_	
+1-95	585-595	preprostim	_	_	_	_	
+1-96	596-604	naslovom	_	_	_	_	
+1-97	605-614	Hitchcock	_	_	_	_	
+1-98	615-617	so	_	_	_	_	
+1-99	618-624	začeli	_	_	_	_	
+1-100	625-632	snemati	_	_	_	_	
+1-101	633-639	minuli	_	_	_	_	
+1-102	640-645	teden	_	_	_	_	
+1-103	646-647	,	_	_	_	_	
+1-104	648-655	posveča	_	_	_	_	
+1-105	656-658	pa	_	_	_	_	
+1-106	659-661	se	_	_	_	_	
+1-107	662-668	zgodbi	_	_	_	_	
+1-108	669-670	v	_	_	_	_	
+1-109	671-677	ozadju	_	_	_	_	
+1-110	678-686	snemanja	_	_	_	_	
+1-111	687-695	omenjene	_	_	_	_	
+1-112	696-705	srhljivke	_	_	_	_	
+1-113	706-707	.	_	_	_	_	
+1-114	708-709	V	_	_	_	_	
+1-115	710-715	filmu	_	_	_	_	
+1-116	716-720	tudi	_	_	_	_	
+1-117	721-722	"	_	_	_	_	
+1-118	723-731	kraljica	_	_	_	_	
+1-119	732-733	"	_	_	_	_	
+1-120	734-735	V	_	_	_	_	
+1-121	736-741	filmu	_	_	_	_	
+1-122	742-744	bo	_	_	_	_	
+1-123	745-746	v	_	_	_	_	
+1-124	747-752	vlogi	_	_	_	_	
+1-125	753-764	režiserjeve	_	3 - Nevtralno[19]|3 - Nevtralno[20]	*->7-1|*->2-5	*[7]|*[2]	
+1-126	765-769	žene	_	3 - Nevtralno[19]	*->7-1	*[7]	
+1-127	770-774	Alme	PER	3 - Nevtralno[19]	*->7-1	*[7]	
+1-128	775-784	nastopila	_	_	_	_	
+1-129	785-790	Helen	PER[8]	_	*->6-1	*[6]	
+1-130	791-797	Mirren	PER[8]	_	*->6-1	*[6]	
+1-131	798-799	,	_	_	_	_	
+1-132	800-802	ki	_	_	_	_	
+1-133	803-805	je	_	_	_	_	
+1-134	806-815	navdušila	_	4 - Pozitivno	*->6-2	*[6]	
+1-135	816-817	z	_	_	_	_	
+1-136	818-830	upodobitvijo	_	_	_	_	
+1-137	831-840	britanske	_	_	_	_	
+1-138	841-849	kraljice	_	_	_	_	
+1-139	850-859	Elizabete	PER[9]	3 - Nevtralno[21]	*->8-1	*[8]	
+1-140	860-862	II	PER[9]	3 - Nevtralno[21]	*->8-1	*[8]	
+1-141	863-864	v	_	_	_	_	
+1-142	865-870	filmu	_	_	_	_	
+1-143	871-879	Kraljica	_	_	_	_	
+1-144	880-881	(	_	_	_	_	
+1-145	882-886	2006	_	_	_	_	
+1-146	887-888	)	_	_	_	_	
+1-147	889-890	.	_	_	_	_	
+1-148	891-899	Scarlett	PER[10]	3 - Nevtralno[22]	*->9-1	*[9]	
+1-149	900-909	Johansson	PER[10]	3 - Nevtralno[22]	*->9-1	*[9]	
+1-150	910-912	bo	_	_	_	_	
+1-151	913-918	Janet	PER[11]	_	*->3-1	*[3]	
+1-152	919-924	Leigh	PER[11]	_	*->3-1	*[3]	
+1-153	925-926	,	_	_	_	_	
+1-154	927-931	dama	_	_	*->3-2	*[3]	
+1-155	932-933	v	_	_	*->3-2	*[3]	
+1-156	934-944	legendarni	_	_	*->3-2	*[3]	
+1-157	945-950	sceni	_	_	*->3-2	*[3]	
+1-158	951-952	s	_	_	*->3-2	*[3]	
+1-159	953-958	tušem	_	_	*->3-2	*[3]	
+1-160	959-960	,	_	_	_	_	
+1-161	961-968	Jessica	PER[12]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-162	969-973	Biel	PER[12]	3 - Nevtralno[23]	*->10-1	*[10]	
+1-163	974-976	bo	_	_	_	_	
+1-164	977-986	nastopila	_	_	_	_	
+1-165	987-990	kot	_	_	_	_	
+1-166	991-998	igralka	_	_	_	_	
+1-167	999-1003	Vera	PER[13]	_	*->11-1	*[11]	
+1-168	1004-1009	Miles	PER[13]	_	*->11-1	*[11]	
+1-169	1010-1011	,	_	_	_	_	
+1-170	1012-1014	ki	_	_	_	_	
+1-171	1015-1016	v	_	_	_	_	
+1-172	1017-1022	Psihu	_	_	_	_	
+1-173	1023-1027	igra	_	_	*->11-2	*[11]	
+1-174	1028-1034	sestro	_	3 - Nevtralno[24]	*->11-3	*[11]	
+1-175	1035-1043	Leighove	PER	3 - Nevtralno[24]|3 - Nevtralno[25]	*->11-3|*->3-3	*[11]|*[3]	
+1-176	1044-1045	,	_	_	_	_	
+1-177	1046-1051	James	PER[14]	3 - Nevtralno[26]	*->12-1	*[12]	
+1-178	1052-1058	D'Arcy	PER[14]	3 - Nevtralno[26]	*->12-1	*[12]	
+1-179	1059-1061	pa	_	_	_	_	
+1-180	1062-1065	kot	_	_	_	_	
+1-181	1066-1072	glavni	_	3 - Nevtralno[27]	*->13-1	*[13]	
+1-182	1073-1080	igralec	_	3 - Nevtralno[27]	*->13-1	*[13]	
+1-183	1081-1086	Psiha	_	3 - Nevtralno[27]	*->13-1	*[13]	
+1-184	1087-1094	Anthony	PER[15]	3 - Nevtralno[27]	*->13-1	*[13]	
+1-185	1095-1102	Perkins	PER[15]	3 - Nevtralno[27]	*->13-1	*[13]	

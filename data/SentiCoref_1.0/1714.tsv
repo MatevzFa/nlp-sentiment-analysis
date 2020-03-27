@@ -1,0 +1,333 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ameriška družba Icon Capital Group bo v sodelovanju z italijanskim gradbenim podjetjem Patera iz Vidma s 30 milijoni evrov dokapitalizirala ajdovsko Primorje . Novo upravo podjetja pa sestavljajo Štefan Činč , Sebastian Trajkovski in Darko Valenčič . Primorje je dobilo strateškega partnerja . Na zahtevo delničarja Primorje Holdinga je potekala skupščina delniške družbe Primorje . Odpoklican je bil celotni upravni odbor gradbenega podjetja Primorje , d . d . ter imenovan novi , ki ga sestavljajo Štefan Činč , Sebastian Trajkovski in Darko Valenčič . Primorje Holding , ki je v večinski lasti nekdanjega prvega moža Primorja Dušana Črnigoja , je 100 - odstotni lastnik Primorja . Družbo Icon Capital Group so omenjali tudi kot vlagateljico v trgovski center v Stožicah . Lastniki družbe so še obvestili , da so se s strateškim partnerjem z ameriško družbo Icon Capital Group iz Atlante in njenim regionalnim partnerjem družbo Patera S.R.L v italijanskem Vidmu dogovorili o dokapitalizaciji družbe v višini 30 milijonov evrov , kar je skladno s sprejetim sklepom na zadnji skupščini družbe . V prihodnjih dneh bo nova uprava s strateškim partnerjem skrbno pregledala poslovanje družbe in izvedla vse postopke za zaključek dokapitalizacije . Nato sledijo dogovori z bankami upnicami ter nebančnimi upniki in pogovor s sindikati o poplačilu zapadlih obveznosti iz naslova plač in prispevkov ter o prihodnosti družbe in zaposlenih , so sporočili iz gradbenega podjetja . Poleg tega pa bo uprava še zagotovila nemoteno delo na vseh gradbiščih doma in v tujini ter v polnosti aktivirala obstoječe pogodbe z naročniki tam , kjer so dela iz objektivnih okoliščin zastala . Zagotoviti pa bo morala tudi nova naročila , predvsem v tujini , ki jih zagotavlja tudi strateški partner , še posebno na območju jugovzhodne Evrope . Iz ajdovskega podjetja so še sporočili , da se bo uprava prvič sestala v ponedeljek . Napovedali so še , da se bo nova uprava še ta mesec skupaj s strateškim partnerjem predstavila tudi na novinarski konferenci
+1-1	0-8	Ameriška	_	_	*->7-1	*[7]	
+1-2	9-15	družba	_	_	*->7-1	*[7]	
+1-3	16-20	Icon	ORG[1]	_	*->7-1	*[7]	
+1-4	21-28	Capital	ORG[1]	_	*->7-1	*[7]	
+1-5	29-34	Group	ORG[1]	_	*->7-1	*[7]	
+1-6	35-37	bo	_	_	_	_	
+1-7	38-39	v	_	_	_	_	
+1-8	40-51	sodelovanju	_	_	_	_	
+1-9	52-53	z	_	_	_	_	
+1-10	54-66	italijanskim	_	_	*->1-1	*[1]	
+1-11	67-76	gradbenim	_	_	*->1-1	*[1]	
+1-12	77-86	podjetjem	_	_	*->1-1	*[1]	
+1-13	87-93	Patera	ORG	_	*->1-1	*[1]	
+1-14	94-96	iz	_	_	_	_	
+1-15	97-102	Vidma	LOC	_	*->2-1	*[2]	
+1-16	103-104	s	_	_	_	_	
+1-17	105-107	30	_	_	_	_	
+1-18	108-116	milijoni	_	_	_	_	
+1-19	117-122	evrov	_	_	_	_	
+1-20	123-139	dokapitalizirala	_	_	_	_	
+1-21	140-148	ajdovsko	_	_	_	_	
+1-22	149-157	Primorje	ORG	_	*->10-1	*[10]	
+1-23	158-159	.	_	_	_	_	
+1-24	160-164	Novo	_	_	_	_	
+1-25	165-171	upravo	_	_	_	_	
+1-26	172-180	podjetja	_	_	*->10-2	*[10]	
+1-27	181-183	pa	_	_	_	_	
+1-28	184-195	sestavljajo	_	_	_	_	
+1-29	196-202	Štefan	PER[2]	_	*->4-1	*[4]	
+1-30	203-207	Činč	PER[2]	_	*->4-1	*[4]	
+1-31	208-209	,	_	_	_	_	
+1-32	210-219	Sebastian	PER[3]	_	*->5-1	*[5]	
+1-33	220-230	Trajkovski	PER[3]	_	*->5-1	*[5]	
+1-34	231-233	in	_	_	_	_	
+1-35	234-239	Darko	PER[4]	_	*->3-1	*[3]	
+1-36	240-248	Valenčič	PER[4]	_	*->3-1	*[3]	
+1-37	249-250	.	_	_	_	_	
+1-38	251-259	Primorje	ORG	_	*->10-3	*[10]	
+1-39	260-262	je	_	_	_	_	
+1-40	263-269	dobilo	_	_	_	_	
+1-41	270-281	strateškega	_	_	*->7-2	*[7]	
+1-42	282-291	partnerja	_	_	*->7-2	*[7]	
+1-43	292-293	.	_	_	_	_	
+1-44	294-296	Na	_	_	_	_	
+1-45	297-304	zahtevo	_	_	_	_	
+1-46	305-315	delničarja	_	_	_	_	
+1-47	316-324	Primorje	ORG[5]|ORG[6]	_	*->6-1|*->10-4	*[6]|*[10]	
+1-48	325-333	Holdinga	ORG[5]	_	*->6-1	*[6]	
+1-49	334-336	je	_	_	_	_	
+1-50	337-345	potekala	_	_	_	_	
+1-51	346-355	skupščina	_	_	_	_	
+1-52	356-364	delniške	_	_	*->10-5	*[10]	
+1-53	365-371	družbe	_	_	*->10-5	*[10]	
+1-54	372-380	Primorje	ORG	_	*->10-5	*[10]	
+1-55	381-382	.	_	_	_	_	
+1-56	383-393	Odpoklican	_	_	_	_	
+1-57	394-396	je	_	_	_	_	
+1-58	397-400	bil	_	_	_	_	
+1-59	401-408	celotni	_	_	_	_	
+1-60	409-416	upravni	_	_	_	_	
+1-61	417-422	odbor	_	_	_	_	
+1-62	423-433	gradbenega	_	_	*->10-6	*[10]	
+1-63	434-442	podjetja	_	_	*->10-6	*[10]	
+1-64	443-451	Primorje	ORG[7]	_	*->10-6	*[10]	
+1-65	452-453	,	ORG[7]	_	*->10-6	*[10]	
+1-66	454-455	d	ORG[7]	_	*->10-6	*[10]	
+1-67	456-457	.	ORG[7]	_	*->10-6	*[10]	
+1-68	458-459	d	ORG[7]	_	*->10-6	*[10]	
+1-69	460-461	.	ORG[7]	_	*->10-6	*[10]	
+1-70	462-465	ter	_	_	_	_	
+1-71	466-474	imenovan	_	_	_	_	
+1-72	475-479	novi	_	_	_	_	
+1-73	480-481	,	_	_	_	_	
+1-74	482-484	ki	_	_	_	_	
+1-75	485-487	ga	_	_	_	_	
+1-76	488-499	sestavljajo	_	_	_	_	
+1-77	500-506	Štefan	PER[8]	4 - Pozitivno[17]	*->4-2	*[4]	
+1-78	507-511	Činč	PER[8]	4 - Pozitivno[17]	*->4-2	*[4]	
+1-79	512-513	,	_	_	_	_	
+1-80	514-523	Sebastian	PER[9]	4 - Pozitivno[18]	*->5-2	*[5]	
+1-81	524-534	Trajkovski	PER[9]	4 - Pozitivno[18]	*->5-2	*[5]	
+1-82	535-537	in	_	_	_	_	
+1-83	538-543	Darko	PER[10]	4 - Pozitivno[19]	*->3-2	*[3]	
+1-84	544-552	Valenčič	PER[10]	4 - Pozitivno[19]	*->3-2	*[3]	
+1-85	553-554	.	_	_	_	_	
+1-86	555-563	Primorje	ORG[11]|ORG[12]	_	*->6-2|*->10-7	*[6]|*[10]	
+1-87	564-571	Holding	ORG[11]	_	*->6-2	*[6]	
+1-88	572-573	,	_	_	_	_	
+1-89	574-576	ki	_	_	_	_	
+1-90	577-579	je	_	_	*->6-3	*[6]	
+1-91	580-581	v	_	_	_	_	
+1-92	582-590	večinski	_	_	_	_	
+1-93	591-596	lasti	_	_	_	_	
+1-94	597-607	nekdanjega	_	3 - Nevtralno[20]	*->11-1	*[11]	
+1-95	608-614	prvega	_	3 - Nevtralno[20]	*->11-1	*[11]	
+1-96	615-619	moža	_	3 - Nevtralno[20]	*->11-1	*[11]	
+1-97	620-628	Primorja	ORG	3 - Nevtralno[20]	*->11-1|*->10-8	*[11]|*[10]	
+1-98	629-635	Dušana	PER[13]	3 - Nevtralno[20]	*->11-1	*[11]	
+1-99	636-644	Črnigoja	PER[13]	3 - Nevtralno[20]	*->11-1	*[11]	
+1-100	645-646	,	_	_	_	_	
+1-101	647-649	je	_	_	_	_	
+1-102	650-653	100	_	4 - Pozitivno[21]	*->6-4	*[6]	
+1-103	654-655	-	_	4 - Pozitivno[21]	*->6-4	*[6]	
+1-104	656-664	odstotni	_	4 - Pozitivno[21]	*->6-4	*[6]	
+1-105	665-672	lastnik	_	4 - Pozitivno[21]	*->6-4	*[6]	
+1-106	673-681	Primorja	ORG	4 - Pozitivno[21]	*->6-4|*->10-9	*[6]|*[10]	
+1-107	682-683	.	_	_	_	_	
+1-108	684-690	Družbo	_	_	*->7-3	*[7]	
+1-109	691-695	Icon	ORG[14]	_	*->7-3	*[7]	
+1-110	696-703	Capital	ORG[14]	_	*->7-3	*[7]	
+1-111	704-709	Group	ORG[14]	_	*->7-3	*[7]	
+1-112	710-712	so	_	_	_	_	
+1-113	713-721	omenjali	_	_	_	_	
+1-114	722-726	tudi	_	_	_	_	
+1-115	727-730	kot	_	_	_	_	
+1-116	731-743	vlagateljico	_	_	*->7-4	*[7]	
+1-117	744-745	v	_	_	*->7-4	*[7]	
+1-118	746-754	trgovski	_	_	*->7-4	*[7]	
+1-119	755-761	center	_	_	*->7-4	*[7]	
+1-120	762-763	v	_	_	_	_	
+1-121	764-772	Stožicah	LOC	3 - Nevtralno	*->8-1	*[8]	
+1-122	773-774	.	_	_	_	_	
+1-123	775-783	Lastniki	_	_	_	_	
+1-124	784-790	družbe	_	_	*->10-10	*[10]	
+1-125	791-793	so	_	_	_	_	
+1-126	794-796	še	_	_	_	_	
+1-127	797-806	obvestili	_	_	_	_	
+1-128	807-808	,	_	_	_	_	
+1-129	809-811	da	_	_	_	_	
+1-130	812-814	so	_	_	_	_	
+1-131	815-817	se	_	_	_	_	
+1-132	818-819	s	_	_	_	_	
+1-133	820-830	strateškim	_	_	*->7-5	*[7]	
+1-134	831-841	partnerjem	_	_	*->7-5	*[7]	
+1-135	842-843	z	_	_	_	_	
+1-136	844-852	ameriško	_	_	*->7-6	*[7]	
+1-137	853-859	družbo	_	_	*->7-6	*[7]	
+1-138	860-864	Icon	ORG[15]	_	*->7-6	*[7]	
+1-139	865-872	Capital	ORG[15]	_	*->7-6	*[7]	
+1-140	873-878	Group	ORG[15]	_	*->7-6	*[7]	
+1-141	879-881	iz	_	_	*->7-6	*[7]	
+1-142	882-889	Atlante	LOC	3 - Nevtralno	*->7-6|*->12-1	*[7]|*[12]	
+1-143	890-892	in	_	_	_	_	
+1-144	893-899	njenim	_	_	*->7-7	*[7]	
+1-145	900-911	regionalnim	_	_	_	_	
+1-146	912-922	partnerjem	_	_	_	_	
+1-147	923-929	družbo	_	3 - Nevtralno[22]	*->1-2	*[1]	
+1-148	930-936	Patera	ORG[16]	3 - Nevtralno[22]	*->1-2	*[1]	
+1-149	937-942	S.R.L	ORG[16]	3 - Nevtralno[22]	*->1-2	*[1]	
+1-150	943-944	v	_	_	_	_	
+1-151	945-957	italijanskem	_	_	_	_	
+1-152	958-963	Vidmu	LOC	3 - Nevtralno	*->2-2	*[2]	
+1-153	964-974	dogovorili	_	_	_	_	
+1-154	975-976	o	_	_	_	_	
+1-155	977-993	dokapitalizaciji	_	_	_	_	
+1-156	994-1000	družbe	_	_	*->10-11	*[10]	
+1-157	1001-1002	v	_	_	_	_	
+1-158	1003-1009	višini	_	_	_	_	
+1-159	1010-1012	30	_	_	_	_	
+1-160	1013-1022	milijonov	_	_	_	_	
+1-161	1023-1028	evrov	_	_	_	_	
+1-162	1029-1030	,	_	_	_	_	
+1-163	1031-1034	kar	_	_	_	_	
+1-164	1035-1037	je	_	_	_	_	
+1-165	1038-1045	skladno	_	_	_	_	
+1-166	1046-1047	s	_	_	_	_	
+1-167	1048-1057	sprejetim	_	_	_	_	
+1-168	1058-1065	sklepom	_	_	_	_	
+1-169	1066-1068	na	_	_	_	_	
+1-170	1069-1075	zadnji	_	_	_	_	
+1-171	1076-1085	skupščini	_	_	_	_	
+1-172	1086-1092	družbe	_	_	*->10-12	*[10]	
+1-173	1093-1094	.	_	_	_	_	
+1-174	1095-1096	V	_	_	_	_	
+1-175	1097-1107	prihodnjih	_	_	_	_	
+1-176	1108-1112	dneh	_	_	_	_	
+1-177	1113-1115	bo	_	_	_	_	
+1-178	1116-1120	nova	_	_	_	_	
+1-179	1121-1127	uprava	_	_	_	_	
+1-180	1128-1129	s	_	_	_	_	
+1-181	1130-1140	strateškim	_	_	*->7-8	*[7]	
+1-182	1141-1151	partnerjem	_	_	*->7-8	*[7]	
+1-183	1152-1158	skrbno	_	_	_	_	
+1-184	1159-1169	pregledala	_	_	_	_	
+1-185	1170-1180	poslovanje	_	_	_	_	
+1-186	1181-1187	družbe	_	_	*->10-13	*[10]	
+1-187	1188-1190	in	_	_	_	_	
+1-188	1191-1198	izvedla	_	_	_	_	
+1-189	1199-1202	vse	_	_	_	_	
+1-190	1203-1211	postopke	_	_	_	_	
+1-191	1212-1214	za	_	_	_	_	
+1-192	1215-1224	zaključek	_	_	_	_	
+1-193	1225-1241	dokapitalizacije	_	_	_	_	
+1-194	1242-1243	.	_	_	_	_	
+1-195	1244-1248	Nato	_	_	_	_	
+1-196	1249-1256	sledijo	_	_	_	_	
+1-197	1257-1265	dogovori	_	_	_	_	
+1-198	1266-1267	z	_	_	_	_	
+1-199	1268-1275	bankami	_	_	_	_	
+1-200	1276-1284	upnicami	_	_	_	_	
+1-201	1285-1288	ter	_	_	_	_	
+1-202	1289-1299	nebančnimi	_	_	_	_	
+1-203	1300-1306	upniki	_	_	_	_	
+1-204	1307-1309	in	_	_	_	_	
+1-205	1310-1317	pogovor	_	_	_	_	
+1-206	1318-1319	s	_	_	_	_	
+1-207	1320-1329	sindikati	_	_	_	_	
+1-208	1330-1331	o	_	_	_	_	
+1-209	1332-1341	poplačilu	_	_	_	_	
+1-210	1342-1350	zapadlih	_	_	_	_	
+1-211	1351-1361	obveznosti	_	_	_	_	
+1-212	1362-1364	iz	_	_	_	_	
+1-213	1365-1372	naslova	_	_	_	_	
+1-214	1373-1377	plač	_	_	_	_	
+1-215	1378-1380	in	_	_	_	_	
+1-216	1381-1391	prispevkov	_	_	_	_	
+1-217	1392-1395	ter	_	_	_	_	
+1-218	1396-1397	o	_	_	_	_	
+1-219	1398-1409	prihodnosti	_	_	_	_	
+1-220	1410-1416	družbe	_	_	*->10-14	*[10]	
+1-221	1417-1419	in	_	_	_	_	
+1-222	1420-1430	zaposlenih	_	_	_	_	
+1-223	1431-1432	,	_	_	_	_	
+1-224	1433-1435	so	_	_	_	_	
+1-225	1436-1445	sporočili	_	_	_	_	
+1-226	1446-1448	iz	_	_	_	_	
+1-227	1449-1459	gradbenega	_	_	*->10-15	*[10]	
+1-228	1460-1468	podjetja	_	_	*->10-15	*[10]	
+1-229	1469-1470	.	_	_	_	_	
+1-230	1471-1476	Poleg	_	_	_	_	
+1-231	1477-1481	tega	_	_	_	_	
+1-232	1482-1484	pa	_	_	_	_	
+1-233	1485-1487	bo	_	_	_	_	
+1-234	1488-1494	uprava	_	_	_	_	
+1-235	1495-1497	še	_	_	_	_	
+1-236	1498-1508	zagotovila	_	_	_	_	
+1-237	1509-1517	nemoteno	_	_	_	_	
+1-238	1518-1522	delo	_	_	_	_	
+1-239	1523-1525	na	_	_	_	_	
+1-240	1526-1530	vseh	_	_	_	_	
+1-241	1531-1541	gradbiščih	_	_	_	_	
+1-242	1542-1546	doma	_	_	_	_	
+1-243	1547-1549	in	_	_	_	_	
+1-244	1550-1551	v	_	_	_	_	
+1-245	1552-1558	tujini	_	_	_	_	
+1-246	1559-1562	ter	_	_	_	_	
+1-247	1563-1564	v	_	_	_	_	
+1-248	1565-1573	polnosti	_	_	_	_	
+1-249	1574-1584	aktivirala	_	_	_	_	
+1-250	1585-1594	obstoječe	_	_	_	_	
+1-251	1595-1602	pogodbe	_	_	_	_	
+1-252	1603-1604	z	_	_	_	_	
+1-253	1605-1614	naročniki	_	_	_	_	
+1-254	1615-1618	tam	_	_	_	_	
+1-255	1619-1620	,	_	_	_	_	
+1-256	1621-1625	kjer	_	_	_	_	
+1-257	1626-1628	so	_	_	_	_	
+1-258	1629-1633	dela	_	_	_	_	
+1-259	1634-1636	iz	_	_	_	_	
+1-260	1637-1648	objektivnih	_	_	_	_	
+1-261	1649-1658	okoliščin	_	_	_	_	
+1-262	1659-1666	zastala	_	_	_	_	
+1-263	1667-1668	.	_	_	_	_	
+1-264	1669-1679	Zagotoviti	_	_	_	_	
+1-265	1680-1682	pa	_	_	_	_	
+1-266	1683-1685	bo	_	_	_	_	
+1-267	1686-1692	morala	_	_	_	_	
+1-268	1693-1697	tudi	_	_	_	_	
+1-269	1698-1702	nova	_	_	_	_	
+1-270	1703-1711	naročila	_	_	_	_	
+1-271	1712-1713	,	_	_	_	_	
+1-272	1714-1722	predvsem	_	_	_	_	
+1-273	1723-1724	v	_	_	_	_	
+1-274	1725-1731	tujini	_	_	_	_	
+1-275	1732-1733	,	_	_	_	_	
+1-276	1734-1736	ki	_	_	_	_	
+1-277	1737-1740	jih	_	_	_	_	
+1-278	1741-1751	zagotavlja	_	_	_	_	
+1-279	1752-1756	tudi	_	_	_	_	
+1-280	1757-1766	strateški	_	_	*->7-9	*[7]	
+1-281	1767-1774	partner	_	_	*->7-9	*[7]	
+1-282	1775-1776	,	_	_	_	_	
+1-283	1777-1779	še	_	_	_	_	
+1-284	1780-1787	posebno	_	_	_	_	
+1-285	1788-1790	na	_	_	_	_	
+1-286	1791-1798	območju	_	_	_	_	
+1-287	1799-1810	jugovzhodne	_	_	_	_	
+1-288	1811-1817	Evrope	LOC	3 - Nevtralno	*->9-1	*[9]	
+1-289	1818-1819	.	_	_	_	_	
+1-290	1820-1822	Iz	_	_	_	_	
+1-291	1823-1833	ajdovskega	_	_	*->10-16	*[10]	
+1-292	1834-1842	podjetja	_	_	*->10-16	*[10]	
+1-293	1843-1845	so	_	_	_	_	
+1-294	1846-1848	še	_	_	_	_	
+1-295	1849-1858	sporočili	_	_	_	_	
+1-296	1859-1860	,	_	_	_	_	
+1-297	1861-1863	da	_	_	_	_	
+1-298	1864-1866	se	_	_	_	_	
+1-299	1867-1869	bo	_	_	_	_	
+1-300	1870-1876	uprava	_	_	_	_	
+1-301	1877-1882	prvič	_	_	_	_	
+1-302	1883-1890	sestala	_	_	_	_	
+1-303	1891-1892	v	_	_	_	_	
+1-304	1893-1903	ponedeljek	_	_	_	_	
+1-305	1904-1905	.	_	_	_	_	
+1-306	1906-1916	Napovedali	_	4 - Pozitivno	*->10-17	*[10]	
+1-307	1917-1919	so	_	_	_	_	
+1-308	1920-1922	še	_	_	_	_	
+1-309	1923-1924	,	_	_	_	_	
+1-310	1925-1927	da	_	_	_	_	
+1-311	1928-1930	se	_	_	_	_	
+1-312	1931-1933	bo	_	_	_	_	
+1-313	1934-1938	nova	_	_	_	_	
+1-314	1939-1945	uprava	_	_	_	_	
+1-315	1946-1948	še	_	_	_	_	
+1-316	1949-1951	ta	_	_	_	_	
+1-317	1952-1957	mesec	_	_	_	_	
+1-318	1958-1964	skupaj	_	_	_	_	
+1-319	1965-1966	s	_	_	_	_	
+1-320	1967-1977	strateškim	_	4 - Pozitivno[23]	*->7-10	*[7]	
+1-321	1978-1988	partnerjem	_	4 - Pozitivno[23]	*->7-10	*[7]	
+1-322	1989-2000	predstavila	_	_	_	_	
+1-323	2001-2005	tudi	_	_	_	_	
+1-324	2006-2008	na	_	_	_	_	
+1-325	2009-2019	novinarski	_	_	_	_	
+1-326	2020-2030	konferenci	_	_	_	_	

@@ -1,0 +1,396 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Druga največja britanska banka , Barclays , bo izdala za 8,1 milijarde evrov novih delnic . Iz banke so sporočili , da bodo v nasprotju z RBS , HBOS in Lloyds prišli do svežega kapitala brez vladne pomoči ter da letos ne bodo delničarjem izplačali dividend . Tako naj bi skupaj z neizplačanimi dividendami banka dobila 12,5 milijarde evrov . MUFG do petine v Morgan Stanleyju Največja japonska banka , Mitsubishi UFJ Financial Group ( MUFG ) , je za devet milijard dolarjev kupila 21 - odstotni delež v ameriški investicijski banki Morgan Stanley . Novica o prevzemu je povzročila , da se je včeraj zjutraj cena delnice ameriške banke zvišala za dobrih 28 odstotkov.Filipinski milijarder za nakup enote AIG Eden najbogatejših Filipincev , Henry Sy , ki ima v lasti drugo največjo filipinsko banko , Banco de oro Unibank , se zanima za nakup filipinske enote ameriške banke AIG . Divizija je sicer največja zavarovalnica v državi.Fed odobril prevzem Wachovie Ameriška centralna banka Fed je banki Wells Fargo odobrila 15 milijard dolarjev vreden prevzem ameriške banke Wachovia . S to odločitvijo je odprta pot za nastanek koncerna z največjo mrežo bančnih poslovalnic v ZDA . Po mnenju analitikov bo banka Wells Fargo verjetno prodala enoto Wachovie za investicijsko bančništvo , ki zaposluje 6000 ljudi in ustvarja 16 odstotkov prihodkov banke . Delnica Berkshire padla za 18 odstotkov Vrednost družbe Berkshire Hathaway , ki jo vodi Warren Buffett , se je v prejšnjem tednu znižala za 18 odstotkov oziroma za 10,4 milijarde dolarjev . Portfolij družbe pa se je znižal za 17 odstotkov , saj je delnica največje investicije družbe , Coca - Cole , padla za 21 odstotkov , delnica druge največje investicije družbe , banke Wells Fargo , pa za 18 odstotkov.Crobex za 15,9 odstotka navzgor V Zagrebu se je včeraj osrednji indeks Crobex zvišal za 15,9 odstotka , zaradi močnih podražitev pa so na začetku trgovanja ustavili trgovanje z več kot 40 delnicami . Osrednji beograjski indeks Belex pa se je zvišal " le " za 3,5 odstotka.Banco Santander za nakup Bancorpa Največja španska banka , Banco Santander , želi prevzeti ameriško banko Sovereign Bancorp . Španska banka je leta 2006 za četrtinski delež omenjene ameriške banke plačala 2,9 milijarde dolarjev , kar je 14 odstotkov več od trenutne celotne tržne vrednosti banke . Pripravila Luki
+1-1	0-5	Druga	_	_	_	_	
+1-2	6-14	največja	_	_	_	_	
+1-3	15-24	britanska	_	_	*->19-1	*[19]	
+1-4	25-30	banka	_	_	*->19-1	*[19]	
+1-5	31-32	,	_	_	*->19-1	*[19]	
+1-6	33-41	Barclays	ORG	_	*->19-1	*[19]	
+1-7	42-43	,	_	_	_	_	
+1-8	44-46	bo	_	_	_	_	
+1-9	47-53	izdala	_	_	_	_	
+1-10	54-56	za	_	_	_	_	
+1-11	57-60	8,1	_	_	_	_	
+1-12	61-70	milijarde	_	_	_	_	
+1-13	71-76	evrov	_	_	_	_	
+1-14	77-82	novih	_	_	_	_	
+1-15	83-89	delnic	_	_	_	_	
+1-16	90-91	.	_	_	_	_	
+1-17	92-94	Iz	_	_	_	_	
+1-18	95-100	banke	_	_	*->19-2	*[19]	
+1-19	101-103	so	_	_	_	_	
+1-20	104-113	sporočili	_	_	_	_	
+1-21	114-115	,	_	_	_	_	
+1-22	116-118	da	_	_	_	_	
+1-23	119-123	bodo	_	_	_	_	
+1-24	124-125	v	_	_	_	_	
+1-25	126-135	nasprotju	_	_	_	_	
+1-26	136-137	z	_	_	_	_	
+1-27	138-141	RBS	ORG	3 - Nevtralno	*->6-1	*[6]	
+1-28	142-143	,	_	_	_	_	
+1-29	144-148	HBOS	ORG	3 - Nevtralno	*->7-1	*[7]	
+1-30	149-151	in	_	_	_	_	
+1-31	152-158	Lloyds	ORG	3 - Nevtralno	*->8-1	*[8]	
+1-32	159-165	prišli	_	_	*->19-3	*[19]	
+1-33	166-168	do	_	_	_	_	
+1-34	169-176	svežega	_	_	_	_	
+1-35	177-185	kapitala	_	_	_	_	
+1-36	186-190	brez	_	_	_	_	
+1-37	191-197	vladne	_	_	_	_	
+1-38	198-204	pomoči	_	_	_	_	
+1-39	205-208	ter	_	_	_	_	
+1-40	209-211	da	_	_	_	_	
+1-41	212-217	letos	_	_	_	_	
+1-42	218-220	ne	_	_	_	_	
+1-43	221-225	bodo	_	_	_	_	
+1-44	226-237	delničarjem	_	_	_	_	
+1-45	238-247	izplačali	_	_	*->19-4	*[19]	
+1-46	248-256	dividend	_	_	_	_	
+1-47	257-258	.	_	_	_	_	
+1-48	259-263	Tako	_	_	_	_	
+1-49	264-267	naj	_	_	_	_	
+1-50	268-270	bi	_	_	_	_	
+1-51	271-277	skupaj	_	_	_	_	
+1-52	278-279	z	_	_	_	_	
+1-53	280-293	neizplačanimi	_	_	_	_	
+1-54	294-305	dividendami	_	_	_	_	
+1-55	306-311	banka	_	4 - Pozitivno	*->19-5	*[19]	
+1-56	312-318	dobila	_	_	_	_	
+1-57	319-323	12,5	_	_	_	_	
+1-58	324-333	milijarde	_	_	_	_	
+1-59	334-339	evrov	_	_	_	_	
+1-60	340-341	.	_	_	_	_	
+1-61	342-346	MUFG	ORG	_	*->1-1	*[1]	
+1-62	347-349	do	_	_	_	_	
+1-63	350-356	petine	_	_	_	_	
+1-64	357-358	v	_	_	_	_	
+1-65	359-365	Morgan	ORG[1]	_	*->2-1	*[2]	
+1-66	366-375	Stanleyju	ORG[1]	_	*->2-1	*[2]	
+1-67	376-384	Največja	_	_	_	_	
+1-68	385-393	japonska	_	_	*->1-2	*[1]	
+1-69	394-399	banka	_	_	*->1-2	*[1]	
+1-70	400-401	,	_	_	*->1-2	*[1]	
+1-71	402-412	Mitsubishi	ORG[2]	_	*->1-2	*[1]	
+1-72	413-416	UFJ	ORG[2]	_	*->1-2	*[1]	
+1-73	417-426	Financial	ORG[2]	_	*->1-2	*[1]	
+1-74	427-432	Group	ORG[2]	_	*->1-2	*[1]	
+1-75	433-434	(	_	_	_	_	
+1-76	435-439	MUFG	ORG	3 - Nevtralno	*->1-3	*[1]	
+1-77	440-441	)	_	_	_	_	
+1-78	442-443	,	_	_	_	_	
+1-79	444-446	je	_	_	_	_	
+1-80	447-449	za	_	_	_	_	
+1-81	450-455	devet	_	_	_	_	
+1-82	456-464	milijard	_	_	_	_	
+1-83	465-473	dolarjev	_	_	_	_	
+1-84	474-480	kupila	_	_	_	_	
+1-85	481-483	21	_	_	_	_	
+1-86	484-485	-	_	_	_	_	
+1-87	486-494	odstotni	_	_	_	_	
+1-88	495-500	delež	_	_	_	_	
+1-89	501-502	v	_	_	_	_	
+1-90	503-511	ameriški	_	_	_	_	
+1-91	512-525	investicijski	_	_	_	_	
+1-92	526-531	banki	_	_	_	_	
+1-93	532-538	Morgan	ORG[3]	3 - Nevtralno[14]	*->2-2	*[2]	
+1-94	539-546	Stanley	ORG[3]	3 - Nevtralno[14]	*->2-2	*[2]	
+1-95	547-548	.	_	_	_	_	
+1-96	549-555	Novica	_	_	_	_	
+1-97	556-557	o	_	_	_	_	
+1-98	558-566	prevzemu	_	_	_	_	
+1-99	567-569	je	_	_	_	_	
+1-100	570-580	povzročila	_	_	_	_	
+1-101	581-582	,	_	_	_	_	
+1-102	583-585	da	_	_	_	_	
+1-103	586-588	se	_	_	_	_	
+1-104	589-591	je	_	_	_	_	
+1-105	592-598	včeraj	_	_	_	_	
+1-106	599-606	zjutraj	_	_	_	_	
+1-107	607-611	cena	_	_	_	_	
+1-108	612-619	delnice	_	_	_	_	
+1-109	620-628	ameriške	_	_	_	_	
+1-110	629-634	banke	_	_	_	_	
+1-111	635-642	zvišala	_	_	_	_	
+1-112	643-645	za	_	_	_	_	
+1-113	646-652	dobrih	_	_	_	_	
+1-114	653-655	28	_	_	_	_	
+1-115	656-676	odstotkov.Filipinski	_	_	*->9-1	*[9]	
+1-116	677-687	milijarder	_	_	*->9-1	*[9]	
+1-117	688-690	za	_	_	_	_	
+1-118	691-696	nakup	_	_	_	_	
+1-119	697-702	enote	_	_	_	_	
+1-120	703-706	AIG	ORG	_	*->3-1	*[3]	
+1-121	707-711	Eden	_	_	*->9-2	*[9]	
+1-122	712-725	najbogatejših	_	_	*->9-2	*[9]	
+1-123	726-736	Filipincev	PER	_	*->9-2	*[9]	
+1-124	737-738	,	_	_	_	_	
+1-125	739-744	Henry	PER[4]	4 - Pozitivno[15]	*->9-3	*[9]	
+1-126	745-747	Sy	PER[4]	4 - Pozitivno[15]	*->9-3	*[9]	
+1-127	748-749	,	_	_	_	_	
+1-128	750-752	ki	_	_	_	_	
+1-129	753-756	ima	_	_	_	_	
+1-130	757-758	v	_	_	_	_	
+1-131	759-764	lasti	_	_	_	_	
+1-132	765-770	drugo	_	_	*->10-1	*[10]	
+1-133	771-779	največjo	_	_	*->10-1	*[10]	
+1-134	780-790	filipinsko	_	_	*->10-1	*[10]	
+1-135	791-796	banko	_	_	*->10-1	*[10]	
+1-136	797-798	,	_	_	_	_	
+1-137	799-804	Banco	ORG[5]	3 - Nevtralno[16]	*->10-2	*[10]	
+1-138	805-807	de	ORG[5]	3 - Nevtralno[16]	*->10-2	*[10]	
+1-139	808-811	oro	ORG[5]	3 - Nevtralno[16]	*->10-2	*[10]	
+1-140	812-819	Unibank	ORG[5]	3 - Nevtralno[16]	*->10-2	*[10]	
+1-141	820-821	,	_	_	_	_	
+1-142	822-824	se	_	_	_	_	
+1-143	825-831	zanima	_	_	_	_	
+1-144	832-834	za	_	_	_	_	
+1-145	835-840	nakup	_	_	_	_	
+1-146	841-851	filipinske	_	3 - Nevtralno[17]	*->3-2	*[3]	
+1-147	852-857	enote	_	3 - Nevtralno[17]	*->3-2	*[3]	
+1-148	858-866	ameriške	_	3 - Nevtralno[17]	*->3-2	*[3]	
+1-149	867-872	banke	_	3 - Nevtralno[17]	*->3-2	*[3]	
+1-150	873-876	AIG	ORG	3 - Nevtralno[17]	*->3-2	*[3]	
+1-151	877-878	.	_	_	_	_	
+1-152	879-887	Divizija	_	_	_	_	
+1-153	888-890	je	_	_	_	_	
+1-154	891-896	sicer	_	_	_	_	
+1-155	897-905	največja	_	_	_	_	
+1-156	906-919	zavarovalnica	_	_	_	_	
+1-157	920-921	v	_	_	_	_	
+1-158	922-932	državi.Fed	_	_	_	_	
+1-159	933-940	odobril	_	_	_	_	
+1-160	941-948	prevzem	_	_	_	_	
+1-161	949-957	Wachovie	ORG	_	*->4-1	*[4]	
+1-162	958-966	Ameriška	_	3 - Nevtralno[18]	*->11-1	*[11]	
+1-163	967-976	centralna	_	3 - Nevtralno[18]	*->11-1	*[11]	
+1-164	977-982	banka	_	3 - Nevtralno[18]	*->11-1	*[11]	
+1-165	983-986	Fed	ORG	3 - Nevtralno[18]	*->11-1	*[11]	
+1-166	987-989	je	_	_	_	_	
+1-167	990-995	banki	_	_	*->21-1	*[21]	
+1-168	996-1001	Wells	ORG[6]	_	*->21-1	*[21]	
+1-169	1002-1007	Fargo	ORG[6]	_	*->21-1	*[21]	
+1-170	1008-1016	odobrila	_	_	_	_	
+1-171	1017-1019	15	_	_	_	_	
+1-172	1020-1028	milijard	_	_	_	_	
+1-173	1029-1037	dolarjev	_	_	_	_	
+1-174	1038-1044	vreden	_	_	_	_	
+1-175	1045-1052	prevzem	_	_	_	_	
+1-176	1053-1061	ameriške	_	_	*->4-2	*[4]	
+1-177	1062-1067	banke	_	_	*->4-2	*[4]	
+1-178	1068-1076	Wachovia	ORG	_	*->4-2	*[4]	
+1-179	1077-1078	.	_	_	_	_	
+1-180	1079-1080	S	_	_	_	_	
+1-181	1081-1083	to	_	_	_	_	
+1-182	1084-1095	odločitvijo	_	_	_	_	
+1-183	1096-1098	je	_	_	_	_	
+1-184	1099-1105	odprta	_	_	_	_	
+1-185	1106-1109	pot	_	_	_	_	
+1-186	1110-1112	za	_	_	_	_	
+1-187	1113-1121	nastanek	_	_	_	_	
+1-188	1122-1130	koncerna	_	_	_	_	
+1-189	1131-1132	z	_	_	_	_	
+1-190	1133-1141	največjo	_	_	_	_	
+1-191	1142-1147	mrežo	_	_	_	_	
+1-192	1148-1155	bančnih	_	_	_	_	
+1-193	1156-1167	poslovalnic	_	_	_	_	
+1-194	1168-1169	v	_	_	_	_	
+1-195	1170-1173	ZDA	LOC	3 - Nevtralno	*->12-1	*[12]	
+1-196	1174-1175	.	_	_	_	_	
+1-197	1176-1178	Po	_	_	_	_	
+1-198	1179-1185	mnenju	_	_	_	_	
+1-199	1186-1196	analitikov	_	_	_	_	
+1-200	1197-1199	bo	_	_	_	_	
+1-201	1200-1205	banka	_	_	*->21-2	*[21]	
+1-202	1206-1211	Wells	ORG[7]	_	*->21-2	*[21]	
+1-203	1212-1217	Fargo	ORG[7]	_	*->21-2	*[21]	
+1-204	1218-1226	verjetno	_	_	_	_	
+1-205	1227-1234	prodala	_	_	_	_	
+1-206	1235-1240	enoto	_	_	_	_	
+1-207	1241-1249	Wachovie	ORG	3 - Nevtralno	*->4-3	*[4]	
+1-208	1250-1252	za	_	_	_	_	
+1-209	1253-1266	investicijsko	_	_	_	_	
+1-210	1267-1277	bančništvo	_	_	_	_	
+1-211	1278-1279	,	_	_	_	_	
+1-212	1280-1282	ki	_	_	_	_	
+1-213	1283-1292	zaposluje	_	_	_	_	
+1-214	1293-1297	6000	_	_	_	_	
+1-215	1298-1303	ljudi	_	_	_	_	
+1-216	1304-1306	in	_	_	_	_	
+1-217	1307-1315	ustvarja	_	_	_	_	
+1-218	1316-1318	16	_	_	_	_	
+1-219	1319-1328	odstotkov	_	_	_	_	
+1-220	1329-1338	prihodkov	_	_	_	_	
+1-221	1339-1344	banke	_	_	*->21-3	*[21]	
+1-222	1345-1346	.	_	_	_	_	
+1-223	1347-1354	Delnica	_	_	_	_	
+1-224	1355-1364	Berkshire	LOC	_	*->20-1	*[20]	
+1-225	1365-1370	padla	_	_	_	_	
+1-226	1371-1373	za	_	_	_	_	
+1-227	1374-1376	18	_	_	_	_	
+1-228	1377-1386	odstotkov	_	_	_	_	
+1-229	1387-1395	Vrednost	_	_	_	_	
+1-230	1396-1402	družbe	_	_	_	_	
+1-231	1403-1412	Berkshire	ORG[8]	_	*->20-2	*[20]	
+1-232	1413-1421	Hathaway	ORG[8]	_	*->20-2	*[20]	
+1-233	1422-1423	,	_	_	_	_	
+1-234	1424-1426	ki	_	_	_	_	
+1-235	1427-1429	jo	_	_	_	_	
+1-236	1430-1434	vodi	_	_	_	_	
+1-237	1435-1441	Warren	PER[9]	3 - Nevtralno[19]	*->13-1	*[13]	
+1-238	1442-1449	Buffett	PER[9]	3 - Nevtralno[19]	*->13-1	*[13]	
+1-239	1450-1451	,	_	_	_	_	
+1-240	1452-1454	se	_	_	_	_	
+1-241	1455-1457	je	_	_	_	_	
+1-242	1458-1459	v	_	_	_	_	
+1-243	1460-1469	prejšnjem	_	_	_	_	
+1-244	1470-1475	tednu	_	_	_	_	
+1-245	1476-1483	znižala	_	_	_	_	
+1-246	1484-1486	za	_	_	_	_	
+1-247	1487-1489	18	_	_	_	_	
+1-248	1490-1499	odstotkov	_	_	_	_	
+1-249	1500-1507	oziroma	_	_	_	_	
+1-250	1508-1510	za	_	_	_	_	
+1-251	1511-1515	10,4	_	_	_	_	
+1-252	1516-1525	milijarde	_	_	_	_	
+1-253	1526-1534	dolarjev	_	_	_	_	
+1-254	1535-1536	.	_	_	_	_	
+1-255	1537-1546	Portfolij	_	_	_	_	
+1-256	1547-1553	družbe	_	2 - Negativno	*->20-3	*[20]	
+1-257	1554-1556	pa	_	_	_	_	
+1-258	1557-1559	se	_	_	_	_	
+1-259	1560-1562	je	_	_	_	_	
+1-260	1563-1569	znižal	_	_	_	_	
+1-261	1570-1572	za	_	_	_	_	
+1-262	1573-1575	17	_	_	_	_	
+1-263	1576-1585	odstotkov	_	_	_	_	
+1-264	1586-1587	,	_	_	_	_	
+1-265	1588-1591	saj	_	_	_	_	
+1-266	1592-1594	je	_	_	_	_	
+1-267	1595-1602	delnica	_	_	_	_	
+1-268	1603-1611	največje	_	2 - Negativno[20]	*->22-1	*[22]	
+1-269	1612-1623	investicije	_	2 - Negativno[20]	*->22-1	*[22]	
+1-270	1624-1630	družbe	_	2 - Negativno[20]	*->22-1	*[22]	
+1-271	1631-1632	,	_	2 - Negativno[20]	*->22-1	*[22]	
+1-272	1633-1637	Coca	ORG[10]	2 - Negativno[20]	*->22-1	*[22]	
+1-273	1638-1639	-	ORG[10]	2 - Negativno[20]	*->22-1	*[22]	
+1-274	1640-1644	Cole	ORG[10]	2 - Negativno[20]	*->22-1	*[22]	
+1-275	1645-1646	,	_	_	_	_	
+1-276	1647-1652	padla	_	_	_	_	
+1-277	1653-1655	za	_	_	_	_	
+1-278	1656-1658	21	_	_	_	_	
+1-279	1659-1668	odstotkov	_	_	_	_	
+1-280	1669-1670	,	_	_	_	_	
+1-281	1671-1678	delnica	_	_	_	_	
+1-282	1679-1684	druge	_	2 - Negativno[21]	*->21-4	*[21]	
+1-283	1685-1693	največje	_	2 - Negativno[21]	*->21-4	*[21]	
+1-284	1694-1705	investicije	_	2 - Negativno[21]	*->21-4	*[21]	
+1-285	1706-1712	družbe	_	2 - Negativno[21]	*->21-4	*[21]	
+1-286	1713-1714	,	_	2 - Negativno[21]	*->21-4	*[21]	
+1-287	1715-1720	banke	_	2 - Negativno[21]	*->21-4	*[21]	
+1-288	1721-1726	Wells	ORG[11]	2 - Negativno[21]	*->21-4	*[21]	
+1-289	1727-1732	Fargo	ORG[11]	2 - Negativno[21]	*->21-4	*[21]	
+1-290	1733-1734	,	_	_	_	_	
+1-291	1735-1737	pa	_	_	_	_	
+1-292	1738-1740	za	_	_	_	_	
+1-293	1741-1743	18	_	_	_	_	
+1-294	1744-1760	odstotkov.Crobex	_	_	_	_	
+1-295	1761-1763	za	_	_	_	_	
+1-296	1764-1768	15,9	_	_	_	_	
+1-297	1769-1777	odstotka	_	_	_	_	
+1-298	1778-1785	navzgor	_	_	_	_	
+1-299	1786-1787	V	_	_	_	_	
+1-300	1788-1795	Zagrebu	LOC	3 - Nevtralno	*->14-1	*[14]	
+1-301	1796-1798	se	_	_	_	_	
+1-302	1799-1801	je	_	_	_	_	
+1-303	1802-1808	včeraj	_	_	_	_	
+1-304	1809-1817	osrednji	_	_	_	_	
+1-305	1818-1824	indeks	_	_	_	_	
+1-306	1825-1831	Crobex	ORG	3 - Nevtralno	*->18-1	*[18]	
+1-307	1832-1838	zvišal	_	_	_	_	
+1-308	1839-1841	za	_	_	_	_	
+1-309	1842-1846	15,9	_	_	_	_	
+1-310	1847-1855	odstotka	_	_	_	_	
+1-311	1856-1857	,	_	_	_	_	
+1-312	1858-1864	zaradi	_	_	_	_	
+1-313	1865-1871	močnih	_	_	_	_	
+1-314	1872-1882	podražitev	_	_	_	_	
+1-315	1883-1885	pa	_	_	_	_	
+1-316	1886-1888	so	_	_	_	_	
+1-317	1889-1891	na	_	_	_	_	
+1-318	1892-1899	začetku	_	_	_	_	
+1-319	1900-1909	trgovanja	_	_	_	_	
+1-320	1910-1918	ustavili	_	_	_	_	
+1-321	1919-1928	trgovanje	_	_	_	_	
+1-322	1929-1930	z	_	_	_	_	
+1-323	1931-1934	več	_	_	_	_	
+1-324	1935-1938	kot	_	_	_	_	
+1-325	1939-1941	40	_	_	_	_	
+1-326	1942-1951	delnicami	_	_	_	_	
+1-327	1952-1953	.	_	_	_	_	
+1-328	1954-1962	Osrednji	_	3 - Nevtralno[22]	*->15-1	*[15]	
+1-329	1963-1973	beograjski	_	3 - Nevtralno[22]	*->15-1	*[15]	
+1-330	1974-1980	indeks	_	3 - Nevtralno[22]	*->15-1	*[15]	
+1-331	1981-1986	Belex	ORG	3 - Nevtralno[22]	*->15-1	*[15]	
+1-332	1987-1989	pa	_	_	_	_	
+1-333	1990-1992	se	_	_	_	_	
+1-334	1993-1995	je	_	_	_	_	
+1-335	1996-2002	zvišal	_	_	_	_	
+1-336	2003-2004	"	_	_	_	_	
+1-337	2005-2007	le	_	_	_	_	
+1-338	2008-2009	"	_	_	_	_	
+1-339	2010-2012	za	_	_	_	_	
+1-340	2013-2016	3,5	_	_	_	_	
+1-341	2017-2031	odstotka.Banco	_	_	_	_	
+1-342	2032-2041	Santander	_	_	_	_	
+1-343	2042-2044	za	_	_	_	_	
+1-344	2045-2050	nakup	_	_	_	_	
+1-345	2051-2059	Bancorpa	ORG	_	*->5-1	*[5]	
+1-346	2060-2068	Največja	_	_	*->16-1	*[16]	
+1-347	2069-2076	španska	_	_	*->16-1	*[16]	
+1-348	2077-2082	banka	_	_	*->16-1	*[16]	
+1-349	2083-2084	,	_	_	*->16-1	*[16]	
+1-350	2085-2090	Banco	ORG[12]	_	*->16-1	*[16]	
+1-351	2091-2100	Santander	ORG[12]	_	*->16-1	*[16]	
+1-352	2101-2102	,	_	_	_	_	
+1-353	2103-2107	želi	_	_	_	_	
+1-354	2108-2116	prevzeti	_	_	_	_	
+1-355	2117-2125	ameriško	_	_	*->5-2	*[5]	
+1-356	2126-2131	banko	_	_	*->5-2	*[5]	
+1-357	2132-2141	Sovereign	ORG[13]	_	*->5-2	*[5]	
+1-358	2142-2149	Bancorp	ORG[13]	_	*->5-2	*[5]	
+1-359	2150-2151	.	_	_	_	_	
+1-360	2152-2159	Španska	_	4 - Pozitivno[23]	*->16-2	*[16]	
+1-361	2160-2165	banka	_	4 - Pozitivno[23]	*->16-2	*[16]	
+1-362	2166-2168	je	_	_	_	_	
+1-363	2169-2173	leta	_	_	_	_	
+1-364	2174-2178	2006	_	_	_	_	
+1-365	2179-2181	za	_	_	_	_	
+1-366	2182-2192	četrtinski	_	_	_	_	
+1-367	2193-2198	delež	_	_	_	_	
+1-368	2199-2207	omenjene	_	_	_	_	
+1-369	2208-2216	ameriške	_	_	*->5-3	*[5]	
+1-370	2217-2222	banke	_	_	*->5-3	*[5]	
+1-371	2223-2230	plačala	_	_	_	_	
+1-372	2231-2234	2,9	_	_	_	_	
+1-373	2235-2244	milijarde	_	_	_	_	
+1-374	2245-2253	dolarjev	_	_	_	_	
+1-375	2254-2255	,	_	_	_	_	
+1-376	2256-2259	kar	_	_	_	_	
+1-377	2260-2262	je	_	_	_	_	
+1-378	2263-2265	14	_	_	_	_	
+1-379	2266-2275	odstotkov	_	_	_	_	
+1-380	2276-2279	več	_	_	_	_	
+1-381	2280-2282	od	_	_	_	_	
+1-382	2283-2291	trenutne	_	_	_	_	
+1-383	2292-2299	celotne	_	_	_	_	
+1-384	2300-2305	tržne	_	_	_	_	
+1-385	2306-2315	vrednosti	_	_	_	_	
+1-386	2316-2321	banke	_	3 - Nevtralno	*->5-4	*[5]	
+1-387	2322-2323	.	_	_	_	_	
+1-388	2324-2334	Pripravila	_	_	_	_	
+1-389	2335-2339	Luki	PER	3 - Nevtralno	*->17-1	*[17]	

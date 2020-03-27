@@ -1,0 +1,264 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Najnovejša javnomnenjska raziskava kaže , da bi , če bi bile volitve to nedeljo , največ glasov dobila SDS , na drugem mestu bi se znašla lista Gregorja Viranta , na tretjem pa Jankovićeva lista Pozitivna Slovenija . Število neopredeljenih 32 odstotkov . 18,8 odstotka anketirancev bi tako volilo Slovensko demokratsko stranko , 11,2 državljansko listo Gregorja Viranta , 6,7 odstotka pa listo Zorana Jankovića . Raziskava časnika Večer ( opravilo jo je podjetje RM plus ) , v kateri je sodelovalo 700 anketirancev , je še pokazala , da bi manj kot štiri odstotke glasov dobile stranke SD , DeSUS , SNS , SLS , NSi , TRS in LDS . Zdajšnja največja vladna stranka bi tako dobila 3,9 odstotkov glasov . Vse ostale stranke pa med 0,9 in 1,3 odstotka glasov . Volitev se ne bi udeležilo 9,4 odstotka sodelujočih v anketi , neopredeljenih pa je 32,3 odstotka anketirancev . Medianina raziskava : Zmagal bi Virant Torkova raziskava Mediane je , kot smo poročali , pokazala , da bi se na volitvah , če bi bile volitve prihodnjo nedeljo , najbolje odrezala stranka Gregorja Viranta , ki bi ji sledila SDS . Za Virantovo stranko bi tako svoj glas oddalo 17,2 odstotka vprašanih . SDS pa bi dobila 16,5 odstotka . V primerjavi z drugim tednom istega meseca je SDS izgubila slabe štiri odstotke glasov in padla s prvega mesta . Na tretjem mestu bi pristala stranka Zorana Jankovića z 12,5 odstotka , sledila bi ji SD s 6,1 odstotka in SLS s 4,3 odstotka
+1-1	0-10	Najnovejša	_	_	_	_	
+1-2	11-24	javnomnenjska	_	_	_	_	
+1-3	25-34	raziskava	_	_	_	_	
+1-4	35-39	kaže	_	_	_	_	
+1-5	40-41	,	_	_	_	_	
+1-6	42-44	da	_	_	_	_	
+1-7	45-47	bi	_	_	_	_	
+1-8	48-49	,	_	_	_	_	
+1-9	50-52	če	_	_	_	_	
+1-10	53-55	bi	_	_	_	_	
+1-11	56-60	bile	_	_	_	_	
+1-12	61-68	volitve	_	_	_	_	
+1-13	69-71	to	_	_	_	_	
+1-14	72-79	nedeljo	_	_	_	_	
+1-15	80-81	,	_	_	_	_	
+1-16	82-88	največ	_	_	_	_	
+1-17	89-95	glasov	_	_	_	_	
+1-18	96-102	dobila	_	_	_	_	
+1-19	103-106	SDS	ORG	_	*->1-1	*[1]	
+1-20	107-108	,	_	_	_	_	
+1-21	109-111	na	_	_	_	_	
+1-22	112-118	drugem	_	_	_	_	
+1-23	119-124	mestu	_	_	_	_	
+1-24	125-127	bi	_	_	_	_	
+1-25	128-130	se	_	_	_	_	
+1-26	131-137	znašla	_	_	_	_	
+1-27	138-143	lista	_	_	*->2-1	*[2]	
+1-28	144-152	Gregorja	PER[1]	_	*->2-1|*->3-1	*[2]|*[3]	
+1-29	153-160	Viranta	PER[1]	_	*->2-1|*->3-1	*[2]|*[3]	
+1-30	161-162	,	_	_	_	_	
+1-31	163-165	na	_	_	_	_	
+1-32	166-173	tretjem	_	_	_	_	
+1-33	174-176	pa	_	_	_	_	
+1-34	177-188	Jankovićeva	PER	_	*->5-1|*->4-1	*[5]|*[4]	
+1-35	189-194	lista	_	_	*->5-1	*[5]	
+1-36	195-204	Pozitivna	ORG[2]	_	*->5-1	*[5]	
+1-37	205-214	Slovenija	ORG[2]|LOC[3]	_	*->5-1	*[5]	
+1-38	215-216	.	_	_	_	_	
+1-39	217-224	Število	_	_	_	_	
+1-40	225-239	neopredeljenih	_	_	_	_	
+1-41	240-242	32	_	_	_	_	
+1-42	243-252	odstotkov	_	_	_	_	
+1-43	253-254	.	_	_	_	_	
+1-44	255-259	18,8	_	_	_	_	
+1-45	260-268	odstotka	_	_	_	_	
+1-46	269-281	anketirancev	_	_	_	_	
+1-47	282-284	bi	_	_	_	_	
+1-48	285-289	tako	_	_	_	_	
+1-49	290-296	volilo	_	_	_	_	
+1-50	297-306	Slovensko	ORG[4]	_	*->1-2	*[1]	
+1-51	307-318	demokratsko	ORG[4]	_	*->1-2	*[1]	
+1-52	319-326	stranko	ORG[4]	_	*->1-2	*[1]	
+1-53	327-328	,	_	_	_	_	
+1-54	329-333	11,2	_	_	_	_	
+1-55	334-346	državljansko	ORG[5]	_	*->2-2	*[2]	
+1-56	347-352	listo	ORG[5]	_	*->2-2	*[2]	
+1-57	353-361	Gregorja	ORG[5]|PER[6]	_	*->2-2|*->3-2	*[2]|*[3]	
+1-58	362-369	Viranta	ORG[5]|PER[6]	_	*->2-2|*->3-2	*[2]|*[3]	
+1-59	370-371	,	_	_	_	_	
+1-60	372-375	6,7	_	_	_	_	
+1-61	376-384	odstotka	_	_	_	_	
+1-62	385-387	pa	_	_	_	_	
+1-63	388-393	listo	_	_	*->5-2	*[5]	
+1-64	394-400	Zorana	PER[7]	_	*->5-2|*->4-2	*[5]|*[4]	
+1-65	401-410	Jankovića	PER[7]	_	*->5-2|*->4-2	*[5]|*[4]	
+1-66	411-412	.	_	_	_	_	
+1-67	413-422	Raziskava	_	_	_	_	
+1-68	423-430	časnika	_	3 - Nevtralno[11]	*->6-1	*[6]	
+1-69	431-436	Večer	ORG	3 - Nevtralno[11]	*->6-1	*[6]	
+1-70	437-438	(	_	_	_	_	
+1-71	439-447	opravilo	_	_	_	_	
+1-72	448-450	jo	_	_	_	_	
+1-73	451-453	je	_	_	_	_	
+1-74	454-462	podjetje	_	3 - Nevtralno[12]	*->7-1	*[7]	
+1-75	463-465	RM	ORG[8]	3 - Nevtralno[12]	*->7-1	*[7]	
+1-76	466-470	plus	ORG[8]	3 - Nevtralno[12]	*->7-1	*[7]	
+1-77	471-472	)	_	_	_	_	
+1-78	473-474	,	_	_	_	_	
+1-79	475-476	v	_	_	_	_	
+1-80	477-483	kateri	_	_	_	_	
+1-81	484-486	je	_	_	_	_	
+1-82	487-497	sodelovalo	_	_	_	_	
+1-83	498-501	700	_	_	_	_	
+1-84	502-514	anketirancev	_	_	_	_	
+1-85	515-516	,	_	_	_	_	
+1-86	517-519	je	_	_	_	_	
+1-87	520-522	še	_	_	_	_	
+1-88	523-531	pokazala	_	_	_	_	
+1-89	532-533	,	_	_	_	_	
+1-90	534-536	da	_	_	_	_	
+1-91	537-539	bi	_	_	_	_	
+1-92	540-544	manj	_	_	_	_	
+1-93	545-548	kot	_	_	_	_	
+1-94	549-554	štiri	_	_	_	_	
+1-95	555-563	odstotke	_	_	_	_	
+1-96	564-570	glasov	_	_	_	_	
+1-97	571-577	dobile	_	_	_	_	
+1-98	578-585	stranke	_	_	_	_	
+1-99	586-588	SD	ORG	_	*->8-1	*[8]	
+1-100	589-590	,	_	_	_	_	
+1-101	591-596	DeSUS	ORG	3 - Nevtralno	*->9-1	*[9]	
+1-102	597-598	,	_	_	_	_	
+1-103	599-602	SNS	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-104	603-604	,	_	_	_	_	
+1-105	605-608	SLS	ORG	_	*->11-1	*[11]	
+1-106	609-610	,	_	_	_	_	
+1-107	611-614	NSi	ORG	3 - Nevtralno	*->12-1	*[12]	
+1-108	615-616	,	_	_	_	_	
+1-109	617-620	TRS	ORG	3 - Nevtralno	*->13-1	*[13]	
+1-110	621-623	in	_	_	_	_	
+1-111	624-627	LDS	ORG	3 - Nevtralno	*->14-1	*[14]	
+1-112	628-629	.	_	_	_	_	
+1-113	630-638	Zdajšnja	_	_	*->8-2	*[8]	
+1-114	639-647	največja	_	_	*->8-2	*[8]	
+1-115	648-654	vladna	_	_	*->8-2	*[8]	
+1-116	655-662	stranka	_	_	*->8-2	*[8]	
+1-117	663-665	bi	_	_	_	_	
+1-118	666-670	tako	_	_	_	_	
+1-119	671-677	dobila	_	_	_	_	
+1-120	678-681	3,9	_	_	_	_	
+1-121	682-691	odstotkov	_	_	_	_	
+1-122	692-698	glasov	_	_	_	_	
+1-123	699-700	.	_	_	_	_	
+1-124	701-704	Vse	_	_	_	_	
+1-125	705-711	ostale	_	_	_	_	
+1-126	712-719	stranke	_	_	_	_	
+1-127	720-722	pa	_	_	_	_	
+1-128	723-726	med	_	_	_	_	
+1-129	727-730	0,9	_	_	_	_	
+1-130	731-733	in	_	_	_	_	
+1-131	734-737	1,3	_	_	_	_	
+1-132	738-746	odstotka	_	_	_	_	
+1-133	747-753	glasov	_	_	_	_	
+1-134	754-755	.	_	_	_	_	
+1-135	756-763	Volitev	_	_	_	_	
+1-136	764-766	se	_	_	_	_	
+1-137	767-769	ne	_	_	_	_	
+1-138	770-772	bi	_	_	_	_	
+1-139	773-782	udeležilo	_	_	_	_	
+1-140	783-786	9,4	_	_	_	_	
+1-141	787-795	odstotka	_	_	_	_	
+1-142	796-807	sodelujočih	_	_	_	_	
+1-143	808-809	v	_	_	_	_	
+1-144	810-816	anketi	_	_	_	_	
+1-145	817-818	,	_	_	_	_	
+1-146	819-833	neopredeljenih	_	_	_	_	
+1-147	834-836	pa	_	_	_	_	
+1-148	837-839	je	_	_	_	_	
+1-149	840-844	32,3	_	_	_	_	
+1-150	845-853	odstotka	_	_	_	_	
+1-151	854-866	anketirancev	_	_	_	_	
+1-152	867-868	.	_	_	_	_	
+1-153	869-878	Medianina	ORG	_	*->15-1	*[15]	
+1-154	879-888	raziskava	_	_	_	_	
+1-155	889-890	:	_	_	_	_	
+1-156	891-897	Zmagal	_	_	_	_	
+1-157	898-900	bi	_	_	_	_	
+1-158	901-907	Virant	PER	_	*->3-3	*[3]	
+1-159	908-915	Torkova	_	_	_	_	
+1-160	916-925	raziskava	_	_	_	_	
+1-161	926-933	Mediane	ORG	3 - Nevtralno	*->15-2	*[15]	
+1-162	934-936	je	_	_	_	_	
+1-163	937-938	,	_	_	_	_	
+1-164	939-942	kot	_	_	_	_	
+1-165	943-946	smo	_	_	_	_	
+1-166	947-955	poročali	_	_	_	_	
+1-167	956-957	,	_	_	_	_	
+1-168	958-966	pokazala	_	_	_	_	
+1-169	967-968	,	_	_	_	_	
+1-170	969-971	da	_	_	_	_	
+1-171	972-974	bi	_	_	_	_	
+1-172	975-977	se	_	_	_	_	
+1-173	978-980	na	_	_	_	_	
+1-174	981-989	volitvah	_	_	_	_	
+1-175	990-991	,	_	_	_	_	
+1-176	992-994	če	_	_	_	_	
+1-177	995-997	bi	_	_	_	_	
+1-178	998-1002	bile	_	_	_	_	
+1-179	1003-1010	volitve	_	_	_	_	
+1-180	1011-1020	prihodnjo	_	_	_	_	
+1-181	1021-1028	nedeljo	_	_	_	_	
+1-182	1029-1030	,	_	_	_	_	
+1-183	1031-1039	najbolje	_	_	_	_	
+1-184	1040-1048	odrezala	_	_	_	_	
+1-185	1049-1056	stranka	_	_	*->2-3	*[2]	
+1-186	1057-1065	Gregorja	PER[9]	_	*->2-3|*->3-4	*[2]|*[3]	
+1-187	1066-1073	Viranta	PER[9]	_	*->2-3|*->3-4	*[2]|*[3]	
+1-188	1074-1075	,	_	_	_	_	
+1-189	1076-1078	ki	_	_	_	_	
+1-190	1079-1081	bi	_	_	_	_	
+1-191	1082-1084	ji	_	_	_	_	
+1-192	1085-1092	sledila	_	_	_	_	
+1-193	1093-1096	SDS	ORG	_	*->1-3	*[1]	
+1-194	1097-1098	.	_	_	_	_	
+1-195	1099-1101	Za	_	_	_	_	
+1-196	1102-1111	Virantovo	PER	3 - Nevtralno[13]|3 - Nevtralno[14]	*->2-4|*->3-5	*[2]|*[3]	
+1-197	1112-1119	stranko	_	3 - Nevtralno[13]	*->2-4	*[2]	
+1-198	1120-1122	bi	_	_	_	_	
+1-199	1123-1127	tako	_	_	_	_	
+1-200	1128-1132	svoj	_	_	_	_	
+1-201	1133-1137	glas	_	_	_	_	
+1-202	1138-1144	oddalo	_	_	_	_	
+1-203	1145-1149	17,2	_	_	_	_	
+1-204	1150-1158	odstotka	_	_	_	_	
+1-205	1159-1168	vprašanih	_	_	_	_	
+1-206	1169-1170	.	_	_	_	_	
+1-207	1171-1174	SDS	ORG	_	*->1-4	*[1]	
+1-208	1175-1177	pa	_	_	_	_	
+1-209	1178-1180	bi	_	_	_	_	
+1-210	1181-1187	dobila	_	_	_	_	
+1-211	1188-1192	16,5	_	_	_	_	
+1-212	1193-1201	odstotka	_	_	_	_	
+1-213	1202-1203	.	_	_	_	_	
+1-214	1204-1205	V	_	_	_	_	
+1-215	1206-1216	primerjavi	_	_	_	_	
+1-216	1217-1218	z	_	_	_	_	
+1-217	1219-1225	drugim	_	_	_	_	
+1-218	1226-1232	tednom	_	_	_	_	
+1-219	1233-1239	istega	_	_	_	_	
+1-220	1240-1246	meseca	_	_	_	_	
+1-221	1247-1249	je	_	_	_	_	
+1-222	1250-1253	SDS	ORG	3 - Nevtralno	*->1-5	*[1]	
+1-223	1254-1262	izgubila	_	_	_	_	
+1-224	1263-1268	slabe	_	_	_	_	
+1-225	1269-1274	štiri	_	_	_	_	
+1-226	1275-1283	odstotke	_	_	_	_	
+1-227	1284-1290	glasov	_	_	_	_	
+1-228	1291-1293	in	_	_	_	_	
+1-229	1294-1299	padla	_	_	_	_	
+1-230	1300-1301	s	_	_	_	_	
+1-231	1302-1308	prvega	_	_	_	_	
+1-232	1309-1314	mesta	_	_	_	_	
+1-233	1315-1316	.	_	_	_	_	
+1-234	1317-1319	Na	_	_	_	_	
+1-235	1320-1327	tretjem	_	_	_	_	
+1-236	1328-1333	mestu	_	_	_	_	
+1-237	1334-1336	bi	_	_	_	_	
+1-238	1337-1345	pristala	_	_	_	_	
+1-239	1346-1353	stranka	_	3 - Nevtralno[15]	*->5-3	*[5]	
+1-240	1354-1360	Zorana	PER[10]	3 - Nevtralno[15]|3 - Nevtralno[16]	*->5-3|*->4-3	*[5]|*[4]	
+1-241	1361-1370	Jankovića	PER[10]	3 - Nevtralno[15]|3 - Nevtralno[16]	*->5-3|*->4-3	*[5]|*[4]	
+1-242	1371-1372	z	_	_	_	_	
+1-243	1373-1377	12,5	_	_	_	_	
+1-244	1378-1386	odstotka	_	_	_	_	
+1-245	1387-1388	,	_	_	_	_	
+1-246	1389-1396	sledila	_	_	_	_	
+1-247	1397-1399	bi	_	_	_	_	
+1-248	1400-1402	ji	_	_	_	_	
+1-249	1403-1405	SD	ORG	3 - Nevtralno	*->8-3	*[8]	
+1-250	1406-1407	s	_	_	_	_	
+1-251	1408-1411	6,1	_	_	_	_	
+1-252	1412-1420	odstotka	_	_	_	_	
+1-253	1421-1423	in	_	_	_	_	
+1-254	1424-1427	SLS	ORG	3 - Nevtralno	*->11-2	*[11]	
+1-255	1428-1429	s	_	_	_	_	
+1-256	1430-1433	4,3	_	_	_	_	
+1-257	1434-1442	odstotka	_	_	_	_	

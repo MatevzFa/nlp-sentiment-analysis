@@ -1,0 +1,377 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Poslanec Petek vlado sprašuje glede slovenskih poslov v Libiji . Vlada odgovarja , da gre za perspektiven trg in da v Tripoliju ne bo le " pisarne SCT " . Vlada danes poudarja , da se trudi pomagati slovenskemu gospodarstvu pri nastopanju na tujih trgih in da Libija predstavlja perspektiven trg . Miro Petek ( SDS ) je na vlado konec decembra naslovil vprašanje okrog poslov v Libiji . V besedilu je navedel , da se je Slovenija v času Pahorjeve vlade ob asistenci predsednika Danila Türka izrazito naslonila na Libijo in njenega predsednika Moamerja el Gadafija , ki je na oblast prišel z vojaškim udarom in je v svetovni javnosti prepoznan kot eden največjih svetovnih samodržcev . Petek je poudaril , da mnoge države in mednarodne organizacije opozarjajo na velike kršitve človekovih pravic , ki se dogajajo v Libiji . Vlada odgovarja , da pogovore in načrtovano sodelovanje z Libijo vodijo zunanje ministrstvo , javna agencija za podjetništvo , tuje investicije in gospodarska zbornica Slovenije . Na Petkovo bojazen , da bi utegnilo postati novo veleposlaništvo v Tripoliju zgolj s strani države plačana pisarna SCT , vlada odgovarja , da se " pri odpiranju vseh predstavništev v tujini ravna izključno v interesu Slovenije " . Dodajajo še , da dokončna oblika slovenske prisotnosti v Libiji niti ni dorečena . Usluga za uslugo ? Petek vlado sprašuje tudi , " ali predvideva , da bo dobilo slovensko gospodarstvo kakšen posel tudi na račun tega , da sta Slovenija in današnji predsednik države veliko pripomogla k temu , da so se leta 1999 prenehale sankcije proti Libiji " . Takrat je bil Türk slovenski veleposlanik pri OZN , Slovenija pa je predsedovala varnostnemu svetu in hkrati tudi odboru za nadzor nad izvajanjem sankcij proti Libiji . Analitiki so takrat menili , da so bile sankcije proti Libiji odpravljene prehitro . Vlada navedbe zavrača in poudarja , da odprave sankcij proti Libiji ne bi mogle biti povezane z obljubami Libije Sloveniji , saj je bila ta pogojena z izročitvijo dveh libijskih osumljencev Škotski za sojenje v primeru sestrelitve ameriškega letala nad škotskim Lockerbiejem leta 1988 . Ko je osumljenca izročila , je varnostni svet sankcije suspendiral in jih leta 2003 dokončno ukinil
+1-1	0-8	Poslanec	_	_	*->1-1	*[1]	
+1-2	9-14	Petek	PER	_	*->1-1	*[1]	
+1-3	15-20	vlado	ORG	_	*->2-1	*[2]	
+1-4	21-29	sprašuje	_	_	_	_	
+1-5	30-35	glede	_	_	_	_	
+1-6	36-46	slovenskih	_	_	_	_	
+1-7	47-53	poslov	_	_	_	_	
+1-8	54-55	v	_	_	_	_	
+1-9	56-62	Libiji	LOC	_	*->3-1	*[3]	
+1-10	63-64	.	_	_	_	_	
+1-11	65-70	Vlada	ORG	_	*->2-2	*[2]	
+1-12	71-80	odgovarja	_	_	_	_	
+1-13	81-82	,	_	_	_	_	
+1-14	83-85	da	_	_	_	_	
+1-15	86-89	gre	_	_	_	_	
+1-16	90-92	za	_	_	_	_	
+1-17	93-105	perspektiven	_	_	_	_	
+1-18	106-109	trg	_	_	_	_	
+1-19	110-112	in	_	_	_	_	
+1-20	113-115	da	_	_	_	_	
+1-21	116-117	v	_	_	_	_	
+1-22	118-127	Tripoliju	LOC	_	*->4-1	*[4]	
+1-23	128-130	ne	_	_	_	_	
+1-24	131-133	bo	_	_	_	_	
+1-25	134-136	le	_	_	_	_	
+1-26	137-138	"	_	_	_	_	
+1-27	139-146	pisarne	_	_	_	_	
+1-28	147-150	SCT	ORG	_	*->5-1	*[5]	
+1-29	151-152	"	_	_	_	_	
+1-30	153-154	.	_	_	_	_	
+1-31	155-160	Vlada	ORG	_	*->2-3	*[2]	
+1-32	161-166	danes	_	_	_	_	
+1-33	167-175	poudarja	_	_	_	_	
+1-34	176-177	,	_	_	_	_	
+1-35	178-180	da	_	_	_	_	
+1-36	181-183	se	_	_	_	_	
+1-37	184-189	trudi	_	_	_	_	
+1-38	190-198	pomagati	_	_	_	_	
+1-39	199-210	slovenskemu	_	_	_	_	
+1-40	211-223	gospodarstvu	_	_	_	_	
+1-41	224-227	pri	_	_	_	_	
+1-42	228-238	nastopanju	_	_	_	_	
+1-43	239-241	na	_	_	_	_	
+1-44	242-247	tujih	_	_	_	_	
+1-45	248-253	trgih	_	_	_	_	
+1-46	254-256	in	_	_	_	_	
+1-47	257-259	da	_	_	_	_	
+1-48	260-266	Libija	LOC	_	*->3-2	*[3]	
+1-49	267-278	predstavlja	_	_	_	_	
+1-50	279-291	perspektiven	_	_	_	_	
+1-51	292-295	trg	_	_	_	_	
+1-52	296-297	.	_	_	_	_	
+1-53	298-302	Miro	PER[1]	_	*->1-2	*[1]	
+1-54	303-308	Petek	PER[1]	_	*->1-2	*[1]	
+1-55	309-310	(	_	_	_	_	
+1-56	311-314	SDS	ORG	3 - Nevtralno	*->6-1	*[6]	
+1-57	315-316	)	_	_	_	_	
+1-58	317-319	je	_	_	_	_	
+1-59	320-322	na	_	_	_	_	
+1-60	323-328	vlado	ORG	_	*->2-4	*[2]	
+1-61	329-334	konec	_	_	_	_	
+1-62	335-343	decembra	_	_	_	_	
+1-63	344-352	naslovil	_	_	_	_	
+1-64	353-362	vprašanje	_	_	_	_	
+1-65	363-368	okrog	_	_	_	_	
+1-66	369-375	poslov	_	_	_	_	
+1-67	376-377	v	_	_	_	_	
+1-68	378-384	Libiji	LOC	_	*->3-3	*[3]	
+1-69	385-386	.	_	_	_	_	
+1-70	387-388	V	_	_	_	_	
+1-71	389-397	besedilu	_	_	_	_	
+1-72	398-400	je	_	_	*->1-3	*[1]	
+1-73	401-408	navedel	_	_	*->1-3	*[1]	
+1-74	409-410	,	_	_	_	_	
+1-75	411-413	da	_	_	_	_	
+1-76	414-416	se	_	_	_	_	
+1-77	417-419	je	_	_	_	_	
+1-78	420-429	Slovenija	LOC	_	*->7-1	*[7]	
+1-79	430-431	v	_	_	_	_	
+1-80	432-436	času	_	_	_	_	
+1-81	437-446	Pahorjeve	PER	3 - Nevtralno	*->8-1	*[8]	
+1-82	447-452	vlade	ORG	_	*->2-5	*[2]	
+1-83	453-455	ob	_	_	_	_	
+1-84	456-465	asistenci	_	_	_	_	
+1-85	466-477	predsednika	_	_	*->9-1	*[9]	
+1-86	478-484	Danila	PER[2]	_	*->9-1	*[9]	
+1-87	485-490	Türka	PER[2]	_	*->9-1	*[9]	
+1-88	491-499	izrazito	_	_	_	_	
+1-89	500-509	naslonila	_	_	_	_	
+1-90	510-512	na	_	_	_	_	
+1-91	513-519	Libijo	LOC	_	*->3-4	*[3]	
+1-92	520-522	in	_	_	_	_	
+1-93	523-530	njenega	_	_	*->10-1|*->3-5	*[10]|*[3]	
+1-94	531-542	predsednika	_	_	*->10-1	*[10]	
+1-95	543-551	Moamerja	PER[3]	_	*->10-1	*[10]	
+1-96	552-554	el	PER[3]	_	*->10-1	*[10]	
+1-97	555-563	Gadafija	PER[3]	_	*->10-1	*[10]	
+1-98	564-565	,	_	_	_	_	
+1-99	566-568	ki	_	_	_	_	
+1-100	569-571	je	_	_	*->10-2	*[10]	
+1-101	572-574	na	_	_	_	_	
+1-102	575-581	oblast	_	_	_	_	
+1-103	582-588	prišel	_	_	_	_	
+1-104	589-590	z	_	_	_	_	
+1-105	591-599	vojaškim	_	_	_	_	
+1-106	600-606	udarom	_	_	_	_	
+1-107	607-609	in	_	_	_	_	
+1-108	610-612	je	_	_	_	_	
+1-109	613-614	v	_	_	_	_	
+1-110	615-623	svetovni	_	_	_	_	
+1-111	624-632	javnosti	_	_	_	_	
+1-112	633-642	prepoznan	_	_	_	_	
+1-113	643-646	kot	_	_	_	_	
+1-114	647-651	eden	_	2 - Negativno[10]	*->10-3	*[10]	
+1-115	652-661	največjih	_	2 - Negativno[10]	*->10-3	*[10]	
+1-116	662-671	svetovnih	_	2 - Negativno[10]	*->10-3	*[10]	
+1-117	672-682	samodržcev	_	2 - Negativno[10]	*->10-3	*[10]	
+1-118	683-684	.	_	_	_	_	
+1-119	685-690	Petek	PER	_	*->1-4	*[1]	
+1-120	691-693	je	_	_	_	_	
+1-121	694-702	poudaril	_	_	_	_	
+1-122	703-704	,	_	_	_	_	
+1-123	705-707	da	_	_	_	_	
+1-124	708-713	mnoge	_	_	_	_	
+1-125	714-720	države	_	_	_	_	
+1-126	721-723	in	_	_	_	_	
+1-127	724-734	mednarodne	_	_	_	_	
+1-128	735-747	organizacije	_	_	_	_	
+1-129	748-758	opozarjajo	_	_	_	_	
+1-130	759-761	na	_	_	_	_	
+1-131	762-768	velike	_	_	_	_	
+1-132	769-776	kršitve	_	_	_	_	
+1-133	777-787	človekovih	_	_	_	_	
+1-134	788-794	pravic	_	_	_	_	
+1-135	795-796	,	_	_	_	_	
+1-136	797-799	ki	_	_	_	_	
+1-137	800-802	se	_	_	_	_	
+1-138	803-811	dogajajo	_	_	_	_	
+1-139	812-813	v	_	_	_	_	
+1-140	814-820	Libiji	LOC	_	*->3-6	*[3]	
+1-141	821-822	.	_	_	_	_	
+1-142	823-828	Vlada	ORG	_	*->2-6	*[2]	
+1-143	829-838	odgovarja	_	_	_	_	
+1-144	839-840	,	_	_	_	_	
+1-145	841-843	da	_	_	_	_	
+1-146	844-852	pogovore	_	_	_	_	
+1-147	853-855	in	_	_	_	_	
+1-148	856-866	načrtovano	_	_	_	_	
+1-149	867-878	sodelovanje	_	_	_	_	
+1-150	879-880	z	_	_	_	_	
+1-151	881-887	Libijo	LOC	_	*->3-7	*[3]	
+1-152	888-894	vodijo	_	_	_	_	
+1-153	895-902	zunanje	ORG[4]	3 - Nevtralno[11]	*->11-1	*[11]	
+1-154	903-914	ministrstvo	ORG[4]	3 - Nevtralno[11]	*->11-1	*[11]	
+1-155	915-916	,	_	_	_	_	
+1-156	917-922	javna	ORG[5]	3 - Nevtralno[12]	*->12-1	*[12]	
+1-157	923-931	agencija	ORG[5]	3 - Nevtralno[12]	*->12-1	*[12]	
+1-158	932-934	za	ORG[5]	3 - Nevtralno[12]	*->12-1	*[12]	
+1-159	935-947	podjetništvo	ORG[5]	3 - Nevtralno[12]	*->12-1	*[12]	
+1-160	948-949	,	_	_	_	_	
+1-161	950-954	tuje	_	_	_	_	
+1-162	955-966	investicije	_	_	_	_	
+1-163	967-969	in	_	_	_	_	
+1-164	970-981	gospodarska	ORG[6]	3 - Nevtralno[13]	*->13-1	*[13]	
+1-165	982-990	zbornica	ORG[6]	3 - Nevtralno[13]	*->13-1	*[13]	
+1-166	991-1000	Slovenije	ORG[6]|LOC[7]	3 - Nevtralno[13]	*->13-1|*->7-2	*[13]|*[7]	
+1-167	1001-1002	.	_	_	_	_	
+1-168	1003-1005	Na	_	_	_	_	
+1-169	1006-1013	Petkovo	PER	_	*->1-5	*[1]	
+1-170	1014-1021	bojazen	_	_	_	_	
+1-171	1022-1023	,	_	_	_	_	
+1-172	1024-1026	da	_	_	_	_	
+1-173	1027-1029	bi	_	_	_	_	
+1-174	1030-1038	utegnilo	_	_	_	_	
+1-175	1039-1046	postati	_	_	_	_	
+1-176	1047-1051	novo	_	_	_	_	
+1-177	1052-1067	veleposlaništvo	_	_	_	_	
+1-178	1068-1069	v	_	_	_	_	
+1-179	1070-1079	Tripoliju	LOC	3 - Nevtralno	*->4-2	*[4]	
+1-180	1080-1085	zgolj	_	_	_	_	
+1-181	1086-1087	s	_	_	_	_	
+1-182	1088-1094	strani	_	_	_	_	
+1-183	1095-1101	države	_	_	*->7-3	*[7]	
+1-184	1102-1109	plačana	_	_	_	_	
+1-185	1110-1117	pisarna	_	_	_	_	
+1-186	1118-1121	SCT	ORG	2 - Negativno	*->5-2	*[5]	
+1-187	1122-1123	,	_	_	_	_	
+1-188	1124-1129	vlada	ORG	_	*->2-7	*[2]	
+1-189	1130-1139	odgovarja	_	_	_	_	
+1-190	1140-1141	,	_	_	_	_	
+1-191	1142-1144	da	_	_	_	_	
+1-192	1145-1147	se	_	_	_	_	
+1-193	1148-1149	"	_	_	_	_	
+1-194	1150-1153	pri	_	_	_	_	
+1-195	1154-1163	odpiranju	_	_	_	_	
+1-196	1164-1168	vseh	_	_	_	_	
+1-197	1169-1183	predstavništev	_	_	_	_	
+1-198	1184-1185	v	_	_	_	_	
+1-199	1186-1192	tujini	_	_	_	_	
+1-200	1193-1198	ravna	_	_	_	_	
+1-201	1199-1208	izključno	_	_	_	_	
+1-202	1209-1210	v	_	_	_	_	
+1-203	1211-1219	interesu	_	_	_	_	
+1-204	1220-1229	Slovenije	LOC	_	*->7-4	*[7]	
+1-205	1230-1231	"	_	_	_	_	
+1-206	1232-1233	.	_	_	_	_	
+1-207	1234-1242	Dodajajo	_	_	_	_	
+1-208	1243-1245	še	_	_	_	_	
+1-209	1246-1247	,	_	_	_	_	
+1-210	1248-1250	da	_	_	_	_	
+1-211	1251-1259	dokončna	_	_	_	_	
+1-212	1260-1266	oblika	_	_	_	_	
+1-213	1267-1276	slovenske	_	_	_	_	
+1-214	1277-1288	prisotnosti	_	_	_	_	
+1-215	1289-1290	v	_	_	_	_	
+1-216	1291-1297	Libiji	LOC	_	*->3-8	*[3]	
+1-217	1298-1302	niti	_	_	_	_	
+1-218	1303-1305	ni	_	_	_	_	
+1-219	1306-1314	dorečena	_	_	_	_	
+1-220	1315-1316	.	_	_	_	_	
+1-221	1317-1323	Usluga	_	_	_	_	
+1-222	1324-1326	za	_	_	_	_	
+1-223	1327-1333	uslugo	_	_	_	_	
+1-224	1334-1335	?	_	_	_	_	
+1-225	1336-1341	Petek	PER	3 - Nevtralno	*->1-6	*[1]	
+1-226	1342-1347	vlado	ORG	_	*->2-8	*[2]	
+1-227	1348-1356	sprašuje	_	_	_	_	
+1-228	1357-1361	tudi	_	_	_	_	
+1-229	1362-1363	,	_	_	_	_	
+1-230	1364-1365	"	_	_	_	_	
+1-231	1366-1369	ali	_	_	_	_	
+1-232	1370-1380	predvideva	_	_	_	_	
+1-233	1381-1382	,	_	_	_	_	
+1-234	1383-1385	da	_	_	_	_	
+1-235	1386-1388	bo	_	_	_	_	
+1-236	1389-1395	dobilo	_	_	_	_	
+1-237	1396-1405	slovensko	_	_	_	_	
+1-238	1406-1418	gospodarstvo	_	_	_	_	
+1-239	1419-1425	kakšen	_	_	_	_	
+1-240	1426-1431	posel	_	_	_	_	
+1-241	1432-1436	tudi	_	_	_	_	
+1-242	1437-1439	na	_	_	_	_	
+1-243	1440-1445	račun	_	_	_	_	
+1-244	1446-1450	tega	_	_	_	_	
+1-245	1451-1452	,	_	_	_	_	
+1-246	1453-1455	da	_	_	_	_	
+1-247	1456-1459	sta	_	_	_	_	
+1-248	1460-1469	Slovenija	LOC	_	*->7-5	*[7]	
+1-249	1470-1472	in	_	_	_	_	
+1-250	1473-1481	današnji	_	_	_	_	
+1-251	1482-1492	predsednik	_	_	_	_	
+1-252	1493-1499	države	_	_	*->7-6	*[7]	
+1-253	1500-1506	veliko	_	_	_	_	
+1-254	1507-1517	pripomogla	_	_	_	_	
+1-255	1518-1519	k	_	_	_	_	
+1-256	1520-1524	temu	_	_	_	_	
+1-257	1525-1526	,	_	_	_	_	
+1-258	1527-1529	da	_	_	_	_	
+1-259	1530-1532	so	_	_	_	_	
+1-260	1533-1535	se	_	_	_	_	
+1-261	1536-1540	leta	_	_	_	_	
+1-262	1541-1545	1999	_	_	_	_	
+1-263	1546-1555	prenehale	_	_	_	_	
+1-264	1556-1564	sankcije	_	_	_	_	
+1-265	1565-1570	proti	_	_	_	_	
+1-266	1571-1577	Libiji	LOC	_	*->3-9	*[3]	
+1-267	1578-1579	"	_	_	_	_	
+1-268	1580-1581	.	_	_	_	_	
+1-269	1582-1588	Takrat	_	_	_	_	
+1-270	1589-1591	je	_	_	_	_	
+1-271	1592-1595	bil	_	_	_	_	
+1-272	1596-1600	Türk	PER	_	*->9-2	*[9]	
+1-273	1601-1610	slovenski	_	3 - Nevtralno[14]	*->9-3	*[9]	
+1-274	1611-1623	veleposlanik	_	3 - Nevtralno[14]	*->9-3	*[9]	
+1-275	1624-1627	pri	_	3 - Nevtralno[14]	*->9-3	*[9]	
+1-276	1628-1631	OZN	ORG	3 - Nevtralno[14]|3 - Nevtralno[15]	*->9-3|*->14-1	*[9]|*[14]	
+1-277	1632-1633	,	_	_	_	_	
+1-278	1634-1643	Slovenija	LOC	_	*->7-7	*[7]	
+1-279	1644-1646	pa	_	_	_	_	
+1-280	1647-1649	je	_	_	_	_	
+1-281	1650-1662	predsedovala	_	_	_	_	
+1-282	1663-1674	varnostnemu	ORG[8]	_	*->15-1	*[15]	
+1-283	1675-1680	svetu	ORG[8]	_	*->15-1	*[15]	
+1-284	1681-1683	in	_	_	_	_	
+1-285	1684-1690	hkrati	_	_	_	_	
+1-286	1691-1695	tudi	_	_	_	_	
+1-287	1696-1702	odboru	_	_	_	_	
+1-288	1703-1705	za	_	_	_	_	
+1-289	1706-1712	nadzor	_	_	_	_	
+1-290	1713-1716	nad	_	_	_	_	
+1-291	1717-1727	izvajanjem	_	_	_	_	
+1-292	1728-1735	sankcij	_	_	_	_	
+1-293	1736-1741	proti	_	_	_	_	
+1-294	1742-1748	Libiji	LOC	_	*->3-10	*[3]	
+1-295	1749-1750	.	_	_	_	_	
+1-296	1751-1760	Analitiki	_	_	_	_	
+1-297	1761-1763	so	_	_	_	_	
+1-298	1764-1770	takrat	_	_	_	_	
+1-299	1771-1777	menili	_	_	_	_	
+1-300	1778-1779	,	_	_	_	_	
+1-301	1780-1782	da	_	_	_	_	
+1-302	1783-1785	so	_	_	_	_	
+1-303	1786-1790	bile	_	_	_	_	
+1-304	1791-1799	sankcije	_	_	_	_	
+1-305	1800-1805	proti	_	_	_	_	
+1-306	1806-1812	Libiji	LOC	_	*->3-11	*[3]	
+1-307	1813-1824	odpravljene	_	_	_	_	
+1-308	1825-1833	prehitro	_	_	_	_	
+1-309	1834-1835	.	_	_	_	_	
+1-310	1836-1841	Vlada	ORG	3 - Nevtralno	*->2-9	*[2]	
+1-311	1842-1849	navedbe	_	_	_	_	
+1-312	1850-1857	zavrača	_	_	_	_	
+1-313	1858-1860	in	_	_	_	_	
+1-314	1861-1869	poudarja	_	_	_	_	
+1-315	1870-1871	,	_	_	_	_	
+1-316	1872-1874	da	_	_	_	_	
+1-317	1875-1882	odprave	_	_	_	_	
+1-318	1883-1890	sankcij	_	_	_	_	
+1-319	1891-1896	proti	_	_	_	_	
+1-320	1897-1903	Libiji	LOC	_	*->3-12	*[3]	
+1-321	1904-1906	ne	_	_	_	_	
+1-322	1907-1909	bi	_	_	_	_	
+1-323	1910-1915	mogle	_	_	_	_	
+1-324	1916-1920	biti	_	_	_	_	
+1-325	1921-1929	povezane	_	_	_	_	
+1-326	1930-1931	z	_	_	_	_	
+1-327	1932-1941	obljubami	_	_	_	_	
+1-328	1942-1948	Libije	LOC	_	*->3-13	*[3]	
+1-329	1949-1958	Sloveniji	LOC	3 - Nevtralno	*->7-8	*[7]	
+1-330	1959-1960	,	_	_	_	_	
+1-331	1961-1964	saj	_	_	_	_	
+1-332	1965-1967	je	_	_	_	_	
+1-333	1968-1972	bila	_	_	_	_	
+1-334	1973-1975	ta	_	_	_	_	
+1-335	1976-1984	pogojena	_	_	_	_	
+1-336	1985-1986	z	_	_	_	_	
+1-337	1987-1998	izročitvijo	_	_	_	_	
+1-338	1999-2003	dveh	_	_	_	_	
+1-339	2004-2013	libijskih	_	_	_	_	
+1-340	2014-2025	osumljencev	_	_	_	_	
+1-341	2026-2033	Škotski	LOC	3 - Nevtralno	*->16-1	*[16]	
+1-342	2034-2036	za	_	_	_	_	
+1-343	2037-2044	sojenje	_	_	_	_	
+1-344	2045-2046	v	_	_	_	_	
+1-345	2047-2054	primeru	_	_	_	_	
+1-346	2055-2066	sestrelitve	_	_	_	_	
+1-347	2067-2077	ameriškega	_	_	_	_	
+1-348	2078-2084	letala	_	_	_	_	
+1-349	2085-2088	nad	_	_	_	_	
+1-350	2089-2097	škotskim	_	_	_	_	
+1-351	2098-2110	Lockerbiejem	PER	3 - Nevtralno	*->17-1	*[17]	
+1-352	2111-2115	leta	_	_	_	_	
+1-353	2116-2120	1988	_	_	_	_	
+1-354	2121-2122	.	_	_	_	_	
+1-355	2123-2125	Ko	_	_	_	_	
+1-356	2126-2128	je	_	2 - Negativno	*->3-14	*[3]	
+1-357	2129-2139	osumljenca	_	_	_	_	
+1-358	2140-2148	izročila	_	_	_	_	
+1-359	2149-2150	,	_	_	_	_	
+1-360	2151-2153	je	_	_	_	_	
+1-361	2154-2163	varnostni	ORG[9]	3 - Nevtralno[16]	*->15-2	*[15]	
+1-362	2164-2168	svet	ORG[9]	3 - Nevtralno[16]	*->15-2	*[15]	
+1-363	2169-2177	sankcije	_	_	_	_	
+1-364	2178-2189	suspendiral	_	_	_	_	
+1-365	2190-2192	in	_	_	_	_	
+1-366	2193-2196	jih	_	_	_	_	
+1-367	2197-2201	leta	_	_	_	_	
+1-368	2202-2206	2003	_	_	_	_	
+1-369	2207-2215	dokončno	_	_	_	_	
+1-370	2216-2222	ukinil	_	_	_	_	

@@ -1,0 +1,350 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Po ustanovitvi poslanskih skupin ( PS ) v novoizvoljenem sklicu parlamenta lahko zdaj predsednik države po posvetu z njimi predlaga kandidata za novega mandatarja . Teden dni po ustanovni seji državnega zbora , torej danes , se je namreč iztekel rok , do katerega morajo biti ustanovljene poslanske skupine v parlamentu . Novi vodje poslanskih skupin so morali o ustanovitvi poslanske skupine obvestiti predsednika državnega zbora in mu predložiti seznam članov z njihovimi podpisanimi pristopnimi izjavami . Predsednik DZ Pavle Gantar pa je predsedniku republike Danilu Türku posredoval poročilo o ustanovitvi poslanskih skupin . Za izvolitev potrebnih najmanj 46 glasov Predsednika vlade sicer voli državni zbor na tajnem glasovanju , za izvolitev pa potrebuje večino glasov vseh poslancev , torej najmanj 46 . Novoizvoljeni predsednik vlade pa mora nato v 15 dneh po svoji izvolitvi državnemu zboru predlagati imenovanje ministrov . Poslanske skupine so morale ob ustanovitvi določiti tudi svoje vodje in njihove namestnike . Poslansko skupino SD bo vodil Bojan Kontič , poslance SDS Jože Tanko , poslansko skupino Zares Gregor Golobič , poslance DeSUS Franc Žnidaršič , poslance SNS Zmago Jelinčič , poslansko skupino SLS Jakob Presečnik , vodja poslancev LDS pa bo Borut Sajovic . Mandatarski kandidat bo znan v začetku novembra Ustanovitev poslanskih skupin je predpogoj , da predsednik republike lahko predlaga kandidata za novega mandatarja za sestavo vlade . V skladu z ustavo mora namreč predsednik kandidata predlagati po posvetovanju z vodji poslanskih skupin . Predsednik Türk bo sicer razgovore predvidoma začel po 28 . oktobru , ko se vrne z obiska na Kitajskem , posvetovanja pa naj bi opravil do konca meseca ter v začetku novembra predlagal mandatarskega kandidata . Seja državnega zbora , na kateri bodo poslanci volili mandatarja , pa bo predvidoma sklicana najpozneje do sredine novembra . Vsebina koalicijske pogodbe predvidoma oblikovana v soboto Najverjetnejši mandatar Borut Pahor je vsem predsednikom morebitnih koalicijskih strank poslal čistopis predloga koalicijske pogodbe . Stranke se bodo do predloga opredelile do sobote , ko naj bi se na skupnem sestanku dokončno dogovorili in oblikovali vsebinski del koalicijske pogodbe
+1-1	0-2	Po	_	_	_	_	
+1-2	3-14	ustanovitvi	_	_	_	_	
+1-3	15-25	poslanskih	_	_	_	_	
+1-4	26-32	skupin	_	_	_	_	
+1-5	33-34	(	_	_	_	_	
+1-6	35-37	PS	_	_	_	_	
+1-7	38-39	)	_	_	_	_	
+1-8	40-41	v	_	_	_	_	
+1-9	42-56	novoizvoljenem	_	_	_	_	
+1-10	57-63	sklicu	_	_	_	_	
+1-11	64-74	parlamenta	ORG	_	*->1-1	*[1]	
+1-12	75-80	lahko	_	_	_	_	
+1-13	81-85	zdaj	_	_	_	_	
+1-14	86-96	predsednik	_	_	*->2-1	*[2]	
+1-15	97-103	države	_	_	*->2-1	*[2]	
+1-16	104-106	po	_	_	_	_	
+1-17	107-114	posvetu	_	_	_	_	
+1-18	115-116	z	_	_	_	_	
+1-19	117-122	njimi	_	_	_	_	
+1-20	123-131	predlaga	_	_	_	_	
+1-21	132-141	kandidata	_	_	_	_	
+1-22	142-144	za	_	_	_	_	
+1-23	145-151	novega	_	_	_	_	
+1-24	152-162	mandatarja	_	_	_	_	
+1-25	163-164	.	_	_	_	_	
+1-26	165-170	Teden	_	_	_	_	
+1-27	171-174	dni	_	_	_	_	
+1-28	175-177	po	_	_	_	_	
+1-29	178-187	ustanovni	_	_	_	_	
+1-30	188-192	seji	_	_	_	_	
+1-31	193-202	državnega	ORG[1]	_	*->3-1	*[3]	
+1-32	203-208	zbora	ORG[1]	_	*->3-1	*[3]	
+1-33	209-210	,	_	_	_	_	
+1-34	211-216	torej	_	_	_	_	
+1-35	217-222	danes	_	_	_	_	
+1-36	223-224	,	_	_	_	_	
+1-37	225-227	se	_	_	_	_	
+1-38	228-230	je	_	_	_	_	
+1-39	231-237	namreč	_	_	_	_	
+1-40	238-245	iztekel	_	_	_	_	
+1-41	246-249	rok	_	_	_	_	
+1-42	250-251	,	_	_	_	_	
+1-43	252-254	do	_	_	_	_	
+1-44	255-263	katerega	_	_	_	_	
+1-45	264-270	morajo	_	_	_	_	
+1-46	271-275	biti	_	_	_	_	
+1-47	276-288	ustanovljene	_	_	_	_	
+1-48	289-298	poslanske	_	_	_	_	
+1-49	299-306	skupine	_	_	_	_	
+1-50	307-308	v	_	_	_	_	
+1-51	309-319	parlamentu	ORG	3 - Nevtralno	*->1-2	*[1]	
+1-52	320-321	.	_	_	_	_	
+1-53	322-326	Novi	_	_	_	_	
+1-54	327-332	vodje	_	_	_	_	
+1-55	333-343	poslanskih	_	_	_	_	
+1-56	344-350	skupin	_	_	_	_	
+1-57	351-353	so	_	_	_	_	
+1-58	354-360	morali	_	_	_	_	
+1-59	361-362	o	_	_	_	_	
+1-60	363-374	ustanovitvi	_	_	_	_	
+1-61	375-384	poslanske	_	_	_	_	
+1-62	385-392	skupine	_	_	_	_	
+1-63	393-402	obvestiti	_	_	_	_	
+1-64	403-414	predsednika	_	_	*->4-1	*[4]	
+1-65	415-424	državnega	ORG[2]	_	*->4-1|*->3-2	*[4]|*[3]	
+1-66	425-430	zbora	ORG[2]	_	*->4-1|*->3-2	*[4]|*[3]	
+1-67	431-433	in	_	_	_	_	
+1-68	434-436	mu	_	_	_	_	
+1-69	437-447	predložiti	_	_	_	_	
+1-70	448-454	seznam	_	_	_	_	
+1-71	455-461	članov	_	_	_	_	
+1-72	462-463	z	_	_	_	_	
+1-73	464-473	njihovimi	_	_	_	_	
+1-74	474-485	podpisanimi	_	_	_	_	
+1-75	486-497	pristopnimi	_	_	_	_	
+1-76	498-506	izjavami	_	_	_	_	
+1-77	507-508	.	_	_	_	_	
+1-78	509-519	Predsednik	_	3 - Nevtralno[16]	*->4-2	*[4]	
+1-79	520-522	DZ	ORG	3 - Nevtralno[16]	*->4-2|*->3-3	*[4]|*[3]	
+1-80	523-528	Pavle	PER[3]	3 - Nevtralno[16]	*->4-2	*[4]	
+1-81	529-535	Gantar	PER[3]	3 - Nevtralno[16]	*->4-2	*[4]	
+1-82	536-538	pa	_	_	_	_	
+1-83	539-541	je	_	_	_	_	
+1-84	542-553	predsedniku	_	_	*->2-2	*[2]	
+1-85	554-563	republike	_	_	*->2-2	*[2]	
+1-86	564-570	Danilu	PER[4]	_	*->2-2	*[2]	
+1-87	571-576	Türku	PER[4]	_	*->2-2	*[2]	
+1-88	577-587	posredoval	_	_	_	_	
+1-89	588-596	poročilo	_	_	_	_	
+1-90	597-598	o	_	_	_	_	
+1-91	599-610	ustanovitvi	_	_	_	_	
+1-92	611-621	poslanskih	_	_	_	_	
+1-93	622-628	skupin	_	_	_	_	
+1-94	629-630	.	_	_	_	_	
+1-95	631-633	Za	_	_	_	_	
+1-96	634-643	izvolitev	_	_	_	_	
+1-97	644-653	potrebnih	_	_	_	_	
+1-98	654-661	najmanj	_	_	_	_	
+1-99	662-664	46	_	_	_	_	
+1-100	665-671	glasov	_	_	_	_	
+1-101	672-683	Predsednika	_	_	_	_	
+1-102	684-689	vlade	ORG	_	*->5-1	*[5]	
+1-103	690-695	sicer	_	_	_	_	
+1-104	696-700	voli	_	_	_	_	
+1-105	701-708	državni	ORG[5]	_	*->3-4	*[3]	
+1-106	709-713	zbor	ORG[5]	_	*->3-4	*[3]	
+1-107	714-716	na	_	_	_	_	
+1-108	717-723	tajnem	_	_	_	_	
+1-109	724-734	glasovanju	_	_	_	_	
+1-110	735-736	,	_	_	_	_	
+1-111	737-739	za	_	_	_	_	
+1-112	740-749	izvolitev	_	_	_	_	
+1-113	750-752	pa	_	_	_	_	
+1-114	753-762	potrebuje	_	_	_	_	
+1-115	763-769	večino	_	_	_	_	
+1-116	770-776	glasov	_	_	_	_	
+1-117	777-781	vseh	_	_	_	_	
+1-118	782-791	poslancev	_	_	_	_	
+1-119	792-793	,	_	_	_	_	
+1-120	794-799	torej	_	_	_	_	
+1-121	800-807	najmanj	_	_	_	_	
+1-122	808-810	46	_	_	_	_	
+1-123	811-812	.	_	_	_	_	
+1-124	813-826	Novoizvoljeni	_	_	_	_	
+1-125	827-837	predsednik	_	_	_	_	
+1-126	838-843	vlade	ORG	_	*->5-2	*[5]	
+1-127	844-846	pa	_	_	_	_	
+1-128	847-851	mora	_	_	_	_	
+1-129	852-856	nato	_	_	_	_	
+1-130	857-858	v	_	_	_	_	
+1-131	859-861	15	_	_	_	_	
+1-132	862-866	dneh	_	_	_	_	
+1-133	867-869	po	_	_	_	_	
+1-134	870-875	svoji	_	_	_	_	
+1-135	876-885	izvolitvi	_	_	_	_	
+1-136	886-895	državnemu	ORG[6]	_	*->3-5	*[3]	
+1-137	896-901	zboru	ORG[6]	_	*->3-5	*[3]	
+1-138	902-912	predlagati	_	_	_	_	
+1-139	913-923	imenovanje	_	_	_	_	
+1-140	924-933	ministrov	_	_	_	_	
+1-141	934-935	.	_	_	_	_	
+1-142	936-945	Poslanske	_	_	_	_	
+1-143	946-953	skupine	_	_	_	_	
+1-144	954-956	so	_	_	_	_	
+1-145	957-963	morale	_	_	_	_	
+1-146	964-966	ob	_	_	_	_	
+1-147	967-978	ustanovitvi	_	_	_	_	
+1-148	979-987	določiti	_	_	_	_	
+1-149	988-992	tudi	_	_	_	_	
+1-150	993-998	svoje	_	_	_	_	
+1-151	999-1004	vodje	_	_	_	_	
+1-152	1005-1007	in	_	_	_	_	
+1-153	1008-1015	njihove	_	_	_	_	
+1-154	1016-1026	namestnike	_	_	_	_	
+1-155	1027-1028	.	_	_	_	_	
+1-156	1029-1038	Poslansko	_	3 - Nevtralno[17]	*->6-1	*[6]	
+1-157	1039-1046	skupino	_	3 - Nevtralno[17]	*->6-1	*[6]	
+1-158	1047-1049	SD	ORG	3 - Nevtralno[17]	*->6-1	*[6]	
+1-159	1050-1052	bo	_	_	_	_	
+1-160	1053-1058	vodil	_	_	_	_	
+1-161	1059-1064	Bojan	PER[7]	3 - Nevtralno[18]	*->7-1	*[7]	
+1-162	1065-1071	Kontič	PER[7]	3 - Nevtralno[18]	*->7-1	*[7]	
+1-163	1072-1073	,	_	_	_	_	
+1-164	1074-1082	poslance	_	_	_	_	
+1-165	1083-1086	SDS	ORG	3 - Nevtralno	*->10-1	*[10]	
+1-166	1087-1091	Jože	PER[8]	3 - Nevtralno[19]	*->8-1	*[8]	
+1-167	1092-1097	Tanko	PER[8]	3 - Nevtralno[19]	*->8-1	*[8]	
+1-168	1098-1099	,	_	_	_	_	
+1-169	1100-1109	poslansko	_	3 - Nevtralno[20]	*->9-1	*[9]	
+1-170	1110-1117	skupino	_	3 - Nevtralno[20]	*->9-1	*[9]	
+1-171	1118-1123	Zares	ORG	3 - Nevtralno[20]	*->9-1	*[9]	
+1-172	1124-1130	Gregor	PER[9]	3 - Nevtralno[21]	*->11-1	*[11]	
+1-173	1131-1138	Golobič	PER[9]	3 - Nevtralno[21]	*->11-1	*[11]	
+1-174	1139-1140	,	_	_	_	_	
+1-175	1141-1149	poslance	_	_	_	_	
+1-176	1150-1155	DeSUS	ORG	3 - Nevtralno	*->12-1	*[12]	
+1-177	1156-1161	Franc	PER[10]	3 - Nevtralno[22]	*->13-1	*[13]	
+1-178	1162-1171	Žnidaršič	PER[10]	3 - Nevtralno[22]	*->13-1	*[13]	
+1-179	1172-1173	,	_	_	_	_	
+1-180	1174-1182	poslance	_	_	_	_	
+1-181	1183-1186	SNS	ORG	3 - Nevtralno	*->14-1	*[14]	
+1-182	1187-1192	Zmago	PER[11]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-183	1193-1201	Jelinčič	PER[11]	3 - Nevtralno[23]	*->15-1	*[15]	
+1-184	1202-1203	,	_	_	_	_	
+1-185	1204-1213	poslansko	_	3 - Nevtralno[24]	*->16-1	*[16]	
+1-186	1214-1221	skupino	_	3 - Nevtralno[24]	*->16-1	*[16]	
+1-187	1222-1225	SLS	ORG	3 - Nevtralno[24]	*->16-1	*[16]	
+1-188	1226-1231	Jakob	PER[12]	3 - Nevtralno[25]	*->17-1	*[17]	
+1-189	1232-1241	Presečnik	PER[12]	3 - Nevtralno[25]	*->17-1	*[17]	
+1-190	1242-1243	,	_	_	_	_	
+1-191	1244-1249	vodja	_	_	*->18-1	*[18]	
+1-192	1250-1259	poslancev	_	_	*->18-1	*[18]	
+1-193	1260-1263	LDS	ORG	3 - Nevtralno	*->18-1|*->19-1	*[18]|*[19]	
+1-194	1264-1266	pa	_	_	_	_	
+1-195	1267-1269	bo	_	_	_	_	
+1-196	1270-1275	Borut	PER[13]	3 - Nevtralno[26]	*->18-2	*[18]	
+1-197	1276-1283	Sajovic	PER[13]	3 - Nevtralno[26]	*->18-2	*[18]	
+1-198	1284-1285	.	_	_	_	_	
+1-199	1286-1297	Mandatarski	_	_	_	_	
+1-200	1298-1306	kandidat	_	_	_	_	
+1-201	1307-1309	bo	_	_	_	_	
+1-202	1310-1314	znan	_	_	_	_	
+1-203	1315-1316	v	_	_	_	_	
+1-204	1317-1324	začetku	_	_	_	_	
+1-205	1325-1333	novembra	_	_	_	_	
+1-206	1334-1345	Ustanovitev	_	_	_	_	
+1-207	1346-1356	poslanskih	_	_	_	_	
+1-208	1357-1363	skupin	_	_	_	_	
+1-209	1364-1366	je	_	_	_	_	
+1-210	1367-1376	predpogoj	_	_	_	_	
+1-211	1377-1378	,	_	_	_	_	
+1-212	1379-1381	da	_	_	_	_	
+1-213	1382-1392	predsednik	_	_	*->2-3	*[2]	
+1-214	1393-1402	republike	_	_	*->2-3	*[2]	
+1-215	1403-1408	lahko	_	_	_	_	
+1-216	1409-1417	predlaga	_	_	_	_	
+1-217	1418-1427	kandidata	_	_	_	_	
+1-218	1428-1430	za	_	_	_	_	
+1-219	1431-1437	novega	_	_	_	_	
+1-220	1438-1448	mandatarja	_	_	_	_	
+1-221	1449-1451	za	_	_	_	_	
+1-222	1452-1459	sestavo	_	_	_	_	
+1-223	1460-1465	vlade	ORG	3 - Nevtralno	*->5-3	*[5]	
+1-224	1466-1467	.	_	_	_	_	
+1-225	1468-1469	V	_	_	_	_	
+1-226	1470-1476	skladu	_	_	_	_	
+1-227	1477-1478	z	_	_	_	_	
+1-228	1479-1485	ustavo	_	_	_	_	
+1-229	1486-1490	mora	_	_	_	_	
+1-230	1491-1497	namreč	_	_	_	_	
+1-231	1498-1508	predsednik	_	_	*->2-4	*[2]	
+1-232	1509-1518	kandidata	_	_	_	_	
+1-233	1519-1529	predlagati	_	_	_	_	
+1-234	1530-1532	po	_	_	_	_	
+1-235	1533-1545	posvetovanju	_	_	_	_	
+1-236	1546-1547	z	_	_	_	_	
+1-237	1548-1553	vodji	_	_	_	_	
+1-238	1554-1564	poslanskih	_	_	_	_	
+1-239	1565-1571	skupin	_	_	_	_	
+1-240	1572-1573	.	_	_	_	_	
+1-241	1574-1584	Predsednik	_	_	*->2-5	*[2]	
+1-242	1585-1589	Türk	PER	_	*->2-5	*[2]	
+1-243	1590-1592	bo	_	_	_	_	
+1-244	1593-1598	sicer	_	_	_	_	
+1-245	1599-1608	razgovore	_	_	_	_	
+1-246	1609-1619	predvidoma	_	_	_	_	
+1-247	1620-1625	začel	_	_	_	_	
+1-248	1626-1628	po	_	_	_	_	
+1-249	1629-1631	28	_	_	_	_	
+1-250	1632-1633	.	_	_	_	_	
+1-251	1634-1641	oktobru	_	_	_	_	
+1-252	1642-1643	,	_	_	_	_	
+1-253	1644-1646	ko	_	_	_	_	
+1-254	1647-1649	se	_	_	*->2-6	*[2]	
+1-255	1650-1654	vrne	_	_	*->2-6	*[2]	
+1-256	1655-1656	z	_	_	_	_	
+1-257	1657-1663	obiska	_	_	_	_	
+1-258	1664-1666	na	_	_	_	_	
+1-259	1667-1676	Kitajskem	LOC	3 - Nevtralno	*->20-1	*[20]	
+1-260	1677-1678	,	_	_	_	_	
+1-261	1679-1691	posvetovanja	_	_	_	_	
+1-262	1692-1694	pa	_	_	_	_	
+1-263	1695-1698	naj	_	3 - Nevtralno[27]	*->2-7	*[2]	
+1-264	1699-1701	bi	_	3 - Nevtralno[27]	*->2-7	*[2]	
+1-265	1702-1709	opravil	_	3 - Nevtralno[27]	*->2-7	*[2]	
+1-266	1710-1712	do	_	_	_	_	
+1-267	1713-1718	konca	_	_	_	_	
+1-268	1719-1725	meseca	_	_	_	_	
+1-269	1726-1729	ter	_	_	_	_	
+1-270	1730-1731	v	_	_	_	_	
+1-271	1732-1739	začetku	_	_	_	_	
+1-272	1740-1748	novembra	_	_	_	_	
+1-273	1749-1758	predlagal	_	_	_	_	
+1-274	1759-1772	mandatarskega	_	_	_	_	
+1-275	1773-1782	kandidata	_	_	_	_	
+1-276	1783-1784	.	_	_	_	_	
+1-277	1785-1789	Seja	_	_	_	_	
+1-278	1790-1799	državnega	ORG[14]	3 - Nevtralno[28]	*->3-6	*[3]	
+1-279	1800-1805	zbora	ORG[14]	3 - Nevtralno[28]	*->3-6	*[3]	
+1-280	1806-1807	,	_	_	_	_	
+1-281	1808-1810	na	_	_	_	_	
+1-282	1811-1817	kateri	_	_	_	_	
+1-283	1818-1822	bodo	_	_	_	_	
+1-284	1823-1831	poslanci	_	_	_	_	
+1-285	1832-1838	volili	_	_	_	_	
+1-286	1839-1849	mandatarja	_	_	_	_	
+1-287	1850-1851	,	_	_	_	_	
+1-288	1852-1854	pa	_	_	_	_	
+1-289	1855-1857	bo	_	_	_	_	
+1-290	1858-1868	predvidoma	_	_	_	_	
+1-291	1869-1877	sklicana	_	_	_	_	
+1-292	1878-1888	najpozneje	_	_	_	_	
+1-293	1889-1891	do	_	_	_	_	
+1-294	1892-1899	sredine	_	_	_	_	
+1-295	1900-1908	novembra	_	_	_	_	
+1-296	1909-1910	.	_	_	_	_	
+1-297	1911-1918	Vsebina	_	_	_	_	
+1-298	1919-1930	koalicijske	_	_	_	_	
+1-299	1931-1938	pogodbe	_	_	_	_	
+1-300	1939-1949	predvidoma	_	_	_	_	
+1-301	1950-1960	oblikovana	_	_	_	_	
+1-302	1961-1962	v	_	_	_	_	
+1-303	1963-1969	soboto	_	_	_	_	
+1-304	1970-1984	Najverjetnejši	_	3 - Nevtralno[29]	*->21-1	*[21]	
+1-305	1985-1993	mandatar	_	3 - Nevtralno[29]	*->21-1	*[21]	
+1-306	1994-1999	Borut	PER[15]	3 - Nevtralno[29]	*->21-1	*[21]	
+1-307	2000-2005	Pahor	PER[15]	3 - Nevtralno[29]	*->21-1	*[21]	
+1-308	2006-2008	je	_	_	_	_	
+1-309	2009-2013	vsem	_	_	_	_	
+1-310	2014-2026	predsednikom	_	_	_	_	
+1-311	2027-2037	morebitnih	_	_	_	_	
+1-312	2038-2050	koalicijskih	_	_	_	_	
+1-313	2051-2057	strank	_	_	_	_	
+1-314	2058-2064	poslal	_	_	_	_	
+1-315	2065-2073	čistopis	_	_	_	_	
+1-316	2074-2082	predloga	_	_	_	_	
+1-317	2083-2094	koalicijske	_	_	_	_	
+1-318	2095-2102	pogodbe	_	_	_	_	
+1-319	2103-2104	.	_	_	_	_	
+1-320	2105-2112	Stranke	_	_	_	_	
+1-321	2113-2115	se	_	_	_	_	
+1-322	2116-2120	bodo	_	_	_	_	
+1-323	2121-2123	do	_	_	_	_	
+1-324	2124-2132	predloga	_	_	_	_	
+1-325	2133-2143	opredelile	_	_	_	_	
+1-326	2144-2146	do	_	_	_	_	
+1-327	2147-2153	sobote	_	_	_	_	
+1-328	2154-2155	,	_	_	_	_	
+1-329	2156-2158	ko	_	_	_	_	
+1-330	2159-2162	naj	_	_	_	_	
+1-331	2163-2165	bi	_	_	_	_	
+1-332	2166-2168	se	_	_	_	_	
+1-333	2169-2171	na	_	_	_	_	
+1-334	2172-2179	skupnem	_	_	_	_	
+1-335	2180-2188	sestanku	_	_	_	_	
+1-336	2189-2197	dokončno	_	_	_	_	
+1-337	2198-2208	dogovorili	_	_	_	_	
+1-338	2209-2211	in	_	_	_	_	
+1-339	2212-2222	oblikovali	_	_	_	_	
+1-340	2223-2232	vsebinski	_	_	_	_	
+1-341	2233-2236	del	_	_	_	_	
+1-342	2237-2248	koalicijske	_	_	_	_	
+1-343	2249-2256	pogodbe	_	_	_	_	

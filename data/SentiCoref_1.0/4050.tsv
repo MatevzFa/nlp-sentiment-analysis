@@ -1,0 +1,374 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=de.tudarmstadt.ukp.dkpro.core.api.ner.type.NamedEntity|value
+#T_SP=webanno.custom.Sentiment|Polarity
+#T_CH=webanno.custom.CorefLink|referenceRelation|referenceType
+
+
+#Text=Ljubljana - Ekvilib inštitut , nosilec certifikata Družini prijazno podjetje , je danes podelil certifikate 14 podjetjem . Od tega je 11 podjetij prejelo osnovni , 3 pa polni certifikat . Do danes se je v projekt certificiranja priključilo že prek 160 slovenskih podjetij in organizacij , ki skupaj zaposlujejo več kot 50.000 zaposlenih . Prejemniki certifikatov so Center za usposabljanje , delo in varstvo Črna na Koroškem , ELRAD INTERNATIONAL d.o.o . , HIT d.d . Nova Gorica , Javni holding Ljubljana d.o.o . , Javno podjetje Ljubljanska parkirišča in tržnice , d.o.o . , MAKOM TRGOVINA , d.o.o . , Spekter d.o.o . , Splošna bolnišnica Izola , Splošna bolnišnica Novo mesto , Stelkom d.o.o . in Združenje delodajalcev Slovenije . Polne certifikate so prejeli ABANKA VIPA d.d . , IOLAR informatika v besedi , d.o.o . in CIMOS TAM Ai , d.o.o . . Ministrica za delo , družino , socialne zadeve in enake možnosti dr . Anja Kopač Mrak je ob dogodku poudarila , da » lahko neravnovesje med lastnimi cilji in zahtevami okolja močno vpliva na zdravje in učinkovitost posameznika in v času , ko se zdi , da sta vrednoti medsebojne solidarnosti in občutka za skupnost vse redkejši , je vrednost podjetij , ki si prizadevajo za zadovoljstvo svojih zaposlenih , toliko večja . « Ministrica je ob tej priložnosti tudi dodala , da zaključujejo s pripravo sprememb Zakona o starševskem varstvu in družinskih prejemkih in da pri spremembah izhajajo iz sedanjega položaja žensk in moških na trgu dela ter dajejo velik poudarek usklajevanju poklicnega in družinskega življenja . Petra Hartman , strokovna sodelavka na projektu certifikata Družini prijazno podjetje , je ob slavnostni podelitvi pojasnila : » Kljub trenutnim gospodarskim razmeram se v postopek pridobivanja certifikata vsako leto vključujejo vedno nova podjetja in organizacije , ki dokazujejo , da poslovanje načrtujejo dolgoročno in strateško , pri čemer je načrtno vlaganje v zaposlene ključnega pomena . Vlaganje v zaposlene se jim namreč povrne v obliki zadovoljnih , zanesljivih zaposlenih , ki radi opravljajo svoje delo in so ponosni na podjetje , v katerem delajo . Ta podjetja so svetli zgledi , kakršne slovensko gospodarstvo potrebuje , če želi krizo premagati .
+1-1	0-9	Ljubljana	LOC	_	*->1-1	*[1]	
+1-2	10-11	-	_	_	_	_	
+1-3	12-19	Ekvilib	ORG[1]	_	*->2-1	*[2]	
+1-4	20-28	inštitut	ORG[1]	_	*->2-1	*[2]	
+1-5	29-30	,	_	_	_	_	
+1-6	31-38	nosilec	_	4 - Pozitivno[24]	*->2-2	*[2]	
+1-7	39-50	certifikata	_	4 - Pozitivno[24]	*->2-2	*[2]	
+1-8	51-58	Družini	_	4 - Pozitivno[24]	*->2-2	*[2]	
+1-9	59-67	prijazno	_	4 - Pozitivno[24]	*->2-2	*[2]	
+1-10	68-76	podjetje	_	4 - Pozitivno[24]	*->2-2	*[2]	
+1-11	77-78	,	_	_	_	_	
+1-12	79-81	je	_	_	_	_	
+1-13	82-87	danes	_	_	_	_	
+1-14	88-95	podelil	_	_	_	_	
+1-15	96-107	certifikate	_	_	_	_	
+1-16	108-110	14	_	_	_	_	
+1-17	111-120	podjetjem	_	_	_	_	
+1-18	121-122	.	_	_	_	_	
+1-19	123-125	Od	_	_	_	_	
+1-20	126-130	tega	_	_	_	_	
+1-21	131-133	je	_	_	_	_	
+1-22	134-136	11	_	_	_	_	
+1-23	137-145	podjetij	_	_	_	_	
+1-24	146-153	prejelo	_	_	_	_	
+1-25	154-161	osnovni	_	_	_	_	
+1-26	162-163	,	_	_	_	_	
+1-27	164-165	3	_	_	_	_	
+1-28	166-168	pa	_	_	_	_	
+1-29	169-174	polni	_	_	_	_	
+1-30	175-185	certifikat	_	_	_	_	
+1-31	186-187	.	_	_	_	_	
+1-32	188-190	Do	_	_	_	_	
+1-33	191-196	danes	_	_	_	_	
+1-34	197-199	se	_	_	_	_	
+1-35	200-202	je	_	_	_	_	
+1-36	203-204	v	_	_	_	_	
+1-37	205-212	projekt	_	_	_	_	
+1-38	213-227	certificiranja	_	_	_	_	
+1-39	228-239	priključilo	_	_	_	_	
+1-40	240-242	že	_	_	_	_	
+1-41	243-247	prek	_	_	_	_	
+1-42	248-251	160	_	_	_	_	
+1-43	252-262	slovenskih	_	_	_	_	
+1-44	263-271	podjetij	_	_	_	_	
+1-45	272-274	in	_	_	_	_	
+1-46	275-286	organizacij	_	_	_	_	
+1-47	287-288	,	_	_	_	_	
+1-48	289-291	ki	_	_	_	_	
+1-49	292-298	skupaj	_	_	_	_	
+1-50	299-310	zaposlujejo	_	_	_	_	
+1-51	311-314	več	_	_	_	_	
+1-52	315-318	kot	_	_	_	_	
+1-53	319-325	50.000	_	_	_	_	
+1-54	326-336	zaposlenih	_	_	_	_	
+1-55	337-338	.	_	_	_	_	
+1-56	339-349	Prejemniki	_	_	_	_	
+1-57	350-362	certifikatov	_	_	_	_	
+1-58	363-365	so	_	_	_	_	
+1-59	366-372	Center	ORG[2]	4 - Pozitivno[25]	*->3-1	*[3]	
+1-60	373-375	za	ORG[2]	4 - Pozitivno[25]	*->3-1	*[3]	
+1-61	376-389	usposabljanje	ORG[2]	4 - Pozitivno[25]	*->3-1	*[3]	
+1-62	390-391	,	ORG[2]	4 - Pozitivno[25]	*->3-1	*[3]	
+1-63	392-396	delo	ORG[2]	4 - Pozitivno[25]	*->3-1	*[3]	
+1-64	397-399	in	ORG[2]	4 - Pozitivno[25]	*->3-1	*[3]	
+1-65	400-407	varstvo	ORG[2]	4 - Pozitivno[25]	*->3-1	*[3]	
+1-66	408-412	Črna	ORG[2]|LOC[3]	4 - Pozitivno[25]|3 - Nevtralno[26]	*->3-1|*->4-1	*[3]|*[4]	
+1-67	413-415	na	ORG[2]|LOC[3]	4 - Pozitivno[25]|3 - Nevtralno[26]	*->3-1|*->4-1	*[3]|*[4]	
+1-68	416-424	Koroškem	ORG[2]|LOC[3]	4 - Pozitivno[25]|3 - Nevtralno[26]	*->3-1|*->4-1	*[3]|*[4]	
+1-69	425-426	,	_	_	_	_	
+1-70	427-432	ELRAD	ORG[4]	4 - Pozitivno[27]	*->5-1	*[5]	
+1-71	433-446	INTERNATIONAL	ORG[4]	4 - Pozitivno[27]	*->5-1	*[5]	
+1-72	447-452	d.o.o	ORG[4]	4 - Pozitivno[27]	*->5-1	*[5]	
+1-73	453-454	.	ORG[4]	4 - Pozitivno[27]	*->5-1	*[5]	
+1-74	455-456	,	_	_	_	_	
+1-75	457-460	HIT	ORG[5]	4 - Pozitivno[28]	*->6-1	*[6]	
+1-76	461-464	d.d	ORG[5]	4 - Pozitivno[28]	*->6-1	*[6]	
+1-77	465-466	.	ORG[5]	4 - Pozitivno[28]	*->6-1	*[6]	
+1-78	467-471	Nova	ORG[5]|LOC[6]	4 - Pozitivno[28]|3 - Nevtralno[29]	*->6-1|*->7-1	*[6]|*[7]	
+1-79	472-478	Gorica	ORG[5]|LOC[6]	4 - Pozitivno[28]|3 - Nevtralno[29]	*->6-1|*->7-1	*[6]|*[7]	
+1-80	479-480	,	_	_	_	_	
+1-81	481-486	Javni	ORG[7]	4 - Pozitivno[30]	*->8-1	*[8]	
+1-82	487-494	holding	ORG[7]	4 - Pozitivno[30]	*->8-1	*[8]	
+1-83	495-504	Ljubljana	ORG[7]|LOC[8]	4 - Pozitivno[30]|3 - Nevtralno[31]	*->8-1|*->1-2	*[8]|*[1]	
+1-84	505-510	d.o.o	ORG[7]	4 - Pozitivno[30]	*->8-1	*[8]	
+1-85	511-512	.	ORG[7]	4 - Pozitivno[30]	*->8-1	*[8]	
+1-86	513-514	,	_	_	_	_	
+1-87	515-520	Javno	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-88	521-529	podjetje	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-89	530-541	Ljubljanska	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-90	542-552	parkirišča	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-91	553-555	in	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-92	556-563	tržnice	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-93	564-565	,	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-94	566-571	d.o.o	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-95	572-573	.	ORG[9]	4 - Pozitivno[32]	*->9-1	*[9]	
+1-96	574-575	,	_	_	_	_	
+1-97	576-581	MAKOM	ORG[10]	4 - Pozitivno[33]	*->10-1	*[10]	
+1-98	582-590	TRGOVINA	ORG[10]	4 - Pozitivno[33]	*->10-1	*[10]	
+1-99	591-592	,	ORG[10]	4 - Pozitivno[33]	*->10-1	*[10]	
+1-100	593-598	d.o.o	ORG[10]	4 - Pozitivno[33]	*->10-1	*[10]	
+1-101	599-600	.	ORG[10]	4 - Pozitivno[33]	*->10-1	*[10]	
+1-102	601-602	,	_	_	_	_	
+1-103	603-610	Spekter	ORG[11]	4 - Pozitivno[34]	*->11-1	*[11]	
+1-104	611-616	d.o.o	ORG[11]	4 - Pozitivno[34]	*->11-1	*[11]	
+1-105	617-618	.	ORG[11]	4 - Pozitivno[34]	*->11-1	*[11]	
+1-106	619-620	,	_	_	_	_	
+1-107	621-628	Splošna	ORG[12]	4 - Pozitivno[35]	*->12-1	*[12]	
+1-108	629-639	bolnišnica	ORG[12]	4 - Pozitivno[35]	*->12-1	*[12]	
+1-109	640-645	Izola	ORG[12]|LOC[13]	4 - Pozitivno[35]|3 - Nevtralno[36]	*->12-1|*->13-1	*[12]|*[13]	
+1-110	646-647	,	_	_	_	_	
+1-111	648-655	Splošna	ORG[14]	4 - Pozitivno[37]	*->14-1	*[14]	
+1-112	656-666	bolnišnica	ORG[14]	4 - Pozitivno[37]	*->14-1	*[14]	
+1-113	667-671	Novo	ORG[14]|LOC[15]	4 - Pozitivno[37]|3 - Nevtralno[38]	*->14-1|*->15-1	*[14]|*[15]	
+1-114	672-677	mesto	ORG[14]|LOC[15]	4 - Pozitivno[37]|3 - Nevtralno[38]	*->14-1|*->15-1	*[14]|*[15]	
+1-115	678-679	,	_	_	_	_	
+1-116	680-687	Stelkom	ORG[16]	4 - Pozitivno[39]	*->16-1	*[16]	
+1-117	688-693	d.o.o	ORG[16]	4 - Pozitivno[39]	*->16-1	*[16]	
+1-118	694-695	.	ORG[16]	4 - Pozitivno[39]	*->16-1	*[16]	
+1-119	696-698	in	_	_	_	_	
+1-120	699-708	Združenje	ORG[17]	4 - Pozitivno[40]	*->17-1	*[17]	
+1-121	709-721	delodajalcev	ORG[17]	4 - Pozitivno[40]	*->17-1	*[17]	
+1-122	722-731	Slovenije	ORG[17]|LOC[18]	4 - Pozitivno[40]|3 - Nevtralno[41]	*->17-1|*->18-1	*[17]|*[18]	
+1-123	732-733	.	_	_	_	_	
+1-124	734-739	Polne	_	_	_	_	
+1-125	740-751	certifikate	_	_	_	_	
+1-126	752-754	so	_	_	_	_	
+1-127	755-762	prejeli	_	_	_	_	
+1-128	763-769	ABANKA	ORG[19]	4 - Pozitivno[42]	*->19-1	*[19]	
+1-129	770-774	VIPA	ORG[19]	4 - Pozitivno[42]	*->19-1	*[19]	
+1-130	775-778	d.d	ORG[19]	4 - Pozitivno[42]	*->19-1	*[19]	
+1-131	779-780	.	ORG[19]	4 - Pozitivno[42]	*->19-1	*[19]	
+1-132	781-782	,	_	_	_	_	
+1-133	783-788	IOLAR	ORG[20]	4 - Pozitivno[43]	*->20-1	*[20]	
+1-134	789-800	informatika	ORG[20]	4 - Pozitivno[43]	*->20-1	*[20]	
+1-135	801-802	v	ORG[20]	4 - Pozitivno[43]	*->20-1	*[20]	
+1-136	803-809	besedi	ORG[20]	4 - Pozitivno[43]	*->20-1	*[20]	
+1-137	810-811	,	ORG[20]	4 - Pozitivno[43]	*->20-1	*[20]	
+1-138	812-817	d.o.o	ORG[20]	4 - Pozitivno[43]	*->20-1	*[20]	
+1-139	818-819	.	ORG[20]	4 - Pozitivno[43]	*->20-1	*[20]	
+1-140	820-822	in	_	_	_	_	
+1-141	823-828	CIMOS	ORG[21]	4 - Pozitivno[44]	*->21-1	*[21]	
+1-142	829-832	TAM	ORG[21]	4 - Pozitivno[44]	*->21-1	*[21]	
+1-143	833-835	Ai	ORG[21]	4 - Pozitivno[44]	*->21-1	*[21]	
+1-144	836-837	,	ORG[21]	4 - Pozitivno[44]	*->21-1	*[21]	
+1-145	838-843	d.o.o	ORG[21]	4 - Pozitivno[44]	*->21-1	*[21]	
+1-146	844-845	.	ORG[21]	4 - Pozitivno[44]	*->21-1	*[21]	
+1-147	846-847	.	_	_	_	_	
+1-148	848-858	Ministrica	_	_	*->22-1	*[22]	
+1-149	859-861	za	_	_	*->22-1	*[22]	
+1-150	862-866	delo	_	_	*->22-1	*[22]	
+1-151	867-868	,	_	_	*->22-1	*[22]	
+1-152	869-876	družino	_	_	*->22-1	*[22]	
+1-153	877-878	,	_	_	*->22-1	*[22]	
+1-154	879-887	socialne	_	_	*->22-1	*[22]	
+1-155	888-894	zadeve	_	_	*->22-1	*[22]	
+1-156	895-897	in	_	_	*->22-1	*[22]	
+1-157	898-903	enake	_	_	*->22-1	*[22]	
+1-158	904-912	možnosti	_	_	*->22-1	*[22]	
+1-159	913-915	dr	_	_	*->22-1	*[22]	
+1-160	916-917	.	_	_	*->22-1	*[22]	
+1-161	918-922	Anja	PER[22]	_	*->22-1	*[22]	
+1-162	923-928	Kopač	PER[22]	_	*->22-1	*[22]	
+1-163	929-933	Mrak	PER[22]	_	*->22-1	*[22]	
+1-164	934-936	je	_	_	_	_	
+1-165	937-939	ob	_	_	_	_	
+1-166	940-947	dogodku	_	_	_	_	
+1-167	948-957	poudarila	_	_	_	_	
+1-168	958-959	,	_	_	_	_	
+1-169	960-962	da	_	_	_	_	
+1-170	963-964	»	_	_	_	_	
+1-171	965-970	lahko	_	_	_	_	
+1-172	971-983	neravnovesje	_	_	_	_	
+1-173	984-987	med	_	_	_	_	
+1-174	988-996	lastnimi	_	_	_	_	
+1-175	997-1002	cilji	_	_	_	_	
+1-176	1003-1005	in	_	_	_	_	
+1-177	1006-1015	zahtevami	_	_	_	_	
+1-178	1016-1022	okolja	_	_	_	_	
+1-179	1023-1028	močno	_	_	_	_	
+1-180	1029-1035	vpliva	_	_	_	_	
+1-181	1036-1038	na	_	_	_	_	
+1-182	1039-1046	zdravje	_	_	_	_	
+1-183	1047-1049	in	_	_	_	_	
+1-184	1050-1062	učinkovitost	_	_	_	_	
+1-185	1063-1074	posameznika	_	_	_	_	
+1-186	1075-1077	in	_	_	_	_	
+1-187	1078-1079	v	_	_	_	_	
+1-188	1080-1084	času	_	_	_	_	
+1-189	1085-1086	,	_	_	_	_	
+1-190	1087-1089	ko	_	_	_	_	
+1-191	1090-1092	se	_	_	_	_	
+1-192	1093-1096	zdi	_	_	_	_	
+1-193	1097-1098	,	_	_	_	_	
+1-194	1099-1101	da	_	_	_	_	
+1-195	1102-1105	sta	_	_	_	_	
+1-196	1106-1114	vrednoti	_	_	_	_	
+1-197	1115-1125	medsebojne	_	_	_	_	
+1-198	1126-1138	solidarnosti	_	_	_	_	
+1-199	1139-1141	in	_	_	_	_	
+1-200	1142-1149	občutka	_	_	_	_	
+1-201	1150-1152	za	_	_	_	_	
+1-202	1153-1161	skupnost	_	_	_	_	
+1-203	1162-1165	vse	_	_	_	_	
+1-204	1166-1174	redkejši	_	_	_	_	
+1-205	1175-1176	,	_	_	_	_	
+1-206	1177-1179	je	_	_	_	_	
+1-207	1180-1188	vrednost	_	_	_	_	
+1-208	1189-1197	podjetij	_	_	_	_	
+1-209	1198-1199	,	_	_	_	_	
+1-210	1200-1202	ki	_	_	_	_	
+1-211	1203-1205	si	_	_	_	_	
+1-212	1206-1217	prizadevajo	_	_	_	_	
+1-213	1218-1220	za	_	_	_	_	
+1-214	1221-1233	zadovoljstvo	_	_	_	_	
+1-215	1234-1240	svojih	_	_	_	_	
+1-216	1241-1251	zaposlenih	_	_	_	_	
+1-217	1252-1253	,	_	_	_	_	
+1-218	1254-1260	toliko	_	_	_	_	
+1-219	1261-1266	večja	_	_	_	_	
+1-220	1267-1268	.	_	_	_	_	
+1-221	1269-1270	«	_	_	_	_	
+1-222	1271-1281	Ministrica	_	_	*->22-2	*[22]	
+1-223	1282-1284	je	_	_	_	_	
+1-224	1285-1287	ob	_	_	_	_	
+1-225	1288-1291	tej	_	_	_	_	
+1-226	1292-1303	priložnosti	_	_	_	_	
+1-227	1304-1308	tudi	_	_	_	_	
+1-228	1309-1315	dodala	_	4 - Pozitivno	*->22-3	*[22]	
+1-229	1316-1317	,	_	_	_	_	
+1-230	1318-1320	da	_	_	_	_	
+1-231	1321-1333	zaključujejo	_	_	_	_	
+1-232	1334-1335	s	_	_	_	_	
+1-233	1336-1344	pripravo	_	_	_	_	
+1-234	1345-1353	sprememb	_	_	_	_	
+1-235	1354-1360	Zakona	_	_	_	_	
+1-236	1361-1362	o	_	_	_	_	
+1-237	1363-1374	starševskem	_	_	_	_	
+1-238	1375-1382	varstvu	_	_	_	_	
+1-239	1383-1385	in	_	_	_	_	
+1-240	1386-1396	družinskih	_	_	_	_	
+1-241	1397-1406	prejemkih	_	_	_	_	
+1-242	1407-1409	in	_	_	_	_	
+1-243	1410-1412	da	_	_	_	_	
+1-244	1413-1416	pri	_	_	_	_	
+1-245	1417-1427	spremembah	_	_	_	_	
+1-246	1428-1436	izhajajo	_	_	_	_	
+1-247	1437-1439	iz	_	_	_	_	
+1-248	1440-1449	sedanjega	_	_	_	_	
+1-249	1450-1458	položaja	_	_	_	_	
+1-250	1459-1464	žensk	_	_	_	_	
+1-251	1465-1467	in	_	_	_	_	
+1-252	1468-1474	moških	_	_	_	_	
+1-253	1475-1477	na	_	_	_	_	
+1-254	1478-1482	trgu	_	_	_	_	
+1-255	1483-1487	dela	_	_	_	_	
+1-256	1488-1491	ter	_	_	_	_	
+1-257	1492-1498	dajejo	_	_	_	_	
+1-258	1499-1504	velik	_	_	_	_	
+1-259	1505-1513	poudarek	_	_	_	_	
+1-260	1514-1526	usklajevanju	_	_	_	_	
+1-261	1527-1537	poklicnega	_	_	_	_	
+1-262	1538-1540	in	_	_	_	_	
+1-263	1541-1552	družinskega	_	_	_	_	
+1-264	1553-1562	življenja	_	_	_	_	
+1-265	1563-1564	.	_	_	_	_	
+1-266	1565-1570	Petra	PER[23]	_	*->23-1	*[23]	
+1-267	1571-1578	Hartman	PER[23]	_	*->23-1	*[23]	
+1-268	1579-1580	,	_	_	_	_	
+1-269	1581-1590	strokovna	_	3 - Nevtralno[45]	*->23-2	*[23]	
+1-270	1591-1600	sodelavka	_	3 - Nevtralno[45]	*->23-2	*[23]	
+1-271	1601-1603	na	_	3 - Nevtralno[45]	*->23-2	*[23]	
+1-272	1604-1612	projektu	_	3 - Nevtralno[45]	*->23-2	*[23]	
+1-273	1613-1624	certifikata	_	3 - Nevtralno[45]	*->23-2	*[23]	
+1-274	1625-1632	Družini	_	3 - Nevtralno[45]	*->23-2	*[23]	
+1-275	1633-1641	prijazno	_	3 - Nevtralno[45]	*->23-2	*[23]	
+1-276	1642-1650	podjetje	_	3 - Nevtralno[45]	*->23-2	*[23]	
+1-277	1651-1652	,	_	_	_	_	
+1-278	1653-1655	je	_	_	_	_	
+1-279	1656-1658	ob	_	_	_	_	
+1-280	1659-1669	slavnostni	_	_	_	_	
+1-281	1670-1679	podelitvi	_	_	_	_	
+1-282	1680-1689	pojasnila	_	_	_	_	
+1-283	1690-1691	:	_	_	_	_	
+1-284	1692-1693	»	_	_	_	_	
+1-285	1694-1699	Kljub	_	_	_	_	
+1-286	1700-1709	trenutnim	_	_	_	_	
+1-287	1710-1722	gospodarskim	_	_	_	_	
+1-288	1723-1731	razmeram	_	_	_	_	
+1-289	1732-1734	se	_	_	_	_	
+1-290	1735-1736	v	_	_	_	_	
+1-291	1737-1745	postopek	_	_	_	_	
+1-292	1746-1758	pridobivanja	_	_	_	_	
+1-293	1759-1770	certifikata	_	_	_	_	
+1-294	1771-1776	vsako	_	_	_	_	
+1-295	1777-1781	leto	_	_	_	_	
+1-296	1782-1793	vključujejo	_	_	_	_	
+1-297	1794-1799	vedno	_	_	_	_	
+1-298	1800-1804	nova	_	_	_	_	
+1-299	1805-1813	podjetja	_	_	_	_	
+1-300	1814-1816	in	_	_	_	_	
+1-301	1817-1829	organizacije	_	_	_	_	
+1-302	1830-1831	,	_	_	_	_	
+1-303	1832-1834	ki	_	_	_	_	
+1-304	1835-1845	dokazujejo	_	_	_	_	
+1-305	1846-1847	,	_	_	_	_	
+1-306	1848-1850	da	_	_	_	_	
+1-307	1851-1861	poslovanje	_	_	_	_	
+1-308	1862-1872	načrtujejo	_	_	_	_	
+1-309	1873-1883	dolgoročno	_	_	_	_	
+1-310	1884-1886	in	_	_	_	_	
+1-311	1887-1896	strateško	_	_	_	_	
+1-312	1897-1898	,	_	_	_	_	
+1-313	1899-1902	pri	_	_	_	_	
+1-314	1903-1908	čemer	_	_	_	_	
+1-315	1909-1911	je	_	_	_	_	
+1-316	1912-1919	načrtno	_	_	_	_	
+1-317	1920-1928	vlaganje	_	_	_	_	
+1-318	1929-1930	v	_	_	_	_	
+1-319	1931-1940	zaposlene	_	_	_	_	
+1-320	1941-1950	ključnega	_	_	_	_	
+1-321	1951-1957	pomena	_	_	_	_	
+1-322	1958-1959	.	_	_	_	_	
+1-323	1960-1968	Vlaganje	_	_	_	_	
+1-324	1969-1970	v	_	_	_	_	
+1-325	1971-1980	zaposlene	_	_	_	_	
+1-326	1981-1983	se	_	_	_	_	
+1-327	1984-1987	jim	_	_	_	_	
+1-328	1988-1994	namreč	_	_	_	_	
+1-329	1995-2001	povrne	_	_	_	_	
+1-330	2002-2003	v	_	_	_	_	
+1-331	2004-2010	obliki	_	_	_	_	
+1-332	2011-2022	zadovoljnih	_	_	_	_	
+1-333	2023-2024	,	_	_	_	_	
+1-334	2025-2036	zanesljivih	_	_	_	_	
+1-335	2037-2047	zaposlenih	_	_	_	_	
+1-336	2048-2049	,	_	_	_	_	
+1-337	2050-2052	ki	_	_	_	_	
+1-338	2053-2057	radi	_	_	_	_	
+1-339	2058-2068	opravljajo	_	_	_	_	
+1-340	2069-2074	svoje	_	_	_	_	
+1-341	2075-2079	delo	_	_	_	_	
+1-342	2080-2082	in	_	_	_	_	
+1-343	2083-2085	so	_	_	_	_	
+1-344	2086-2093	ponosni	_	_	_	_	
+1-345	2094-2096	na	_	_	_	_	
+1-346	2097-2105	podjetje	_	_	_	_	
+1-347	2106-2107	,	_	_	_	_	
+1-348	2108-2109	v	_	_	_	_	
+1-349	2110-2117	katerem	_	_	_	_	
+1-350	2118-2124	delajo	_	_	_	_	
+1-351	2125-2126	.	_	_	_	_	
+1-352	2127-2129	Ta	_	_	_	_	
+1-353	2130-2138	podjetja	_	_	_	_	
+1-354	2139-2141	so	_	_	_	_	
+1-355	2142-2148	svetli	_	_	_	_	
+1-356	2149-2155	zgledi	_	_	_	_	
+1-357	2156-2157	,	_	_	_	_	
+1-358	2158-2165	kakršne	_	_	_	_	
+1-359	2166-2175	slovensko	_	_	_	_	
+1-360	2176-2188	gospodarstvo	_	_	_	_	
+1-361	2189-2198	potrebuje	_	_	_	_	
+1-362	2199-2200	,	_	_	_	_	
+1-363	2201-2203	če	_	_	_	_	
+1-364	2204-2208	želi	_	_	_	_	
+1-365	2209-2214	krizo	_	_	_	_	
+1-366	2215-2224	premagati	_	_	_	_	
+1-367	2225-2226	.	_	_	_	_	
