@@ -1,19 +1,26 @@
 import sys
 import stanza
+import os
+from pprint import pprint
+import logging
+
+log = logging.getLogger('senti_an')
+log.setLevel(logging.INFO)
 
 
-class Article:
+class ArticleLoader:
+    def __init__(self, senticoref_path):
+        self.senticoref_path = senticoref_path
 
-    def __init__(self, headers, text, words):
-        self.text = text
-        self.words = words
+    def list_articles(self):
+        return [a for a in natural_sort(os.listdir(self.senticoref_path))
+                if a.endswith(".tsv")]
 
-    @staticmethod
-    def from_file(file_path):
+    def load_article(self, file_name):
         """
         Read a TSV file of a SentiCoref 1.0 article into an Article object.
         """
-        with open(file_path) as hnd:
+        with open(os.path.join(self.senticoref_path, file_name)) as hnd:
             lines = [l.rstrip("\r\n") for l in hnd.readlines()]
             lines = [l for l in lines if len(l) > 0]
 
@@ -25,12 +32,31 @@ class Article:
         return Article(headers, headers["Text"], words)
 
 
+class Article:
+
+    def __init__(self, headers, text, words):
+        self.text = text
+        self.words = words
+
+
 def word_pos(word):
     properties = word.misc.split("|")
     values = {k: v for k, v in [p.split("=", 1) for p in properties]}
     return int(values["start_char"]), int(values["end_char"])
 
 
+def natural_sort(xs):
+    import re
+    decomposed = [tuple(int(d) if d else s for d, s in re.findall(r"(\d+)|(\D+)", x))
+                  for x in xs]
+    return ["".join(str(s) for s in d)
+            for d in sorted(decomposed)]
+
+
+"""
+POS tagging and lemmatisation of the dataset.
+TODO: Store augmented data
+"""
 if __name__ == "__main__":
 
     stanza.download('sl')
@@ -39,12 +65,35 @@ if __name__ == "__main__":
         lang="sl",
         processors="tokenize,pos,lemma",
         lemma_model_path="models/ssj500k_lemmatizer.pt",
+        tokenize_pretokenized=True,
     )
 
     pipe = stanza.Pipeline(**stanza_config)
-    art = Article.from_file(sys.argv[1])
 
-    doc = pipe(art.text)
+    article_loader = ArticleLoader("data/SentiCoref_1.0")
 
-    for sentence in doc.sentences:
-        print([(w.lemma, w.upos, *word_pos(w)) for w in sentence.words])
+    for art_name in ["42.tsv"]:
+        # for art_name in article_loader.list_articles():
+        log.info(f"Processing {art_name}")
+
+        art = article_loader.load_article(art_name)
+
+        doc = pipe(art.text)
+
+        # Construct position -> stanza.Word dictionary
+        pos_dict = {}
+        for sentence in doc.sentences:
+            for tok in sentence.tokens:
+                start, end = tok.start_char, tok.end_char
+                pos_dict[f"{start}-{end}"] = tok
+
+        for word in art.words:
+            loc = word[1]
+            if loc not in pos_dict:
+                log.error(f"{art_name} missing key {loc}")
+                continue
+
+            stanza_token = pos_dict[loc]
+
+            info = [(w.lemma, w.upos) for w in stanza_token.words]
+            print(word[2], word[3], info)
