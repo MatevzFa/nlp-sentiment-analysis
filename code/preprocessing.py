@@ -10,6 +10,9 @@ class Article:
 
     @staticmethod
     def from_file(file_path):
+        """
+        Read a TSV file of a SentiCoref 1.0 article into an Article object.
+        """
         with open(file_path) as hnd:
             lines = [l.rstrip("\r\n") for l in hnd.readlines()]
             lines = [l for l in lines if len(l) > 0]
