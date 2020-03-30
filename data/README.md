@@ -4,4 +4,5 @@ This directory contains the corpora used for this project.
 
 ## Corpora
 
-- [SentiCoref 1.0](https://www.clarin.si/repository/xmlui/handle/11356/1285)
+- [SentiCoref 1.0](http://hdl.handle.net/11356/1285)
+- [JOB 1.0](http://hdl.handle.net/11356/1112)
