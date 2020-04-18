@@ -1,9 +1,12 @@
 import logging
 import os
+import pickle
 import re
 from typing import Dict, List
 
 import stanza
+
+from code.sentiment_lexicon import JOBLexicon
 
 log = logging.getLogger('senti_an')
 log.setLevel(logging.INFO)
@@ -64,6 +67,7 @@ class Word:
 
         self.lemma = None
         self.pos_tag = None
+        self.sentiment = None
 
     def __str__(self):
         return " ".join([f"{name}[{type(value).__name__}]={value}" for name, value in self.__dict__.items()])
@@ -139,6 +143,25 @@ def natural_sort(xs):
             for d in sorted(decomposed)]
 
 
+def cache_path(name):
+    return os.path.join("data/cache", name)
+
+
+def pipe_doc_cached(name, pipe, text):
+    cpath = cache_path(name + ".stanzadoc.pickle")
+
+    if os.path.exists(cpath):
+        with open(cpath, 'rb') as f:
+            doc = pickle.load(f)
+        return doc
+
+    doc = pipe(text)
+    with open(cpath, 'wb') as f:
+        pickle.dump(doc, f)
+
+    return doc
+
+
 """
 POS tagging and lemmatisation of the dataset.
 TODO: Store augmented data
@@ -157,6 +180,7 @@ if __name__ == "__main__":
     pipe = stanza.Pipeline(**stanza_config)
 
     article_loader = ArticleLoader("data/SentiCoref_1.0")
+    senti_lexicon = JOBLexicon.load("data/JOB_1.0/job.tsv")
 
     articles = ["42.tsv"] if IS_DEBUG else article_loader.list_articles()
 
@@ -165,7 +189,7 @@ if __name__ == "__main__":
 
         art = article_loader.load_article(art_name)
 
-        doc = pipe(art.text)
+        doc = pipe_doc_cached(art_name, pipe, art.text)
 
         # Construct position -> stanza.Word dictionary
         pos_dict = {}
@@ -188,6 +212,9 @@ if __name__ == "__main__":
 
             word.lemma = stanza_token.words[0].lemma
             word.pos_tag = stanza_token.words[0].upos
-            # TODO: somehow add syntactic dependencies
 
-            log.debug(word)
+            if word.entity_ids is None and word.pos_tag in ["NOUN", "VERB", "PROPN", "ADJ"]:
+                word.sentiment = senti_lexicon.get_sentiment(word.lemma)
+                log.debug(f"{word.word} {word.lemma} {word.sentiment}")
+
+            # TODO: somehow add syntactic dependencies
