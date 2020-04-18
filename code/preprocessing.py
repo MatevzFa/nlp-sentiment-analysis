@@ -1,14 +1,63 @@
-import sys
-import stanza
-import os
-from pprint import pprint
 import logging
+import os
+import re
+from typing import List
+
+import stanza
 
 log = logging.getLogger('senti_an')
 log.setLevel(logging.INFO)
 
 
+class Word:
+    """
+    This class represents data rows of articles in SentiCoref 1.0
+    """
+
+    RE_ENTITY_TAG = re.compile(r"([A-Z]+)(?:\[(\d+)])?")
+    RE_SENTIMENT = re.compile(r"(\d+).*?")
+    RE_CHAIN_INDEX = re.compile(r"\*->(\d+)-(\d+)")
+    RE_ENTITY_ID = re.compile(r"\*\[(\d+)\]")
+
+    def __init__(self, data_row):
+        word_id, char_pos, word, entity_tag, sentiment, chain_indices, entity_ids = data_row
+
+        self.document_id, self.word_index = [int(p) for p in word_id.split("-")]
+        self.char_start, self.char_end = [int(p) for p in char_pos.split("-")]
+        self.word = word
+
+        # Strip entity_id that is sometimes present (e.g. 'ORG[2]')
+        if entity_tag != "_":
+            et_match = Word.RE_ENTITY_TAG.match(entity_tag).groups()
+            self.entity_tag = et_match[0]
+            self.entity_tag_UNKNOWN = int(et_match[1]) if et_match[1] is not None else None
+        else:
+            self.entity_tag = None
+            self.entity_tag_UNKNOWN = None
+
+        # Strip sentiment name
+        self.sentiment = int(Word.RE_SENTIMENT.match(sentiment).group(1)) if sentiment != "_" else None
+
+        # '*->15-1|*->19-1' to dict {15: 1, 19:1}
+        if chain_indices != "_":
+            self.chain_indices = {entity_ids: chain_indices
+                                  for (entity_ids, chain_indices)
+                                  in Word.RE_CHAIN_INDEX.findall(chain_indices)}
+        else:
+            self.chain_indices = None
+
+        # '*[15]|*[19]' to set {15, 19}
+        self.entities = {int(s) for s in Word.RE_ENTITY_ID.findall(entity_ids)} if entity_ids != "_" else None
+
+    def __str__(self):
+        return " ".join([f"{name}={value}" for name, value in self.__dict__.items()])
+
+    def __repr__(self):
+        return str(self)
+
+
 class ArticleLoader:
+
     def __init__(self, senticoref_path):
         self.senticoref_path = senticoref_path
 
@@ -27,14 +76,14 @@ class ArticleLoader:
         header_lines = [l.split("=", 1) for l in lines if l.startswith("#")]
         headers = {name[1:]: value for name, value in header_lines}
 
-        words = [l.split("\t") for l in lines if not l.startswith("#")]
+        words = [Word(l.strip().split("\t")) for l in lines if not l.startswith("#")]
 
         return Article(headers, headers["Text"], words)
 
 
 class Article:
 
-    def __init__(self, headers, text, words):
+    def __init__(self, headers, text, words: List[Word]):
         self.text = text
         self.words = words
 
@@ -78,22 +127,25 @@ if __name__ == "__main__":
 
         art = article_loader.load_article(art_name)
 
-        doc = pipe(art.text)
-
-        # Construct position -> stanza.Word dictionary
-        pos_dict = {}
-        for sentence in doc.sentences:
-            for tok in sentence.tokens:
-                start, end = tok.start_char, tok.end_char
-                pos_dict[f"{start}-{end}"] = tok
-
         for word in art.words:
-            loc = word[1]
-            if loc not in pos_dict:
-                log.error(f"{art_name} missing key {loc}")
-                continue
+            print(word)
 
-            stanza_token = pos_dict[loc]
-
-            info = [(w.lemma, w.upos) for w in stanza_token.words]
-            print(word[2], word[3], info)
+        # doc = pipe(art.text)
+        #
+        # # Construct position -> stanza.Word dictionary
+        # pos_dict = {}
+        # for sentence in doc.sentences:
+        #     for tok in sentence.tokens:
+        #         start, end = tok.start_char, tok.end_char
+        #         pos_dict[f"{start}-{end}"] = tok
+        #
+        # for word in art.words:
+        #     loc = word[1]
+        #     if loc not in pos_dict:
+        #         log.error(f"{art_name} missing key {loc}")
+        #         continue
+        #
+        #     stanza_token = pos_dict[loc]
+        #
+        #     info = [(w.lemma, w.upos) for w in stanza_token.words]
+        #     print(word[2], word[3], info)
