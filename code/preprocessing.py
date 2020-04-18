@@ -1,12 +1,19 @@
 import logging
 import os
 import re
-from typing import List
+from typing import Dict, List
 
 import stanza
 
 log = logging.getLogger('senti_an')
 log.setLevel(logging.INFO)
+
+"""
+Passing environment variable DEBUG (with any non-empty value) enables debug mode
+"""
+IS_DEBUG = bool(os.getenv("DEBUG"))
+if IS_DEBUG:
+    log.setLevel(logging.DEBUG)
 
 
 class Word:
@@ -19,10 +26,16 @@ class Word:
     RE_CHAIN_INDEX = re.compile(r"\*->(\d+)-(\d+)")
     RE_ENTITY_ID = re.compile(r"\*\[(\d+)\]")
 
-    def __init__(self, data_row):
+    def __init__(self, data_row: List[str]):
+        """
+        Constructs Word object from a TSV row of SentiCoref 1.0 dataset.
+
+        IMPORTANT: All indices are 0-based, ass oposed to 1-based indexing in the dataset.
+        """
         word_id, char_pos, word, entity_tag, sentiment, chain_indices, entity_ids = data_row
 
-        self.document_id, self.word_index = [int(p) for p in word_id.split("-")]
+        wid_split = word_id.split("-")
+        self.document, self.word_index = wid_split[0], int(wid_split[1]) - 1
         self.char_start, self.char_end = [int(p) for p in char_pos.split("-")]
         self.word = word
 
@@ -38,19 +51,19 @@ class Word:
         # Strip sentiment name
         self.sentiment = int(Word.RE_SENTIMENT.match(sentiment).group(1)) if sentiment != "_" else None
 
-        # '*->15-1|*->19-1' to dict {15: 1, 19:1}
+        # '*->15-1|*->19-1' to dict {15: 0, 19: 0}
         if chain_indices != "_":
-            self.chain_indices = {entity_ids: chain_indices
-                                  for (entity_ids, chain_indices)
+            self.chain_indices = {int(entity_id): int(chain_index) - 1
+                                  for (entity_id, chain_index)
                                   in Word.RE_CHAIN_INDEX.findall(chain_indices)}
         else:
             self.chain_indices = None
 
         # '*[15]|*[19]' to set {15, 19}
-        self.entities = {int(s) for s in Word.RE_ENTITY_ID.findall(entity_ids)} if entity_ids != "_" else None
+        self.entity_ids = {int(s) for s in Word.RE_ENTITY_ID.findall(entity_ids)} if entity_ids != "_" else None
 
     def __str__(self):
-        return " ".join([f"{name}={value}" for name, value in self.__dict__.items()])
+        return " ".join([f"{name}[{type(value).__name__}]={value}" for name, value in self.__dict__.items()])
 
     def __repr__(self):
         return str(self)
@@ -86,6 +99,27 @@ class Article:
     def __init__(self, headers, text, words: List[Word]):
         self.text = text
         self.words = words
+        self._word_dict = {word.word_index: word for word in words}
+
+        self.coreference_chains = self._generate_coreference_chains()
+
+    @property
+    def num_words(self):
+        return len(self.words)
+
+    def word_at(self, index: int) -> Word:
+        """
+        Returns the word in this article at the specified index.
+        """
+        return self._word_dict[index]
+
+    def _generate_coreference_chains(self) -> Dict[int, List[Word]]:
+        """
+        TODO @Ela
+        Returns dict of form {entity_id: wordlist} mapping entities to the coreference chain.
+        Coreference chain is a list of Word objects found in self.words
+        """
+        pass
 
 
 def word_pos(word):
@@ -121,14 +155,15 @@ if __name__ == "__main__":
 
     article_loader = ArticleLoader("data/SentiCoref_1.0")
 
-    for art_name in ["42.tsv"]:
-        # for art_name in article_loader.list_articles():
+    articles = ["42.tsv"] if IS_DEBUG else article_loader.list_articles()
+
+    for art_name in articles:
         log.info(f"Processing {art_name}")
 
         art = article_loader.load_article(art_name)
 
         for word in art.words:
-            print(word)
+            log.debug(word)
 
         # doc = pipe(art.text)
         #
