@@ -63,7 +63,7 @@ class JOBLexicon(SentimentLexicon):
     @staticmethod
     def load(dat_path):
         word_dict = {}
-        with open(dat_path) as f:
+        with open(dat_path, encoding="UTF-8") as f:
             lines = [l.strip().split("\t") for l in f.readlines()[1:]]
 
         for line in lines:

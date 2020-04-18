@@ -89,7 +89,7 @@ class ArticleLoader:
         """
         Read a TSV file of a SentiCoref 1.0 article into an Article object.
         """
-        with open(os.path.join(self.senticoref_path, file_name)) as hnd:
+        with open(os.path.join(self.senticoref_path, file_name), encoding="UTF-8") as hnd:
             lines = [l.rstrip("\r\n") for l in hnd.readlines()]
             lines = [l for l in lines if len(l) > 0]
 
