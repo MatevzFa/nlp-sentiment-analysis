@@ -62,6 +62,9 @@ class Word:
         # '*[15]|*[19]' to set {15, 19}
         self.entity_ids = {int(s) for s in Word.RE_ENTITY_ID.findall(entity_ids)} if entity_ids != "_" else None
 
+        self.lemma = None
+        self.pos_tag = None
+
     def __str__(self):
         return " ".join([f"{name}[{type(value).__name__}]={value}" for name, value in self.__dict__.items()])
 
@@ -162,25 +165,29 @@ if __name__ == "__main__":
 
         art = article_loader.load_article(art_name)
 
-        for word in art.words:
-            log.debug(word)
+        doc = pipe(art.text)
 
-        # doc = pipe(art.text)
-        #
-        # # Construct position -> stanza.Word dictionary
-        # pos_dict = {}
-        # for sentence in doc.sentences:
-        #     for tok in sentence.tokens:
-        #         start, end = tok.start_char, tok.end_char
-        #         pos_dict[f"{start}-{end}"] = tok
-        #
-        # for word in art.words:
-        #     loc = word[1]
-        #     if loc not in pos_dict:
-        #         log.error(f"{art_name} missing key {loc}")
-        #         continue
-        #
-        #     stanza_token = pos_dict[loc]
-        #
-        #     info = [(w.lemma, w.upos) for w in stanza_token.words]
-        #     print(word[2], word[3], info)
+        # Construct position -> stanza.Word dictionary
+        pos_dict = {}
+        for sentence in doc.sentences:
+            for tok in sentence.tokens:
+                start, end = tok.start_char, tok.end_char
+                pos_dict[(start, end)] = tok
+
+        # Add lemma and POS tag to each word
+        for word in art.words:
+            loc = (word.char_start, word.char_end)
+            if loc not in pos_dict:
+                log.error(f"{art_name} missing key {loc}")
+                continue
+
+            stanza_token = pos_dict[loc]
+
+            if len(stanza_token.words) > 1:
+                log.warning(f"stanza.token.words for word {word.document}-{word.word_index} has len > 1")
+
+            word.lemma = stanza_token.words[0].lemma
+            word.pos_tag = stanza_token.words[0].upos
+            # TODO: somehow add syntactic dependencies
+
+            log.debug(word)
