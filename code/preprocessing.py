@@ -3,6 +3,7 @@ import os
 import pickle
 import re
 from typing import Dict, List
+from collections import defaultdict
 
 import stanza
 
@@ -120,13 +121,17 @@ class Article:
         """
         return self._word_dict[index]
 
-    def _generate_coreference_chains(self) -> Dict[int, List[Word]]:
+    def _generate_coreference_chains(self) -> Dict[int, List[Word]]:        
         """
-        TODO @Ela
         Returns dict of form {entity_id: wordlist} mapping entities to the coreference chain.
         Coreference chain is a list of Word objects found in self.words
         """
-        pass
+        coreference_dict = defaultdict(list)
+        for word in self.words:
+            if word.entity_ids:
+                for el in word.entity_ids:
+                    coreference_dict[el].append(word)
+        return coreference_dict
 
 
 def word_pos(word):
