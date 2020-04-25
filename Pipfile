@@ -8,6 +8,7 @@ autopep8 = "*"
 
 [packages]
 stanza = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
