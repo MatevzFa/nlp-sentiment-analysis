@@ -8,8 +8,8 @@ from typing import Dict, List, Optional
 import pandas as pd
 import stanza
 
-from code import features
-from code.sentiment_lexicon import JOBLexicon
+from nlp_code import features
+from nlp_code.sentiment_lexicon import JOBLexicon
 
 log = logging.getLogger('senti_an')
 log.setLevel(logging.INFO)

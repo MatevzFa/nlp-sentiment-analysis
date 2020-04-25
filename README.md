@@ -12,5 +12,5 @@ The code for this program is located in directory *code*, which is also a python
 To run currently implemented stages of the software use
 
 ```
-python -m code.preprocessing 
+python -m nlp_code.preprocessing 
 ```

@@ -3,7 +3,7 @@ from typing import List
 
 import pandas as pd
 
-from code.preprocessing import Article, Word
+from nlp_code.preprocessing import Article, Word
 
 
 def feature(feature_name=None):
