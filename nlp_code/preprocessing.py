@@ -44,7 +44,7 @@ class Word:
         wid_split = word_id.split("-")
         self.article_id, self.original_word_index = wid_split[0], int(wid_split[1]) - 1
         self.char_start, self.char_end = [int(p) for p in char_pos.split("-")]
-        self.word = word
+        self.word_raw = word
 
         # Parse entity type (e.g. 'ORG[2]' or ORG[2]|LOC[3])
         # The [2] here indicates that this is the 2nd occurence of a named entity among all the named entitites.
@@ -141,7 +141,7 @@ class Article:
         sentence_id = 0
         for word in self.words:
             word.sentence_index = sentence_id
-            if word.pos_tag == 'PUNCT' and word.word == '.':
+            if word.pos_tag == 'PUNCT' and word.word_raw == '.':
                 sentence_id += 1
 
     def filter_words(self, predicate):
