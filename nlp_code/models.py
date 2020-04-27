@@ -47,6 +47,10 @@ class Dummy(BaseModel):
     def evaluate(self):
         print(f"=== {self.__class__.__name__} ===")
 
+        self.data = self.data.groupby(["article_id", "chain_id"]).agg({
+            'sentiment': 'first',
+        }).reset_index()
+
         X_train, Y_train, X_test, Y_test = self.split(train_size=0.9)
 
         dummy = DummyClassifier(strategy="most_frequent")
@@ -72,6 +76,15 @@ class PrimitiveLinearRegression(BaseModel):
 
     def evaluate(self):
         print(f"=== {self.__class__.__name__} ===")
+
+        self.data = self.data.groupby(["article_id", "chain_id"]).agg({
+            'entity_type': 'first',
+            'sentence_neg_count': 'sum',
+            'sentence_pos_count': 'sum',
+            'sentiment': 'first',
+        }).reset_index()
+
+        self.data["sentence_pos_neg"] = (self.data["sentence_pos_count"] + 1) / (self.data["sentence_neg_count"] + 1)
 
         self.data["entity_type_is_ORG"] = self.data.entity_type.apply(lambda x: 1 if x == "ORG" else 0)
         self.data["entity_type_is_PER"] = self.data.entity_type.apply(lambda x: 1 if x == "PER" else 0)
@@ -114,6 +127,15 @@ class PrimitiveRandomForest(BaseModel):
 
     def evaluate(self):
         print(f"=== {self.__class__.__name__} ===")
+
+        self.data = self.data.groupby(["article_id", "chain_id"]).agg({
+            'entity_type': 'first',
+            'sentence_neg_count': 'sum',
+            'sentence_pos_count': 'sum',
+            'sentiment': 'first',
+        }).reset_index()
+
+        self.data["sentence_pos_neg"] = (self.data["sentence_pos_count"] + 1) / (self.data["sentence_neg_count"] + 1)
 
         self.data["entity_type_is_ORG"] = self.data.entity_type.apply(lambda x: 1 if x == "ORG" else 0)
         self.data["entity_type_is_PER"] = self.data.entity_type.apply(lambda x: 1 if x == "PER" else 0)
