@@ -9,6 +9,7 @@ autopep8 = "*"
 [packages]
 stanza = "*"
 pandas = "*"
+scikit-learn = "*"
 
 [requires]
 python_version = "3.7"
