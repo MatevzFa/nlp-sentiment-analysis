@@ -127,6 +127,8 @@ class Article:
             if sentiment is None:
                 log.warning(f"In article {self.article_id}, coreference chain {chain_id} has no sentiment")
 
+        self.sentence_map = dict()
+
     @property
     def num_words(self):
         return len(self.words)
@@ -136,6 +138,12 @@ class Article:
         Returns the word in this article at the specified index.
         """
         return self.words[index]
+
+    def iter_sentence(self, sentence_index):
+        idx = self.sentence_map[sentence_index]
+        while idx < self.num_words and self.word_at(idx).sentence_index == sentence_index:
+            yield self.word_at(idx)
+            idx += 1
 
     def add_sentence_ids(self):
         sentence_id = 0
@@ -148,9 +156,7 @@ class Article:
         self.words = [w for w in self.words if predicate(w)]
         for i, w in enumerate(self.words):
             w.word_index = i
-        self.coreference_chains = self._generate_coreference_chains()
-        self.chain_sentiments = self._generate_chain_sentiments()
-
+        self.refresh()
 
     def _generate_coreference_chains(self) -> Dict[int, List[Word]]:
         """
@@ -171,6 +177,20 @@ class Article:
         """
         return {entity_id: words[-1].chain_sentiment
                 for entity_id, words in self.coreference_chains.items()}
+
+    def _generate_sentence_map(self):
+        sentence_map = dict()
+        for w in self.words:
+            if w.sentence_index not in sentence_map:
+                sentence_map[w.sentence_index] = w.word_index
+        return sentence_map
+
+    def refresh(self):
+        self.add_sentence_ids()
+
+        self.sentence_map = self._generate_sentence_map()
+        self.coreference_chains = self._generate_coreference_chains()
+        self.chain_sentiments = self._generate_chain_sentiments()
 
 
 def word_pos(word):
@@ -206,48 +226,29 @@ def pipe_doc_cached(name, pipe, text):
     return doc
 
 
-"""
-POS tagging and lemmatisation of the dataset.
-TODO: Store augmented data
-"""
-if __name__ == "__main__":
+class ArticlePreprocessor:
 
-    # stanza.download('sl')
-    #
-    # stanza_config = dict(
-    #     lang="sl",
-    #     processors="tokenize,pos,lemma",
-    #     lemma_model_path="models/ssj500k_lemmatizer.pt",
-    #     tokenize_pretokenized=True,
-    # )
-    #
-    # pipe = stanza.Pipeline(**stanza_config)
+    def __init__(self):
+        self.pipe = ArticlePreprocessor.stanza_pipe()
+        self.senti_lexicon = JOBLexicon.load("data/JOB_1.0/job.tsv")
 
-    pipe = None
+    @staticmethod
+    def stanza_pipe():
+        stanza.download('sl')
 
-    article_loader = ArticleLoader("data/SentiCoref_1.0")
-    senti_lexicon = JOBLexicon.load("data/JOB_1.0/job.tsv")
+        stanza_config = dict(
+            lang="sl",
+            processors="tokenize,pos,lemma",
+            lemma_model_path="models/ssj500k_lemmatizer.pt",
+            tokenize_pretokenized=True,
+        )
 
-    articles = ["42.tsv"] if IS_DEBUG else article_loader.list_articles()
+        return stanza.Pipeline(**stanza_config)
 
-    feature_pipeline = features.FeaturePipeline(
-        features.word_n_lemma(-3), features.word_n_pos(-3), features.word_n_word_sentiment(-3),  # 3 left
-        features.word_n_lemma(-2), features.word_n_pos(-2), features.word_n_word_sentiment(-2),  # 2 left
-        features.word_n_lemma(-1), features.word_n_pos(-1), features.word_n_word_sentiment(-1),  # 1 left
-
-        features.word_n_lemma(1), features.word_n_pos(1), features.word_n_word_sentiment(1),  # 1 right
-        features.word_n_lemma(2), features.word_n_pos(2), features.word_n_word_sentiment(2),  # 2 right
-        features.word_n_lemma(3), features.word_n_pos(3), features.word_n_word_sentiment(3),  # 3 right
-
-        features.entity_type
-    )
-
-    for art_name in articles:
+    def __call__(self, art_name: str, article: Article):
         log.info(f"Processing {art_name}")
 
-        art = article_loader.load_article(art_name)
-
-        doc = pipe_doc_cached(art_name, pipe, art.text)
+        doc = pipe_doc_cached(art_name, self.pipe, article.text)
 
         # Construct position -> stanza.Word dictionary
         pos_dict = {}
@@ -257,7 +258,7 @@ if __name__ == "__main__":
                 pos_dict[(start, end)] = tok
 
         # Add lemma and POS tag to each word
-        for word in art.words:
+        for word in article.words:
             loc = (word.char_start, word.char_end)
             if loc not in pos_dict:
                 log.error(f"{art_name} missing key {loc}")
@@ -272,12 +273,46 @@ if __name__ == "__main__":
             word.pos_tag = stanza_token.words[0].upos
 
             if len(word.chain_ids) == 0 and word.pos_tag in ["NOUN", "VERB", "PROPN", "ADJ"]:
-                word.word_sentiment = senti_lexicon.get_sentiment(word.lemma)
+                word.word_sentiment = self.senti_lexicon.get_sentiment(word.lemma)
 
             # TODO: somehow add syntactic dependencies
 
-        art.add_sentence_ids()
-        art.filter_words(lambda w: w.pos_tag in ["NOUN", "VERB", "PROPN", "ADJ"])
+        article.refresh()
+        # article.filter_words(lambda w: w.pos_tag in ["NOUN", "VERB", "PROPN", "ADJ"])
+
+        return article
+
+
+"""
+POS tagging and lemmatisation of the dataset.
+TODO: Store augmented data
+"""
+if __name__ == "__main__":
+
+    article_preprocessor = ArticlePreprocessor()
+
+    article_loader = ArticleLoader("data/SentiCoref_1.0")
+
+    articles = ["42.tsv"] if IS_DEBUG else article_loader.list_articles()
+
+    feature_pipeline = features.FeaturePipeline(
+        # features.word_n_lemma(-3), features.word_n_pos(-3), features.word_n_word_sentiment(-3),  # 3 left
+        # features.word_n_lemma(-2), features.word_n_pos(-2), features.word_n_word_sentiment(-2),  # 2 left
+        # features.word_n_lemma(-1), features.word_n_pos(-1), features.word_n_word_sentiment(-1),  # 1 left
+        #
+        # features.word_n_lemma(1), features.word_n_pos(1), features.word_n_word_sentiment(1),  # 1 right
+        # features.word_n_lemma(2), features.word_n_pos(2), features.word_n_word_sentiment(2),  # 2 right
+        # features.word_n_lemma(3), features.word_n_pos(3), features.word_n_word_sentiment(3),  # 3 right
+
+        features.entity_type,
+
+        features.sentence_neg_count, features.sentence_pos_count,
+        features.sentence_pos_neg
+    )
+
+    for art_name in articles:
+        art = article_loader.load_article(art_name)
+        art = article_preprocessor(art_name, art)
 
         dfs = []
         for chain_id, words in art.coreference_chains.items():
@@ -287,4 +322,4 @@ if __name__ == "__main__":
             data["sentiment"] = art.chain_sentiments[chain_id]
             dfs.append(data)
 
-        # TODO: use the data in some machine learning algorithm
+        pd.concat(dfs).to_csv(f"data/features/{art_name}", sep="\t")

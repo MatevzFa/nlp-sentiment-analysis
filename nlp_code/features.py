@@ -27,8 +27,9 @@ class FeaturePipeline:
 
     def __init__(self, *extractors):
         """
-        Each function must take arguments (Article, Word), and return a dictironary of extracted features
+        Each function must take arguments (Article, Word, features), and return a dictironary of extracted features
         of form {feature_name: feature_value}.
+        Features are currently calculated features for this word.
 
         These functions are called on each of the words passed into the __call__ function and
         collected into a Pandas DataFrame.
@@ -58,7 +59,7 @@ class FeaturePipeline:
         for word in words:
             rec = {}
             for f in self.extractors:
-                rec.update(f(article, word))
+                rec.update(f(article, word, rec))
             records.append(rec)
 
         return pd.DataFrame.from_records(records)
@@ -71,7 +72,7 @@ FEATURE EXTRACTORS
 
 def word_n_lemma(n: int):
     @feature(f"word_{n}_lemma")
-    def aux(article: Article, word: Word):
+    def aux(article: Article, word: Word, features: dict):
         if 0 <= word.word_index + n < article.num_words:
             return article.word_at(word.word_index + n).lemma
         else:
@@ -82,7 +83,7 @@ def word_n_lemma(n: int):
 
 def word_n_pos(n: int):
     @feature(f"word_{n}_pos")
-    def aux(article: Article, word: Word):
+    def aux(article: Article, word: Word, features: dict):
         if 0 <= word.word_index + n < article.num_words:
             return article.word_at(word.word_index + n).pos_tag
         else:
@@ -93,7 +94,7 @@ def word_n_pos(n: int):
 
 def word_n_word_sentiment(n: int):
     @feature(f"word_{n}_word_sentiment")
-    def aux(article: Article, word: Word):
+    def aux(article: Article, word: Word, features: dict):
         if 0 <= word.word_index + n < article.num_words:
             return article.word_at(word.word_index + n).word_sentiment
         else:
@@ -102,6 +103,30 @@ def word_n_word_sentiment(n: int):
     return aux
 
 
-@feature
-def entity_type(article: Article, word: Word):
-    return list(word.entity_types)[0]
+@feature()
+def entity_type(article: Article, word: Word, features: dict):
+    l = list(word.entity_types)
+    return l[0] if len(l) > 0 else None
+
+
+@feature()
+def sentence_pos_count(article: Article, word: Word, features: dict):
+    num = 0
+    for w in article.iter_sentence(word.sentence_index):
+        if w.word_sentiment is not None and len(w.chain_ids) == 0 and w.word_sentiment > 0:
+            num += 1
+    return num
+
+
+@feature()
+def sentence_neg_count(article: Article, word: Word, features: dict):
+    num = 0
+    for w in article.iter_sentence(word.sentence_index):
+        if w.word_sentiment is not None and len(w.chain_ids) == 0 and w.word_sentiment < 0:
+            num += 1
+    return num
+
+
+@feature()
+def sentence_pos_neg(article, word, features):
+    return (features["sentence_pos_count"] + 1) / (features["sentence_neg_count"] + 1)
