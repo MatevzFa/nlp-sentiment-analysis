@@ -4,6 +4,7 @@ import os
 import numpy as np
 import pandas as pd
 from sklearn.dummy import DummyClassifier
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import GroupShuffleSplit
@@ -44,7 +45,7 @@ class Dummy(BaseModel):
         super().__init__(data_path)
 
     def evaluate(self):
-        print(f"=== {Dummy.__name__} ===")
+        print(f"=== {self.__class__.__name__} ===")
 
         X_train, Y_train, X_test, Y_test = self.split(train_size=0.9)
 
@@ -70,7 +71,7 @@ class PrimitiveLinearRegression(BaseModel):
         super().__init__(data_path)
 
     def evaluate(self):
-        print(f"=== {PrimitiveLinearRegression.__name__} ===")
+        print(f"=== {self.__class__.__name__} ===")
 
         self.data["entity_type_is_ORG"] = self.data.entity_type.apply(lambda x: 1 if x == "ORG" else 0)
         self.data["entity_type_is_PER"] = self.data.entity_type.apply(lambda x: 1 if x == "PER" else 0)
@@ -106,9 +107,54 @@ class PrimitiveLinearRegression(BaseModel):
         print(f"RMSE for all = {rmse:.2f}")
 
 
+class PrimitiveRandomForest(BaseModel):
+
+    def __init__(self, data_path):
+        super().__init__(data_path)
+
+    def evaluate(self):
+        print(f"=== {self.__class__.__name__} ===")
+
+        self.data["entity_type_is_ORG"] = self.data.entity_type.apply(lambda x: 1 if x == "ORG" else 0)
+        self.data["entity_type_is_PER"] = self.data.entity_type.apply(lambda x: 1 if x == "PER" else 0)
+        self.data["entity_type_is_LOC"] = self.data.entity_type.apply(lambda x: 1 if x == "LOC" else 0)
+
+        self.data["ORG_x_sentence_pos_neg"] = self.data["entity_type_is_ORG"] * self.data["sentence_pos_neg"]
+        self.data["PER_x_sentence_pos_neg"] = self.data["entity_type_is_PER"] * self.data["sentence_pos_neg"]
+        self.data["LOC_x_sentence_pos_neg"] = self.data["entity_type_is_LOC"] * self.data["sentence_pos_neg"]
+
+        X_train, Y_train, X_test, Y_test = self.split(train_size=0.9)
+
+        rf = RandomForestRegressor(n_estimators=100, random_state=12321)
+
+        features = ["entity_type_is_ORG", "entity_type_is_PER", "entity_type_is_LOC",
+                    "sentence_pos_neg",
+                    "ORG_x_sentence_pos_neg", "PER_x_sentence_pos_neg", "LOC_x_sentence_pos_neg",
+                    ]
+
+        X_train = X_train[features]
+        X_test = X_test[features]
+
+        rf.fit(X_train, Y_train)
+
+        Y_predicted = rf.predict(X_test)
+
+        full = np.vstack([Y_test, Y_predicted]).T
+        for v in [1.0, 2.0, 3.0, 4.0, 5.0]:
+            masked = full[full[:, 0] == v]
+            v_rmse = mean_squared_error(masked[:, 0], masked[:, 1], squared=False)
+            print(f"RMSE for {v} = {v_rmse:.2f}")
+
+        rmse = mean_squared_error(Y_test, Y_predicted, squared=False)
+        print(f"RMSE for all = {rmse:.2f}")
+
+
 if __name__ == '__main__':
     dm = Dummy("data/features")
     dm.evaluate()
 
     m = PrimitiveLinearRegression("data/features")
     m.evaluate()
+
+    rf = PrimitiveRandomForest("data/features")
+    rf.evaluate()
