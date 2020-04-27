@@ -73,6 +73,7 @@ class Word:
 
         # Set by Article
         self.word_index = None
+        self.sentence_index = None
 
     def __str__(self):
         return " ".join([f"{name}[{type(value).__name__}]={value}" for name, value in self.__dict__.items()])
@@ -135,6 +136,13 @@ class Article:
         Returns the word in this article at the specified index.
         """
         return self.words[index]
+
+    def add_sentence_ids(self):
+        sentence_id = 0
+        for word in self.words:
+            word.sentence_index = sentence_id
+            if word.pos_tag == 'PUNCT' and word.word == '.':
+                sentence_id += 1
 
     def filter_words(self, predicate):
         self.words = [w for w in self.words if predicate(w)]
@@ -204,16 +212,18 @@ TODO: Store augmented data
 """
 if __name__ == "__main__":
 
-    stanza.download('sl')
+    # stanza.download('sl')
+    #
+    # stanza_config = dict(
+    #     lang="sl",
+    #     processors="tokenize,pos,lemma",
+    #     lemma_model_path="models/ssj500k_lemmatizer.pt",
+    #     tokenize_pretokenized=True,
+    # )
+    #
+    # pipe = stanza.Pipeline(**stanza_config)
 
-    stanza_config = dict(
-        lang="sl",
-        processors="tokenize,pos,lemma",
-        lemma_model_path="models/ssj500k_lemmatizer.pt",
-        tokenize_pretokenized=True,
-    )
-
-    pipe = stanza.Pipeline(**stanza_config)
+    pipe = None
 
     article_loader = ArticleLoader("data/SentiCoref_1.0")
     senti_lexicon = JOBLexicon.load("data/JOB_1.0/job.tsv")
@@ -266,6 +276,7 @@ if __name__ == "__main__":
 
             # TODO: somehow add syntactic dependencies
 
+        art.add_sentence_ids()
         art.filter_words(lambda w: w.pos_tag in ["NOUN", "VERB", "PROPN", "ADJ"])
 
         dfs = []
