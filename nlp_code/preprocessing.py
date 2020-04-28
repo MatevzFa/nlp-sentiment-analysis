@@ -307,7 +307,9 @@ if __name__ == "__main__":
         features.entity_type,
 
         features.sentence_neg_count, features.sentence_pos_count,
-        features.sentence_pos_neg
+        features.sentence_pos_neg, 
+
+        features.sentence_pos_entities, features.sentence_neg_entities
     )
 
     for art_name in articles:
