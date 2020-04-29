@@ -45,7 +45,7 @@ def report_result(Y_test, Y_predicted):
 
     rmse = mean_squared_error(Y_test, Y_predicted, squared=False)
     print(f"RMSE for all = {rmse:.2f}")
-    print(f"       score = {score:.2f}")
+    print(f"    r2_score = {score:.2f}")
 
 
 class BaseModel:
