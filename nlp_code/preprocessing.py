@@ -333,7 +333,7 @@ if __name__ == "__main__":
 
         features.sentence_sentiment,
 
-        features.sentence_pos_entities, features.sentence_neg_entities
+        features.sentence_pos_entities, features.sentence_neg_entities, features.entity_references_sentiment
     )
 
     for art_name in articles:

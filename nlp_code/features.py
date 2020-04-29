@@ -4,6 +4,9 @@ from typing import List
 import pandas as pd
 
 from nlp_code.preprocessing import Article, Word
+from sentiment_lexicon import JOBLexicon
+
+senti_lexicon = JOBLexicon.load("data/JOB_1.0/Slovene_sentiment_lexicon_JOB.txt")
 
 
 def feature(feature_name=None):
@@ -135,32 +138,32 @@ def sentence_pos_neg(article, word, features):
 @feature()
 def sentence_neg_entities(article, word, features):
     """
-    Number of surrounding entities with negative sentiment(< 3) in a sentence
+    Number of surrounding entitiy references with negative sentiment(< 3) in a sentence
     """
     num = set()
     for w in article.iter_sentence(word.sentence_index):
         if len(w.chain_ids) > 0:
             for id in w.chain_ids:
-                if (id not in word.chain_ids) and article.chain_sentiments[id] < 3:
+                if (id not in word.chain_ids) and article.chain_sentiments[id] != None and article.chain_sentiments[id] < 3:
                     num.add(id)
     return len(num)
 
 @feature()
 def sentence_pos_entities(article, word, features):
     """
-    Number of surrounding entities with positive sentiment(> 3) in a sentence
+    Number of surrounding entitiy references with positive sentiment(> 3) in a sentence
     """
     num = set()
     for w in article.iter_sentence(word.sentence_index):
         if len(w.chain_ids) > 0:
             for id in w.chain_ids:
-                if (id not in word.chain_ids) and article.chain_sentiments[id] > 3:
+                if (id not in word.chain_ids) and article.chain_sentiments[id] != None and article.chain_sentiments[id] > 3:
                     num.add(id)
     return len(num)    
 
 
 
-@feature() #Doesn't work - yet 
+@feature() 
 def entity_references_sentiment(article, word, features):
     """
     returns pos_count/neg_count of all reference words for an entity
@@ -169,12 +172,10 @@ def entity_references_sentiment(article, word, features):
     neg_count = 0
     for id in word.chain_ids:
         for w in article.coreference_chains[id]:
-            if w.word_sentiment is not None and w.word_sentiment > 0:
+            if w.word_raw in senti_lexicon._word_dict and senti_lexicon._word_dict[w.word_raw] > 0:
                 pos_count += 1
-            elif w.word_sentiment is not None and w.word_sentiment < 0:
+            elif  w.word_raw in senti_lexicon._word_dict and senti_lexicon._word_dict[w.word_raw] < 0:
                 neg_count += 1
-    if pos_count and neg_count:
-        print("sentiment exists", word)
     return (pos_count + 1)/(neg_count + 1)
     
 
