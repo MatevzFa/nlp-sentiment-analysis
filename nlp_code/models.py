@@ -1,15 +1,17 @@
 import logging
 import os
+from pprint import pprint
 
 import numpy as np
 import pandas as pd
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge
-from sklearn.metrics import mean_squared_error, precision_recall_fscore_support, r2_score
+from sklearn.metrics import confusion_matrix, mean_squared_error, plot_confusion_matrix, \
+    precision_recall_fscore_support, r2_score
 from sklearn.model_selection import GroupShuffleSplit
 from sklearn.naive_bayes import GaussianNB, MultinomialNB
-
+import matplotlib.pyplot as plt
 
 def binarize_column(df: pd.DataFrame, column: str):
     """
@@ -61,6 +63,11 @@ def balance_234(data: pd.DataFrame):
         data[data.sentiment == 4.0].sample(n),
         data[data.sentiment == 5.0],
     ])
+
+
+def display_confmat(confmat):
+    for row in confmat:
+        print(" ".join([f"{v:.2f}" for v in row]))
 
 
 class BaseModel:
@@ -214,7 +221,7 @@ class PerChainWordModel(BaseModel):
     def evaluate(self):
         print(f"=== {self.__class__.__name__} ===")
 
-        self.data = balance_234(self.data)
+        # self.data = balance_234(self.data)
 
         features = [
             "sentence_pos_neg",
@@ -274,12 +281,10 @@ def binary_sentiment(sentiment):
         return 1
 
 
-class DummyBinaryClassifciation(BaseModel):
+class DummyClassifciation(BaseModel):
 
     def evaluate(self):
         print(f"=== {self.__class__.__name__} ===")
-
-        self.data.sentiment = self.data.sentiment.apply(binary_sentiment)
 
         X_train, Y_train, X_test, Y_test = self.split(train_size=0.8)
 
@@ -291,19 +296,21 @@ class DummyBinaryClassifciation(BaseModel):
 
         Y_predicted = lr.predict(X_test)
 
-        p, r, f1, _ = precision_recall_fscore_support(Y_test, Y_predicted, labels=[0, 1], warn_for=[])
+        p, r, f1, _ = precision_recall_fscore_support(Y_test, Y_predicted, labels=[1, 2, 3, 4, 5], warn_for=[])
+        confmat = confusion_matrix(Y_test, Y_predicted, labels=[1, 2, 3, 4, 5], normalize='true')
 
         print(p)
         print(r)
         print(f1)
+        display_confmat(confmat)
 
 
-class BinaryClassifciation(BaseModel):
+class Classifciation(BaseModel):
 
     def evaluate(self):
         print(f"=== {self.__class__.__name__} ===")
 
-        self.data.sentiment = self.data.sentiment.apply(binary_sentiment)
+        self.data = balance_234(self.data)
 
         features = [
             "sentence_pos_neg",
@@ -353,11 +360,17 @@ class BinaryClassifciation(BaseModel):
 
         Y_predicted = lr.predict(X_test)
 
-        p, r, f1, _ = precision_recall_fscore_support(Y_test, Y_predicted, labels=[0, 1])
+        p, r, f1, _ = precision_recall_fscore_support(Y_test, Y_predicted, labels=[1, 2, 3, 4, 5])
+        confmat = confusion_matrix(Y_test, Y_predicted, labels=[1, 2, 3, 4, 5], normalize='true')
 
         print(p)
         print(r)
         print(f1)
+        display_confmat(confmat)
+
+        plt.figure(figsize=(3, 3))
+        plot_confusion_matrix(lr, X_test, Y_test, labels=[1, 2, 3, 4, 5], normalize='true', cmap=plt.cm.Blues)
+        plt.savefig('report/figures/confmat_Classifciation.pdf', bbox_inches='tight')
 
         # report_result(Y_test, Y_predicted)
 
@@ -366,17 +379,11 @@ if __name__ == '__main__':
     dm = Dummy("data/features")
     dm.evaluate()
 
-    # m = PrimitiveLinearRegression("data/features")
-    # m.evaluate()
-    #
-    # rf = PrimitiveRandomForest("data/features")
-    # rf.evaluate()
-
     pc = PerChainWordModel("data/features")
     pc.evaluate()
 
-    dbc = DummyBinaryClassifciation("data/features")
+    dbc = DummyClassifciation("data/features")
     dbc.evaluate()
 
-    bc = BinaryClassifciation("data/features")
+    bc = Classifciation("data/features")
     bc.evaluate()
