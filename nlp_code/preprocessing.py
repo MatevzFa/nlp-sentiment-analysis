@@ -231,7 +231,7 @@ class ArticlePreprocessor:
 
     def __init__(self):
         self.pipe = ArticlePreprocessor.stanza_pipe()
-        self.senti_lexicon = JOBLexicon.load("data/JOB_1.0/job.tsv")
+        self.senti_lexicon = JOBLexicon.load("data/JOB_1.0/Slovene_sentiment_lexicon_JOB.txt")
 
         sentence_sentiment = pd.read_csv("data/SentiNews_1.0/SentiNews_sentence-level.txt", sep="\t")
         self.sentence_sentiments = defaultdict(lambda: defaultdict(lambda: 0))
