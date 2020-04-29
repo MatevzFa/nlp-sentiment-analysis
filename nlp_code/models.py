@@ -201,9 +201,7 @@ class PerChainWordModel(BaseModel):
 
         features = [
             "sentence_pos_neg",
-            "sentence_sentiment",
-            "word_1_word_sentiment", "word_2_word_sentiment", "word_3_word_sentiment",
-            "word_-1_word_sentiment", "word_-2_word_sentiment", "word_-3_word_sentiment",
+            "sentence_sentiment"
         ]
 
         self.data[["word_1_word_sentiment",
@@ -218,17 +216,13 @@ class PerChainWordModel(BaseModel):
                                                            "word_-2_word_sentiment",
                                                            "word_-3_word_sentiment"]].fillna(value=0)
 
-        to_binarize = [
-            "word_1_pos",
-            "word_2_pos",
-            "word_3_pos",
-            "word_-1_pos",
-            "word_-2_pos",
-            "word_-3_pos",
-        ]
-        for c in to_binarize:
-            for new_col in binarize_column(self.data, c):
-                features.append(new_col)
+        self.data["word_n_word_sentiment"] = self.data[["word_1_word_sentiment",
+                                                        "word_2_word_sentiment",
+                                                        "word_3_word_sentiment",
+                                                        "word_-1_word_sentiment",
+                                                        "word_-2_word_sentiment",
+                                                        "word_-3_word_sentiment"]].sum(axis=1)
+        features += ["word_n_word_sentiment"]
 
         self.data["entity_type_is_ORG"] = self.data.entity_type.apply(lambda x: 1 if x == "ORG" else 0)
         self.data["entity_type_is_PER"] = self.data.entity_type.apply(lambda x: 1 if x == "PER" else 0)
