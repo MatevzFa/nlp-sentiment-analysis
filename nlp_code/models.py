@@ -5,9 +5,33 @@ import numpy as np
 import pandas as pd
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import GroupShuffleSplit
+
+
+def binarize_column(df: pd.DataFrame, column: str):
+    """
+    Performs in-place column binarisation by adding a 1/0 column for each unique value of 'column'.
+    Returns list of new columns.
+    """
+    new_columns = []
+    for value in df[column].unique():
+        new_col_name = f"{column}_is_{value}"
+        df[new_col_name] = df[column].apply(lambda x: 1 if x == value else 0)
+        new_columns.append(new_col_name)
+
+    return new_columns
+
+
+def describe(X_train, Y_train, X_test, Y_test):
+    print(f"TRAIN SIZE {len(Y_train):10d}")
+    for v in [1.0, 2.0, 3.0, 4.0, 5.0]:
+        print(f"-- {v} {len(Y_train[Y_train == v]):10d}")
+
+    print(f"TEST SIZE {len(Y_test):10d}")
+    for v in [1.0, 2.0, 3.0, 4.0, 5.0]:
+        print(f"-- {v} {len(Y_test[Y_test == v]):10d}")
 
 
 class BaseModel:
@@ -171,12 +195,91 @@ class PrimitiveRandomForest(BaseModel):
         print(f"RMSE for all = {rmse:.2f}")
 
 
+class PerChainWordModel(BaseModel):
+
+    def evaluate(self):
+        print(f"=== {self.__class__.__name__} ===")
+
+        features = ["entity_type_is_ORG", "entity_type_is_PER", "entity_type_is_LOC",
+                    "sentence_pos_neg",
+                    "ORG_x_sentence_pos_neg", "PER_x_sentence_pos_neg", "LOC_x_sentence_pos_neg",
+                    "sentence_sentiment",
+                    "word_1_word_sentiment",
+                    "word_2_word_sentiment",
+                    "word_3_word_sentiment",
+                    "word_-1_word_sentiment",
+                    "word_-2_word_sentiment",
+                    "word_-3_word_sentiment",
+                    ]
+
+        self.data[["word_1_word_sentiment",
+                   "word_2_word_sentiment",
+                   "word_3_word_sentiment",
+                   "word_-1_word_sentiment",
+                   "word_-2_word_sentiment",
+                   "word_-3_word_sentiment"]] = self.data[["word_1_word_sentiment",
+                                                           "word_2_word_sentiment",
+                                                           "word_3_word_sentiment",
+                                                           "word_-1_word_sentiment",
+                                                           "word_-2_word_sentiment",
+                                                           "word_-3_word_sentiment"]].fillna(value=0)
+
+        self.data["sentence_pos_neg"] = (self.data["sentence_pos_count"] + 1) / (self.data["sentence_neg_count"] + 1)
+
+        to_binarize = [
+            "word_1_pos",
+            "word_2_pos",
+            "word_3_pos",
+            "word_-1_pos",
+            "word_-2_pos",
+            "word_-3_pos",
+        ]
+        for c in to_binarize:
+            for new_col in binarize_column(self.data, c):
+                features.append(new_col)
+
+        self.data["entity_type_is_ORG"] = self.data.entity_type.apply(lambda x: 1 if x == "ORG" else 0)
+        self.data["entity_type_is_PER"] = self.data.entity_type.apply(lambda x: 1 if x == "PER" else 0)
+        self.data["entity_type_is_LOC"] = self.data.entity_type.apply(lambda x: 1 if x == "LOC" else 0)
+
+        self.data["ORG_x_sentence_pos_neg"] = self.data["entity_type_is_ORG"] * self.data["sentence_pos_neg"]
+        self.data["PER_x_sentence_pos_neg"] = self.data["entity_type_is_PER"] * self.data["sentence_pos_neg"]
+        self.data["LOC_x_sentence_pos_neg"] = self.data["entity_type_is_LOC"] * self.data["sentence_pos_neg"]
+
+        X_train, Y_train, X_test, Y_test = self.split(train_size=0.9)
+
+        describe(X_train, Y_train, X_test, Y_test)
+
+        lr = LinearRegression()
+
+        X_train = X_train[features]
+        X_test = X_test[features]
+
+        reg = lr.fit(X_train, Y_train)
+        score = reg.score(X_test, Y_test)
+
+        Y_predicted = lr.predict(X_test)
+
+        full = np.vstack([Y_test, Y_predicted]).T
+        for v in [1.0, 2.0, 3.0, 4.0, 5.0]:
+            masked = full[full[:, 0] == v]
+            v_rmse = mean_squared_error(masked[:, 0], masked[:, 1], squared=False)
+            print(f"RMSE for {v} = {v_rmse:.2f}")
+
+        rmse = mean_squared_error(Y_test, Y_predicted, squared=False)
+        print(f"RMSE for all = {rmse:.2f}")
+        print(f"          R2 = {score:.2f}")
+
+
 if __name__ == '__main__':
-    dm = Dummy("data/features")
-    dm.evaluate()
+    # dm = Dummy("data/features")
+    # dm.evaluate()
+    #
+    # m = PrimitiveLinearRegression("data/features")
+    # m.evaluate()
+    #
+    # rf = PrimitiveRandomForest("data/features")
+    # rf.evaluate()
 
-    m = PrimitiveLinearRegression("data/features")
-    m.evaluate()
-
-    rf = PrimitiveRandomForest("data/features")
-    rf.evaluate()
+    pc = PerChainWordModel("data/features")
+    pc.evaluate()

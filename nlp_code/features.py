@@ -178,3 +178,6 @@ def entity_references_sentiment(article, word, features):
     return (pos_count + 1)/(neg_count + 1)
     
 
+@feature()
+def sentence_sentiment(article, word, features):
+    return word.sentence_sentiment

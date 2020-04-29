@@ -70,6 +70,7 @@ class Word:
         self.lemma = None
         self.pos_tag = None
         self.word_sentiment = None
+        self.sentence_sentiment = None
 
         # Set by Article
         self.word_index = None
@@ -232,6 +233,23 @@ class ArticlePreprocessor:
         self.pipe = ArticlePreprocessor.stanza_pipe()
         self.senti_lexicon = JOBLexicon.load("data/JOB_1.0/job.tsv")
 
+        sentence_sentiment = pd.read_csv("data/SentiNews_1.0/SentiNews_sentence-level.txt", sep="\t")
+        self.sentence_sentiments = defaultdict(lambda: defaultdict(lambda: 0))
+
+        for row in sentence_sentiment.iterrows():
+            s = row[1]
+            article_id = str(s["nid"])
+            sentence_index = int(s["sid"]) - 1
+            sentiment = s["sentiment"]
+
+            if sentiment == "positive":
+                self.sentence_sentiments[article_id][sentence_index] = 1
+            elif sentiment == "negative":
+                self.sentence_sentiments[article_id][sentence_index] = -1
+            else:
+                self.sentence_sentiments[article_id][sentence_index] = 0
+
+
     @staticmethod
     def stanza_pipe():
         stanza.download('sl')
@@ -278,6 +296,10 @@ class ArticlePreprocessor:
             # TODO: somehow add syntactic dependencies
 
         article.refresh()
+
+        for w in article.words:
+            w.sentence_sentiment = self.sentence_sentiments[article.article_id][w.sentence_index]
+
         # article.filter_words(lambda w: w.pos_tag in ["NOUN", "VERB", "PROPN", "ADJ"])
 
         return article
@@ -296,18 +318,20 @@ if __name__ == "__main__":
     articles = ["42.tsv"] if IS_DEBUG else article_loader.list_articles()
 
     feature_pipeline = features.FeaturePipeline(
-        # features.word_n_lemma(-3), features.word_n_pos(-3), features.word_n_word_sentiment(-3),  # 3 left
-        # features.word_n_lemma(-2), features.word_n_pos(-2), features.word_n_word_sentiment(-2),  # 2 left
-        # features.word_n_lemma(-1), features.word_n_pos(-1), features.word_n_word_sentiment(-1),  # 1 left
-        #
-        # features.word_n_lemma(1), features.word_n_pos(1), features.word_n_word_sentiment(1),  # 1 right
-        # features.word_n_lemma(2), features.word_n_pos(2), features.word_n_word_sentiment(2),  # 2 right
-        # features.word_n_lemma(3), features.word_n_pos(3), features.word_n_word_sentiment(3),  # 3 right
+        features.word_n_pos(-3), features.word_n_word_sentiment(-3),  # 3 left
+        features.word_n_pos(-2), features.word_n_word_sentiment(-2),  # 2 left
+        features.word_n_pos(-1), features.word_n_word_sentiment(-1),  # 1 left
+
+        features.word_n_pos(1), features.word_n_word_sentiment(1),  # 1 right
+        features.word_n_pos(2), features.word_n_word_sentiment(2),  # 2 right
+        features.word_n_pos(3), features.word_n_word_sentiment(3),  # 3 right
 
         features.entity_type,
 
         features.sentence_neg_count, features.sentence_pos_count,
-        features.sentence_pos_neg, 
+        features.sentence_pos_neg,
+
+        features.sentence_sentiment,
 
         features.sentence_pos_entities, features.sentence_neg_entities
     )
@@ -315,6 +339,8 @@ if __name__ == "__main__":
     for art_name in articles:
         art = article_loader.load_article(art_name)
         art = article_preprocessor(art_name, art)
+
+        art.filter_words(lambda w: w.pos_tag in ["NOUN", "PROPN", "VERB", "ADJ"])
 
         dfs = []
         for chain_id, words in art.coreference_chains.items():
