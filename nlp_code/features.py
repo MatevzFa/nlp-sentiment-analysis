@@ -4,7 +4,7 @@ from typing import List
 import pandas as pd
 
 from nlp_code.preprocessing import Article, Word
-from sentiment_lexicon import JOBLexicon
+from nlp_code.sentiment_lexicon import JOBLexicon
 
 senti_lexicon = JOBLexicon.load("data/JOB_1.0/Slovene_sentiment_lexicon_JOB.txt")
 
