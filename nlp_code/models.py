@@ -7,8 +7,7 @@ import pandas as pd
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge
-from sklearn.metrics import confusion_matrix, mean_squared_error, plot_confusion_matrix, \
-    precision_recall_fscore_support, r2_score
+from sklearn.metrics import classification_report, confusion_matrix, mean_squared_error, plot_confusion_matrix, precision_recall_fscore_support, r2_score, roc_auc_score
 from sklearn.model_selection import GroupShuffleSplit
 from sklearn.naive_bayes import GaussianNB, MultinomialNB
 import matplotlib.pyplot as plt
@@ -59,9 +58,9 @@ def balance_234(data: pd.DataFrame):
 
     return pd.concat([
         data[data.sentiment == 1.0],
-        data[data.sentiment == 2.0].sample(n),
-        data[data.sentiment == 3.0].sample(n),
-        data[data.sentiment == 4.0].sample(n),
+        data[data.sentiment == 2.0].sample(n, random_state=123),
+        data[data.sentiment == 3.0].sample(n, random_state=456),
+        data[data.sentiment == 4.0].sample(n, random_state=789),
         data[data.sentiment == 5.0],
     ])
 
@@ -303,7 +302,9 @@ class DummyClassifciation(BaseModel):
         print(p)
         print(r)
         print(f1)
+
         display_confmat(confmat)
+        print(classification_report(Y_test, Y_predicted, digits=3))
 
 
 class Classifciation(BaseModel):
@@ -367,7 +368,9 @@ class Classifciation(BaseModel):
         print(p)
         print(r)
         print(f1)
+
         display_confmat(confmat)
+        print(classification_report(Y_test, Y_predicted, digits=3))
 
         plt.figure(figsize=(3, 3))
         plot_confusion_matrix(lr, X_test, Y_test, labels=[1, 2, 3, 4, 5], normalize='true', cmap=plt.cm.Blues)
@@ -411,7 +414,9 @@ class DummyChainClassifciation(BaseModel):
         print(p)
         print(r)
         print(f1)
+
         display_confmat(confmat)
+        print(classification_report(Y_test, Y_predicted, digits=3))
 
 
 class ChainClassifciation(BaseModel):
@@ -495,7 +500,9 @@ class ChainClassifciation(BaseModel):
         print(p)
         print(r)
         print(f1)
+
         display_confmat(confmat)
+        print(classification_report(Y_test, Y_predicted, digits=3))
 
         plt.figure(figsize=(3, 3))
         plot_confusion_matrix(lr, X_test, Y_test, labels=labels, normalize='true', cmap=plt.cm.Blues)
