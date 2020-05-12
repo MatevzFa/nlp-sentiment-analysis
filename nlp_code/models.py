@@ -13,6 +13,7 @@ from sklearn.model_selection import GroupShuffleSplit
 from sklearn.naive_bayes import GaussianNB, MultinomialNB
 import matplotlib.pyplot as plt
 
+
 def binarize_column(df: pd.DataFrame, column: str):
     """
     Performs in-place column binarisation by adding a 1/0 column for each unique value of 'column'.
@@ -375,6 +376,134 @@ class Classifciation(BaseModel):
         # report_result(Y_test, Y_predicted)
 
 
+class DummyChainClassifciation(BaseModel):
+
+    def evaluate(self):
+        print(f"=== {self.__class__.__name__} ===")
+
+        self.data = self.data.groupby(["article_id", "chain_id"]).agg({
+            'sentiment': 'first',
+        }).reset_index()
+
+        sentiment_mapping = {
+            1: 2,
+            2: 2,
+            3: 3,
+            4: 4,
+            5: 4,
+        }
+        self.data.sentiment = self.data.sentiment.apply(lambda x: sentiment_mapping[x])
+        labels = sorted(self.data.sentiment.unique())
+
+        X_train, Y_train, X_test, Y_test = self.split(train_size=0.8)
+
+        describe(X_train, Y_train, X_test, Y_test)
+
+        lr = DummyClassifier(strategy="most_frequent")
+
+        lr.fit(X_train, Y_train)
+
+        Y_predicted = lr.predict(X_test)
+
+        p, r, f1, _ = precision_recall_fscore_support(Y_test, Y_predicted, labels=labels, warn_for=[])
+        confmat = confusion_matrix(Y_test, Y_predicted, labels=labels, normalize='true')
+
+        print(p)
+        print(r)
+        print(f1)
+        display_confmat(confmat)
+
+
+class ChainClassifciation(BaseModel):
+
+    def evaluate(self):
+        print(f"=== {self.__class__.__name__} ===")
+
+        features = [
+            "sentence_pos_neg",
+            "sentence_sentiment"
+        ]
+
+        self.data[["word_1_word_sentiment",
+                   "word_2_word_sentiment",
+                   "word_3_word_sentiment",
+                   "word_-1_word_sentiment",
+                   "word_-2_word_sentiment",
+                   "word_-3_word_sentiment"]] = self.data[["word_1_word_sentiment",
+                                                           "word_2_word_sentiment",
+                                                           "word_3_word_sentiment",
+                                                           "word_-1_word_sentiment",
+                                                           "word_-2_word_sentiment",
+                                                           "word_-3_word_sentiment"]].fillna(value=0)
+
+        self.data["word_n_word_sentiment"] = self.data[["word_1_word_sentiment",
+                                                        "word_2_word_sentiment",
+                                                        "word_3_word_sentiment",
+                                                        "word_-1_word_sentiment",
+                                                        "word_-2_word_sentiment",
+                                                        "word_-3_word_sentiment"]].sum(axis=1)
+        features += ["word_n_word_sentiment"]
+
+        self.data["entity_type_is_ORG"] = self.data.entity_type.apply(lambda x: 1 if x == "ORG" else 0)
+        self.data["entity_type_is_PER"] = self.data.entity_type.apply(lambda x: 1 if x == "PER" else 0)
+        self.data["entity_type_is_LOC"] = self.data.entity_type.apply(lambda x: 1 if x == "LOC" else 0)
+        features += ["entity_type_is_ORG", "entity_type_is_PER", "entity_type_is_LOC"]
+
+        self.data["ORG_x_sentence_pos_neg"] = self.data["entity_type_is_ORG"] * self.data["sentence_pos_neg"]
+        self.data["PER_x_sentence_pos_neg"] = self.data["entity_type_is_PER"] * self.data["sentence_pos_neg"]
+        self.data["LOC_x_sentence_pos_neg"] = self.data["entity_type_is_LOC"] * self.data["sentence_pos_neg"]
+        features += ["ORG_x_sentence_pos_neg", "PER_x_sentence_pos_neg", "LOC_x_sentence_pos_neg"]
+
+        self.data = self.data.groupby(["article_id", "chain_id"]).agg({
+            'sentence_pos_neg': 'mean',
+            'sentence_sentiment': 'mean',
+            'word_n_word_sentiment':  'sum',
+            'entity_type_is_ORG': 'first', 'entity_type_is_PER': 'first', 'entity_type_is_LOC': 'first',
+            'ORG_x_sentence_pos_neg': 'sum', 'PER_x_sentence_pos_neg': 'sum', 'LOC_x_sentence_pos_neg': 'sum',
+
+            'sentiment': 'first',
+        }).reset_index()
+
+        sentiment_mapping = {
+            1: 2,
+            2: 2,
+            3: 3,
+            4: 4,
+            5: 4,
+        }
+        self.data.sentiment = self.data.sentiment.apply(lambda x: sentiment_mapping[x])
+        labels = sorted(self.data.sentiment.unique())
+
+        self.data = balance_234(self.data)
+
+        X_train, Y_train, X_test, Y_test = self.split(train_size=0.8)
+
+        describe(X_train, Y_train, X_test, Y_test)
+
+        lr = RandomForestClassifier(n_estimators=100, random_state=123123)
+
+        X_train = X_train[features]
+        X_test = X_test[features]
+
+        lr.fit(X_train, Y_train)
+
+        Y_predicted = lr.predict(X_test)
+
+        p, r, f1, _ = precision_recall_fscore_support(Y_test, Y_predicted, labels=labels)
+        confmat = confusion_matrix(Y_test, Y_predicted, labels=labels, normalize='true')
+
+        print(p)
+        print(r)
+        print(f1)
+        display_confmat(confmat)
+
+        plt.figure(figsize=(3, 3))
+        plot_confusion_matrix(lr, X_test, Y_test, labels=labels, normalize='true', cmap=plt.cm.Blues)
+        plt.savefig('report/figures/confmat_ChainClassifciation.pdf', bbox_inches='tight')
+
+        # report_result(Y_test, Y_predicted)
+
+
 if __name__ == '__main__':
     dm = Dummy("data/features")
     dm.evaluate()
@@ -387,3 +516,9 @@ if __name__ == '__main__':
 
     bc = Classifciation("data/features")
     bc.evaluate()
+
+    dcc = DummyChainClassifciation("data/features")
+    dcc.evaluate()
+
+    cc = ChainClassifciation("data/features")
+    cc.evaluate()
