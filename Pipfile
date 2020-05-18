@@ -11,6 +11,8 @@ stanza = "*"
 pandas = "*"
 scikit-learn = "*"
 matplotlib = "*"
+tensorflow = "*"
+numpy = "*"
 
 [requires]
 python_version = "3.7"
