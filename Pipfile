@@ -13,6 +13,8 @@ scikit-learn = "*"
 matplotlib = "*"
 tensorflow = "*"
 numpy = "*"
+transformers = "*"
+keras = "*"
 
 [requires]
 python_version = "3.7"
