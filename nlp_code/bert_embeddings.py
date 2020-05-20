@@ -18,9 +18,9 @@ from nlp_code.articles import ArticleLoader
 BERT_MODEL = "models/slo-hr-en-bert-pytorch"
 
 
-EMBEDDING_DIM = 512
-CNN_FILTERS = 100
-DNN_UNITS = 128
+EMBEDDING_DIM = 128
+CNN_FILTERS = 50
+DNN_UNITS = 256
 OUTPUT_CLASSES = 3
 DROPOUT_RATE = 0.2
 NB_EPOCHS = 3
