@@ -2,11 +2,12 @@
 import random
 from pprint import pprint
 
+import matplotlib.pyplot as plt
 import numpy as np
 import sklearn
 import tensorflow as tf
 from keras.preprocessing.sequence import pad_sequences
-from sklearn.metrics import accuracy_score, f1_score
+from sklearn.metrics import ConfusionMatrixDisplay, accuracy_score, classification_report, confusion_matrix, f1_score, plot_confusion_matrix, precision_recall_fscore_support
 from sklearn.model_selection import train_test_split
 from tensorflow.keras import layers
 from tqdm import tqdm
@@ -16,16 +17,18 @@ from transformers.modeling_tf_bert import TFBertForSequenceClassification
 
 from _collections import defaultdict
 from nlp_code.articles import ArticleLoader
+from nlp_code.models import display_confmat
+import textwrap
 
 BERT_MODEL = "models/slo-hr-en-bert-pytorch"
 
-EMBEDDING_DIM = 256
-CNN_FILTERS = 100
-DNN_UNITS = 256
+EMBEDDING_DIM = 512
+CNN_FILTERS = 64
+DNN_UNITS = 128
 OUTPUT_CLASSES = 3
-DROPOUT_RATE = 0.2
+DROPOUT_RATE = 0.0000
 NB_EPOCHS = 3
-BATCH_SIZE = 64
+BATCH_SIZE = 256
 
 
 def convert(word_sequences):
@@ -38,7 +41,7 @@ def convert(word_sequences):
 
 class CustomSentiCorefModel(tf.keras.Model):
     """
-    Provided by Slavko Žitnik in 
+    Provided by Slavko Žitnik in
 
     'Transformers architecture and BERT'.
 
@@ -88,10 +91,11 @@ class CustomSentiCorefModel(tf.keras.Model):
         l_1 = self.pool(l_1)
         l_2 = self.cnn_layer2(l)
         l_2 = self.pool(l_2)
-        l_3 = self.cnn_layer3(l)
-        l_3 = self.pool(l_3)
+        # l_3 = self.cnn_layer3(l)
+        # l_3 = self.pool(l_3)
 
-        concatenated = tf.concat([l_1, l_2, l_3], axis=-1)
+        # concatenated = tf.concat([l_1, l_2, l_3], axis=-1)
+        concatenated = tf.concat([l_1, l_2], axis=-1)
         concatenated = self.dense_1(concatenated)
         concatenated = self.dropout(concatenated, training)
         model_output = self.last_dense(concatenated)
@@ -200,7 +204,33 @@ if __name__ == "__main__":
 
     custom_model.fit(train_ds, epochs=NB_EPOCHS, validation_data=val_ds)
 
-    results_predicted = np.argmax(custom_model.predict(test_ds), axis=1)
-    results_true = np.array(y_test)
+    Y_predicted = np.argmax(custom_model.predict(test_ds), axis=1)
+    Y_test = np.array(y_test)
 
-    print(f"F1 score: {f1_score(results_true, results_predicted, average='macro')}")
+    labels = [0, 1, 2]
+
+    print(f"F1 score: {f1_score(Y_test, Y_predicted, average='macro')}")
+
+    p, r, f1, _ = precision_recall_fscore_support(Y_test, Y_predicted, labels=labels)
+    confmat = confusion_matrix(Y_test, Y_predicted, labels=labels, normalize='true')
+
+    print(p)
+    print(r)
+    print(f1)
+
+    display_confmat(confmat)
+    print(classification_report(Y_test, Y_predicted, digits=3))
+
+    cmatdisp = ConfusionMatrixDisplay(confmat, display_labels=['1, 2', '3', '4, 5'])
+    cmatdisp.plot(cmap=plt.cm.Blues)
+    plt.savefig('report/figures/confmat_CustomSentiCorefModel.pdf', bbox_inches='tight')
+
+    print(textwrap.dedent(f"""
+        EMBEDDING_DIM = {EMBEDDING_DIM}
+        CNN_FILTERS = {CNN_FILTERS}
+        DNN_UNITS = {DNN_UNITS}
+        OUTPUT_CLASSES = {OUTPUT_CLASSES}
+        DROPOUT_RATE = {DROPOUT_RATE}
+        NB_EPOCHS = {NB_EPOCHS}
+        BATCH_SIZE = {BATCH_SIZE}
+    """))
