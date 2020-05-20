@@ -15,8 +15,8 @@ from tensorflow.keras import layers
 from _collections import defaultdict
 from nlp_code.articles import ArticleLoader
 
-bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-bert_model = TFBertModel.from_pretrained('bert-base-uncased')
+bert_tokenizer = BertTokenizer.from_pretrained("models/slo-hr-en-bert-pytorch")
+bert_model = TFBertModel.from_pretrained("models/slo-hr-en-bert-pytorch")
 
 EMBEDDING_DIM = 128
 CNN_FILTERS = 100
@@ -185,7 +185,7 @@ if __name__ == "__main__":
 #####################################################
 
 
-bert_embeddings_model = BertEmbeddingsSentiCoref.from_pretrained('bert-base-uncased',
+bert_embeddings_model = BertEmbeddingsSentiCoref.from_pretrained('"models/slo-hr-en-bert-pytorch"',
                         cnn_filters=CNN_FILTERS,
                         dnn_units=DNN_UNITS,
                         model_output_classes=OUTPUT_CLASSES,
