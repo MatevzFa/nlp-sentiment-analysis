@@ -15,12 +15,12 @@ from tensorflow.keras import layers
 from _collections import defaultdict
 from nlp_code.articles import ArticleLoader
 
-bert_tokenizer = BertTokenizer.from_pretrained("models/slo-hr-en-bert-pytorch")
-bert_model = TFBertModel.from_pretrained("models/slo-hr-en-bert-pytorch")
+BERT_MODEL = "models/slo-hr-en-bert-pytorch"
 
-EMBEDDING_DIM = 128
+
+EMBEDDING_DIM = 512
 CNN_FILTERS = 100
-DNN_UNITS = 256
+DNN_UNITS = 128
 OUTPUT_CLASSES = 3
 DROPOUT_RATE = 0.2
 NB_EPOCHS = 3
@@ -58,8 +58,8 @@ class BertEmbeddingsSentiCoref(TFBertPreTrainedModel):
                  name=("bert_embeddings"),
                  *inputs, **kwargs):
         super().__init__(config, *inputs, **kwargs)
-
         self.bert = TFBertMainLayer(config, name="bert", trainable = False)
+
         self.cnn_layer1 = layers.Conv1D(filters=cnn_filters,
                                         kernel_size=2,
                                         padding="valid",
@@ -102,6 +102,9 @@ class BertEmbeddingsSentiCoref(TFBertPreTrainedModel):
 #################################################
 
 if __name__ == "__main__":
+
+    bert_tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=True)
+    model = TFBertModel.from_pretrained(BERT_MODEL, from_pt=True)
 
     article_loader = ArticleLoader("data/SentiCoref_1.0")
 
@@ -185,11 +188,13 @@ if __name__ == "__main__":
 #####################################################
 
 
-bert_embeddings_model = BertEmbeddingsSentiCoref.from_pretrained('"models/slo-hr-en-bert-pytorch"',
+bert_embeddings_model = BertEmbeddingsSentiCoref.from_pretrained(BERT_MODEL, 
+                        embedding_dimensions=EMBEDDING_DIM,
                         cnn_filters=CNN_FILTERS,
                         dnn_units=DNN_UNITS,
                         model_output_classes=OUTPUT_CLASSES,
-                        dropout_rate=DROPOUT_RATE)
+                        dropout_rate=DROPOUT_RATE,
+                        from_pt = True)
 
 
 if OUTPUT_CLASSES == 2:
@@ -203,7 +208,7 @@ else:
 
 bert_embeddings_model.fit(train_ds, epochs=NB_EPOCHS)
 
-results_predicted = [1 if x>=0.5 else 0 for x in bert_model.predict(test_ds) ]
+results_predicted = [1 if x>=0.5 else 0 for x in bert_embeddings_model.predict(test_ds) ]
 results_true = np.array(y_test)
 
 
