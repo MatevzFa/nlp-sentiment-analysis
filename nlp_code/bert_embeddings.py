@@ -6,24 +6,30 @@ import tensorflow as tf
 import os
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
 from tqdm import tqdm
+from sklearn.metrics import ConfusionMatrixDisplay, accuracy_score, classification_report, confusion_matrix, f1_score, plot_confusion_matrix, precision_recall_fscore_support
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from transformers import BertTokenizer, TFBertModel, TFBertPreTrainedModel, TFBertMainLayer
 from tensorflow.keras import layers
 
-from _collections import defaultdict
+from collections import defaultdict
 from nlp_code.articles import ArticleLoader
+
+from models import display_confmat
+import textwrap
+
 
 BERT_MODEL = "models/slo-hr-en-bert-pytorch"
 
 
-EMBEDDING_DIM = 128
-CNN_FILTERS = 50
+EMBEDDING_DIM = 512
+CNN_FILTERS = 100
 DNN_UNITS = 256
 OUTPUT_CLASSES = 3
 DROPOUT_RATE = 0.2
-NB_EPOCHS = 3
+NB_EPOCHS = 10
 BATCH_SIZE = 64
 
 
@@ -49,6 +55,7 @@ class BertEmbeddingsSentiCoref(TFBertPreTrainedModel):
     """
 
     def __init__(self, config,
+                 vocabulary_size,
                  embedding_dimensions=EMBEDDING_DIM,
                  cnn_filters=50,
                  dnn_units=512,
@@ -188,32 +195,58 @@ if __name__ == "__main__":
 #####################################################
 
 
-bert_embeddings_model = BertEmbeddingsSentiCoref.from_pretrained(BERT_MODEL, 
-                        embedding_dimensions=EMBEDDING_DIM,
-                        cnn_filters=CNN_FILTERS,
-                        dnn_units=DNN_UNITS,
-                        model_output_classes=OUTPUT_CLASSES,
-                        dropout_rate=DROPOUT_RATE,
-                        from_pt = True)
+    bert_embeddings_model = BertEmbeddingsSentiCoref.from_pretrained(BERT_MODEL,
+                            vocabulary_size=len(bert_tokenizer.vocab), 
+                            embedding_dimensions=EMBEDDING_DIM,
+                            cnn_filters=CNN_FILTERS,
+                            dnn_units=DNN_UNITS,
+                            model_output_classes=OUTPUT_CLASSES,
+                            dropout_rate=DROPOUT_RATE,
+                            from_pt = True)
 
 
-if OUTPUT_CLASSES == 2:
-    bert_embeddings_model.compile(loss="binary_crossentropy",
-                       optimizer="adam",
-                       metrics=["accuracy"])
-else:
-    bert_embeddings_model.compile(loss="sparse_categorical_crossentropy",
-                       optimizer="adam",
-                       metrics=["sparse_categorical_accuracy"])
+    if OUTPUT_CLASSES == 2:
+        bert_embeddings_model.compile(loss="binary_crossentropy",
+                        optimizer="adam",
+                        metrics=["accuracy"])
+    else:
+        bert_embeddings_model.compile(loss="sparse_categorical_crossentropy",
+                        optimizer="adam",
+                        metrics=["sparse_categorical_accuracy"])
 
-bert_embeddings_model.fit(train_ds, epochs=NB_EPOCHS)
+    bert_embeddings_model.fit(train_ds, epochs=NB_EPOCHS)
 
-results_predicted = [1 if x>=0.5 else 0 for x in bert_embeddings_model.predict(test_ds) ]
-results_true = np.array(y_test)
+    print(test_ds)
+    tf.print(test_ds)
+    #########################################
 
+    Y_predicted = np.argmax(bert_embeddings_model.predict(test_ds), axis=1)
+    Y_test = np.array(y_test)
 
-from sklearn.metrics import f1_score
-from sklearn.metrics import accuracy_score
+    labels = [0, 1, 2]
 
-print(f"F1 score: {f1_score(results_true, results_predicted)}")
-print(f"Accuracy score: {accuracy_score(results_true, results_predicted)}")
+    print(f"F1 score: {f1_score(Y_test, Y_predicted, average='macro')}")
+
+    p, r, f1, _ = precision_recall_fscore_support(Y_test, Y_predicted, labels=labels)
+    confmat = confusion_matrix(Y_test, Y_predicted, labels=labels, normalize='true')
+
+    print(p)
+    print(r)
+    print(f1)
+
+    display_confmat(confmat)
+    print(classification_report(Y_test, Y_predicted, digits=3))
+
+    cmatdisp = ConfusionMatrixDisplay(confmat, display_labels=['1, 2', '3', '4, 5'])
+    cmatdisp.plot(cmap = plt.cm.Blues)
+    plt.savefig('report/figures/confmat_BertEmbeddingsSentiCoref.pdf', bbox_inches='tight')
+
+    print(textwrap.dedent(f"""
+        EMBEDDING_DIM = {EMBEDDING_DIM}
+        CNN_FILTERS = {CNN_FILTERS}
+        DNN_UNITS = {DNN_UNITS}
+        OUTPUT_CLASSES = {OUTPUT_CLASSES}
+        DROPOUT_RATE = {DROPOUT_RATE}
+        NB_EPOCHS = {NB_EPOCHS}
+        BATCH_SIZE = {BATCH_SIZE}
+    """))
