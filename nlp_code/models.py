@@ -389,11 +389,11 @@ class DummyChainClassifciation(BaseModel):
         }).reset_index()
 
         sentiment_mapping = {
-            1: 2,
+            1: 1,
             2: 2,
             3: 3,
             4: 4,
-            5: 4,
+            5: 5,
         }
         self.data.sentiment = self.data.sentiment.apply(lambda x: sentiment_mapping[x])
         labels = sorted(self.data.sentiment.unique())
@@ -470,11 +470,11 @@ class ChainClassifciation(BaseModel):
         }).reset_index()
 
         sentiment_mapping = {
-            1: 2,
+            1: 1,
             2: 2,
             3: 3,
             4: 4,
-            5: 4,
+            5: 5,
         }
         self.data.sentiment = self.data.sentiment.apply(lambda x: sentiment_mapping[x])
         labels = sorted(self.data.sentiment.unique())

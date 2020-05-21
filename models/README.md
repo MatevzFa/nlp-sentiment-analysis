@@ -4,6 +4,7 @@ This directory contains [Stanza](https://stanfordnlp.github.io/stanza/index.html
 
 It has to contain the following models:
 
-| File name               | Source                           |
-| ----------------------- | -------------------------------- |
-| `ssj500k_lemmatizer.pt` | http://hdl.handle.net/11356/1286 |
+| File name                 | Source                                        |
+| ------------------------- | --------------------------------------------- |
+| `ssj500k_lemmatizer.pt`   | http://hdl.handle.net/11356/1286              |
+| `slo-hr-en-bert-pytorch/` | Model fine-tuned by Ulčar and Robnik-Šikonja. |
