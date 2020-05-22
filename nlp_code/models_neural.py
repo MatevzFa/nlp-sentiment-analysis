@@ -1,13 +1,19 @@
 
 import random
+import textwrap
+from collections import Counter
 from pprint import pprint
 
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import sklearn
 import tensorflow as tf
 from keras.preprocessing.sequence import pad_sequences
-from sklearn.metrics import ConfusionMatrixDisplay, accuracy_score, classification_report, confusion_matrix, f1_score, plot_confusion_matrix, precision_recall_fscore_support
+from sklearn.metrics import (ConfusionMatrixDisplay, accuracy_score,
+                             classification_report, confusion_matrix, f1_score,
+                             plot_confusion_matrix,
+                             precision_recall_fscore_support)
 from sklearn.model_selection import train_test_split
 from tensorflow.keras import layers
 from tqdm import tqdm
@@ -18,7 +24,6 @@ from transformers.modeling_tf_bert import TFBertForSequenceClassification
 from _collections import defaultdict
 from nlp_code.articles import ArticleLoader
 from nlp_code.models import display_confmat
-import textwrap
 
 BERT_MODEL = "models/slo-hr-en-bert-pytorch"
 
@@ -29,6 +34,32 @@ OUTPUT_CLASSES = 3
 DROPOUT_RATE = 0.0000
 NB_EPOCHS = 3
 BATCH_SIZE = 256
+
+
+def balance(X: pd.Series, y: pd.Series, labels):
+
+    counts = Counter(y)
+    n = min([counts[l] for l in labels])
+
+    Xs_per_sentiment = {l: X[y == l] for l in labels}
+    ys_per_sentiment = {l: y[y == l] for l in labels}
+
+    np.random.seed(0)
+    masks = {}
+    for l in labels:
+        size = len(Xs_per_sentiment[l])
+        mask = np.zeros(size, dtype=bool)
+        idx = np.random.choice(range(size), n, replace=False)
+        mask[idx] = 1
+        masks[l] = mask
+
+    X_balanced = pd.concat([Xs_per_sentiment[l].loc[masks[l]] for l in labels])
+    y_balanced = pd.concat([ys_per_sentiment[l].loc[masks[l]] for l in labels])
+
+    X_remainder = pd.concat([Xs_per_sentiment[l].loc[~masks[l]] for l in labels])
+    y_remainder = pd.concat([ys_per_sentiment[l].loc[~masks[l]] for l in labels])
+
+    return X_balanced, y_balanced, X_remainder, y_remainder
 
 
 def convert(word_sequences):
