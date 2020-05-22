@@ -36,32 +36,6 @@ NB_EPOCHS = 3
 BATCH_SIZE = 256
 
 
-def balance(X: pd.Series, y: pd.Series, labels):
-
-    counts = Counter(y)
-    n = min([counts[l] for l in labels])
-
-    Xs_per_sentiment = {l: X[y == l] for l in labels}
-    ys_per_sentiment = {l: y[y == l] for l in labels}
-
-    np.random.seed(0)
-    masks = {}
-    for l in labels:
-        size = len(Xs_per_sentiment[l])
-        mask = np.zeros(size, dtype=bool)
-        idx = np.random.choice(range(size), n, replace=False)
-        mask[idx] = 1
-        masks[l] = mask
-
-    X_balanced = pd.concat([Xs_per_sentiment[l].loc[masks[l]] for l in labels])
-    y_balanced = pd.concat([ys_per_sentiment[l].loc[masks[l]] for l in labels])
-
-    X_remainder = pd.concat([Xs_per_sentiment[l].loc[~masks[l]] for l in labels])
-    y_remainder = pd.concat([ys_per_sentiment[l].loc[~masks[l]] for l in labels])
-
-    return X_balanced, y_balanced, X_remainder, y_remainder
-
-
 def convert(word_sequences):
     return tokenizer.batch_encode_plus(
         word_sequences,
@@ -134,14 +108,7 @@ class CustomSentiCorefModel(tf.keras.Model):
         return model_output
 
 
-if __name__ == "__main__":
-
-    article_loader = ArticleLoader("data/SentiCoref_1.0")
-
-    tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=True)
-
-    # dict {(art_name, entity): [Words]}
-    #   where [Words] are sentences with this entity.
+def neural_load_articles(article_loader):
     data = dict()
     data_sentiments = dict()
 
@@ -169,6 +136,10 @@ if __name__ == "__main__":
             data[(art_name, entity_id)] = word_sequence
             data_sentiments[(art_name, entity_id)] = art.chain_sentiments[entity_id]
 
+    return data, data_sentiments
+
+
+def neural_join_labels(data_sentiments):
     mapper = {
         1: 0,
         2: 0,
@@ -177,26 +148,62 @@ if __name__ == "__main__":
         5: 2,
     }
 
-    # Data balancing
-    data_sentiments = {k: mapper[v] for k, v in data_sentiments.items()}
+    return {k: mapper[v] for k, v in data_sentiments.items()}
 
-    ks_2 = [k for k, v in data_sentiments.items() if v == 0]
-    ks_3 = [k for k, v in data_sentiments.items() if v == 1]
-    ks_4 = [k for k, v in data_sentiments.items() if v == 2]
 
-    sample_size = min(len(ks_2), len(ks_3), len(ks_4))
+def neural_train_val_test_split(data_sentiments: dict):
+    datapoints = list(data_sentiments)
+    labels = set(data_sentiments.values())
 
-    datapoints = []
-    random.seed(123123)
-    datapoints.extend(random.sample(ks_2, sample_size))
-    datapoints.extend(random.sample(ks_3, sample_size))
-    datapoints.extend(random.sample(ks_4, sample_size))
-
-    # Split data for train/val/test
+    # Split indexes for train/val/test
     train, val_test = train_test_split(datapoints, train_size=.8, random_state=99999999)
     val, test = train_test_split(val_test, train_size=.5, random_state=88888888)
 
-    print(f"train={len(train)} val={len(val)} test={len(test)}")
+    counts = Counter([data_sentiments[k] for k in train])
+    _, n = counts.most_common()[-1]
+
+    new_train = []
+    for l in labels:
+        selected, remainder = train_test_split([k for k in train if data_sentiments[k] == l],
+                                               train_size=n-1, random_state=123)
+        new_train.extend(selected)
+        test.extend(remainder)
+
+    return new_train, val, test
+
+
+def neural_describe_data(data_sentiments, train, val, test):
+
+    counts_train = Counter([data_sentiments[k] for k in train])
+    counts_val = Counter([data_sentiments[k] for k in val])
+    counts_test = Counter([data_sentiments[k] for k in test])
+
+    print("TRAIN:")
+    for k, v in sorted(counts_train.items()):
+        print(f"  label={k:2d} x {v}")
+
+    print("VALIDATION:")
+    for k, v in sorted(counts_val.items()):
+        print(f"  label={k:2d} x {v}")
+
+    print("TEST:")
+    for k, v in sorted(counts_test.items()):
+        print(f"  label={k:2d} x {v}")
+
+
+if __name__ == "__main__":
+
+    article_loader = ArticleLoader("data/SentiCoref_1.0")
+
+    tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=True)
+
+    # dict {(art_name, entity): [Words]}
+    #   where [Words] are sentences with this entity.
+    data, data_sentiments = neural_load_articles(article_loader)
+    data_sentiments = neural_join_labels(data_sentiments)
+
+    train, val, test = neural_train_val_test_split(data_sentiments)
+    neural_describe_data(data_sentiments, train, val, test)
 
     X_train = convert([data[k] for k in train])
     y_train = np.array([data_sentiments[k] for k in train])
