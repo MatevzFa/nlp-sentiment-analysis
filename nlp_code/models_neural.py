@@ -138,7 +138,6 @@ if __name__ == "__main__":
 
     article_loader = ArticleLoader("data/SentiCoref_1.0")
 
-    model = TFBertForSequenceClassification.from_pretrained(BERT_MODEL, from_pt=True)
     tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=True)
 
     # dict {(art_name, entity): [Words]}
