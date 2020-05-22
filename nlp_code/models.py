@@ -389,11 +389,11 @@ class DummyChainClassifciation(BaseModel):
         }).reset_index()
 
         sentiment_mapping = {
-            1: 1,
+            1: 2,
             2: 2,
             3: 3,
             4: 4,
-            5: 5,
+            5: 4,
         }
         self.data.sentiment = self.data.sentiment.apply(lambda x: sentiment_mapping[x])
         labels = sorted(self.data.sentiment.unique())
@@ -470,11 +470,11 @@ class ChainClassifciation(BaseModel):
         }).reset_index()
 
         sentiment_mapping = {
-            1: 1,
+            1: 2,
             2: 2,
             3: 3,
             4: 4,
-            5: 5,
+            5: 4,
         }
         self.data.sentiment = self.data.sentiment.apply(lambda x: sentiment_mapping[x])
         labels = sorted(self.data.sentiment.unique())
@@ -506,7 +506,7 @@ class ChainClassifciation(BaseModel):
 
         plt.figure(figsize=(3, 3))
         plot_confusion_matrix(lr, X_test, Y_test, labels=labels, normalize='true', cmap=plt.cm.Blues)
-        plt.savefig('report/figures/confmat_ChainClassifciation.pdf', bbox_inches='tight')
+        plt.savefig('report/figures/confmat_ChainClassifciation_joined.pdf', bbox_inches='tight')
 
         # report_result(Y_test, Y_predicted)
 
