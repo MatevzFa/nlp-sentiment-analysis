@@ -152,6 +152,8 @@ def neural_join_labels(data_sentiments):
 
 
 def neural_train_val_test_split(data_sentiments: dict):
+    random.seed(123)
+
     datapoints = list(data_sentiments)
     labels = set(data_sentiments.values())
 
@@ -164,10 +166,9 @@ def neural_train_val_test_split(data_sentiments: dict):
 
     new_train = []
     for l in labels:
-        selected, remainder = train_test_split([k for k in train if data_sentiments[k] == l],
-                                               train_size=n-1, random_state=123)
+        candidates = [k for k in train if data_sentiments[k] == l]
+        selected = random.sample(candidates, n)
         new_train.extend(selected)
-        test.extend(remainder)
 
     return new_train, val, test
 
