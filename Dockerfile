@@ -7,12 +7,14 @@ RUN apt-get update && apt-get install tree zip
 RUN mkdir /app
 WORKDIR /app
 
-COPY . .
+# Dependencies
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
-RUN tree /app
-
+# Prepare directories
 RUN mkdir -p data/cache data/features data/JOB_1.0 data/SentiCoref_1.0 data/SentiNews_1.0
 RUN mkdir models
+RUN mkdir -p report/figures
 
 
 # 
@@ -23,7 +25,7 @@ WORKDIR /app/models
 RUN gdown 'https://drive.google.com/uc?id=102DbPO8lrQn2gBsEYX93tFQxteWYy-0d'
 RUN unzip slo-hr-en-bert-pytorch.zip
 # lemmatizer
-RUN curl --remote-name-all https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1286{/ssj500k%2bSloleks_lemmatizer.pt}
+RUN curl https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1286/ssj500k%2bSloleks_lemmatizer.pt --output ssj500k_lemmatizer.pt
 
 
 # 
@@ -37,17 +39,14 @@ RUN cd SentiNews_1.0 && \
 # SentiCoref
 RUN cd SentiCoref_1.0 && \
     curl --remote-name-all https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1285{/SentiCoref_1.0.zip} && \
-    unzip SentiCoref_1.0.zip -d SentiCoref_1.0 && \
+    unzip SentiCoref_1.0.zip && \
     cd ..
 # JOB
-RUN cd SentiCoref_1.0 && \
+RUN cd JOB_1.0 && \
     curl --remote-name-all https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1112{/Slovene_sentiment_lexicon_JOB.txt} && \
     cd ..
 
+RUN tree
 
 WORKDIR /app
-
-# Dependencies
-RUN pip install -r requirements.txt
-
-CMD ["tree" "/app"]
+COPY . .

@@ -1,5 +1,38 @@
 version: "3.4"
 
 services:
-  app:
+  testbuild:
     build: .
+
+  tree:
+    image: matevzfa/nlp-sentiment-analysis:submission
+    working_dir: /app
+    command: tree
+    volumes:
+      - data-cache:/app/data/cache
+      - data-features:/app/data/features
+
+  preprocessing:
+    image: matevzfa/nlp-sentiment-analysis:submission
+    working_dir: /app
+    command: python -m nlp_code.preprocessing
+    volumes:
+      - data-cache:/app/data/cache
+      - data-features:/app/data/features
+
+  models:
+    image: matevzfa/nlp-sentiment-analysis:submission
+    working_dir: /app
+    command: python -m nlp_code.models
+    volumes:
+      - data-cache:/app/data/cache
+      - data-features:/app/data/features
+
+  models_neural:
+    image: matevzfa/nlp-sentiment-analysis:submission
+    working_dir: /app
+    command: python -m nlp_code.models_neural
+
+volumes:
+  data-cache:
+  data-features:
