@@ -1,13 +1,19 @@
 
 import random
+import textwrap
+from collections import Counter
 from pprint import pprint
 
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import sklearn
 import tensorflow as tf
 from keras.preprocessing.sequence import pad_sequences
-from sklearn.metrics import ConfusionMatrixDisplay, accuracy_score, classification_report, confusion_matrix, f1_score, plot_confusion_matrix, precision_recall_fscore_support
+from sklearn.metrics import (ConfusionMatrixDisplay, accuracy_score,
+                             classification_report, confusion_matrix, f1_score,
+                             plot_confusion_matrix,
+                             precision_recall_fscore_support)
 from sklearn.model_selection import train_test_split
 from tensorflow.keras import layers
 from tqdm import tqdm
@@ -18,7 +24,6 @@ from transformers.modeling_tf_bert import TFBertForSequenceClassification
 from _collections import defaultdict
 from nlp_code.articles import ArticleLoader
 from nlp_code.models import display_confmat
-import textwrap
 
 BERT_MODEL = "models/slo-hr-en-bert-pytorch"
 
@@ -70,10 +75,6 @@ class CustomSentiCorefModel(tf.keras.Model):
                                         kernel_size=3,
                                         padding="valid",
                                         activation="relu")
-        self.cnn_layer3 = layers.Conv1D(filters=cnn_filters,
-                                        kernel_size=4,
-                                        padding="valid",
-                                        activation="relu")
         self.pool = layers.GlobalMaxPool1D()
 
         self.dense_1 = layers.Dense(units=dnn_units, activation="relu")
@@ -91,10 +92,7 @@ class CustomSentiCorefModel(tf.keras.Model):
         l_1 = self.pool(l_1)
         l_2 = self.cnn_layer2(l)
         l_2 = self.pool(l_2)
-        # l_3 = self.cnn_layer3(l)
-        # l_3 = self.pool(l_3)
 
-        # concatenated = tf.concat([l_1, l_2, l_3], axis=-1)
         concatenated = tf.concat([l_1, l_2], axis=-1)
         concatenated = self.dense_1(concatenated)
         concatenated = self.dropout(concatenated, training)
@@ -103,15 +101,7 @@ class CustomSentiCorefModel(tf.keras.Model):
         return model_output
 
 
-if __name__ == "__main__":
-
-    article_loader = ArticleLoader("data/SentiCoref_1.0")
-
-    model = TFBertForSequenceClassification.from_pretrained(BERT_MODEL, from_pt=True)
-    tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=True)
-
-    # dict {(art_name, entity): [Words]}
-    #   where [Words] are sentences with this entity.
+def neural_load_articles(article_loader):
     data = dict()
     data_sentiments = dict()
 
@@ -139,6 +129,10 @@ if __name__ == "__main__":
             data[(art_name, entity_id)] = word_sequence
             data_sentiments[(art_name, entity_id)] = art.chain_sentiments[entity_id]
 
+    return data, data_sentiments
+
+
+def neural_join_labels(data_sentiments):
     mapper = {
         1: 0,
         2: 0,
@@ -147,26 +141,63 @@ if __name__ == "__main__":
         5: 2,
     }
 
-    # Data balancing
-    data_sentiments = {k: mapper[v] for k, v in data_sentiments.items()}
+    return {k: mapper[v] for k, v in data_sentiments.items()}
 
-    ks_2 = [k for k, v in data_sentiments.items() if v == 0]
-    ks_3 = [k for k, v in data_sentiments.items() if v == 1]
-    ks_4 = [k for k, v in data_sentiments.items() if v == 2]
 
-    sample_size = min(len(ks_2), len(ks_3), len(ks_4))
+def neural_train_val_test_split(data_sentiments: dict):
+    random.seed(123)
 
-    datapoints = []
-    random.seed(123123)
-    datapoints.extend(random.sample(ks_2, sample_size))
-    datapoints.extend(random.sample(ks_3, sample_size))
-    datapoints.extend(random.sample(ks_4, sample_size))
+    datapoints = list(data_sentiments)
+    labels = set(data_sentiments.values())
 
-    # Split data for train/val/test
+    # Split indexes for train/val/test
     train, val_test = train_test_split(datapoints, train_size=.8, random_state=99999999)
     val, test = train_test_split(val_test, train_size=.5, random_state=88888888)
 
-    print(f"train={len(train)} val={len(val)} test={len(test)}")
+    counts = Counter([data_sentiments[k] for k in train])
+    _, n = counts.most_common()[-1]
+
+    new_train = []
+    for l in labels:
+        candidates = [k for k in train if data_sentiments[k] == l]
+        selected = random.sample(candidates, n)
+        new_train.extend(selected)
+
+    return new_train, val, test
+
+
+def neural_describe_data(data_sentiments, train, val, test):
+
+    counts_train = Counter([data_sentiments[k] for k in train])
+    counts_val = Counter([data_sentiments[k] for k in val])
+    counts_test = Counter([data_sentiments[k] for k in test])
+
+    print("TRAIN:")
+    for k, v in sorted(counts_train.items()):
+        print(f"  label={k:2d} x {v}")
+
+    print("VALIDATION:")
+    for k, v in sorted(counts_val.items()):
+        print(f"  label={k:2d} x {v}")
+
+    print("TEST:")
+    for k, v in sorted(counts_test.items()):
+        print(f"  label={k:2d} x {v}")
+
+
+if __name__ == "__main__":
+
+    article_loader = ArticleLoader("data/SentiCoref_1.0")
+
+    tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=True)
+
+    # dict {(art_name, entity): [Words]}
+    #   where [Words] are sentences with this entity.
+    data, data_sentiments = neural_load_articles(article_loader)
+    data_sentiments = neural_join_labels(data_sentiments)
+
+    train, val, test = neural_train_val_test_split(data_sentiments)
+    neural_describe_data(data_sentiments, train, val, test)
 
     X_train = convert([data[k] for k in train])
     y_train = np.array([data_sentiments[k] for k in train])
@@ -221,8 +252,9 @@ if __name__ == "__main__":
     display_confmat(confmat)
     print(classification_report(Y_test, Y_predicted, digits=3))
 
+    plt.figure(figsize=(4, 4))
     cmatdisp = ConfusionMatrixDisplay(confmat, display_labels=['1, 2', '3', '4, 5'])
-    cmatdisp.plot(cmap=plt.cm.Blues)
+    cmatdisp.plot(cmap=plt.cm.Blues, ax=plt.gca())
     plt.savefig('report/figures/confmat_CustomSentiCorefModel.pdf', bbox_inches='tight')
 
     print(textwrap.dedent(f"""
