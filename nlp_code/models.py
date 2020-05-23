@@ -405,7 +405,8 @@ class PerWordRF(BaseModel):
         print(classification_report(Y_test, Y_predicted, digits=3))
 
         plt.figure(figsize=(4, 4))
-        plot_confusion_matrix(lr, X_test, Y_test, labels=[1, 2, 3, 4, 5], normalize='true',  cmap=plt.cm.Blues, ax=plt.gca())
+        plot_confusion_matrix(lr, X_test, Y_test, labels=[1, 2, 3, 4, 5],
+                              normalize='true',  cmap=plt.cm.Blues, ax=plt.gca())
         plt.savefig(f'report/figures/confmat_{self.name}.pdf', bbox_inches='tight')
 
         # report_result(Y_test, Y_predicted)
@@ -539,8 +540,10 @@ class PerChainRF(BaseModel):
         display_confmat(confmat)
         print(classification_report(Y_test, Y_predicted, digits=3))
 
+        display_labels = ['1, 2', '3', '4, 5'] if label_joining else labels
+
         plt.figure(figsize=(4, 4))
-        plot_confusion_matrix(lr, X_test, Y_test, labels=labels, normalize='true', cmap=plt.cm.Blues, ax=plt.gca())
+        plot_confusion_matrix(lr, X_test, Y_test, display_labels=display_labels, normalize='true', cmap=plt.cm.Blues, ax=plt.gca())
         plt.savefig(f"report/figures/confmat_{self.name}{'_joined' if label_joining else ''}.pdf",
                     bbox_inches='tight')
 
