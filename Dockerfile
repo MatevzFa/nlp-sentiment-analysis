@@ -45,6 +45,8 @@ RUN cd SentiCoref_1.0 && \
     cd ..
 
 
+WORKDIR /app
+
 # Dependencies
 RUN pip install -r requirements.txt
 

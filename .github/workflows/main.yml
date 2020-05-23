@@ -28,6 +28,6 @@ jobs:
           # Password or personal access token used to log in to a Docker registry. If not set then no login will occur
           password: ${{ secrets.DOCKER_PASSWORD }}
           # Docker repository to tag the image with
-          repository: matevzfa
+          repository: nlp-sentiment-analysis
           # Comma-delimited list of tags. These will be added to the registry/repository to form the image's tags
-          tags: nlp-sentiment-analysis
+          tags: submission
