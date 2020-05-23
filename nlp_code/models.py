@@ -248,7 +248,7 @@ class PrimitiveRF(BaseModel):
         report_result(Y_test, Y_predicted)
 
 
-class PerChainLinear(BaseModel):
+class PerWordLinear(BaseModel):
 
     def evaluate(self):
         print(f"=== {self.name} ===")
@@ -551,7 +551,7 @@ if __name__ == '__main__':
     dm = PrimitiveDummy("data/features")
     dm.evaluate()
 
-    pc = PerChainLinear("data/features")
+    pc = PerWordLinear("data/features")
     pc.evaluate()
 
     dbc = PerWordDummy("data/features")
