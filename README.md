@@ -5,6 +5,8 @@
 The sentiment analysis software is written in Python, and supports Python 3.7 and above.
 In addition, folders _data_ and _models_ must contain some files. Check README files in respective folders for further information.
 
+To install requried dependencies, you can run `pip install -r requirements.txt`.
+
 ## Usage
 
 ### 1. Preprocessing & Feature Extraction
@@ -23,10 +25,22 @@ It is recommended that feature extractors are only added to the `FeaturePipeline
 
 ### 2. Model Evaluation
 
-After preprocessing is completed, model evaluation can be started by running
+#### Classical models
+
+_After preprocessing is completed_, model evaluation can be started by running
 
 ```
 python -m nlp_code.models
 ```
 
 from the root folder of the repository. Models can use any of the features stored in _data/features_.
+
+#### Neural models
+
+To run the CustomSentiCorefModel, you can run
+
+```
+python -m nlp_code.models_neural
+```
+
+from the root folder of the repository. This will perform the required preprocessing, training and evaluation of this model. Make sure you downloaded the required BERT model, described [here](/models/README.md)
