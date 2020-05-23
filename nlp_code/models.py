@@ -1,16 +1,20 @@
 import logging
 import os
+from collections import Counter
 from pprint import pprint
 
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge
-from sklearn.metrics import classification_report, confusion_matrix, mean_squared_error, plot_confusion_matrix, precision_recall_fscore_support, r2_score, roc_auc_score
+from sklearn.metrics import (classification_report, confusion_matrix,
+                             mean_squared_error, plot_confusion_matrix,
+                             precision_recall_fscore_support, r2_score,
+                             roc_auc_score)
 from sklearn.model_selection import GroupShuffleSplit
 from sklearn.naive_bayes import GaussianNB, MultinomialNB
-import matplotlib.pyplot as plt
 
 
 def binarize_column(df: pd.DataFrame, column: str):
@@ -51,18 +55,42 @@ def report_result(Y_test, Y_predicted):
     print(f"    r2_score = {score:.2f}")
 
 
-def balance_234(data: pd.DataFrame):
-    counts = data.groupby('sentiment').size()
+def balance_234(X: pd.DataFrame, y: pd.Series):
+    counts = y.value_counts()
 
     n = min(counts[2.0], counts[3.0], counts[4.0])
 
-    return pd.concat([
-        data[data.sentiment == 1.0],
-        data[data.sentiment == 2.0].sample(n, random_state=123),
-        data[data.sentiment == 3.0].sample(n, random_state=456),
-        data[data.sentiment == 4.0].sample(n, random_state=789),
-        data[data.sentiment == 5.0],
+    df = X.assign(sentiment=y)
+
+    df_sample = pd.concat([
+        df[df.sentiment == 1.0],
+        df[df.sentiment == 2.0].sample(n, random_state=123),
+        df[df.sentiment == 3.0].sample(n, random_state=456),
+        df[df.sentiment == 4.0].sample(n, random_state=789),
+        df[df.sentiment == 5.0],
     ])
+
+    X = df_sample.drop('sentiment', axis=1)
+    y = df_sample['sentiment']
+
+    return X, y
+
+
+def balance(X: pd.DataFrame, y: pd.Series):
+    labels = sorted(list(y.unique()))
+    counts = y.value_counts()
+
+    n = min([counts[l] for l in labels])
+
+    df = X.assign(sentiment=y)
+
+    df_sample = pd.concat([df[df.sentiment == l].sample(n, random_state=123)
+                           for l in labels])
+
+    X = df_sample.drop('sentiment', axis=1)
+    y = df_sample['sentiment']
+
+    return X, y
 
 
 def display_confmat(confmat):
@@ -98,14 +126,18 @@ class BaseModel:
 
         return X_train, Y_train, X_test, Y_test
 
+    @property
+    def name(self):
+        return self.__class__.__name__
 
-class Dummy(BaseModel):
+
+class PrimitiveDummy(BaseModel):
 
     def __init__(self, data_path):
         super().__init__(data_path)
 
     def evaluate(self):
-        print(f"=== {self.__class__.__name__} ===")
+        print(f"=== {self.name} ===")
 
         self.data = self.data.groupby(["article_id", "chain_id"]).agg({
             'sentiment': 'first',
@@ -124,13 +156,13 @@ class Dummy(BaseModel):
         report_result(Y_test, Y_predicted)
 
 
-class PrimitiveLinearRegression(BaseModel):
+class PrimitiveLinear(BaseModel):
 
     def __init__(self, data_path):
         super().__init__(data_path)
 
     def evaluate(self):
-        print(f"=== {self.__class__.__name__} ===")
+        print(f"=== {self.name} ===")
 
         self.data = self.data.groupby(["article_id", "chain_id"]).agg({
             'entity_type': 'first',
@@ -170,13 +202,13 @@ class PrimitiveLinearRegression(BaseModel):
         report_result(Y_test, Y_predicted)
 
 
-class PrimitiveRandomForest(BaseModel):
+class PrimitiveRF(BaseModel):
 
     def __init__(self, data_path):
         super().__init__(data_path)
 
     def evaluate(self):
-        print(f"=== {self.__class__.__name__} ===")
+        print(f"=== {self.name} ===")
 
         self.data = self.data.groupby(["article_id", "chain_id"]).agg({
             'entity_type': 'first',
@@ -216,10 +248,10 @@ class PrimitiveRandomForest(BaseModel):
         report_result(Y_test, Y_predicted)
 
 
-class PerChainWordModel(BaseModel):
+class PerChainLinear(BaseModel):
 
     def evaluate(self):
-        print(f"=== {self.__class__.__name__} ===")
+        print(f"=== {self.name} ===")
 
         # self.data = balance_234(self.data)
 
@@ -281,10 +313,10 @@ def binary_sentiment(sentiment):
         return 1
 
 
-class DummyClassifciation(BaseModel):
+class PerWordDummy(BaseModel):
 
     def evaluate(self):
-        print(f"=== {self.__class__.__name__} ===")
+        print(f"=== {self.name} ===")
 
         X_train, Y_train, X_test, Y_test = self.split(train_size=0.8)
 
@@ -307,12 +339,10 @@ class DummyClassifciation(BaseModel):
         print(classification_report(Y_test, Y_predicted, digits=3))
 
 
-class Classifciation(BaseModel):
+class PerWordRF(BaseModel):
 
     def evaluate(self):
-        print(f"=== {self.__class__.__name__} ===")
-
-        self.data = balance_234(self.data)
+        print(f"=== {self.name} ===")
 
         features = [
             "sentence_pos_neg",
@@ -351,9 +381,11 @@ class Classifciation(BaseModel):
 
         X_train, Y_train, X_test, Y_test = self.split(train_size=0.8)
 
+        X_train, Y_train = balance(X_train, Y_train)
+
         describe(X_train, Y_train, X_test, Y_test)
 
-        lr = RandomForestClassifier()
+        lr = RandomForestClassifier(random_state=444)
 
         X_train = X_train[features]
         X_test = X_test[features]
@@ -372,28 +404,28 @@ class Classifciation(BaseModel):
         display_confmat(confmat)
         print(classification_report(Y_test, Y_predicted, digits=3))
 
-        plt.figure(figsize=(3, 3))
-        plot_confusion_matrix(lr, X_test, Y_test, labels=[1, 2, 3, 4, 5], normalize='true', cmap=plt.cm.Blues)
-        plt.savefig('report/figures/confmat_Classifciation.pdf', bbox_inches='tight')
+        plt.figure(figsize=(4, 4))
+        plot_confusion_matrix(lr, X_test, Y_test, labels=[1, 2, 3, 4, 5], normalize='true',  cmap=plt.cm.Blues, ax=plt.gca())
+        plt.savefig(f'report/figures/confmat_{self.name}.pdf', bbox_inches='tight')
 
         # report_result(Y_test, Y_predicted)
 
 
-class DummyChainClassifciation(BaseModel):
+class PerChainDummy(BaseModel):
 
-    def evaluate(self):
-        print(f"=== {self.__class__.__name__} ===")
+    def evaluate(self, label_joining):
+        print(f"=== {self.name} ===")
 
         self.data = self.data.groupby(["article_id", "chain_id"]).agg({
             'sentiment': 'first',
         }).reset_index()
 
         sentiment_mapping = {
-            1: 1,
+            1: 2 if label_joining else 1,
             2: 2,
             3: 3,
             4: 4,
-            5: 5,
+            5: 4 if label_joining else 5,
         }
         self.data.sentiment = self.data.sentiment.apply(lambda x: sentiment_mapping[x])
         labels = sorted(self.data.sentiment.unique())
@@ -419,10 +451,10 @@ class DummyChainClassifciation(BaseModel):
         print(classification_report(Y_test, Y_predicted, digits=3))
 
 
-class ChainClassifciation(BaseModel):
+class PerChainRF(BaseModel):
 
-    def evaluate(self):
-        print(f"=== {self.__class__.__name__} ===")
+    def evaluate(self, label_joining):
+        print(f"=== {self.name} ===")
 
         features = [
             "sentence_pos_neg",
@@ -470,18 +502,21 @@ class ChainClassifciation(BaseModel):
         }).reset_index()
 
         sentiment_mapping = {
-            1: 1,
+            1: 2 if label_joining else 1,
             2: 2,
             3: 3,
             4: 4,
-            5: 5,
+            5: 4 if label_joining else 5,
         }
         self.data.sentiment = self.data.sentiment.apply(lambda x: sentiment_mapping[x])
         labels = sorted(self.data.sentiment.unique())
 
-        self.data = balance_234(self.data)
-
         X_train, Y_train, X_test, Y_test = self.split(train_size=0.8)
+
+        if label_joining:
+            X_train, Y_train = balance(X_train, Y_train)
+        else:
+            X_train, Y_train = balance_234(X_train, Y_train)
 
         describe(X_train, Y_train, X_test, Y_test)
 
@@ -504,28 +539,35 @@ class ChainClassifciation(BaseModel):
         display_confmat(confmat)
         print(classification_report(Y_test, Y_predicted, digits=3))
 
-        plt.figure(figsize=(3, 3))
-        plot_confusion_matrix(lr, X_test, Y_test, labels=labels, normalize='true', cmap=plt.cm.Blues)
-        plt.savefig('report/figures/confmat_ChainClassifciation.pdf', bbox_inches='tight')
+        plt.figure(figsize=(4, 4))
+        plot_confusion_matrix(lr, X_test, Y_test, labels=labels, normalize='true', cmap=plt.cm.Blues, ax=plt.gca())
+        plt.savefig(f"report/figures/confmat_{self.name}{'_joined' if label_joining else ''}.pdf",
+                    bbox_inches='tight')
 
         # report_result(Y_test, Y_predicted)
 
 
 if __name__ == '__main__':
-    dm = Dummy("data/features")
+    dm = PrimitiveDummy("data/features")
     dm.evaluate()
 
-    pc = PerChainWordModel("data/features")
+    pc = PerChainLinear("data/features")
     pc.evaluate()
 
-    dbc = DummyClassifciation("data/features")
+    dbc = PerWordDummy("data/features")
     dbc.evaluate()
 
-    bc = Classifciation("data/features")
+    bc = PerWordRF("data/features")
     bc.evaluate()
 
-    dcc = DummyChainClassifciation("data/features")
-    dcc.evaluate()
+    dcc1 = PerChainDummy("data/features")
+    dcc1.evaluate(label_joining=False)
 
-    cc = ChainClassifciation("data/features")
-    cc.evaluate()
+    cc1 = PerChainRF("data/features")
+    cc1.evaluate(label_joining=False)
+
+    dcc2 = PerChainDummy("data/features")
+    dcc2.evaluate(label_joining=True)
+
+    cc2 = PerChainRF("data/features")
+    cc2.evaluate(label_joining=True)
