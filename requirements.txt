@@ -5,3 +5,4 @@ matplotlib==3.2.1
 tensorflow==2.2.0
 numpy==1.18.4
 transformers==2.9.1
+Keras==2.3.1

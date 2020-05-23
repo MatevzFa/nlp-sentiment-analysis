@@ -46,7 +46,7 @@ RUN cd JOB_1.0 && \
     curl --remote-name-all https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1112{/Slovene_sentiment_lexicon_JOB.txt} && \
     cd ..
 
-RUN tree
 
 WORKDIR /app
 COPY . .
+RUN tree
