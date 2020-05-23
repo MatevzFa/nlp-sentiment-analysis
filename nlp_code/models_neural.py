@@ -75,10 +75,6 @@ class CustomSentiCorefModel(tf.keras.Model):
                                         kernel_size=3,
                                         padding="valid",
                                         activation="relu")
-        self.cnn_layer3 = layers.Conv1D(filters=cnn_filters,
-                                        kernel_size=4,
-                                        padding="valid",
-                                        activation="relu")
         self.pool = layers.GlobalMaxPool1D()
 
         self.dense_1 = layers.Dense(units=dnn_units, activation="relu")
@@ -96,10 +92,7 @@ class CustomSentiCorefModel(tf.keras.Model):
         l_1 = self.pool(l_1)
         l_2 = self.cnn_layer2(l)
         l_2 = self.pool(l_2)
-        # l_3 = self.cnn_layer3(l)
-        # l_3 = self.pool(l_3)
 
-        # concatenated = tf.concat([l_1, l_2, l_3], axis=-1)
         concatenated = tf.concat([l_1, l_2], axis=-1)
         concatenated = self.dense_1(concatenated)
         concatenated = self.dropout(concatenated, training)
@@ -259,8 +252,9 @@ if __name__ == "__main__":
     display_confmat(confmat)
     print(classification_report(Y_test, Y_predicted, digits=3))
 
+    plt.figure(figsize=(4, 4))
     cmatdisp = ConfusionMatrixDisplay(confmat, display_labels=['1, 2', '3', '4, 5'])
-    cmatdisp.plot(cmap=plt.cm.Blues)
+    cmatdisp.plot(cmap=plt.cm.Blues, ax=plt.gca())
     plt.savefig('report/figures/confmat_CustomSentiCorefModel.pdf', bbox_inches='tight')
 
     print(textwrap.dedent(f"""
