@@ -23,14 +23,13 @@ from nlp_code.models import display_confmat
 
 BERT_MODEL = "models/slo-hr-en-bert-pytorch"
 
-
-EMBEDDING_DIM = 512
+EMBEDDING_DIM = 128
 CNN_FILTERS = 100
 DNN_UNITS = 256
 OUTPUT_CLASSES = 3
 DROPOUT_RATE = 0.2
-NB_EPOCHS = 10
-BATCH_SIZE = 64
+NB_EPOCHS = 6
+BATCH_SIZE = 32
 
 
 #########################################
@@ -56,8 +55,8 @@ class BertEmbeddingsSentiCoref(TFBertPreTrainedModel):
 
     def __init__(self, config,
                  embedding_dimensions=EMBEDDING_DIM,
-                 cnn_filters=50,
-                 dnn_units=512,
+                 cnn_filters=100,
+                 dnn_units=256,
                  model_output_classes=3,
                  dropout_rate=0.1,
                  training=False,
@@ -236,7 +235,7 @@ if __name__ == "__main__":
                             dropout_rate=DROPOUT_RATE,
                             from_pt = True)
 
-
+    
     if OUTPUT_CLASSES == 2:
         bert_embeddings_model.compile(loss="binary_crossentropy",
                         optimizer="adam",
@@ -266,8 +265,7 @@ if __name__ == "__main__":
 
     display_confmat(confmat)
     print(classification_report(Y_test, Y_predicted, digits=3))
-    
-    plt.figure(figsize=(4, 4))
+
     cmatdisp = ConfusionMatrixDisplay(confmat, display_labels=['1, 2', '3', '4, 5'])
     cmatdisp.plot(cmap=plt.cm.Blues, ax=plt.gca())
     plt.savefig('report/figures/confmat_BertEmbeddingsSentiCoref.pdf', bbox_inches='tight')
@@ -282,4 +280,4 @@ if __name__ == "__main__":
         BATCH_SIZE = {BATCH_SIZE}
     """))
 
-    bert_embeddings_model.save("BertEmbeddingsSentiCoref",  save_format="tf")
+    
