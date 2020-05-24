@@ -59,3 +59,9 @@ docker-compose run models_neural
 ```
 
 from the root folder of the repository. This will perform the required preprocessing, training and evaluation of this model. Make sure you downloaded the required BERT model, described [here](/models/README.md)
+
+To run the BertEmbeddingsSentiCoref, you can run 
+```
+python -m nlp_code.bert_embeddings
+```
+or load the trained model from https://drive.google.com/drive/folders/1gRNom_fVoDkyJvtSL5J6N3wft-x71QOR?usp=sharing
