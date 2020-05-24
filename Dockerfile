@@ -1,6 +1,6 @@
 FROM python:3.7-buster
 
-RUN pip install gdown
+RUN pip install --no-cache-dir gdown
 RUN apt-get update && apt-get install tree zip
 
 
@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Dependencies
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Prepare directories
 RUN mkdir -p data/cache data/features data/JOB_1.0 data/SentiCoref_1.0 data/SentiNews_1.0
@@ -28,7 +28,7 @@ RUN gdown 'https://drive.google.com/uc?id=102DbPO8lrQn2gBsEYX93tFQxteWYy-0d' && 
 RUN curl https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1286/ssj500k%2bSloleks_lemmatizer.pt --output ssj500k_lemmatizer.pt
 # BertEmbeddingsSentiCoref
 RUN gdown 'https://drive.google.com/uc?id=1lUXpav0wHxH7m7J_Xae-87kgINxypx0C' && \
-    unzip BertEmbeddingsSentiCoref.zip && \
+    unzip pretrained_bert_embeddings_balanced.zip && \
     mv model-balanced pretrained_bert_embeddings_balanced
 
 
