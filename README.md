@@ -72,7 +72,7 @@ docker-compose run bert_embeddings
 For running the pretrained model with balanced training set run the Docker command (see instructions from CustomSentiCorefModel) or download the trained model from [here](https://drive.google.com/file/d/1lUXpav0wHxH7m7J_Xae-87kgINxypx0C/view?usp=sharing), unzip it into _models/_ and run
 
 ```
-python -m nlp_code.pretrained_bert_embeddings
+python -m nlp_code.pretrained_bert_embeddings_balanced
 
 # Docker
 docker-compose run pretrained_bert_embeddings_balanced
