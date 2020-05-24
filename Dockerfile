@@ -22,10 +22,14 @@ RUN mkdir -p report/figures
 # 
 WORKDIR /app/models
 # BERT
-RUN gdown 'https://drive.google.com/uc?id=102DbPO8lrQn2gBsEYX93tFQxteWYy-0d'
-RUN unzip slo-hr-en-bert-pytorch.zip
+RUN gdown 'https://drive.google.com/uc?id=102DbPO8lrQn2gBsEYX93tFQxteWYy-0d' && \
+    unzip slo-hr-en-bert-pytorch.zip
 # lemmatizer
 RUN curl https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1286/ssj500k%2bSloleks_lemmatizer.pt --output ssj500k_lemmatizer.pt
+# BertEmbeddingsSentiCoref
+RUN gdown 'https://drive.google.com/uc?id=1lUXpav0wHxH7m7J_Xae-87kgINxypx0C' && \
+    unzip BertEmbeddingsSentiCoref.zip && \
+    mv model-balanced pretrained_bert_embeddings_balanced
 
 
 # 
