@@ -9,9 +9,9 @@ To install requried dependencies, you can run `pip install -r requirements.txt`.
 
 ### Running with Docker
 
-This project is also available as a docker container. **It is recommended to use _Docker_ and _docker-compose_ for running this project**. Commands to run phases within Docker containers are given in chapter _Usage_ along with the regular commands for running the project locally.
+This project is also available as a docker container. **It is recommended to use _Docker_ and _docker-compose_ for running this project**. Commands to run phases within Docker containers are given in chapter _Usage_ along with the regular commands for running the project locally. We use the same docker-compose volumes for all steps. Therefore, as long as you do not delete these volumes (by e.g. runnnig docker-compose down), the intermediate data should be persistent.
 
-The docker container contains all data, models and code required for runnign this project successfully. Its size is around 3.8GB.w
+The docker container contains all data, models and code required for running this project successfully. Its size is around 3.8GB.
 
 ## Usage
 
@@ -42,7 +42,7 @@ _After preprocessing is completed_, model evaluation can be started by running
 python -m nlp_code.models
 
 # Docker
-docker-compose run preprocessing
+docker-compose run models
 ```
 
 from the root folder of the repository. Models can use any of the features stored in _data/features_.
