@@ -1,2 +1,3 @@
 ssj500k_lemmatizer.pt
 slo-hr-en-bert-pytorch/
+pretrained_bert_embeddings_balanced/
