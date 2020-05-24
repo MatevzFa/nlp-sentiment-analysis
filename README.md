@@ -64,4 +64,4 @@ To run the BertEmbeddingsSentiCoref, you can run
 ```
 python -m nlp_code.bert_embeddings
 ```
-or load the trained model from [here] (https://drive.google.com/drive/folders/1gRNom_fVoDkyJvtSL5J6N3wft-x71QOR?usp=sharing).
+or load the trained model from [here](https://drive.google.com/drive/folders/1gRNom_fVoDkyJvtSL5J6N3wft-x71QOR?usp=sharing).
