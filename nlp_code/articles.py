@@ -81,8 +81,7 @@ class ArticleLoader:
         self.senticoref_path = senticoref_path
 
     def list_articles(self):
-        return [a for a in natural_sort(os.listdir(self.senticoref_path))
-                if a.endswith(".tsv")]
+        return natural_sort([a for a in os.listdir(self.senticoref_path) if a.endswith(".tsv")])
 
     def load_article(self, file_name):
         """
