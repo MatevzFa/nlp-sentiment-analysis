@@ -58,10 +58,22 @@ python -m nlp_code.models_neural
 docker-compose run models_neural
 ```
 
-from the root folder of the repository. This will perform the required preprocessing, training and evaluation of this model. Make sure you downloaded the required BERT model, described [here](/models/README.md)
+from the root folder of the repository. This will perform the required preprocessing, training and evaluation of this model. Make sure you downloaded the required BERT model, described [here](/models/README.md).
 
-To run the BertEmbeddingsSentiCoref, you can run 
+To run the BertEmbeddingsSentiCoref (takes quite some time), you can run
+
 ```
 python -m nlp_code.bert_embeddings
+
+# Docker
+docker-compose run bert_embeddings
 ```
-or load the trained model from [here](https://drive.google.com/file/d/101wdGWnXuoex6ohQeFZ_ksK5l4M8tvkX/view?usp=sharing).
+
+For running the pretrained model with balanced training set run the Docker command (see instructions from CustomSentiCorefModel) or download the trained model from [here](https://drive.google.com/file/d/1lUXpav0wHxH7m7J_Xae-87kgINxypx0C/view?usp=sharing), unzip it into _models/_ and run
+
+```
+python -m nlp_code.pretrained_bert_embeddings
+
+# Docker
+docker-compose run pretrained_bert_embeddings_balanced
+```

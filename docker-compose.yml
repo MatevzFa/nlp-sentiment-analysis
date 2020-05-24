@@ -40,6 +40,15 @@ services:
       - data-cache:/app/data/cache
       - data-features:/app/data/features
 
+  bert_embeddings:
+    image: matevzfa/nlp-sentiment-analysis:submission
+    working_dir: /app
+    command: python -m nlp_code.bert_embeddings
+    volumes:
+      - data-stanza:/root/stanza_resources
+      - data-cache:/app/data/cache
+      - data-features:/app/data/features
+
   pretrained_bert_embeddings_balanced:
     image: matevzfa/nlp-sentiment-analysis:submission
     working_dir: /app
