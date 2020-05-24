@@ -1,24 +1,24 @@
 import random
+import textwrap
+from collections import Counter, defaultdict
 from pprint import pprint
+import textwrap
 
-from transformers import BertTokenizer, TFBertModel
+from transformers import BertTokenizer, TFBertModel, TFBertPreTrainedModel, TFBertMainLayer
 import tensorflow as tf
-import os
+from tensorflow.keras import layers
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+
 from tqdm import tqdm
 from sklearn.metrics import ConfusionMatrixDisplay, accuracy_score, classification_report, confusion_matrix, f1_score, plot_confusion_matrix, precision_recall_fscore_support
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
-from transformers import BertTokenizer, TFBertModel, TFBertPreTrainedModel, TFBertMainLayer
-from tensorflow.keras import layers
 
-from collections import defaultdict
 from nlp_code.articles import ArticleLoader
-
-from models import display_confmat
-import textwrap
+from nlp_code.models import display_confmat
 
 
 BERT_MODEL = "models/slo-hr-en-bert-pytorch"
@@ -55,7 +55,6 @@ class BertEmbeddingsSentiCoref(TFBertPreTrainedModel):
     """
 
     def __init__(self, config,
-                 vocabulary_size,
                  embedding_dimensions=EMBEDDING_DIM,
                  cnn_filters=50,
                  dnn_units=512,
@@ -89,6 +88,7 @@ class BertEmbeddingsSentiCoref(TFBertPreTrainedModel):
         else:
             self.last_dense = layers.Dense(units=model_output_classes,
                                            activation="softmax")
+    
     def call(self, inputs, training = False, **kwargs):        
         bert_outputs = self.bert(inputs, training = training, **kwargs)
         
@@ -107,16 +107,7 @@ class BertEmbeddingsSentiCoref(TFBertPreTrainedModel):
         return model_output
 
 #################################################
-
-if __name__ == "__main__":
-
-    bert_tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=True)
-    model = TFBertModel.from_pretrained(BERT_MODEL, from_pt=True)
-
-    article_loader = ArticleLoader("data/SentiCoref_1.0")
-
-    # dict {(art_name, entity): [Words]}
-    #   where [Words] are sentences with this entity.
+def neural_load_articles(article_loader):
     data = dict()
     data_sentiments = dict()
 
@@ -144,6 +135,10 @@ if __name__ == "__main__":
             data[(art_name, entity_id)] = word_sequence
             data_sentiments[(art_name, entity_id)] = art.chain_sentiments[entity_id]
 
+    return data, data_sentiments
+
+
+def neural_join_labels(data_sentiments):
     mapper = {
         1: 0,
         2: 0,
@@ -152,27 +147,65 @@ if __name__ == "__main__":
         5: 2,
     }
 
-    # Data balancing
-    data_sentiments = {k: mapper[v] for k, v in data_sentiments.items()}
+    return {k: mapper[v] for k, v in data_sentiments.items()}
 
-    ks_2 = [k for k, v in data_sentiments.items() if v == 0]
-    ks_3 = [k for k, v in data_sentiments.items() if v == 1]
-    ks_4 = [k for k, v in data_sentiments.items() if v == 2]
 
-    sample_size = min(len(ks_2), len(ks_3), len(ks_4))
+def neural_train_val_test_split(data_sentiments: dict):
+    random.seed(123)
 
-    datapoints = []
-    random.seed(123123)
-    datapoints.extend(random.sample(ks_2, sample_size))
-    datapoints.extend(random.sample(ks_3, sample_size))
-    datapoints.extend(random.sample(ks_4, sample_size))
+    datapoints = list(data_sentiments)
+    labels = set(data_sentiments.values())
 
-    # Split data for train/val/test
-
+    # Split indexes for train/val/test
     train, val_test = train_test_split(datapoints, train_size=.8, random_state=99999999)
     val, test = train_test_split(val_test, train_size=.5, random_state=88888888)
 
-    print(f"train={len(train)} val={len(val)} test={len(test)}")
+    counts = Counter([data_sentiments[k] for k in train])
+    _, n = counts.most_common()[-1]
+
+    new_train = []
+    for l in labels:
+        candidates = [k for k in train if data_sentiments[k] == l]
+        selected = random.sample(candidates, n)
+        new_train.extend(selected)
+
+    return new_train, val, test
+
+
+def neural_describe_data(data_sentiments, train, val, test):
+
+    counts_train = Counter([data_sentiments[k] for k in train])
+    counts_val = Counter([data_sentiments[k] for k in val])
+    counts_test = Counter([data_sentiments[k] for k in test])
+
+    print("TRAIN:")
+    for k, v in sorted(counts_train.items()):
+        print(f"  label={k:2d} x {v}")
+
+    print("VALIDATION:")
+    for k, v in sorted(counts_val.items()):
+        print(f"  label={k:2d} x {v}")
+
+    print("TEST:")
+    for k, v in sorted(counts_test.items()):
+        print(f"  label={k:2d} x {v}")
+
+#################################################
+
+if __name__ == "__main__":
+
+    bert_tokenizer = BertTokenizer.from_pretrained(BERT_MODEL, do_lower_case=True)
+    model = TFBertModel.from_pretrained(BERT_MODEL, from_pt=True)
+
+    article_loader = ArticleLoader("data/SentiCoref_1.0")
+
+    # dict {(art_name, entity): [Words]}
+    #   where [Words] are sentences with this entity.
+    data, data_sentiments = neural_load_articles(article_loader)
+    data_sentiments = neural_join_labels(data_sentiments)
+
+    train, val, test = neural_train_val_test_split(data_sentiments)
+    neural_describe_data(data_sentiments, train, val, test)
 
     X_train = convert([data[k] for k in train])
     y_train = np.array([data_sentiments[k] for k in train])
@@ -196,7 +229,6 @@ if __name__ == "__main__":
 
 
     bert_embeddings_model = BertEmbeddingsSentiCoref.from_pretrained(BERT_MODEL,
-                            vocabulary_size=len(bert_tokenizer.vocab), 
                             embedding_dimensions=EMBEDDING_DIM,
                             cnn_filters=CNN_FILTERS,
                             dnn_units=DNN_UNITS,
@@ -214,10 +246,8 @@ if __name__ == "__main__":
                         optimizer="adam",
                         metrics=["sparse_categorical_accuracy"])
 
-    bert_embeddings_model.fit(train_ds, epochs=NB_EPOCHS)
-
-    print(test_ds)
-    tf.print(test_ds)
+    bert_embeddings_model.fit(train_ds, epochs=NB_EPOCHS, validation_data=val_ds)
+   
     #########################################
 
     Y_predicted = np.argmax(bert_embeddings_model.predict(test_ds), axis=1)
@@ -236,9 +266,10 @@ if __name__ == "__main__":
 
     display_confmat(confmat)
     print(classification_report(Y_test, Y_predicted, digits=3))
-
+    
+    plt.figure(figsize=(4, 4))
     cmatdisp = ConfusionMatrixDisplay(confmat, display_labels=['1, 2', '3', '4, 5'])
-    cmatdisp.plot(cmap = plt.cm.Blues)
+    cmatdisp.plot(cmap=plt.cm.Blues, ax=plt.gca())
     plt.savefig('report/figures/confmat_BertEmbeddingsSentiCoref.pdf', bbox_inches='tight')
 
     print(textwrap.dedent(f"""
@@ -250,3 +281,5 @@ if __name__ == "__main__":
         NB_EPOCHS = {NB_EPOCHS}
         BATCH_SIZE = {BATCH_SIZE}
     """))
+
+    bert_embeddings_model.save("BertEmbeddingsSentiCoref",  save_format="tf")
